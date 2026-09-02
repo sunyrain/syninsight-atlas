@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="SynInsight Atlas: an evidence-grounded candidate dataset for strategic reasoning in recent total synthesis.">
+  <title>SynInsight Atlas</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="hero">
+    <nav class="nav shell">
+      <a class="brand" href="./" aria-label="SynInsight Atlas home"><span>SI</span> SynInsight Atlas</a>
+      <div class="nav-links">
+        <a href="#explore">Explore</a>
+        <a href="#methods">Design</a>
+        <a href="data/targets.csv">Download</a>
+        <a href="https://github.com/sunyrain/syninsight-atlas">GitHub</a>
+      </div>
+    </nav>
+    <div class="shell hero-grid">
+      <div>
+        <p class="eyebrow">Candidate curation release · v0.1</p>
+        <h1>Evidence-grounded data for<br><em>synthetic insight</em></h1>
+        <p class="lede">A browsable collection of recent total-synthesis targets, source-bound structure candidates, route-evidence leads, and explicit human-admission state.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#explore">Explore targets</a>
+          <a class="button" href="data/release.json">Release metadata</a>
+        </div>
+      </div>
+      <aside class="status-panel">
+        <p class="status-label">Release boundary</p>
+        <strong id="release-stage">Loading…</strong>
+        <p>This release supports transparent expert curation. Candidate structures and route leads are not literature truth until independent review.</p>
+        <div class="admission-line"><span id="admitted-count">—</span> human-admitted runnable targets</div>
+      </aside>
+    </div>
+  </header>
+
+  <main>
+    <section class="shell metrics" aria-label="Dataset summary">
+      <article><strong id="metric-papers">—</strong><span>candidate papers</span></article>
+      <article><strong id="metric-targets">—</strong><span>target slots</span></article>
+      <article><strong id="metric-structures">—</strong><span>RDKit-valid candidates</span></article>
+      <article><strong id="metric-routes">—</strong><span>route-evidence leads</span></article>
+      <article><strong id="metric-sources">—</strong><span>source packages</span></article>
+    </section>
+
+    <section id="explore" class="shell explorer">
+      <div class="section-heading">
+        <div><p class="eyebrow">Dataset browser</p><h2>Targets and evidence state</h2></div>
+        <div class="download-links"><a href="data/targets.csv">Targets CSV</a><a href="data/papers.csv">Papers CSV</a><a href="CHECKSUMS.sha256">Checksums</a></div>
+      </div>
+      <div class="notice"><strong>Interpretation:</strong> “candidate” means machine-assisted transcription or extraction awaiting source-concordant human admission. It is not a negative or positive planning result.</div>
+      <form class="filters" id="filters" role="search">
+        <label class="search"><span>Search</span><input id="query" type="search" placeholder="Target, paper, DOI, journal…"></label>
+        <label><span>Cohort</span><select id="cohort"><option value="all">All</option><option value="P0">P0 curated seed</option><option value="P1">P1 candidate</option></select></label>
+        <label><span>Structure</span><select id="structure"><option value="all">All</option><option value="exact_source_structure_candidate">Candidate: exact source</option><option value="partial_stereo_candidate">Candidate: stereo unresolved</option><option value="unresolved">Unresolved</option></select></label>
+        <label><span>Route lead</span><select id="route"><option value="all">All</option><option value="yes">Available</option><option value="no">Not located</option></select></label>
+        <label><span>Source</span><select id="source"><option value="all">All</option><option value="article_and_supporting_information">Article + SI</option><option value="article_only">Article only</option><option value="supporting_information_only">SI only</option><option value="none">Missing</option></select></label>
+      </form>
+      <div class="result-line"><strong id="result-count">0</strong> targets <button id="reset" type="button">Reset filters</button></div>
+      <div id="cards" class="cards" aria-live="polite"></div>
+      <div id="empty" class="empty" hidden>No targets match these filters.</div>
+      <nav class="pagination" aria-label="Result pages"><button id="previous" type="button">Previous</button><span id="page-label"></span><button id="next" type="button">Next</button></nav>
+    </section>
+
+    <section id="methods" class="methods">
+      <div class="shell methods-grid">
+        <div><p class="eyebrow">Why this dataset</p><h2>Route value is more than step count</h2></div>
+        <div class="method-list">
+          <article><span>01</span><div><h3>Evidence before admission</h3><p>Paper identity, target stereochemistry, and route-defining transformations remain separate claims with source locators.</p></div></article>
+          <article><span>02</span><div><h3>Insight before imitation</h3><p>Literature similarity and intrinsic route value are evaluated separately, so credible novel strategies remain visible.</p></div></article>
+          <article><span>03</span><div><h3>Failures stay in the denominator</h3><p>Unresolved structures, missing sources, and negative reviews are first-class dataset states rather than hidden exclusions.</p></div></article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <dialog id="detail-dialog">
+    <button class="dialog-close" id="dialog-close" aria-label="Close">×</button>
+    <div id="dialog-content"></div>
+  </dialog>
+
+  <footer class="shell footer"><p>SynInsight Atlas · candidate curation release</p><p>Data: CC BY 4.0 · Code: MIT</p></footer>
+  <script src="assets/app.js" defer></script>
+</body>
+</html>

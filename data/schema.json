@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sunyrain.github.io/syninsight-atlas/data/schema.json",
+  "title": "SynInsight Atlas target record",
+  "type": "object",
+  "required": [
+    "target_id",
+    "paper_id",
+    "cohort",
+    "target_name",
+    "doi",
+    "candidate_structure",
+    "route_evidence_lead",
+    "source_package",
+    "human_review",
+    "formal_benchmark_eligible"
+  ],
+  "properties": {
+    "target_id": {"type": "string"},
+    "paper_id": {"type": "string"},
+    "cohort": {"enum": ["P0", "P1"]},
+    "target_name": {"type": "string"},
+    "doi": {"type": "string"},
+    "candidate_structure": {
+      "type": "object",
+      "required": ["status", "rdkit_valid", "isomeric_smiles", "admission_authority"],
+      "properties": {
+        "status": {"type": "string"},
+        "rdkit_valid": {"type": "boolean"},
+        "isomeric_smiles": {"type": "string"},
+        "svg": {"type": "string"},
+        "source_locator": {"type": "string"},
+        "source_artifact_sha256": {"type": "string"},
+        "transcription_note": {"type": "string"},
+        "admission_authority": {"const": false}
+      }
+    },
+    "route_evidence_lead": {
+      "type": "object",
+      "required": ["status", "passage_count", "source_locators", "admission_authority"],
+      "properties": {
+        "status": {"type": "string"},
+        "passage_count": {"type": "integer", "minimum": 0},
+        "source_locators": {"type": "array", "items": {"type": "string"}},
+        "admission_authority": {"const": false}
+      }
+    },
+    "source_package": {
+      "type": "object",
+      "required": ["acquired", "completeness", "artifact_kinds", "status"]
+    },
+    "human_review": {
+      "type": "object",
+      "required": ["paper_status", "structure_status", "route_status", "runnable"]
+    },
+    "formal_benchmark_eligible": {"type": "boolean"}
+  }
+}

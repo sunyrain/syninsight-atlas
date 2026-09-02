@@ -1,0 +1,21 @@
+{
+  "profile": "data-package",
+  "name": "syninsight-atlas",
+  "title": "SynInsight Atlas",
+  "description": "Evidence-grounded candidate data for strategic reasoning in recent total synthesis.",
+  "version": "0.1.0-candidate.1",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "Creative Commons Attribution 4.0"
+    }
+  ],
+  "resources": [
+    {"name": "papers-json", "path": "data/papers.json", "format": "json"},
+    {"name": "papers-csv", "path": "data/papers.csv", "format": "csv"},
+    {"name": "targets-json", "path": "data/targets.json", "format": "json", "schema": "data/schema.json"},
+    {"name": "targets-csv", "path": "data/targets.csv", "format": "csv"},
+    {"name": "release", "path": "data/release.json", "format": "json"}
+  ]
+}
