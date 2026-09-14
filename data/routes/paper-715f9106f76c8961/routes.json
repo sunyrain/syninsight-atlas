@@ -1,0 +1,536 @@
+[
+  {
+    "admission_authority": false,
+    "formal_benchmark_eligible": false,
+    "from_commercial_starting_materials_complete": false,
+    "full_article_route_coverage": false,
+    "molecule_smiles_sequence": [
+      "Cc1ccc2cccc(O)c2n1",
+      "Cc1ccc2c(n1)C(=O)C(Cl)=C(Cl)C2=O",
+      "NCCCl",
+      "Cc1ccc2c(n1)C(=O)C(NCCCl)=C(Cl)C2=O",
+      "Cc1ccc2c(n1)C(=O)C(Cl)=C(NCCCl)C2=O",
+      "Cc1ccc2c(n1)C(=O)C1=C(SCCN1)C2=O",
+      "O=C(O)c1ccc2c(n1)C(=O)C1=C(SCCN1)C2=O",
+      "O=C(O)c1ccc2c(n1)C(=O)C1=C(C2=O)S(=O)(=O)CCN1"
+    ],
+    "ordered_event_ids": [
+      "E01",
+      "E02",
+      "E03",
+      "A05",
+      "A07"
+    ],
+    "ordered_molecule_labels": [
+      "6",
+      "5",
+      "2-chloroethylamine",
+      "3",
+      "4",
+      "7",
+      "11",
+      "1"
+    ],
+    "ordered_step_ids": [
+      "E01.1",
+      "E02.1",
+      "E03.1",
+      "A05.1",
+      "A07.1"
+    ],
+    "route_id": "A-network",
+    "route_type": "source_bound_successful_synthesis",
+    "split_group": "10.1021/acs.joc.6c00749",
+    "start_label": "6",
+    "start_labels": [
+      "6",
+      "2-chloroethylamine"
+    ],
+    "step_reaction_smiles_sequence": [
+      "Cc1ccc2cccc(O)c2n1>>Cc1ccc2c(n1)C(=O)C(Cl)=C(Cl)C2=O",
+      "Cc1ccc2c(n1)C(=O)C(Cl)=C(Cl)C2=O.NCCCl>>Cc1ccc2c(n1)C(=O)C(Cl)=C(NCCCl)C2=O.Cc1ccc2c(n1)C(=O)C(NCCCl)=C(Cl)C2=O",
+      "Cc1ccc2c(n1)C(=O)C(NCCCl)=C(Cl)C2=O>>Cc1ccc2c(n1)C(=O)C1=C(SCCN1)C2=O",
+      "Cc1ccc2c(n1)C(=O)C1=C(SCCN1)C2=O>>O=C(O)c1ccc2c(n1)C(=O)C1=C(SCCN1)C2=O",
+      "O=C(O)c1ccc2c(n1)C(=O)C1=C(SCCN1)C2=O>>O=C(O)c1ccc2c(n1)C(=O)C1=C(C2=O)S(=O)(=O)CCN1"
+    ],
+    "target_label": "1"
+  },
+  {
+    "admission_authority": false,
+    "formal_benchmark_eligible": false,
+    "from_commercial_starting_materials_complete": false,
+    "full_article_route_coverage": false,
+    "molecule_smiles_sequence": [
+      "Cc1ccc2cccc(O)c2n1",
+      "Cc1ccc2c(n1)C(=O)C(Cl)=C(Cl)C2=O",
+      "NCCCl",
+      "Cc1ccc2c(n1)C(=O)C(NCCCl)=C(Cl)C2=O",
+      "Cc1ccc2c(n1)C(=O)C(Cl)=C(NCCCl)C2=O",
+      "Cc1ccc2c(n1)C(=O)C1=C(SCCN1)C2=O",
+      "Cc1ccc2c(n1)C(=O)C1=C(C2=O)S(=O)(=O)CCN1",
+      "O=C(O)c1ccc2c(n1)C(=O)C1=C(C2=O)S(=O)(=O)CCN1"
+    ],
+    "ordered_event_ids": [
+      "E01",
+      "E02",
+      "E03",
+      "A03",
+      "A04"
+    ],
+    "ordered_molecule_labels": [
+      "6",
+      "5",
+      "2-chloroethylamine",
+      "3",
+      "4",
+      "7",
+      "10",
+      "1"
+    ],
+    "ordered_step_ids": [
+      "E01.1",
+      "E02.1",
+      "E03.1",
+      "A03.1",
+      "A04.1"
+    ],
+    "route_id": "A-alternative",
+    "route_type": "source_bound_successful_synthesis",
+    "split_group": "10.1021/acs.joc.6c00749",
+    "start_label": "6",
+    "start_labels": [
+      "6",
+      "2-chloroethylamine"
+    ],
+    "step_reaction_smiles_sequence": [
+      "Cc1ccc2cccc(O)c2n1>>Cc1ccc2c(n1)C(=O)C(Cl)=C(Cl)C2=O",
+      "Cc1ccc2c(n1)C(=O)C(Cl)=C(Cl)C2=O.NCCCl>>Cc1ccc2c(n1)C(=O)C(Cl)=C(NCCCl)C2=O.Cc1ccc2c(n1)C(=O)C(NCCCl)=C(Cl)C2=O",
+      "Cc1ccc2c(n1)C(=O)C(NCCCl)=C(Cl)C2=O>>Cc1ccc2c(n1)C(=O)C1=C(SCCN1)C2=O",
+      "Cc1ccc2c(n1)C(=O)C1=C(SCCN1)C2=O>>Cc1ccc2c(n1)C(=O)C1=C(C2=O)S(=O)(=O)CCN1",
+      "Cc1ccc2c(n1)C(=O)C1=C(C2=O)S(=O)(=O)CCN1>>O=C(O)c1ccc2c(n1)C(=O)C1=C(C2=O)S(=O)(=O)CCN1"
+    ],
+    "target_label": "1"
+  },
+  {
+    "admission_authority": false,
+    "formal_benchmark_eligible": false,
+    "from_commercial_starting_materials_complete": false,
+    "full_article_route_coverage": false,
+    "molecule_smiles_sequence": [
+      "Cc1ccc2cccc(O)c2n1",
+      "Cc1ccc2c(n1)C(=O)C(Cl)=C(Cl)C2=O",
+      "NCCCl",
+      "Cc1ccc2c(n1)C(=O)C(NCCCl)=C(Cl)C2=O",
+      "Cc1ccc2c(n1)C(=O)C(Cl)=C(NCCCl)C2=O",
+      "Cc1ccc2c(n1)C(=O)C1=C(SCCN1)C2=O",
+      "Cc1ccc2c(n1)C(=O)C1=C(C2=O)S(=O)CCN1",
+      "Cc1ccc2c(n1)C(=O)C1=C(C2=O)S(=O)(=O)CCN1",
+      "O=C(O)c1ccc2c(n1)C(=O)C1=C(C2=O)S(=O)(=O)CCN1"
+    ],
+    "ordered_event_ids": [
+      "E01",
+      "E02",
+      "E03",
+      "A01",
+      "A02",
+      "A04"
+    ],
+    "ordered_molecule_labels": [
+      "6",
+      "5",
+      "2-chloroethylamine",
+      "3",
+      "4",
+      "7",
+      "9",
+      "10",
+      "1"
+    ],
+    "ordered_step_ids": [
+      "E01.1",
+      "E02.1",
+      "E03.1",
+      "A01.1",
+      "A02.1",
+      "A04.1"
+    ],
+    "route_id": "A-via-sulfoxide",
+    "route_type": "source_bound_successful_synthesis",
+    "split_group": "10.1021/acs.joc.6c00749",
+    "start_label": "6",
+    "start_labels": [
+      "6",
+      "2-chloroethylamine"
+    ],
+    "step_reaction_smiles_sequence": [
+      "Cc1ccc2cccc(O)c2n1>>Cc1ccc2c(n1)C(=O)C(Cl)=C(Cl)C2=O",
+      "Cc1ccc2c(n1)C(=O)C(Cl)=C(Cl)C2=O.NCCCl>>Cc1ccc2c(n1)C(=O)C(Cl)=C(NCCCl)C2=O.Cc1ccc2c(n1)C(=O)C(NCCCl)=C(Cl)C2=O",
+      "Cc1ccc2c(n1)C(=O)C(NCCCl)=C(Cl)C2=O>>Cc1ccc2c(n1)C(=O)C1=C(SCCN1)C2=O",
+      "Cc1ccc2c(n1)C(=O)C1=C(SCCN1)C2=O>>Cc1ccc2c(n1)C(=O)C1=C(C2=O)S(=O)CCN1",
+      "Cc1ccc2c(n1)C(=O)C1=C(C2=O)S(=O)CCN1>>Cc1ccc2c(n1)C(=O)C1=C(C2=O)S(=O)(=O)CCN1",
+      "Cc1ccc2c(n1)C(=O)C1=C(C2=O)S(=O)(=O)CCN1>>O=C(O)c1ccc2c(n1)C(=O)C1=C(C2=O)S(=O)(=O)CCN1"
+    ],
+    "target_label": "1"
+  },
+  {
+    "admission_authority": false,
+    "formal_benchmark_eligible": false,
+    "from_commercial_starting_materials_complete": false,
+    "full_article_route_coverage": false,
+    "molecule_smiles_sequence": [
+      "Cc1ccc2cccc(O)c2n1",
+      "Cc1ccc2c(n1)C(=O)C(Cl)=C(Cl)C2=O",
+      "NCCCl",
+      "Cc1ccc2c(n1)C(=O)C(NCCCl)=C(Cl)C2=O",
+      "Cc1ccc2c(n1)C(=O)C(Cl)=C(NCCCl)C2=O",
+      "Cc1ccc2c(n1)C(=O)C1=C(SCCN1)C2=O",
+      "O=C(O)c1ccc2c(n1)C(=O)C1=C(SCCN1)C2=O",
+      "O=C(O)c1ccc2c(n1)C(=O)C1=C(C2=O)S(=O)(=O)CCN1",
+      "O=C(O)c1ccc2c(n1)C(=O)C1=C(C2=O)S(=O)(=O)C=CN1"
+    ],
+    "ordered_event_ids": [
+      "E01",
+      "E02",
+      "E03",
+      "A05",
+      "A07",
+      "A08"
+    ],
+    "ordered_molecule_labels": [
+      "6",
+      "5",
+      "2-chloroethylamine",
+      "3",
+      "4",
+      "7",
+      "11",
+      "1",
+      "13"
+    ],
+    "ordered_step_ids": [
+      "E01.1",
+      "E02.1",
+      "E03.1",
+      "A05.1",
+      "A07.1",
+      "A08.1"
+    ],
+    "route_id": "A-unsaturated-analogue",
+    "route_type": "source_bound_control_branch",
+    "split_group": "10.1021/acs.joc.6c00749",
+    "start_label": "6",
+    "start_labels": [
+      "6",
+      "2-chloroethylamine"
+    ],
+    "step_reaction_smiles_sequence": [
+      "Cc1ccc2cccc(O)c2n1>>Cc1ccc2c(n1)C(=O)C(Cl)=C(Cl)C2=O",
+      "Cc1ccc2c(n1)C(=O)C(Cl)=C(Cl)C2=O.NCCCl>>Cc1ccc2c(n1)C(=O)C(Cl)=C(NCCCl)C2=O.Cc1ccc2c(n1)C(=O)C(NCCCl)=C(Cl)C2=O",
+      "Cc1ccc2c(n1)C(=O)C(NCCCl)=C(Cl)C2=O>>Cc1ccc2c(n1)C(=O)C1=C(SCCN1)C2=O",
+      "Cc1ccc2c(n1)C(=O)C1=C(SCCN1)C2=O>>O=C(O)c1ccc2c(n1)C(=O)C1=C(SCCN1)C2=O",
+      "O=C(O)c1ccc2c(n1)C(=O)C1=C(SCCN1)C2=O>>O=C(O)c1ccc2c(n1)C(=O)C1=C(C2=O)S(=O)(=O)CCN1",
+      "O=C(O)c1ccc2c(n1)C(=O)C1=C(C2=O)S(=O)(=O)CCN1>>O=C(O)c1ccc2c(n1)C(=O)C1=C(C2=O)S(=O)(=O)C=CN1"
+    ],
+    "target_label": "13"
+  },
+  {
+    "admission_authority": false,
+    "formal_benchmark_eligible": false,
+    "from_commercial_starting_materials_complete": false,
+    "full_article_route_coverage": false,
+    "molecule_smiles_sequence": [
+      "Cc1ccc2cccc(O)c2n1",
+      "Cc1ccc2c(n1)C(=O)C(Cl)=C(Cl)C2=O",
+      "NCCCl",
+      "Cc1ccc2c(n1)C(=O)C(NCCCl)=C(Cl)C2=O",
+      "Cc1ccc2c(n1)C(=O)C(Cl)=C(NCCCl)C2=O",
+      "Cc1ccc2c(n1)C(=O)C1=C(SCCN1)C2=O",
+      "O=C(O)c1ccc2c(n1)C(=O)C1=C(SCCN1)C2=O",
+      "O=C(O)c1ccc2c(n1)C(=O)C1=C(C2=O)S(=O)CCN1"
+    ],
+    "ordered_event_ids": [
+      "E01",
+      "E02",
+      "E03",
+      "A05",
+      "A06"
+    ],
+    "ordered_molecule_labels": [
+      "6",
+      "5",
+      "2-chloroethylamine",
+      "3",
+      "4",
+      "7",
+      "11",
+      "12"
+    ],
+    "ordered_step_ids": [
+      "E01.1",
+      "E02.1",
+      "E03.1",
+      "A05.1",
+      "A06.1"
+    ],
+    "route_id": "A-sulfoxide-carboxylic-acid",
+    "route_type": "source_bound_control_branch",
+    "split_group": "10.1021/acs.joc.6c00749",
+    "start_label": "6",
+    "start_labels": [
+      "6",
+      "2-chloroethylamine"
+    ],
+    "step_reaction_smiles_sequence": [
+      "Cc1ccc2cccc(O)c2n1>>Cc1ccc2c(n1)C(=O)C(Cl)=C(Cl)C2=O",
+      "Cc1ccc2c(n1)C(=O)C(Cl)=C(Cl)C2=O.NCCCl>>Cc1ccc2c(n1)C(=O)C(Cl)=C(NCCCl)C2=O.Cc1ccc2c(n1)C(=O)C(NCCCl)=C(Cl)C2=O",
+      "Cc1ccc2c(n1)C(=O)C(NCCCl)=C(Cl)C2=O>>Cc1ccc2c(n1)C(=O)C1=C(SCCN1)C2=O",
+      "Cc1ccc2c(n1)C(=O)C1=C(SCCN1)C2=O>>O=C(O)c1ccc2c(n1)C(=O)C1=C(SCCN1)C2=O",
+      "O=C(O)c1ccc2c(n1)C(=O)C1=C(SCCN1)C2=O>>O=C(O)c1ccc2c(n1)C(=O)C1=C(C2=O)S(=O)CCN1"
+    ],
+    "target_label": "12"
+  },
+  {
+    "admission_authority": false,
+    "formal_benchmark_eligible": false,
+    "from_commercial_starting_materials_complete": false,
+    "full_article_route_coverage": false,
+    "molecule_smiles_sequence": [
+      "Cc1ccc2cccc(O)c2n1",
+      "Cc1ccc2c(n1)C(=O)C(Cl)=C(Cl)C2=O",
+      "NCCCl",
+      "Cc1ccc2c(n1)C(=O)C(NCCCl)=C(Cl)C2=O",
+      "Cc1ccc2c(n1)C(=O)C(Cl)=C(NCCCl)C2=O",
+      "Cc1ccc2c(n1)C(=O)C1=C(NCCS1)C2=O",
+      "Cc1ccc2c(n1)C(=O)C1=C(NCCS1(=O)=O)C2=O",
+      "Cc1ccc2c(n1)C(=O)C1=C(NC=CS1(=O)=O)C2=O",
+      "O=C(O)c1ccc2c(n1)C(=O)C1=C(NC=CS1(=O)=O)C2=O"
+    ],
+    "ordered_event_ids": [
+      "E01",
+      "E02",
+      "E04",
+      "B03",
+      "B04",
+      "B05"
+    ],
+    "ordered_molecule_labels": [
+      "6",
+      "5",
+      "2-chloroethylamine",
+      "3",
+      "4",
+      "8",
+      "15",
+      "16",
+      "2"
+    ],
+    "ordered_step_ids": [
+      "E01.1",
+      "E02.1",
+      "E04.1",
+      "B03.1",
+      "B04.1",
+      "B05.1"
+    ],
+    "route_id": "B-network",
+    "route_type": "source_bound_successful_synthesis",
+    "split_group": "10.1021/acs.joc.6c00749",
+    "start_label": "6",
+    "start_labels": [
+      "6",
+      "2-chloroethylamine"
+    ],
+    "step_reaction_smiles_sequence": [
+      "Cc1ccc2cccc(O)c2n1>>Cc1ccc2c(n1)C(=O)C(Cl)=C(Cl)C2=O",
+      "Cc1ccc2c(n1)C(=O)C(Cl)=C(Cl)C2=O.NCCCl>>Cc1ccc2c(n1)C(=O)C(Cl)=C(NCCCl)C2=O.Cc1ccc2c(n1)C(=O)C(NCCCl)=C(Cl)C2=O",
+      "Cc1ccc2c(n1)C(=O)C(Cl)=C(NCCCl)C2=O>>Cc1ccc2c(n1)C(=O)C1=C(NCCS1)C2=O",
+      "Cc1ccc2c(n1)C(=O)C1=C(NCCS1)C2=O>>Cc1ccc2c(n1)C(=O)C1=C(NCCS1(=O)=O)C2=O",
+      "Cc1ccc2c(n1)C(=O)C1=C(NCCS1(=O)=O)C2=O>>Cc1ccc2c(n1)C(=O)C1=C(NC=CS1(=O)=O)C2=O",
+      "Cc1ccc2c(n1)C(=O)C1=C(NC=CS1(=O)=O)C2=O>>O=C(O)c1ccc2c(n1)C(=O)C1=C(NC=CS1(=O)=O)C2=O"
+    ],
+    "target_label": "2"
+  },
+  {
+    "admission_authority": false,
+    "formal_benchmark_eligible": false,
+    "from_commercial_starting_materials_complete": false,
+    "full_article_route_coverage": false,
+    "molecule_smiles_sequence": [
+      "Cc1ccc2cccc(O)c2n1",
+      "Cc1ccc2c(n1)C(=O)C(Cl)=C(Cl)C2=O",
+      "NCCCl",
+      "Cc1ccc2c(n1)C(=O)C(NCCCl)=C(Cl)C2=O",
+      "Cc1ccc2c(n1)C(=O)C(Cl)=C(NCCCl)C2=O",
+      "Cc1ccc2c(n1)C(=O)C1=C(NCCS1)C2=O",
+      "O=C(O)c1ccc2c(n1)C(=O)C1=C(NCCS1)C2=O",
+      "O=C(O)c1ccc2c(n1)C(=O)C1=C(NCCS1(=O)=O)C2=O",
+      "O=C(O)c1ccc2c(n1)C(=O)C1=C(NC=CS1(=O)=O)C2=O"
+    ],
+    "ordered_event_ids": [
+      "E01",
+      "E02",
+      "E04",
+      "B06",
+      "B08",
+      "B09"
+    ],
+    "ordered_molecule_labels": [
+      "6",
+      "5",
+      "2-chloroethylamine",
+      "3",
+      "4",
+      "8",
+      "17",
+      "19",
+      "2"
+    ],
+    "ordered_step_ids": [
+      "E01.1",
+      "E02.1",
+      "E04.1",
+      "B06.1",
+      "B08.1",
+      "B09.1"
+    ],
+    "route_id": "B-alternative",
+    "route_type": "source_bound_successful_synthesis",
+    "split_group": "10.1021/acs.joc.6c00749",
+    "start_label": "6",
+    "start_labels": [
+      "6",
+      "2-chloroethylamine"
+    ],
+    "step_reaction_smiles_sequence": [
+      "Cc1ccc2cccc(O)c2n1>>Cc1ccc2c(n1)C(=O)C(Cl)=C(Cl)C2=O",
+      "Cc1ccc2c(n1)C(=O)C(Cl)=C(Cl)C2=O.NCCCl>>Cc1ccc2c(n1)C(=O)C(Cl)=C(NCCCl)C2=O.Cc1ccc2c(n1)C(=O)C(NCCCl)=C(Cl)C2=O",
+      "Cc1ccc2c(n1)C(=O)C(Cl)=C(NCCCl)C2=O>>Cc1ccc2c(n1)C(=O)C1=C(NCCS1)C2=O",
+      "Cc1ccc2c(n1)C(=O)C1=C(NCCS1)C2=O>>O=C(O)c1ccc2c(n1)C(=O)C1=C(NCCS1)C2=O",
+      "O=C(O)c1ccc2c(n1)C(=O)C1=C(NCCS1)C2=O>>O=C(O)c1ccc2c(n1)C(=O)C1=C(NCCS1(=O)=O)C2=O",
+      "O=C(O)c1ccc2c(n1)C(=O)C1=C(NCCS1(=O)=O)C2=O>>O=C(O)c1ccc2c(n1)C(=O)C1=C(NC=CS1(=O)=O)C2=O"
+    ],
+    "target_label": "2"
+  },
+  {
+    "admission_authority": false,
+    "formal_benchmark_eligible": false,
+    "from_commercial_starting_materials_complete": false,
+    "full_article_route_coverage": false,
+    "molecule_smiles_sequence": [
+      "Cc1ccc2cccc(O)c2n1",
+      "Cc1ccc2c(n1)C(=O)C(Cl)=C(Cl)C2=O",
+      "NCCCl",
+      "Cc1ccc2c(n1)C(=O)C(NCCCl)=C(Cl)C2=O",
+      "Cc1ccc2c(n1)C(=O)C(Cl)=C(NCCCl)C2=O",
+      "Cc1ccc2c(n1)C(=O)C1=C(NCCS1)C2=O",
+      "Cc1ccc2c(n1)C(=O)C1=C(NCCS1=O)C2=O",
+      "Cc1ccc2c(n1)C(=O)C1=C(NCCS1(=O)=O)C2=O",
+      "Cc1ccc2c(n1)C(=O)C1=C(NC=CS1(=O)=O)C2=O",
+      "O=C(O)c1ccc2c(n1)C(=O)C1=C(NC=CS1(=O)=O)C2=O"
+    ],
+    "ordered_event_ids": [
+      "E01",
+      "E02",
+      "E04",
+      "B01",
+      "B02",
+      "B04",
+      "B05"
+    ],
+    "ordered_molecule_labels": [
+      "6",
+      "5",
+      "2-chloroethylamine",
+      "3",
+      "4",
+      "8",
+      "14",
+      "15",
+      "16",
+      "2"
+    ],
+    "ordered_step_ids": [
+      "E01.1",
+      "E02.1",
+      "E04.1",
+      "B01.1",
+      "B02.1",
+      "B04.1",
+      "B05.1"
+    ],
+    "route_id": "B-via-sulfoxide",
+    "route_type": "source_bound_successful_synthesis",
+    "split_group": "10.1021/acs.joc.6c00749",
+    "start_label": "6",
+    "start_labels": [
+      "6",
+      "2-chloroethylamine"
+    ],
+    "step_reaction_smiles_sequence": [
+      "Cc1ccc2cccc(O)c2n1>>Cc1ccc2c(n1)C(=O)C(Cl)=C(Cl)C2=O",
+      "Cc1ccc2c(n1)C(=O)C(Cl)=C(Cl)C2=O.NCCCl>>Cc1ccc2c(n1)C(=O)C(Cl)=C(NCCCl)C2=O.Cc1ccc2c(n1)C(=O)C(NCCCl)=C(Cl)C2=O",
+      "Cc1ccc2c(n1)C(=O)C(Cl)=C(NCCCl)C2=O>>Cc1ccc2c(n1)C(=O)C1=C(NCCS1)C2=O",
+      "Cc1ccc2c(n1)C(=O)C1=C(NCCS1)C2=O>>Cc1ccc2c(n1)C(=O)C1=C(NCCS1=O)C2=O",
+      "Cc1ccc2c(n1)C(=O)C1=C(NCCS1=O)C2=O>>Cc1ccc2c(n1)C(=O)C1=C(NCCS1(=O)=O)C2=O",
+      "Cc1ccc2c(n1)C(=O)C1=C(NCCS1(=O)=O)C2=O>>Cc1ccc2c(n1)C(=O)C1=C(NC=CS1(=O)=O)C2=O",
+      "Cc1ccc2c(n1)C(=O)C1=C(NC=CS1(=O)=O)C2=O>>O=C(O)c1ccc2c(n1)C(=O)C1=C(NC=CS1(=O)=O)C2=O"
+    ],
+    "target_label": "2"
+  },
+  {
+    "admission_authority": false,
+    "formal_benchmark_eligible": false,
+    "from_commercial_starting_materials_complete": false,
+    "full_article_route_coverage": false,
+    "molecule_smiles_sequence": [
+      "Cc1ccc2cccc(O)c2n1",
+      "Cc1ccc2c(n1)C(=O)C(Cl)=C(Cl)C2=O",
+      "NCCCl",
+      "Cc1ccc2c(n1)C(=O)C(NCCCl)=C(Cl)C2=O",
+      "Cc1ccc2c(n1)C(=O)C(Cl)=C(NCCCl)C2=O",
+      "Cc1ccc2c(n1)C(=O)C1=C(NCCS1)C2=O",
+      "O=C(O)c1ccc2c(n1)C(=O)C1=C(NCCS1)C2=O",
+      "O=C(O)c1ccc2c(n1)C(=O)C1=C(NCCS1=O)C2=O"
+    ],
+    "ordered_event_ids": [
+      "E01",
+      "E02",
+      "E04",
+      "B06",
+      "B07"
+    ],
+    "ordered_molecule_labels": [
+      "6",
+      "5",
+      "2-chloroethylamine",
+      "3",
+      "4",
+      "8",
+      "17",
+      "18"
+    ],
+    "ordered_step_ids": [
+      "E01.1",
+      "E02.1",
+      "E04.1",
+      "B06.1",
+      "B07.1"
+    ],
+    "route_id": "B-sulfoxide-carboxylic-acid",
+    "route_type": "source_bound_control_branch",
+    "split_group": "10.1021/acs.joc.6c00749",
+    "start_label": "6",
+    "start_labels": [
+      "6",
+      "2-chloroethylamine"
+    ],
+    "step_reaction_smiles_sequence": [
+      "Cc1ccc2cccc(O)c2n1>>Cc1ccc2c(n1)C(=O)C(Cl)=C(Cl)C2=O",
+      "Cc1ccc2c(n1)C(=O)C(Cl)=C(Cl)C2=O.NCCCl>>Cc1ccc2c(n1)C(=O)C(Cl)=C(NCCCl)C2=O.Cc1ccc2c(n1)C(=O)C(NCCCl)=C(Cl)C2=O",
+      "Cc1ccc2c(n1)C(=O)C(Cl)=C(NCCCl)C2=O>>Cc1ccc2c(n1)C(=O)C1=C(NCCS1)C2=O",
+      "Cc1ccc2c(n1)C(=O)C1=C(NCCS1)C2=O>>O=C(O)c1ccc2c(n1)C(=O)C1=C(NCCS1)C2=O",
+      "O=C(O)c1ccc2c(n1)C(=O)C1=C(NCCS1)C2=O>>O=C(O)c1ccc2c(n1)C(=O)C1=C(NCCS1=O)C2=O"
+    ],
+    "target_label": "18"
+  }
+]

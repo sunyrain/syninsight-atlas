@@ -1,0 +1,2523 @@
+[
+  {
+    "admission_authority": false,
+    "agents": [
+      "hydrogen",
+      "Pd/C",
+      "hydrogen chloride"
+    ],
+    "event_id": "E01",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source preparation",
+    "product_labels": [
+      "S2"
+    ],
+    "reactant_labels": [
+      "S1",
+      "formaldehyde"
+    ],
+    "solvents": [
+      "methanol",
+      "diethyl ether"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF page: E01 preparation",
+        "pages": [
+          3,
+          4
+        ],
+        "sha256": "4700ac053c9b5a9dc34b2a1ba3b45073dc5218dd613a552c01847dd245b48e30",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main preparation schemes: E01 preparation",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "630c320d6ed45f30d71066fddb7a928a48b81df7d5d306777424d78597429510",
+        "source_id": "main"
+      }
+    ],
+    "step_id": "E01.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "C=O.COC(=O)c1nc([C@H](C)NC(=O)OCc2ccccc2)oc1C>>COC(=O)c1nc([C@H](C)[NH+](C)C)oc1C.[Cl-]",
+    "yield_percent": 76
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "lithium hydroxide monohydrate",
+      "hydrogen chloride"
+    ],
+    "event_id": "E02",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source preparation",
+    "product_labels": [
+      "7"
+    ],
+    "reactant_labels": [
+      "S2"
+    ],
+    "solvents": [
+      "methanol",
+      "water"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF page: E02 preparation",
+        "pages": [
+          4
+        ],
+        "sha256": "4700ac053c9b5a9dc34b2a1ba3b45073dc5218dd613a552c01847dd245b48e30",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main preparation schemes: E02 preparation",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "630c320d6ed45f30d71066fddb7a928a48b81df7d5d306777424d78597429510",
+        "source_id": "main"
+      }
+    ],
+    "step_id": "E02.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "COC(=O)c1nc([C@H](C)[NH+](C)C)oc1C.[Cl-]>>Cc1oc([C@H](C)[NH+](C)C)nc1C(=O)O.[Cl-]",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "HATU",
+      "DIPEA"
+    ],
+    "event_id": "E03",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source preparation",
+    "product_labels": [
+      "S4"
+    ],
+    "reactant_labels": [
+      "S3",
+      "dimethylalanine"
+    ],
+    "solvents": [
+      "dichloromethane"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF page: E03 preparation",
+        "pages": [
+          4,
+          5
+        ],
+        "sha256": "4700ac053c9b5a9dc34b2a1ba3b45073dc5218dd613a552c01847dd245b48e30",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main preparation schemes: E03 preparation",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "630c320d6ed45f30d71066fddb7a928a48b81df7d5d306777424d78597429510",
+        "source_id": "main"
+      }
+    ],
+    "step_id": "E03.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "C[C@@H](C(=O)O)N(C)C.C[C@H](O)[C@H]([NH3+])C(=O)OCc1ccccc1.[Cl-]>>C[C@H](O)[C@H](NC(=O)[C@H](C)N(C)C)C(=O)OCc1ccccc1",
+    "yield_percent": 41
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "DAST",
+      "methanesulfonic acid"
+    ],
+    "event_id": "E04",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source preparation",
+    "product_labels": [
+      "S5"
+    ],
+    "reactant_labels": [
+      "S4"
+    ],
+    "solvents": [
+      "dichloromethane"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF page: E04 preparation",
+        "pages": [
+          5
+        ],
+        "sha256": "4700ac053c9b5a9dc34b2a1ba3b45073dc5218dd613a552c01847dd245b48e30",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main preparation schemes: E04 preparation",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "630c320d6ed45f30d71066fddb7a928a48b81df7d5d306777424d78597429510",
+        "source_id": "main"
+      }
+    ],
+    "step_id": "E04.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "C[C@H](O)[C@H](NC(=O)[C@H](C)N(C)C)C(=O)OCc1ccccc1>>C[C@H]1OC([C@H](C)N(C)C)=N[C@@H]1C(=O)OCc1ccccc1",
+    "yield_percent": 68
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "hydrogen",
+      "Pd/C"
+    ],
+    "event_id": "E05",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source preparation",
+    "product_labels": [
+      "14a"
+    ],
+    "reactant_labels": [
+      "S5"
+    ],
+    "solvents": [
+      "ethanol"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF page: E05 preparation",
+        "pages": [
+          5
+        ],
+        "sha256": "4700ac053c9b5a9dc34b2a1ba3b45073dc5218dd613a552c01847dd245b48e30",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main preparation schemes: E05 preparation",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "630c320d6ed45f30d71066fddb7a928a48b81df7d5d306777424d78597429510",
+        "source_id": "main"
+      }
+    ],
+    "step_id": "E05.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "C[C@H]1OC([C@H](C)N(C)C)=N[C@@H]1C(=O)OCc1ccccc1>>C[C@H]1OC([C@H](C)N(C)C)=N[C@@H]1C(=O)O",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "HATU",
+      "DIPEA"
+    ],
+    "event_id": "E06",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source preparation",
+    "product_labels": [
+      "S7"
+    ],
+    "reactant_labels": [
+      "S3",
+      "S6"
+    ],
+    "solvents": [
+      "DMF"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF page: E06 preparation",
+        "pages": [
+          6
+        ],
+        "sha256": "4700ac053c9b5a9dc34b2a1ba3b45073dc5218dd613a552c01847dd245b48e30",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main preparation schemes: E06 preparation",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "630c320d6ed45f30d71066fddb7a928a48b81df7d5d306777424d78597429510",
+        "source_id": "main"
+      }
+    ],
+    "step_id": "E06.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "CN(C)C(C)(C)C(=O)O.C[C@H](O)[C@H]([NH3+])C(=O)OCc1ccccc1.[Cl-]>>C[C@H](O)[C@H](NC(=O)C(C)(C)N(C)C)C(=O)OCc1ccccc1",
+    "yield_percent": 77
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "DAST",
+      "methanesulfonic acid"
+    ],
+    "event_id": "E07",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source preparation",
+    "product_labels": [
+      "S8"
+    ],
+    "reactant_labels": [
+      "S7"
+    ],
+    "solvents": [
+      "dichloromethane"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF page: E07 preparation",
+        "pages": [
+          6,
+          7
+        ],
+        "sha256": "4700ac053c9b5a9dc34b2a1ba3b45073dc5218dd613a552c01847dd245b48e30",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main preparation schemes: E07 preparation",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "630c320d6ed45f30d71066fddb7a928a48b81df7d5d306777424d78597429510",
+        "source_id": "main"
+      }
+    ],
+    "step_id": "E07.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "C[C@H](O)[C@H](NC(=O)C(C)(C)N(C)C)C(=O)OCc1ccccc1>>C[C@H]1OC(C(C)(C)N(C)C)=N[C@@H]1C(=O)OCc1ccccc1",
+    "yield_percent": 89
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "hydrogen",
+      "Pd/C"
+    ],
+    "event_id": "E08",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source preparation",
+    "product_labels": [
+      "14b"
+    ],
+    "reactant_labels": [
+      "S8"
+    ],
+    "solvents": [
+      "ethanol"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF page: E08 preparation",
+        "pages": [
+          7
+        ],
+        "sha256": "4700ac053c9b5a9dc34b2a1ba3b45073dc5218dd613a552c01847dd245b48e30",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main preparation schemes: E08 preparation",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "630c320d6ed45f30d71066fddb7a928a48b81df7d5d306777424d78597429510",
+        "source_id": "main"
+      }
+    ],
+    "step_id": "E08.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "C[C@H]1OC(C(C)(C)N(C)C)=N[C@@H]1C(=O)OCc1ccccc1>>C[C@H]1OC(C(C)(C)N(C)C)=N[C@@H]1C(=O)O",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "potassium carbonate"
+    ],
+    "event_id": "E09",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Explicit procedure stage; inferred intermediate graph is not independently characterized",
+    "product_labels": [
+      "S9-benzyl"
+    ],
+    "reactant_labels": [
+      "S9",
+      "benzyl-bromide"
+    ],
+    "solvents": [
+      "DMF"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF page: E09 preparation",
+        "pages": [
+          7,
+          8
+        ],
+        "sha256": "4700ac053c9b5a9dc34b2a1ba3b45073dc5218dd613a552c01847dd245b48e30",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main preparation schemes: E09 preparation",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "630c320d6ed45f30d71066fddb7a928a48b81df7d5d306777424d78597429510",
+        "source_id": "main"
+      }
+    ],
+    "step_id": "E09.1",
+    "step_index_within_event": 1,
+    "structure_basis": "procedural_interpretation",
+    "substrate_product_smiles": "BrCc1ccccc1.CC(C)[C@H](O)C(=O)O>>CC(C)[C@H](O)C(=O)OCc1ccccc1",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "imidazole"
+    ],
+    "event_id": "E09",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Explicit procedure stage; inferred intermediate graph is not independently characterized",
+    "product_labels": [
+      "S10"
+    ],
+    "reactant_labels": [
+      "S9-benzyl",
+      "TBSCl"
+    ],
+    "solvents": [
+      "acetonitrile"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF page: E09 preparation",
+        "pages": [
+          7,
+          8
+        ],
+        "sha256": "4700ac053c9b5a9dc34b2a1ba3b45073dc5218dd613a552c01847dd245b48e30",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main preparation schemes: E09 preparation",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "630c320d6ed45f30d71066fddb7a928a48b81df7d5d306777424d78597429510",
+        "source_id": "main"
+      }
+    ],
+    "step_id": "E09.2",
+    "step_index_within_event": 2,
+    "structure_basis": "procedural_interpretation",
+    "substrate_product_smiles": "CC(C)(C)[Si](C)(C)Cl.CC(C)[C@H](O)C(=O)OCc1ccccc1>>CC(C)[C@H](O[Si](C)(C)C(C)(C)C)C(=O)OCc1ccccc1",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "hydrogen",
+      "Pd/C"
+    ],
+    "event_id": "E10",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Explicit procedure stage; inferred intermediate graph is not independently characterized",
+    "product_labels": [
+      "S10-acid"
+    ],
+    "reactant_labels": [
+      "S10"
+    ],
+    "solvents": [
+      "methanol"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF page: E10 preparation",
+        "pages": [
+          8
+        ],
+        "sha256": "4700ac053c9b5a9dc34b2a1ba3b45073dc5218dd613a552c01847dd245b48e30",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main preparation schemes: E10 preparation",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "630c320d6ed45f30d71066fddb7a928a48b81df7d5d306777424d78597429510",
+        "source_id": "main"
+      }
+    ],
+    "step_id": "E10.1",
+    "step_index_within_event": 1,
+    "structure_basis": "procedural_interpretation",
+    "substrate_product_smiles": "CC(C)[C@H](O[Si](C)(C)C(C)(C)C)C(=O)OCc1ccccc1>>CC(C)[C@H](O[Si](C)(C)C(C)(C)C)C(=O)O",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "TCFH",
+      "triethylamine",
+      "magnesium chloride",
+      "DMAP"
+    ],
+    "event_id": "E10",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Explicit procedure stage; inferred intermediate graph is not independently characterized",
+    "product_labels": [
+      "10"
+    ],
+    "reactant_labels": [
+      "S10-acid",
+      "allyl-potassium-malonate"
+    ],
+    "solvents": [
+      "acetonitrile"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF page: E10 preparation",
+        "pages": [
+          8
+        ],
+        "sha256": "4700ac053c9b5a9dc34b2a1ba3b45073dc5218dd613a552c01847dd245b48e30",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main preparation schemes: E10 preparation",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "630c320d6ed45f30d71066fddb7a928a48b81df7d5d306777424d78597429510",
+        "source_id": "main"
+      }
+    ],
+    "step_id": "E10.2",
+    "step_index_within_event": 2,
+    "structure_basis": "procedural_interpretation",
+    "substrate_product_smiles": "C=CCOC(=O)CC(=O)[O-].CC(C)[C@H](O[Si](C)(C)C(C)(C)C)C(=O)O.[K+]>>C=CCOC(=O)CC(=O)[C@@H](O[Si](C)(C)C(C)(C)C)C(C)C",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "tributylphosphine",
+      "TMAD"
+    ],
+    "event_id": "E11",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Explicit procedure stage; inferred intermediate graph is not independently characterized",
+    "product_labels": [
+      "11-allyl"
+    ],
+    "reactant_labels": [
+      "10",
+      "NapOH"
+    ],
+    "solvents": [
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF page: E11 preparation",
+        "pages": [
+          9
+        ],
+        "sha256": "4700ac053c9b5a9dc34b2a1ba3b45073dc5218dd613a552c01847dd245b48e30",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main preparation schemes: E11 preparation",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "630c320d6ed45f30d71066fddb7a928a48b81df7d5d306777424d78597429510",
+        "source_id": "main"
+      }
+    ],
+    "step_id": "E11.1",
+    "step_index_within_event": 1,
+    "structure_basis": "procedural_interpretation",
+    "substrate_product_smiles": "C=CCOC(=O)CC(=O)[C@@H](O[Si](C)(C)C(C)(C)C)C(C)C.OCc1ccc2ccccc2c1>>C=CCOC(=O)/C=C(\\OCc1ccc2ccccc2c1)[C@@H](O[Si](C)(C)C(C)(C)C)C(C)C",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "Pd(PPh3)4",
+      "morpholine"
+    ],
+    "event_id": "E11",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Explicit procedure stage; inferred intermediate graph is not independently characterized",
+    "product_labels": [
+      "11"
+    ],
+    "reactant_labels": [
+      "11-allyl"
+    ],
+    "solvents": [
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF page: E11 preparation",
+        "pages": [
+          9
+        ],
+        "sha256": "4700ac053c9b5a9dc34b2a1ba3b45073dc5218dd613a552c01847dd245b48e30",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main preparation schemes: E11 preparation",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "630c320d6ed45f30d71066fddb7a928a48b81df7d5d306777424d78597429510",
+        "source_id": "main"
+      }
+    ],
+    "step_id": "E11.2",
+    "step_index_within_event": 2,
+    "structure_basis": "procedural_interpretation",
+    "substrate_product_smiles": "C=CCOC(=O)/C=C(\\OCc1ccc2ccccc2c1)[C@@H](O[Si](C)(C)C(C)(C)C)C(C)C>>CC(C)[C@H](O[Si](C)(C)C(C)(C)C)/C(=C/C(=O)O)OCc1ccc2ccccc2c1",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "HATU",
+      "DIPEA"
+    ],
+    "event_id": "E12",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Explicit procedure stage; inferred intermediate graph is not independently characterized",
+    "product_labels": [
+      "9a-TBS"
+    ],
+    "reactant_labels": [
+      "11",
+      "12a"
+    ],
+    "solvents": [
+      "DMF"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF page: E12 preparation",
+        "pages": [
+          10
+        ],
+        "sha256": "4700ac053c9b5a9dc34b2a1ba3b45073dc5218dd613a552c01847dd245b48e30",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main preparation schemes: E12 preparation",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "630c320d6ed45f30d71066fddb7a928a48b81df7d5d306777424d78597429510",
+        "source_id": "main"
+      }
+    ],
+    "step_id": "E12.1",
+    "step_index_within_event": 1,
+    "structure_basis": "procedural_interpretation",
+    "substrate_product_smiles": "CC(C)[C@H](O[Si](C)(C)C(C)(C)C)/C(=C/C(=O)O)OCc1ccc2ccccc2c1.C[NH2+][C@@H](C)C(=O)OC.[Cl-]>>COC(=O)[C@H](C)N(C)C(=O)/C=C(\\OCc1ccc2ccccc2c1)[C@H](O[Si](C)(C)C(C)(C)C)C(C)C",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "TBAF"
+    ],
+    "event_id": "E12",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Explicit procedure stage; inferred intermediate graph is not independently characterized",
+    "product_labels": [
+      "9a"
+    ],
+    "reactant_labels": [
+      "9a-TBS"
+    ],
+    "solvents": [
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF page: E12 preparation",
+        "pages": [
+          10
+        ],
+        "sha256": "4700ac053c9b5a9dc34b2a1ba3b45073dc5218dd613a552c01847dd245b48e30",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main preparation schemes: E12 preparation",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "630c320d6ed45f30d71066fddb7a928a48b81df7d5d306777424d78597429510",
+        "source_id": "main"
+      }
+    ],
+    "step_id": "E12.2",
+    "step_index_within_event": 2,
+    "structure_basis": "procedural_interpretation",
+    "substrate_product_smiles": "COC(=O)[C@H](C)N(C)C(=O)/C=C(\\OCc1ccc2ccccc2c1)[C@H](O[Si](C)(C)C(C)(C)C)C(C)C>>COC(=O)[C@H](C)N(C)C(=O)/C=C(\\OCc1ccc2ccccc2c1)[C@@H](O)C(C)C",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "HATU",
+      "DIPEA"
+    ],
+    "event_id": "E13",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Explicit procedure stage; inferred intermediate graph is not independently characterized",
+    "product_labels": [
+      "9b-TBS"
+    ],
+    "reactant_labels": [
+      "11",
+      "12b"
+    ],
+    "solvents": [
+      "DMF"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF page: E13 preparation",
+        "pages": [
+          11
+        ],
+        "sha256": "4700ac053c9b5a9dc34b2a1ba3b45073dc5218dd613a552c01847dd245b48e30",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main preparation schemes: E13 preparation",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "630c320d6ed45f30d71066fddb7a928a48b81df7d5d306777424d78597429510",
+        "source_id": "main"
+      }
+    ],
+    "step_id": "E13.1",
+    "step_index_within_event": 1,
+    "structure_basis": "procedural_interpretation",
+    "substrate_product_smiles": "CC(C)[C@H](O[Si](C)(C)C(C)(C)C)/C(=C/C(=O)O)OCc1ccc2ccccc2c1.C[NH2+]C(C)(C)C(=O)OC.[Cl-]>>COC(=O)C(C)(C)N(C)C(=O)/C=C(\\OCc1ccc2ccccc2c1)[C@H](O[Si](C)(C)C(C)(C)C)C(C)C",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "TBAF"
+    ],
+    "event_id": "E13",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Explicit procedure stage; inferred intermediate graph is not independently characterized",
+    "product_labels": [
+      "9b"
+    ],
+    "reactant_labels": [
+      "9b-TBS"
+    ],
+    "solvents": [
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF page: E13 preparation",
+        "pages": [
+          11
+        ],
+        "sha256": "4700ac053c9b5a9dc34b2a1ba3b45073dc5218dd613a552c01847dd245b48e30",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main preparation schemes: E13 preparation",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "630c320d6ed45f30d71066fddb7a928a48b81df7d5d306777424d78597429510",
+        "source_id": "main"
+      }
+    ],
+    "step_id": "E13.2",
+    "step_index_within_event": 2,
+    "structure_basis": "procedural_interpretation",
+    "substrate_product_smiles": "COC(=O)C(C)(C)N(C)C(=O)/C=C(\\OCc1ccc2ccccc2c1)[C@H](O[Si](C)(C)C(C)(C)C)C(C)C>>COC(=O)C(C)(C)N(C)C(=O)/C=C(\\OCc1ccc2ccccc2c1)[C@@H](O)C(C)C",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "PPTS"
+    ],
+    "event_id": "E14",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Explicit procedure stage; inferred intermediate graph is not independently characterized",
+    "product_labels": [
+      "S11-acetonide"
+    ],
+    "reactant_labels": [
+      "S11",
+      "dimethoxypropane"
+    ],
+    "solvents": [
+      "toluene"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF page: E14 preparation",
+        "pages": [
+          11,
+          12
+        ],
+        "sha256": "4700ac053c9b5a9dc34b2a1ba3b45073dc5218dd613a552c01847dd245b48e30",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main preparation schemes: E14 preparation",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "630c320d6ed45f30d71066fddb7a928a48b81df7d5d306777424d78597429510",
+        "source_id": "main"
+      }
+    ],
+    "step_id": "E14.1",
+    "step_index_within_event": 1,
+    "structure_basis": "procedural_interpretation",
+    "substrate_product_smiles": "C=CCOC(=O)C(C)(C)[C@@H](O)[C@H](CCCN(OCc1ccccc1)C(=O)OCc1ccccc1)NC(=O)OC(C)(C)C.COC(C)(C)OC>>C=CCOC(=O)C(C)(C)[C@H]1OC(C)(C)N(C(=O)OC(C)(C)C)[C@H]1CCCN(OCc1ccccc1)C(=O)OCc1ccccc1",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "Pd(PPh3)4",
+      "diethylamine"
+    ],
+    "event_id": "E14",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Explicit procedure stage; inferred intermediate graph is not independently characterized",
+    "product_labels": [
+      "8"
+    ],
+    "reactant_labels": [
+      "S11-acetonide"
+    ],
+    "solvents": [
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF page: E14 preparation",
+        "pages": [
+          11,
+          12
+        ],
+        "sha256": "4700ac053c9b5a9dc34b2a1ba3b45073dc5218dd613a552c01847dd245b48e30",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main preparation schemes: E14 preparation",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "630c320d6ed45f30d71066fddb7a928a48b81df7d5d306777424d78597429510",
+        "source_id": "main"
+      }
+    ],
+    "step_id": "E14.2",
+    "step_index_within_event": 2,
+    "structure_basis": "procedural_interpretation",
+    "substrate_product_smiles": "C=CCOC(=O)C(C)(C)[C@H]1OC(C)(C)N(C(=O)OC(C)(C)C)[C@H]1CCCN(OCc1ccccc1)C(=O)OCc1ccccc1>>CC(C)(C)OC(=O)N1[C@@H](CCCN(OCc2ccccc2)C(=O)OCc2ccccc2)[C@@H](C(C)(C)C(=O)O)OC1(C)C",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "TCFH",
+      "pyridine",
+      "DMAP",
+      "3 angstrom molecular sieves"
+    ],
+    "event_id": "E15",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source preparation",
+    "product_labels": [
+      "13a"
+    ],
+    "reactant_labels": [
+      "8",
+      "9a"
+    ],
+    "solvents": [
+      "acetonitrile"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF page: E15 preparation",
+        "pages": [
+          12,
+          13
+        ],
+        "sha256": "4700ac053c9b5a9dc34b2a1ba3b45073dc5218dd613a552c01847dd245b48e30",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main preparation schemes: E15 preparation",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "630c320d6ed45f30d71066fddb7a928a48b81df7d5d306777424d78597429510",
+        "source_id": "main"
+      }
+    ],
+    "step_id": "E15.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "CC(C)(C)OC(=O)N1[C@@H](CCCN(OCc2ccccc2)C(=O)OCc2ccccc2)[C@@H](C(C)(C)C(=O)O)OC1(C)C.COC(=O)[C@H](C)N(C)C(=O)/C=C(\\OCc1ccc2ccccc2c1)[C@@H](O)C(C)C>>COC(=O)[C@H](C)N(C)C(=O)/C=C(\\OCc1ccc2ccccc2c1)[C@@H](OC(=O)C(C)(C)[C@H]1OC(C)(C)N(C(=O)OC(C)(C)C)[C@H]1CCCN(OCc1ccccc1)C(=O)OCc1ccccc1)C(C)C",
+    "yield_percent": 78
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "TCFH",
+      "pyridine",
+      "DMAP",
+      "3 angstrom molecular sieves"
+    ],
+    "event_id": "E16",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source preparation",
+    "product_labels": [
+      "13b"
+    ],
+    "reactant_labels": [
+      "8",
+      "9b"
+    ],
+    "solvents": [
+      "acetonitrile"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF page: E16 preparation",
+        "pages": [
+          16,
+          17
+        ],
+        "sha256": "4700ac053c9b5a9dc34b2a1ba3b45073dc5218dd613a552c01847dd245b48e30",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main preparation schemes: E16 preparation",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "630c320d6ed45f30d71066fddb7a928a48b81df7d5d306777424d78597429510",
+        "source_id": "main"
+      }
+    ],
+    "step_id": "E16.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "CC(C)(C)OC(=O)N1[C@@H](CCCN(OCc2ccccc2)C(=O)OCc2ccccc2)[C@@H](C(C)(C)C(=O)O)OC1(C)C.COC(=O)C(C)(C)N(C)C(=O)/C=C(\\OCc1ccc2ccccc2c1)[C@@H](O)C(C)C>>COC(=O)C(C)(C)N(C)C(=O)/C=C(\\OCc1ccc2ccccc2c1)[C@@H](OC(=O)C(C)(C)[C@H]1OC(C)(C)N(C(=O)OC(C)(C)C)[C@H]1CCCN(OCc1ccccc1)C(=O)OCc1ccccc1)C(C)C",
+    "yield_percent": 73
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "TMSOTf",
+      "sodium carbonate",
+      "O-methylhydroxylamine hydrochloride"
+    ],
+    "event_id": "E17",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Explicit procedure stage; inferred intermediate graph is not independently characterized",
+    "product_labels": [
+      "13a-amino-alcohol"
+    ],
+    "reactant_labels": [
+      "13a"
+    ],
+    "solvents": [
+      "acetonitrile"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF page: E17 preparation",
+        "pages": [
+          13,
+          14
+        ],
+        "sha256": "4700ac053c9b5a9dc34b2a1ba3b45073dc5218dd613a552c01847dd245b48e30",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main preparation schemes: E17 preparation",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "630c320d6ed45f30d71066fddb7a928a48b81df7d5d306777424d78597429510",
+        "source_id": "main"
+      }
+    ],
+    "step_id": "E17.1",
+    "step_index_within_event": 1,
+    "structure_basis": "procedural_interpretation",
+    "substrate_product_smiles": "COC(=O)[C@H](C)N(C)C(=O)/C=C(\\OCc1ccc2ccccc2c1)[C@@H](OC(=O)C(C)(C)[C@H]1OC(C)(C)N(C(=O)OC(C)(C)C)[C@H]1CCCN(OCc1ccccc1)C(=O)OCc1ccccc1)C(C)C>>COC(=O)[C@H](C)N(C)C(=O)/C=C(\\OCc1ccc2ccccc2c1)[C@@H](OC(=O)C(C)(C)[C@@H](O)[C@@H](N)CCCN(OCc1ccccc1)C(=O)OCc1ccccc1)C(C)C",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "TCFH",
+      "DIPEA"
+    ],
+    "event_id": "E17",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Explicit procedure stage; inferred intermediate graph is not independently characterized",
+    "product_labels": [
+      "6a-OH"
+    ],
+    "reactant_labels": [
+      "13a-amino-alcohol",
+      "7"
+    ],
+    "solvents": [
+      "acetonitrile"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF page: E17 preparation",
+        "pages": [
+          13,
+          14
+        ],
+        "sha256": "4700ac053c9b5a9dc34b2a1ba3b45073dc5218dd613a552c01847dd245b48e30",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main preparation schemes: E17 preparation",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "630c320d6ed45f30d71066fddb7a928a48b81df7d5d306777424d78597429510",
+        "source_id": "main"
+      }
+    ],
+    "step_id": "E17.2",
+    "step_index_within_event": 2,
+    "structure_basis": "procedural_interpretation",
+    "substrate_product_smiles": "COC(=O)[C@H](C)N(C)C(=O)/C=C(\\OCc1ccc2ccccc2c1)[C@@H](OC(=O)C(C)(C)[C@@H](O)[C@@H](N)CCCN(OCc1ccccc1)C(=O)OCc1ccccc1)C(C)C.Cc1oc([C@H](C)[NH+](C)C)nc1C(=O)O.[Cl-]>>COC(=O)[C@H](C)N(C)C(=O)/C=C(\\OCc1ccc2ccccc2c1)[C@@H](OC(=O)C(C)(C)[C@@H](O)[C@H](CCCN(OCc1ccccc1)C(=O)OCc1ccccc1)NC(=O)c1nc([C@H](C)N(C)C)oc1C)C(C)C",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "pyridine",
+      "DMAP",
+      "3 angstrom molecular sieves"
+    ],
+    "event_id": "E17",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Explicit procedure stage; inferred intermediate graph is not independently characterized",
+    "product_labels": [
+      "6a"
+    ],
+    "reactant_labels": [
+      "6a-OH",
+      "acetic-anhydride"
+    ],
+    "solvents": [
+      "1,2-dichloroethane"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF page: E17 preparation",
+        "pages": [
+          13,
+          14
+        ],
+        "sha256": "4700ac053c9b5a9dc34b2a1ba3b45073dc5218dd613a552c01847dd245b48e30",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main preparation schemes: E17 preparation",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "630c320d6ed45f30d71066fddb7a928a48b81df7d5d306777424d78597429510",
+        "source_id": "main"
+      }
+    ],
+    "step_id": "E17.3",
+    "step_index_within_event": 3,
+    "structure_basis": "procedural_interpretation",
+    "substrate_product_smiles": "CC(=O)OC(C)=O.COC(=O)[C@H](C)N(C)C(=O)/C=C(\\OCc1ccc2ccccc2c1)[C@@H](OC(=O)C(C)(C)[C@@H](O)[C@H](CCCN(OCc1ccccc1)C(=O)OCc1ccccc1)NC(=O)c1nc([C@H](C)N(C)C)oc1C)C(C)C>>COC(=O)[C@H](C)N(C)C(=O)/C=C(\\OCc1ccc2ccccc2c1)[C@@H](OC(=O)C(C)(C)[C@H](OC(C)=O)[C@H](CCCN(OCc1ccccc1)C(=O)OCc1ccccc1)NC(=O)c1nc([C@H](C)N(C)C)oc1C)C(C)C",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "TMSOTf",
+      "sodium carbonate",
+      "O-methylhydroxylamine hydrochloride"
+    ],
+    "event_id": "E18",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Explicit procedure stage; inferred intermediate graph is not independently characterized",
+    "product_labels": [
+      "13b-amino-alcohol"
+    ],
+    "reactant_labels": [
+      "13b"
+    ],
+    "solvents": [
+      "acetonitrile"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF page: E18 preparation",
+        "pages": [
+          17,
+          18
+        ],
+        "sha256": "4700ac053c9b5a9dc34b2a1ba3b45073dc5218dd613a552c01847dd245b48e30",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main preparation schemes: E18 preparation",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "630c320d6ed45f30d71066fddb7a928a48b81df7d5d306777424d78597429510",
+        "source_id": "main"
+      }
+    ],
+    "step_id": "E18.1",
+    "step_index_within_event": 1,
+    "structure_basis": "procedural_interpretation",
+    "substrate_product_smiles": "COC(=O)C(C)(C)N(C)C(=O)/C=C(\\OCc1ccc2ccccc2c1)[C@@H](OC(=O)C(C)(C)[C@H]1OC(C)(C)N(C(=O)OC(C)(C)C)[C@H]1CCCN(OCc1ccccc1)C(=O)OCc1ccccc1)C(C)C>>COC(=O)C(C)(C)N(C)C(=O)/C=C(\\OCc1ccc2ccccc2c1)[C@@H](OC(=O)C(C)(C)[C@@H](O)[C@@H](N)CCCN(OCc1ccccc1)C(=O)OCc1ccccc1)C(C)C",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "TCFH",
+      "DIPEA"
+    ],
+    "event_id": "E18",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Explicit procedure stage; inferred intermediate graph is not independently characterized",
+    "product_labels": [
+      "6b-OH"
+    ],
+    "reactant_labels": [
+      "13b-amino-alcohol",
+      "7"
+    ],
+    "solvents": [
+      "acetonitrile"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF page: E18 preparation",
+        "pages": [
+          17,
+          18
+        ],
+        "sha256": "4700ac053c9b5a9dc34b2a1ba3b45073dc5218dd613a552c01847dd245b48e30",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main preparation schemes: E18 preparation",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "630c320d6ed45f30d71066fddb7a928a48b81df7d5d306777424d78597429510",
+        "source_id": "main"
+      }
+    ],
+    "step_id": "E18.2",
+    "step_index_within_event": 2,
+    "structure_basis": "procedural_interpretation",
+    "substrate_product_smiles": "COC(=O)C(C)(C)N(C)C(=O)/C=C(\\OCc1ccc2ccccc2c1)[C@@H](OC(=O)C(C)(C)[C@@H](O)[C@@H](N)CCCN(OCc1ccccc1)C(=O)OCc1ccccc1)C(C)C.Cc1oc([C@H](C)[NH+](C)C)nc1C(=O)O.[Cl-]>>COC(=O)C(C)(C)N(C)C(=O)/C=C(\\OCc1ccc2ccccc2c1)[C@@H](OC(=O)C(C)(C)[C@@H](O)[C@H](CCCN(OCc1ccccc1)C(=O)OCc1ccccc1)NC(=O)c1nc([C@H](C)N(C)C)oc1C)C(C)C",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "pyridine",
+      "DMAP",
+      "3 angstrom molecular sieves"
+    ],
+    "event_id": "E18",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Explicit procedure stage; inferred intermediate graph is not independently characterized",
+    "product_labels": [
+      "6b"
+    ],
+    "reactant_labels": [
+      "6b-OH",
+      "acetic-anhydride"
+    ],
+    "solvents": [
+      "1,2-dichloroethane"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF page: E18 preparation",
+        "pages": [
+          17,
+          18
+        ],
+        "sha256": "4700ac053c9b5a9dc34b2a1ba3b45073dc5218dd613a552c01847dd245b48e30",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main preparation schemes: E18 preparation",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "630c320d6ed45f30d71066fddb7a928a48b81df7d5d306777424d78597429510",
+        "source_id": "main"
+      }
+    ],
+    "step_id": "E18.3",
+    "step_index_within_event": 3,
+    "structure_basis": "procedural_interpretation",
+    "substrate_product_smiles": "CC(=O)OC(C)=O.COC(=O)C(C)(C)N(C)C(=O)/C=C(\\OCc1ccc2ccccc2c1)[C@@H](OC(=O)C(C)(C)[C@@H](O)[C@H](CCCN(OCc1ccccc1)C(=O)OCc1ccccc1)NC(=O)c1nc([C@H](C)N(C)C)oc1C)C(C)C>>COC(=O)C(C)(C)N(C)C(=O)/C=C(\\OCc1ccc2ccccc2c1)[C@@H](OC(=O)C(C)(C)[C@H](OC(C)=O)[C@H](CCCN(OCc1ccccc1)C(=O)OCc1ccccc1)NC(=O)c1nc([C@H](C)N(C)C)oc1C)C(C)C",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "TMSOTf",
+      "sodium carbonate",
+      "O-methylhydroxylamine hydrochloride"
+    ],
+    "event_id": "E19",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Explicit procedure stage; inferred intermediate graph is not independently characterized",
+    "product_labels": [
+      "13a-amino-alcohol"
+    ],
+    "reactant_labels": [
+      "13a"
+    ],
+    "solvents": [
+      "acetonitrile"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF page: E19 preparation",
+        "pages": [
+          19,
+          20
+        ],
+        "sha256": "4700ac053c9b5a9dc34b2a1ba3b45073dc5218dd613a552c01847dd245b48e30",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main preparation schemes: E19 preparation",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "630c320d6ed45f30d71066fddb7a928a48b81df7d5d306777424d78597429510",
+        "source_id": "main"
+      }
+    ],
+    "step_id": "E19.1",
+    "step_index_within_event": 1,
+    "structure_basis": "procedural_interpretation",
+    "substrate_product_smiles": "COC(=O)[C@H](C)N(C)C(=O)/C=C(\\OCc1ccc2ccccc2c1)[C@@H](OC(=O)C(C)(C)[C@H]1OC(C)(C)N(C(=O)OC(C)(C)C)[C@H]1CCCN(OCc1ccccc1)C(=O)OCc1ccccc1)C(C)C>>COC(=O)[C@H](C)N(C)C(=O)/C=C(\\OCc1ccc2ccccc2c1)[C@@H](OC(=O)C(C)(C)[C@@H](O)[C@@H](N)CCCN(OCc1ccccc1)C(=O)OCc1ccccc1)C(C)C",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "COMU",
+      "DIPEA"
+    ],
+    "event_id": "E19",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Explicit procedure stage; inferred intermediate graph is not independently characterized",
+    "product_labels": [
+      "15a-OH"
+    ],
+    "reactant_labels": [
+      "13a-amino-alcohol",
+      "14a"
+    ],
+    "solvents": [
+      "acetonitrile"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF page: E19 preparation",
+        "pages": [
+          19,
+          20
+        ],
+        "sha256": "4700ac053c9b5a9dc34b2a1ba3b45073dc5218dd613a552c01847dd245b48e30",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main preparation schemes: E19 preparation",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "630c320d6ed45f30d71066fddb7a928a48b81df7d5d306777424d78597429510",
+        "source_id": "main"
+      }
+    ],
+    "step_id": "E19.2",
+    "step_index_within_event": 2,
+    "structure_basis": "procedural_interpretation",
+    "substrate_product_smiles": "COC(=O)[C@H](C)N(C)C(=O)/C=C(\\OCc1ccc2ccccc2c1)[C@@H](OC(=O)C(C)(C)[C@@H](O)[C@@H](N)CCCN(OCc1ccccc1)C(=O)OCc1ccccc1)C(C)C.C[C@H]1OC([C@H](C)N(C)C)=N[C@@H]1C(=O)O>>COC(=O)[C@H](C)N(C)C(=O)/C=C(\\OCc1ccc2ccccc2c1)[C@@H](OC(=O)C(C)(C)[C@@H](O)[C@H](CCCN(OCc1ccccc1)C(=O)OCc1ccccc1)NC(=O)[C@H]1N=C([C@H](C)N(C)C)O[C@@H]1C)C(C)C",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "pyridine",
+      "DMAP",
+      "3 angstrom molecular sieves"
+    ],
+    "event_id": "E19",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Explicit procedure stage; inferred intermediate graph is not independently characterized",
+    "product_labels": [
+      "15a"
+    ],
+    "reactant_labels": [
+      "15a-OH",
+      "acetic-anhydride"
+    ],
+    "solvents": [
+      "1,2-dichloroethane"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF page: E19 preparation",
+        "pages": [
+          19,
+          20
+        ],
+        "sha256": "4700ac053c9b5a9dc34b2a1ba3b45073dc5218dd613a552c01847dd245b48e30",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main preparation schemes: E19 preparation",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "630c320d6ed45f30d71066fddb7a928a48b81df7d5d306777424d78597429510",
+        "source_id": "main"
+      }
+    ],
+    "step_id": "E19.3",
+    "step_index_within_event": 3,
+    "structure_basis": "procedural_interpretation",
+    "substrate_product_smiles": "CC(=O)OC(C)=O.COC(=O)[C@H](C)N(C)C(=O)/C=C(\\OCc1ccc2ccccc2c1)[C@@H](OC(=O)C(C)(C)[C@@H](O)[C@H](CCCN(OCc1ccccc1)C(=O)OCc1ccccc1)NC(=O)[C@H]1N=C([C@H](C)N(C)C)O[C@@H]1C)C(C)C>>COC(=O)[C@H](C)N(C)C(=O)/C=C(\\OCc1ccc2ccccc2c1)[C@@H](OC(=O)C(C)(C)[C@H](OC(C)=O)[C@H](CCCN(OCc1ccccc1)C(=O)OCc1ccccc1)NC(=O)[C@H]1N=C([C@H](C)N(C)C)O[C@@H]1C)C(C)C",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "TMSOTf",
+      "sodium carbonate",
+      "O-methylhydroxylamine hydrochloride"
+    ],
+    "event_id": "E20",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Explicit procedure stage; inferred intermediate graph is not independently characterized",
+    "product_labels": [
+      "13b-amino-alcohol"
+    ],
+    "reactant_labels": [
+      "13b"
+    ],
+    "solvents": [
+      "acetonitrile"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF page: E20 preparation",
+        "pages": [
+          22,
+          23
+        ],
+        "sha256": "4700ac053c9b5a9dc34b2a1ba3b45073dc5218dd613a552c01847dd245b48e30",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main preparation schemes: E20 preparation",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "630c320d6ed45f30d71066fddb7a928a48b81df7d5d306777424d78597429510",
+        "source_id": "main"
+      }
+    ],
+    "step_id": "E20.1",
+    "step_index_within_event": 1,
+    "structure_basis": "procedural_interpretation",
+    "substrate_product_smiles": "COC(=O)C(C)(C)N(C)C(=O)/C=C(\\OCc1ccc2ccccc2c1)[C@@H](OC(=O)C(C)(C)[C@H]1OC(C)(C)N(C(=O)OC(C)(C)C)[C@H]1CCCN(OCc1ccccc1)C(=O)OCc1ccccc1)C(C)C>>COC(=O)C(C)(C)N(C)C(=O)/C=C(\\OCc1ccc2ccccc2c1)[C@@H](OC(=O)C(C)(C)[C@@H](O)[C@@H](N)CCCN(OCc1ccccc1)C(=O)OCc1ccccc1)C(C)C",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "COMU",
+      "DIPEA"
+    ],
+    "event_id": "E20",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Explicit procedure stage; inferred intermediate graph is not independently characterized",
+    "product_labels": [
+      "15b-OH"
+    ],
+    "reactant_labels": [
+      "13b-amino-alcohol",
+      "14a"
+    ],
+    "solvents": [
+      "acetonitrile"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF page: E20 preparation",
+        "pages": [
+          22,
+          23
+        ],
+        "sha256": "4700ac053c9b5a9dc34b2a1ba3b45073dc5218dd613a552c01847dd245b48e30",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main preparation schemes: E20 preparation",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "630c320d6ed45f30d71066fddb7a928a48b81df7d5d306777424d78597429510",
+        "source_id": "main"
+      }
+    ],
+    "step_id": "E20.2",
+    "step_index_within_event": 2,
+    "structure_basis": "procedural_interpretation",
+    "substrate_product_smiles": "COC(=O)C(C)(C)N(C)C(=O)/C=C(\\OCc1ccc2ccccc2c1)[C@@H](OC(=O)C(C)(C)[C@@H](O)[C@@H](N)CCCN(OCc1ccccc1)C(=O)OCc1ccccc1)C(C)C.C[C@H]1OC([C@H](C)N(C)C)=N[C@@H]1C(=O)O>>COC(=O)C(C)(C)N(C)C(=O)/C=C(\\OCc1ccc2ccccc2c1)[C@@H](OC(=O)C(C)(C)[C@@H](O)[C@H](CCCN(OCc1ccccc1)C(=O)OCc1ccccc1)NC(=O)[C@H]1N=C([C@H](C)N(C)C)O[C@@H]1C)C(C)C",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "pyridine",
+      "DMAP",
+      "3 angstrom molecular sieves"
+    ],
+    "event_id": "E20",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Explicit procedure stage; inferred intermediate graph is not independently characterized",
+    "product_labels": [
+      "15b"
+    ],
+    "reactant_labels": [
+      "15b-OH",
+      "acetic-anhydride"
+    ],
+    "solvents": [
+      "1,2-dichloroethane"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF page: E20 preparation",
+        "pages": [
+          22,
+          23
+        ],
+        "sha256": "4700ac053c9b5a9dc34b2a1ba3b45073dc5218dd613a552c01847dd245b48e30",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main preparation schemes: E20 preparation",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "630c320d6ed45f30d71066fddb7a928a48b81df7d5d306777424d78597429510",
+        "source_id": "main"
+      }
+    ],
+    "step_id": "E20.3",
+    "step_index_within_event": 3,
+    "structure_basis": "procedural_interpretation",
+    "substrate_product_smiles": "CC(=O)OC(C)=O.COC(=O)C(C)(C)N(C)C(=O)/C=C(\\OCc1ccc2ccccc2c1)[C@@H](OC(=O)C(C)(C)[C@@H](O)[C@H](CCCN(OCc1ccccc1)C(=O)OCc1ccccc1)NC(=O)[C@H]1N=C([C@H](C)N(C)C)O[C@@H]1C)C(C)C>>COC(=O)C(C)(C)N(C)C(=O)/C=C(\\OCc1ccc2ccccc2c1)[C@@H](OC(=O)C(C)(C)[C@H](OC(C)=O)[C@H](CCCN(OCc1ccccc1)C(=O)OCc1ccccc1)NC(=O)[C@H]1N=C([C@H](C)N(C)C)O[C@@H]1C)C(C)C",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "TMSOTf",
+      "sodium carbonate",
+      "O-methylhydroxylamine hydrochloride"
+    ],
+    "event_id": "E21",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Explicit procedure stage; inferred intermediate graph is not independently characterized",
+    "product_labels": [
+      "13a-amino-alcohol"
+    ],
+    "reactant_labels": [
+      "13a"
+    ],
+    "solvents": [
+      "acetonitrile"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF page: E21 preparation",
+        "pages": [
+          24,
+          25
+        ],
+        "sha256": "4700ac053c9b5a9dc34b2a1ba3b45073dc5218dd613a552c01847dd245b48e30",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main preparation schemes: E21 preparation",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "630c320d6ed45f30d71066fddb7a928a48b81df7d5d306777424d78597429510",
+        "source_id": "main"
+      }
+    ],
+    "step_id": "E21.1",
+    "step_index_within_event": 1,
+    "structure_basis": "procedural_interpretation",
+    "substrate_product_smiles": "COC(=O)[C@H](C)N(C)C(=O)/C=C(\\OCc1ccc2ccccc2c1)[C@@H](OC(=O)C(C)(C)[C@H]1OC(C)(C)N(C(=O)OC(C)(C)C)[C@H]1CCCN(OCc1ccccc1)C(=O)OCc1ccccc1)C(C)C>>COC(=O)[C@H](C)N(C)C(=O)/C=C(\\OCc1ccc2ccccc2c1)[C@@H](OC(=O)C(C)(C)[C@@H](O)[C@@H](N)CCCN(OCc1ccccc1)C(=O)OCc1ccccc1)C(C)C",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "COMU",
+      "DIPEA"
+    ],
+    "event_id": "E21",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Explicit procedure stage; inferred intermediate graph is not independently characterized",
+    "product_labels": [
+      "15c-OH"
+    ],
+    "reactant_labels": [
+      "13a-amino-alcohol",
+      "14b"
+    ],
+    "solvents": [
+      "acetonitrile"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF page: E21 preparation",
+        "pages": [
+          24,
+          25
+        ],
+        "sha256": "4700ac053c9b5a9dc34b2a1ba3b45073dc5218dd613a552c01847dd245b48e30",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main preparation schemes: E21 preparation",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "630c320d6ed45f30d71066fddb7a928a48b81df7d5d306777424d78597429510",
+        "source_id": "main"
+      }
+    ],
+    "step_id": "E21.2",
+    "step_index_within_event": 2,
+    "structure_basis": "procedural_interpretation",
+    "substrate_product_smiles": "COC(=O)[C@H](C)N(C)C(=O)/C=C(\\OCc1ccc2ccccc2c1)[C@@H](OC(=O)C(C)(C)[C@@H](O)[C@@H](N)CCCN(OCc1ccccc1)C(=O)OCc1ccccc1)C(C)C.C[C@H]1OC(C(C)(C)N(C)C)=N[C@@H]1C(=O)O>>COC(=O)[C@H](C)N(C)C(=O)/C=C(\\OCc1ccc2ccccc2c1)[C@@H](OC(=O)C(C)(C)[C@@H](O)[C@H](CCCN(OCc1ccccc1)C(=O)OCc1ccccc1)NC(=O)[C@H]1N=C(C(C)(C)N(C)C)O[C@@H]1C)C(C)C",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "pyridine",
+      "DMAP",
+      "3 angstrom molecular sieves"
+    ],
+    "event_id": "E21",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Explicit procedure stage; inferred intermediate graph is not independently characterized",
+    "product_labels": [
+      "15c"
+    ],
+    "reactant_labels": [
+      "15c-OH",
+      "acetic-anhydride"
+    ],
+    "solvents": [
+      "1,2-dichloroethane"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF page: E21 preparation",
+        "pages": [
+          24,
+          25
+        ],
+        "sha256": "4700ac053c9b5a9dc34b2a1ba3b45073dc5218dd613a552c01847dd245b48e30",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main preparation schemes: E21 preparation",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "630c320d6ed45f30d71066fddb7a928a48b81df7d5d306777424d78597429510",
+        "source_id": "main"
+      }
+    ],
+    "step_id": "E21.3",
+    "step_index_within_event": 3,
+    "structure_basis": "procedural_interpretation",
+    "substrate_product_smiles": "CC(=O)OC(C)=O.COC(=O)[C@H](C)N(C)C(=O)/C=C(\\OCc1ccc2ccccc2c1)[C@@H](OC(=O)C(C)(C)[C@@H](O)[C@H](CCCN(OCc1ccccc1)C(=O)OCc1ccccc1)NC(=O)[C@H]1N=C(C(C)(C)N(C)C)O[C@@H]1C)C(C)C>>COC(=O)[C@H](C)N(C)C(=O)/C=C(\\OCc1ccc2ccccc2c1)[C@@H](OC(=O)C(C)(C)[C@H](OC(C)=O)[C@H](CCCN(OCc1ccccc1)C(=O)OCc1ccccc1)NC(=O)[C@H]1N=C(C(C)(C)N(C)C)O[C@@H]1C)C(C)C",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "hydrogen",
+      "Pd/C",
+      "2-methylnaphthalene"
+    ],
+    "event_id": "E22",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Explicit procedure stage; inferred intermediate graph is not independently characterized",
+    "product_labels": [
+      "6a-deprotected"
+    ],
+    "reactant_labels": [
+      "6a"
+    ],
+    "solvents": [
+      "ethanol"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF page: E22 preparation",
+        "pages": [
+          15,
+          16
+        ],
+        "sha256": "4700ac053c9b5a9dc34b2a1ba3b45073dc5218dd613a552c01847dd245b48e30",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main preparation schemes: E22 preparation",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "630c320d6ed45f30d71066fddb7a928a48b81df7d5d306777424d78597429510",
+        "source_id": "main"
+      }
+    ],
+    "step_id": "E22.1",
+    "step_index_within_event": 1,
+    "structure_basis": "procedural_interpretation",
+    "substrate_product_smiles": "COC(=O)[C@H](C)N(C)C(=O)/C=C(\\OCc1ccc2ccccc2c1)[C@@H](OC(=O)C(C)(C)[C@H](OC(C)=O)[C@H](CCCN(OCc1ccccc1)C(=O)OCc1ccccc1)NC(=O)c1nc([C@H](C)N(C)C)oc1C)C(C)C>>COC(=O)[C@H](C)N(C)C(=O)CC(=O)[C@@H](OC(=O)C(C)(C)[C@H](OC(C)=O)[C@H](CCCNOCc1ccccc1)NC(=O)c1nc([C@H](C)N(C)C)oc1C)C(C)C",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "potassium tert-butoxide"
+    ],
+    "event_id": "E22",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Explicit procedure stage; inferred intermediate graph is not independently characterized",
+    "product_labels": [
+      "6a-tetramic"
+    ],
+    "reactant_labels": [
+      "6a-deprotected"
+    ],
+    "solvents": [
+      "isopropanol"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF page: E22 preparation",
+        "pages": [
+          15,
+          16
+        ],
+        "sha256": "4700ac053c9b5a9dc34b2a1ba3b45073dc5218dd613a552c01847dd245b48e30",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main preparation schemes: E22 preparation",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "630c320d6ed45f30d71066fddb7a928a48b81df7d5d306777424d78597429510",
+        "source_id": "main"
+      }
+    ],
+    "step_id": "E22.2",
+    "step_index_within_event": 2,
+    "structure_basis": "procedural_interpretation",
+    "substrate_product_smiles": "COC(=O)[C@H](C)N(C)C(=O)CC(=O)[C@@H](OC(=O)C(C)(C)[C@H](OC(C)=O)[C@H](CCCNOCc1ccccc1)NC(=O)c1nc([C@H](C)N(C)C)oc1C)C(C)C>>CC(=O)O[C@H]([C@H](CCCNOCc1ccccc1)NC(=O)c1nc([C@H](C)N(C)C)oc1C)C(C)(C)C(=O)O[C@H](C(=O)C1=C(O)[C@H](C)N(C)C1=O)C(C)C",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [],
+    "event_id": "E22",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Explicit procedure stage; inferred intermediate graph is not independently characterized",
+    "product_labels": [
+      "6a-nitroso"
+    ],
+    "reactant_labels": [
+      "6a-tetramic",
+      "butyl-nitrite"
+    ],
+    "solvents": [
+      "dichloromethane"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF page: E22 preparation",
+        "pages": [
+          15,
+          16
+        ],
+        "sha256": "4700ac053c9b5a9dc34b2a1ba3b45073dc5218dd613a552c01847dd245b48e30",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main preparation schemes: E22 preparation",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "630c320d6ed45f30d71066fddb7a928a48b81df7d5d306777424d78597429510",
+        "source_id": "main"
+      }
+    ],
+    "step_id": "E22.3",
+    "step_index_within_event": 3,
+    "structure_basis": "procedural_interpretation",
+    "substrate_product_smiles": "CC(=O)O[C@H]([C@H](CCCNOCc1ccccc1)NC(=O)c1nc([C@H](C)N(C)C)oc1C)C(C)(C)C(=O)O[C@H](C(=O)C1=C(O)[C@H](C)N(C)C1=O)C(C)C.CCCCON=O>>CC(=O)O[C@H]([C@H](CCCN(N=O)OCc1ccccc1)NC(=O)c1nc([C@H](C)N(C)C)oc1C)C(C)(C)C(=O)O[C@H](C(=O)C1=C(O)[C@H](C)N(C)C1=O)C(C)C",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "hydrogen",
+      "Pd/C"
+    ],
+    "event_id": "E22",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Explicit procedure stage; inferred intermediate graph is not independently characterized",
+    "product_labels": [
+      "5a"
+    ],
+    "reactant_labels": [
+      "6a-nitroso"
+    ],
+    "solvents": [
+      "ethanol"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF page: E22 preparation",
+        "pages": [
+          15,
+          16
+        ],
+        "sha256": "4700ac053c9b5a9dc34b2a1ba3b45073dc5218dd613a552c01847dd245b48e30",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main preparation schemes: E22 preparation",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "630c320d6ed45f30d71066fddb7a928a48b81df7d5d306777424d78597429510",
+        "source_id": "main"
+      }
+    ],
+    "step_id": "E22.4",
+    "step_index_within_event": 4,
+    "structure_basis": "procedural_interpretation",
+    "substrate_product_smiles": "CC(=O)O[C@H]([C@H](CCCN(N=O)OCc1ccccc1)NC(=O)c1nc([C@H](C)N(C)C)oc1C)C(C)(C)C(=O)O[C@H](C(=O)C1=C(O)[C@H](C)N(C)C1=O)C(C)C>>CC(=O)O[C@H]([C@H](CCCN(O)N=O)NC(=O)c1nc([C@H](C)N(C)C)oc1C)C(C)(C)C(=O)O[C@H](C(=O)C1=C(O)[C@H](C)N(C)C1=O)C(C)C",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "hydrogen",
+      "Pd/C",
+      "2-methylnaphthalene"
+    ],
+    "event_id": "E23",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Explicit procedure stage; inferred intermediate graph is not independently characterized",
+    "product_labels": [
+      "6b-deprotected"
+    ],
+    "reactant_labels": [
+      "6b"
+    ],
+    "solvents": [
+      "ethanol"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF page: E23 preparation",
+        "pages": [
+          18,
+          19
+        ],
+        "sha256": "4700ac053c9b5a9dc34b2a1ba3b45073dc5218dd613a552c01847dd245b48e30",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main preparation schemes: E23 preparation",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "630c320d6ed45f30d71066fddb7a928a48b81df7d5d306777424d78597429510",
+        "source_id": "main"
+      }
+    ],
+    "step_id": "E23.1",
+    "step_index_within_event": 1,
+    "structure_basis": "procedural_interpretation",
+    "substrate_product_smiles": "COC(=O)C(C)(C)N(C)C(=O)/C=C(\\OCc1ccc2ccccc2c1)[C@@H](OC(=O)C(C)(C)[C@H](OC(C)=O)[C@H](CCCN(OCc1ccccc1)C(=O)OCc1ccccc1)NC(=O)c1nc([C@H](C)N(C)C)oc1C)C(C)C>>COC(=O)C(C)(C)N(C)C(=O)CC(=O)[C@@H](OC(=O)C(C)(C)[C@H](OC(C)=O)[C@H](CCCNOCc1ccccc1)NC(=O)c1nc([C@H](C)N(C)C)oc1C)C(C)C",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "potassium tert-butoxide"
+    ],
+    "event_id": "E23",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Explicit procedure stage; inferred intermediate graph is not independently characterized",
+    "product_labels": [
+      "6b-tetramic"
+    ],
+    "reactant_labels": [
+      "6b-deprotected"
+    ],
+    "solvents": [
+      "isopropanol"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF page: E23 preparation",
+        "pages": [
+          18,
+          19
+        ],
+        "sha256": "4700ac053c9b5a9dc34b2a1ba3b45073dc5218dd613a552c01847dd245b48e30",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main preparation schemes: E23 preparation",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "630c320d6ed45f30d71066fddb7a928a48b81df7d5d306777424d78597429510",
+        "source_id": "main"
+      }
+    ],
+    "step_id": "E23.2",
+    "step_index_within_event": 2,
+    "structure_basis": "procedural_interpretation",
+    "substrate_product_smiles": "COC(=O)C(C)(C)N(C)C(=O)CC(=O)[C@@H](OC(=O)C(C)(C)[C@H](OC(C)=O)[C@H](CCCNOCc1ccccc1)NC(=O)c1nc([C@H](C)N(C)C)oc1C)C(C)C>>CC(=O)O[C@H]([C@H](CCCNOCc1ccccc1)NC(=O)c1nc([C@H](C)N(C)C)oc1C)C(C)(C)C(=O)O[C@H](C(=O)C1=C(O)C(C)(C)N(C)C1=O)C(C)C",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [],
+    "event_id": "E23",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Explicit procedure stage; inferred intermediate graph is not independently characterized",
+    "product_labels": [
+      "6b-nitroso"
+    ],
+    "reactant_labels": [
+      "6b-tetramic",
+      "butyl-nitrite"
+    ],
+    "solvents": [
+      "dichloromethane"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF page: E23 preparation",
+        "pages": [
+          18,
+          19
+        ],
+        "sha256": "4700ac053c9b5a9dc34b2a1ba3b45073dc5218dd613a552c01847dd245b48e30",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main preparation schemes: E23 preparation",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "630c320d6ed45f30d71066fddb7a928a48b81df7d5d306777424d78597429510",
+        "source_id": "main"
+      }
+    ],
+    "step_id": "E23.3",
+    "step_index_within_event": 3,
+    "structure_basis": "procedural_interpretation",
+    "substrate_product_smiles": "CC(=O)O[C@H]([C@H](CCCNOCc1ccccc1)NC(=O)c1nc([C@H](C)N(C)C)oc1C)C(C)(C)C(=O)O[C@H](C(=O)C1=C(O)C(C)(C)N(C)C1=O)C(C)C.CCCCON=O>>CC(=O)O[C@H]([C@H](CCCN(N=O)OCc1ccccc1)NC(=O)c1nc([C@H](C)N(C)C)oc1C)C(C)(C)C(=O)O[C@H](C(=O)C1=C(O)C(C)(C)N(C)C1=O)C(C)C",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "hydrogen",
+      "Pd/C"
+    ],
+    "event_id": "E23",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Explicit procedure stage; inferred intermediate graph is not independently characterized",
+    "product_labels": [
+      "5b"
+    ],
+    "reactant_labels": [
+      "6b-nitroso"
+    ],
+    "solvents": [
+      "ethanol"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF page: E23 preparation",
+        "pages": [
+          18,
+          19
+        ],
+        "sha256": "4700ac053c9b5a9dc34b2a1ba3b45073dc5218dd613a552c01847dd245b48e30",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main preparation schemes: E23 preparation",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "630c320d6ed45f30d71066fddb7a928a48b81df7d5d306777424d78597429510",
+        "source_id": "main"
+      }
+    ],
+    "step_id": "E23.4",
+    "step_index_within_event": 4,
+    "structure_basis": "procedural_interpretation",
+    "substrate_product_smiles": "CC(=O)O[C@H]([C@H](CCCN(N=O)OCc1ccccc1)NC(=O)c1nc([C@H](C)N(C)C)oc1C)C(C)(C)C(=O)O[C@H](C(=O)C1=C(O)C(C)(C)N(C)C1=O)C(C)C>>CC(=O)O[C@H]([C@H](CCCN(O)N=O)NC(=O)c1nc([C@H](C)N(C)C)oc1C)C(C)(C)C(=O)O[C@H](C(=O)C1=C(O)C(C)(C)N(C)C1=O)C(C)C",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "hydrogen",
+      "Pd/C",
+      "2-methylnaphthalene"
+    ],
+    "event_id": "E24",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Explicit procedure stage; inferred intermediate graph is not independently characterized",
+    "product_labels": [
+      "15a-deprotected"
+    ],
+    "reactant_labels": [
+      "15a"
+    ],
+    "solvents": [
+      "ethanol"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF page: E24 preparation",
+        "pages": [
+          21,
+          22
+        ],
+        "sha256": "4700ac053c9b5a9dc34b2a1ba3b45073dc5218dd613a552c01847dd245b48e30",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main preparation schemes: E24 preparation",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "630c320d6ed45f30d71066fddb7a928a48b81df7d5d306777424d78597429510",
+        "source_id": "main"
+      }
+    ],
+    "step_id": "E24.1",
+    "step_index_within_event": 1,
+    "structure_basis": "procedural_interpretation",
+    "substrate_product_smiles": "COC(=O)[C@H](C)N(C)C(=O)/C=C(\\OCc1ccc2ccccc2c1)[C@@H](OC(=O)C(C)(C)[C@H](OC(C)=O)[C@H](CCCN(OCc1ccccc1)C(=O)OCc1ccccc1)NC(=O)[C@H]1N=C([C@H](C)N(C)C)O[C@@H]1C)C(C)C>>COC(=O)[C@H](C)N(C)C(=O)CC(=O)[C@@H](OC(=O)C(C)(C)[C@H](OC(C)=O)[C@H](CCCNOCc1ccccc1)NC(=O)[C@H]1N=C([C@H](C)N(C)C)O[C@@H]1C)C(C)C",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "potassium tert-butoxide"
+    ],
+    "event_id": "E24",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Explicit procedure stage; inferred intermediate graph is not independently characterized",
+    "product_labels": [
+      "15a-tetramic"
+    ],
+    "reactant_labels": [
+      "15a-deprotected"
+    ],
+    "solvents": [
+      "isopropanol"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF page: E24 preparation",
+        "pages": [
+          21,
+          22
+        ],
+        "sha256": "4700ac053c9b5a9dc34b2a1ba3b45073dc5218dd613a552c01847dd245b48e30",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main preparation schemes: E24 preparation",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "630c320d6ed45f30d71066fddb7a928a48b81df7d5d306777424d78597429510",
+        "source_id": "main"
+      }
+    ],
+    "step_id": "E24.2",
+    "step_index_within_event": 2,
+    "structure_basis": "procedural_interpretation",
+    "substrate_product_smiles": "COC(=O)[C@H](C)N(C)C(=O)CC(=O)[C@@H](OC(=O)C(C)(C)[C@H](OC(C)=O)[C@H](CCCNOCc1ccccc1)NC(=O)[C@H]1N=C([C@H](C)N(C)C)O[C@@H]1C)C(C)C>>CC(=O)O[C@H]([C@H](CCCNOCc1ccccc1)NC(=O)[C@H]1N=C([C@H](C)N(C)C)O[C@@H]1C)C(C)(C)C(=O)O[C@H](C(=O)C1=C(O)[C@H](C)N(C)C1=O)C(C)C",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [],
+    "event_id": "E24",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Explicit procedure stage; inferred intermediate graph is not independently characterized",
+    "product_labels": [
+      "15a-nitroso"
+    ],
+    "reactant_labels": [
+      "15a-tetramic",
+      "butyl-nitrite"
+    ],
+    "solvents": [
+      "dichloromethane"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF page: E24 preparation",
+        "pages": [
+          21,
+          22
+        ],
+        "sha256": "4700ac053c9b5a9dc34b2a1ba3b45073dc5218dd613a552c01847dd245b48e30",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main preparation schemes: E24 preparation",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "630c320d6ed45f30d71066fddb7a928a48b81df7d5d306777424d78597429510",
+        "source_id": "main"
+      }
+    ],
+    "step_id": "E24.3",
+    "step_index_within_event": 3,
+    "structure_basis": "procedural_interpretation",
+    "substrate_product_smiles": "CC(=O)O[C@H]([C@H](CCCNOCc1ccccc1)NC(=O)[C@H]1N=C([C@H](C)N(C)C)O[C@@H]1C)C(C)(C)C(=O)O[C@H](C(=O)C1=C(O)[C@H](C)N(C)C1=O)C(C)C.CCCCON=O>>CC(=O)O[C@H]([C@H](CCCN(N=O)OCc1ccccc1)NC(=O)[C@H]1N=C([C@H](C)N(C)C)O[C@@H]1C)C(C)(C)C(=O)O[C@H](C(=O)C1=C(O)[C@H](C)N(C)C1=O)C(C)C",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "hydrogen",
+      "Pd/C"
+    ],
+    "event_id": "E24",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Explicit procedure stage; inferred intermediate graph is not independently characterized",
+    "product_labels": [
+      "1a"
+    ],
+    "reactant_labels": [
+      "15a-nitroso"
+    ],
+    "solvents": [
+      "ethanol"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF page: E24 preparation",
+        "pages": [
+          21,
+          22
+        ],
+        "sha256": "4700ac053c9b5a9dc34b2a1ba3b45073dc5218dd613a552c01847dd245b48e30",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main preparation schemes: E24 preparation",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "630c320d6ed45f30d71066fddb7a928a48b81df7d5d306777424d78597429510",
+        "source_id": "main"
+      }
+    ],
+    "step_id": "E24.4",
+    "step_index_within_event": 4,
+    "structure_basis": "procedural_interpretation",
+    "substrate_product_smiles": "CC(=O)O[C@H]([C@H](CCCN(N=O)OCc1ccccc1)NC(=O)[C@H]1N=C([C@H](C)N(C)C)O[C@@H]1C)C(C)(C)C(=O)O[C@H](C(=O)C1=C(O)[C@H](C)N(C)C1=O)C(C)C>>CC(=O)O[C@H]([C@H](CCCN(O)N=O)NC(=O)[C@H]1N=C([C@H](C)N(C)C)O[C@@H]1C)C(C)(C)C(=O)O[C@H](C(=O)C1=C(O)[C@H](C)N(C)C1=O)C(C)C",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "hydrogen",
+      "Pd/C",
+      "2-methylnaphthalene"
+    ],
+    "event_id": "E25",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Explicit procedure stage; inferred intermediate graph is not independently characterized",
+    "product_labels": [
+      "15b-deprotected"
+    ],
+    "reactant_labels": [
+      "15b"
+    ],
+    "solvents": [
+      "ethanol"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF page: E25 preparation",
+        "pages": [
+          23,
+          24
+        ],
+        "sha256": "4700ac053c9b5a9dc34b2a1ba3b45073dc5218dd613a552c01847dd245b48e30",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main preparation schemes: E25 preparation",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "630c320d6ed45f30d71066fddb7a928a48b81df7d5d306777424d78597429510",
+        "source_id": "main"
+      }
+    ],
+    "step_id": "E25.1",
+    "step_index_within_event": 1,
+    "structure_basis": "procedural_interpretation",
+    "substrate_product_smiles": "COC(=O)C(C)(C)N(C)C(=O)/C=C(\\OCc1ccc2ccccc2c1)[C@@H](OC(=O)C(C)(C)[C@H](OC(C)=O)[C@H](CCCN(OCc1ccccc1)C(=O)OCc1ccccc1)NC(=O)[C@H]1N=C([C@H](C)N(C)C)O[C@@H]1C)C(C)C>>COC(=O)C(C)(C)N(C)C(=O)CC(=O)[C@@H](OC(=O)C(C)(C)[C@H](OC(C)=O)[C@H](CCCNOCc1ccccc1)NC(=O)[C@H]1N=C([C@H](C)N(C)C)O[C@@H]1C)C(C)C",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "potassium tert-butoxide"
+    ],
+    "event_id": "E25",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Explicit procedure stage; inferred intermediate graph is not independently characterized",
+    "product_labels": [
+      "15b-tetramic"
+    ],
+    "reactant_labels": [
+      "15b-deprotected"
+    ],
+    "solvents": [
+      "isopropanol"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF page: E25 preparation",
+        "pages": [
+          23,
+          24
+        ],
+        "sha256": "4700ac053c9b5a9dc34b2a1ba3b45073dc5218dd613a552c01847dd245b48e30",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main preparation schemes: E25 preparation",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "630c320d6ed45f30d71066fddb7a928a48b81df7d5d306777424d78597429510",
+        "source_id": "main"
+      }
+    ],
+    "step_id": "E25.2",
+    "step_index_within_event": 2,
+    "structure_basis": "procedural_interpretation",
+    "substrate_product_smiles": "COC(=O)C(C)(C)N(C)C(=O)CC(=O)[C@@H](OC(=O)C(C)(C)[C@H](OC(C)=O)[C@H](CCCNOCc1ccccc1)NC(=O)[C@H]1N=C([C@H](C)N(C)C)O[C@@H]1C)C(C)C>>CC(=O)O[C@H]([C@H](CCCNOCc1ccccc1)NC(=O)[C@H]1N=C([C@H](C)N(C)C)O[C@@H]1C)C(C)(C)C(=O)O[C@H](C(=O)C1=C(O)C(C)(C)N(C)C1=O)C(C)C",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [],
+    "event_id": "E25",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Explicit procedure stage; inferred intermediate graph is not independently characterized",
+    "product_labels": [
+      "15b-nitroso"
+    ],
+    "reactant_labels": [
+      "15b-tetramic",
+      "butyl-nitrite"
+    ],
+    "solvents": [
+      "dichloromethane"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF page: E25 preparation",
+        "pages": [
+          23,
+          24
+        ],
+        "sha256": "4700ac053c9b5a9dc34b2a1ba3b45073dc5218dd613a552c01847dd245b48e30",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main preparation schemes: E25 preparation",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "630c320d6ed45f30d71066fddb7a928a48b81df7d5d306777424d78597429510",
+        "source_id": "main"
+      }
+    ],
+    "step_id": "E25.3",
+    "step_index_within_event": 3,
+    "structure_basis": "procedural_interpretation",
+    "substrate_product_smiles": "CC(=O)O[C@H]([C@H](CCCNOCc1ccccc1)NC(=O)[C@H]1N=C([C@H](C)N(C)C)O[C@@H]1C)C(C)(C)C(=O)O[C@H](C(=O)C1=C(O)C(C)(C)N(C)C1=O)C(C)C.CCCCON=O>>CC(=O)O[C@H]([C@H](CCCN(N=O)OCc1ccccc1)NC(=O)[C@H]1N=C([C@H](C)N(C)C)O[C@@H]1C)C(C)(C)C(=O)O[C@H](C(=O)C1=C(O)C(C)(C)N(C)C1=O)C(C)C",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "hydrogen",
+      "Pd/C"
+    ],
+    "event_id": "E25",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Explicit procedure stage; inferred intermediate graph is not independently characterized",
+    "product_labels": [
+      "1b"
+    ],
+    "reactant_labels": [
+      "15b-nitroso"
+    ],
+    "solvents": [
+      "ethanol"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF page: E25 preparation",
+        "pages": [
+          23,
+          24
+        ],
+        "sha256": "4700ac053c9b5a9dc34b2a1ba3b45073dc5218dd613a552c01847dd245b48e30",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main preparation schemes: E25 preparation",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "630c320d6ed45f30d71066fddb7a928a48b81df7d5d306777424d78597429510",
+        "source_id": "main"
+      }
+    ],
+    "step_id": "E25.4",
+    "step_index_within_event": 4,
+    "structure_basis": "procedural_interpretation",
+    "substrate_product_smiles": "CC(=O)O[C@H]([C@H](CCCN(N=O)OCc1ccccc1)NC(=O)[C@H]1N=C([C@H](C)N(C)C)O[C@@H]1C)C(C)(C)C(=O)O[C@H](C(=O)C1=C(O)C(C)(C)N(C)C1=O)C(C)C>>CC(=O)O[C@H]([C@H](CCCN(O)N=O)NC(=O)[C@H]1N=C([C@H](C)N(C)C)O[C@@H]1C)C(C)(C)C(=O)O[C@H](C(=O)C1=C(O)C(C)(C)N(C)C1=O)C(C)C",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "hydrogen",
+      "Pd/C",
+      "2-methylnaphthalene"
+    ],
+    "event_id": "E26",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Explicit procedure stage; inferred intermediate graph is not independently characterized",
+    "product_labels": [
+      "15c-deprotected"
+    ],
+    "reactant_labels": [
+      "15c"
+    ],
+    "solvents": [
+      "ethanol"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF page: E26 preparation",
+        "pages": [
+          26,
+          27
+        ],
+        "sha256": "4700ac053c9b5a9dc34b2a1ba3b45073dc5218dd613a552c01847dd245b48e30",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main preparation schemes: E26 preparation",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "630c320d6ed45f30d71066fddb7a928a48b81df7d5d306777424d78597429510",
+        "source_id": "main"
+      }
+    ],
+    "step_id": "E26.1",
+    "step_index_within_event": 1,
+    "structure_basis": "procedural_interpretation",
+    "substrate_product_smiles": "COC(=O)[C@H](C)N(C)C(=O)/C=C(\\OCc1ccc2ccccc2c1)[C@@H](OC(=O)C(C)(C)[C@H](OC(C)=O)[C@H](CCCN(OCc1ccccc1)C(=O)OCc1ccccc1)NC(=O)[C@H]1N=C(C(C)(C)N(C)C)O[C@@H]1C)C(C)C>>COC(=O)[C@H](C)N(C)C(=O)CC(=O)[C@@H](OC(=O)C(C)(C)[C@H](OC(C)=O)[C@H](CCCNOCc1ccccc1)NC(=O)[C@H]1N=C(C(C)(C)N(C)C)O[C@@H]1C)C(C)C",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "potassium tert-butoxide"
+    ],
+    "event_id": "E26",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Explicit procedure stage; inferred intermediate graph is not independently characterized",
+    "product_labels": [
+      "15c-tetramic"
+    ],
+    "reactant_labels": [
+      "15c-deprotected"
+    ],
+    "solvents": [
+      "isopropanol"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF page: E26 preparation",
+        "pages": [
+          26,
+          27
+        ],
+        "sha256": "4700ac053c9b5a9dc34b2a1ba3b45073dc5218dd613a552c01847dd245b48e30",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main preparation schemes: E26 preparation",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "630c320d6ed45f30d71066fddb7a928a48b81df7d5d306777424d78597429510",
+        "source_id": "main"
+      }
+    ],
+    "step_id": "E26.2",
+    "step_index_within_event": 2,
+    "structure_basis": "procedural_interpretation",
+    "substrate_product_smiles": "COC(=O)[C@H](C)N(C)C(=O)CC(=O)[C@@H](OC(=O)C(C)(C)[C@H](OC(C)=O)[C@H](CCCNOCc1ccccc1)NC(=O)[C@H]1N=C(C(C)(C)N(C)C)O[C@@H]1C)C(C)C>>CC(=O)O[C@H]([C@H](CCCNOCc1ccccc1)NC(=O)[C@H]1N=C(C(C)(C)N(C)C)O[C@@H]1C)C(C)(C)C(=O)O[C@H](C(=O)C1=C(O)[C@H](C)N(C)C1=O)C(C)C",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [],
+    "event_id": "E26",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Explicit procedure stage; inferred intermediate graph is not independently characterized",
+    "product_labels": [
+      "15c-nitroso"
+    ],
+    "reactant_labels": [
+      "15c-tetramic",
+      "butyl-nitrite"
+    ],
+    "solvents": [
+      "dichloromethane"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF page: E26 preparation",
+        "pages": [
+          26,
+          27
+        ],
+        "sha256": "4700ac053c9b5a9dc34b2a1ba3b45073dc5218dd613a552c01847dd245b48e30",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main preparation schemes: E26 preparation",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "630c320d6ed45f30d71066fddb7a928a48b81df7d5d306777424d78597429510",
+        "source_id": "main"
+      }
+    ],
+    "step_id": "E26.3",
+    "step_index_within_event": 3,
+    "structure_basis": "procedural_interpretation",
+    "substrate_product_smiles": "CC(=O)O[C@H]([C@H](CCCNOCc1ccccc1)NC(=O)[C@H]1N=C(C(C)(C)N(C)C)O[C@@H]1C)C(C)(C)C(=O)O[C@H](C(=O)C1=C(O)[C@H](C)N(C)C1=O)C(C)C.CCCCON=O>>CC(=O)O[C@H]([C@H](CCCN(N=O)OCc1ccccc1)NC(=O)[C@H]1N=C(C(C)(C)N(C)C)O[C@@H]1C)C(C)(C)C(=O)O[C@H](C(=O)C1=C(O)[C@H](C)N(C)C1=O)C(C)C",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "hydrogen",
+      "Pd/C"
+    ],
+    "event_id": "E26",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Explicit procedure stage; inferred intermediate graph is not independently characterized",
+    "product_labels": [
+      "1c"
+    ],
+    "reactant_labels": [
+      "15c-nitroso"
+    ],
+    "solvents": [
+      "ethanol"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF page: E26 preparation",
+        "pages": [
+          26,
+          27
+        ],
+        "sha256": "4700ac053c9b5a9dc34b2a1ba3b45073dc5218dd613a552c01847dd245b48e30",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main preparation schemes: E26 preparation",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "630c320d6ed45f30d71066fddb7a928a48b81df7d5d306777424d78597429510",
+        "source_id": "main"
+      }
+    ],
+    "step_id": "E26.4",
+    "step_index_within_event": 4,
+    "structure_basis": "procedural_interpretation",
+    "substrate_product_smiles": "CC(=O)O[C@H]([C@H](CCCN(N=O)OCc1ccccc1)NC(=O)[C@H]1N=C(C(C)(C)N(C)C)O[C@@H]1C)C(C)(C)C(=O)O[C@H](C(=O)C1=C(O)[C@H](C)N(C)C1=O)C(C)C>>CC(=O)O[C@H]([C@H](CCCN(O)N=O)NC(=O)[C@H]1N=C(C(C)(C)N(C)C)O[C@@H]1C)C(C)(C)C(=O)O[C@H](C(=O)C1=C(O)[C@H](C)N(C)C1=O)C(C)C",
+    "yield_percent": null
+  }
+]

@@ -1,0 +1,1198 @@
+[
+  {
+    "atom_mapping_status": "not_assigned",
+    "category": "main_route",
+    "event_id": "E01",
+    "formal_benchmark_eligible": false,
+    "notes": "One-pot sequence; no isolated yield or drawing for the two internal states.",
+    "paper_id": "paper-0ae671ac9a8bbe22",
+    "product_labels": [
+      "24"
+    ],
+    "reactant_labels": [
+      "23"
+    ],
+    "reaction_id": "paper-0ae671ac9a8bbe22:event:E01",
+    "reported_yields": [
+      {
+        "from_label": null,
+        "percent": 69,
+        "product_label": "24",
+        "scope": "event"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "si_pages": [
+      2,
+      3
+    ],
+    "smiles_scope": "substrates_and_reported_products_only; agents separate; not atom-balanced",
+    "source_references": [
+      {
+        "locator": "Experimental preparation / reaction drawing",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "12d89578011a62dfcb72d6e927df1499bb52a7f00da663668fb9d229fba97c32",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E01.1",
+      "E01.2",
+      "E01.3"
+    ],
+    "substrate_product_smiles": "O=C(CCBr)N[C@H]1[C@H]2C=CC[C@]1(c1ccccc1[N+](=O)[O-])C(=O)CC2>>O=C(CCBr)N[C@H]1[C@H]2C=CC[C@@]13c1ccccc1N(C(=O)OCc1ccccc1)[C@H]3CC2"
+  },
+  {
+    "atom_mapping_status": "not_assigned",
+    "category": "main_route",
+    "event_id": "E02",
+    "formal_benchmark_eligible": false,
+    "notes": "SI reports flash purification of the dialdehyde; article says no column purification. Preserve both claims.",
+    "paper_id": "paper-0ae671ac9a8bbe22",
+    "product_labels": [
+      "25"
+    ],
+    "reactant_labels": [
+      "24"
+    ],
+    "reaction_id": "paper-0ae671ac9a8bbe22:event:E02",
+    "reported_yields": [
+      {
+        "from_label": "24",
+        "percent": 53,
+        "product_label": "25",
+        "scope": "two_steps"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "si_pages": [
+      3,
+      4
+    ],
+    "smiles_scope": "substrates_and_reported_products_only; agents separate; not atom-balanced",
+    "source_references": [
+      {
+        "locator": "Experimental preparation / reaction drawing",
+        "pages": [
+          3,
+          4
+        ],
+        "sha256": "12d89578011a62dfcb72d6e927df1499bb52a7f00da663668fb9d229fba97c32",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E02.1",
+      "E02.2"
+    ],
+    "substrate_product_smiles": "O=C(CCBr)N[C@H]1[C@H]2C=CC[C@@]13c1ccccc1N(C(=O)OCc1ccccc1)[C@H]3CC2>>O=C[C@]12CCC(=O)N3[C@@H](O)C[C@@]4(c5ccccc5N(C(=O)OCc5ccccc5)[C@H]4CC1)[C@@H]32"
+  },
+  {
+    "atom_mapping_status": "not_assigned",
+    "category": "main_route",
+    "event_id": "E03",
+    "formal_benchmark_eligible": false,
+    "notes": "Shared transformation repeated in preparations of 1 and 2; impure with Ph3PO, no standalone yield. Hemiaminal C5 epimerization is reported.",
+    "paper_id": "paper-0ae671ac9a8bbe22",
+    "product_labels": [
+      "26"
+    ],
+    "reactant_labels": [
+      "25"
+    ],
+    "reaction_id": "paper-0ae671ac9a8bbe22:event:E03",
+    "reported_yields": [],
+    "review_status": "pending_independent_chemist_review",
+    "si_pages": [
+      5,
+      6,
+      7
+    ],
+    "smiles_scope": "substrates_and_reported_products_only; agents separate; not atom-balanced",
+    "source_references": [
+      {
+        "locator": "Experimental preparation / reaction drawing",
+        "pages": [
+          5,
+          6,
+          7
+        ],
+        "sha256": "12d89578011a62dfcb72d6e927df1499bb52a7f00da663668fb9d229fba97c32",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E03.1"
+    ],
+    "substrate_product_smiles": "O=C[C@]12CCC(=O)N3[C@@H](O)C[C@@]4(c5ccccc5N(C(=O)OCc5ccccc5)[C@H]4CC1)[C@@H]32>>C=C[C@]12CCC(=O)N3C(O)C[C@@]4(c5ccccc5N(C(=O)OCc5ccccc5)[C@H]4CC1)[C@@H]32"
+  },
+  {
+    "atom_mapping_status": "not_assigned",
+    "category": "main_route",
+    "event_id": "E04",
+    "formal_benchmark_eligible": false,
+    "notes": "",
+    "paper_id": "paper-0ae671ac9a8bbe22",
+    "product_labels": [
+      "1"
+    ],
+    "reactant_labels": [
+      "26"
+    ],
+    "reaction_id": "paper-0ae671ac9a8bbe22:event:E04",
+    "reported_yields": [
+      {
+        "from_label": "25",
+        "percent": 56,
+        "product_label": "1",
+        "scope": "three_steps_from_25"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "si_pages": [
+      5,
+      6
+    ],
+    "smiles_scope": "substrates_and_reported_products_only; agents separate; not atom-balanced",
+    "source_references": [
+      {
+        "locator": "Experimental preparation / reaction drawing",
+        "pages": [
+          5,
+          6
+        ],
+        "sha256": "12d89578011a62dfcb72d6e927df1499bb52a7f00da663668fb9d229fba97c32",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E04.1",
+      "E04.2"
+    ],
+    "substrate_product_smiles": "C=C[C@]12CCC(=O)N3C(O)C[C@@]4(c5ccccc5N(C(=O)OCc5ccccc5)[C@H]4CC1)[C@@H]32>>CC[C@]12CCCN3CC[C@@]4(c5ccccc5N[C@H]4CC1)[C@@H]32"
+  },
+  {
+    "atom_mapping_status": "not_assigned",
+    "category": "main_route",
+    "event_id": "E05",
+    "formal_benchmark_eligible": false,
+    "notes": "",
+    "paper_id": "paper-0ae671ac9a8bbe22",
+    "product_labels": [
+      "2"
+    ],
+    "reactant_labels": [
+      "26"
+    ],
+    "reaction_id": "paper-0ae671ac9a8bbe22:event:E05",
+    "reported_yields": [
+      {
+        "from_label": "25",
+        "percent": 79,
+        "product_label": "2",
+        "scope": "three_steps_from_25"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "si_pages": [
+      6,
+      7
+    ],
+    "smiles_scope": "substrates_and_reported_products_only; agents separate; not atom-balanced",
+    "source_references": [
+      {
+        "locator": "Experimental preparation / reaction drawing",
+        "pages": [
+          6,
+          7
+        ],
+        "sha256": "12d89578011a62dfcb72d6e927df1499bb52a7f00da663668fb9d229fba97c32",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E05.1",
+      "E05.2"
+    ],
+    "substrate_product_smiles": "C=C[C@]12CCC(=O)N3C(O)C[C@@]4(c5ccccc5N(C(=O)OCc5ccccc5)[C@H]4CC1)[C@@H]32>>CC[C@]12CCCN3CC[C@@]4(c5ccccc5N(C)[C@H]4CC1)[C@@H]32"
+  },
+  {
+    "atom_mapping_status": "not_assigned",
+    "category": "main_route",
+    "event_id": "E06",
+    "formal_benchmark_eligible": false,
+    "notes": "",
+    "paper_id": "paper-0ae671ac9a8bbe22",
+    "product_labels": [
+      "27"
+    ],
+    "reactant_labels": [
+      "1"
+    ],
+    "reaction_id": "paper-0ae671ac9a8bbe22:event:E06",
+    "reported_yields": [
+      {
+        "from_label": null,
+        "percent": 100,
+        "product_label": "27",
+        "scope": "event"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "si_pages": [
+      7,
+      8
+    ],
+    "smiles_scope": "substrates_and_reported_products_only; agents separate; not atom-balanced",
+    "source_references": [
+      {
+        "locator": "Experimental preparation / reaction drawing",
+        "pages": [
+          7,
+          8
+        ],
+        "sha256": "12d89578011a62dfcb72d6e927df1499bb52a7f00da663668fb9d229fba97c32",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E06.1"
+    ],
+    "substrate_product_smiles": "CC[C@]12CCCN3CC[C@@]4(c5ccccc5N[C@H]4CC1)[C@@H]32>>CC[C@]12CCCN3CC[C@@]4(c5ccccc5N(C(C)=O)[C@H]4CC1)[C@@H]32"
+  },
+  {
+    "atom_mapping_status": "not_assigned",
+    "category": "main_route",
+    "event_id": "E07",
+    "formal_benchmark_eligible": false,
+    "notes": "Article calls product (+); SI calls it (-) and reports negative rotation. Structure is transcribed from the drawing without resolving the textual sign conflict.",
+    "paper_id": "paper-0ae671ac9a8bbe22",
+    "product_labels": [
+      "3"
+    ],
+    "reactant_labels": [
+      "27"
+    ],
+    "reaction_id": "paper-0ae671ac9a8bbe22:event:E07",
+    "reported_yields": [
+      {
+        "from_label": null,
+        "percent": 88,
+        "product_label": "3",
+        "scope": "event"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "si_pages": [
+      8,
+      9
+    ],
+    "smiles_scope": "substrates_and_reported_products_only; agents separate; not atom-balanced",
+    "source_references": [
+      {
+        "locator": "Experimental preparation / reaction drawing",
+        "pages": [
+          8,
+          9
+        ],
+        "sha256": "12d89578011a62dfcb72d6e927df1499bb52a7f00da663668fb9d229fba97c32",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E07.1"
+    ],
+    "substrate_product_smiles": "CC[C@]12CCCN3CC[C@@]4(c5ccccc5N(C(C)=O)[C@H]4CC1)[C@@H]32>>CC[C@]12CCCN3CC[C@@]4(c5cccc(O)c5N(C(C)=O)[C@H]4CC1)[C@@H]32"
+  },
+  {
+    "atom_mapping_status": "not_assigned",
+    "category": "main_route",
+    "event_id": "E08",
+    "formal_benchmark_eligible": false,
+    "notes": "",
+    "paper_id": "paper-0ae671ac9a8bbe22",
+    "product_labels": [
+      "4"
+    ],
+    "reactant_labels": [
+      "3"
+    ],
+    "reaction_id": "paper-0ae671ac9a8bbe22:event:E08",
+    "reported_yields": [
+      {
+        "from_label": null,
+        "percent": 99,
+        "product_label": "4",
+        "scope": "event"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "si_pages": [
+      9,
+      10
+    ],
+    "smiles_scope": "substrates_and_reported_products_only; agents separate; not atom-balanced",
+    "source_references": [
+      {
+        "locator": "Experimental preparation / reaction drawing",
+        "pages": [
+          9,
+          10
+        ],
+        "sha256": "12d89578011a62dfcb72d6e927df1499bb52a7f00da663668fb9d229fba97c32",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E08.1"
+    ],
+    "substrate_product_smiles": "CC[C@]12CCCN3CC[C@@]4(c5cccc(O)c5N(C(C)=O)[C@H]4CC1)[C@@H]32>>CC[C@]12CCCN3CC[C@@]4(c5cccc(OC)c5N(C(C)=O)[C@H]4CC1)[C@@H]32"
+  },
+  {
+    "atom_mapping_status": "not_assigned",
+    "category": "main_route",
+    "event_id": "E09",
+    "formal_benchmark_eligible": false,
+    "notes": "",
+    "paper_id": "paper-0ae671ac9a8bbe22",
+    "product_labels": [
+      "5"
+    ],
+    "reactant_labels": [
+      "1"
+    ],
+    "reaction_id": "paper-0ae671ac9a8bbe22:event:E09",
+    "reported_yields": [
+      {
+        "from_label": null,
+        "percent": 79,
+        "product_label": "5",
+        "scope": "event"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "si_pages": [
+      10
+    ],
+    "smiles_scope": "substrates_and_reported_products_only; agents separate; not atom-balanced",
+    "source_references": [
+      {
+        "locator": "Experimental preparation / reaction drawing",
+        "pages": [
+          10
+        ],
+        "sha256": "12d89578011a62dfcb72d6e927df1499bb52a7f00da663668fb9d229fba97c32",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E09.1"
+    ],
+    "substrate_product_smiles": "CC[C@]12CCCN3CC[C@@]4(c5ccccc5N[C@H]4CC1)[C@@H]32>>CC[C@]12CCCN3CC[C@]4(C(=Nc5ccccc54)CC1)[C@@H]32"
+  },
+  {
+    "atom_mapping_status": "not_assigned",
+    "category": "main_route",
+    "event_id": "E10",
+    "formal_benchmark_eligible": false,
+    "notes": "",
+    "paper_id": "paper-0ae671ac9a8bbe22",
+    "product_labels": [
+      "6"
+    ],
+    "reactant_labels": [
+      "5"
+    ],
+    "reaction_id": "paper-0ae671ac9a8bbe22:event:E10",
+    "reported_yields": [
+      {
+        "from_label": null,
+        "percent": 64,
+        "product_label": "6",
+        "scope": "event"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "si_pages": [
+      12,
+      13
+    ],
+    "smiles_scope": "substrates_and_reported_products_only; agents separate; not atom-balanced",
+    "source_references": [
+      {
+        "locator": "Experimental preparation / reaction drawing",
+        "pages": [
+          12,
+          13
+        ],
+        "sha256": "12d89578011a62dfcb72d6e927df1499bb52a7f00da663668fb9d229fba97c32",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E10.1"
+    ],
+    "substrate_product_smiles": "CC[C@]12CCCN3CC[C@]4(C(=Nc5ccccc54)CC1)[C@@H]32>>CC[C@]12CCCN(CCc3c([nH]c4ccccc34)CC1)C2"
+  },
+  {
+    "atom_mapping_status": "not_assigned",
+    "category": "main_route",
+    "event_id": "E11",
+    "formal_benchmark_eligible": false,
+    "notes": "31 is an isolated N-substitution side product, not a subsequent step.",
+    "paper_id": "paper-0ae671ac9a8bbe22",
+    "product_labels": [
+      "7",
+      "31"
+    ],
+    "reactant_labels": [
+      "5"
+    ],
+    "reaction_id": "paper-0ae671ac9a8bbe22:event:E11",
+    "reported_yields": [
+      {
+        "from_label": null,
+        "percent": 50,
+        "product_label": "7",
+        "scope": "event"
+      },
+      {
+        "from_label": null,
+        "percent": 11,
+        "product_label": "31",
+        "scope": "event"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "si_pages": [
+      13,
+      14
+    ],
+    "smiles_scope": "substrates_and_reported_products_only; agents separate; not atom-balanced",
+    "source_references": [
+      {
+        "locator": "Experimental preparation / reaction drawing",
+        "pages": [
+          13,
+          14
+        ],
+        "sha256": "12d89578011a62dfcb72d6e927df1499bb52a7f00da663668fb9d229fba97c32",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E11.1"
+    ],
+    "substrate_product_smiles": "CC[C@]12CCCN3CC[C@]4(C(=Nc5ccccc54)CC1)[C@@H]32>>CC[C@]12CCCN3CC[C@]4(C(=C(C(=O)OC)C1)Nc1ccccc14)[C@@H]32.CC[C@@]12CC=C3N(C(=O)OC)c4ccccc4[C@@]34CCN(CCC1)[C@@H]24"
+  },
+  {
+    "atom_mapping_status": "not_assigned",
+    "category": "alternative_and_side_products",
+    "event_id": "E12",
+    "formal_benchmark_eligible": false,
+    "notes": "Inseparable mixture, ratio approximately 2.6:1 by NMR.",
+    "paper_id": "paper-0ae671ac9a8bbe22",
+    "product_labels": [
+      "5",
+      "28"
+    ],
+    "reactant_labels": [
+      "1"
+    ],
+    "reaction_id": "paper-0ae671ac9a8bbe22:event:E12",
+    "reported_yields": [
+      {
+        "from_label": null,
+        "percent": 53,
+        "product_label": "5",
+        "scope": "event"
+      },
+      {
+        "from_label": null,
+        "percent": 20,
+        "product_label": "28",
+        "scope": "event"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "si_pages": [
+      11
+    ],
+    "smiles_scope": "substrates_and_reported_products_only; agents separate; not atom-balanced",
+    "source_references": [
+      {
+        "locator": "Experimental preparation / reaction drawing",
+        "pages": [
+          11
+        ],
+        "sha256": "12d89578011a62dfcb72d6e927df1499bb52a7f00da663668fb9d229fba97c32",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E12.1"
+    ],
+    "substrate_product_smiles": "CC[C@]12CCCN3CC[C@@]4(c5ccccc5N[C@H]4CC1)[C@@H]32>>CC[C@]12CCCN3CC[C@]4(C(=Nc5ccccc54)CC1)[C@@H]32.CC[C@]12CCCN3CC[C@@]4(c5cccc(CSC)c5N[C@H]4CC1)[C@@H]32"
+  },
+  {
+    "atom_mapping_status": "not_assigned",
+    "category": "alternative_and_side_products",
+    "event_id": "E13",
+    "formal_benchmark_eligible": false,
+    "notes": "One mixture experiment, two separately isolated products. Inputs are co-processed, not coupled.",
+    "paper_id": "paper-0ae671ac9a8bbe22",
+    "product_labels": [
+      "29",
+      "30"
+    ],
+    "reactant_labels": [
+      "5",
+      "28"
+    ],
+    "reaction_id": "paper-0ae671ac9a8bbe22:event:E13",
+    "reported_yields": [
+      {
+        "from_label": "5",
+        "percent": 96,
+        "product_label": "29",
+        "scope": "component"
+      },
+      {
+        "from_label": "28",
+        "percent": 95,
+        "product_label": "30",
+        "scope": "component"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "si_pages": [
+      11,
+      12
+    ],
+    "smiles_scope": "substrates_and_reported_products_only; agents separate; not atom-balanced",
+    "source_references": [
+      {
+        "locator": "Experimental preparation / reaction drawing",
+        "pages": [
+          11,
+          12
+        ],
+        "sha256": "12d89578011a62dfcb72d6e927df1499bb52a7f00da663668fb9d229fba97c32",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E13.1"
+    ],
+    "substrate_product_smiles": "CC[C@]12CCCN3CC[C@]4(C(=Nc5ccccc54)CC1)[C@@H]32.CC[C@]12CCCN3CC[C@@]4(c5cccc(CSC)c5N[C@H]4CC1)[C@@H]32>>CC[C@@]12CC=C3N(C(=O)OCc4ccccc4)c4ccccc4[C@@]34CCN(CCC1)[C@@H]24.CC[C@]12CCCN3CC[C@@]4(c5cccc(CSC)c5N(C(=O)OCc5ccccc5)[C@H]4CC1)[C@@H]32"
+  },
+  {
+    "atom_mapping_status": "not_assigned",
+    "category": "main_route",
+    "event_id": "E14",
+    "formal_benchmark_eligible": false,
+    "notes": "Shared transformation repeated for 33 and 36; Ph3PO-contaminated material. No standalone yield; C5 configuration unspecified.",
+    "paper_id": "paper-0ae671ac9a8bbe22",
+    "product_labels": [
+      "32"
+    ],
+    "reactant_labels": [
+      "25"
+    ],
+    "reaction_id": "paper-0ae671ac9a8bbe22:event:E14",
+    "reported_yields": [],
+    "review_status": "pending_independent_chemist_review",
+    "si_pages": [
+      14,
+      15,
+      22
+    ],
+    "smiles_scope": "substrates_and_reported_products_only; agents separate; not atom-balanced",
+    "source_references": [
+      {
+        "locator": "Experimental preparation / reaction drawing",
+        "pages": [
+          14,
+          15,
+          22
+        ],
+        "sha256": "12d89578011a62dfcb72d6e927df1499bb52a7f00da663668fb9d229fba97c32",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E14.1"
+    ],
+    "substrate_product_smiles": "O=C[C@]12CCC(=O)N3[C@@H](O)C[C@@]4(c5ccccc5N(C(=O)OCc5ccccc5)[C@H]4CC1)[C@@H]32>>CO/C=C/[C@]12CCC(=O)N3C(O)C[C@@]4(c5ccccc5N(C(=O)OCc5ccccc5)[C@H]4CC1)[C@@H]32"
+  },
+  {
+    "atom_mapping_status": "not_assigned",
+    "category": "main_route",
+    "event_id": "E15",
+    "formal_benchmark_eligible": false,
+    "notes": "",
+    "paper_id": "paper-0ae671ac9a8bbe22",
+    "product_labels": [
+      "33"
+    ],
+    "reactant_labels": [
+      "32"
+    ],
+    "reaction_id": "paper-0ae671ac9a8bbe22:event:E15",
+    "reported_yields": [
+      {
+        "from_label": "25",
+        "percent": 52,
+        "product_label": "33",
+        "scope": "two_reported_steps_from_25"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "si_pages": [
+      14,
+      15,
+      16
+    ],
+    "smiles_scope": "substrates_and_reported_products_only; agents separate; not atom-balanced",
+    "source_references": [
+      {
+        "locator": "Experimental preparation / reaction drawing",
+        "pages": [
+          14,
+          15,
+          16
+        ],
+        "sha256": "12d89578011a62dfcb72d6e927df1499bb52a7f00da663668fb9d229fba97c32",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E15.1",
+      "E15.2"
+    ],
+    "substrate_product_smiles": "CO/C=C/[C@]12CCC(=O)N3C(O)C[C@@]4(c5ccccc5N(C(=O)OCc5ccccc5)[C@H]4CC1)[C@@H]32>>O=C(OCc1ccccc1)N1c2ccccc2[C@@]23CCN4CCC[C@@](CCO)(CC[C@H]12)[C@H]43"
+  },
+  {
+    "atom_mapping_status": "not_assigned",
+    "category": "main_route",
+    "event_id": "E16",
+    "formal_benchmark_eligible": false,
+    "notes": "",
+    "paper_id": "paper-0ae671ac9a8bbe22",
+    "product_labels": [
+      "8"
+    ],
+    "reactant_labels": [
+      "33"
+    ],
+    "reaction_id": "paper-0ae671ac9a8bbe22:event:E16",
+    "reported_yields": [
+      {
+        "from_label": null,
+        "percent": 83,
+        "product_label": "8",
+        "scope": "event"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "si_pages": [
+      16
+    ],
+    "smiles_scope": "substrates_and_reported_products_only; agents separate; not atom-balanced",
+    "source_references": [
+      {
+        "locator": "Experimental preparation / reaction drawing",
+        "pages": [
+          16
+        ],
+        "sha256": "12d89578011a62dfcb72d6e927df1499bb52a7f00da663668fb9d229fba97c32",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E16.1"
+    ],
+    "substrate_product_smiles": "O=C(OCc1ccccc1)N1c2ccccc2[C@@]23CCN4CCC[C@@](CCO)(CC[C@H]12)[C@H]43>>OCC[C@]12CCCN3CC[C@@]4(c5ccccc5N[C@H]4CC1)[C@@H]32"
+  },
+  {
+    "atom_mapping_status": "not_assigned",
+    "category": "main_route",
+    "event_id": "E17",
+    "formal_benchmark_eligible": false,
+    "notes": "Reported as quantitative.",
+    "paper_id": "paper-0ae671ac9a8bbe22",
+    "product_labels": [
+      "34"
+    ],
+    "reactant_labels": [
+      "8"
+    ],
+    "reaction_id": "paper-0ae671ac9a8bbe22:event:E17",
+    "reported_yields": [
+      {
+        "from_label": null,
+        "percent": 100,
+        "product_label": "34",
+        "scope": "event"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "si_pages": [
+      17
+    ],
+    "smiles_scope": "substrates_and_reported_products_only; agents separate; not atom-balanced",
+    "source_references": [
+      {
+        "locator": "Experimental preparation / reaction drawing",
+        "pages": [
+          17
+        ],
+        "sha256": "12d89578011a62dfcb72d6e927df1499bb52a7f00da663668fb9d229fba97c32",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E17.1"
+    ],
+    "substrate_product_smiles": "OCC[C@]12CCCN3CC[C@@]4(c5ccccc5N[C@H]4CC1)[C@@H]32>>CC(=O)N1c2ccccc2[C@@]23CCN4CCC[C@@](CCO)(CC[C@H]12)[C@H]43"
+  },
+  {
+    "atom_mapping_status": "not_assigned",
+    "category": "main_route",
+    "event_id": "E18",
+    "formal_benchmark_eligible": false,
+    "notes": "",
+    "paper_id": "paper-0ae671ac9a8bbe22",
+    "product_labels": [
+      "35"
+    ],
+    "reactant_labels": [
+      "34"
+    ],
+    "reaction_id": "paper-0ae671ac9a8bbe22:event:E18",
+    "reported_yields": [
+      {
+        "from_label": null,
+        "percent": 91,
+        "product_label": "35",
+        "scope": "event"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "si_pages": [
+      18
+    ],
+    "smiles_scope": "substrates_and_reported_products_only; agents separate; not atom-balanced",
+    "source_references": [
+      {
+        "locator": "Experimental preparation / reaction drawing",
+        "pages": [
+          18
+        ],
+        "sha256": "12d89578011a62dfcb72d6e927df1499bb52a7f00da663668fb9d229fba97c32",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E18.1"
+    ],
+    "substrate_product_smiles": "CC(=O)N1c2ccccc2[C@@]23CCN4CCC[C@@](CCO)(CC[C@H]12)[C@H]43>>CC(=O)N1c2ccccc2[C@@]23CCN4CCC[C@@](CC=O)(CC[C@H]12)[C@H]43"
+  },
+  {
+    "atom_mapping_status": "not_assigned",
+    "category": "main_route",
+    "event_id": "E19",
+    "formal_benchmark_eligible": false,
+    "notes": "Article reports 55% over E18+E19 (91% x 60% = 54.6%).",
+    "paper_id": "paper-0ae671ac9a8bbe22",
+    "product_labels": [
+      "9"
+    ],
+    "reactant_labels": [
+      "35"
+    ],
+    "reaction_id": "paper-0ae671ac9a8bbe22:event:E19",
+    "reported_yields": [
+      {
+        "from_label": null,
+        "percent": 60,
+        "product_label": "9",
+        "scope": "event"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "si_pages": [
+      18,
+      19
+    ],
+    "smiles_scope": "substrates_and_reported_products_only; agents separate; not atom-balanced",
+    "source_references": [
+      {
+        "locator": "Experimental preparation / reaction drawing",
+        "pages": [
+          18,
+          19
+        ],
+        "sha256": "12d89578011a62dfcb72d6e927df1499bb52a7f00da663668fb9d229fba97c32",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E19.1"
+    ],
+    "substrate_product_smiles": "CC(=O)N1c2ccccc2[C@@]23CCN4CCC[C@@](CC=O)(CC[C@H]12)[C@H]43>>COC(=O)C[C@]12CCCN3CC[C@@]4(c5ccccc5N(C(C)=O)[C@H]4CC1)[C@@H]32"
+  },
+  {
+    "atom_mapping_status": "not_assigned",
+    "category": "main_route",
+    "event_id": "E20",
+    "formal_benchmark_eligible": false,
+    "notes": "",
+    "paper_id": "paper-0ae671ac9a8bbe22",
+    "product_labels": [
+      "10"
+    ],
+    "reactant_labels": [
+      "34"
+    ],
+    "reaction_id": "paper-0ae671ac9a8bbe22:event:E20",
+    "reported_yields": [
+      {
+        "from_label": null,
+        "percent": 55,
+        "product_label": "10",
+        "scope": "event"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "si_pages": [
+      20
+    ],
+    "smiles_scope": "substrates_and_reported_products_only; agents separate; not atom-balanced",
+    "source_references": [
+      {
+        "locator": "Experimental preparation / reaction drawing",
+        "pages": [
+          20
+        ],
+        "sha256": "12d89578011a62dfcb72d6e927df1499bb52a7f00da663668fb9d229fba97c32",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E20.1"
+    ],
+    "substrate_product_smiles": "CC(=O)N1c2ccccc2[C@@]23CCN4CCC[C@@](CCO)(CC[C@H]12)[C@H]43>>CC(=O)N1c2ccccc2[C@]23CCN4CCC[C@@]5(CCO[C@]452)CC[C@H]13"
+  },
+  {
+    "atom_mapping_status": "not_assigned",
+    "category": "main_route",
+    "event_id": "E21",
+    "formal_benchmark_eligible": false,
+    "notes": "",
+    "paper_id": "paper-0ae671ac9a8bbe22",
+    "product_labels": [
+      "11"
+    ],
+    "reactant_labels": [
+      "10"
+    ],
+    "reaction_id": "paper-0ae671ac9a8bbe22:event:E21",
+    "reported_yields": [
+      {
+        "from_label": null,
+        "percent": 69,
+        "product_label": "11",
+        "scope": "event"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "si_pages": [
+      21
+    ],
+    "smiles_scope": "substrates_and_reported_products_only; agents separate; not atom-balanced",
+    "source_references": [
+      {
+        "locator": "Experimental preparation / reaction drawing",
+        "pages": [
+          21
+        ],
+        "sha256": "12d89578011a62dfcb72d6e927df1499bb52a7f00da663668fb9d229fba97c32",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E21.1"
+    ],
+    "substrate_product_smiles": "CC(=O)N1c2ccccc2[C@]23CCN4CCC[C@@]5(CCO[C@]452)CC[C@H]13>>CC(=O)N1c2c(O)cccc2[C@]23CCN4CCC[C@@]5(CCO[C@]452)CC[C@H]13"
+  },
+  {
+    "atom_mapping_status": "not_assigned",
+    "category": "main_route",
+    "event_id": "E22",
+    "formal_benchmark_eligible": false,
+    "notes": "",
+    "paper_id": "paper-0ae671ac9a8bbe22",
+    "product_labels": [
+      "36"
+    ],
+    "reactant_labels": [
+      "32"
+    ],
+    "reaction_id": "paper-0ae671ac9a8bbe22:event:E22",
+    "reported_yields": [
+      {
+        "from_label": "25",
+        "percent": 52,
+        "product_label": "36",
+        "scope": "two_reported_steps_from_25"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "si_pages": [
+      22,
+      23
+    ],
+    "smiles_scope": "substrates_and_reported_products_only; agents separate; not atom-balanced",
+    "source_references": [
+      {
+        "locator": "Experimental preparation / reaction drawing",
+        "pages": [
+          22,
+          23
+        ],
+        "sha256": "12d89578011a62dfcb72d6e927df1499bb52a7f00da663668fb9d229fba97c32",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E22.1",
+      "E22.2"
+    ],
+    "substrate_product_smiles": "CO/C=C/[C@]12CCC(=O)N3C(O)C[C@@]4(c5ccccc5N(C(=O)OCc5ccccc5)[C@H]4CC1)[C@@H]32>>O=C1CC[C@@]2(CCO)CC[C@@H]3N(C(=O)OCc4ccccc4)c4ccccc4[C@@]34CCN1[C@@H]24"
+  },
+  {
+    "atom_mapping_status": "not_assigned",
+    "category": "main_route",
+    "event_id": "E23",
+    "formal_benchmark_eligible": false,
+    "notes": "SI procedure solvent CH2Cl2 conflicts with DMF in Scheme 4.",
+    "paper_id": "paper-0ae671ac9a8bbe22",
+    "product_labels": [
+      "37"
+    ],
+    "reactant_labels": [
+      "36"
+    ],
+    "reaction_id": "paper-0ae671ac9a8bbe22:event:E23",
+    "reported_yields": [
+      {
+        "from_label": null,
+        "percent": 87,
+        "product_label": "37",
+        "scope": "event"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "si_pages": [
+      23,
+      24
+    ],
+    "smiles_scope": "substrates_and_reported_products_only; agents separate; not atom-balanced",
+    "source_references": [
+      {
+        "locator": "Experimental preparation / reaction drawing",
+        "pages": [
+          23,
+          24
+        ],
+        "sha256": "12d89578011a62dfcb72d6e927df1499bb52a7f00da663668fb9d229fba97c32",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E23.1"
+    ],
+    "substrate_product_smiles": "O=C1CC[C@@]2(CCO)CC[C@@H]3N(C(=O)OCc4ccccc4)c4ccccc4[C@@]34CCN1[C@@H]24>>CC(C)(C)[Si](C)(C)OCC[C@]12CCC(=O)N3CC[C@@]4(c5ccccc5N(C(=O)OCc5ccccc5)[C@H]4CC1)[C@@H]32"
+  },
+  {
+    "atom_mapping_status": "not_assigned",
+    "category": "main_route",
+    "event_id": "E24",
+    "formal_benchmark_eligible": false,
+    "notes": "Phenylselenide is carried crude; newly introduced stereochemistry is unspecified.",
+    "paper_id": "paper-0ae671ac9a8bbe22",
+    "product_labels": [
+      "38"
+    ],
+    "reactant_labels": [
+      "37"
+    ],
+    "reaction_id": "paper-0ae671ac9a8bbe22:event:E24",
+    "reported_yields": [
+      {
+        "from_label": "37",
+        "percent": 46,
+        "product_label": "38",
+        "scope": "two_steps"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "si_pages": [
+      24,
+      25
+    ],
+    "smiles_scope": "substrates_and_reported_products_only; agents separate; not atom-balanced",
+    "source_references": [
+      {
+        "locator": "Experimental preparation / reaction drawing",
+        "pages": [
+          24,
+          25
+        ],
+        "sha256": "12d89578011a62dfcb72d6e927df1499bb52a7f00da663668fb9d229fba97c32",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E24.1",
+      "E24.2"
+    ],
+    "substrate_product_smiles": "CC(C)(C)[Si](C)(C)OCC[C@]12CCC(=O)N3CC[C@@]4(c5ccccc5N(C(=O)OCc5ccccc5)[C@H]4CC1)[C@@H]32>>CC(C)(C)[Si](C)(C)OCC[C@]12C=CC(=O)N3CC[C@@]4(c5ccccc5N(C(=O)OCc5ccccc5)[C@H]4CC1)[C@@H]32"
+  },
+  {
+    "atom_mapping_status": "not_assigned",
+    "category": "main_route",
+    "event_id": "E25",
+    "formal_benchmark_eligible": false,
+    "notes": "Desilylation and cyclization are reported as one operation; free alcohol is not isolated.",
+    "paper_id": "paper-0ae671ac9a8bbe22",
+    "product_labels": [
+      "39"
+    ],
+    "reactant_labels": [
+      "38"
+    ],
+    "reaction_id": "paper-0ae671ac9a8bbe22:event:E25",
+    "reported_yields": [
+      {
+        "from_label": null,
+        "percent": 86,
+        "product_label": "39",
+        "scope": "event"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "si_pages": [
+      25,
+      26
+    ],
+    "smiles_scope": "substrates_and_reported_products_only; agents separate; not atom-balanced",
+    "source_references": [
+      {
+        "locator": "Experimental preparation / reaction drawing",
+        "pages": [
+          25,
+          26
+        ],
+        "sha256": "12d89578011a62dfcb72d6e927df1499bb52a7f00da663668fb9d229fba97c32",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E25.1"
+    ],
+    "substrate_product_smiles": "CC(C)(C)[Si](C)(C)OCC[C@]12C=CC(=O)N3CC[C@@]4(c5ccccc5N(C(=O)OCc5ccccc5)[C@H]4CC1)[C@@H]32>>O=C1C[C@@H]2OCC[C@@]23CC[C@@H]2N(C(=O)OCc4ccccc4)c4ccccc4[C@@]24CCN1[C@@H]34"
+  },
+  {
+    "atom_mapping_status": "not_assigned",
+    "category": "main_route",
+    "event_id": "E26",
+    "formal_benchmark_eligible": false,
+    "notes": "",
+    "paper_id": "paper-0ae671ac9a8bbe22",
+    "product_labels": [
+      "S1"
+    ],
+    "reactant_labels": [
+      "39"
+    ],
+    "reaction_id": "paper-0ae671ac9a8bbe22:event:E26",
+    "reported_yields": [
+      {
+        "from_label": null,
+        "percent": 78,
+        "product_label": "S1",
+        "scope": "event"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "si_pages": [
+      26,
+      27
+    ],
+    "smiles_scope": "substrates_and_reported_products_only; agents separate; not atom-balanced",
+    "source_references": [
+      {
+        "locator": "Experimental preparation / reaction drawing",
+        "pages": [
+          26,
+          27
+        ],
+        "sha256": "12d89578011a62dfcb72d6e927df1499bb52a7f00da663668fb9d229fba97c32",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E26.1"
+    ],
+    "substrate_product_smiles": "O=C1C[C@@H]2OCC[C@@]23CC[C@@H]2N(C(=O)OCc4ccccc4)c4ccccc4[C@@]24CCN1[C@@H]34>>O=C(OCc1ccccc1)N1c2ccccc2[C@@]23CCN4CC[C@@H]5OCC[C@]5(CC[C@H]12)[C@H]43"
+  },
+  {
+    "atom_mapping_status": "not_assigned",
+    "category": "main_route",
+    "event_id": "E27",
+    "formal_benchmark_eligible": false,
+    "notes": "Endpoint of work actually performed here. The two steps from 40 to 12 belong to reference 20, not this paper.",
+    "paper_id": "paper-0ae671ac9a8bbe22",
+    "product_labels": [
+      "40"
+    ],
+    "reactant_labels": [
+      "S1"
+    ],
+    "reaction_id": "paper-0ae671ac9a8bbe22:event:E27",
+    "reported_yields": [
+      {
+        "from_label": null,
+        "percent": 73,
+        "product_label": "40",
+        "scope": "event"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "si_pages": [
+      27,
+      28
+    ],
+    "smiles_scope": "substrates_and_reported_products_only; agents separate; not atom-balanced",
+    "source_references": [
+      {
+        "locator": "Experimental preparation / reaction drawing",
+        "pages": [
+          27,
+          28
+        ],
+        "sha256": "12d89578011a62dfcb72d6e927df1499bb52a7f00da663668fb9d229fba97c32",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E27.1"
+    ],
+    "substrate_product_smiles": "O=C(OCc1ccccc1)N1c2ccccc2[C@@]23CCN4CC[C@@H]5OCC[C@]5(CC[C@H]12)[C@H]43>>c1ccc2c(c1)N[C@H]1CC[C@]34CCO[C@H]3CCN3CC[C@]21[C@@H]34"
+  }
+]

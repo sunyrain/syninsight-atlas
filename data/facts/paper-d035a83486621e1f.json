@@ -1,0 +1,1447 @@
+{
+  "paper_id": "paper-d035a83486621e1f",
+  "targets": [
+    "2",
+    "3",
+    "4",
+    "8",
+    "9"
+  ],
+  "full_article_route_coverage": true,
+  "available_si_preparation_network_covered": true,
+  "coverage": "Preparative forward network in article Figures 2-4 and SI sections 2.1-2.8, including five targets, isolated side products, alternative procedures, S1/S2 label collisions, and literature-supplied starting materials. Full coverage refers to the reported preparation boundary, not synthesis of literature precursors from commercial materials. Proposed radicals, transition states and undemonstrated mechanistic intermediates are not isolated reaction nodes. Relative-only stereochemical representatives and unencoded perspective stereochemistry remain candidate data requiring independent review.",
+  "confirmed_facts": [
+    "Article Figures 2-4 visually reviewed against SI preparation drawings.",
+    "All five target preparations have prerequisite-ordered paths from source-defined starts.",
+    "Source-shown S4 coproduct of E13 is retained; undrawn intermediates are not invented."
+  ],
+  "open_questions": [
+    "Independent chemical review of all transcribed structures, especially ampelopsin bridge stereochemistry and article/SI discrepancies."
+  ],
+  "molecules": [
+    {
+      "label": "1",
+      "smiles": "c6(/C=C/c5cc(O)cc(O)c5)ccc(O)cc6",
+      "name": "1",
+      "evidence": {
+        "article": [
+          2,
+          3
+        ],
+        "si": [
+          4
+        ]
+      },
+      "paper_label": "1"
+    },
+    {
+      "label": "10",
+      "smiles": "c6(/C=C/c5cc(O)cc(O)c5)ccc(O[Si](C(C)C)(C(C)C)C(C)C)cc6",
+      "name": "10",
+      "evidence": {
+        "article": [
+          2,
+          3
+        ],
+        "si": [
+          4
+        ]
+      },
+      "paper_label": "10"
+    },
+    {
+      "label": "11",
+      "smiles": "c6(/C=C/c5cc(OS(=O)(=O)C)cc(OS(=O)(=O)C)c5)ccc(O)cc6",
+      "name": "11",
+      "evidence": {
+        "article": [
+          2,
+          3
+        ],
+        "si": [
+          7
+        ]
+      },
+      "paper_label": "11"
+    },
+    {
+      "label": "12",
+      "smiles": "c6(/C=C/c5cc(O[Si](C(C)C)(C(C)C)C(C)C)cc(O[Si](C(C)C)(C(C)C)C(C)C)c5)ccc(O[Si](C(C)C)(C(C)C)C(C)C)cc6",
+      "name": "12",
+      "evidence": {
+        "article": [
+          2,
+          3
+        ],
+        "si": [
+          9
+        ]
+      },
+      "paper_label": "12"
+    },
+    {
+      "label": "13",
+      "smiles": "c6(/C=C/c5cc(O[Si](C(C)C)(C(C)C)C(C)C)cc(O[Si](C(C)C)(C(C)C)C(C)C)c5)ccc(O)cc6",
+      "name": "13",
+      "evidence": {
+        "article": [
+          2,
+          3
+        ],
+        "si": [
+          13
+        ]
+      },
+      "paper_label": "13"
+    },
+    {
+      "label": "14",
+      "smiles": "c6(/C=C/c5cc(O)cc(O)c5)ccc(OS(=O)(=O)C)cc6",
+      "name": "14",
+      "evidence": {
+        "article": [
+          2,
+          3
+        ],
+        "si": [
+          16
+        ]
+      },
+      "paper_label": "14"
+    },
+    {
+      "label": "SI-S1-TBS",
+      "smiles": "c6(/C=C/c5cc(O[Si](C)(C)C(C)(C)C)cc(O[Si](C)(C)C(C)(C)C)c5)ccc(O[Si](C)(C)C(C)(C)C)cc6",
+      "name": "SI-S1-TBS",
+      "evidence": {
+        "article": [
+          2,
+          3
+        ],
+        "si": [
+          11
+        ]
+      },
+      "paper_label": "S1 (SI p11)"
+    },
+    {
+      "label": "SI-S2-Ms",
+      "smiles": "c6(/C=C/c5cc(O[Si](C(C)C)(C(C)C)C(C)C)cc(O[Si](C(C)C)(C(C)C)C(C)C)c5)ccc(OS(=O)(=O)C)cc6",
+      "name": "SI-S2-Ms",
+      "evidence": {
+        "article": [
+          2,
+          3
+        ],
+        "si": [
+          19
+        ]
+      },
+      "paper_label": "S2 (SI p19)"
+    },
+    {
+      "label": "LIT-S1",
+      "smiles": "c7(/C=C/c5cc(OCc9ccccc9)cc(OCc9ccccc9)c5)cc([Si](C(C)C)(C(C)C)C(C)C)c(O)c([Si](C(C)C)(C(C)C)C(C)C)c7",
+      "name": "Literature benzyloxy stilbene; upstream synthesis outside paper",
+      "evidence": {
+        "article": [
+          3
+        ],
+        "si": [
+          4,
+          25
+        ]
+      },
+      "paper_label": "S1 (SI p4)"
+    },
+    {
+      "label": "15",
+      "smiles": "C(c5cc(OCc9ccccc9)cc(OCc9ccccc9)c5)(C=C1C=C([Si](C(C)C)(C(C)C)C(C)C)C(=O)C([Si](C(C)C)(C(C)C)C(C)C)=C1)C(c5cc(OCc9ccccc9)cc(OCc9ccccc9)c5)C=C1C=C([Si](C(C)C)(C(C)C)C(C)C)C(=O)C([Si](C(C)C)(C(C)C)C(C)C)=C1",
+      "name": "15",
+      "evidence": {
+        "article": [
+          2
+        ],
+        "si": [
+          4,
+          21
+        ]
+      },
+      "paper_label": "15 (article); S2 (SI p4)",
+      "stereo_status": "diastereomeric_state_not_fully_specified",
+      "stereo_note": "Source perspective drawing retained as evidence; no unsupported absolute stereochemistry encoded."
+    },
+    {
+      "label": "S3",
+      "smiles": "c7(/C=C/c5cc(O)cc(O)c5)cc([Si](C(C)C)(C(C)C)C(C)C)c(O)c([Si](C(C)C)(C(C)C)C(C)C)c7",
+      "name": "S3",
+      "evidence": {
+        "article": [
+          3
+        ],
+        "si": [
+          25
+        ]
+      },
+      "formula": "C32H52O3Si2"
+    },
+    {
+      "label": "S4",
+      "smiles": "c7(/C=C/c5cc(O[Si](C(C)C)(C(C)C)C(C)C)cc(O[Si](C(C)C)(C(C)C)C(C)C)c5)cc([Si](C(C)C)(C(C)C)C(C)C)c(O)c([Si](C(C)C)(C(C)C)C(C)C)c7",
+      "name": "S4",
+      "evidence": {
+        "article": [
+          3
+        ],
+        "si": [
+          27,
+          31
+        ]
+      },
+      "formula": "C50H92O3Si4"
+    },
+    {
+      "label": "18",
+      "smiles": "C(c5cc(O[Si](C(C)C)(C(C)C)C(C)C)cc(O[Si](C(C)C)(C(C)C)C(C)C)c5)(C=C1C=C([Si](C(C)C)(C(C)C)C(C)C)C(=O)C([Si](C(C)C)(C(C)C)C(C)C)=C1)C(c5cc(O[Si](C(C)C)(C(C)C)C(C)C)cc(O[Si](C(C)C)(C(C)C)C(C)C)c5)C=C1C=C([Si](C(C)C)(C(C)C)C(C)C)C(=O)C([Si](C(C)C)(C(C)C)C(C)C)=C1",
+      "name": "18",
+      "evidence": {
+        "article": [
+          3
+        ],
+        "si": [
+          29
+        ]
+      },
+      "stereo_status": "diastereomeric_mixture",
+      "stereo_note": "SI p29 reports 1:1 diastereomer mixture; tetrahedral configurations unspecified, combined yield not assigned to individual isomers.",
+      "formula": "C100H182O6Si8"
+    },
+    {
+      "label": "16",
+      "smiles": "c1(O)cc(/C=C/c6ccc(O[Si](C(C)C)(C(C)C)C(C)C)cc6)c2c(c1)O[C@H](c7cc([Si](C(C)C)(C(C)C)C(C)C)c(O)c([Si](C(C)C)(C(C)C)C(C)C)c7)[C@H]2c5cc(OCc9ccccc9)cc(OCc9ccccc9)c5",
+      "name": "16",
+      "evidence": {
+        "article": [
+          2
+        ],
+        "si": [
+          21
+        ]
+      },
+      "stereo_status": "relative_only",
+      "stereo_note": "SMILES encodes one relative-configurational representative of the source drawing; absolute enantiomer identity is not established by this synthesis.",
+      "formula": "C69H94O6Si3"
+    },
+    {
+      "label": "17",
+      "smiles": "c1(O)cc(/C=C/c6ccc(O[Si](C(C)C)(C(C)C)C(C)C)cc6)cc2c1[C@H](c5cc(OCc9ccccc9)cc(OCc9ccccc9)c5)[C@@H](c7cc([Si](C(C)C)(C(C)C)C(C)C)c(O)c([Si](C(C)C)(C(C)C)C(C)C)c7)O2",
+      "name": "17",
+      "evidence": {
+        "article": [
+          2
+        ],
+        "si": [
+          21
+        ]
+      },
+      "stereo_status": "relative_only",
+      "stereo_note": "SMILES encodes one relative-configurational representative of the source drawing; absolute enantiomer identity is not established by this synthesis.",
+      "formula": "C69H94O6Si3"
+    },
+    {
+      "label": "19",
+      "smiles": "c1(/C=C/c5cc(O[Si](C(C)C)(C(C)C)C(C)C)cc(O[Si](C(C)C)(C(C)C)C(C)C)c5)cc2c(cc1)O[C@H](c7cc([Si](C(C)C)(C(C)C)C(C)C)c(O)c([Si](C(C)C)(C(C)C)C(C)C)c7)[C@H]2c5cc(O[Si](C(C)C)(C(C)C)C(C)C)cc(O[Si](C(C)C)(C(C)C)C(C)C)c5",
+      "name": "19",
+      "evidence": {
+        "article": [
+          3
+        ],
+        "si": [
+          31
+        ]
+      },
+      "stereo_status": "relative_only",
+      "stereo_note": "SMILES encodes one relative-configurational representative of the source drawing; absolute enantiomer identity is not established by this synthesis.",
+      "formula": "C82H142O6Si6"
+    },
+    {
+      "label": "2",
+      "smiles": "c1(/C=C/c5cc(O)cc(O)c5)cc2c(cc1)O[C@H](c6ccc(O)cc6)[C@H]2c5cc(O)cc(O)c5",
+      "name": "2",
+      "evidence": {
+        "article": [
+          3
+        ],
+        "si": [
+          32
+        ]
+      },
+      "stereo_status": "relative_only",
+      "stereo_note": "SMILES encodes one relative-configurational representative of the source drawing; absolute enantiomer identity is not established by this synthesis.",
+      "formula": "C28H22O6"
+    },
+    {
+      "label": "S5",
+      "smiles": "c1(/C=C/c5cc(OS(=O)(=O)C)cc(OS(=O)(=O)C)c5)cc2c(cc1)O[C@H](c7cc([Si](C(C)C)(C(C)C)C(C)C)c(O)c([Si](C(C)C)(C(C)C)C(C)C)c7)[C@H]2c5cc(O[Si](C(C)C)(C(C)C)C(C)C)cc(O[Si](C(C)C)(C(C)C)C(C)C)c5",
+      "name": "S5",
+      "evidence": {
+        "article": [
+          3
+        ],
+        "si": [
+          34
+        ]
+      },
+      "stereo_status": "relative_only",
+      "stereo_note": "SMILES encodes one relative-configurational representative of the source drawing; absolute enantiomer identity is not established by this synthesis.",
+      "formula": "C66H106O10S2Si4"
+    },
+    {
+      "label": "20",
+      "smiles": "c1(O)cc(/C=C/c6ccc(O[Si](C(C)C)(C(C)C)C(C)C)cc6)cc2c1[C@H](c5cc(O[Si](C(C)C)(C(C)C)C(C)C)cc(O[Si](C(C)C)(C(C)C)C(C)C)c5)[C@@H](c7cc([Si](C(C)C)(C(C)C)C(C)C)c(O)c([Si](C(C)C)(C(C)C)C(C)C)c7)O2",
+      "name": "20",
+      "evidence": {
+        "article": [
+          3
+        ],
+        "si": [
+          36
+        ]
+      },
+      "stereo_status": "relative_only",
+      "stereo_note": "SMILES encodes one relative-configurational representative of the source drawing; absolute enantiomer identity is not established by this synthesis.",
+      "formula": "C73H122O6Si5"
+    },
+    {
+      "label": "21",
+      "smiles": "c1(O)cc(/C=C/c6ccc(O[Si](C(C)C)(C(C)C)C(C)C)cc6)c2c(c1)O[C@H](c7cc([Si](C(C)C)(C(C)C)C(C)C)c(O)c([Si](C(C)C)(C(C)C)C(C)C)c7)[C@H]2c5cc(O[Si](C(C)C)(C(C)C)C(C)C)cc(O[Si](C(C)C)(C(C)C)C(C)C)c5",
+      "name": "21",
+      "evidence": {
+        "article": [
+          3
+        ],
+        "si": [
+          36
+        ]
+      },
+      "stereo_status": "relative_only",
+      "stereo_note": "SMILES encodes one relative-configurational representative of the source drawing; absolute enantiomer identity is not established by this synthesis.",
+      "formula": "C73H122O6Si5"
+    },
+    {
+      "label": "4",
+      "smiles": "c1(O)cc(/C=C/c6ccc(O)cc6)cc2c1[C@H](c5cc(O)cc(O)c5)[C@@H](c6ccc(O)cc6)O2",
+      "name": "4",
+      "evidence": {
+        "article": [
+          3
+        ],
+        "si": [
+          42
+        ]
+      },
+      "stereo_status": "relative_only",
+      "stereo_note": "SMILES encodes one relative-configurational representative of the source drawing; absolute enantiomer identity is not established by this synthesis.",
+      "formula": "C28H22O6"
+    },
+    {
+      "label": "30",
+      "smiles": "c1(O)cc(/C=C/c6ccc(OS(=O)(=O)C)cc6)cc2c1[C@H](c5cc(O[Si](C(C)C)(C(C)C)C(C)C)cc(O[Si](C(C)C)(C(C)C)C(C)C)c5)[C@@H](c7cc([Si](C(C)C)(C(C)C)C(C)C)c(O)c([Si](C(C)C)(C(C)C)C(C)C)c7)O2",
+      "name": "30",
+      "evidence": {
+        "article": [
+          4
+        ],
+        "si": [
+          44
+        ]
+      },
+      "stereo_status": "relative_only",
+      "stereo_note": "SMILES encodes one relative-configurational representative of the source drawing; absolute enantiomer identity is not established by this synthesis.",
+      "formula": "C65H104O8SSi4"
+    },
+    {
+      "label": "31",
+      "smiles": "c1(O)cc(/C=C/c6ccc(OS(=O)(=O)C)cc6)c2c(c1)O[C@H](c7cc([Si](C(C)C)(C(C)C)C(C)C)c(O)c([Si](C(C)C)(C(C)C)C(C)C)c7)[C@H]2c5cc(O[Si](C(C)C)(C(C)C)C(C)C)cc(O[Si](C(C)C)(C(C)C)C(C)C)c5",
+      "name": "31",
+      "evidence": {
+        "article": [
+          4
+        ],
+        "si": [
+          44
+        ]
+      },
+      "stereo_status": "relative_only",
+      "stereo_note": "SMILES encodes one relative-configurational representative of the source drawing; absolute enantiomer identity is not established by this synthesis.",
+      "formula": "C65H104O8SSi4"
+    },
+    {
+      "label": "32",
+      "smiles": "c1(O)cc(/C=C/c6ccc(OS(=O)(=O)C)cc6)c2c(c1)O[C@H](c6ccc(O)cc6)[C@H]2c5cc(O)cc(O)c5",
+      "name": "32",
+      "evidence": {
+        "article": [
+          4
+        ],
+        "si": [
+          48
+        ]
+      },
+      "stereo_status": "relative_only",
+      "stereo_note": "SMILES encodes one relative-configurational representative of the source drawing; absolute enantiomer identity is not established by this synthesis.",
+      "formula": "C29H24O8S"
+    },
+    {
+      "label": "3",
+      "smiles": "c1(O)cc(/C=C/c6ccc(O)cc6)c2c(c1)O[C@H](c6ccc(O)cc6)[C@H]2c5cc(O)cc(O)c5",
+      "name": "3",
+      "evidence": {
+        "article": [
+          4
+        ],
+        "si": [
+          50
+        ]
+      },
+      "stereo_status": "relative_only",
+      "stereo_note": "SMILES encodes one relative-configurational representative of the source drawing; absolute enantiomer identity is not established by this synthesis.",
+      "formula": "C28H22O6"
+    },
+    {
+      "label": "8",
+      "smiles": "[CH:1]1([c:9]2ccc(O)cc2)[CH2:2][c:3]2cc(O)cc3[c:4]2[C:5]([H:11])([CH:6]([c:10]2ccc(O)cc2)[O:12]3)[c:7]2cc(O)cc(O)[c:8]21",
+      "name": "ampelopsin B",
+      "evidence": {
+        "article": [
+          3
+        ],
+        "si": [
+          40
+        ]
+      },
+      "stereo_status": "relative_only",
+      "drawing_stereo": {
+        "coordinates": {
+          "1": [
+            211,
+            -303
+          ],
+          "2": [
+            179,
+            -332
+          ],
+          "3": [
+            183,
+            -376
+          ],
+          "4": [
+            219,
+            -401
+          ],
+          "5": [
+            260,
+            -385
+          ],
+          "6": [
+            284,
+            -422
+          ],
+          "7": [
+            277,
+            -346
+          ],
+          "8": [
+            254,
+            -308
+          ],
+          "9": [
+            188,
+            -264
+          ],
+          "10": [
+            331,
+            -422
+          ],
+          "11": [
+            241,
+            -366
+          ],
+          "12": [
+            268,
+            -445
+          ]
+        },
+        "wedges": [
+          [
+            "1",
+            "9",
+            "solid"
+          ],
+          [
+            "6",
+            "10",
+            "solid"
+          ],
+          [
+            "5",
+            "11",
+            "solid"
+          ]
+        ]
+      },
+      "formula": "C28H22O6"
+    },
+    {
+      "label": "35",
+      "smiles": "[CH:1]1(c7cc([Si](C(C)C)(C(C)C)C(C)C)c(O)c([Si](C(C)C)(C(C)C)C(C)C)c7)[CH:2]2[CH:3](c6ccc(O[Si](C(C)C)(C(C)C)C(C)C)cc6)c3c(O)cc(O)cc3[CH:4]1c1c(O)cc(O)cc12",
+      "name": "ampelopsin F protected core 35",
+      "evidence": {
+        "article": [
+          4
+        ]
+      },
+      "stereo_status": "relative_perspective_not_encoded",
+      "stereo_note": "Connectivity transcribed from bridged perspective drawing; perspective stereochemistry awaits independent transcription. SMILES does not claim a resolved stereoisomer."
+    },
+    {
+      "label": "36",
+      "smiles": "[CH:1]1(c7cc([Si](C(C)C)(C(C)C)C(C)C)c(O)c([Si](C(C)C)(C(C)C)C(C)C)c7)[CH:2]2[CH:3](c6ccc(O[Si](C(C)C)(C(C)C)C(C)C)cc6)c3c(O[Si](C(C)C)(C(C)C)C(C)C)cc(O[Si](C(C)C)(C(C)C)C(C)C)cc3[CH:4]1c1c(O)cc(O)cc12",
+      "name": "ampelopsin F protected core 36",
+      "evidence": {
+        "article": [
+          4
+        ],
+        "si": [
+          52
+        ]
+      },
+      "stereo_status": "relative_perspective_not_encoded",
+      "stereo_note": "Connectivity transcribed from bridged perspective drawing; perspective stereochemistry awaits independent transcription. SMILES does not claim a resolved stereoisomer."
+    },
+    {
+      "label": "9",
+      "smiles": "[CH:1]1(c6ccc(O)cc6)[CH:2]2[CH:3](c6ccc(O)cc6)c3c(O)cc(O)cc3[CH:4]1c1c(O)cc(O)cc12",
+      "name": "ampelopsin F",
+      "evidence": {
+        "article": [
+          4
+        ],
+        "si": [
+          54
+        ]
+      },
+      "stereo_status": "relative_perspective_not_encoded",
+      "stereo_note": "Connectivity transcribed from bridged perspective drawing; perspective stereochemistry awaits independent transcription. SMILES does not claim a resolved stereoisomer."
+    }
+  ],
+  "events": [
+    {
+      "id": "E01",
+      "in": [
+        "1"
+      ],
+      "out": [
+        "10"
+      ],
+      "evidence": {
+        "article": [
+          2
+        ],
+        "si": [
+          4
+        ]
+      },
+      "reagents": [
+        "TIPS-Cl",
+        "triethylamine"
+      ],
+      "solvents": [
+        "DMF"
+      ],
+      "yields": {
+        "10": 51
+      }
+    },
+    {
+      "id": "E02",
+      "in": [
+        "10"
+      ],
+      "out": [
+        "11"
+      ],
+      "evidence": {
+        "article": [
+          2
+        ],
+        "si": [
+          7
+        ]
+      },
+      "reagents": [
+        "MsCl",
+        "triethylamine",
+        "TBAF"
+      ],
+      "solvents": [
+        "THF"
+      ],
+      "yields": {
+        "11": 97
+      },
+      "operation_stages": [
+        {
+          "operation": "Mesylation",
+          "reagents": [
+            "MsCl",
+            "triethylamine"
+          ],
+          "temperature": "room temperature",
+          "time": "1 h"
+        },
+        {
+          "operation": "Desilylation",
+          "reagents": [
+            "TBAF"
+          ],
+          "temperature": "0 C",
+          "time": "1 h"
+        }
+      ],
+      "yield_scope": "97% for the complete two-stage preparation; no isolated intermediate drawn."
+    },
+    {
+      "id": "E03",
+      "in": [
+        "1"
+      ],
+      "out": [
+        "12"
+      ],
+      "evidence": {
+        "article": [
+          2,
+          3
+        ],
+        "si": [
+          9
+        ]
+      },
+      "reagents": [
+        "TIPS-Cl",
+        "triethylamine"
+      ],
+      "solvents": [
+        "DMF"
+      ],
+      "yields": {
+        "12": 99
+      }
+    },
+    {
+      "id": "E04",
+      "in": [
+        "1"
+      ],
+      "out": [
+        "SI-S1-TBS"
+      ],
+      "evidence": {
+        "article": [
+          3
+        ],
+        "si": [
+          11
+        ]
+      },
+      "reagents": [
+        "TBS-Cl",
+        "triethylamine"
+      ],
+      "solvents": [
+        "DMF"
+      ],
+      "yields": {
+        "SI-S1-TBS": 99
+      }
+    },
+    {
+      "id": "E05",
+      "in": [
+        "12"
+      ],
+      "out": [
+        "13"
+      ],
+      "evidence": {
+        "article": [
+          2,
+          3
+        ],
+        "si": [
+          13
+        ]
+      },
+      "reagents": [
+        "potassium acetate"
+      ],
+      "solvents": [
+        "DMF",
+        "water"
+      ],
+      "yields": {
+        "13": 51
+      }
+    },
+    {
+      "id": "E06",
+      "in": [
+        "13"
+      ],
+      "out": [
+        "SI-S2-Ms"
+      ],
+      "evidence": {
+        "article": [
+          2,
+          3
+        ],
+        "si": [
+          19
+        ]
+      },
+      "reagents": [
+        "MsCl",
+        "triethylamine"
+      ],
+      "solvents": [
+        "acetonitrile"
+      ],
+      "yields": {
+        "SI-S2-Ms": 80
+      }
+    },
+    {
+      "id": "E07",
+      "in": [
+        "SI-S2-Ms"
+      ],
+      "out": [
+        "14"
+      ],
+      "evidence": {
+        "article": [
+          2,
+          3
+        ],
+        "si": [
+          16
+        ]
+      },
+      "reagents": [
+        "TBAF"
+      ],
+      "solvents": [
+        "THF"
+      ],
+      "yields": {
+        "14": 94
+      },
+      "yield_scope": "SI p16 isolated desilylation yield; article p2 describes 94% over two steps, retained as conflict."
+    },
+    {
+      "id": "E08",
+      "in": [
+        "1"
+      ],
+      "out": [
+        "14"
+      ],
+      "evidence": {
+        "article": [
+          3
+        ],
+        "si": [
+          18
+        ]
+      },
+      "reagents": [
+        "methanesulfonic anhydride",
+        "triethylamine"
+      ],
+      "solvents": [
+        "DMF"
+      ],
+      "yields": {
+        "14": 19
+      }
+    },
+    {
+      "id": "E09",
+      "in": [
+        "10",
+        "15"
+      ],
+      "out": [
+        "16",
+        "17"
+      ],
+      "evidence": {
+        "article": [
+          2,
+          3
+        ],
+        "si": [
+          21
+        ]
+      },
+      "reagents": [],
+      "solvents": [
+        "acetone"
+      ],
+      "yields": {
+        "16": 55,
+        "17": 14
+      },
+      "category": "microwave DHB formation"
+    },
+    {
+      "id": "E10",
+      "in": [
+        "LIT-S1"
+      ],
+      "out": [
+        "S3"
+      ],
+      "evidence": {
+        "article": [
+          3
+        ],
+        "si": [
+          25
+        ]
+      },
+      "reagents": [
+        "BCl3",
+        "pentamethylbenzene"
+      ],
+      "solvents": [
+        "dichloromethane"
+      ],
+      "yields": {
+        "S3": 65
+      }
+    },
+    {
+      "id": "E11",
+      "in": [
+        "S3"
+      ],
+      "out": [
+        "S4"
+      ],
+      "evidence": {
+        "article": [
+          3
+        ],
+        "si": [
+          27
+        ]
+      },
+      "reagents": [
+        "TIPS-Cl",
+        "triethylamine"
+      ],
+      "solvents": [
+        "acetonitrile"
+      ],
+      "yields": {
+        "S4": 79
+      }
+    },
+    {
+      "id": "E12",
+      "in": [
+        "S4"
+      ],
+      "out": [
+        "18"
+      ],
+      "evidence": {
+        "article": [
+          3
+        ],
+        "si": [
+          29
+        ]
+      },
+      "reagents": [
+        "KPF6",
+        "2,6-lutidine",
+        "electrolysis"
+      ],
+      "solvents": [
+        "acetonitrile",
+        "dichloromethane"
+      ],
+      "yields": {},
+      "mixture_yield_percent": 89,
+      "yield_scope": "89% combined yield for 1:1 diastereomer mixture; 18 is an unspecified mixture graph.",
+      "reactant_stoichiometry": {
+        "S4": 2
+      }
+    },
+    {
+      "id": "E13",
+      "in": [
+        "13",
+        "18"
+      ],
+      "out": [
+        "19",
+        "S4"
+      ],
+      "evidence": {
+        "article": [
+          3
+        ],
+        "si": [
+          31
+        ]
+      },
+      "reagents": [],
+      "solvents": [
+        "acetone"
+      ],
+      "yields": {
+        "19": 89
+      },
+      "yield_scope": "qNMR yield of 19 in inseparable crude; S4 is drawn stilbene byproduct with no assigned yield."
+    },
+    {
+      "id": "E14",
+      "in": [
+        "19"
+      ],
+      "out": [
+        "2"
+      ],
+      "evidence": {
+        "article": [
+          3
+        ],
+        "si": [
+          32
+        ]
+      },
+      "reagents": [
+        "HCl"
+      ],
+      "solvents": [
+        "methanol"
+      ],
+      "yields": {
+        "2": 58
+      },
+      "yield_scope": "Yield based on qNMR-estimated 19 in crude carried from E13; no independent isolated purity claim."
+    },
+    {
+      "id": "E15",
+      "in": [
+        "11",
+        "18"
+      ],
+      "out": [
+        "S5"
+      ],
+      "evidence": {
+        "article": [
+          3
+        ],
+        "si": [
+          34
+        ]
+      },
+      "reagents": [],
+      "solvents": [
+        "acetone"
+      ],
+      "yields": {
+        "S5": 76
+      }
+    },
+    {
+      "id": "E16",
+      "in": [
+        "10",
+        "18"
+      ],
+      "out": [
+        "20",
+        "21"
+      ],
+      "evidence": {
+        "article": [
+          3
+        ],
+        "si": [
+          36
+        ]
+      },
+      "reagents": [],
+      "solvents": [
+        "acetone"
+      ],
+      "yields": {
+        "20": 12,
+        "21": 64
+      }
+    },
+    {
+      "id": "E17",
+      "in": [
+        "21"
+      ],
+      "out": [
+        "8"
+      ],
+      "evidence": {
+        "article": [
+          3
+        ],
+        "si": [
+          40
+        ]
+      },
+      "reagents": [
+        "HCl"
+      ],
+      "solvents": [
+        "methanol"
+      ],
+      "yields": {
+        "8": 75
+      }
+    },
+    {
+      "id": "E18",
+      "in": [
+        "20"
+      ],
+      "out": [
+        "4"
+      ],
+      "evidence": {
+        "article": [
+          3
+        ],
+        "si": [
+          42
+        ]
+      },
+      "reagents": [
+        "HCl"
+      ],
+      "solvents": [
+        "methanol",
+        "THF"
+      ],
+      "yields": {
+        "4": 71
+      }
+    },
+    {
+      "id": "E19",
+      "in": [
+        "14",
+        "18"
+      ],
+      "out": [
+        "30",
+        "31"
+      ],
+      "evidence": {
+        "article": [
+          4
+        ],
+        "si": [
+          44
+        ]
+      },
+      "reagents": [],
+      "solvents": [
+        "acetone"
+      ],
+      "yields": {
+        "30": 11,
+        "31": 57
+      },
+      "category": "microwave DHB formation"
+    },
+    {
+      "id": "E20",
+      "in": [
+        "14",
+        "18"
+      ],
+      "out": [
+        "31"
+      ],
+      "evidence": {
+        "article": [
+          4
+        ],
+        "si": [
+          44
+        ]
+      },
+      "reagents": [],
+      "solvents": [
+        "acetone"
+      ],
+      "yields": {
+        "31": 48
+      },
+      "category": "sealed-tube DHB formation"
+    },
+    {
+      "id": "E21",
+      "in": [
+        "31"
+      ],
+      "out": [
+        "32"
+      ],
+      "evidence": {
+        "article": [
+          4
+        ],
+        "si": [
+          48
+        ]
+      },
+      "reagents": [
+        "HCl"
+      ],
+      "solvents": [
+        "methanol"
+      ],
+      "yields": {
+        "32": 66
+      }
+    },
+    {
+      "id": "E22",
+      "in": [
+        "32"
+      ],
+      "out": [
+        "3"
+      ],
+      "evidence": {
+        "article": [
+          4
+        ],
+        "si": [
+          50
+        ]
+      },
+      "reagents": [
+        "NaOH"
+      ],
+      "solvents": [
+        "THF",
+        "water"
+      ],
+      "yields": {
+        "3": 75
+      }
+    },
+    {
+      "id": "E23",
+      "in": [
+        "16"
+      ],
+      "out": [
+        "35"
+      ],
+      "evidence": {
+        "article": [
+          4
+        ]
+      },
+      "reagents": [
+        "BCl3",
+        "pentamethylbenzene"
+      ],
+      "solvents": [
+        "dichloromethane"
+      ],
+      "yields": {},
+      "yield_scope": "Article Figure 4B gives 10-40% range; no single yield assigned."
+    },
+    {
+      "id": "E24",
+      "in": [
+        "21"
+      ],
+      "out": [
+        "36"
+      ],
+      "evidence": {
+        "article": [
+          4
+        ],
+        "si": [
+          52
+        ]
+      },
+      "reagents": [
+        "BCl3"
+      ],
+      "solvents": [
+        "dichloromethane"
+      ],
+      "yields": {
+        "36": 73
+      }
+    },
+    {
+      "id": "E25",
+      "in": [
+        "36"
+      ],
+      "out": [
+        "9"
+      ],
+      "evidence": {
+        "article": [
+          4
+        ],
+        "si": [
+          54
+        ]
+      },
+      "reagents": [
+        "HCl"
+      ],
+      "solvents": [
+        "methanol",
+        "THF"
+      ],
+      "yields": {
+        "9": 77
+      }
+    }
+  ],
+  "paths": [
+    [
+      "delta-viniferin",
+      "2",
+      [
+        "E03",
+        "E05",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14"
+      ]
+    ],
+    [
+      "gnetin-C",
+      "4",
+      [
+        "E01",
+        "E10",
+        "E11",
+        "E12",
+        "E16",
+        "E18"
+      ]
+    ],
+    [
+      "ampelopsin-B",
+      "8",
+      [
+        "E01",
+        "E10",
+        "E11",
+        "E12",
+        "E16",
+        "E17"
+      ]
+    ],
+    [
+      "epsilon-viniferin",
+      "3",
+      [
+        "E03",
+        "E05",
+        "E06",
+        "E07",
+        "E10",
+        "E11",
+        "E12",
+        "E19",
+        "E21",
+        "E22"
+      ]
+    ],
+    [
+      "epsilon-direct-mesylation",
+      "3",
+      [
+        "E08",
+        "E10",
+        "E11",
+        "E12",
+        "E19",
+        "E21",
+        "E22"
+      ]
+    ],
+    [
+      "epsilon-thermal-alternative",
+      "3",
+      [
+        "E08",
+        "E10",
+        "E11",
+        "E12",
+        "E20",
+        "E21",
+        "E22"
+      ]
+    ],
+    [
+      "ampelopsin-F",
+      "9",
+      [
+        "E01",
+        "E10",
+        "E11",
+        "E12",
+        "E16",
+        "E24",
+        "E25"
+      ]
+    ],
+    [
+      "benzyl-rearrangement",
+      "35",
+      [
+        "E01",
+        "E09",
+        "E23"
+      ]
+    ],
+    [
+      "benzyl-gnetin-control",
+      "17",
+      [
+        "E01",
+        "E09"
+      ]
+    ],
+    [
+      "mesyl-delta-control",
+      "S5",
+      [
+        "E01",
+        "E02",
+        "E10",
+        "E11",
+        "E12",
+        "E15"
+      ]
+    ],
+    [
+      "mesyl-gnetin-control",
+      "30",
+      [
+        "E08",
+        "E10",
+        "E11",
+        "E12",
+        "E19"
+      ]
+    ],
+    [
+      "TBS-control",
+      "SI-S1-TBS",
+      [
+        "E04"
+      ]
+    ]
+  ],
+  "issues": [
+    [
+      "label-collisions",
+      "source_conflict",
+      "S1/S2/8/9/36",
+      "SI p4 S1 and S2 are literature substrates, distinct from S1 p11 and S2 p19. SI contents list ampelopsin B as 7, F as 8 and protected F as 37; actual preparation headings and article use 8, 9, 36. Dedicated LIT-S1 and 15 identifiers prevent collision."
+    ],
+    [
+      "mesyl-yield",
+      "source_conflict",
+      "14",
+      "Article Figure 2 and text give 94% over two steps. SI p19 gives 80% isolated S2 mesylation and p16 94% desilylation. Separate SI preparations retained; do not multiply/reassign as article combined yield."
+    ],
+    [
+      "mesyl-reagent",
+      "source_conflict",
+      "E08",
+      "Article p3 says MsCl for direct monomesylation; SI p18 scheme and procedure use methanesulfonic anhydride (Ms2O). SI reagent retained."
+    ],
+    [
+      "minor-regioisomer-yield",
+      "source_conflict",
+      "17",
+      "Article p3 narrative gives 10%; Figure 2 table and SI p21 give 14%. Dataset uses explicit SI preparation 14%."
+    ],
+    [
+      "timing-temperature",
+      "source_conflict",
+      "multiple",
+      "Differences between schemes and SI prose: 19 10 vs 16 h; 2 65 C vs 80 C bath; 8 40 vs 48 h; 4 and 32 65 C vs 70 C bath; 31 microwave 10 vs 16 h; 3 66 C vs 80 C bath; 36 4 vs 3 h; 9 65 C vs 70 C bath. Scheme solution temperatures and bath settings are not assumed identical."
+    ],
+    [
+      "hrms-errors",
+      "source_conflict",
+      "11/S4",
+      "SI p7 [M+NH4]+ calculated 402.0681, found 407.0677, with neutral formula listed. SI p27 S4 formula is printed C29H24O8S, inconsistent with the four-TIPS drawing and m/z 853.6197. Source values are not silently corrected."
+    ],
+    [
+      "mass-amount-errors",
+      "source_conflict",
+      "SI preparations",
+      "SI p11 repeats 9.1 g/99% from TIPS despite lower TBS molar mass; p36 substrate masses and micromoles inconsistent; p48 gives 89 mg as 0.769 mmol (tenfold inconsistency); p42 and p54 mass/amount annotations also inconsistent. Reported percentages preserved without deriving missing quantities."
+    ],
+    [
+      "mixture-boundary",
+      "representation_boundary",
+      "18/19",
+      "18 is a 1:1 diastereomer mixture. 19 is qNMR-quantified in inseparable crude with S4 and remaining 18; no isolated single-component purity implied."
+    ],
+    [
+      "stereo-boundary",
+      "review_pending",
+      "all dimers",
+      "DHB wedges represent relative configuration; absolute enantiomer not assigned. BQM mixture stereochemistry and ampelopsin F perspective stereochemistry are not encoded as resolved stereoisomers."
+    ],
+    [
+      "literature-boundary",
+      "representation_boundary",
+      "LIT-S1/15",
+      "SI p4 supplies literature-derived precursors; upstream preparations are outside this paper. Network completeness does not mean commercial-start completeness."
+    ],
+    [
+      "mechanism-boundary",
+      "representation_boundary",
+      "22-29/33-34",
+      "Mechanistic radicals, resonance forms, transition states and hypothetical intermediates in Figures 3C/4B are not isolated preparative nodes. Figure 1 prior work is contextual, not this paper's synthesis."
+    ]
+  ]
+}

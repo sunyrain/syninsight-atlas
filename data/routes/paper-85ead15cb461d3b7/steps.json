@@ -1,0 +1,169 @@
+[
+  {
+    "admission_authority": false,
+    "agents": [],
+    "event_id": "E01",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "4"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "2",
+        "percent": 65,
+        "product_label": "4",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "reactant_labels": [
+      "2",
+      "3"
+    ],
+    "solvents": [
+      "xylene"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: E01",
+        "pages": [
+          3
+        ],
+        "sha256": "77cd6a4a846450d2d9e88ad6a99358c57860e9e37d78934f9439260ce1ac6260",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E01.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "CCOC(=O)CNCc1ccccc1.O=CC1=CO[C@H](COCc2ccccc2)[C@@H](OCc2ccccc2)[C@H]1OCc1ccccc1>>CCOC(=O)c1cc([C@H](OCc2ccccc2)[C@H](OCc2ccccc2)[C@H](O)COCc2ccccc2)cn1Cc1ccccc1",
+    "yield_percent": 65
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "sodium hydroxide"
+    ],
+    "event_id": "E02",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "4b"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "4a",
+        "percent": 85,
+        "product_label": "4b",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "reactant_labels": [
+      "4a"
+    ],
+    "solvents": [
+      "ethanol",
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: E02",
+        "pages": [
+          3,
+          4
+        ],
+        "sha256": "77cd6a4a846450d2d9e88ad6a99358c57860e9e37d78934f9439260ce1ac6260",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E02.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "CCOC(=O)c1cc([C@H](OCc2ccccc2)[C@H](OCc2ccccc2)[C@@H](COCc2ccccc2)OCc2ccccc2)cn1Cc1ccccc1>>O=C(O)c1cc([C@H](OCc2ccccc2)[C@H](OCc2ccccc2)[C@@H](COCc2ccccc2)OCc2ccccc2)cn1Cc1ccccc1",
+    "yield_percent": 85
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "ethyl iodide",
+      "potassium carbonate"
+    ],
+    "event_id": "E03",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "7"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "6",
+        "percent": 91,
+        "product_label": "7",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "reactant_labels": [
+      "6"
+    ],
+    "solvents": [
+      "DMF"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: E03",
+        "pages": [
+          5
+        ],
+        "sha256": "77cd6a4a846450d2d9e88ad6a99358c57860e9e37d78934f9439260ce1ac6260",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E03.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "O=C(O)c1c(CC(O)COCc2ccccc2)c([C@H](OCc2ccccc2)[C@H](OCc2ccccc2)[C@@H](COCc2ccccc2)OCc2ccccc2)cn1Cc1ccccc1>>CCOC(=O)c1c(CC(O)COCc2ccccc2)c([C@H](OCc2ccccc2)[C@H](OCc2ccccc2)[C@@H](COCc2ccccc2)OCc2ccccc2)cn1Cc1ccccc1",
+    "yield_percent": 91
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "Dess-Martin periodinane"
+    ],
+    "event_id": "E04",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "8"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "7",
+        "percent": 85,
+        "product_label": "8",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "reactant_labels": [
+      "7"
+    ],
+    "solvents": [
+      "dichloromethane"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: E04",
+        "pages": [
+          5,
+          6
+        ],
+        "sha256": "77cd6a4a846450d2d9e88ad6a99358c57860e9e37d78934f9439260ce1ac6260",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E04.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "CCOC(=O)c1c(CC(O)COCc2ccccc2)c([C@H](OCc2ccccc2)[C@H](OCc2ccccc2)[C@@H](COCc2ccccc2)OCc2ccccc2)cn1Cc1ccccc1>>CCOC(=O)c1c(CC(=O)COCc2ccccc2)c([C@H](OCc2ccccc2)[C@H](OCc2ccccc2)[C@@H](COCc2ccccc2)OCc2ccccc2)cn1Cc1ccccc1",
+    "yield_percent": 85
+  }
+]

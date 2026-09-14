@@ -1,0 +1,1459 @@
+{
+  "admission_authority": false,
+  "available_si_preparation_network_covered": false,
+  "conditions_fully_standardized": false,
+  "coverage_definition": "SI-only extraction of all source-drawn prepared structures 5-9, revised polycitorols A/B and their salts. Route begins at drawn enone 5. SI p3 reports 3 + 4 -> 5 (94%) but contains no drawings or full names for 3/4; this edge is retained as unresolved rather than inventing starting-material SMILES. Full article and upstream preparation are unavailable.",
+  "doi": "10.1002/ejoc.70460",
+  "extraction_method": "source_drawing_checked_network_transcription",
+  "formal_benchmark_eligible": false,
+  "formula_checks": [
+    {
+      "check_basis": "Curation expected formula; source HRMS where available, otherwise drawing atom count.",
+      "expected_neutral_formula": "C31H41NO4S",
+      "label": "5",
+      "neutral_formula_match": true,
+      "source_references": [
+        {
+          "locator": "SI drawing/procedure: formula 5",
+          "pages": [
+            3,
+            4,
+            5,
+            54
+          ],
+          "sha256": "96118877f85a6092ad7a834b8861e57112cc70c5b9b2349b002d18dbbc123954",
+          "source_id": "si"
+        }
+      ]
+    },
+    {
+      "check_basis": "Curation expected formula; source HRMS where available, otherwise drawing atom count.",
+      "expected_neutral_formula": "C31H43NO4S",
+      "label": "6",
+      "neutral_formula_match": true,
+      "source_references": [
+        {
+          "locator": "SI drawing/procedure: formula 6",
+          "pages": [
+            3,
+            4,
+            5,
+            55
+          ],
+          "sha256": "96118877f85a6092ad7a834b8861e57112cc70c5b9b2349b002d18dbbc123954",
+          "source_id": "si"
+        }
+      ]
+    },
+    {
+      "check_basis": "Curation expected formula; source HRMS where available, otherwise drawing atom count.",
+      "expected_neutral_formula": "C31H45NO4S",
+      "label": "7",
+      "neutral_formula_match": true,
+      "source_references": [
+        {
+          "locator": "SI drawing/procedure: formula 7",
+          "pages": [
+            3,
+            4,
+            5,
+            56
+          ],
+          "sha256": "96118877f85a6092ad7a834b8861e57112cc70c5b9b2349b002d18dbbc123954",
+          "source_id": "si"
+        }
+      ]
+    },
+    {
+      "check_basis": "Curation expected formula; source HRMS where available, otherwise drawing atom count.",
+      "expected_neutral_formula": "C24H39NO2",
+      "label": "8",
+      "neutral_formula_match": true,
+      "source_references": [
+        {
+          "locator": "SI drawing/procedure: formula 8",
+          "pages": [
+            3,
+            4,
+            5,
+            57
+          ],
+          "sha256": "96118877f85a6092ad7a834b8861e57112cc70c5b9b2349b002d18dbbc123954",
+          "source_id": "si"
+        }
+      ]
+    },
+    {
+      "check_basis": "Curation expected formula; source HRMS where available, otherwise drawing atom count.",
+      "expected_neutral_formula": "C24H37NO",
+      "label": "9",
+      "neutral_formula_match": true,
+      "source_references": [
+        {
+          "locator": "SI drawing/procedure: formula 9",
+          "pages": [
+            5,
+            6,
+            58
+          ],
+          "sha256": "96118877f85a6092ad7a834b8861e57112cc70c5b9b2349b002d18dbbc123954",
+          "source_id": "si"
+        }
+      ]
+    },
+    {
+      "check_basis": "Curation expected formula; source HRMS where available, otherwise drawing atom count.",
+      "expected_neutral_formula": "C17H31NO",
+      "label": "1",
+      "neutral_formula_match": true,
+      "source_references": [
+        {
+          "locator": "SI drawing/procedure: formula 1",
+          "pages": [
+            6,
+            7,
+            8,
+            59
+          ],
+          "sha256": "96118877f85a6092ad7a834b8861e57112cc70c5b9b2349b002d18dbbc123954",
+          "source_id": "si"
+        }
+      ]
+    },
+    {
+      "check_basis": "Curation expected formula; source HRMS where available, otherwise drawing atom count.",
+      "expected_neutral_formula": "C17H32ClNO",
+      "label": "1-HCl",
+      "neutral_formula_match": true,
+      "source_references": [
+        {
+          "locator": "SI drawing/procedure: formula 1-HCl",
+          "pages": [
+            6,
+            7,
+            8,
+            64
+          ],
+          "sha256": "96118877f85a6092ad7a834b8861e57112cc70c5b9b2349b002d18dbbc123954",
+          "source_id": "si"
+        }
+      ]
+    },
+    {
+      "check_basis": "Curation expected formula; source HRMS where available, otherwise drawing atom count.",
+      "expected_neutral_formula": "C17H31NO",
+      "label": "2",
+      "neutral_formula_match": true,
+      "source_references": [
+        {
+          "locator": "SI drawing/procedure: formula 2",
+          "pages": [
+            6,
+            7,
+            8,
+            67
+          ],
+          "sha256": "96118877f85a6092ad7a834b8861e57112cc70c5b9b2349b002d18dbbc123954",
+          "source_id": "si"
+        }
+      ]
+    },
+    {
+      "check_basis": "Curation expected formula; source HRMS where available, otherwise drawing atom count.",
+      "expected_neutral_formula": "C17H32ClNO",
+      "label": "2-HCl",
+      "neutral_formula_match": true,
+      "source_references": [
+        {
+          "locator": "SI drawing/procedure: formula 2-HCl",
+          "pages": [
+            6,
+            7,
+            8,
+            71
+          ],
+          "sha256": "96118877f85a6092ad7a834b8861e57112cc70c5b9b2349b002d18dbbc123954",
+          "source_id": "si"
+        }
+      ]
+    }
+  ],
+  "full_article_route_coverage": false,
+  "hrms_checks": [],
+  "issues": [
+    {
+      "detail": "Drawings of aldehyde 3 and phosphonate 4 require main article; not inferred.",
+      "id": "missing-starts",
+      "severity": "representation_boundary",
+      "subject": "E01"
+    },
+    {
+      "detail": "SI p3: 78.3 mg of 5 called 0.105 mmol, inconsistent with formula; p5: 75.9 mg of 9 from 36.0 mg of 8 at 79%; p7: A-HCl 7.9 mg from 6.7 mg free A called 78%. Reported yields retained, quantities not repaired.",
+      "id": "quantity-conflicts",
+      "severity": "source_conflict",
+      "subject": "E02/E05/E07"
+    },
+    {
+      "detail": "CIP descriptors belong to revised structures. B is ring-expanded constitution, not merely epimerized A.",
+      "id": "reassignment",
+      "severity": "representation_boundary",
+      "subject": "1/2"
+    },
+    {
+      "detail": "Source-bound facts require independent chemist review.",
+      "id": "independent-review",
+      "severity": "review_pending",
+      "subject": "all"
+    }
+  ],
+  "molecules": [
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "CCCCC(=O)/C=C/[C@@H]1CCCC[C@@]12CC[C@@H](COCc1ccccc1)N2S(=O)(=O)c1ccc(C)cc1",
+      "canonical_smiles": "CCCCC(=O)/C=C/[C@@H]1CCCC[C@@]12CC[C@@H](COCc1ccccc1)N2S(=O)(=O)c1ccc(C)cc1",
+      "depiction": "structures/5.svg",
+      "exact_mass": 523.275629792,
+      "formal_benchmark_eligible": false,
+      "label": "5",
+      "molecular_formula": "C31H41NO4S",
+      "molecule_id": "mol-868340471ce923550f83f606e57b112e2a5e2c258ca2c58e9aad85314a8a66e0",
+      "name": "SI compound 5",
+      "paper_label": "5",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "locator": "SI drawing/procedure: 5",
+          "pages": [
+            3,
+            4,
+            5,
+            54
+          ],
+          "sha256": "96118877f85a6092ad7a834b8861e57112cc70c5b9b2349b002d18dbbc123954",
+          "source_id": "si"
+        }
+      ],
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "CCCC[C@@H](O)/C=C/[C@@H]1CCCC[C@@]12CC[C@@H](COCc1ccccc1)N2S(=O)(=O)c1ccc(C)cc1",
+      "canonical_smiles": "CCCC[C@@H](O)/C=C/[C@@H]1CCCC[C@@]12CC[C@@H](COCc1ccccc1)N2S(=O)(=O)c1ccc(C)cc1",
+      "depiction": "structures/6.svg",
+      "exact_mass": 525.291279856,
+      "formal_benchmark_eligible": false,
+      "label": "6",
+      "molecular_formula": "C31H43NO4S",
+      "molecule_id": "mol-ac86295170dd33d51bc46ccf6873fdd765a2e67b2a4bef68d21ba1bc2d890d9c",
+      "name": "SI compound 6",
+      "paper_label": "6",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "locator": "SI drawing/procedure: 6",
+          "pages": [
+            3,
+            4,
+            5,
+            55
+          ],
+          "sha256": "96118877f85a6092ad7a834b8861e57112cc70c5b9b2349b002d18dbbc123954",
+          "source_id": "si"
+        }
+      ],
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "CCCC[C@@H](O)CC[C@@H]1CCCC[C@@]12CC[C@@H](COCc1ccccc1)N2S(=O)(=O)c1ccc(C)cc1",
+      "canonical_smiles": "CCCC[C@@H](O)CC[C@@H]1CCCC[C@@]12CC[C@@H](COCc1ccccc1)N2S(=O)(=O)c1ccc(C)cc1",
+      "depiction": "structures/7.svg",
+      "exact_mass": 527.30692992,
+      "formal_benchmark_eligible": false,
+      "label": "7",
+      "molecular_formula": "C31H45NO4S",
+      "molecule_id": "mol-14992cdbec62bea52372cf048b16200d25d438f63df928214ea3aec9ff14cd0f",
+      "name": "SI compound 7",
+      "paper_label": "7",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "locator": "SI drawing/procedure: 7",
+          "pages": [
+            3,
+            4,
+            5,
+            56
+          ],
+          "sha256": "96118877f85a6092ad7a834b8861e57112cc70c5b9b2349b002d18dbbc123954",
+          "source_id": "si"
+        }
+      ],
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "CCCC[C@@H](O)CC[C@@H]1CCCC[C@@]12CC[C@@H](COCc1ccccc1)N2",
+      "canonical_smiles": "CCCC[C@@H](O)CC[C@@H]1CCCC[C@@]12CC[C@@H](COCc1ccccc1)N2",
+      "depiction": "structures/8.svg",
+      "exact_mass": 373.29807948800004,
+      "formal_benchmark_eligible": false,
+      "label": "8",
+      "molecular_formula": "C24H39NO2",
+      "molecule_id": "mol-31dc890d9f9d2f1535bada50d167e8004c93b2ba2af594032ba99992a9044941",
+      "name": "SI compound 8",
+      "paper_label": "8",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "locator": "SI drawing/procedure: 8",
+          "pages": [
+            3,
+            4,
+            5,
+            57
+          ],
+          "sha256": "96118877f85a6092ad7a834b8861e57112cc70c5b9b2349b002d18dbbc123954",
+          "source_id": "si"
+        }
+      ],
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "CCCC[C@H]1CC[C@@H]2CCCC[C@]23CC[C@@H](COCc2ccccc2)N13",
+      "canonical_smiles": "CCCC[C@H]1CC[C@@H]2CCCC[C@]23CC[C@@H](COCc2ccccc2)N13",
+      "depiction": "structures/9.svg",
+      "exact_mass": 355.28751480400007,
+      "formal_benchmark_eligible": false,
+      "label": "9",
+      "molecular_formula": "C24H37NO",
+      "molecule_id": "mol-30d0b19284f06dc9bd116455f4926375d508285c248ca34eab86070905216c59",
+      "name": "SI compound 9",
+      "paper_label": "9",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "locator": "SI drawing/procedure: 9",
+          "pages": [
+            5,
+            6,
+            58
+          ],
+          "sha256": "96118877f85a6092ad7a834b8861e57112cc70c5b9b2349b002d18dbbc123954",
+          "source_id": "si"
+        }
+      ],
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "CCCC[C@H]1CC[C@@H]2CCCC[C@]23CC[C@@H](CO)N13",
+      "canonical_smiles": "CCCC[C@H]1CC[C@@H]2CCCC[C@]23CC[C@@H](CO)N13",
+      "depiction": "structures/1.svg",
+      "exact_mass": 265.240564612,
+      "formal_benchmark_eligible": false,
+      "label": "1",
+      "molecular_formula": "C17H31NO",
+      "molecule_id": "mol-bcdd2d18627b060d86cbc78e1d2d7bf418150d26d41146f896cbed80f6c6a45c",
+      "name": "SI compound 1",
+      "paper_label": "1",
+      "review_status": "pending_independent_chemist_review",
+      "role": "target",
+      "source_references": [
+        {
+          "locator": "SI drawing/procedure: 1",
+          "pages": [
+            6,
+            7,
+            8,
+            59
+          ],
+          "sha256": "96118877f85a6092ad7a834b8861e57112cc70c5b9b2349b002d18dbbc123954",
+          "source_id": "si"
+        }
+      ],
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "CCCC[C@H]1CC[C@@H]2CCCC[C@]23CC[C@@H](CO)[NH+]13.[Cl-]",
+      "canonical_smiles": "CCCC[C@H]1CC[C@@H]2CCCC[C@]23CC[C@@H](CO)[NH+]13.[Cl-]",
+      "depiction": "structures/1-HCl.svg",
+      "exact_mass": 301.217242324,
+      "formal_benchmark_eligible": false,
+      "label": "1-HCl",
+      "molecular_formula": "C17H32ClNO",
+      "molecule_id": "mol-e2349b894b4f3e2561f217796222b60166c37f6a409d0e86ee94f05d79351a3e",
+      "name": "SI compound 1-HCl",
+      "paper_label": "1-HCl",
+      "review_status": "pending_independent_chemist_review",
+      "role": "target",
+      "source_references": [
+        {
+          "locator": "SI drawing/procedure: 1-HCl",
+          "pages": [
+            6,
+            7,
+            8,
+            64
+          ],
+          "sha256": "96118877f85a6092ad7a834b8861e57112cc70c5b9b2349b002d18dbbc123954",
+          "source_id": "si"
+        }
+      ],
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "CCCC[C@H]1CC[C@@H]2CCCC[C@]23CC[C@@H](O)CN13",
+      "canonical_smiles": "CCCC[C@H]1CC[C@@H]2CCCC[C@]23CC[C@@H](O)CN13",
+      "depiction": "structures/2.svg",
+      "exact_mass": 265.240564612,
+      "formal_benchmark_eligible": false,
+      "label": "2",
+      "molecular_formula": "C17H31NO",
+      "molecule_id": "mol-0f7035c84692f30f52997d516049f1e3486e19711bf4628a55f60dd8db5a6c94",
+      "name": "SI compound 2",
+      "paper_label": "2",
+      "review_status": "pending_independent_chemist_review",
+      "role": "target",
+      "source_references": [
+        {
+          "locator": "SI drawing/procedure: 2",
+          "pages": [
+            6,
+            7,
+            8,
+            67
+          ],
+          "sha256": "96118877f85a6092ad7a834b8861e57112cc70c5b9b2349b002d18dbbc123954",
+          "source_id": "si"
+        }
+      ],
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "CCCC[C@H]1CC[C@@H]2CCCC[C@]23CC[C@@H](O)C[NH+]13.[Cl-]",
+      "canonical_smiles": "CCCC[C@H]1CC[C@@H]2CCCC[C@]23CC[C@@H](O)C[NH+]13.[Cl-]",
+      "depiction": "structures/2-HCl.svg",
+      "exact_mass": 301.217242324,
+      "formal_benchmark_eligible": false,
+      "label": "2-HCl",
+      "molecular_formula": "C17H32ClNO",
+      "molecule_id": "mol-246da9617127fe0b7a75e299bdebca6605e93f31462a93a20f4004983982a89f",
+      "name": "SI compound 2-HCl",
+      "paper_label": "2-HCl",
+      "review_status": "pending_independent_chemist_review",
+      "role": "target",
+      "source_references": [
+        {
+          "locator": "SI drawing/procedure: 2-HCl",
+          "pages": [
+            6,
+            7,
+            8,
+            71
+          ],
+          "sha256": "96118877f85a6092ad7a834b8861e57112cc70c5b9b2349b002d18dbbc123954",
+          "source_id": "si"
+        }
+      ],
+      "structure_basis": "source_drawing_transcription"
+    }
+  ],
+  "observations": [],
+  "paper_id": "paper-65486c490d434d36",
+  "participants": [],
+  "reactions": [
+    {
+      "admission_authority": false,
+      "category": "forward_synthesis",
+      "event_id": "E02",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "product_labels": [
+        "6"
+      ],
+      "reactant_labels": [
+        "5"
+      ],
+      "reagents": [
+        "LiAlH4",
+        "ethanol",
+        "(R)-BINOL"
+      ],
+      "reported_yields": [
+        {
+          "from_label": "5",
+          "percent": 90,
+          "product_label": "6",
+          "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+        }
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "THF"
+      ],
+      "source_references": [
+        {
+          "locator": "SI drawing/procedure: E02",
+          "pages": [
+            3,
+            4
+          ],
+          "sha256": "96118877f85a6092ad7a834b8861e57112cc70c5b9b2349b002d18dbbc123954",
+          "source_id": "si"
+        }
+      ],
+      "step_ids": [
+        "E02.1"
+      ],
+      "substrate_product_smiles": "CCCCC(=O)/C=C/[C@@H]1CCCC[C@@]12CC[C@@H](COCc1ccccc1)N2S(=O)(=O)c1ccc(C)cc1>>CCCC[C@@H](O)/C=C/[C@@H]1CCCC[C@@]12CC[C@@H](COCc1ccccc1)N2S(=O)(=O)c1ccc(C)cc1"
+    },
+    {
+      "admission_authority": false,
+      "category": "forward_synthesis",
+      "event_id": "E03",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "product_labels": [
+        "7"
+      ],
+      "reactant_labels": [
+        "6"
+      ],
+      "reagents": [
+        "TsNHNH2",
+        "NaOAc"
+      ],
+      "reported_yields": [
+        {
+          "from_label": "6",
+          "percent": 96,
+          "product_label": "7",
+          "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+        }
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "DME",
+        "water"
+      ],
+      "source_references": [
+        {
+          "locator": "SI drawing/procedure: E03",
+          "pages": [
+            4,
+            5
+          ],
+          "sha256": "96118877f85a6092ad7a834b8861e57112cc70c5b9b2349b002d18dbbc123954",
+          "source_id": "si"
+        }
+      ],
+      "step_ids": [
+        "E03.1"
+      ],
+      "substrate_product_smiles": "CCCC[C@@H](O)/C=C/[C@@H]1CCCC[C@@]12CC[C@@H](COCc1ccccc1)N2S(=O)(=O)c1ccc(C)cc1>>CCCC[C@@H](O)CC[C@@H]1CCCC[C@@]12CC[C@@H](COCc1ccccc1)N2S(=O)(=O)c1ccc(C)cc1"
+    },
+    {
+      "admission_authority": false,
+      "category": "forward_synthesis",
+      "event_id": "E04",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "product_labels": [
+        "8"
+      ],
+      "reactant_labels": [
+        "7"
+      ],
+      "reagents": [
+        "sodium naphthalenide"
+      ],
+      "reported_yields": [
+        {
+          "from_label": "7",
+          "percent": 81,
+          "product_label": "8",
+          "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+        }
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "DME"
+      ],
+      "source_references": [
+        {
+          "locator": "SI drawing/procedure: E04",
+          "pages": [
+            5
+          ],
+          "sha256": "96118877f85a6092ad7a834b8861e57112cc70c5b9b2349b002d18dbbc123954",
+          "source_id": "si"
+        }
+      ],
+      "step_ids": [
+        "E04.1"
+      ],
+      "substrate_product_smiles": "CCCC[C@@H](O)CC[C@@H]1CCCC[C@@]12CC[C@@H](COCc1ccccc1)N2S(=O)(=O)c1ccc(C)cc1>>CCCC[C@@H](O)CC[C@@H]1CCCC[C@@]12CC[C@@H](COCc1ccccc1)N2"
+    },
+    {
+      "admission_authority": false,
+      "category": "forward_synthesis",
+      "event_id": "E05",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "product_labels": [
+        "9"
+      ],
+      "reactant_labels": [
+        "8"
+      ],
+      "reagents": [
+        "Ph3P",
+        "Et3N",
+        "DMAP",
+        "CBr4"
+      ],
+      "reported_yields": [
+        {
+          "from_label": "8",
+          "percent": 79,
+          "product_label": "9",
+          "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+        }
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "dichloromethane"
+      ],
+      "source_references": [
+        {
+          "locator": "SI drawing/procedure: E05",
+          "pages": [
+            5,
+            6
+          ],
+          "sha256": "96118877f85a6092ad7a834b8861e57112cc70c5b9b2349b002d18dbbc123954",
+          "source_id": "si"
+        }
+      ],
+      "step_ids": [
+        "E05.1"
+      ],
+      "substrate_product_smiles": "CCCC[C@@H](O)CC[C@@H]1CCCC[C@@]12CC[C@@H](COCc1ccccc1)N2>>CCCC[C@H]1CC[C@@H]2CCCC[C@]23CC[C@@H](COCc2ccccc2)N13"
+    },
+    {
+      "admission_authority": false,
+      "category": "forward_synthesis",
+      "event_id": "E06",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "product_labels": [
+        "1"
+      ],
+      "reactant_labels": [
+        "9"
+      ],
+      "reagents": [
+        "H2",
+        "Pd(OH)2/C"
+      ],
+      "reported_yields": [
+        {
+          "from_label": "9",
+          "percent": 80,
+          "product_label": "1",
+          "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+        }
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "methanol"
+      ],
+      "source_references": [
+        {
+          "locator": "SI drawing/procedure: E06",
+          "pages": [
+            6
+          ],
+          "sha256": "96118877f85a6092ad7a834b8861e57112cc70c5b9b2349b002d18dbbc123954",
+          "source_id": "si"
+        }
+      ],
+      "step_ids": [
+        "E06.1"
+      ],
+      "substrate_product_smiles": "CCCC[C@H]1CC[C@@H]2CCCC[C@]23CC[C@@H](COCc2ccccc2)N13>>CCCC[C@H]1CC[C@@H]2CCCC[C@]23CC[C@@H](CO)N13"
+    },
+    {
+      "admission_authority": false,
+      "category": "forward_synthesis",
+      "event_id": "E07",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "product_labels": [
+        "1-HCl"
+      ],
+      "reactant_labels": [
+        "1"
+      ],
+      "reagents": [
+        "HCl"
+      ],
+      "reported_yields": [
+        {
+          "from_label": "1",
+          "percent": 78,
+          "product_label": "1-HCl",
+          "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+        }
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "methanol",
+        "water"
+      ],
+      "source_references": [
+        {
+          "locator": "SI drawing/procedure: E07",
+          "pages": [
+            7
+          ],
+          "sha256": "96118877f85a6092ad7a834b8861e57112cc70c5b9b2349b002d18dbbc123954",
+          "source_id": "si"
+        }
+      ],
+      "step_ids": [
+        "E07.1"
+      ],
+      "substrate_product_smiles": "CCCC[C@H]1CC[C@@H]2CCCC[C@]23CC[C@@H](CO)N13>>CCCC[C@H]1CC[C@@H]2CCCC[C@]23CC[C@@H](CO)[NH+]13.[Cl-]"
+    },
+    {
+      "admission_authority": false,
+      "category": "forward_synthesis",
+      "event_id": "E08",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "product_labels": [
+        "2"
+      ],
+      "reactant_labels": [
+        "1"
+      ],
+      "reagents": [
+        "trifluoroacetic anhydride",
+        "NaOH"
+      ],
+      "reported_yields": [
+        {
+          "from_label": "1",
+          "percent": 93,
+          "product_label": "2",
+          "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+        }
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "THF",
+        "water"
+      ],
+      "source_references": [
+        {
+          "locator": "SI drawing/procedure: E08",
+          "pages": [
+            7,
+            8
+          ],
+          "sha256": "96118877f85a6092ad7a834b8861e57112cc70c5b9b2349b002d18dbbc123954",
+          "source_id": "si"
+        }
+      ],
+      "step_ids": [
+        "E08.1"
+      ],
+      "substrate_product_smiles": "CCCC[C@H]1CC[C@@H]2CCCC[C@]23CC[C@@H](CO)N13>>CCCC[C@H]1CC[C@@H]2CCCC[C@]23CC[C@@H](O)CN13"
+    },
+    {
+      "admission_authority": false,
+      "category": "forward_synthesis",
+      "event_id": "E09",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "product_labels": [
+        "2-HCl"
+      ],
+      "reactant_labels": [
+        "2"
+      ],
+      "reagents": [
+        "HCl"
+      ],
+      "reported_yields": [
+        {
+          "from_label": "2",
+          "percent": 90,
+          "product_label": "2-HCl",
+          "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+        }
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "methanol",
+        "water"
+      ],
+      "source_references": [
+        {
+          "locator": "SI drawing/procedure: E09",
+          "pages": [
+            8
+          ],
+          "sha256": "96118877f85a6092ad7a834b8861e57112cc70c5b9b2349b002d18dbbc123954",
+          "source_id": "si"
+        }
+      ],
+      "step_ids": [
+        "E09.1"
+      ],
+      "substrate_product_smiles": "CCCC[C@H]1CC[C@@H]2CCCC[C@]23CC[C@@H](O)CN13>>CCCC[C@H]1CC[C@@H]2CCCC[C@]23CC[C@@H](O)C[NH+]13.[Cl-]"
+    }
+  ],
+  "report_heading": "Configurational Reassignment of (+)‐Polycitorol A and (−)‐Polycitorol B by Nuclear Magnetic Resonance Spectroscopic Analysis, Theoretical Calculation, and Total Synthesis — source-bound synthesis network",
+  "report_note": "SI-only extraction of all source-drawn prepared structures 5-9, revised polycitorols A/B and their salts. Route begins at drawn enone 5. SI p3 reports 3 + 4 -> 5 (94%) but contains no drawings or full names for 3/4; this edge is retained as unresolved rather than inventing starting-material SMILES. Full article and upstream preparation are unavailable. Facts compiled deterministically; independent review pending.",
+  "routes": [
+    {
+      "admission_authority": false,
+      "formal_benchmark_eligible": false,
+      "from_commercial_starting_materials_complete": false,
+      "full_article_route_coverage": false,
+      "molecule_smiles_sequence": [
+        "CCCCC(=O)/C=C/[C@@H]1CCCC[C@@]12CC[C@@H](COCc1ccccc1)N2S(=O)(=O)c1ccc(C)cc1",
+        "CCCC[C@@H](O)/C=C/[C@@H]1CCCC[C@@]12CC[C@@H](COCc1ccccc1)N2S(=O)(=O)c1ccc(C)cc1",
+        "CCCC[C@@H](O)CC[C@@H]1CCCC[C@@]12CC[C@@H](COCc1ccccc1)N2S(=O)(=O)c1ccc(C)cc1",
+        "CCCC[C@@H](O)CC[C@@H]1CCCC[C@@]12CC[C@@H](COCc1ccccc1)N2",
+        "CCCC[C@H]1CC[C@@H]2CCCC[C@]23CC[C@@H](COCc2ccccc2)N13",
+        "CCCC[C@H]1CC[C@@H]2CCCC[C@]23CC[C@@H](CO)N13"
+      ],
+      "ordered_event_ids": [
+        "E02",
+        "E03",
+        "E04",
+        "E05",
+        "E06"
+      ],
+      "ordered_molecule_labels": [
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "1"
+      ],
+      "ordered_step_ids": [
+        "E02.1",
+        "E03.1",
+        "E04.1",
+        "E05.1",
+        "E06.1"
+      ],
+      "route_id": "A",
+      "route_type": "source_bound_successful_synthesis",
+      "split_group": "10.1002/ejoc.70460",
+      "start_label": "5",
+      "start_labels": [
+        "5"
+      ],
+      "step_reaction_smiles_sequence": [
+        "CCCCC(=O)/C=C/[C@@H]1CCCC[C@@]12CC[C@@H](COCc1ccccc1)N2S(=O)(=O)c1ccc(C)cc1>>CCCC[C@@H](O)/C=C/[C@@H]1CCCC[C@@]12CC[C@@H](COCc1ccccc1)N2S(=O)(=O)c1ccc(C)cc1",
+        "CCCC[C@@H](O)/C=C/[C@@H]1CCCC[C@@]12CC[C@@H](COCc1ccccc1)N2S(=O)(=O)c1ccc(C)cc1>>CCCC[C@@H](O)CC[C@@H]1CCCC[C@@]12CC[C@@H](COCc1ccccc1)N2S(=O)(=O)c1ccc(C)cc1",
+        "CCCC[C@@H](O)CC[C@@H]1CCCC[C@@]12CC[C@@H](COCc1ccccc1)N2S(=O)(=O)c1ccc(C)cc1>>CCCC[C@@H](O)CC[C@@H]1CCCC[C@@]12CC[C@@H](COCc1ccccc1)N2",
+        "CCCC[C@@H](O)CC[C@@H]1CCCC[C@@]12CC[C@@H](COCc1ccccc1)N2>>CCCC[C@H]1CC[C@@H]2CCCC[C@]23CC[C@@H](COCc2ccccc2)N13",
+        "CCCC[C@H]1CC[C@@H]2CCCC[C@]23CC[C@@H](COCc2ccccc2)N13>>CCCC[C@H]1CC[C@@H]2CCCC[C@]23CC[C@@H](CO)N13"
+      ],
+      "target_label": "1"
+    },
+    {
+      "admission_authority": false,
+      "formal_benchmark_eligible": false,
+      "from_commercial_starting_materials_complete": false,
+      "full_article_route_coverage": false,
+      "molecule_smiles_sequence": [
+        "CCCCC(=O)/C=C/[C@@H]1CCCC[C@@]12CC[C@@H](COCc1ccccc1)N2S(=O)(=O)c1ccc(C)cc1",
+        "CCCC[C@@H](O)/C=C/[C@@H]1CCCC[C@@]12CC[C@@H](COCc1ccccc1)N2S(=O)(=O)c1ccc(C)cc1",
+        "CCCC[C@@H](O)CC[C@@H]1CCCC[C@@]12CC[C@@H](COCc1ccccc1)N2S(=O)(=O)c1ccc(C)cc1",
+        "CCCC[C@@H](O)CC[C@@H]1CCCC[C@@]12CC[C@@H](COCc1ccccc1)N2",
+        "CCCC[C@H]1CC[C@@H]2CCCC[C@]23CC[C@@H](COCc2ccccc2)N13",
+        "CCCC[C@H]1CC[C@@H]2CCCC[C@]23CC[C@@H](CO)N13",
+        "CCCC[C@H]1CC[C@@H]2CCCC[C@]23CC[C@@H](CO)[NH+]13.[Cl-]"
+      ],
+      "ordered_event_ids": [
+        "E02",
+        "E03",
+        "E04",
+        "E05",
+        "E06",
+        "E07"
+      ],
+      "ordered_molecule_labels": [
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "1",
+        "1-HCl"
+      ],
+      "ordered_step_ids": [
+        "E02.1",
+        "E03.1",
+        "E04.1",
+        "E05.1",
+        "E06.1",
+        "E07.1"
+      ],
+      "route_id": "A-salt",
+      "route_type": "source_bound_successful_synthesis",
+      "split_group": "10.1002/ejoc.70460",
+      "start_label": "5",
+      "start_labels": [
+        "5"
+      ],
+      "step_reaction_smiles_sequence": [
+        "CCCCC(=O)/C=C/[C@@H]1CCCC[C@@]12CC[C@@H](COCc1ccccc1)N2S(=O)(=O)c1ccc(C)cc1>>CCCC[C@@H](O)/C=C/[C@@H]1CCCC[C@@]12CC[C@@H](COCc1ccccc1)N2S(=O)(=O)c1ccc(C)cc1",
+        "CCCC[C@@H](O)/C=C/[C@@H]1CCCC[C@@]12CC[C@@H](COCc1ccccc1)N2S(=O)(=O)c1ccc(C)cc1>>CCCC[C@@H](O)CC[C@@H]1CCCC[C@@]12CC[C@@H](COCc1ccccc1)N2S(=O)(=O)c1ccc(C)cc1",
+        "CCCC[C@@H](O)CC[C@@H]1CCCC[C@@]12CC[C@@H](COCc1ccccc1)N2S(=O)(=O)c1ccc(C)cc1>>CCCC[C@@H](O)CC[C@@H]1CCCC[C@@]12CC[C@@H](COCc1ccccc1)N2",
+        "CCCC[C@@H](O)CC[C@@H]1CCCC[C@@]12CC[C@@H](COCc1ccccc1)N2>>CCCC[C@H]1CC[C@@H]2CCCC[C@]23CC[C@@H](COCc2ccccc2)N13",
+        "CCCC[C@H]1CC[C@@H]2CCCC[C@]23CC[C@@H](COCc2ccccc2)N13>>CCCC[C@H]1CC[C@@H]2CCCC[C@]23CC[C@@H](CO)N13",
+        "CCCC[C@H]1CC[C@@H]2CCCC[C@]23CC[C@@H](CO)N13>>CCCC[C@H]1CC[C@@H]2CCCC[C@]23CC[C@@H](CO)[NH+]13.[Cl-]"
+      ],
+      "target_label": "1-HCl"
+    },
+    {
+      "admission_authority": false,
+      "formal_benchmark_eligible": false,
+      "from_commercial_starting_materials_complete": false,
+      "full_article_route_coverage": false,
+      "molecule_smiles_sequence": [
+        "CCCCC(=O)/C=C/[C@@H]1CCCC[C@@]12CC[C@@H](COCc1ccccc1)N2S(=O)(=O)c1ccc(C)cc1",
+        "CCCC[C@@H](O)/C=C/[C@@H]1CCCC[C@@]12CC[C@@H](COCc1ccccc1)N2S(=O)(=O)c1ccc(C)cc1",
+        "CCCC[C@@H](O)CC[C@@H]1CCCC[C@@]12CC[C@@H](COCc1ccccc1)N2S(=O)(=O)c1ccc(C)cc1",
+        "CCCC[C@@H](O)CC[C@@H]1CCCC[C@@]12CC[C@@H](COCc1ccccc1)N2",
+        "CCCC[C@H]1CC[C@@H]2CCCC[C@]23CC[C@@H](COCc2ccccc2)N13",
+        "CCCC[C@H]1CC[C@@H]2CCCC[C@]23CC[C@@H](CO)N13",
+        "CCCC[C@H]1CC[C@@H]2CCCC[C@]23CC[C@@H](O)CN13"
+      ],
+      "ordered_event_ids": [
+        "E02",
+        "E03",
+        "E04",
+        "E05",
+        "E06",
+        "E08"
+      ],
+      "ordered_molecule_labels": [
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "1",
+        "2"
+      ],
+      "ordered_step_ids": [
+        "E02.1",
+        "E03.1",
+        "E04.1",
+        "E05.1",
+        "E06.1",
+        "E08.1"
+      ],
+      "route_id": "B",
+      "route_type": "source_bound_successful_synthesis",
+      "split_group": "10.1002/ejoc.70460",
+      "start_label": "5",
+      "start_labels": [
+        "5"
+      ],
+      "step_reaction_smiles_sequence": [
+        "CCCCC(=O)/C=C/[C@@H]1CCCC[C@@]12CC[C@@H](COCc1ccccc1)N2S(=O)(=O)c1ccc(C)cc1>>CCCC[C@@H](O)/C=C/[C@@H]1CCCC[C@@]12CC[C@@H](COCc1ccccc1)N2S(=O)(=O)c1ccc(C)cc1",
+        "CCCC[C@@H](O)/C=C/[C@@H]1CCCC[C@@]12CC[C@@H](COCc1ccccc1)N2S(=O)(=O)c1ccc(C)cc1>>CCCC[C@@H](O)CC[C@@H]1CCCC[C@@]12CC[C@@H](COCc1ccccc1)N2S(=O)(=O)c1ccc(C)cc1",
+        "CCCC[C@@H](O)CC[C@@H]1CCCC[C@@]12CC[C@@H](COCc1ccccc1)N2S(=O)(=O)c1ccc(C)cc1>>CCCC[C@@H](O)CC[C@@H]1CCCC[C@@]12CC[C@@H](COCc1ccccc1)N2",
+        "CCCC[C@@H](O)CC[C@@H]1CCCC[C@@]12CC[C@@H](COCc1ccccc1)N2>>CCCC[C@H]1CC[C@@H]2CCCC[C@]23CC[C@@H](COCc2ccccc2)N13",
+        "CCCC[C@H]1CC[C@@H]2CCCC[C@]23CC[C@@H](COCc2ccccc2)N13>>CCCC[C@H]1CC[C@@H]2CCCC[C@]23CC[C@@H](CO)N13",
+        "CCCC[C@H]1CC[C@@H]2CCCC[C@]23CC[C@@H](CO)N13>>CCCC[C@H]1CC[C@@H]2CCCC[C@]23CC[C@@H](O)CN13"
+      ],
+      "target_label": "2"
+    },
+    {
+      "admission_authority": false,
+      "formal_benchmark_eligible": false,
+      "from_commercial_starting_materials_complete": false,
+      "full_article_route_coverage": false,
+      "molecule_smiles_sequence": [
+        "CCCCC(=O)/C=C/[C@@H]1CCCC[C@@]12CC[C@@H](COCc1ccccc1)N2S(=O)(=O)c1ccc(C)cc1",
+        "CCCC[C@@H](O)/C=C/[C@@H]1CCCC[C@@]12CC[C@@H](COCc1ccccc1)N2S(=O)(=O)c1ccc(C)cc1",
+        "CCCC[C@@H](O)CC[C@@H]1CCCC[C@@]12CC[C@@H](COCc1ccccc1)N2S(=O)(=O)c1ccc(C)cc1",
+        "CCCC[C@@H](O)CC[C@@H]1CCCC[C@@]12CC[C@@H](COCc1ccccc1)N2",
+        "CCCC[C@H]1CC[C@@H]2CCCC[C@]23CC[C@@H](COCc2ccccc2)N13",
+        "CCCC[C@H]1CC[C@@H]2CCCC[C@]23CC[C@@H](CO)N13",
+        "CCCC[C@H]1CC[C@@H]2CCCC[C@]23CC[C@@H](O)CN13",
+        "CCCC[C@H]1CC[C@@H]2CCCC[C@]23CC[C@@H](O)C[NH+]13.[Cl-]"
+      ],
+      "ordered_event_ids": [
+        "E02",
+        "E03",
+        "E04",
+        "E05",
+        "E06",
+        "E08",
+        "E09"
+      ],
+      "ordered_molecule_labels": [
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "1",
+        "2",
+        "2-HCl"
+      ],
+      "ordered_step_ids": [
+        "E02.1",
+        "E03.1",
+        "E04.1",
+        "E05.1",
+        "E06.1",
+        "E08.1",
+        "E09.1"
+      ],
+      "route_id": "B-salt",
+      "route_type": "source_bound_successful_synthesis",
+      "split_group": "10.1002/ejoc.70460",
+      "start_label": "5",
+      "start_labels": [
+        "5"
+      ],
+      "step_reaction_smiles_sequence": [
+        "CCCCC(=O)/C=C/[C@@H]1CCCC[C@@]12CC[C@@H](COCc1ccccc1)N2S(=O)(=O)c1ccc(C)cc1>>CCCC[C@@H](O)/C=C/[C@@H]1CCCC[C@@]12CC[C@@H](COCc1ccccc1)N2S(=O)(=O)c1ccc(C)cc1",
+        "CCCC[C@@H](O)/C=C/[C@@H]1CCCC[C@@]12CC[C@@H](COCc1ccccc1)N2S(=O)(=O)c1ccc(C)cc1>>CCCC[C@@H](O)CC[C@@H]1CCCC[C@@]12CC[C@@H](COCc1ccccc1)N2S(=O)(=O)c1ccc(C)cc1",
+        "CCCC[C@@H](O)CC[C@@H]1CCCC[C@@]12CC[C@@H](COCc1ccccc1)N2S(=O)(=O)c1ccc(C)cc1>>CCCC[C@@H](O)CC[C@@H]1CCCC[C@@]12CC[C@@H](COCc1ccccc1)N2",
+        "CCCC[C@@H](O)CC[C@@H]1CCCC[C@@]12CC[C@@H](COCc1ccccc1)N2>>CCCC[C@H]1CC[C@@H]2CCCC[C@]23CC[C@@H](COCc2ccccc2)N13",
+        "CCCC[C@H]1CC[C@@H]2CCCC[C@]23CC[C@@H](COCc2ccccc2)N13>>CCCC[C@H]1CC[C@@H]2CCCC[C@]23CC[C@@H](CO)N13",
+        "CCCC[C@H]1CC[C@@H]2CCCC[C@]23CC[C@@H](CO)N13>>CCCC[C@H]1CC[C@@H]2CCCC[C@]23CC[C@@H](O)CN13",
+        "CCCC[C@H]1CC[C@@H]2CCCC[C@]23CC[C@@H](O)CN13>>CCCC[C@H]1CC[C@@H]2CCCC[C@]23CC[C@@H](O)C[NH+]13.[Cl-]"
+      ],
+      "target_label": "2-HCl"
+    }
+  ],
+  "schema_version": "syninsight.route-extraction.v1",
+  "software": {
+    "rdkit": "2026.03.6"
+  },
+  "sources": [
+    {
+      "format": "pdf",
+      "page_count": 71,
+      "path": "papers/paper-65486c490d434d36/supporting_information/si-001.pdf",
+      "redistribute_source": false,
+      "role": "supporting_information",
+      "sha256": "96118877f85a6092ad7a834b8861e57112cc70c5b9b2349b002d18dbbc123954",
+      "source_id": "si"
+    }
+  ],
+  "steps": [
+    {
+      "admission_authority": false,
+      "agents": [
+        "LiAlH4",
+        "ethanol",
+        "(R)-BINOL"
+      ],
+      "event_id": "E02",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+      "product_labels": [
+        "6"
+      ],
+      "product_specific_yields": [
+        {
+          "from_label": "5",
+          "percent": 90,
+          "product_label": "6",
+          "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+        }
+      ],
+      "reactant_labels": [
+        "5"
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "THF"
+      ],
+      "source_references": [
+        {
+          "locator": "SI drawing/procedure: E02",
+          "pages": [
+            3,
+            4
+          ],
+          "sha256": "96118877f85a6092ad7a834b8861e57112cc70c5b9b2349b002d18dbbc123954",
+          "source_id": "si"
+        }
+      ],
+      "step_id": "E02.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "CCCCC(=O)/C=C/[C@@H]1CCCC[C@@]12CC[C@@H](COCc1ccccc1)N2S(=O)(=O)c1ccc(C)cc1>>CCCC[C@@H](O)/C=C/[C@@H]1CCCC[C@@]12CC[C@@H](COCc1ccccc1)N2S(=O)(=O)c1ccc(C)cc1",
+      "yield_percent": 90
+    },
+    {
+      "admission_authority": false,
+      "agents": [
+        "TsNHNH2",
+        "NaOAc"
+      ],
+      "event_id": "E03",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+      "product_labels": [
+        "7"
+      ],
+      "product_specific_yields": [
+        {
+          "from_label": "6",
+          "percent": 96,
+          "product_label": "7",
+          "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+        }
+      ],
+      "reactant_labels": [
+        "6"
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "DME",
+        "water"
+      ],
+      "source_references": [
+        {
+          "locator": "SI drawing/procedure: E03",
+          "pages": [
+            4,
+            5
+          ],
+          "sha256": "96118877f85a6092ad7a834b8861e57112cc70c5b9b2349b002d18dbbc123954",
+          "source_id": "si"
+        }
+      ],
+      "step_id": "E03.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "CCCC[C@@H](O)/C=C/[C@@H]1CCCC[C@@]12CC[C@@H](COCc1ccccc1)N2S(=O)(=O)c1ccc(C)cc1>>CCCC[C@@H](O)CC[C@@H]1CCCC[C@@]12CC[C@@H](COCc1ccccc1)N2S(=O)(=O)c1ccc(C)cc1",
+      "yield_percent": 96
+    },
+    {
+      "admission_authority": false,
+      "agents": [
+        "sodium naphthalenide"
+      ],
+      "event_id": "E04",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+      "product_labels": [
+        "8"
+      ],
+      "product_specific_yields": [
+        {
+          "from_label": "7",
+          "percent": 81,
+          "product_label": "8",
+          "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+        }
+      ],
+      "reactant_labels": [
+        "7"
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "DME"
+      ],
+      "source_references": [
+        {
+          "locator": "SI drawing/procedure: E04",
+          "pages": [
+            5
+          ],
+          "sha256": "96118877f85a6092ad7a834b8861e57112cc70c5b9b2349b002d18dbbc123954",
+          "source_id": "si"
+        }
+      ],
+      "step_id": "E04.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "CCCC[C@@H](O)CC[C@@H]1CCCC[C@@]12CC[C@@H](COCc1ccccc1)N2S(=O)(=O)c1ccc(C)cc1>>CCCC[C@@H](O)CC[C@@H]1CCCC[C@@]12CC[C@@H](COCc1ccccc1)N2",
+      "yield_percent": 81
+    },
+    {
+      "admission_authority": false,
+      "agents": [
+        "Ph3P",
+        "Et3N",
+        "DMAP",
+        "CBr4"
+      ],
+      "event_id": "E05",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+      "product_labels": [
+        "9"
+      ],
+      "product_specific_yields": [
+        {
+          "from_label": "8",
+          "percent": 79,
+          "product_label": "9",
+          "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+        }
+      ],
+      "reactant_labels": [
+        "8"
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "dichloromethane"
+      ],
+      "source_references": [
+        {
+          "locator": "SI drawing/procedure: E05",
+          "pages": [
+            5,
+            6
+          ],
+          "sha256": "96118877f85a6092ad7a834b8861e57112cc70c5b9b2349b002d18dbbc123954",
+          "source_id": "si"
+        }
+      ],
+      "step_id": "E05.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "CCCC[C@@H](O)CC[C@@H]1CCCC[C@@]12CC[C@@H](COCc1ccccc1)N2>>CCCC[C@H]1CC[C@@H]2CCCC[C@]23CC[C@@H](COCc2ccccc2)N13",
+      "yield_percent": 79
+    },
+    {
+      "admission_authority": false,
+      "agents": [
+        "H2",
+        "Pd(OH)2/C"
+      ],
+      "event_id": "E06",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+      "product_labels": [
+        "1"
+      ],
+      "product_specific_yields": [
+        {
+          "from_label": "9",
+          "percent": 80,
+          "product_label": "1",
+          "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+        }
+      ],
+      "reactant_labels": [
+        "9"
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "methanol"
+      ],
+      "source_references": [
+        {
+          "locator": "SI drawing/procedure: E06",
+          "pages": [
+            6
+          ],
+          "sha256": "96118877f85a6092ad7a834b8861e57112cc70c5b9b2349b002d18dbbc123954",
+          "source_id": "si"
+        }
+      ],
+      "step_id": "E06.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "CCCC[C@H]1CC[C@@H]2CCCC[C@]23CC[C@@H](COCc2ccccc2)N13>>CCCC[C@H]1CC[C@@H]2CCCC[C@]23CC[C@@H](CO)N13",
+      "yield_percent": 80
+    },
+    {
+      "admission_authority": false,
+      "agents": [
+        "HCl"
+      ],
+      "event_id": "E07",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+      "product_labels": [
+        "1-HCl"
+      ],
+      "product_specific_yields": [
+        {
+          "from_label": "1",
+          "percent": 78,
+          "product_label": "1-HCl",
+          "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+        }
+      ],
+      "reactant_labels": [
+        "1"
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "methanol",
+        "water"
+      ],
+      "source_references": [
+        {
+          "locator": "SI drawing/procedure: E07",
+          "pages": [
+            7
+          ],
+          "sha256": "96118877f85a6092ad7a834b8861e57112cc70c5b9b2349b002d18dbbc123954",
+          "source_id": "si"
+        }
+      ],
+      "step_id": "E07.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "CCCC[C@H]1CC[C@@H]2CCCC[C@]23CC[C@@H](CO)N13>>CCCC[C@H]1CC[C@@H]2CCCC[C@]23CC[C@@H](CO)[NH+]13.[Cl-]",
+      "yield_percent": 78
+    },
+    {
+      "admission_authority": false,
+      "agents": [
+        "trifluoroacetic anhydride",
+        "NaOH"
+      ],
+      "event_id": "E08",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+      "product_labels": [
+        "2"
+      ],
+      "product_specific_yields": [
+        {
+          "from_label": "1",
+          "percent": 93,
+          "product_label": "2",
+          "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+        }
+      ],
+      "reactant_labels": [
+        "1"
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "THF",
+        "water"
+      ],
+      "source_references": [
+        {
+          "locator": "SI drawing/procedure: E08",
+          "pages": [
+            7,
+            8
+          ],
+          "sha256": "96118877f85a6092ad7a834b8861e57112cc70c5b9b2349b002d18dbbc123954",
+          "source_id": "si"
+        }
+      ],
+      "step_id": "E08.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "CCCC[C@H]1CC[C@@H]2CCCC[C@]23CC[C@@H](CO)N13>>CCCC[C@H]1CC[C@@H]2CCCC[C@]23CC[C@@H](O)CN13",
+      "yield_percent": 93
+    },
+    {
+      "admission_authority": false,
+      "agents": [
+        "HCl"
+      ],
+      "event_id": "E09",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+      "product_labels": [
+        "2-HCl"
+      ],
+      "product_specific_yields": [
+        {
+          "from_label": "2",
+          "percent": 90,
+          "product_label": "2-HCl",
+          "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+        }
+      ],
+      "reactant_labels": [
+        "2"
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "methanol",
+        "water"
+      ],
+      "source_references": [
+        {
+          "locator": "SI drawing/procedure: E09",
+          "pages": [
+            8
+          ],
+          "sha256": "96118877f85a6092ad7a834b8861e57112cc70c5b9b2349b002d18dbbc123954",
+          "source_id": "si"
+        }
+      ],
+      "step_id": "E09.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "CCCC[C@H]1CC[C@@H]2CCCC[C@]23CC[C@@H](O)CN13>>CCCC[C@H]1CC[C@@H]2CCCC[C@]23CC[C@@H](O)C[NH+]13.[Cl-]",
+      "yield_percent": 90
+    }
+  ],
+  "title": "Configurational Reassignment of (+)‐Polycitorol A and (−)‐Polycitorol B by Nuclear Magnetic Resonance Spectroscopic Analysis, Theoretical Calculation, and Total Synthesis",
+  "unresolved_events": [
+    {
+      "eligible_for_route_smiles_sequence": false,
+      "event_id": "E01",
+      "product_labels": [
+        "5"
+      ],
+      "reactant_labels": [
+        "3 (aldehyde)",
+        "4 (phosphonate)"
+      ],
+      "reason": "SI reports HWE procedure but does not draw or fully name 3/4; starting structures not inferred from product.",
+      "source_references": [
+        {
+          "locator": "SI drawing/procedure: unresolved transformation",
+          "pages": [
+            3
+          ],
+          "sha256": "96118877f85a6092ad7a834b8861e57112cc70c5b9b2349b002d18dbbc123954",
+          "source_id": "si"
+        }
+      ],
+      "yield_percent": 94
+    }
+  ]
+}

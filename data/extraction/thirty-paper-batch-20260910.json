@@ -1,0 +1,995 @@
+{
+  "batch_id": "last-thirty-20260910",
+  "status": "batch_disposition_complete_with_partial_candidates_and_blocks",
+  "paper_ids": [
+    "paper-02468cd0966939d2",
+    "paper-0662d076d464d21f",
+    "paper-0676f93cf47b0d4b",
+    "paper-0b9f99071be7f2fb",
+    "paper-0e05697c35b4bd20",
+    "paper-16903c93b7961b97",
+    "paper-2d6f8f626286ab28",
+    "paper-30d3cf1b14fd5066",
+    "paper-33bf034f0faef47b",
+    "paper-427261b826b14a75",
+    "paper-50dd1a6127e1c1cf",
+    "paper-57d8aa1420b35be1",
+    "paper-6a63c9306e309ac6",
+    "paper-6fb246fd524d3d54",
+    "paper-715f9106f76c8961",
+    "paper-802e1955bc55766e",
+    "paper-9575513b24b2c4f6",
+    "paper-96939387a0ca2d6e",
+    "paper-9be5e628c1703d5e",
+    "paper-a2dbfa39bd33e9f0",
+    "paper-c9bff72dbb15cbb3",
+    "paper-ca6c2f7ed809e360",
+    "paper-cb317959e8cba4c0",
+    "paper-d137f8265a6d2e32",
+    "paper-d56d30e3b9b84dbc",
+    "paper-d644e28e46d9de75",
+    "paper-d9dcbe7ff94b3396",
+    "paper-e79ae9485d8724c3",
+    "paper-f30be710c4e097c3",
+    "paper-f6b5505f9a462a36"
+  ],
+  "assignments": {
+    "root_sources": [
+      "paper-0676f93cf47b0d4b",
+      "paper-33bf034f0faef47b",
+      "paper-427261b826b14a75",
+      "paper-a2dbfa39bd33e9f0",
+      "paper-f30be710c4e097c3",
+      "paper-9be5e628c1703d5e",
+      "paper-e79ae9485d8724c3",
+      "paper-d644e28e46d9de75",
+      "paper-d137f8265a6d2e32"
+    ],
+    "group_a": [
+      "paper-02468cd0966939d2",
+      "paper-0e05697c35b4bd20",
+      "paper-30d3cf1b14fd5066",
+      "paper-6a63c9306e309ac6",
+      "paper-802e1955bc55766e",
+      "paper-c9bff72dbb15cbb3",
+      "paper-d9dcbe7ff94b3396"
+    ],
+    "group_b": [
+      "paper-0662d076d464d21f",
+      "paper-16903c93b7961b97",
+      "paper-50dd1a6127e1c1cf",
+      "paper-6fb246fd524d3d54",
+      "paper-9575513b24b2c4f6",
+      "paper-ca6c2f7ed809e360",
+      "paper-d56d30e3b9b84dbc",
+      "paper-715f9106f76c8961",
+      "paper-96939387a0ca2d6e"
+    ],
+    "group_c": [
+      "paper-0b9f99071be7f2fb",
+      "paper-2d6f8f626286ab28",
+      "paper-57d8aa1420b35be1",
+      "paper-cb317959e8cba4c0",
+      "paper-f6b5505f9a462a36"
+    ]
+  },
+  "database_before": {
+    "papers": 133,
+    "molecules": 2377,
+    "paper_compounds": 2220,
+    "reaction_events": 1604,
+    "operation_steps": 1717,
+    "routes": 483
+  },
+  "scope": "Process all remaining30 pending papers; prior user risk exclusions persist. Excluded or source-insufficient papers must not be counted as completed extractions.",
+  "completed": [
+    {
+      "paper_id": "paper-33bf034f0faef47b",
+      "molecules": 18,
+      "events": 15,
+      "routes": 5,
+      "full_article_route_coverage": false,
+      "available_si_preparation_network_covered": true,
+      "sdf_roundtrip_mismatches": 0,
+      "review_status": "pending_independent_chemist_review",
+      "limitations": [
+        "SI-only; derived PDF pages traceable to original DOCX",
+        "Source sequence-yield and positional-name conflicts recorded"
+      ],
+      "name": "Tuliposides",
+      "reaction_events": 15,
+      "operation_steps": 15,
+      "status": "integrated_candidate_pending_independent_review",
+      "source_roles": [
+        "supporting_information"
+      ],
+      "source_hashes": [
+        "4820410d807f12f9a7875ba91fc1627a1735a7f1d60bc85763cf0291db6e2568"
+      ],
+      "coverage_note": "仅SI，DOCX经只读转换绑定PDF；名称与多步收率冲突保留。",
+      "source_conflicts": [
+        {
+          "detail": "SI10 says53.2%over3steps from5, but SchemeS4 startsglucose+6 and passes8/9. Retain sequence statement without inventing a single-step yield.",
+          "id": "10-yield",
+          "severity": "source_conflict",
+          "subject": "10"
+        },
+        {
+          "detail": "SI11 heading duplicates7 substitution pattern; scheme and feed10+1 unequivocally put hydroxylated chain atO1 and nonhydroxylated chain atO6. Graph follows SchemeS5, supporting NMR assignmentFigS1.",
+          "id": "11-name",
+          "severity": "source_conflict",
+          "subject": "11"
+        },
+        {
+          "detail": "Reported317.0820 vs calculated317.0843 [M+Na] differ7.3ppm; retain neutralC11H18O9, do not silently correct experimental mass.",
+          "id": "1PosB-HRMS",
+          "severity": "source_conflict",
+          "subject": "1-PosB"
+        }
+      ]
+    },
+    {
+      "paper_id": "paper-d644e28e46d9de75",
+      "molecules": 24,
+      "events": 25,
+      "routes": 5,
+      "full_article_route_coverage": true,
+      "available_si_preparation_network_covered": false,
+      "sdf_roundtrip_mismatches": 0,
+      "review_status": "pending_independent_chemist_review",
+      "limitations": [
+        "Main-only; SI-only branches explicitly omitted and unresolved",
+        "Racemic synthetic route; representative relative stereoisomer encoded",
+        "Scandine source-graph InChI matches PubChem12082288 representative; no independent chemical review"
+      ],
+      "crossreview": "Two-agent visual review completed; 47% control and7 quantitative optimization entries added after review.",
+      "name": "Scandine",
+      "reaction_events": 25,
+      "operation_steps": 25,
+      "status": "integrated_candidate_pending_independent_review",
+      "source_roles": [
+        "main_article"
+      ],
+      "source_hashes": [
+        "a2051140cf921c70d7a22653bfe3b2732c1dab4fc1a8851d7bbbf75a15430522"
+      ],
+      "coverage_note": "仅正文；消旋代表构型；交叉审核后补8个对照／优化事件，SI支线仍缺。",
+      "source_conflicts": []
+    },
+    {
+      "paper_id": "paper-d137f8265a6d2e32",
+      "molecules": 34,
+      "events": 29,
+      "routes": 4,
+      "full_article_route_coverage": false,
+      "available_si_preparation_network_covered": true,
+      "sdf_roundtrip_mismatches": 0,
+      "review_status": "pending_independent_chemist_review",
+      "limitations": [
+        "SI-only; source unspecified hemiketal configuration",
+        "S1/5 preparation boundaries; S4 analytical isotope product",
+        "Optimization repeats not exhaustive; no invented S10 structure"
+      ],
+      "name": "Allocyclinones A/B",
+      "reaction_events": 29,
+      "operation_steps": 29,
+      "status": "integrated_candidate_pending_independent_review",
+      "source_roles": [
+        "supporting_information"
+      ],
+      "source_hashes": [
+        "8d61f38e1bb4ba4c2b327d11e7a96bff2656976af7645c3ad6047f05cdcbc43d"
+      ],
+      "coverage_note": "仅SI，两目标汇合路线；半缩酮构型未指定，未虚构S10，S4为分析性氘代实验。",
+      "source_conflicts": [
+        {
+          "detail": "Scheme states40%NaOH; prose10%. Source calls89% over2steps despite benzylation/hydrolysis/amidation operations.",
+          "id": "SI20-NaOH",
+          "severity": "source_conflict",
+          "subject": "C01"
+        },
+        {
+          "detail": "Paragraph calls thioacetal7 compound13, inconsistent with scheme and subsequent Hauser product13. Follow scheme.",
+          "id": "SI22-label",
+          "severity": "source_conflict",
+          "subject": "7"
+        },
+        {
+          "detail": "18.69g/75mmol inconsistent with methyl4-amino3-methoxybenzoate formula; amounts not normalized or silently corrected.",
+          "id": "SI32-amount",
+          "severity": "source_conflict",
+          "subject": "27"
+        },
+        {
+          "detail": "Sandmeyer paragraph calls input26; scheme and continuity establish28.",
+          "id": "SI33-label",
+          "severity": "source_conflict",
+          "subject": "28"
+        },
+        {
+          "detail": "Scheme labels input esterS6 whereas the CF3 graph and preceding preparation establishS7.",
+          "id": "SI34-label",
+          "severity": "source_conflict",
+          "subject": "S7"
+        },
+        {
+          "detail": "Printed HRMS formula contains O3; drawing and reported calculated316.9192 mass require O2. Structure formula follows drawing.",
+          "id": "SI35-formula",
+          "severity": "source_conflict",
+          "subject": "S8"
+        },
+        {
+          "detail": "Recovered1.2mg given as2.3mmol is inconsistent; likely micromol. Report isolated75% and qualified89%brsm without inventing corrected measured amount.",
+          "id": "SI40-units",
+          "severity": "source_conflict",
+          "subject": "25"
+        }
+      ]
+    },
+    {
+      "paper_id": "paper-02468cd0966939d2",
+      "molecules": 71,
+      "events": 74,
+      "routes": 19,
+      "full_article_route_coverage": true,
+      "available_si_preparation_network_covered": false,
+      "sdf_roundtrip": true,
+      "notes": "Main pages 1–24 and schemes 3–21 reviewed. Four generations and observed branches. SI spectra and expanded optimization tables not fully reviewed. Generic undefined R/PG models and proposed mechanistic intermediates retained as boundary issues. Pending independent chemical review.",
+      "qa": "Corrected44 C7 S->R against source article16 (6bR,7R), added atom-map expected CIP. Independently checked51/84/72/1 seven-membered lactam connectivity, ring-size sets5/6/6/6/7 andR,R assignments. Final actualSDF71/71 roundtrip; selective QA grid inspected. Main experimental network coverage true, expandedSI coverage false.",
+      "name": "Hinckdentine A",
+      "reaction_events": 74,
+      "operation_steps": 74,
+      "status": "integrated_candidate_pending_independent_review",
+      "source_roles": [
+        "main_article",
+        "supporting_information"
+      ],
+      "source_hashes": [
+        "6e6c1aa1248fc1038d2d8b8dc93ffb6cd827368522528f94dd06543ab7cf3b73",
+        "813c6aa749d725e2c8005cbff5503be7c8ad2e4dbafa361b1a0efe406019441c"
+      ],
+      "coverage_note": "四代路线与所得支线；44的C7构型已纠正；SI扩展范围及部分立体信息见问题清单。",
+      "source_conflicts": [
+        {
+          "detail": "Scheme/prose yields differ: 9 98 vs 96; 47 61 vs 60; 56 21 vs 11; 68 92 vs 99; SI-2 to 82 93 vs 83. Detailed experimental yields retained.",
+          "id": "yield-disagreements",
+          "severity": "source_conflict",
+          "subject": "9/47/56/68/82"
+        },
+        {
+          "detail": "Page 23 calls lactam 51 compound 35; page 20 calls dimethylamine 80 compound 61; connectivity follows schemes and product headings.",
+          "id": "label-errors",
+          "severity": "source_conflict",
+          "subject": "35/61"
+        }
+      ]
+    },
+    {
+      "paper_id": "paper-d9dcbe7ff94b3396",
+      "molecules": 23,
+      "events": 18,
+      "routes": 1,
+      "full_article_route_coverage": false,
+      "available_si_preparation_network_covered": false,
+      "sdf_roundtrip": true,
+      "status": "integrated_candidate_pending_independent_review",
+      "notes": "All SI3-26 isolated preparations captured at connectivity level; target and late intermediates contain explicit source planar wedge assignments, but early/cage junction stereocenters remain unassigned. NOT complete isomer-specific training data. Combined mixture yields retained; unshown minor regioisomer not invented. Actual SDF and grid inspected.",
+      "name": "Grisemycin",
+      "reaction_events": 18,
+      "operation_steps": 18,
+      "source_roles": [
+        "main_article",
+        "supporting_information"
+      ],
+      "source_hashes": [
+        "ee1ef8cef81e76af2e587cc18e8a5d0ddce98953240b0453b453d4bae1a08209",
+        "90e5a2e9949c9b90cd7c073dae03530f6cbe9190feb4d07c524ea24817bea459"
+      ],
+      "coverage_note": "部分立体覆盖；早期桥环中心待复核，混合收率及源文冲突保留。",
+      "source_conflicts": [
+        {
+          "detail": "Main scheme gives 84% and 51%; experimental SI gives 85% and 52%; SI values retained.",
+          "id": "GRIS-YIELD",
+          "severity": "source_conflict",
+          "subject": "12,18"
+        },
+        {
+          "detail": "SI27 numbered target drawing omits 6a-OH that is present in SI25 and the formula; SI25 connectivity is used.",
+          "id": "GRIS-FIG27",
+          "severity": "source_conflict",
+          "subject": "1"
+        }
+      ]
+    },
+    {
+      "paper_id": "paper-0e05697c35b4bd20",
+      "molecules": 10,
+      "events": 7,
+      "routes": 1,
+      "full_article_route_coverage": false,
+      "available_si_preparation_network_covered": false,
+      "sdf_roundtrip": true,
+      "status": "integrated_candidate_pending_independent_review",
+      "notes": "Main Fig5c chemical route transcribed with explicit drawing stereo and actual SDF/grid inspected. SI unavailable; biosynthetic scope and SI ester derivatizations missing. Correction DOI10.1021/acscentsci.6c01223 impact unresolved. 44 mixture yield60figure versus61prose.",
+      "name": "Pensubrubine／propellane",
+      "reaction_events": 7,
+      "operation_steps": 7,
+      "source_roles": [
+        "main_article"
+      ],
+      "source_hashes": [
+        "0a6782c24d848dca0735bd5393457aca587a1d3fdf828d901bed288d66b832c7"
+      ],
+      "coverage_note": "仅正文化学主线；缺SI、酶促范围及酯化支线；后续更正的影响未核实。",
+      "source_conflicts": [
+        {
+          "detail": "Figure5 gives 60%; prose gives 61%; figure mixture yield retained.",
+          "id": "PENS-44-YIELD",
+          "severity": "source_conflict",
+          "subject": "44"
+        }
+      ]
+    },
+    {
+      "paper_id": "paper-30d3cf1b14fd5066",
+      "molecules": 89,
+      "events": 75,
+      "routes": 15,
+      "full_article_route_coverage": false,
+      "available_si_preparation_network_covered": false,
+      "sdf_roundtrip": true,
+      "status": "integrated_candidate_pending_independent_review",
+      "notes": "SI3-19 preparations plus all13 SI2 model-coupling entries and6 SI49 paired bis-MTPA derivatives; target source SI50 absolute2S3S5R7R8S. Some early epoxide/auxiliary/aldol and branch hemiacetal stereocenters remain pending. SI50 future undefined-R thioester route is an explicit boundary. All89 actual SDF records roundtrip; original69 and added20 structural grids inspected.",
+      "name": "Streptospherin A",
+      "reaction_events": 75,
+      "operation_steps": 75,
+      "source_roles": [
+        "supporting_information"
+      ],
+      "source_hashes": [
+        "a44eb934286e8b5b68a620ce771f2fc5498b8cfcf8fa482693422b603e056cd1"
+      ],
+      "coverage_note": "仅SI；已补模型表全部条目及6个Mosher双酯；早期辅助基／醇醛等中心待复核。",
+      "source_conflicts": [
+        {
+          "detail": "SI5 text says 2-bromo pentene but product drawing and C22 formula show isopropenyl addition. SI10 text says isobutylchloride but S22 ketone drawing requires isobutyryl chloride. Drawn structures retained.",
+          "id": "ST-SOURCE",
+          "severity": "source_conflict",
+          "subject": "reagent names"
+        },
+        {
+          "detail": "SI36 HRMS printed formula omits N; S26 omits B. Graph and exact mass identify C47H57NO9 and C31H39BO4.",
+          "id": "ST-HRMS",
+          "severity": "source_conflict",
+          "subject": "36,S26"
+        },
+        {
+          "detail": "SI4 preparation reports er8:1, SI5 consumption says er>20:1 without enrichment operation; no unreported purification invented.",
+          "id": "ST-ER",
+          "severity": "source_conflict",
+          "subject": "3"
+        }
+      ]
+    },
+    {
+      "paper_id": "paper-6a63c9306e309ac6",
+      "molecules": 30,
+      "events": 22,
+      "routes": 6,
+      "full_article_route_coverage": false,
+      "available_si_preparation_network_covered": false,
+      "sdf_roundtrip": true,
+      "status": "integrated_candidate_pending_independent_review",
+      "notes": "Main+SI synthesis connectivity network, S1 and SmI2/NHK branches; target and invariant scaffold reference-assisted via PubChem9886081 exact graph match checked against source, actual SDF30/30 and grids inspected. Early13/14 perspective hydroxyl-bearing centers remain unassigned. SI classifications corrected by root. Source yield/formula discrepancies retained.",
+      "name": "Pleuromutilin",
+      "reaction_events": 22,
+      "operation_steps": 22,
+      "source_roles": [
+        "main_article",
+        "peer_review",
+        "supporting_information"
+      ],
+      "source_hashes": [
+        "faca389ec535ed600e386e1f5bb8dd26d5c2246673068c14f59317c546e4ad19",
+        "57e749cdef9c90a2c2e35f44ddc3f18d621f8696644d9466d40a4875c5a138ef",
+        "864a8278284e1dd4fb46731a0f0ea8d9dabf41a2f92e6e1fc87ef23c6528266e"
+      ],
+      "coverage_note": "正文＋真实100页SI；6页审稿文件已纠正分类；冲突与立体边界见案例。",
+      "source_conflicts": [
+        {
+          "detail": "SI14 scheme77%dr3:1 versus prose57%; prose retained.",
+          "id": "PL-YIELD-S1",
+          "severity": "source_conflict",
+          "subject": "S1"
+        },
+        {
+          "detail": "Main57%(95%brsm); SI24 initial52%, cumulative75%after two recovery/recycle rounds. Values kept at distinct scope.",
+          "id": "PL-YIELD-20",
+          "severity": "source_conflict",
+          "subject": "20"
+        },
+        {
+          "detail": "SI14 sodium formula prints one excessH; SI30 pleuromutilin negative-ion formula C22H32O5 should C22H33O5 for reported377.2333. Neutral source target C22H34O5 retained.",
+          "id": "PL-HRMS",
+          "severity": "source_conflict",
+          "subject": "S1,1"
+        }
+      ]
+    },
+    {
+      "paper_id": "paper-16903c93b7961b97",
+      "molecules": 72,
+      "events": 69,
+      "routes": 12,
+      "full_article_route_coverage": true,
+      "available_si_preparation_network_covered": false,
+      "quality": "candidate_partial_stereo",
+      "sdf_roundtrip_mismatches": 0,
+      "limitations": [
+        "racemic 1b/27b relative stereo pending",
+        "hemiacetal C7 assignments pending",
+        "source SI/main yield and formula conflicts recorded"
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "name": "Exiguamines",
+      "reaction_events": 69,
+      "operation_steps": 69,
+      "status": "integrated_candidate_pending_independent_review",
+      "source_roles": [
+        "main_article",
+        "supporting_information"
+      ],
+      "source_hashes": [
+        "1fd42307f50bdb9c5c675fdd22ac4a5788fd3df4b26bd8e0b390ddfd0bfdaf09",
+        "05cf7774957afc63c24a518364b023253f356f2c3b8ae9705dfa85958565d982",
+        "ab6fe5570909b5bbb6540d5438d10fc9d41bbe228a09557ae25be8c6aebb3d36"
+      ],
+      "coverage_note": "正文＋部分SI；部分C7及消旋体系的立体表示仍有限定。",
+      "source_conflicts": [
+        {
+          "detail": "Main/SI differences: 5 65/59%, 14 41/44%,10 83/80%; asymmetric route several yields differ. SI event values prioritized. SI19 35.2 mg substrate versus 380 mg product typo; no correction invented.",
+          "id": "EXI-01",
+          "severity": "source_conflict",
+          "subject": "source yields and quantities"
+        },
+        {
+          "detail": "SI27/28 amine6 also called S17; SI29 distinct 2-bromoquinone S17 renamed S17-bromo. SI30 scheme draws N-Boc on5/23/24 contrary names/formula and main; main plus HRMS used. SI16 O5 formula for29 is erroneous (O3 mass); SI33 S24 incorrectly includes Si; SI23 calculated masses off about1 Da.",
+          "id": "EXI-02",
+          "severity": "source_conflict",
+          "subject": "SI labels/formulas"
+        }
+      ]
+    },
+    {
+      "paper_id": "paper-6fb246fd524d3d54",
+      "molecules": 22,
+      "events": 26,
+      "routes": 5,
+      "full_article_route_coverage": true,
+      "available_si_preparation_network_covered": true,
+      "quality": "candidate_partial_sulfur_stereo",
+      "sdf_roundtrip_mismatches": 0,
+      "limitations": [
+        "24/26 sulfur absolute descriptors pending; source epimer labels distinguish them",
+        "25 cited preparation boundary"
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "name": "Scholarisines",
+      "reaction_events": 26,
+      "operation_steps": 26,
+      "status": "integrated_candidate_pending_independent_review",
+      "source_roles": [
+        "main_article",
+        "supporting_information"
+      ],
+      "source_hashes": [
+        "03b2c207c99ddef89c80be6b552995cf0485ef2b39a6090f74303f89d299b6ac",
+        "38b07631d281cf04b36df53d7c67690c46d75bf1ac5e9a57f306eeb55f897f63"
+      ],
+      "coverage_note": "正文＋SI；24/26的硫立体描述待定，25为引用前体边界。",
+      "source_conflicts": []
+    },
+    {
+      "paper_id": "paper-9575513b24b2c4f6",
+      "molecules": 36,
+      "events": 36,
+      "routes": 7,
+      "full_article_route_coverage": true,
+      "available_si_preparation_network_covered": true,
+      "quality": "candidate_source_conflicts_qualified",
+      "sdf_roundtrip_mismatches": 0,
+      "limitations": [
+        "17b source drawing double-bond location differs from textual diastereomer description",
+        "main/SI yields and conditions conflict; SI procedures prioritized",
+        "iodide10 source-shown preparation boundary"
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "name": "Euphopia B",
+      "reaction_events": 36,
+      "operation_steps": 36,
+      "status": "integrated_candidate_pending_independent_review",
+      "source_roles": [
+        "main_article",
+        "supporting_information"
+      ],
+      "source_hashes": [
+        "06829b45a94694267ca902d01be897ed652b76d72b2de839c1aa0c0cd8d027de",
+        "70ab8fa386d42c4a820a0c472040bc13347aa7a92905bccf02c3e33494479ef7"
+      ],
+      "coverage_note": "正文＋SI；17b图文双键位置、收率和条件冲突保留。",
+      "source_conflicts": [
+        {
+          "detail": "Main calls17b a C5 diastereomer, but SI17 drawing also shifts exomethylene6=17 to endocyclic6=7 and labels17 asMe; source-drawn connectivity retained and C7 stereocenter absent. Requires independent review.",
+          "id": "EUP-01",
+          "severity": "source_conflict",
+          "subject": "17b source structure"
+        },
+        {
+          "detail": "17->6 main90%then87% versus SI75%overall; Claisen-methylation mainNMP versus SIDMF; 21->22 main84%over2 versus SI96%then93% plus22a2%. SI event yields used.",
+          "id": "EUP-02",
+          "severity": "source_conflict",
+          "subject": "yields and conditions"
+        }
+      ]
+    },
+    {
+      "paper_id": "paper-cb317959e8cba4c0",
+      "doi": "10.1021/jacs.6c05580",
+      "status": "integrated_candidate_pending_independent_review",
+      "molecules": 126,
+      "events": 106,
+      "routes": 36,
+      "full_article_route_coverage": false,
+      "available_si_preparation_network_covered": true,
+      "coverage": "This article reports Benthol A fragments A/B/B-prime, analytical derivatives and alternative preparations, not the final assembled natural product. Final assembly and fragment C belong to the accompanying article. THP precursors are boundaries and unnamed diastereomer/byproduct mixtures remain unresolved.",
+      "risk_screening": "Article PDF2 reports cytotoxicity only at100uM, not high potency; sensitive intermediates are discussed without the specific explosion warning seen in excluded CurcusoneI. No risk exclusion established.",
+      "source_conflicts": [
+        {
+          "detail": "SI25-27 uses the S10 heading across a characterized PMB-protected intermediate and final primary alcohol; these are retained as S10-PMB and S10, respectively.",
+          "id": "S10-NAME",
+          "severity": "source_conflict",
+          "subject": "S10"
+        },
+        {
+          "detail": "SI67 says methyl ester52 but mass20mg/40.8umol matches53; SI69 says64 though main Scheme13 explicitly includes MOM cleavage before reduction/deprotection. Network follows drawn MOM-cleaved53/S21; no silent replacement of the conflicting prose.",
+          "id": "65-FEED",
+          "severity": "source_conflict",
+          "subject": "65/66"
+        },
+        {
+          "detail": "SI72 prints ester S22 259.0 g /0.36mmol; incompatible scale is retained as a source typo, not an extraction quantity.",
+          "id": "S22-MASS",
+          "severity": "source_conflict",
+          "subject": "68"
+        },
+        {
+          "detail": "94% is combined E/Z=2.7:1 product over two steps, never assigned individually.",
+          "id": "38-YIELD",
+          "severity": "source_conflict",
+          "subject": "38-E/38-Z"
+        }
+      ],
+      "actual_sdf_roundtrip": {
+        "count": 126,
+        "errors": []
+      },
+      "review_status": "pending_independent_chemical_review",
+      "qa_file": ".local/last30_c_benthol_qa.json",
+      "name": "Benthol A 片段",
+      "reaction_events": 106,
+      "operation_steps": 106,
+      "source_roles": [
+        "main_article",
+        "supporting_information"
+      ],
+      "source_hashes": [
+        "996ca2bc188470bf83989378b3982513067a40fc72d37e0a1714fdf7ceb4c208",
+        "25570e998f1ba92c276e8301a0e62bfa9f16c2d69beeae66086b2047866ff65a"
+      ],
+      "coverage_note": "本文报道A/B/B′片段及衍生物；最终天然产物组装属于配套论文。"
+    },
+    {
+      "paper_id": "paper-2d6f8f626286ab28",
+      "doi": "10.1021/jacs.6c06878",
+      "status": "integrated_candidate_pending_independent_review",
+      "molecules": 36,
+      "events": 35,
+      "routes": 13,
+      "full_article_route_coverage": true,
+      "available_si_preparation_network_covered": true,
+      "risk_screening": "Main1 explicitly says stephadiamine bioactivity remains unexplored. Reviewed SI4-35: no specific explosion/high toxicity warning established; no toxicity extrapolated from related opioid-active alkaloids.",
+      "source_conflicts": [
+        {
+          "detail": "MainScheme3 shows an ammonium sulfate zwitterion; SI11/12 explicitly draws the sulfate acid with an ammonium chloride counterion. The SI-characterized salt is encoded, and this representation difference is retained.",
+          "id": "S9-SALT",
+          "severity": "source_conflict",
+          "subject": "9"
+        },
+        {
+          "detail": "Scheme calls the mixture S15:17, but heading/drawn major product is S14; preserved as S14/17 combined 80% at1:0.6.",
+          "id": "S14-TYPO",
+          "severity": "source_conflict",
+          "subject": "SI28"
+        },
+        {
+          "detail": "Main gives87% from15; SI isolated operations give83% and97% in distinct experiments; record individual SI yields and main sequence separately without arithmetic substitution.",
+          "id": "YIELD-SCOPE",
+          "severity": "source_conflict",
+          "subject": "15-to17"
+        }
+      ],
+      "limitations": [
+        "Racemic series, representative enantiomer at source wedge-defined centers.",
+        "Perspective-only amino-nitrile quaternary center and two peroxide centers unresolved; canonical SMILES intentionally leaves these stereocenters unspecified pending independent review.",
+        "No historical/retrosynthetic labels1/3/4 treated as actual transformations."
+      ],
+      "actual_sdf_roundtrip": {
+        "count": 36,
+        "errors": []
+      },
+      "review_status": "pending_independent_chemical_review",
+      "name": "Stephadiamine",
+      "reaction_events": 35,
+      "operation_steps": 35,
+      "source_roles": [
+        "main_article",
+        "supporting_information"
+      ],
+      "source_hashes": [
+        "df533ed20ed534347aef374bc3349fc904cee3357930393aeb32ac382479d861",
+        "0ed717675cc92a3c65a3b04abd2064da4f8d2af4f886d3623243100a76cfe320"
+      ],
+      "coverage_note": "正文＋SI；消旋系列，部分笼状及过氧化物中心待复核。"
+    },
+    {
+      "paper_id": "paper-f6b5505f9a462a36",
+      "doi": "10.1002/anie.4281634",
+      "status": "integrated_candidate_pending_independent_review",
+      "molecules": 18,
+      "events": 15,
+      "routes": 5,
+      "full_article_route_coverage": false,
+      "available_si_preparation_network_covered": false,
+      "coverage": "MainSchemes3-5 preparation network. Public93pageSI located but originalPDF normalHTTPdownload403; no fabricated sourcehash. Unshown multistep intermediates and SI-only upstream precursors remain missing.",
+      "si_url": "https://onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1002/anie.4281634&file=anie71761-sup-0001-SuppMat.pdf",
+      "risk_screening": "No target-specific high toxicity or explicit explosion warning established in reviewed main article1-5; no family-based extrapolation. SI not fully reviewed.",
+      "limitations": [
+        "21C3,23C2/C16,26C3/C14,31newC3 remain unresolved; provisional29 follows authors tentative structure.",
+        "Target3C14 transcribed from actualScheme5 hashedbond and supportingNOESY; no automatic transfer to26."
+      ],
+      "actual_sdf_roundtrip": {
+        "count": 18,
+        "errors": []
+      },
+      "review_status": "pending_independent_chemical_review",
+      "name": "Owerreine",
+      "reaction_events": 15,
+      "operation_steps": 15,
+      "source_roles": [
+        "main_article"
+      ],
+      "source_hashes": [
+        "1a2cb52f14363f8830fe6b13ec0a23a5b8644c06f4d1283c2383fdccff2a4072"
+      ],
+      "coverage_note": "仅正文；公开SI下载返回403，尚未本地绑定，上游SI前体未纳入；部分新中心及暂定29待复核。",
+      "source_conflicts": []
+    }
+  ],
+  "excluded": [
+    {
+      "paper_id": "paper-0676f93cf47b0d4b",
+      "reason": "User conservative risk exclusion: primary study reports mansonone F U937 cytotoxic IC50 3.0 micromolar after48h. Other tested cell lines13.3/30.5/29.4 micromolar; do not conflate with more potent mansonone E or claim systemic toxicity.",
+      "reference": "https://doi.org/10.1248/bpb.27.1025",
+      "evidence": {
+        "pages": [
+          2,
+          3
+        ],
+        "printed_pages": [
+          1026,
+          1027
+        ],
+        "sha256": "b57a3cd9ba6b301ba021cb0ab2762ca8a6c767f3ca316c4de15772202093146e",
+        "unit_verified_visually": "micromolar; PDF extraction misreads mu as m"
+      },
+      "name": "Mansonone F",
+      "disposition": "excluded"
+    },
+    {
+      "paper_id": "paper-a2dbfa39bd33e9f0",
+      "reason": "User conservative risk exclusion: primary parent calothrixin B(CAB1) cell growth inhibition GI50 0.16 micromolar(MDA-MB231),0.26(MCF7),0.47(HeLa),0.65(HCT116), Table1. Compound-specific in-vitro evidence, not systemic toxicology.",
+      "reference": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6126808/",
+      "evidence": {
+        "locator": "Table1 parent CAB1"
+      },
+      "name": "Calothrixin B",
+      "disposition": "excluded"
+    },
+    {
+      "paper_id": "paper-e79ae9485d8724c3",
+      "reason": "Conservative user-requested process-risk exclusion: this synthesis SI p16 explicitly requires blast shield for all work with azides; detailed route processing stopped. Not a claim that cephalotaxine or demethylcephalotaxinone has high systemic toxicity.",
+      "reference": "https://doi.org/10.1021/acs.orglett.6c02181",
+      "evidence": {
+        "source": "si",
+        "pages": [
+          16
+        ],
+        "sha256": "363e459758df6d4b551b8d16cebbbc30315ea889a7944debe1e27bb919dfe855",
+        "locator": "Notes before X-Ray Crystallographic Data",
+        "reviewed_visual": true
+      },
+      "name": "Cephalotaxine",
+      "disposition": "excluded"
+    },
+    {
+      "paper_id": "paper-c9bff72dbb15cbb3",
+      "title": "Concise Total Synthesis of (+)-Shearilicine",
+      "reason": "Conservative user risk filter: main article explicitly reports low-micromolar cytotoxicity, L5178Y IC50 3.6 uM and A2780 IC50 8.7 uM. This is an exclusion criterion, not a claim of proven high systemic human toxicity.",
+      "evidence": {
+        "source": "article",
+        "pages": [
+          1
+        ],
+        "sha256": "47d7636a1f5b6f1e654be176a45cc7659470e52fbfc9994352705c91781c56c9",
+        "doi": "10.1021/jacs.5c21637",
+        "primary_isolation_doi": "10.1021/acs.jnatprod.8b00723"
+      },
+      "name": "Shearilicine",
+      "disposition": "excluded"
+    },
+    {
+      "paper_id": "paper-802e1955bc55766e",
+      "reason": "Target set explicitly includes (+)-calycanthine. Primary pharmacology identifies calycanthine as a central convulsant acting through GABA release and GABA-A currents. Excluded per user target-risk filter.",
+      "evidence": {
+        "source": "article",
+        "pages": [
+          1
+        ],
+        "sha256": "a12f663bdf1d5b973c14ad6a0771334634f0668a75c881d1876a1913ebbc0639",
+        "doi": "10.1021/jacs.6c04688",
+        "primary_toxicology_doi": "10.1016/S0041-008X(03)00149-2",
+        "primary_url": "https://pubmed.ncbi.nlm.nih.gov/12831783/"
+      },
+      "name": "Tryptamine pyrroloindolines",
+      "disposition": "excluded"
+    },
+    {
+      "paper_id": "paper-0662d076d464d21f",
+      "reason": "Multi-target paper reports several natural products with cytotoxic IC50 below 1 micromolar; orhalquinone mean about 0.8 micromolar across four colon cancer lines. Halenaquinone itself exceeds 50 micromolar; exclusion applies to the paper multi-target scope, not all family members.",
+      "doi": "10.1021/jacs.6c06760",
+      "evidence": {
+        "source": "article",
+        "pages": [
+          1,
+          6
+        ],
+        "sha256": "010c1e3935f8ebde37104167fccb879831b04e893fc1f519ac5da5e388dff3f7"
+      },
+      "name": "Halenaquinone 等",
+      "disposition": "excluded"
+    },
+    {
+      "paper_id": "paper-ca6c2f7ed809e360",
+      "doi": "10.1021/jacs.6c12963",
+      "reason": "Conservative user-scope exclusion consistent with existing low-micromolar cytotoxicity policy. Main article p1 explicitly identifies target notable cytotoxicity and cites primary biological reports at ref5 (p9). This is not a high systemic toxicity classification.",
+      "evidence": {
+        "source": "article",
+        "pages": [
+          1,
+          9
+        ],
+        "sha256": "a5e39fe72456051f20bfb8024cf868dd8c2c358291e48751fc508ea14d271e8f",
+        "primary_reference": "https://doi.org/10.1021/np990618q",
+        "numeric_context": {
+          "target": "natural cribrostatin 4 (renieramycin H)",
+          "reported_mean_panel_GI50_micromolar": 5.01,
+          "endpoint": "in vitro cancer-cell growth inhibition, not systemic toxicity",
+          "original_reference": "Pettit et al. J Nat Prod. 2000;63:793-798. DOI10.1021/np990618q",
+          "original_full_text_directly_reviewed": false,
+          "retrieved_source_chain": "Yokoya et al., Chemistry of renieramycins Part11, Tetrahedron67(2011)9185-9192,p9189 explicitly attributes value to natural cribrostatin4 and cites original work; retrieved search excerpt, full PDF retrieval failed.",
+          "supporting_source": "https://electronicsandbooks.com/edt/manual/Magazine/T/Tetrahedron/2011%20%2867%29/47%2B/9185.pdf",
+          "caution": "ASU technology summary conflicts by assigning5.01 to cribrostatin5; do not use it as target-specific numeric authority. Exclusion primarily rests on reviewed current articlep1 notable cytotoxicity/ref5."
+        }
+      },
+      "name": "Cribrostatin 4",
+      "disposition": "excluded"
+    },
+    {
+      "paper_id": "paper-d56d30e3b9b84dbc",
+      "doi": "10.1021/acs.orglett.6c02545",
+      "reason": "Conservative user-scope exclusion consistent with existing low-micromolar cytotoxicity policy. Main p1 identifies voafolidine/isovoafolidine moderate cytotoxicity; cited primary isolation abstract reports active compounds IC50 2.5-9.8 micromolar. Not all targets are assigned this range; not a high systemic toxicity classification.",
+      "evidence": {
+        "source": "article",
+        "pages": [
+          1,
+          5
+        ],
+        "sha256": "616f81605508adb6d7e2bcd442c7c168d11f41b15aa84c689df55ae692f5534d",
+        "primary_reference": "https://doi.org/10.1021/acs.jnatprod.9b00768",
+        "primary_abstract": "https://pubmed.ncbi.nlm.nih.gov/33112136/"
+      },
+      "name": "Folicangine 等",
+      "disposition": "excluded"
+    },
+    {
+      "paper_id": "paper-0b9f99071be7f2fb",
+      "status": "metadata_only",
+      "reason": "User risk exclusion: authors explicitly warn that route-specific diazo intermediate 7 is potentially explosive; SI PDF p13. This is not a claim about toxicity of curcusone I.",
+      "source_sha256": "c8bc95fa2d1000796a409d7170418eb22994748dda851a465d75b9f6a59b8c18",
+      "pages": [
+        13
+      ],
+      "doi": "10.1021/jacs.6c13015",
+      "root_policy_confirmed": true,
+      "name": "Curcusone I",
+      "disposition": "excluded"
+    },
+    {
+      "paper_id": "paper-57d8aa1420b35be1",
+      "status": "metadata_only",
+      "reason": "Conservative user risk exclusion: primary biological evaluation reports psychotrimine NCI60 GI50 1.3-40 micromolar. Does not imply measured systemic toxicity. Current synthesis article p1 prints HT29 IC50 3.00 mg/mL; this value is not silently corrected or used as the exclusion basis.",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2874090/",
+      "source_pmid": "20426477",
+      "source_section": "Preliminary Biological Evaluation",
+      "article_sha256": "675ac018e288e7473fe9db934a3c0e51b73351ff99b2a33e3421c6c5024407ea",
+      "article_pages": [
+        1
+      ],
+      "doi": "10.1021/acs.orglett.6c02081",
+      "name": "Psychotrimine／Psychotetramine",
+      "disposition": "excluded"
+    }
+  ],
+  "source_blocked": [
+    {
+      "paper_id": "paper-427261b826b14a75",
+      "reason": "SI DOCX read and rendered:10pages, title/contents and16 NMR spectra only, no preparative events. Publisher explicitly requires access to main article.",
+      "reference": "https://academic.oup.com/bbb/advance-article-abstract/doi/10.1093/bbb/zbag117/8741823",
+      "si_sha256": "fe738cb4508cbbf97bf8d4c74d147188d7510891234f4ae390a37cee52e7378e",
+      "reviewed_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "name": "Shancigusins C/D",
+      "disposition": "source_blocked"
+    },
+    {
+      "paper_id": "paper-f30be710c4e097c3",
+      "reason": "SI DOCX read and rendered:7pages of NMR spectra and names only; no reaction edges, yields or preparative scheme. Main article subscription access unavailable.",
+      "reference": "https://academic.oup.com/bbb/article-abstract/90/7/860/8659312",
+      "si_sha256": "82ef887504a333b5bb32ee6d498c79615c893a8230ede7a67d07e1af2df55229",
+      "reviewed_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "name": "Inonophenols A/B",
+      "disposition": "source_blocked"
+    },
+    {
+      "paper_id": "paper-9be5e628c1703d5e",
+      "reason": "Available SI15pages provides analytical characterization and spectra, not synthetic procedures. Main publisher access unsuccessful; publicly indexed preview/figure captions not adequate to bind complete route.",
+      "reference": "https://doi.org/10.1002/ejoc.70684",
+      "si_sha256": "83fb37db7f905ac0933bae0abb1a50adfa91841feb264e2455ed66257c0ad399",
+      "reviewed_pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "source_attempts": [
+        "Publisher DOI open failed",
+        "ResearchGate public author-upload search yielded first-page preview only; page returned429, no repeat or bypass"
+      ],
+      "name": "MK7607",
+      "disposition": "source_blocked"
+    },
+    {
+      "paper_id": "paper-50dd1a6127e1c1cf",
+      "reason": "Only 57-page spectral SI; reviewed TOC/pages supply structures/NMR but no reaction procedures. Root attempted Thieme main DOI access unsuccessfully; public search supplies only abstract. No unsupported events inferred.",
+      "sha256": "79a47d42beab2189dbb4c6902d86b6292be273792f8f9ff9b652833c1b3da76e",
+      "name": "Triplinones A/O",
+      "disposition": "source_blocked"
+    }
+  ],
+  "assignment_changes": [
+    {
+      "paper_id": "paper-e79ae9485d8724c3",
+      "from": "group_b",
+      "to": "root_sources",
+      "reason": "Load balancing after root source reviews completed"
+    },
+    {
+      "paper_id": "paper-d644e28e46d9de75",
+      "from": "group_c",
+      "to": "root_sources",
+      "reason": "Load balancing"
+    },
+    {
+      "paper_id": "paper-d137f8265a6d2e32",
+      "from": "group_a",
+      "to": "root_sources",
+      "reason": "Load balancing"
+    }
+  ],
+  "safety_review_blocked": [
+    {
+      "paper_id": "paper-715f9106f76c8961",
+      "reason": "Parallel agent automatic safety review terminated extraction turn with dual-use content restriction. Detailed extraction not retried. This is not a toxicological classification.",
+      "affected_task": "Ascidiathiazones and Bisnicalaterines continuation",
+      "extraction_completed": false,
+      "name": "Ascidiathiazones",
+      "disposition": "safety_review_blocked"
+    },
+    {
+      "paper_id": "paper-96939387a0ca2d6e",
+      "reason": "Parallel agent automatic safety review terminated extraction turn with dual-use content restriction. Detailed extraction not retried. This is not a toxicological classification.",
+      "affected_task": "Ascidiathiazones and Bisnicalaterines continuation",
+      "extraction_completed": false,
+      "name": "Bisnicalaterines",
+      "disposition": "safety_review_blocked"
+    }
+  ],
+  "totals": {
+    "molecules": 609,
+    "reaction_events": 552,
+    "operation_steps": 552,
+    "routes": 134
+  },
+  "database_after": {
+    "papers": 133,
+    "molecules": 2925,
+    "paper_compounds": 2829,
+    "reaction_events": 2156,
+    "operation_steps": 2269,
+    "routes": 617
+  },
+  "database_delta": {
+    "papers": 0,
+    "molecules": 548,
+    "paper_compounds": 609,
+    "reaction_events": 552,
+    "operation_steps": 552,
+    "routes": 134
+  },
+  "coverage_summary": {
+    "main_only": 3,
+    "si_only": 3,
+    "both_bound": 8,
+    "available_si_preparation_network_covered": 6,
+    "main_route_coverage_flag": 6
+  },
+  "disposition_counts": {
+    "completed": 14,
+    "excluded": 10,
+    "source_blocked": 4,
+    "safety_review_blocked": 2
+  },
+  "validation": {
+    "cases_audited": 89,
+    "all_case_audit_passed": true,
+    "database_validation_passed": true,
+    "sdf_isomeric_smiles_roundtrips": 609,
+    "rdkit_version": "2026.03.6",
+    "independent_chemical_review": false,
+    "complete_stereo_training_admitted": 0
+  },
+  "limitations": [
+    "30 papers dispositioned, not30 successful complete extractions.",
+    "Candidate cases retain missing SI/branches, unspecified stereochemistry and source conflicts.",
+    "Two parallel tasks blocked by automatic safety review and not retried; these are not toxicological determinations."
+  ]
+}

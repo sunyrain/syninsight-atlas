@@ -62,6 +62,7 @@ function makeCard(target) {
     image.src = target.candidate_structure.svg;
     image.alt = `Candidate structure for ${target.target_name}`;
     image.loading = "lazy";
+    image.addEventListener("error", () => { image.replaceWith(element("span", "unresolved", "Structure image unavailable")); });
     structure.append(image);
   } else {
     structure.append(element("span", "unresolved", "Structure unresolved"));
@@ -116,14 +117,14 @@ function showDetail(target) {
   const citation = element("p", "");
   citation.textContent = `${target.journal || ""} · ${target.publication_date || ""} · `;
   const doi = document.createElement("a");
-  doi.href = target.source_url;
+  doi.href = /^https?:\/\//.test(target.source_url || "") ? target.source_url : "https://doi.org/" + encodeURI(target.doi || "");
   doi.target = "_blank";
   doi.rel = "noopener noreferrer";
   doi.textContent = target.doi;
   citation.append(doi);
   facts.append(citation);
   addDetailRow(facts, "Structure source locator", target.candidate_structure.source_locator);
-  addDetailRow(facts, "Source package", target.source_package.completeness);
+  addDetailRow(facts, "Source package", ({article_and_supporting_information: "Article and supporting information", article_only: "Article only", supporting_information_only: "Supporting information only", none: "Source not available"})[target.source_package.completeness] || target.source_package.completeness);
   addDetailRow(facts, "Human admission", target.formal_benchmark_eligible ? "Admitted and runnable" : "Not admitted; candidate-only");
   grid.append(visual, facts);
   content.append(grid);
@@ -134,8 +135,7 @@ function showDetail(target) {
     const copy = element("button", "copy", "Copy");
     copy.type = "button";
     copy.addEventListener("click", async () => {
-      await navigator.clipboard.writeText(target.candidate_structure.isomeric_smiles);
-      copy.textContent = "Copied";
+      try { await navigator.clipboard.writeText(target.candidate_structure.isomeric_smiles); copy.textContent = "Copied"; } catch { copy.textContent = "Select SMILES to copy"; }
     });
     content.append(heading, smiles, document.createTextNode(" "), copy);
   }
@@ -168,6 +168,7 @@ function render() {
 }
 
 function bindFilters() {
+  $("#filters").addEventListener("submit", (event) => event.preventDefault());
   ["query", "cohort", "structure", "route", "source"].forEach((id) => {
     $("#" + id).addEventListener(id === "query" ? "input" : "change", (event) => {
       state[id] = event.target.value;
@@ -184,7 +185,8 @@ function bindFilters() {
   $("#next").addEventListener("click", () => { state.page += 1; render(); window.scrollTo({ top: $("#explore").offsetTop, behavior: "smooth" }); });
   $("#dialog-close").addEventListener("click", () => $("#detail-dialog").close());
   $("#detail-dialog").addEventListener("click", (event) => {
-    if (event.target === $("#detail-dialog")) $("#detail-dialog").close();
+    const box = $("#detail-dialog").getBoundingClientRect();
+    if (event.target === $("#detail-dialog") && (event.clientX < box.left || event.clientX > box.right || event.clientY < box.top || event.clientY > box.bottom)) $("#detail-dialog").close();
   });
 }
 
@@ -207,7 +209,7 @@ async function start() {
     bindFilters();
     render();
   } catch (error) {
-    $("#cards").replaceChildren(element("p", "notice", `${error.message}. For local viewing, serve the repository with python -m http.server.`));
+    $("#cards").replaceChildren(element("p", "notice", "The target catalog could not load. Reload the page or use the downloadable catalog in Files & citation."));
   }
 }
 

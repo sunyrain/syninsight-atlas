@@ -1,0 +1,59 @@
+[
+  {
+    "admission_authority": false,
+    "coverage_scope": "All six native arrows in available SI Scheme 2, from 10 to 1; upstream preparation absent",
+    "formal_benchmark_eligible": false,
+    "from_commercial_starting_materials_complete": false,
+    "full_article_route_coverage": false,
+    "molecule_smiles_sequence": [
+      "COc1ccc(CN(C(=O)CC/C=N/[S@@](=O)C(C)(C)C)c2ccccc2I)cc1",
+      "COc1ccc(CN(C(=O)CCCN[S@@](=O)C(C)(C)C)c2ccccc2I)cc1",
+      "COc1ccc(CN(C(=O)CCCN(C)[S@@](=O)C(C)(C)C)c2ccccc2I)cc1",
+      "COC(=O)[C@@]1(CCN(C)[S@@](=O)C(C)(C)C)C(=O)N(Cc2ccc(OC)cc2)c2ccccc21",
+      "COc1ccc(CN2C(=O)[C@@]3(CCN(C)C3=O)c3ccccc32)cc1",
+      "CN1CC[C@@]2(C(=O)Nc3ccccc32)C1=O",
+      "CN1CC[C@]2(C1)C(=O)Nc1ccccc12"
+    ],
+    "ordered_event_ids": [
+      "E01",
+      "E02",
+      "E03",
+      "E04",
+      "E05",
+      "E06"
+    ],
+    "ordered_molecule_labels": [
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "1"
+    ],
+    "ordered_step_ids": [
+      "E01.1",
+      "E02.1",
+      "E03.1",
+      "E04.1",
+      "E05.1",
+      "E06.1"
+    ],
+    "route_id": "coerulescine-from-10",
+    "route_type": "reported_total_synthesis_segment",
+    "split_group": "10.1080/10286020.2026.2695175",
+    "start_label": "10",
+    "start_labels": [
+      "10"
+    ],
+    "step_reaction_smiles_sequence": [
+      "COc1ccc(CN(C(=O)CC/C=N/[S@@](=O)C(C)(C)C)c2ccccc2I)cc1>>COc1ccc(CN(C(=O)CCCN[S@@](=O)C(C)(C)C)c2ccccc2I)cc1",
+      "COc1ccc(CN(C(=O)CCCN[S@@](=O)C(C)(C)C)c2ccccc2I)cc1>>COc1ccc(CN(C(=O)CCCN(C)[S@@](=O)C(C)(C)C)c2ccccc2I)cc1",
+      "COc1ccc(CN(C(=O)CCCN(C)[S@@](=O)C(C)(C)C)c2ccccc2I)cc1>>COC(=O)[C@@]1(CCN(C)[S@@](=O)C(C)(C)C)C(=O)N(Cc2ccc(OC)cc2)c2ccccc21",
+      "COC(=O)[C@@]1(CCN(C)[S@@](=O)C(C)(C)C)C(=O)N(Cc2ccc(OC)cc2)c2ccccc21>>COc1ccc(CN2C(=O)[C@@]3(CCN(C)C3=O)c3ccccc32)cc1",
+      "COc1ccc(CN2C(=O)[C@@]3(CCN(C)C3=O)c3ccccc32)cc1>>CN1CC[C@@]2(C(=O)Nc3ccccc32)C1=O",
+      "CN1CC[C@@]2(C(=O)Nc3ccccc32)C1=O>>CN1CC[C@]2(C1)C(=O)Nc1ccccc12"
+    ],
+    "target_label": "1"
+  }
+]

@@ -1,0 +1,69 @@
+[
+  {
+    "admission_authority": false,
+    "formal_benchmark_eligible": false,
+    "from_commercial_starting_materials_complete": false,
+    "full_article_route_coverage": false,
+    "molecule_smiles_sequence": [
+      "COC(=O)[C@@]1(C)CCCC1=O",
+      "CC(C)(C)[Si](C)(C)OC1=CCC[C@]1(C)CO",
+      "CC(C)(C)[Si](C)(C)OC1=CCC[C@]1(C)CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C",
+      "N#CCCl",
+      "CC(C)(C)[Si](C)(C)OC1=C(CC#N)CC[C@]1(C)CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C",
+      "CN(CCC1CC[C@](C)(CO[Si](c2ccccc2)(c2ccccc2)C(C)(C)C)C1=O)S(=O)(=O)c1ccc([N+](=O)[O-])cc1",
+      "COc1ccc(NN)cc1",
+      "COc1ccc2c(c1)[C@@]1(CCN(C)S(=O)(=O)c3ccc([N+](=O)[O-])cc3)CC[C@](C)(CO[Si](c3ccccc3)(c3ccccc3)C(C)(C)C)C1=N2",
+      "COc1ccc2c(c1)[C@]13CCN(C)[C@@]1(N2)[C@@](C)(CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C)CC3",
+      "COc1ccc2c(c1)[C@]13CCN(C)[C@@]1(N2)[C@@](C)(CO)CC3"
+    ],
+    "ordered_event_ids": [
+      "E01",
+      "E02",
+      "E03",
+      "E04",
+      "E05",
+      "E06",
+      "E07"
+    ],
+    "ordered_molecule_labels": [
+      "37",
+      "38",
+      "39",
+      "chloroacetonitrile",
+      "41",
+      "42",
+      "27",
+      "44",
+      "45",
+      "4"
+    ],
+    "ordered_step_ids": [
+      "E01.1",
+      "E02.1",
+      "E03.1",
+      "E04.1",
+      "E05.1",
+      "E06.1",
+      "E07.1"
+    ],
+    "route_id": "main chemical synthesis",
+    "route_type": "source_bound_successful_synthesis",
+    "split_group": "10.1021/acscentsci.6c00057",
+    "start_label": "37",
+    "start_labels": [
+      "37",
+      "chloroacetonitrile",
+      "27"
+    ],
+    "step_reaction_smiles_sequence": [
+      "COC(=O)[C@@]1(C)CCCC1=O>>CC(C)(C)[Si](C)(C)OC1=CCC[C@]1(C)CO",
+      "CC(C)(C)[Si](C)(C)OC1=CCC[C@]1(C)CO>>CC(C)(C)[Si](C)(C)OC1=CCC[C@]1(C)CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C",
+      "CC(C)(C)[Si](C)(C)OC1=CCC[C@]1(C)CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C.N#CCCl>>CC(C)(C)[Si](C)(C)OC1=C(CC#N)CC[C@]1(C)CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C",
+      "CC(C)(C)[Si](C)(C)OC1=C(CC#N)CC[C@]1(C)CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C>>CN(CCC1CC[C@](C)(CO[Si](c2ccccc2)(c2ccccc2)C(C)(C)C)C1=O)S(=O)(=O)c1ccc([N+](=O)[O-])cc1",
+      "CN(CCC1CC[C@](C)(CO[Si](c2ccccc2)(c2ccccc2)C(C)(C)C)C1=O)S(=O)(=O)c1ccc([N+](=O)[O-])cc1.COc1ccc(NN)cc1>>COc1ccc2c(c1)[C@@]1(CCN(C)S(=O)(=O)c3ccc([N+](=O)[O-])cc3)CC[C@](C)(CO[Si](c3ccccc3)(c3ccccc3)C(C)(C)C)C1=N2",
+      "COc1ccc2c(c1)[C@@]1(CCN(C)S(=O)(=O)c3ccc([N+](=O)[O-])cc3)CC[C@](C)(CO[Si](c3ccccc3)(c3ccccc3)C(C)(C)C)C1=N2>>COc1ccc2c(c1)[C@]13CCN(C)[C@@]1(N2)[C@@](C)(CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C)CC3",
+      "COc1ccc2c(c1)[C@]13CCN(C)[C@@]1(N2)[C@@](C)(CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C)CC3>>COc1ccc2c(c1)[C@]13CCN(C)[C@@]1(N2)[C@@](C)(CO)CC3"
+    ],
+    "target_label": "4"
+  }
+]

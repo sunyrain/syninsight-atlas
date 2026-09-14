@@ -1,0 +1,895 @@
+[
+  {
+    "agent_participant_ids": [
+      "participant-008",
+      "participant-017"
+    ],
+    "agents": [
+      "DHP",
+      "PPTS"
+    ],
+    "all_named_participants_have_smiles": true,
+    "atom_mapping_status": "not_assigned",
+    "duration_hours": 16,
+    "event_id": "E01",
+    "formal_benchmark_eligible": false,
+    "notes": "DHP supplies both protecting groups; reagent stoichiometry is not encoded in SMILES.",
+    "paper_id": "paper-0bac8bc7088bc164",
+    "product_labels": [
+      "a2"
+    ],
+    "reactant_labels": [
+      "a1"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvent_participant_ids": [
+      "participant-029"
+    ],
+    "solvents": [
+      "toluene"
+    ],
+    "source_references": [
+      {
+        "locator": "Schemes 3-5 route arrow",
+        "pages": [
+          3
+        ],
+        "sha256": "3c267ab99b5e43d52366b3df41d8c12d323121763bc94b18bd496dc9a790dd87",
+        "source_id": "article"
+      },
+      {
+        "locator": "Experimental preparation / selected optimization for a2",
+        "pages": [
+          5
+        ],
+        "sha256": "3c267ab99b5e43d52366b3df41d8c12d323121763bc94b18bd496dc9a790dd87",
+        "source_id": "article"
+      }
+    ],
+    "step_id": "E01.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "Oc1cccc(O)c1>>c1cc(OC2CCCCO2)cc(OC2CCCCO2)c1",
+    "temperature_reported": "room temperature",
+    "transformation": "Phenol THP protection",
+    "yield_percent": 42.29
+  },
+  {
+    "agent_participant_ids": [
+      "participant-025",
+      "participant-002"
+    ],
+    "agents": [
+      "n-BuLi",
+      "1-bromo-3-methyl-2-butene"
+    ],
+    "all_named_participants_have_smiles": true,
+    "atom_mapping_status": "not_assigned",
+    "duration_hours": 20,
+    "event_id": "E02",
+    "formal_benchmark_eligible": false,
+    "notes": "Use experimental full duration; Scheme 3 abbreviates the cold phase to 5 h.",
+    "paper_id": "paper-0bac8bc7088bc164",
+    "product_labels": [
+      "a3"
+    ],
+    "reactant_labels": [
+      "a2"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvent_participant_ids": [
+      "participant-019"
+    ],
+    "solvents": [
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "Schemes 3-5 route arrow",
+        "pages": [
+          3
+        ],
+        "sha256": "3c267ab99b5e43d52366b3df41d8c12d323121763bc94b18bd496dc9a790dd87",
+        "source_id": "article"
+      },
+      {
+        "locator": "Experimental preparation / selected optimization for a3",
+        "pages": [
+          5,
+          6
+        ],
+        "sha256": "3c267ab99b5e43d52366b3df41d8c12d323121763bc94b18bd496dc9a790dd87",
+        "source_id": "article"
+      }
+    ],
+    "step_id": "E02.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "c1cc(OC2CCCCO2)cc(OC2CCCCO2)c1>>CC(C)=CCc1c(OC2CCCCO2)cccc1OC1CCCCO1",
+    "temperature_reported": "0-5 C for 5 h, then room temperature for 15 h",
+    "transformation": "Directed lithiation and prenylation",
+    "yield_percent": 91
+  },
+  {
+    "agent_participant_ids": [
+      "participant-027"
+    ],
+    "agents": [
+      "oxalic acid dihydrate"
+    ],
+    "all_named_participants_have_smiles": true,
+    "atom_mapping_status": "not_assigned",
+    "duration_hours": 1,
+    "event_id": "E03",
+    "formal_benchmark_eligible": false,
+    "notes": "",
+    "paper_id": "paper-0bac8bc7088bc164",
+    "product_labels": [
+      "a"
+    ],
+    "reactant_labels": [
+      "a3"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvent_participant_ids": [
+      "participant-024",
+      "participant-034"
+    ],
+    "solvents": [
+      "methanol",
+      "water"
+    ],
+    "source_references": [
+      {
+        "locator": "Schemes 3-5 route arrow",
+        "pages": [
+          3
+        ],
+        "sha256": "3c267ab99b5e43d52366b3df41d8c12d323121763bc94b18bd496dc9a790dd87",
+        "source_id": "article"
+      },
+      {
+        "locator": "Experimental preparation / selected optimization for a",
+        "pages": [
+          6
+        ],
+        "sha256": "3c267ab99b5e43d52366b3df41d8c12d323121763bc94b18bd496dc9a790dd87",
+        "source_id": "article"
+      }
+    ],
+    "step_id": "E03.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "CC(C)=CCc1c(OC2CCCCO2)cccc1OC1CCCCO1>>CC(C)=CCc1c(O)cccc1O",
+    "temperature_reported": "room temperature",
+    "transformation": "THP deprotection",
+    "yield_percent": 71
+  },
+  {
+    "agent_participant_ids": [
+      "participant-012",
+      "participant-031"
+    ],
+    "agents": [
+      "NIS",
+      "trifluoroacetic acid"
+    ],
+    "all_named_participants_have_smiles": true,
+    "atom_mapping_status": "not_assigned",
+    "duration_hours": 4,
+    "event_id": "E04",
+    "formal_benchmark_eligible": false,
+    "notes": "",
+    "paper_id": "paper-0bac8bc7088bc164",
+    "product_labels": [
+      "b2"
+    ],
+    "reactant_labels": [
+      "b1"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvent_participant_ids": [
+      "participant-020"
+    ],
+    "solvents": [
+      "acetonitrile"
+    ],
+    "source_references": [
+      {
+        "locator": "Schemes 3-5 route arrow",
+        "pages": [
+          3
+        ],
+        "sha256": "3c267ab99b5e43d52366b3df41d8c12d323121763bc94b18bd496dc9a790dd87",
+        "source_id": "article"
+      },
+      {
+        "locator": "Experimental preparation / selected optimization for b2",
+        "pages": [
+          6
+        ],
+        "sha256": "3c267ab99b5e43d52366b3df41d8c12d323121763bc94b18bd496dc9a790dd87",
+        "source_id": "article"
+      }
+    ],
+    "step_id": "E04.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "COc1cccc(OC)c1>>COc1ccc(I)c(OC)c1",
+    "temperature_reported": "25 C",
+    "transformation": "Regioselective iodination",
+    "yield_percent": 86
+  },
+  {
+    "agent_participant_ids": [
+      "participant-022",
+      "participant-007",
+      "participant-028",
+      "participant-006"
+    ],
+    "agents": [
+      "diethyl malonate",
+      "CuI",
+      "picolinic acid",
+      "Cs2CO3"
+    ],
+    "all_named_participants_have_smiles": true,
+    "atom_mapping_status": "not_assigned",
+    "duration_hours": 13,
+    "event_id": "E05",
+    "formal_benchmark_eligible": false,
+    "notes": "Diethyl malonate is the carbon-building co-reactant, catalogued as a participant.",
+    "paper_id": "paper-0bac8bc7088bc164",
+    "product_labels": [
+      "b3"
+    ],
+    "reactant_labels": [
+      "b2"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvent_participant_ids": [
+      "participant-001"
+    ],
+    "solvents": [
+      "1,4-dioxane"
+    ],
+    "source_references": [
+      {
+        "locator": "Schemes 3-5 route arrow",
+        "pages": [
+          3
+        ],
+        "sha256": "3c267ab99b5e43d52366b3df41d8c12d323121763bc94b18bd496dc9a790dd87",
+        "source_id": "article"
+      },
+      {
+        "locator": "Experimental preparation / selected optimization for b3",
+        "pages": [
+          6
+        ],
+        "sha256": "3c267ab99b5e43d52366b3df41d8c12d323121763bc94b18bd496dc9a790dd87",
+        "source_id": "article"
+      }
+    ],
+    "step_id": "E05.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "COc1ccc(I)c(OC)c1>>CCOC(=O)C(C(=O)OCC)c1ccc(OC)cc1OC",
+    "temperature_reported": "110 C",
+    "transformation": "Copper-catalyzed malonate arylation",
+    "yield_percent": 56
+  },
+  {
+    "agent_participant_ids": [
+      "participant-013",
+      "participant-005"
+    ],
+    "agents": [
+      "NaBH4",
+      "CaCl2 dihydrate"
+    ],
+    "all_named_participants_have_smiles": true,
+    "atom_mapping_status": "not_assigned",
+    "duration_hours": 11,
+    "event_id": "E06",
+    "formal_benchmark_eligible": false,
+    "notes": "",
+    "paper_id": "paper-0bac8bc7088bc164",
+    "product_labels": [
+      "b4"
+    ],
+    "reactant_labels": [
+      "b3"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvent_participant_ids": [
+      "participant-023",
+      "participant-034"
+    ],
+    "solvents": [
+      "ethanol",
+      "water"
+    ],
+    "source_references": [
+      {
+        "locator": "Schemes 3-5 route arrow",
+        "pages": [
+          3
+        ],
+        "sha256": "3c267ab99b5e43d52366b3df41d8c12d323121763bc94b18bd496dc9a790dd87",
+        "source_id": "article"
+      },
+      {
+        "locator": "Experimental preparation / selected optimization for b4",
+        "pages": [
+          6
+        ],
+        "sha256": "3c267ab99b5e43d52366b3df41d8c12d323121763bc94b18bd496dc9a790dd87",
+        "source_id": "article"
+      }
+    ],
+    "step_id": "E06.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "CCOC(=O)C(C(=O)OCC)c1ccc(OC)cc1OC>>COc1ccc(C(CO)CO)c(OC)c1",
+    "temperature_reported": "10 C addition 1 h; 10-15 C stirring 10 h",
+    "transformation": "Diester reduction",
+    "yield_percent": 74
+  },
+  {
+    "agent_participant_ids": [
+      "participant-033",
+      "participant-003"
+    ],
+    "agents": [
+      "vinyl acetate",
+      "CAL-B lipase"
+    ],
+    "all_named_participants_have_smiles": false,
+    "atom_mapping_status": "not_assigned",
+    "duration_hours": 2,
+    "event_id": "E07",
+    "formal_benchmark_eligible": false,
+    "notes": "Source calls this kinetic resolution, but the drawn b4 has two identical CH2OH groups; normalized transformation describes desymmetrization. Reported 99% ee.",
+    "paper_id": "paper-0bac8bc7088bc164",
+    "product_labels": [
+      "b"
+    ],
+    "reactant_labels": [
+      "b4"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvent_participant_ids": [
+      "participant-019"
+    ],
+    "solvents": [
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "Schemes 3-5 route arrow",
+        "pages": [
+          3
+        ],
+        "sha256": "3c267ab99b5e43d52366b3df41d8c12d323121763bc94b18bd496dc9a790dd87",
+        "source_id": "article"
+      },
+      {
+        "locator": "Experimental preparation / selected optimization for b",
+        "pages": [
+          6
+        ],
+        "sha256": "3c267ab99b5e43d52366b3df41d8c12d323121763bc94b18bd496dc9a790dd87",
+        "source_id": "article"
+      }
+    ],
+    "step_id": "E07.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "COc1ccc(C(CO)CO)c(OC)c1>>COc1ccc([C@H](CO)COC(C)=O)c(OC)c1",
+    "temperature_reported": "40 C",
+    "transformation": "Enantioselective monoacetylation of prochiral diol",
+    "yield_percent": 78
+  },
+  {
+    "agent_participant_ids": [
+      "participant-018",
+      "participant-009"
+    ],
+    "agents": [
+      "PPh3",
+      "DIAD"
+    ],
+    "all_named_participants_have_smiles": true,
+    "atom_mapping_status": "not_assigned",
+    "duration_hours": 16,
+    "event_id": "E08",
+    "formal_benchmark_eligible": false,
+    "notes": "Convergent reaction: both a and b are required.",
+    "paper_id": "paper-0bac8bc7088bc164",
+    "product_labels": [
+      "2"
+    ],
+    "reactant_labels": [
+      "a",
+      "b"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvent_participant_ids": [
+      "participant-029"
+    ],
+    "solvents": [
+      "toluene"
+    ],
+    "source_references": [
+      {
+        "locator": "Schemes 3-5 route arrow",
+        "pages": [
+          3
+        ],
+        "sha256": "3c267ab99b5e43d52366b3df41d8c12d323121763bc94b18bd496dc9a790dd87",
+        "source_id": "article"
+      },
+      {
+        "locator": "Experimental preparation / selected optimization for 2",
+        "pages": [
+          6
+        ],
+        "sha256": "3c267ab99b5e43d52366b3df41d8c12d323121763bc94b18bd496dc9a790dd87",
+        "source_id": "article"
+      }
+    ],
+    "step_id": "E08.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "CC(C)=CCc1c(O)cccc1O.COc1ccc([C@H](CO)COC(C)=O)c(OC)c1>>COc1ccc([C@@H](COC(C)=O)COc2cccc(O)c2CC=C(C)C)c(OC)c1",
+    "temperature_reported": "room temperature",
+    "transformation": "Mitsunobu fragment coupling",
+    "yield_percent": 68
+  },
+  {
+    "agent_participant_ids": [
+      "participant-015"
+    ],
+    "agents": [
+      "NaOH"
+    ],
+    "all_named_participants_have_smiles": true,
+    "atom_mapping_status": "not_assigned",
+    "duration_hours": 3,
+    "event_id": "E09",
+    "formal_benchmark_eligible": false,
+    "notes": "Source R-to-S descriptor change follows changed substituent priority, not an inferred inversion.",
+    "paper_id": "paper-0bac8bc7088bc164",
+    "product_labels": [
+      "3"
+    ],
+    "reactant_labels": [
+      "2"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvent_participant_ids": [
+      "participant-023",
+      "participant-034"
+    ],
+    "solvents": [
+      "ethanol",
+      "water"
+    ],
+    "source_references": [
+      {
+        "locator": "Schemes 3-5 route arrow",
+        "pages": [
+          3
+        ],
+        "sha256": "3c267ab99b5e43d52366b3df41d8c12d323121763bc94b18bd496dc9a790dd87",
+        "source_id": "article"
+      },
+      {
+        "locator": "Experimental preparation / selected optimization for 3",
+        "pages": [
+          6,
+          7
+        ],
+        "sha256": "3c267ab99b5e43d52366b3df41d8c12d323121763bc94b18bd496dc9a790dd87",
+        "source_id": "article"
+      }
+    ],
+    "step_id": "E09.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "COc1ccc([C@@H](COC(C)=O)COc2cccc(O)c2CC=C(C)C)c(OC)c1>>COc1ccc([C@@H](CO)COc2cccc(O)c2CC=C(C)C)c(OC)c1",
+    "temperature_reported": "room temperature",
+    "transformation": "Acetate hydrolysis",
+    "yield_percent": 85
+  },
+  {
+    "agent_participant_ids": [
+      "participant-012",
+      "participant-018"
+    ],
+    "agents": [
+      "NIS",
+      "PPh3"
+    ],
+    "all_named_participants_have_smiles": true,
+    "atom_mapping_status": "not_assigned",
+    "duration_hours": 5,
+    "event_id": "E10",
+    "formal_benchmark_eligible": false,
+    "notes": "",
+    "paper_id": "paper-0bac8bc7088bc164",
+    "product_labels": [
+      "4"
+    ],
+    "reactant_labels": [
+      "3"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvent_participant_ids": [
+      "participant-021"
+    ],
+    "solvents": [
+      "dichloromethane"
+    ],
+    "source_references": [
+      {
+        "locator": "Schemes 3-5 route arrow",
+        "pages": [
+          3
+        ],
+        "sha256": "3c267ab99b5e43d52366b3df41d8c12d323121763bc94b18bd496dc9a790dd87",
+        "source_id": "article"
+      },
+      {
+        "locator": "Experimental preparation / selected optimization for 4",
+        "pages": [
+          7
+        ],
+        "sha256": "3c267ab99b5e43d52366b3df41d8c12d323121763bc94b18bd496dc9a790dd87",
+        "source_id": "article"
+      }
+    ],
+    "step_id": "E10.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "COc1ccc([C@@H](CO)COc2cccc(O)c2CC=C(C)C)c(OC)c1>>COc1ccc([C@@H](CI)COc2cccc(O)c2CC=C(C)C)c(OC)c1",
+    "temperature_reported": "0 C for 2 h, then room temperature for 3 h",
+    "transformation": "Alcohol-to-iodide conversion",
+    "yield_percent": 80
+  },
+  {
+    "agent_participant_ids": [
+      "participant-014"
+    ],
+    "agents": [
+      "NaH"
+    ],
+    "all_named_participants_have_smiles": true,
+    "atom_mapping_status": "not_assigned",
+    "duration_hours": 16,
+    "event_id": "E11",
+    "formal_benchmark_eligible": false,
+    "notes": "5 is worked up and carried crude; no isolated yield assigned in this preparation.",
+    "paper_id": "paper-0bac8bc7088bc164",
+    "product_labels": [
+      "5"
+    ],
+    "reactant_labels": [
+      "4"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvent_participant_ids": [
+      "participant-010"
+    ],
+    "solvents": [
+      "DMF"
+    ],
+    "source_references": [
+      {
+        "locator": "Schemes 3-5 route arrow",
+        "pages": [
+          3
+        ],
+        "sha256": "3c267ab99b5e43d52366b3df41d8c12d323121763bc94b18bd496dc9a790dd87",
+        "source_id": "article"
+      },
+      {
+        "locator": "Experimental preparation / selected optimization for 6",
+        "pages": [
+          4,
+          5,
+          7
+        ],
+        "sha256": "3c267ab99b5e43d52366b3df41d8c12d323121763bc94b18bd496dc9a790dd87",
+        "source_id": "article"
+      }
+    ],
+    "step_id": "E11.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "COc1ccc([C@@H](CI)COc2cccc(O)c2CC=C(C)C)c(OC)c1>>COc1ccc([C@@H]2COc3c(ccc(O)c3CC=C(C)C)C2)c(OC)c1",
+    "temperature_reported": "room temperature",
+    "transformation": "Intramolecular aromatic alkylation",
+    "yield_percent": null
+  },
+  {
+    "agent_participant_ids": [
+      "participant-016"
+    ],
+    "agents": [
+      "Oxone"
+    ],
+    "all_named_participants_have_smiles": true,
+    "atom_mapping_status": "not_assigned",
+    "duration_hours": 0.5,
+    "event_id": "E11",
+    "formal_benchmark_eligible": false,
+    "notes": "Epoxidation/ring-opening is a proposed cascade; no separate isolated epoxide or yield. C9 remains unassigned.",
+    "paper_id": "paper-0bac8bc7088bc164",
+    "product_labels": [
+      "6"
+    ],
+    "reactant_labels": [
+      "5"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvent_participant_ids": [
+      "participant-020",
+      "participant-034"
+    ],
+    "solvents": [
+      "acetonitrile",
+      "water"
+    ],
+    "source_references": [
+      {
+        "locator": "Schemes 3-5 route arrow",
+        "pages": [
+          3
+        ],
+        "sha256": "3c267ab99b5e43d52366b3df41d8c12d323121763bc94b18bd496dc9a790dd87",
+        "source_id": "article"
+      },
+      {
+        "locator": "Experimental preparation / selected optimization for 6",
+        "pages": [
+          4,
+          5,
+          7
+        ],
+        "sha256": "3c267ab99b5e43d52366b3df41d8c12d323121763bc94b18bd496dc9a790dd87",
+        "source_id": "article"
+      }
+    ],
+    "step_id": "E11.2",
+    "step_index_within_event": 2,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "COc1ccc([C@@H]2COc3c(ccc(O)c3CC=C(C)C)C2)c(OC)c1>>COc1ccc([C@@H]2COc3c(ccc4c3CC(O)C(C)(C)O4)C2)c(OC)c1",
+    "temperature_reported": "0 C",
+    "transformation": "Oxidative cyclization",
+    "yield_percent": null
+  },
+  {
+    "agent_participant_ids": [
+      "participant-018",
+      "participant-004"
+    ],
+    "agents": [
+      "PPh3",
+      "CCl4"
+    ],
+    "all_named_participants_have_smiles": true,
+    "atom_mapping_status": "not_assigned",
+    "duration_hours": null,
+    "event_id": "E12",
+    "formal_benchmark_eligible": false,
+    "notes": "Bracketed chloride 7 is depicted, not isolated; total event duration is 2 h.",
+    "paper_id": "paper-0bac8bc7088bc164",
+    "product_labels": [
+      "7"
+    ],
+    "reactant_labels": [
+      "6"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvent_participant_ids": [
+      "participant-020",
+      "participant-004"
+    ],
+    "solvents": [
+      "acetonitrile",
+      "CCl4"
+    ],
+    "source_references": [
+      {
+        "locator": "Schemes 3-5 route arrow",
+        "pages": [
+          3
+        ],
+        "sha256": "3c267ab99b5e43d52366b3df41d8c12d323121763bc94b18bd496dc9a790dd87",
+        "source_id": "article"
+      },
+      {
+        "locator": "Experimental preparation / selected optimization for 8",
+        "pages": [
+          5,
+          7
+        ],
+        "sha256": "3c267ab99b5e43d52366b3df41d8c12d323121763bc94b18bd496dc9a790dd87",
+        "source_id": "article"
+      }
+    ],
+    "step_id": "E12.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "COc1ccc([C@@H]2COc3c(ccc4c3CC(O)C(C)(C)O4)C2)c(OC)c1>>COc1ccc([C@@H]2COc3c(ccc4c3CC(Cl)C(C)(C)O4)C2)c(OC)c1",
+    "temperature_reported": "80 C",
+    "transformation": "Alcohol chlorination",
+    "yield_percent": null
+  },
+  {
+    "agent_participant_ids": [],
+    "agents": [],
+    "all_named_participants_have_smiles": true,
+    "atom_mapping_status": "not_assigned",
+    "duration_hours": null,
+    "event_id": "E12",
+    "formal_benchmark_eligible": false,
+    "notes": "Same vessel; 83% belongs to 6-to-8 sequence, not this internal stage.",
+    "paper_id": "paper-0bac8bc7088bc164",
+    "product_labels": [
+      "8"
+    ],
+    "reactant_labels": [
+      "7"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvent_participant_ids": [
+      "participant-020",
+      "participant-004"
+    ],
+    "solvents": [
+      "acetonitrile",
+      "CCl4"
+    ],
+    "source_references": [
+      {
+        "locator": "Schemes 3-5 route arrow",
+        "pages": [
+          3
+        ],
+        "sha256": "3c267ab99b5e43d52366b3df41d8c12d323121763bc94b18bd496dc9a790dd87",
+        "source_id": "article"
+      },
+      {
+        "locator": "Experimental preparation / selected optimization for 8",
+        "pages": [
+          5,
+          7
+        ],
+        "sha256": "3c267ab99b5e43d52366b3df41d8c12d323121763bc94b18bd496dc9a790dd87",
+        "source_id": "article"
+      }
+    ],
+    "step_id": "E12.2",
+    "step_index_within_event": 2,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "COc1ccc([C@@H]2COc3c(ccc4c3CC(Cl)C(C)(C)O4)C2)c(OC)c1>>COc1ccc([C@@H]2COc3c(ccc4c3C=CC(C)(C)O4)C2)c(OC)c1",
+    "temperature_reported": "80 C",
+    "transformation": "Thermal elimination",
+    "yield_percent": null
+  },
+  {
+    "agent_participant_ids": [
+      "participant-030",
+      "participant-032",
+      "participant-011"
+    ],
+    "agents": [
+      "triethylsilane",
+      "tris(pentafluorophenyl)borane",
+      "HCl"
+    ],
+    "all_named_participants_have_smiles": true,
+    "atom_mapping_status": "not_assigned",
+    "duration_hours": 4,
+    "event_id": "E13",
+    "formal_benchmark_eligible": false,
+    "notes": "No structurally assigned silylated intermediate is reported. Two condition stages are retained in one structure-supported operation.",
+    "paper_id": "paper-0bac8bc7088bc164",
+    "product_labels": [
+      "9"
+    ],
+    "reactant_labels": [
+      "8"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvent_participant_ids": [
+      "participant-026",
+      "participant-023"
+    ],
+    "solvents": [
+      "n-heptane",
+      "ethanol"
+    ],
+    "source_references": [
+      {
+        "locator": "Schemes 3-5 route arrow",
+        "pages": [
+          3
+        ],
+        "sha256": "3c267ab99b5e43d52366b3df41d8c12d323121763bc94b18bd496dc9a790dd87",
+        "source_id": "article"
+      },
+      {
+        "locator": "Experimental preparation / selected optimization for 9",
+        "pages": [
+          7
+        ],
+        "sha256": "3c267ab99b5e43d52366b3df41d8c12d323121763bc94b18bd496dc9a790dd87",
+        "source_id": "article"
+      }
+    ],
+    "step_id": "E13.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "COc1ccc([C@@H]2COc3c(ccc4c3C=CC(C)(C)O4)C2)c(OC)c1>>CC1(C)C=Cc2c(ccc3c2OC[C@@H](c2ccc(O)cc2O)C3)O1",
+    "temperature_reported": "room temperature 2 h; HCl/ethanol at 0-10 C 2 h",
+    "transformation": "Aryl methyl ether cleavage and hydrolysis",
+    "yield_percent": 87
+  },
+  {
+    "agent_participant_ids": [
+      "participant-014"
+    ],
+    "agents": [
+      "NaH"
+    ],
+    "all_named_participants_have_smiles": true,
+    "atom_mapping_status": "not_assigned",
+    "duration_hours": null,
+    "event_id": "E14",
+    "formal_benchmark_eligible": false,
+    "notes": "Table 1 entry 6, 2.5 equiv NaH; reported isolated yield, with partial elimination byproducts. Duration not specified in Table 1.",
+    "paper_id": "paper-0bac8bc7088bc164",
+    "product_labels": [
+      "5"
+    ],
+    "reactant_labels": [
+      "4"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvent_participant_ids": [
+      "participant-010"
+    ],
+    "solvents": [
+      "DMF"
+    ],
+    "source_references": [
+      {
+        "locator": "Schemes 3-5 route arrow",
+        "pages": [
+          3
+        ],
+        "sha256": "3c267ab99b5e43d52366b3df41d8c12d323121763bc94b18bd496dc9a790dd87",
+        "source_id": "article"
+      },
+      {
+        "locator": "Experimental preparation / selected optimization for 5",
+        "pages": [
+          4
+        ],
+        "sha256": "3c267ab99b5e43d52366b3df41d8c12d323121763bc94b18bd496dc9a790dd87",
+        "source_id": "article"
+      }
+    ],
+    "step_id": "E14.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "COc1ccc([C@@H](CI)COc2cccc(O)c2CC=C(C)C)c(OC)c1>>COc1ccc([C@@H]2COc3c(ccc(O)c3CC=C(C)C)C2)c(OC)c1",
+    "temperature_reported": "25 C",
+    "transformation": "Selected ring-closing optimization",
+    "yield_percent": 86
+  }
+]

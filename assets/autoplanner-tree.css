@@ -1,0 +1,79 @@
+/* Route-tree presentation adapted from AutoPlanner case-2.html, retrieved 2026-09-14. */
+.routeTreeRoot{width:max-content;min-width:100%;display:flex;flex-direction:column;align-items:center}
+.routeTreeChildren{display:flex;align-items:flex-start;justify-content:center;gap:20px;padding-top:14px}
+.routeTreeBranch{position:relative;min-width:218px;display:flex;flex-direction:column;align-items:center}
+.routeTreeBranch:before{content:"";position:absolute;left:50%;top:-14px;width:1px;height:14px;background:#91aa9c}
+.routeTreeChildren.multi>.routeTreeBranch:after{content:"";position:absolute;top:-14px;border-top:1px solid #91aa9c}
+.routeTreeChildren.multi>.routeTreeBranch:first-child:after{left:50%;right:-10px}
+.routeTreeChildren.multi>.routeTreeBranch:last-child:after{left:-10px;right:50%}
+.routeTreeChildren.multi>.routeTreeBranch:not(:first-child):not(:last-child):after{left:-10px;right:-10px}
+.routeChildReaction,.routeOrphanModule{display:flex;flex-direction:column;align-items:center}
+.routeOrphanSection{width:min(560px,calc(100vw - 48px));margin:22px auto 0;border-top:1px dashed #bdc9c1;padding-top:16px}
+.routeOrphanSection>h4{margin:0 0 4px;color:var(--muted);font-size:8px;letter-spacing:.08em;text-align:center;text-transform:uppercase}
+.routeOrphanSection>p{margin:0 0 12px;color:var(--muted);font-size:7px;text-align:center}
+.routeOrphanModule{margin-top:12px}
+.moleculeNode{position:relative;width:218px;border:1px solid var(--line-strong);border-radius:15px;background:#fff;box-shadow:var(--shadow-soft);overflow:visible}
+.moleculeNode.target{border-color:#8fb5a3}
+.moleculeNode.coReactant{border-style:dashed;background:#fafbf8}
+.moleculeNode.replayAccepted,.reactionCard.replayAccepted{box-shadow:0 0 0 5px rgba(35,107,84,.2),var(--shadow-soft)}
+.moleculeNode.replayAdjusted,.reactionCard.replayAdjusted{box-shadow:0 0 0 5px rgba(232,111,58,.24),var(--shadow-soft)}
+.nodeFlag{position:absolute;left:9px;top:8px;z-index:3;border-radius:999px;padding:3px 7px;color:var(--green);background:rgba(238,246,241,.96);font-size:7px;font-weight:900;letter-spacing:.09em}
+.moleculeVisual{position:relative;width:100%;height:104px;display:block;overflow:hidden;border-radius:14px 14px 0 0;background:#fcfdfb}
+.moleculeInline{position:absolute;inset:0;display:grid;place-items:center;padding:9px}
+.moleculeInline svg{display:block;width:100%!important;height:100%!important;max-width:100%!important;max-height:100%!important}
+.nodeText{border-top:1px solid #edf0ec;border-radius:0 0 14px 14px;padding:7px 9px;color:var(--muted);background:#fff;font:7px/1.4 "SFMono-Regular",Consolas,monospace;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.reactionConnector{width:236px;display:flex;flex-direction:column;align-items:center}
+.reactionConnector:before,.reactionConnector:after{content:"";width:1px;height:14px;flex:none;background:#91aa9c}
+.reactionCard{width:226px;border:1px solid #c5d3ca;border-radius:12px;padding:7px 9px;background:#f8fbf8;text-align:center;box-shadow:0 5px 14px rgba(22,48,36,.05)}
+.reactionCard[data-replay-step]{cursor:pointer;transition:border-color .16s,box-shadow .16s,background .16s}
+.reactionCard[data-replay-step]:hover,.reactionCard[data-replay-step]:focus-visible{border-color:#83a892;background:#fff;box-shadow:0 0 0 4px rgba(35,107,84,.1),var(--shadow-soft);outline:0}
+.reactionCard.pending{border-style:dashed;border-color:#e3a07f;background:var(--orange-soft)}
+.reactionFamily{display:block;font-size:9px;font-weight:850;line-height:1.35}
+.reactionMeta{display:block;margin-top:2px;color:var(--muted);font-size:7px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.routeTreeBranch{min-width:190px}
+.moleculeNode{width:190px}
+.moleculeVisual{height:86px}
+.nodeFlag{font-size:8px}
+.nodeText{padding:6px 8px;font-size:8.5px}
+.reactionConnector{width:204px}
+.reactionConnector:before,.reactionConnector:after{height:10px}
+.reactionCard{width:194px;padding:6px 9px}
+.reactionFamily{display:-webkit-box;font-size:10.5px;line-height:1.35;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.reactionMeta{margin-top:3px;font-size:8.5px}
+.routeTreeChildren{gap:16px;padding-top:10px}
+.routeTreeBranch:before{top:-10px;height:10px}
+.routeTreeChildren.multi>.routeTreeBranch:after{top:-10px}
+.routeTreeChildren.multi>.routeTreeBranch:first-child:after{right:-8px}
+.routeTreeChildren.multi>.routeTreeBranch:last-child:after{left:-8px}
+.routeTreeChildren.multi>.routeTreeBranch:not(:first-child):not(:last-child):after{left:-8px;right:-8px}
+/* Simplified mode emits only a generous hit-area around a direct molecule link. */
+.reactionConnector.compactConnector{position:relative;width:190px;height:28px;display:block;flex:none;cursor:pointer}
+.reactionConnector.compactConnector:before{content:"";position:absolute;left:calc(50% - 1px);top:0;width:2px;height:100%;background:#91aa9c;box-shadow:none}
+.reactionConnector.compactConnector:after{display:none}
+.reactionConnector.compactConnector.pending:before{background:repeating-linear-gradient(to bottom,#d99067 0 4px,transparent 4px 7px)}
+.reactionConnector.compactConnector:hover:before,.reactionConnector.compactConnector:focus-visible:before{background:var(--orange);box-shadow:0 0 0 3px rgba(232,111,58,.12)}
+.reactionConnector.compactConnector:focus-visible{outline:0}
+.reactionConnector.compactConnector.replayAccepted:before{background:var(--green-2);box-shadow:0 0 0 3px rgba(35,107,84,.16)}
+.reactionConnector.compactConnector.replayAdjusted:before{background:var(--orange);box-shadow:0 0 0 3px rgba(232,111,58,.18)}
+.routeViewport.horizontalRoute .routeTreeRoot{min-width:0;flex-direction:row;align-items:center}
+.routeViewport.horizontalRoute .routeTreeChildren{flex-direction:column;align-items:flex-start;justify-content:center;gap:16px;padding:0 0 0 12px}
+.routeViewport.horizontalRoute .routeTreeBranch{min-width:0;min-height:106px;flex-direction:row;align-items:center}
+.routeViewport.horizontalRoute .routeTreeBranch:before{left:-12px;top:50%;width:12px;height:1px}
+.routeViewport.horizontalRoute .routeTreeChildren.multi>.routeTreeBranch:after{content:"";position:absolute;left:-12px;right:auto;width:0;border:0;border-left:1px solid #91aa9c}
+.routeViewport.horizontalRoute .routeTreeChildren.multi>.routeTreeBranch:first-child:after{top:50%;bottom:-8px}
+.routeViewport.horizontalRoute .routeTreeChildren.multi>.routeTreeBranch:last-child:after{top:-8px;bottom:50%}
+.routeViewport.horizontalRoute .routeTreeChildren.multi>.routeTreeBranch:not(:first-child):not(:last-child):after{top:-8px;bottom:-8px}
+.routeViewport.horizontalRoute .routeChildReaction,.routeViewport.horizontalRoute .routeOrphanModule{flex-direction:row;align-items:center}
+.routeViewport.horizontalRoute .reactionConnector{width:auto;flex-direction:row}
+.routeViewport.horizontalRoute .reactionConnector:before,.routeViewport.horizontalRoute .reactionConnector:after{width:10px;height:1px}
+.routeViewport.horizontalRoute .routeOrphanSection{width:max-content;margin:0 0 0 24px;border-top:0;border-left:1px dashed #bdc9c1;padding:0 0 0 18px}
+.routeViewport.horizontalRoute .routeOrphanModule{margin:10px 0 0}
+.routeViewport.horizontalRoute .reactionConnector.compactConnector{position:relative;width:28px;height:106px;display:block}
+.routeViewport.horizontalRoute .reactionConnector.compactConnector:before{left:0;right:0;top:calc(50% - 1px);width:100%;height:2px}
+.routeViewport.horizontalRoute .reactionConnector.compactConnector.pending:before{background:repeating-linear-gradient(to right,#d99067 0 4px,transparent 4px 7px)}
+.routeViewport.horizontalRoute .reactionConnector.compactConnector:after{display:none}
+.routeTreeBranch,.moleculeNode{width:180px;min-width:180px}
+.reactionCard{width:184px}
+.routeViewport.horizontalRoute .routeTreeBranch{min-width:0}
+:root{--line:#dce4db;--line-strong:#d3e0d5;--green:#285f49;--green-2:#34785b;--muted:#7a8b7c;--mint:#eaf3ed;--orange:#db7548;--shadow-soft:0 5px 15px rgba(25,57,37,.07)}
+#route-stage{width:max-content;min-width:0;padding:0}#routeTree{width:max-content;padding:22px;display:block}#routeTree .moleculeNode{padding:0;flex:none;cursor:pointer;text-align:left;color:var(--green)}.moleculeInline img{width:100%;height:100%;object-fit:contain;pointer-events:none}.moleculeVisual{height:110px}.moleculeInline{padding:22px 8px 4px}.nodeFlag{top:7px;font-size:7px}.nodeText{font-size:8px}.moleculeNode.selected{border-color:#3b8663;box-shadow:0 0 0 4px #43876a24}.reactionCard.selected{border-color:#3b8663;background:#e8f3e9}.compactConnector.selected:before{background:#2b7b52!important;box-shadow:0 0 0 3px #43876a24}.routeViewport.horizontalRoute .routeOrphanSection{margin-left:50px;width:max-content;border-top:0;border-left:1px dashed #bdc9c1;padding-left:30px}.routeOrphanSection{max-width:none}.routeOrphanModule{margin:20px 0}.reactionCard{font:inherit}.reactionConnector.compactConnector{min-width:28px;min-height:28px}.routeViewport.horizontalRoute .reactionConnector.compactConnector{width:42px}.canvas-controls{flex-wrap:wrap}.canvas-heading{align-items:flex-start}#route-stage button{touch-action:none}

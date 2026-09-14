@@ -1,0 +1,103 @@
+[
+  {
+    "admission_authority": false,
+    "formal_benchmark_eligible": false,
+    "from_commercial_starting_materials_complete": false,
+    "full_article_route_coverage": false,
+    "molecule_smiles_sequence": [
+      "O=CC1=CO[C@H](COCc2ccccc2)[C@@H](OCc2ccccc2)[C@H]1OCc1ccccc1",
+      "CCOC(=O)CNCc1ccccc1",
+      "CCOC(=O)c1cc([C@H](OCc2ccccc2)[C@H](OCc2ccccc2)[C@H](O)COCc2ccccc2)cn1Cc1ccccc1"
+    ],
+    "ordered_event_ids": [
+      "E01"
+    ],
+    "ordered_molecule_labels": [
+      "2",
+      "3",
+      "4"
+    ],
+    "ordered_step_ids": [
+      "E01.1"
+    ],
+    "route_id": "pyrrole-formation-fragment",
+    "route_type": "source_bound_route_fragment",
+    "split_group": "10.1080/14786419.2026.2640603",
+    "start_label": "2",
+    "start_labels": [
+      "2",
+      "3"
+    ],
+    "step_reaction_smiles_sequence": [
+      "CCOC(=O)CNCc1ccccc1.O=CC1=CO[C@H](COCc2ccccc2)[C@@H](OCc2ccccc2)[C@H]1OCc1ccccc1>>CCOC(=O)c1cc([C@H](OCc2ccccc2)[C@H](OCc2ccccc2)[C@H](O)COCc2ccccc2)cn1Cc1ccccc1"
+    ],
+    "target_label": "4"
+  },
+  {
+    "admission_authority": false,
+    "formal_benchmark_eligible": false,
+    "from_commercial_starting_materials_complete": false,
+    "full_article_route_coverage": false,
+    "molecule_smiles_sequence": [
+      "CCOC(=O)c1cc([C@H](OCc2ccccc2)[C@H](OCc2ccccc2)[C@@H](COCc2ccccc2)OCc2ccccc2)cn1Cc1ccccc1",
+      "O=C(O)c1cc([C@H](OCc2ccccc2)[C@H](OCc2ccccc2)[C@@H](COCc2ccccc2)OCc2ccccc2)cn1Cc1ccccc1"
+    ],
+    "ordered_event_ids": [
+      "E02"
+    ],
+    "ordered_molecule_labels": [
+      "4a",
+      "4b"
+    ],
+    "ordered_step_ids": [
+      "E02.1"
+    ],
+    "route_id": "acid-fragment",
+    "route_type": "source_bound_route_fragment",
+    "split_group": "10.1080/14786419.2026.2640603",
+    "start_label": "4a",
+    "start_labels": [
+      "4a"
+    ],
+    "step_reaction_smiles_sequence": [
+      "CCOC(=O)c1cc([C@H](OCc2ccccc2)[C@H](OCc2ccccc2)[C@@H](COCc2ccccc2)OCc2ccccc2)cn1Cc1ccccc1>>O=C(O)c1cc([C@H](OCc2ccccc2)[C@H](OCc2ccccc2)[C@@H](COCc2ccccc2)OCc2ccccc2)cn1Cc1ccccc1"
+    ],
+    "target_label": "4b"
+  },
+  {
+    "admission_authority": false,
+    "formal_benchmark_eligible": false,
+    "from_commercial_starting_materials_complete": false,
+    "full_article_route_coverage": false,
+    "molecule_smiles_sequence": [
+      "O=C(O)c1c(CC(O)COCc2ccccc2)c([C@H](OCc2ccccc2)[C@H](OCc2ccccc2)[C@@H](COCc2ccccc2)OCc2ccccc2)cn1Cc1ccccc1",
+      "CCOC(=O)c1c(CC(O)COCc2ccccc2)c([C@H](OCc2ccccc2)[C@H](OCc2ccccc2)[C@@H](COCc2ccccc2)OCc2ccccc2)cn1Cc1ccccc1",
+      "CCOC(=O)c1c(CC(=O)COCc2ccccc2)c([C@H](OCc2ccccc2)[C@H](OCc2ccccc2)[C@@H](COCc2ccccc2)OCc2ccccc2)cn1Cc1ccccc1"
+    ],
+    "ordered_event_ids": [
+      "E03",
+      "E04"
+    ],
+    "ordered_molecule_labels": [
+      "6",
+      "7",
+      "8"
+    ],
+    "ordered_step_ids": [
+      "E03.1",
+      "E04.1"
+    ],
+    "route_id": "ketone-fragment",
+    "route_type": "source_bound_route_fragment",
+    "split_group": "10.1080/14786419.2026.2640603",
+    "start_label": "6",
+    "start_labels": [
+      "6"
+    ],
+    "step_reaction_smiles_sequence": [
+      "O=C(O)c1c(CC(O)COCc2ccccc2)c([C@H](OCc2ccccc2)[C@H](OCc2ccccc2)[C@@H](COCc2ccccc2)OCc2ccccc2)cn1Cc1ccccc1>>CCOC(=O)c1c(CC(O)COCc2ccccc2)c([C@H](OCc2ccccc2)[C@H](OCc2ccccc2)[C@@H](COCc2ccccc2)OCc2ccccc2)cn1Cc1ccccc1",
+      "CCOC(=O)c1c(CC(O)COCc2ccccc2)c([C@H](OCc2ccccc2)[C@H](OCc2ccccc2)[C@@H](COCc2ccccc2)OCc2ccccc2)cn1Cc1ccccc1>>CCOC(=O)c1c(CC(=O)COCc2ccccc2)c([C@H](OCc2ccccc2)[C@H](OCc2ccccc2)[C@@H](COCc2ccccc2)OCc2ccccc2)cn1Cc1ccccc1"
+    ],
+    "target_label": "8"
+  }
+]

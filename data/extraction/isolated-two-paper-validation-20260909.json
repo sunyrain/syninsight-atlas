@@ -1,0 +1,55 @@
+{
+  "batch_id": "isolated-two-papers-20260909",
+  "papers": [
+    {
+      "paper_id": "paper-4cc43638c809d619",
+      "facts": "data/facts/paper-4cc43638c809d619.json",
+      "facts_bytes": 6303,
+      "generated_file_count": 26,
+      "generated_bytes": 224282,
+      "molecules": 7,
+      "events": 5,
+      "routes": 4,
+      "hrms_checks": 3,
+      "hrms_formula_matches": 3,
+      "coverage": "Source-bound forward preparations in main Scheme 2/Tables 1-2 and SI pp3-4, from literature-known protected 10-keto-acaudiol A (4). Includes diene preparation and the isolated regioisomer. The cited upstream synthesis of 4 is outside this paper. Presumed LR-MS species 10 is not an isolated structure-confirmed preparation. Independent chemical review remains pending. Facts compiled deterministically; independent review pending."
+    },
+    {
+      "paper_id": "paper-6f84dc000b1334a0",
+      "facts": "data/facts/paper-6f84dc000b1334a0.json",
+      "facts_bytes": 27186,
+      "generated_file_count": 65,
+      "generated_bytes": 1661843,
+      "molecules": 46,
+      "events": 40,
+      "routes": 5,
+      "hrms_checks": 30,
+      "hrms_formula_matches": 30,
+      "coverage": "Main Schemes 1-4 and SI preparation section pp5-25, including malic-acid-derived building blocks, recovered diastereomer inversion, acetal characterization branches and both C11 epimer routes. Nonisolated activated esters, tosylates and unprotected propargylic mixtures remain explicit operation stages unless a separately drawn numbered species is available. New benzylidene acetal configurations in control products 9a/9b remain unassigned pending independent drawing review. Facts compiled deterministically; independent review pending."
+    }
+  ],
+  "cache_replay": {
+    "papers": 133,
+    "cases": {
+      "unchanged": 2
+    },
+    "database_action": "unchanged",
+    "statuses": {
+      "source_missing_local": 14,
+      "pending_structure_transcription": 72,
+      "extracted_candidate_pending_review": 39,
+      "metadata_only": 8
+    },
+    "details": "data/extraction/batch_summary.json"
+  },
+  "database_counts": {
+    "paper_compounds": 1120,
+    "reaction_events": 727,
+    "operation_steps": 840,
+    "routes": 209,
+    "molecules": 1368
+  },
+  "database_integrity": "ok",
+  "foreign_key_violations": 0,
+  "independent_review": false
+}

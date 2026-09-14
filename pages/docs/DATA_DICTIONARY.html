@@ -1,0 +1,29 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Data dictionary | SynInsight Atlas</title><link rel="stylesheet" href="../../assets/report.css"><link rel="icon" href="../../assets/favicon.svg"></head><body class="publication-page"><a class="skip-link" href="#document">Skip to content</a><nav class="publication-nav" aria-label="Atlas navigation"><a class="brand" href="../../index.html">SI · SynInsight Atlas</a><div><a href="../../index.html#atlas">Papers & routes</a><a href="../../index.html#dataset">Reaction dataset</a></div></nav><div class="document-meta">Reference document · <a href="../../docs/DATA_DICTIONARY.md" download>Download original file</a></div><main id="document" class="document-content"><h1 id="data-dictionary">Data dictionary</h1>
+<h2 id="release-units">Release units</h2>
+<p><code>paper_id</code> identifies one provider-reconciled paper record. <code>article_family_id</code>
+groups parallel editions or duplicate index records. <code>target_id</code> identifies one
+reported target slot; paper counts and target counts must never be interchanged.</p>
+<h2 id="datapapersjson"><code>data/papers.json</code></h2>
+<p>Each row contains public bibliographic metadata, cohort membership, target count,
+candidate-evidence counts, source-package completeness, and human paper-review state.
+Source-package fields describe the curation workspace but do not expose source files.</p>
+<h2 id="datatargetsjson"><code>data/targets.json</code></h2>
+<ul>
+<li><code>candidate_structure</code>: non-admitting structure transcription state, canonical
+  isomeric SMILES when RDKit-valid, derived SVG path, source locator/hash, and note;</li>
+<li><code>route_evidence_lead</code>: non-admitting extraction state, passage count, and source
+  locators; article text is intentionally excluded;</li>
+<li><code>source_package</code>: availability and completeness without local paths;</li>
+<li><code>human_review</code>: paper, structure, route, and runnable states;</li>
+<li><code>formal_benchmark_eligible</code>: true only after the parent paper, exact structure, and
+  literature route/key step pass the declared human-admission contract.</li>
+</ul>
+<h2 id="candidate-structure-states">Candidate structure states</h2>
+<ul>
+<li><code>exact_source_structure_candidate</code>: the automated transcription appears complete
+  and passes RDKit, but has not been independently admitted;</li>
+<li><code>partial_stereo_candidate</code>: connectivity is useful for review, while one or more
+  stereochemical claims require resolution;</li>
+<li><code>unresolved</code>: no reliable source-concordant SMILES candidate is available.</li>
+</ul>
+<p>No candidate state is a synonym for chemical truth.</p></main><footer class="publication-footer"><a href="../../index.html">Return to Atlas</a><span>Candidate curation · Data CC BY 4.0 · Code MIT</span></footer><script src="../../assets/publication.js" defer></script></body></html>

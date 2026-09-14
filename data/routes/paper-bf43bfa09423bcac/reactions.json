@@ -1,0 +1,1238 @@
+[
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E01",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "S2"
+    ],
+    "reactant_labels": [
+      "S1",
+      "formaldehyde"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "S1",
+        "percent": 76,
+        "product_label": "S2",
+        "scope": "overall preparation yield; not allocated to internal stages"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Substrate-product graph sequence, not atom balanced; inferred internal stage graphs explicitly distinguished",
+    "source_references": [
+      {
+        "locator": "SI PDF page: E01 preparation",
+        "pages": [
+          3,
+          4
+        ],
+        "sha256": "4700ac053c9b5a9dc34b2a1ba3b45073dc5218dd613a552c01847dd245b48e30",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main preparation schemes: E01 preparation",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "630c320d6ed45f30d71066fddb7a928a48b81df7d5d306777424d78597429510",
+        "source_id": "main"
+      }
+    ],
+    "step_ids": [
+      "E01.1"
+    ],
+    "substrate_product_smiles": "C=O.COC(=O)c1nc([C@H](C)NC(=O)OCc2ccccc2)oc1C>>COC(=O)c1nc([C@H](C)[NH+](C)C)oc1C.[Cl-]"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E02",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "7"
+    ],
+    "reactant_labels": [
+      "S2"
+    ],
+    "reported_yields": [],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Substrate-product graph sequence, not atom balanced; inferred internal stage graphs explicitly distinguished",
+    "source_references": [
+      {
+        "locator": "SI PDF page: E02 preparation",
+        "pages": [
+          4
+        ],
+        "sha256": "4700ac053c9b5a9dc34b2a1ba3b45073dc5218dd613a552c01847dd245b48e30",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main preparation schemes: E02 preparation",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "630c320d6ed45f30d71066fddb7a928a48b81df7d5d306777424d78597429510",
+        "source_id": "main"
+      }
+    ],
+    "step_ids": [
+      "E02.1"
+    ],
+    "substrate_product_smiles": "COC(=O)c1nc([C@H](C)[NH+](C)C)oc1C.[Cl-]>>Cc1oc([C@H](C)[NH+](C)C)nc1C(=O)O.[Cl-]"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E03",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "S4"
+    ],
+    "reactant_labels": [
+      "S3",
+      "dimethylalanine"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "S3",
+        "percent": 41,
+        "product_label": "S4",
+        "scope": "overall preparation yield; not allocated to internal stages"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Substrate-product graph sequence, not atom balanced; inferred internal stage graphs explicitly distinguished",
+    "source_references": [
+      {
+        "locator": "SI PDF page: E03 preparation",
+        "pages": [
+          4,
+          5
+        ],
+        "sha256": "4700ac053c9b5a9dc34b2a1ba3b45073dc5218dd613a552c01847dd245b48e30",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main preparation schemes: E03 preparation",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "630c320d6ed45f30d71066fddb7a928a48b81df7d5d306777424d78597429510",
+        "source_id": "main"
+      }
+    ],
+    "step_ids": [
+      "E03.1"
+    ],
+    "substrate_product_smiles": "C[C@@H](C(=O)O)N(C)C.C[C@H](O)[C@H]([NH3+])C(=O)OCc1ccccc1.[Cl-]>>C[C@H](O)[C@H](NC(=O)[C@H](C)N(C)C)C(=O)OCc1ccccc1"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E04",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "S5"
+    ],
+    "reactant_labels": [
+      "S4"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "S4",
+        "percent": 68,
+        "product_label": "S5",
+        "scope": "overall preparation yield; not allocated to internal stages"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Substrate-product graph sequence, not atom balanced; inferred internal stage graphs explicitly distinguished",
+    "source_references": [
+      {
+        "locator": "SI PDF page: E04 preparation",
+        "pages": [
+          5
+        ],
+        "sha256": "4700ac053c9b5a9dc34b2a1ba3b45073dc5218dd613a552c01847dd245b48e30",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main preparation schemes: E04 preparation",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "630c320d6ed45f30d71066fddb7a928a48b81df7d5d306777424d78597429510",
+        "source_id": "main"
+      }
+    ],
+    "step_ids": [
+      "E04.1"
+    ],
+    "substrate_product_smiles": "C[C@H](O)[C@H](NC(=O)[C@H](C)N(C)C)C(=O)OCc1ccccc1>>C[C@H]1OC([C@H](C)N(C)C)=N[C@@H]1C(=O)OCc1ccccc1"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E05",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "14a"
+    ],
+    "reactant_labels": [
+      "S5"
+    ],
+    "reported_yields": [],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Substrate-product graph sequence, not atom balanced; inferred internal stage graphs explicitly distinguished",
+    "source_references": [
+      {
+        "locator": "SI PDF page: E05 preparation",
+        "pages": [
+          5
+        ],
+        "sha256": "4700ac053c9b5a9dc34b2a1ba3b45073dc5218dd613a552c01847dd245b48e30",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main preparation schemes: E05 preparation",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "630c320d6ed45f30d71066fddb7a928a48b81df7d5d306777424d78597429510",
+        "source_id": "main"
+      }
+    ],
+    "step_ids": [
+      "E05.1"
+    ],
+    "substrate_product_smiles": "C[C@H]1OC([C@H](C)N(C)C)=N[C@@H]1C(=O)OCc1ccccc1>>C[C@H]1OC([C@H](C)N(C)C)=N[C@@H]1C(=O)O"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E06",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "S7"
+    ],
+    "reactant_labels": [
+      "S3",
+      "S6"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "S3",
+        "percent": 77,
+        "product_label": "S7",
+        "scope": "overall preparation yield; not allocated to internal stages"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Substrate-product graph sequence, not atom balanced; inferred internal stage graphs explicitly distinguished",
+    "source_references": [
+      {
+        "locator": "SI PDF page: E06 preparation",
+        "pages": [
+          6
+        ],
+        "sha256": "4700ac053c9b5a9dc34b2a1ba3b45073dc5218dd613a552c01847dd245b48e30",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main preparation schemes: E06 preparation",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "630c320d6ed45f30d71066fddb7a928a48b81df7d5d306777424d78597429510",
+        "source_id": "main"
+      }
+    ],
+    "step_ids": [
+      "E06.1"
+    ],
+    "substrate_product_smiles": "CN(C)C(C)(C)C(=O)O.C[C@H](O)[C@H]([NH3+])C(=O)OCc1ccccc1.[Cl-]>>C[C@H](O)[C@H](NC(=O)C(C)(C)N(C)C)C(=O)OCc1ccccc1"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E07",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "S8"
+    ],
+    "reactant_labels": [
+      "S7"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "S7",
+        "percent": 89,
+        "product_label": "S8",
+        "scope": "overall preparation yield; not allocated to internal stages"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Substrate-product graph sequence, not atom balanced; inferred internal stage graphs explicitly distinguished",
+    "source_references": [
+      {
+        "locator": "SI PDF page: E07 preparation",
+        "pages": [
+          6,
+          7
+        ],
+        "sha256": "4700ac053c9b5a9dc34b2a1ba3b45073dc5218dd613a552c01847dd245b48e30",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main preparation schemes: E07 preparation",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "630c320d6ed45f30d71066fddb7a928a48b81df7d5d306777424d78597429510",
+        "source_id": "main"
+      }
+    ],
+    "step_ids": [
+      "E07.1"
+    ],
+    "substrate_product_smiles": "C[C@H](O)[C@H](NC(=O)C(C)(C)N(C)C)C(=O)OCc1ccccc1>>C[C@H]1OC(C(C)(C)N(C)C)=N[C@@H]1C(=O)OCc1ccccc1"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E08",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "14b"
+    ],
+    "reactant_labels": [
+      "S8"
+    ],
+    "reported_yields": [],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Substrate-product graph sequence, not atom balanced; inferred internal stage graphs explicitly distinguished",
+    "source_references": [
+      {
+        "locator": "SI PDF page: E08 preparation",
+        "pages": [
+          7
+        ],
+        "sha256": "4700ac053c9b5a9dc34b2a1ba3b45073dc5218dd613a552c01847dd245b48e30",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main preparation schemes: E08 preparation",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "630c320d6ed45f30d71066fddb7a928a48b81df7d5d306777424d78597429510",
+        "source_id": "main"
+      }
+    ],
+    "step_ids": [
+      "E08.1"
+    ],
+    "substrate_product_smiles": "C[C@H]1OC(C(C)(C)N(C)C)=N[C@@H]1C(=O)OCc1ccccc1>>C[C@H]1OC(C(C)(C)N(C)C)=N[C@@H]1C(=O)O"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E09",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "S10"
+    ],
+    "reactant_labels": [
+      "S9",
+      "benzyl-bromide",
+      "TBSCl"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "S9",
+        "percent": 75,
+        "product_label": "S10",
+        "scope": "overall preparation yield; not allocated to internal stages"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Substrate-product graph sequence, not atom balanced; inferred internal stage graphs explicitly distinguished",
+    "source_references": [
+      {
+        "locator": "SI PDF page: E09 preparation",
+        "pages": [
+          7,
+          8
+        ],
+        "sha256": "4700ac053c9b5a9dc34b2a1ba3b45073dc5218dd613a552c01847dd245b48e30",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main preparation schemes: E09 preparation",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "630c320d6ed45f30d71066fddb7a928a48b81df7d5d306777424d78597429510",
+        "source_id": "main"
+      }
+    ],
+    "step_ids": [
+      "E09.1",
+      "E09.2"
+    ],
+    "substrate_product_smiles": "BrCc1ccccc1.CC(C)(C)[Si](C)(C)Cl.CC(C)[C@H](O)C(=O)O>>CC(C)[C@H](O[Si](C)(C)C(C)(C)C)C(=O)OCc1ccccc1"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E10",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "10"
+    ],
+    "reactant_labels": [
+      "S10",
+      "allyl-potassium-malonate"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "S10",
+        "percent": 61,
+        "product_label": "10",
+        "scope": "overall preparation yield; not allocated to internal stages"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Substrate-product graph sequence, not atom balanced; inferred internal stage graphs explicitly distinguished",
+    "source_references": [
+      {
+        "locator": "SI PDF page: E10 preparation",
+        "pages": [
+          8
+        ],
+        "sha256": "4700ac053c9b5a9dc34b2a1ba3b45073dc5218dd613a552c01847dd245b48e30",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main preparation schemes: E10 preparation",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "630c320d6ed45f30d71066fddb7a928a48b81df7d5d306777424d78597429510",
+        "source_id": "main"
+      }
+    ],
+    "step_ids": [
+      "E10.1",
+      "E10.2"
+    ],
+    "substrate_product_smiles": "C=CCOC(=O)CC(=O)[O-].CC(C)[C@H](O[Si](C)(C)C(C)(C)C)C(=O)OCc1ccccc1.[K+]>>C=CCOC(=O)CC(=O)[C@@H](O[Si](C)(C)C(C)(C)C)C(C)C"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E11",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "11"
+    ],
+    "reactant_labels": [
+      "10",
+      "NapOH"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "10",
+        "percent": 72,
+        "product_label": "11",
+        "scope": "overall preparation yield; not allocated to internal stages"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Substrate-product graph sequence, not atom balanced; inferred internal stage graphs explicitly distinguished",
+    "source_references": [
+      {
+        "locator": "SI PDF page: E11 preparation",
+        "pages": [
+          9
+        ],
+        "sha256": "4700ac053c9b5a9dc34b2a1ba3b45073dc5218dd613a552c01847dd245b48e30",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main preparation schemes: E11 preparation",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "630c320d6ed45f30d71066fddb7a928a48b81df7d5d306777424d78597429510",
+        "source_id": "main"
+      }
+    ],
+    "step_ids": [
+      "E11.1",
+      "E11.2"
+    ],
+    "substrate_product_smiles": "C=CCOC(=O)CC(=O)[C@@H](O[Si](C)(C)C(C)(C)C)C(C)C.OCc1ccc2ccccc2c1>>CC(C)[C@H](O[Si](C)(C)C(C)(C)C)/C(=C/C(=O)O)OCc1ccc2ccccc2c1"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E12",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "9a"
+    ],
+    "reactant_labels": [
+      "11",
+      "12a"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "11",
+        "percent": 82,
+        "product_label": "9a",
+        "scope": "overall preparation yield; not allocated to internal stages"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Substrate-product graph sequence, not atom balanced; inferred internal stage graphs explicitly distinguished",
+    "source_references": [
+      {
+        "locator": "SI PDF page: E12 preparation",
+        "pages": [
+          10
+        ],
+        "sha256": "4700ac053c9b5a9dc34b2a1ba3b45073dc5218dd613a552c01847dd245b48e30",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main preparation schemes: E12 preparation",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "630c320d6ed45f30d71066fddb7a928a48b81df7d5d306777424d78597429510",
+        "source_id": "main"
+      }
+    ],
+    "step_ids": [
+      "E12.1",
+      "E12.2"
+    ],
+    "substrate_product_smiles": "CC(C)[C@H](O[Si](C)(C)C(C)(C)C)/C(=C/C(=O)O)OCc1ccc2ccccc2c1.C[NH2+][C@@H](C)C(=O)OC.[Cl-]>>COC(=O)[C@H](C)N(C)C(=O)/C=C(\\OCc1ccc2ccccc2c1)[C@@H](O)C(C)C"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E13",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "9b"
+    ],
+    "reactant_labels": [
+      "11",
+      "12b"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "11",
+        "percent": 71,
+        "product_label": "9b",
+        "scope": "overall preparation yield; not allocated to internal stages"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Substrate-product graph sequence, not atom balanced; inferred internal stage graphs explicitly distinguished",
+    "source_references": [
+      {
+        "locator": "SI PDF page: E13 preparation",
+        "pages": [
+          11
+        ],
+        "sha256": "4700ac053c9b5a9dc34b2a1ba3b45073dc5218dd613a552c01847dd245b48e30",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main preparation schemes: E13 preparation",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "630c320d6ed45f30d71066fddb7a928a48b81df7d5d306777424d78597429510",
+        "source_id": "main"
+      }
+    ],
+    "step_ids": [
+      "E13.1",
+      "E13.2"
+    ],
+    "substrate_product_smiles": "CC(C)[C@H](O[Si](C)(C)C(C)(C)C)/C(=C/C(=O)O)OCc1ccc2ccccc2c1.C[NH2+]C(C)(C)C(=O)OC.[Cl-]>>COC(=O)C(C)(C)N(C)C(=O)/C=C(\\OCc1ccc2ccccc2c1)[C@@H](O)C(C)C"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E14",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "8"
+    ],
+    "reactant_labels": [
+      "S11",
+      "dimethoxypropane"
+    ],
+    "reported_yield_text": "quantitative over two steps",
+    "reported_yields": [],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Substrate-product graph sequence, not atom balanced; inferred internal stage graphs explicitly distinguished",
+    "source_references": [
+      {
+        "locator": "SI PDF page: E14 preparation",
+        "pages": [
+          11,
+          12
+        ],
+        "sha256": "4700ac053c9b5a9dc34b2a1ba3b45073dc5218dd613a552c01847dd245b48e30",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main preparation schemes: E14 preparation",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "630c320d6ed45f30d71066fddb7a928a48b81df7d5d306777424d78597429510",
+        "source_id": "main"
+      }
+    ],
+    "step_ids": [
+      "E14.1",
+      "E14.2"
+    ],
+    "substrate_product_smiles": "C=CCOC(=O)C(C)(C)[C@@H](O)[C@H](CCCN(OCc1ccccc1)C(=O)OCc1ccccc1)NC(=O)OC(C)(C)C.COC(C)(C)OC>>CC(C)(C)OC(=O)N1[C@@H](CCCN(OCc2ccccc2)C(=O)OCc2ccccc2)[C@@H](C(C)(C)C(=O)O)OC1(C)C"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E15",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "13a"
+    ],
+    "reactant_labels": [
+      "8",
+      "9a"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "8",
+        "percent": 78,
+        "product_label": "13a",
+        "scope": "overall preparation yield; not allocated to internal stages"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Substrate-product graph sequence, not atom balanced; inferred internal stage graphs explicitly distinguished",
+    "source_references": [
+      {
+        "locator": "SI PDF page: E15 preparation",
+        "pages": [
+          12,
+          13
+        ],
+        "sha256": "4700ac053c9b5a9dc34b2a1ba3b45073dc5218dd613a552c01847dd245b48e30",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main preparation schemes: E15 preparation",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "630c320d6ed45f30d71066fddb7a928a48b81df7d5d306777424d78597429510",
+        "source_id": "main"
+      }
+    ],
+    "step_ids": [
+      "E15.1"
+    ],
+    "substrate_product_smiles": "CC(C)(C)OC(=O)N1[C@@H](CCCN(OCc2ccccc2)C(=O)OCc2ccccc2)[C@@H](C(C)(C)C(=O)O)OC1(C)C.COC(=O)[C@H](C)N(C)C(=O)/C=C(\\OCc1ccc2ccccc2c1)[C@@H](O)C(C)C>>COC(=O)[C@H](C)N(C)C(=O)/C=C(\\OCc1ccc2ccccc2c1)[C@@H](OC(=O)C(C)(C)[C@H]1OC(C)(C)N(C(=O)OC(C)(C)C)[C@H]1CCCN(OCc1ccccc1)C(=O)OCc1ccccc1)C(C)C"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E16",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "13b"
+    ],
+    "reactant_labels": [
+      "8",
+      "9b"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "8",
+        "percent": 73,
+        "product_label": "13b",
+        "scope": "overall preparation yield; not allocated to internal stages"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Substrate-product graph sequence, not atom balanced; inferred internal stage graphs explicitly distinguished",
+    "source_references": [
+      {
+        "locator": "SI PDF page: E16 preparation",
+        "pages": [
+          16,
+          17
+        ],
+        "sha256": "4700ac053c9b5a9dc34b2a1ba3b45073dc5218dd613a552c01847dd245b48e30",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main preparation schemes: E16 preparation",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "630c320d6ed45f30d71066fddb7a928a48b81df7d5d306777424d78597429510",
+        "source_id": "main"
+      }
+    ],
+    "step_ids": [
+      "E16.1"
+    ],
+    "substrate_product_smiles": "CC(C)(C)OC(=O)N1[C@@H](CCCN(OCc2ccccc2)C(=O)OCc2ccccc2)[C@@H](C(C)(C)C(=O)O)OC1(C)C.COC(=O)C(C)(C)N(C)C(=O)/C=C(\\OCc1ccc2ccccc2c1)[C@@H](O)C(C)C>>COC(=O)C(C)(C)N(C)C(=O)/C=C(\\OCc1ccc2ccccc2c1)[C@@H](OC(=O)C(C)(C)[C@H]1OC(C)(C)N(C(=O)OC(C)(C)C)[C@H]1CCCN(OCc1ccccc1)C(=O)OCc1ccccc1)C(C)C"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E17",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "6a"
+    ],
+    "reactant_labels": [
+      "13a",
+      "7",
+      "acetic-anhydride"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "13a",
+        "percent": 54,
+        "product_label": "6a",
+        "scope": "overall preparation yield; not allocated to internal stages"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Substrate-product graph sequence, not atom balanced; inferred internal stage graphs explicitly distinguished",
+    "source_references": [
+      {
+        "locator": "SI PDF page: E17 preparation",
+        "pages": [
+          13,
+          14
+        ],
+        "sha256": "4700ac053c9b5a9dc34b2a1ba3b45073dc5218dd613a552c01847dd245b48e30",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main preparation schemes: E17 preparation",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "630c320d6ed45f30d71066fddb7a928a48b81df7d5d306777424d78597429510",
+        "source_id": "main"
+      }
+    ],
+    "step_ids": [
+      "E17.1",
+      "E17.2",
+      "E17.3"
+    ],
+    "substrate_product_smiles": "CC(=O)OC(C)=O.COC(=O)[C@H](C)N(C)C(=O)/C=C(\\OCc1ccc2ccccc2c1)[C@@H](OC(=O)C(C)(C)[C@H]1OC(C)(C)N(C(=O)OC(C)(C)C)[C@H]1CCCN(OCc1ccccc1)C(=O)OCc1ccccc1)C(C)C.Cc1oc([C@H](C)[NH+](C)C)nc1C(=O)O.[Cl-]>>COC(=O)[C@H](C)N(C)C(=O)/C=C(\\OCc1ccc2ccccc2c1)[C@@H](OC(=O)C(C)(C)[C@H](OC(C)=O)[C@H](CCCN(OCc1ccccc1)C(=O)OCc1ccccc1)NC(=O)c1nc([C@H](C)N(C)C)oc1C)C(C)C"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E18",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "6b"
+    ],
+    "reactant_labels": [
+      "13b",
+      "7",
+      "acetic-anhydride"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "13b",
+        "percent": 52,
+        "product_label": "6b",
+        "scope": "overall preparation yield; not allocated to internal stages"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Substrate-product graph sequence, not atom balanced; inferred internal stage graphs explicitly distinguished",
+    "source_references": [
+      {
+        "locator": "SI PDF page: E18 preparation",
+        "pages": [
+          17,
+          18
+        ],
+        "sha256": "4700ac053c9b5a9dc34b2a1ba3b45073dc5218dd613a552c01847dd245b48e30",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main preparation schemes: E18 preparation",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "630c320d6ed45f30d71066fddb7a928a48b81df7d5d306777424d78597429510",
+        "source_id": "main"
+      }
+    ],
+    "step_ids": [
+      "E18.1",
+      "E18.2",
+      "E18.3"
+    ],
+    "substrate_product_smiles": "CC(=O)OC(C)=O.COC(=O)C(C)(C)N(C)C(=O)/C=C(\\OCc1ccc2ccccc2c1)[C@@H](OC(=O)C(C)(C)[C@H]1OC(C)(C)N(C(=O)OC(C)(C)C)[C@H]1CCCN(OCc1ccccc1)C(=O)OCc1ccccc1)C(C)C.Cc1oc([C@H](C)[NH+](C)C)nc1C(=O)O.[Cl-]>>COC(=O)C(C)(C)N(C)C(=O)/C=C(\\OCc1ccc2ccccc2c1)[C@@H](OC(=O)C(C)(C)[C@H](OC(C)=O)[C@H](CCCN(OCc1ccccc1)C(=O)OCc1ccccc1)NC(=O)c1nc([C@H](C)N(C)C)oc1C)C(C)C"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E19",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "15a"
+    ],
+    "reactant_labels": [
+      "13a",
+      "14a",
+      "acetic-anhydride"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "13a",
+        "percent": 40,
+        "product_label": "15a",
+        "scope": "overall preparation yield; not allocated to internal stages"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Substrate-product graph sequence, not atom balanced; inferred internal stage graphs explicitly distinguished",
+    "source_references": [
+      {
+        "locator": "SI PDF page: E19 preparation",
+        "pages": [
+          19,
+          20
+        ],
+        "sha256": "4700ac053c9b5a9dc34b2a1ba3b45073dc5218dd613a552c01847dd245b48e30",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main preparation schemes: E19 preparation",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "630c320d6ed45f30d71066fddb7a928a48b81df7d5d306777424d78597429510",
+        "source_id": "main"
+      }
+    ],
+    "step_ids": [
+      "E19.1",
+      "E19.2",
+      "E19.3"
+    ],
+    "substrate_product_smiles": "CC(=O)OC(C)=O.COC(=O)[C@H](C)N(C)C(=O)/C=C(\\OCc1ccc2ccccc2c1)[C@@H](OC(=O)C(C)(C)[C@H]1OC(C)(C)N(C(=O)OC(C)(C)C)[C@H]1CCCN(OCc1ccccc1)C(=O)OCc1ccccc1)C(C)C.C[C@H]1OC([C@H](C)N(C)C)=N[C@@H]1C(=O)O>>COC(=O)[C@H](C)N(C)C(=O)/C=C(\\OCc1ccc2ccccc2c1)[C@@H](OC(=O)C(C)(C)[C@H](OC(C)=O)[C@H](CCCN(OCc1ccccc1)C(=O)OCc1ccccc1)NC(=O)[C@H]1N=C([C@H](C)N(C)C)O[C@@H]1C)C(C)C"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E20",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "15b"
+    ],
+    "reactant_labels": [
+      "13b",
+      "14a",
+      "acetic-anhydride"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "13b",
+        "percent": 54,
+        "product_label": "15b",
+        "scope": "overall preparation yield; not allocated to internal stages"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Substrate-product graph sequence, not atom balanced; inferred internal stage graphs explicitly distinguished",
+    "source_references": [
+      {
+        "locator": "SI PDF page: E20 preparation",
+        "pages": [
+          22,
+          23
+        ],
+        "sha256": "4700ac053c9b5a9dc34b2a1ba3b45073dc5218dd613a552c01847dd245b48e30",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main preparation schemes: E20 preparation",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "630c320d6ed45f30d71066fddb7a928a48b81df7d5d306777424d78597429510",
+        "source_id": "main"
+      }
+    ],
+    "step_ids": [
+      "E20.1",
+      "E20.2",
+      "E20.3"
+    ],
+    "substrate_product_smiles": "CC(=O)OC(C)=O.COC(=O)C(C)(C)N(C)C(=O)/C=C(\\OCc1ccc2ccccc2c1)[C@@H](OC(=O)C(C)(C)[C@H]1OC(C)(C)N(C(=O)OC(C)(C)C)[C@H]1CCCN(OCc1ccccc1)C(=O)OCc1ccccc1)C(C)C.C[C@H]1OC([C@H](C)N(C)C)=N[C@@H]1C(=O)O>>COC(=O)C(C)(C)N(C)C(=O)/C=C(\\OCc1ccc2ccccc2c1)[C@@H](OC(=O)C(C)(C)[C@H](OC(C)=O)[C@H](CCCN(OCc1ccccc1)C(=O)OCc1ccccc1)NC(=O)[C@H]1N=C([C@H](C)N(C)C)O[C@@H]1C)C(C)C"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E21",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "15c"
+    ],
+    "reactant_labels": [
+      "13a",
+      "14b",
+      "acetic-anhydride"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "13a",
+        "percent": 55,
+        "product_label": "15c",
+        "scope": "overall preparation yield; not allocated to internal stages"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Substrate-product graph sequence, not atom balanced; inferred internal stage graphs explicitly distinguished",
+    "source_references": [
+      {
+        "locator": "SI PDF page: E21 preparation",
+        "pages": [
+          24,
+          25
+        ],
+        "sha256": "4700ac053c9b5a9dc34b2a1ba3b45073dc5218dd613a552c01847dd245b48e30",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main preparation schemes: E21 preparation",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "630c320d6ed45f30d71066fddb7a928a48b81df7d5d306777424d78597429510",
+        "source_id": "main"
+      }
+    ],
+    "step_ids": [
+      "E21.1",
+      "E21.2",
+      "E21.3"
+    ],
+    "substrate_product_smiles": "CC(=O)OC(C)=O.COC(=O)[C@H](C)N(C)C(=O)/C=C(\\OCc1ccc2ccccc2c1)[C@@H](OC(=O)C(C)(C)[C@H]1OC(C)(C)N(C(=O)OC(C)(C)C)[C@H]1CCCN(OCc1ccccc1)C(=O)OCc1ccccc1)C(C)C.C[C@H]1OC(C(C)(C)N(C)C)=N[C@@H]1C(=O)O>>COC(=O)[C@H](C)N(C)C(=O)/C=C(\\OCc1ccc2ccccc2c1)[C@@H](OC(=O)C(C)(C)[C@H](OC(C)=O)[C@H](CCCN(OCc1ccccc1)C(=O)OCc1ccccc1)NC(=O)[C@H]1N=C(C(C)(C)N(C)C)O[C@@H]1C)C(C)C"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E22",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "5a"
+    ],
+    "reactant_labels": [
+      "6a",
+      "butyl-nitrite"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "6a",
+        "percent": 5,
+        "product_label": "5a",
+        "scope": "overall preparation yield; not allocated to internal stages"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "sample_fraction_carried_to_final_step": "2/3",
+    "smiles_scope": "Substrate-product graph sequence, not atom balanced; inferred internal stage graphs explicitly distinguished",
+    "source_references": [
+      {
+        "locator": "SI PDF page: E22 preparation",
+        "pages": [
+          15,
+          16
+        ],
+        "sha256": "4700ac053c9b5a9dc34b2a1ba3b45073dc5218dd613a552c01847dd245b48e30",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main preparation schemes: E22 preparation",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "630c320d6ed45f30d71066fddb7a928a48b81df7d5d306777424d78597429510",
+        "source_id": "main"
+      }
+    ],
+    "step_ids": [
+      "E22.1",
+      "E22.2",
+      "E22.3",
+      "E22.4"
+    ],
+    "substrate_product_smiles": "CCCCON=O.COC(=O)[C@H](C)N(C)C(=O)/C=C(\\OCc1ccc2ccccc2c1)[C@@H](OC(=O)C(C)(C)[C@H](OC(C)=O)[C@H](CCCN(OCc1ccccc1)C(=O)OCc1ccccc1)NC(=O)c1nc([C@H](C)N(C)C)oc1C)C(C)C>>CC(=O)O[C@H]([C@H](CCCN(O)N=O)NC(=O)c1nc([C@H](C)N(C)C)oc1C)C(C)(C)C(=O)O[C@H](C(=O)C1=C(O)[C@H](C)N(C)C1=O)C(C)C",
+    "yield_scope": "Source-reported four-step yield for carried sample fraction; do not recompute from full initial charge or assign to individual stages"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E23",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "5b"
+    ],
+    "reactant_labels": [
+      "6b",
+      "butyl-nitrite"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "6b",
+        "percent": 26,
+        "product_label": "5b",
+        "scope": "overall preparation yield; not allocated to internal stages"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "sample_fraction_carried_to_final_step": "1/2",
+    "smiles_scope": "Substrate-product graph sequence, not atom balanced; inferred internal stage graphs explicitly distinguished",
+    "source_references": [
+      {
+        "locator": "SI PDF page: E23 preparation",
+        "pages": [
+          18,
+          19
+        ],
+        "sha256": "4700ac053c9b5a9dc34b2a1ba3b45073dc5218dd613a552c01847dd245b48e30",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main preparation schemes: E23 preparation",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "630c320d6ed45f30d71066fddb7a928a48b81df7d5d306777424d78597429510",
+        "source_id": "main"
+      }
+    ],
+    "step_ids": [
+      "E23.1",
+      "E23.2",
+      "E23.3",
+      "E23.4"
+    ],
+    "substrate_product_smiles": "CCCCON=O.COC(=O)C(C)(C)N(C)C(=O)/C=C(\\OCc1ccc2ccccc2c1)[C@@H](OC(=O)C(C)(C)[C@H](OC(C)=O)[C@H](CCCN(OCc1ccccc1)C(=O)OCc1ccccc1)NC(=O)c1nc([C@H](C)N(C)C)oc1C)C(C)C>>CC(=O)O[C@H]([C@H](CCCN(O)N=O)NC(=O)c1nc([C@H](C)N(C)C)oc1C)C(C)(C)C(=O)O[C@H](C(=O)C1=C(O)C(C)(C)N(C)C1=O)C(C)C",
+    "yield_scope": "Source-reported four-step yield for carried sample fraction; do not recompute from full initial charge or assign to individual stages"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E24",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "1a"
+    ],
+    "reactant_labels": [
+      "15a",
+      "butyl-nitrite"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "15a",
+        "percent": 14,
+        "product_label": "1a",
+        "scope": "overall preparation yield; not allocated to internal stages"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Substrate-product graph sequence, not atom balanced; inferred internal stage graphs explicitly distinguished",
+    "source_references": [
+      {
+        "locator": "SI PDF page: E24 preparation",
+        "pages": [
+          21,
+          22
+        ],
+        "sha256": "4700ac053c9b5a9dc34b2a1ba3b45073dc5218dd613a552c01847dd245b48e30",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main preparation schemes: E24 preparation",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "630c320d6ed45f30d71066fddb7a928a48b81df7d5d306777424d78597429510",
+        "source_id": "main"
+      }
+    ],
+    "step_ids": [
+      "E24.1",
+      "E24.2",
+      "E24.3",
+      "E24.4"
+    ],
+    "substrate_product_smiles": "CCCCON=O.COC(=O)[C@H](C)N(C)C(=O)/C=C(\\OCc1ccc2ccccc2c1)[C@@H](OC(=O)C(C)(C)[C@H](OC(C)=O)[C@H](CCCN(OCc1ccccc1)C(=O)OCc1ccccc1)NC(=O)[C@H]1N=C([C@H](C)N(C)C)O[C@@H]1C)C(C)C>>CC(=O)O[C@H]([C@H](CCCN(O)N=O)NC(=O)[C@H]1N=C([C@H](C)N(C)C)O[C@@H]1C)C(C)(C)C(=O)O[C@H](C(=O)C1=C(O)[C@H](C)N(C)C1=O)C(C)C"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E25",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "1b"
+    ],
+    "reactant_labels": [
+      "15b",
+      "butyl-nitrite"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "15b",
+        "percent": 17,
+        "product_label": "1b",
+        "scope": "overall preparation yield; not allocated to internal stages"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "sample_fraction_carried_to_final_step": "2/3",
+    "smiles_scope": "Substrate-product graph sequence, not atom balanced; inferred internal stage graphs explicitly distinguished",
+    "source_references": [
+      {
+        "locator": "SI PDF page: E25 preparation",
+        "pages": [
+          23,
+          24
+        ],
+        "sha256": "4700ac053c9b5a9dc34b2a1ba3b45073dc5218dd613a552c01847dd245b48e30",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main preparation schemes: E25 preparation",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "630c320d6ed45f30d71066fddb7a928a48b81df7d5d306777424d78597429510",
+        "source_id": "main"
+      }
+    ],
+    "step_ids": [
+      "E25.1",
+      "E25.2",
+      "E25.3",
+      "E25.4"
+    ],
+    "substrate_product_smiles": "CCCCON=O.COC(=O)C(C)(C)N(C)C(=O)/C=C(\\OCc1ccc2ccccc2c1)[C@@H](OC(=O)C(C)(C)[C@H](OC(C)=O)[C@H](CCCN(OCc1ccccc1)C(=O)OCc1ccccc1)NC(=O)[C@H]1N=C([C@H](C)N(C)C)O[C@@H]1C)C(C)C>>CC(=O)O[C@H]([C@H](CCCN(O)N=O)NC(=O)[C@H]1N=C([C@H](C)N(C)C)O[C@@H]1C)C(C)(C)C(=O)O[C@H](C(=O)C1=C(O)C(C)(C)N(C)C1=O)C(C)C",
+    "yield_scope": "Source-reported four-step yield for carried sample fraction; do not recompute from full initial charge or assign to individual stages"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "conflicting_reported_yields": [
+      {
+        "percent": 20,
+        "scope": "four-step yield in main Scheme 2 and SI page 26 scheme"
+      },
+      {
+        "percent": 67,
+        "scope": "SI page 26 isolation paragraph; denominator/scope not specified and inconsistent with full four-step preparation"
+      }
+    ],
+    "event_id": "E26",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "1c"
+    ],
+    "reactant_labels": [
+      "15c",
+      "butyl-nitrite"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "15c",
+        "percent": 20,
+        "product_label": "1c",
+        "scope": "overall preparation yield; not allocated to internal stages"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "sample_fraction_carried_to_final_step": "1/2",
+    "smiles_scope": "Substrate-product graph sequence, not atom balanced; inferred internal stage graphs explicitly distinguished",
+    "source_references": [
+      {
+        "locator": "SI PDF page: E26 preparation",
+        "pages": [
+          26,
+          27
+        ],
+        "sha256": "4700ac053c9b5a9dc34b2a1ba3b45073dc5218dd613a552c01847dd245b48e30",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main preparation schemes: E26 preparation",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "630c320d6ed45f30d71066fddb7a928a48b81df7d5d306777424d78597429510",
+        "source_id": "main"
+      }
+    ],
+    "step_ids": [
+      "E26.1",
+      "E26.2",
+      "E26.3",
+      "E26.4"
+    ],
+    "substrate_product_smiles": "CCCCON=O.COC(=O)[C@H](C)N(C)C(=O)/C=C(\\OCc1ccc2ccccc2c1)[C@@H](OC(=O)C(C)(C)[C@H](OC(C)=O)[C@H](CCCN(OCc1ccccc1)C(=O)OCc1ccccc1)NC(=O)[C@H]1N=C(C(C)(C)N(C)C)O[C@@H]1C)C(C)C>>CC(=O)O[C@H]([C@H](CCCN(O)N=O)NC(=O)[C@H]1N=C(C(C)(C)N(C)C)O[C@@H]1C)C(C)(C)C(=O)O[C@H](C(=O)C1=C(O)[C@H](C)N(C)C1=O)C(C)C",
+    "yield_scope": "Source-reported four-step yield for carried sample fraction; do not recompute from full initial charge or assign to individual stages"
+  }
+]

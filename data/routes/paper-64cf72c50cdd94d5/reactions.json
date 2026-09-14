@@ -1,0 +1,1097 @@
+[
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E01",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "s2"
+    ],
+    "reactant_labels": [
+      "s1",
+      "acetone"
+    ],
+    "reactant_relationship": "source_reactants",
+    "reported_yield_text": null,
+    "reported_yields": [
+      {
+        "from_label": "s1",
+        "percent": 70,
+        "product_label": "s2",
+        "scope": "SI isolated preparation"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source substrates/products and designated coupling partners; mixture components are not stoichiometric coupling reactants; not atom-balanced",
+    "source_references": [
+      {
+        "locator": "SI figure at XML paragraph 28; E01: s1,acetone -> s2",
+        "locator_kind": "document_figure",
+        "pages": [],
+        "sha256": "dc199fa6d1b22776047d6c76aee36277e2609f88933d5df179df2511c4651881",
+        "source_id": "si",
+        "source_member": "word/media/image1.emf",
+        "source_member_sha256": "33101e6c7b127b1884a085880abb3c3b04ed0870d2b38ffcabb993df8b7783f7",
+        "xml_paragraph_index_1based": 30
+      }
+    ],
+    "step_ids": [
+      "E01.1"
+    ],
+    "substrate_product_smiles": "CC(=O)c1c(O)cccc1O.CC(C)=O>>CC1(C)CC(=O)c2c(O)cccc2O1"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E02",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "s3"
+    ],
+    "reactant_labels": [
+      "s2"
+    ],
+    "reactant_relationship": "source_reactants",
+    "reported_yield_text": "not reported",
+    "reported_yields": [],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source substrates/products and designated coupling partners; mixture components are not stoichiometric coupling reactants; not atom-balanced",
+    "source_references": [
+      {
+        "locator": "SI figure at XML paragraph 38; E02: s2 -> s3",
+        "locator_kind": "document_figure",
+        "pages": [],
+        "sha256": "dc199fa6d1b22776047d6c76aee36277e2609f88933d5df179df2511c4651881",
+        "source_id": "si",
+        "source_member": "word/media/image2.emf",
+        "source_member_sha256": "f6472aad6e69726a640b108cbd323f6be0266b059b1e3758eb38edad738883b1",
+        "xml_paragraph_index_1based": 40
+      }
+    ],
+    "step_ids": [
+      "E02.1"
+    ],
+    "substrate_product_smiles": "CC1(C)CC(=O)c2c(O)cccc2O1>>CC1(C)C=Cc2c(O)cccc2O1"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E03",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "s4"
+    ],
+    "reactant_labels": [
+      "s3"
+    ],
+    "reactant_relationship": "source_reactants",
+    "reported_yield_text": null,
+    "reported_yields": [
+      {
+        "from_label": "s3",
+        "percent": 98,
+        "product_label": "s4",
+        "scope": "SI isolated preparation"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source substrates/products and designated coupling partners; mixture components are not stoichiometric coupling reactants; not atom-balanced",
+    "source_references": [
+      {
+        "locator": "SI figure at XML paragraph 51; E03: s3 -> s4",
+        "locator_kind": "document_figure",
+        "pages": [],
+        "sha256": "dc199fa6d1b22776047d6c76aee36277e2609f88933d5df179df2511c4651881",
+        "source_id": "si",
+        "source_member": "word/media/image3.emf",
+        "source_member_sha256": "1bf480669b0885e37128a8b20e4f6c3f7d7edf812ec8d3459fa9646b2f157128",
+        "xml_paragraph_index_1based": 53
+      }
+    ],
+    "step_ids": [
+      "E03.1"
+    ],
+    "substrate_product_smiles": "CC1(C)C=Cc2c(O)cccc2O1>>COCOc1cccc2c1C=CC(C)(C)O2"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E04",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "s5"
+    ],
+    "reactant_labels": [
+      "s4"
+    ],
+    "reactant_relationship": "source_reactants",
+    "recovered_compounds": [
+      {
+        "label": "s3",
+        "reported_yield_percent": 41,
+        "scope": "Recovered from crude sequence; excluded from main-substrate reaction SMILES",
+        "source_references": [
+          {
+            "cdx_sha256": "5791777712272363bd38535e56e648c4289ea9efc525cb6a4b783ddaf7667d38",
+            "locator": "SI native object at XML paragraph 62; Recovered s3",
+            "locator_kind": "native_document_object",
+            "pages": [],
+            "sha256": "dc199fa6d1b22776047d6c76aee36277e2609f88933d5df179df2511c4651881",
+            "source_id": "si",
+            "source_member": "word/embeddings/oleObject1.bin",
+            "xml_paragraph_index_1based": 65
+          }
+        ]
+      }
+    ],
+    "reported_yield_text": null,
+    "reported_yields": [
+      {
+        "from_label": "s4",
+        "percent": 52,
+        "product_label": "s5",
+        "scope": "SI isolated preparation"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source substrates/products and designated coupling partners; mixture components are not stoichiometric coupling reactants; not atom-balanced",
+    "source_references": [
+      {
+        "cdx_sha256": "5791777712272363bd38535e56e648c4289ea9efc525cb6a4b783ddaf7667d38",
+        "locator": "SI native object at XML paragraph 62; E04: s4 -> s5",
+        "locator_kind": "native_document_object",
+        "pages": [],
+        "sha256": "dc199fa6d1b22776047d6c76aee36277e2609f88933d5df179df2511c4651881",
+        "source_id": "si",
+        "source_member": "word/embeddings/oleObject1.bin",
+        "xml_paragraph_index_1based": 64
+      }
+    ],
+    "step_ids": [
+      "E04.1",
+      "E04.2"
+    ],
+    "substrate_product_smiles": "COCOc1cccc2c1C=CC(C)(C)O2>>CC1(C)C=Cc2c(ccc(I)c2O)O1"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E05",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "9"
+    ],
+    "reactant_labels": [
+      "8"
+    ],
+    "reactant_relationship": "source_reactants",
+    "reported_stage_yields": [
+      {
+        "percent": 70,
+        "scope": "crude protected diol, unnumbered and not drawn",
+        "stage": 1
+      },
+      {
+        "percent": 89,
+        "scope": "9 from crude protected diol",
+        "stage": 2
+      }
+    ],
+    "reported_yield_text": null,
+    "reported_yields": [
+      {
+        "from_label": "8",
+        "percent": 63,
+        "product_label": "9",
+        "scope": "SI two-stage scheme yield"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source substrates/products and designated coupling partners; mixture components are not stoichiometric coupling reactants; not atom-balanced",
+    "source_references": [
+      {
+        "cdx_sha256": "647e984db3bf075b4e0b187c934fc578d1dedabdbbc6527c2fe8b36cf07c2e90",
+        "locator": "SI native object at XML paragraph 74; E05: 8 -> 9",
+        "locator_kind": "native_document_object",
+        "pages": [],
+        "sha256": "dc199fa6d1b22776047d6c76aee36277e2609f88933d5df179df2511c4651881",
+        "source_id": "si",
+        "source_member": "word/embeddings/oleObject2.bin",
+        "xml_paragraph_index_1based": 76
+      }
+    ],
+    "step_ids": [
+      "E05.1"
+    ],
+    "substrate_product_smiles": "Oc1cccc(O)c1>>COCOc1ccc(I)c(OCOC)c1"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E06",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "10"
+    ],
+    "reactant_labels": [
+      "9",
+      "diethyl-malonate"
+    ],
+    "reactant_relationship": "source_reactants",
+    "reported_yield_text": null,
+    "reported_yields": [
+      {
+        "from_label": "9",
+        "percent": 87,
+        "product_label": "10",
+        "scope": "SI isolated preparation"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source substrates/products and designated coupling partners; mixture components are not stoichiometric coupling reactants; not atom-balanced",
+    "source_references": [
+      {
+        "cdx_sha256": "72e7764d3d15fb633f7c4537d9294f3bcd9d1490576d68dd46471d4d48d6de23",
+        "locator": "SI native object at XML paragraph 81; E06: 9,diethyl-malonate -> 10",
+        "locator_kind": "native_document_object",
+        "pages": [],
+        "sha256": "dc199fa6d1b22776047d6c76aee36277e2609f88933d5df179df2511c4651881",
+        "source_id": "si",
+        "source_member": "word/embeddings/oleObject3.bin",
+        "xml_paragraph_index_1based": 83
+      }
+    ],
+    "step_ids": [
+      "E06.1"
+    ],
+    "substrate_product_smiles": "CCOC(=O)CC(=O)OCC.COCOc1ccc(I)c(OCOC)c1>>CCOC(=O)C(C(=O)OCC)c1ccc(OCOC)cc1OCOC"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E07",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "5"
+    ],
+    "reactant_labels": [
+      "10"
+    ],
+    "reactant_relationship": "source_reactants",
+    "reported_yield_text": null,
+    "reported_yields": [
+      {
+        "from_label": "10",
+        "percent": 80,
+        "product_label": "5",
+        "scope": "SI isolated preparation"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source substrates/products and designated coupling partners; mixture components are not stoichiometric coupling reactants; not atom-balanced",
+    "source_references": [
+      {
+        "cdx_sha256": "0283b49482d3c731ff2618b02eacb97dca7c6dabd442675cabcf5f37e8c322c6",
+        "locator": "SI native object at XML paragraph 94; E07: 10 -> 5",
+        "locator_kind": "native_document_object",
+        "pages": [],
+        "sha256": "dc199fa6d1b22776047d6c76aee36277e2609f88933d5df179df2511c4651881",
+        "source_id": "si",
+        "source_member": "word/embeddings/oleObject4.bin",
+        "xml_paragraph_index_1based": 96
+      }
+    ],
+    "step_ids": [
+      "E07.1"
+    ],
+    "substrate_product_smiles": "CCOC(=O)C(C(=O)OCC)c1ccc(OCOC)cc1OCOC>>COCOc1ccc(C(CO)CO)c(OCOC)c1"
+  },
+  {
+    "admission_authority": false,
+    "category": "racemic_control_preparation",
+    "event_id": "E08",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "rac-6"
+    ],
+    "reactant_labels": [
+      "5"
+    ],
+    "reactant_relationship": "source_reactants",
+    "reported_yield_text": null,
+    "reported_yields": [
+      {
+        "from_label": "5",
+        "percent": 68,
+        "product_label": "rac-6",
+        "scope": "SI individual preparation drawing"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source substrates/products and designated coupling partners; mixture components are not stoichiometric coupling reactants; not atom-balanced",
+    "source_references": [
+      {
+        "cdx_sha256": "8e2d6dc0ac354c74b8d0274af3b37bd7ecf0094b76f04ad230c35fa78c963c88",
+        "locator": "SI native object at XML paragraph 105; E08: 5 -> rac-6",
+        "locator_kind": "native_document_object",
+        "pages": [],
+        "sha256": "dc199fa6d1b22776047d6c76aee36277e2609f88933d5df179df2511c4651881",
+        "source_id": "si",
+        "source_member": "word/embeddings/oleObject5.bin",
+        "xml_paragraph_index_1based": 107
+      }
+    ],
+    "step_ids": [
+      "E08.1"
+    ],
+    "substrate_product_smiles": "COCOc1ccc(C(CO)CO)c(OCOC)c1>>COCOc1ccc(C(CO)COC(C)=O)c(OCOC)c1"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E09",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "6"
+    ],
+    "reactant_labels": [
+      "5",
+      "vinyl-acetate"
+    ],
+    "reactant_relationship": "source_reactants",
+    "reported_yield_text": null,
+    "reported_yields": [
+      {
+        "from_label": "5",
+        "percent": 78,
+        "product_label": "6",
+        "scope": "SI isolated preparation"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source substrates/products and designated coupling partners; mixture components are not stoichiometric coupling reactants; not atom-balanced",
+    "source_references": [
+      {
+        "cdx_sha256": "7181cc2d17ecd2f3041ebb04cb31291bf0bb3e9e54473306983d7c88e1833d33",
+        "locator": "SI native object at XML paragraph 112; E09: 5,vinyl-acetate -> 6",
+        "locator_kind": "native_document_object",
+        "pages": [],
+        "sha256": "dc199fa6d1b22776047d6c76aee36277e2609f88933d5df179df2511c4651881",
+        "source_id": "si",
+        "source_member": "word/embeddings/oleObject6.bin",
+        "xml_paragraph_index_1based": 114
+      }
+    ],
+    "step_ids": [
+      "E09.1"
+    ],
+    "substrate_product_smiles": "C=COC(C)=O.COCOc1ccc(C(CO)CO)c(OCOC)c1>>COCOc1ccc([C@@H](CO)COC(C)=O)c(OCOC)c1"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E10",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "11"
+    ],
+    "reactant_labels": [
+      "6",
+      "s5"
+    ],
+    "reactant_relationship": "source_reactants",
+    "reported_yield_text": null,
+    "reported_yields": [
+      {
+        "from_label": "6",
+        "percent": 80,
+        "product_label": "11",
+        "scope": "SI isolated preparation"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source substrates/products and designated coupling partners; mixture components are not stoichiometric coupling reactants; not atom-balanced",
+    "source_references": [
+      {
+        "cdx_sha256": "51c86068b9c173e5e1e15a97d0bebd79c6b2de5c018182a6a78ccb98e04c0a99",
+        "locator": "SI native object at XML paragraph 137; E10: 6,s5 -> 11",
+        "locator_kind": "native_document_object",
+        "pages": [],
+        "sha256": "dc199fa6d1b22776047d6c76aee36277e2609f88933d5df179df2511c4651881",
+        "source_id": "si",
+        "source_member": "word/embeddings/oleObject8.bin",
+        "xml_paragraph_index_1based": 139
+      }
+    ],
+    "step_ids": [
+      "E10.1"
+    ],
+    "substrate_product_smiles": "CC1(C)C=Cc2c(ccc(I)c2O)O1.COCOc1ccc([C@@H](CO)COC(C)=O)c(OCOC)c1>>COCOc1ccc([C@H](COC(C)=O)COc2c(I)ccc3c2C=CC(C)(C)O3)c(OCOC)c1"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E11",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "12"
+    ],
+    "reactant_labels": [
+      "11"
+    ],
+    "reactant_relationship": "source_reactants",
+    "reported_yield_text": null,
+    "reported_yields": [
+      {
+        "from_label": "11",
+        "percent": 92,
+        "product_label": "12",
+        "scope": "SI isolated preparation"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source substrates/products and designated coupling partners; mixture components are not stoichiometric coupling reactants; not atom-balanced",
+    "source_references": [
+      {
+        "cdx_sha256": "582313e62f28e944bd93dbd07aad1150fa6aa1bad50b438daa8d4e59e5a7465f",
+        "locator": "SI native object at XML paragraph 150; E11: 11 -> 12",
+        "locator_kind": "native_document_object",
+        "pages": [],
+        "sha256": "dc199fa6d1b22776047d6c76aee36277e2609f88933d5df179df2511c4651881",
+        "source_id": "si",
+        "source_member": "word/embeddings/oleObject9.bin",
+        "xml_paragraph_index_1based": 152
+      }
+    ],
+    "step_ids": [
+      "E11.1"
+    ],
+    "substrate_product_smiles": "COCOc1ccc([C@H](COC(C)=O)COc2c(I)ccc3c2C=CC(C)(C)O3)c(OCOC)c1>>COCOc1ccc([C@H](CO)COc2c(I)ccc3c2C=CC(C)(C)O3)c(OCOC)c1"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E12",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "3"
+    ],
+    "reactant_labels": [
+      "12"
+    ],
+    "reactant_relationship": "source_reactants",
+    "reported_yield_text": null,
+    "reported_yields": [
+      {
+        "from_label": "12",
+        "percent": 67,
+        "product_label": "3",
+        "scope": "SI isolated preparation"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source substrates/products and designated coupling partners; mixture components are not stoichiometric coupling reactants; not atom-balanced",
+    "source_references": [
+      {
+        "cdx_sha256": "44a27dddd4d022a2ecf3be52b79ee478c1c7f17ec0325e43556235dcd3545413",
+        "locator": "SI native object at XML paragraph 164; E12: 12 -> 3",
+        "locator_kind": "native_document_object",
+        "pages": [],
+        "sha256": "dc199fa6d1b22776047d6c76aee36277e2609f88933d5df179df2511c4651881",
+        "source_id": "si",
+        "source_member": "word/embeddings/oleObject10.bin",
+        "xml_paragraph_index_1based": 166
+      }
+    ],
+    "step_ids": [
+      "E12.1"
+    ],
+    "substrate_product_smiles": "COCOc1ccc([C@H](CO)COc2c(I)ccc3c2C=CC(C)(C)O3)c(OCOC)c1>>COCOc1ccc([C@H](C=O)COc2c(I)ccc3c2C=CC(C)(C)O3)c(OCOC)c1"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E13",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "13a",
+      "13ap"
+    ],
+    "reactant_labels": [
+      "3"
+    ],
+    "reactant_relationship": "source_reactants",
+    "reported_yield_text": null,
+    "reported_yields": [
+      {
+        "from_label": "3",
+        "percent": 28,
+        "product_label": "13a",
+        "scope": "SI isolated preparation"
+      },
+      {
+        "from_label": "3",
+        "percent": 22,
+        "product_label": "13ap",
+        "scope": "SI isolated preparation"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source substrates/products and designated coupling partners; mixture components are not stoichiometric coupling reactants; not atom-balanced",
+    "source_references": [
+      {
+        "cdx_sha256": "adb97a65f8066c5ab7d05dcd363c491eaac56a2fb6d84408756453134a325a01",
+        "locator": "SI native object at XML paragraph 179; E13: 3 -> 13a,13ap",
+        "locator_kind": "native_document_object",
+        "pages": [],
+        "sha256": "dc199fa6d1b22776047d6c76aee36277e2609f88933d5df179df2511c4651881",
+        "source_id": "si",
+        "source_member": "word/embeddings/oleObject11.bin",
+        "xml_paragraph_index_1based": 181
+      }
+    ],
+    "step_ids": [
+      "E13.1"
+    ],
+    "substrate_product_smiles": "COCOc1ccc([C@H](C=O)COc2c(I)ccc3c2C=CC(C)(C)O3)c(OCOC)c1>>COCOc1ccc([C@H]2COc3c(ccc4c3C=CC(C)(C)O4)[C@@H]2O)c(OCOC)c1.COCOc1ccc([C@H]2COc3c(ccc4c3C=CC(C)(C)O4)[C@H]2O)c(OCOC)c1"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E14",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "1"
+    ],
+    "reactant_labels": [
+      "13a",
+      "13ap"
+    ],
+    "reactant_relationship": "diastereomeric substrate mixture",
+    "reported_yield_text": null,
+    "reported_yields": [
+      {
+        "from_label": "13a",
+        "percent": 55,
+        "product_label": "1",
+        "scope": "SI isolated preparation"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source substrates/products and designated coupling partners; mixture components are not stoichiometric coupling reactants; not atom-balanced",
+    "source_references": [
+      {
+        "cdx_sha256": "7b069da13d5ad91f3d6d44f59a5e88782e3564c2976ad7ee5dda03a8281cb6d0",
+        "locator": "SI native object at XML paragraph 204; E14: 13a,13ap -> 1",
+        "locator_kind": "native_document_object",
+        "pages": [],
+        "sha256": "dc199fa6d1b22776047d6c76aee36277e2609f88933d5df179df2511c4651881",
+        "source_id": "si",
+        "source_member": "word/embeddings/oleObject12.bin",
+        "xml_paragraph_index_1based": 206
+      }
+    ],
+    "step_ids": [
+      "E14.1"
+    ],
+    "substrate_product_smiles": "COCOc1ccc([C@H]2COc3c(ccc4c3C=CC(C)(C)O4)[C@@H]2O)c(OCOC)c1.COCOc1ccc([C@H]2COc3c(ccc4c3C=CC(C)(C)O4)[C@H]2O)c(OCOC)c1>>CC1(C)C=Cc2c(ccc3c2OC[C@H](c2ccc(O)cc2O)C3)O1"
+  },
+  {
+    "admission_authority": false,
+    "category": "partially_racemized_branch",
+    "event_id": "E15",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "14"
+    ],
+    "reactant_labels": [
+      "6"
+    ],
+    "reactant_relationship": "source_reactants",
+    "reported_yield_text": null,
+    "reported_yields": [
+      {
+        "from_label": "6",
+        "percent": 76,
+        "product_label": "14",
+        "scope": "SI isolated preparation"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source substrates/products and designated coupling partners; mixture components are not stoichiometric coupling reactants; not atom-balanced",
+    "source_references": [
+      {
+        "cdx_sha256": "16065d303497fedde02c72354e3901528f8cf0144802dc6399a212c352961d25",
+        "locator": "SI native object at XML paragraph 228; E15: 6 -> 14",
+        "locator_kind": "native_document_object",
+        "pages": [],
+        "sha256": "dc199fa6d1b22776047d6c76aee36277e2609f88933d5df179df2511c4651881",
+        "source_id": "si",
+        "source_member": "word/embeddings/oleObject14.bin",
+        "xml_paragraph_index_1based": 230
+      }
+    ],
+    "step_ids": [
+      "E15.1"
+    ],
+    "substrate_product_smiles": "COCOc1ccc([C@@H](CO)COC(C)=O)c(OCOC)c1>>COCOc1ccc([C@H](CO)CO[Si](C)(C)C(C)(C)C)c(OCOC)c1"
+  },
+  {
+    "admission_authority": false,
+    "category": "partially_racemized_branch",
+    "event_id": "E16",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "15"
+    ],
+    "reactant_labels": [
+      "14",
+      "s5"
+    ],
+    "reactant_relationship": "source_reactants",
+    "reported_yield_text": null,
+    "reported_yields": [
+      {
+        "from_label": "14",
+        "percent": 80,
+        "product_label": "15",
+        "scope": "SI isolated preparation"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source substrates/products and designated coupling partners; mixture components are not stoichiometric coupling reactants; not atom-balanced",
+    "source_references": [
+      {
+        "cdx_sha256": "596834a59d23a98b941ee7fc863e063e05ee200a68d1a18c5ddbb979bd9b4229",
+        "locator": "SI native object at XML paragraph 242; E16: 14,s5 -> 15",
+        "locator_kind": "native_document_object",
+        "pages": [],
+        "sha256": "dc199fa6d1b22776047d6c76aee36277e2609f88933d5df179df2511c4651881",
+        "source_id": "si",
+        "source_member": "word/embeddings/oleObject15.bin",
+        "xml_paragraph_index_1based": 244
+      }
+    ],
+    "step_ids": [
+      "E16.1"
+    ],
+    "substrate_product_smiles": "CC1(C)C=Cc2c(ccc(I)c2O)O1.COCOc1ccc([C@H](CO)CO[Si](C)(C)C(C)(C)C)c(OCOC)c1>>COCOc1ccc([C@H](COc2c(I)ccc3c2C=CC(C)(C)O3)CO[Si](C)(C)C(C)(C)C)c(OCOC)c1"
+  },
+  {
+    "admission_authority": false,
+    "category": "partially_racemized_branch",
+    "event_id": "E17",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "16"
+    ],
+    "reactant_labels": [
+      "15"
+    ],
+    "reactant_relationship": "source_reactants",
+    "reported_yield_text": null,
+    "reported_yields": [
+      {
+        "from_label": "15",
+        "percent": 80,
+        "product_label": "16",
+        "scope": "SI isolated preparation"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source substrates/products and designated coupling partners; mixture components are not stoichiometric coupling reactants; not atom-balanced",
+    "source_references": [
+      {
+        "cdx_sha256": "9ed71ea3f4be527335bfe8e0c3e0e8520f4f0660f022e8359fbc33815a100897",
+        "locator": "SI native object at XML paragraph 255; E17: 15 -> 16",
+        "locator_kind": "native_document_object",
+        "pages": [],
+        "sha256": "dc199fa6d1b22776047d6c76aee36277e2609f88933d5df179df2511c4651881",
+        "source_id": "si",
+        "source_member": "word/embeddings/oleObject16.bin",
+        "xml_paragraph_index_1based": 257
+      }
+    ],
+    "step_ids": [
+      "E17.1"
+    ],
+    "substrate_product_smiles": "COCOc1ccc([C@H](COc2c(I)ccc3c2C=CC(C)(C)O3)CO[Si](C)(C)C(C)(C)C)c(OCOC)c1>>COCOc1ccc([C@@H](CO)COc2c(I)ccc3c2C=CC(C)(C)O3)c(OCOC)c1"
+  },
+  {
+    "admission_authority": false,
+    "category": "partially_racemized_branch",
+    "event_id": "E18",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "17a",
+      "17ap"
+    ],
+    "reactant_labels": [
+      "16"
+    ],
+    "reactant_relationship": "source_reactants",
+    "reported_yield_text": null,
+    "reported_yields": [
+      {
+        "from_label": "16",
+        "percent": 16,
+        "product_label": "17a",
+        "scope": "SI overall two-stage yield from 16, not from unnumbered aldehyde"
+      },
+      {
+        "from_label": "16",
+        "percent": 11,
+        "product_label": "17ap",
+        "scope": "SI overall two-stage yield from 16, not from unnumbered aldehyde"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source substrates/products and designated coupling partners; mixture components are not stoichiometric coupling reactants; not atom-balanced",
+    "source_references": [
+      {
+        "cdx_sha256": "9d1c9dbabef224976b3a98ea9b5d0b2007cc42af26affb5918d10b281460c429",
+        "locator": "SI native object at XML paragraph 268; E18: 16 -> 17a,17ap",
+        "locator_kind": "native_document_object",
+        "pages": [],
+        "sha256": "dc199fa6d1b22776047d6c76aee36277e2609f88933d5df179df2511c4651881",
+        "source_id": "si",
+        "source_member": "word/embeddings/oleObject17.bin",
+        "xml_paragraph_index_1based": 270
+      }
+    ],
+    "step_ids": [
+      "E18.1"
+    ],
+    "substrate_product_smiles": "COCOc1ccc([C@@H](CO)COc2c(I)ccc3c2C=CC(C)(C)O3)c(OCOC)c1>>COCOc1ccc([C@@H]2COc3c(ccc4c3C=CC(C)(C)O4)[C@@H]2O)c(OCOC)c1.COCOc1ccc([C@@H]2COc3c(ccc4c3C=CC(C)(C)O4)[C@H]2O)c(OCOC)c1"
+  },
+  {
+    "admission_authority": false,
+    "category": "partially_racemized_branch",
+    "event_id": "E19",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "18"
+    ],
+    "reactant_labels": [
+      "17a",
+      "17ap"
+    ],
+    "reactant_relationship": "diastereomeric substrate mixture",
+    "reported_yield_text": null,
+    "reported_yields": [
+      {
+        "from_label": "17a",
+        "percent": 65,
+        "product_label": "18",
+        "scope": "SI isolated preparation"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source substrates/products and designated coupling partners; mixture components are not stoichiometric coupling reactants; not atom-balanced",
+    "source_references": [
+      {
+        "cdx_sha256": "f0472d835235b3b5d4d43e9f5040b39120c48895962de2d3511937442281b38f",
+        "locator": "SI native object at XML paragraph 295; E19: 17a,17ap -> 18",
+        "locator_kind": "native_document_object",
+        "pages": [],
+        "sha256": "dc199fa6d1b22776047d6c76aee36277e2609f88933d5df179df2511c4651881",
+        "source_id": "si",
+        "source_member": "word/embeddings/oleObject18.bin",
+        "xml_paragraph_index_1based": 297
+      }
+    ],
+    "step_ids": [
+      "E19.1"
+    ],
+    "substrate_product_smiles": "COCOc1ccc([C@@H]2COc3c(ccc4c3C=CC(C)(C)O4)[C@@H]2O)c(OCOC)c1.COCOc1ccc([C@@H]2COc3c(ccc4c3C=CC(C)(C)O4)[C@H]2O)c(OCOC)c1>>CC1(C)C=Cc2c(ccc3c2OC[C@@H](c2ccc(O)cc2O)C3)O1"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E20",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "19"
+    ],
+    "reactant_labels": [
+      "6"
+    ],
+    "reactant_relationship": "source_reactants",
+    "reported_yield_text": null,
+    "reported_yields": [
+      {
+        "from_label": "6",
+        "percent": 95,
+        "product_label": "19",
+        "scope": "SI isolated preparation"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source substrates/products and designated coupling partners; mixture components are not stoichiometric coupling reactants; not atom-balanced",
+    "source_references": [
+      {
+        "cdx_sha256": "751d03d531cc050840ee9ce2c4380213969de0cc0bef0cf86819a2a52d9e89a1",
+        "locator": "SI native object at XML paragraph 317; E20: 6 -> 19",
+        "locator_kind": "native_document_object",
+        "pages": [],
+        "sha256": "dc199fa6d1b22776047d6c76aee36277e2609f88933d5df179df2511c4651881",
+        "source_id": "si",
+        "source_member": "word/embeddings/oleObject20.bin",
+        "xml_paragraph_index_1based": 319
+      }
+    ],
+    "step_ids": [
+      "E20.1"
+    ],
+    "substrate_product_smiles": "COCOc1ccc([C@@H](CO)COC(C)=O)c(OCOC)c1>>COCOc1ccc([C@@H](COCOCC[Si](C)(C)C)COC(C)=O)c(OCOC)c1"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E21",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "20"
+    ],
+    "reactant_labels": [
+      "19"
+    ],
+    "reactant_relationship": "source_reactants",
+    "reported_yield_text": null,
+    "reported_yields": [
+      {
+        "from_label": "19",
+        "percent": 75,
+        "product_label": "20",
+        "scope": "SI isolated preparation"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source substrates/products and designated coupling partners; mixture components are not stoichiometric coupling reactants; not atom-balanced",
+    "source_references": [
+      {
+        "cdx_sha256": "da0c5bdfeb1ff17ca439e6db2ed3e033d883171e758bba5a624796258561c09c",
+        "locator": "SI native object at XML paragraph 330; E21: 19 -> 20",
+        "locator_kind": "native_document_object",
+        "pages": [],
+        "sha256": "dc199fa6d1b22776047d6c76aee36277e2609f88933d5df179df2511c4651881",
+        "source_id": "si",
+        "source_member": "word/embeddings/oleObject21.bin",
+        "xml_paragraph_index_1based": 332
+      }
+    ],
+    "step_ids": [
+      "E21.1"
+    ],
+    "substrate_product_smiles": "COCOc1ccc([C@@H](COCOCC[Si](C)(C)C)COC(C)=O)c(OCOC)c1>>COCOc1ccc([C@H](CO)COCOCC[Si](C)(C)C)c(OCOC)c1"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E22",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "21"
+    ],
+    "reactant_labels": [
+      "20",
+      "s5"
+    ],
+    "reactant_relationship": "source_reactants",
+    "reported_yield_text": null,
+    "reported_yields": [
+      {
+        "from_label": "20",
+        "percent": 73,
+        "product_label": "21",
+        "scope": "SI isolated preparation"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source substrates/products and designated coupling partners; mixture components are not stoichiometric coupling reactants; not atom-balanced",
+    "source_references": [
+      {
+        "cdx_sha256": "0213c5b04db74393a5b0496c923630650cc58b71757fa3fc8204566e5110e765",
+        "locator": "SI native object at XML paragraph 344; E22: 20,s5 -> 21",
+        "locator_kind": "native_document_object",
+        "pages": [],
+        "sha256": "dc199fa6d1b22776047d6c76aee36277e2609f88933d5df179df2511c4651881",
+        "source_id": "si",
+        "source_member": "word/embeddings/oleObject22.bin",
+        "xml_paragraph_index_1based": 346
+      }
+    ],
+    "step_ids": [
+      "E22.1"
+    ],
+    "substrate_product_smiles": "CC1(C)C=Cc2c(ccc(I)c2O)O1.COCOc1ccc([C@H](CO)COCOCC[Si](C)(C)C)c(OCOC)c1>>COCOc1ccc([C@@H](COCOCC[Si](C)(C)C)COc2c(I)ccc3c2C=CC(C)(C)O3)c(OCOC)c1"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E23",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "22"
+    ],
+    "reactant_labels": [
+      "21"
+    ],
+    "reactant_relationship": "source_reactants",
+    "reported_yield_text": null,
+    "reported_yields": [
+      {
+        "from_label": "21",
+        "percent": 70,
+        "product_label": "22",
+        "scope": "SI isolated preparation"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source substrates/products and designated coupling partners; mixture components are not stoichiometric coupling reactants; not atom-balanced",
+    "source_references": [
+      {
+        "cdx_sha256": "9e37187361347fe0888448ec2cbb4707da4fe9f0b51a5d8d63588f4559f95b5f",
+        "locator": "SI native object at XML paragraph 361; E23: 21 -> 22",
+        "locator_kind": "native_document_object",
+        "pages": [],
+        "sha256": "dc199fa6d1b22776047d6c76aee36277e2609f88933d5df179df2511c4651881",
+        "source_id": "si",
+        "source_member": "word/embeddings/oleObject24.bin",
+        "xml_paragraph_index_1based": 363
+      }
+    ],
+    "step_ids": [
+      "E23.1"
+    ],
+    "substrate_product_smiles": "COCOc1ccc([C@@H](COCOCC[Si](C)(C)C)COc2c(I)ccc3c2C=CC(C)(C)O3)c(OCOC)c1>>COCOc1ccc([C@@H](CO)COc2c(I)ccc3c2C=CC(C)(C)O3)c(OCOC)c1"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E24",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "4"
+    ],
+    "reactant_labels": [
+      "22"
+    ],
+    "reactant_relationship": "source_reactants",
+    "reported_yield_text": null,
+    "reported_yields": [
+      {
+        "from_label": "22",
+        "percent": 67,
+        "product_label": "4",
+        "scope": "SI isolated preparation"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source substrates/products and designated coupling partners; mixture components are not stoichiometric coupling reactants; not atom-balanced",
+    "source_references": [
+      {
+        "cdx_sha256": "01aea287713d99ff38eb375960b616647dd29af80c1e8868301d80d1afa128f2",
+        "locator": "SI native object at XML paragraph 377; E24: 22 -> 4",
+        "locator_kind": "native_document_object",
+        "pages": [],
+        "sha256": "dc199fa6d1b22776047d6c76aee36277e2609f88933d5df179df2511c4651881",
+        "source_id": "si",
+        "source_member": "word/embeddings/oleObject25.bin",
+        "xml_paragraph_index_1based": 379
+      }
+    ],
+    "step_ids": [
+      "E24.1"
+    ],
+    "substrate_product_smiles": "COCOc1ccc([C@@H](CO)COc2c(I)ccc3c2C=CC(C)(C)O3)c(OCOC)c1>>COCOc1ccc([C@@H](C=O)COc2c(I)ccc3c2C=CC(C)(C)O3)c(OCOC)c1"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E25",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "23a",
+      "23ap"
+    ],
+    "reactant_labels": [
+      "4"
+    ],
+    "reactant_relationship": "source_reactants",
+    "reported_yield_text": null,
+    "reported_yields": [
+      {
+        "from_label": "4",
+        "percent": 25,
+        "product_label": "23a",
+        "scope": "SI isolated preparation"
+      },
+      {
+        "from_label": "4",
+        "percent": 20,
+        "product_label": "23ap",
+        "scope": "SI isolated preparation"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source substrates/products and designated coupling partners; mixture components are not stoichiometric coupling reactants; not atom-balanced",
+    "source_references": [
+      {
+        "cdx_sha256": "733adda5ac674a07cf97fac1c58454b7d9b4137f66432930de1e15161beb3b17",
+        "locator": "SI native object at XML paragraph 394; E25: 4 -> 23a,23ap",
+        "locator_kind": "native_document_object",
+        "pages": [],
+        "sha256": "dc199fa6d1b22776047d6c76aee36277e2609f88933d5df179df2511c4651881",
+        "source_id": "si",
+        "source_member": "word/embeddings/oleObject26.bin",
+        "xml_paragraph_index_1based": 396
+      }
+    ],
+    "step_ids": [
+      "E25.1"
+    ],
+    "substrate_product_smiles": "COCOc1ccc([C@@H](C=O)COc2c(I)ccc3c2C=CC(C)(C)O3)c(OCOC)c1>>COCOc1ccc([C@@H]2COc3c(ccc4c3C=CC(C)(C)O4)[C@@H]2O)c(OCOC)c1.COCOc1ccc([C@@H]2COc3c(ccc4c3C=CC(C)(C)O4)[C@H]2O)c(OCOC)c1"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E26",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "2"
+    ],
+    "reactant_labels": [
+      "23a",
+      "23ap"
+    ],
+    "reactant_relationship": "diastereomeric substrate mixture",
+    "reported_yield_text": null,
+    "reported_yields": [
+      {
+        "from_label": "23a",
+        "percent": 54,
+        "product_label": "2",
+        "scope": "SI isolated preparation"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source substrates/products and designated coupling partners; mixture components are not stoichiometric coupling reactants; not atom-balanced",
+    "source_references": [
+      {
+        "cdx_sha256": "b3d12380dc07e2403b2aab40346e9b407850b720942fe45e39bcf270f4f7f08c",
+        "locator": "SI native object at XML paragraph 420; E26: 23a,23ap -> 2",
+        "locator_kind": "native_document_object",
+        "pages": [],
+        "sha256": "dc199fa6d1b22776047d6c76aee36277e2609f88933d5df179df2511c4651881",
+        "source_id": "si",
+        "source_member": "word/embeddings/oleObject27.bin",
+        "xml_paragraph_index_1based": 422
+      }
+    ],
+    "step_ids": [
+      "E26.1"
+    ],
+    "substrate_product_smiles": "COCOc1ccc([C@@H]2COc3c(ccc4c3C=CC(C)(C)O4)[C@@H]2O)c(OCOC)c1.COCOc1ccc([C@@H]2COc3c(ccc4c3C=CC(C)(C)O4)[C@H]2O)c(OCOC)c1>>CC1(C)C=Cc2c(ccc3c2OC[C@@H](c2ccc(O)cc2O)C3)O1"
+  }
+]

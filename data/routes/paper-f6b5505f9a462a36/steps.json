@@ -1,0 +1,756 @@
+[
+  {
+    "admission_authority": false,
+    "agents": [
+      "DMF",
+      "POCl3",
+      "(R)-tert-butylsulfinamide",
+      "Ti(OEt)4",
+      "NaH",
+      "PhSO2Cl"
+    ],
+    "event_id": "E01",
+    "experimental_stage_count": 3,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "operation_stages": [
+      "Vilsmeier formylation",
+      "Sulfinylimine formation",
+      "N-sulfonylation; unshown intermediates not invented."
+    ],
+    "product_labels": [
+      "14"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "13",
+        "percent": 70,
+        "product_label": "14",
+        "scope": "three-step sequence"
+      }
+    ],
+    "reactant_labels": [
+      "13"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E01",
+        "pages": [
+          3
+        ],
+        "sha256": "1a2cb52f14363f8830fe6b13ec0a23a5b8644c06f4d1283c2383fdccff2a4072",
+        "source_id": "article"
+      }
+    ],
+    "step_id": "E01.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "Cc1cc2ccccc2[nH]1>>Cc1c(C=N[S@@](=O)C(C)(C)C)c2ccccc2n1S(=O)(=O)c1ccccc1",
+    "yield_percent": 70
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "LiHMDS",
+      "allyl bromide"
+    ],
+    "event_id": "E02",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "operation_stages": [
+      "Michael/Mannich/N-allylation domino sequence; dr>20:1."
+    ],
+    "product_labels": [
+      "16"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "14",
+        "percent": 86,
+        "product_label": "16",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "reactant_labels": [
+      "14",
+      "15"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "THF",
+      "DMF"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E02",
+        "pages": [
+          3
+        ],
+        "sha256": "1a2cb52f14363f8830fe6b13ec0a23a5b8644c06f4d1283c2383fdccff2a4072",
+        "source_id": "article"
+      }
+    ],
+    "step_id": "E02.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "C=C(CCO[Si](C(C)C)(C(C)C)C(C)C)C(=O)OC.Cc1c(C=N[S@@](=O)C(C)(C)C)c2ccccc2n1S(=O)(=O)c1ccccc1>>C=CCN([C@@H]1c2c(n(S(=O)(=O)c3ccccc3)c3ccccc23)CC[C@]1(CCO[Si](C(C)C)(C(C)C)C(C)C)C(=O)OC)[S@@](=O)C(C)(C)C",
+    "yield_percent": 86
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "DIBAL-H",
+      "Dess-Martin periodinane",
+      "NaHCO3",
+      "Ph3PCH3Br",
+      "NaHMDS",
+      "GrubbsII"
+    ],
+    "event_id": "E03",
+    "experimental_stage_count": 4,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "operation_stages": [
+      "Ester reduction",
+      "Alcohol oxidation",
+      "Wittig methylenation",
+      "Ring-closing metathesis; unshown intermediates not represented as unique molecules."
+    ],
+    "product_labels": [
+      "17"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "16",
+        "percent": 66,
+        "product_label": "17",
+        "scope": "four-step sequence"
+      }
+    ],
+    "reactant_labels": [
+      "16"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "Et2O",
+      "CH2Cl2",
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E03",
+        "pages": [
+          3
+        ],
+        "sha256": "1a2cb52f14363f8830fe6b13ec0a23a5b8644c06f4d1283c2383fdccff2a4072",
+        "source_id": "article"
+      }
+    ],
+    "step_id": "E03.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "C=CCN([C@@H]1c2c(n(S(=O)(=O)c3ccccc3)c3ccccc23)CC[C@]1(CCO[Si](C(C)C)(C(C)C)C(C)C)C(=O)OC)[S@@](=O)C(C)(C)C>>CC(C)[Si](OCC[C@@]12C=CCN([S@@](=O)C(C)(C)C)[C@@H]1c1c(n(S(=O)(=O)c3ccccc3)c3ccccc13)CC2)(C(C)C)C(C)C",
+    "yield_percent": 66
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "HCl",
+      "bromoethanol",
+      "Na2CO3"
+    ],
+    "event_id": "E04",
+    "experimental_stage_count": 2,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "operation_stages": [
+      "Sulfinylauxiliary removal",
+      "N-hydroxyethylation."
+    ],
+    "product_labels": [
+      "18"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "17",
+        "percent": 75,
+        "product_label": "18",
+        "scope": "two-step sequence"
+      }
+    ],
+    "reactant_labels": [
+      "17"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "THF",
+      "EtOH"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E04",
+        "pages": [
+          3
+        ],
+        "sha256": "1a2cb52f14363f8830fe6b13ec0a23a5b8644c06f4d1283c2383fdccff2a4072",
+        "source_id": "article"
+      }
+    ],
+    "step_id": "E04.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "CC(C)[Si](OCC[C@@]12C=CCN([S@@](=O)C(C)(C)C)[C@@H]1c1c(n(S(=O)(=O)c3ccccc3)c3ccccc13)CC2)(C(C)C)C(C)C>>CC(C)[Si](OCC[C@@]12C=CCN(CCO)[C@@H]1c1c(n(S(=O)(=O)c3ccccc3)c3ccccc13)CC2)(C(C)C)C(C)C",
+    "yield_percent": 75
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "tert-BuOK",
+      "n-BuLi",
+      "methyl cyanoformate",
+      "TBAF"
+    ],
+    "event_id": "E05",
+    "experimental_stage_count": 3,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "operation_stages": [
+      "Bosch-Rubiralta spirocyclization",
+      "Methoxycarbonylation",
+      "TIPS removal."
+    ],
+    "product_labels": [
+      "19"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "18",
+        "percent": 75,
+        "product_label": "19",
+        "scope": "three-step sequence"
+      }
+    ],
+    "reactant_labels": [
+      "18"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E05",
+        "pages": [
+          3
+        ],
+        "sha256": "1a2cb52f14363f8830fe6b13ec0a23a5b8644c06f4d1283c2383fdccff2a4072",
+        "source_id": "article"
+      }
+    ],
+    "step_id": "E05.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "CC(C)[Si](OCC[C@@]12C=CCN(CCO)[C@@H]1c1c(n(S(=O)(=O)c3ccccc3)c3ccccc13)CC2)(C(C)C)C(C)C>>COC(=O)C1=C2Nc3ccccc3[C@@]23CCN2CC=C[C@@](CCO)(C1)[C@H]23",
+    "yield_percent": 75
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "p-nitrobenzoyl chloride",
+      "DMAP",
+      "Et3N"
+    ],
+    "event_id": "E06",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "20"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "19",
+        "percent": 94,
+        "product_label": "20",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "reactant_labels": [
+      "19"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "CH2Cl2"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E06",
+        "pages": [
+          3
+        ],
+        "sha256": "1a2cb52f14363f8830fe6b13ec0a23a5b8644c06f4d1283c2383fdccff2a4072",
+        "source_id": "article"
+      }
+    ],
+    "step_id": "E06.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "COC(=O)C1=C2Nc3ccccc3[C@@]23CCN2CC=C[C@@](CCO)(C1)[C@H]23>>COC(=O)C1=C2Nc3ccccc3[C@@]23CCN2CC=C[C@@](CCOC(=O)c4ccc([N+](=O)[O-])cc4)(C1)[C@H]23",
+    "yield_percent": 94
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "DIAD",
+      "DBU",
+      "TMSCN"
+    ],
+    "event_id": "E07",
+    "experimental_stage_count": 2,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "operation_stages": [
+      "Oxidation and ester methanolysis/oxa-Michael",
+      "Cyanide trapping; minor stereoisomer not separately assigned."
+    ],
+    "product_labels": [
+      "21"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "20",
+        "percent": 64,
+        "product_label": "21",
+        "scope": "two-step sequence and dr11:1 mixture"
+      }
+    ],
+    "reactant_labels": [
+      "20"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "CH2Cl2",
+      "MeOH",
+      "water",
+      "HFIP"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E07",
+        "pages": [
+          3
+        ],
+        "sha256": "1a2cb52f14363f8830fe6b13ec0a23a5b8644c06f4d1283c2383fdccff2a4072",
+        "source_id": "article"
+      }
+    ],
+    "step_id": "E07.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "COC(=O)C1=C2Nc3ccccc3[C@@]23CCN2CC=C[C@@](CCOC(=O)c4ccc([N+](=O)[O-])cc4)(C1)[C@H]23>>COC(=O)C1=C2Nc3ccccc3[C@@]23CCN2C(C#N)C[C@@H]4OCC[C@]4(C1)[C@H]23",
+    "yield_percent": 64
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "DIAD",
+      "DBU",
+      "NaBH4",
+      "NaOH"
+    ],
+    "event_id": "E08",
+    "experimental_stage_count": 2,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "operation_stages": [
+      "Oxidation/methanolysis/oxa-Michael",
+      "Iminium reduction."
+    ],
+    "product_labels": [
+      "5"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "20",
+        "percent": 74,
+        "product_label": "5",
+        "scope": "two-step sequence"
+      }
+    ],
+    "reactant_labels": [
+      "20"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "CH2Cl2",
+      "MeOH",
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E08",
+        "pages": [
+          3
+        ],
+        "sha256": "1a2cb52f14363f8830fe6b13ec0a23a5b8644c06f4d1283c2383fdccff2a4072",
+        "source_id": "article"
+      }
+    ],
+    "step_id": "E08.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "COC(=O)C1=C2Nc3ccccc3[C@@]23CCN2CC=C[C@@](CCOC(=O)c4ccc([N+](=O)[O-])cc4)(C1)[C@H]23>>COC(=O)C1=C2Nc3ccccc3[C@@]23CCN2CC[C@@H]4OCC[C@]4(C1)[C@H]23",
+    "yield_percent": 74
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "[Ir(OMe)(COD)]2",
+      "tmphen",
+      "HBPin",
+      "B2Pin2",
+      "NaBO3.4H2O",
+      "Cs2CO3",
+      "MeI"
+    ],
+    "event_id": "E09",
+    "experimental_stage_count": 3,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "operation_stages": [
+      "C-H borylation",
+      "Oxidation",
+      "O-methylation."
+    ],
+    "product_labels": [
+      "22"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "5",
+        "percent": 53,
+        "product_label": "22",
+        "scope": "three-step sequence"
+      }
+    ],
+    "reactant_labels": [
+      "5"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "THF",
+      "water",
+      "acetone"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E09",
+        "pages": [
+          3
+        ],
+        "sha256": "1a2cb52f14363f8830fe6b13ec0a23a5b8644c06f4d1283c2383fdccff2a4072",
+        "source_id": "article"
+      }
+    ],
+    "step_id": "E09.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "COC(=O)C1=C2Nc3ccccc3[C@@]23CCN2CC[C@@H]4OCC[C@]4(C1)[C@H]23>>COC(=O)C1=C2Nc3c(OC)cccc3[C@@]23CCN2CC[C@@H]4OCC[C@]4(C1)[C@H]23",
+    "yield_percent": 53
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "NaBH3CN",
+      "AcOH",
+      "LiAlH4"
+    ],
+    "event_id": "E10",
+    "experimental_stage_count": 2,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "operation_stages": [
+      "Enaminoester reduction",
+      "Ester reduction to alcohol; individual yield not stated."
+    ],
+    "product_labels": [
+      "23"
+    ],
+    "product_specific_yields": [],
+    "reactant_labels": [
+      "22"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E10",
+        "pages": [
+          3
+        ],
+        "sha256": "1a2cb52f14363f8830fe6b13ec0a23a5b8644c06f4d1283c2383fdccff2a4072",
+        "source_id": "article"
+      }
+    ],
+    "step_id": "E10.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "COC(=O)C1=C2Nc3c(OC)cccc3[C@@]23CCN2CC[C@@H]4OCC[C@]4(C1)[C@H]23>>COc1cccc2c1NC1C(CO)C[C@]34CCO[C@H]3CCN3CC[C@]21[C@@H]34",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "PhIO",
+      "TFA"
+    ],
+    "event_id": "E11",
+    "experimental_stage_count": 2,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "operation_stages": [
+      "Indoline oxidation",
+      "Alcohol elimination."
+    ],
+    "product_labels": [
+      "9"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "22",
+        "percent": 26,
+        "product_label": "9",
+        "scope": "four-step sequence from22"
+      }
+    ],
+    "reactant_labels": [
+      "23"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "CH2Cl2"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E11",
+        "pages": [
+          3
+        ],
+        "sha256": "1a2cb52f14363f8830fe6b13ec0a23a5b8644c06f4d1283c2383fdccff2a4072",
+        "source_id": "article"
+      }
+    ],
+    "step_id": "E11.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "COc1cccc2c1NC1C(CO)C[C@]34CCO[C@H]3CCN3CC[C@]21[C@@H]34>>C=C1C[C@]23CCO[C@H]2CCN2CC[C@]4(C1=Nc1c(OC)cccc14)[C@@H]23",
+    "yield_percent": 26
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "Zn(OTf)2"
+    ],
+    "event_id": "E12",
+    "experimental_stage_count": 3,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "operation_stages": [
+      "Enamine liberation and Eschenmoser addition",
+      "Stepwise heterodimer annulation",
+      "Cyanide capture."
+    ],
+    "product_labels": [
+      "26"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "21",
+        "percent": 66,
+        "product_label": "26",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "reactant_labels": [
+      "21",
+      "24",
+      "9"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "DCE",
+      "TFE"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E12",
+        "pages": [
+          3
+        ],
+        "sha256": "1a2cb52f14363f8830fe6b13ec0a23a5b8644c06f4d1283c2383fdccff2a4072",
+        "source_id": "article"
+      }
+    ],
+    "step_id": "E12.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "C=C1C[C@]23CCO[C@H]2CCN2CC[C@]4(C1=Nc1c(OC)cccc14)[C@@H]23.C=[N+](C)C.COC(=O)C1=C2Nc3ccccc3[C@@]23CCN2C(C#N)C[C@@H]4OCC[C@]4(C1)[C@H]23.[I-]>>COC(=O)C1=C2Nc3ccccc3[C@@]23CCN2C(C#N)C4(CC5=C6N(C4)c4c(OC)cccc4[C@@]64CCN6CC[C@@H]7OCC[C@]7(C5)[C@H]64)[C@@H]4OCC[C@]4(C1)[C@H]23",
+    "yield_percent": 66
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "Zn(OTf)2",
+      "NaBH(OAc)3"
+    ],
+    "event_id": "E13",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "operation_stages": [
+      "Tentative ring opening/aromatization and iminium reduction, source structural proposal."
+    ],
+    "product_labels": [
+      "29"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "26",
+        "percent": 94,
+        "product_label": "29",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "reactant_labels": [
+      "26"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "CH2Cl2"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E13",
+        "pages": [
+          3
+        ],
+        "sha256": "1a2cb52f14363f8830fe6b13ec0a23a5b8644c06f4d1283c2383fdccff2a4072",
+        "source_id": "article"
+      }
+    ],
+    "step_id": "E13.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "COC(=O)C1=C2Nc3ccccc3[C@@]23CCN2C(C#N)C4(CC5=C6N(C4)c4c(OC)cccc4[C@@]64CCN6CC[C@@H]7OCC[C@]7(C5)[C@H]64)[C@@H]4OCC[C@]4(C1)[C@H]23>>COC(=O)C1=C2Nc3ccccc3[C@@]23CCN2C(C#N)C4(CC5C[C@]67CCO[C@H]6CCN(CCc6c5n(c5c(OC)cccc65)C4)C7)[C@@H]4OCC[C@]4(C1)[C@H]23",
+    "yield_percent": 94
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "DIAD",
+      "DBU"
+    ],
+    "event_id": "E14",
+    "experimental_stage_count": 2,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "operation_stages": [
+      "Oxidation/methanolysis yields enamine/iminium equilibrium",
+      "Homodimerization,2monomer units per31."
+    ],
+    "product_labels": [
+      "31"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "20",
+        "percent": 90,
+        "product_label": "31",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "reactant_labels": [
+      "20"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "CH2Cl2",
+      "MeOH"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E14",
+        "pages": [
+          4
+        ],
+        "sha256": "1a2cb52f14363f8830fe6b13ec0a23a5b8644c06f4d1283c2383fdccff2a4072",
+        "source_id": "article"
+      }
+    ],
+    "step_id": "E14.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "COC(=O)C1=C2Nc3ccccc3[C@@]23CCN2CC=C[C@@](CCOC(=O)c4ccc([N+](=O)[O-])cc4)(C1)[C@H]23>>COC(=O)C1=C2Nc3ccccc3[C@@]23CCN2C=C(C4C[C@@H]5OCC[C@@]56CC(C(=O)OC)=C5Nc7ccccc7[C@@]57CCN4[C@@H]67)[C@@H]4OCC[C@]4(C1)[C@H]23",
+    "yield_percent": 90
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "NaBH4",
+      "NaOH"
+    ],
+    "event_id": "E15",
+    "experimental_stage_count": 3,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "operation_stages": [
+      "Reversible homodimer cleavage releases enamine",
+      "Eschenmoser-salt addition and heteroannulation",
+      "Iminium reduction."
+    ],
+    "product_labels": [
+      "3"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "31",
+        "percent": 30,
+        "product_label": "3",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "reactant_labels": [
+      "31",
+      "24",
+      "9"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "DCE",
+      "TFE",
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E15",
+        "pages": [
+          4
+        ],
+        "sha256": "1a2cb52f14363f8830fe6b13ec0a23a5b8644c06f4d1283c2383fdccff2a4072",
+        "source_id": "article"
+      }
+    ],
+    "step_id": "E15.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "C=C1C[C@]23CCO[C@H]2CCN2CC[C@]4(C1=Nc1c(OC)cccc14)[C@@H]23.C=[N+](C)C.COC(=O)C1=C2Nc3ccccc3[C@@]23CCN2C=C(C4C[C@@H]5OCC[C@@]56CC(C(=O)OC)=C5Nc7ccccc7[C@@]57CCN4[C@@H]67)[C@@H]4OCC[C@]4(C1)[C@H]23.[I-]>>COC(=O)C1=C2Nc3ccccc3[C@@]23CCN2C[C@@]4(CC5=C6N(C4)c4c(OC)cccc4[C@@]64CCN6CC[C@@H]7OCC[C@]7(C5)[C@H]64)[C@@H]4OCC[C@]4(C1)[C@H]23",
+    "yield_percent": 30
+  }
+]

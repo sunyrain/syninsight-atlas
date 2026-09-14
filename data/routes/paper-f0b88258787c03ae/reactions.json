@@ -1,0 +1,543 @@
+[
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E01",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "10"
+    ],
+    "reactant_labels": [
+      "11",
+      "ethyl-bromoacetate"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "11",
+        "percent": 59,
+        "product_label": "10",
+        "scope": "isolated source preparation over 2 reported stages"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source substrates/products and named carbon partners; other agents separate; not atom-balanced",
+    "source_references": [
+      {
+        "locator": "SI PDF page 3; E01 forward preparation",
+        "pages": [
+          3
+        ],
+        "sha256": "ab491ea30279400361fc267a12929a09cbe51780ee624e256acfdabe27670181",
+        "source_id": "si"
+      },
+      {
+        "locator": "Forward Scheme 2; E01 forward preparation",
+        "pages": [
+          2
+        ],
+        "sha256": "959e74aeee65afe8f90ac2d792cbb15e153bd20af11b24c98cde8a50b91bc99a",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "E01.1"
+    ],
+    "substrate_product_smiles": "CCOC(=O)CBr.COCOc1cc(C)c(OC)cc1Br>>COCOc1cc(C)c(OC)cc1CC(=O)O"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E02",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "9"
+    ],
+    "reactant_labels": [
+      "10",
+      "iodopropane"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "10",
+        "percent": 79,
+        "product_label": "9",
+        "scope": "isolated source preparation"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source substrates/products and named carbon partners; other agents separate; not atom-balanced",
+    "source_references": [
+      {
+        "locator": "SI PDF page 3; E02 forward preparation",
+        "pages": [
+          3
+        ],
+        "sha256": "ab491ea30279400361fc267a12929a09cbe51780ee624e256acfdabe27670181",
+        "source_id": "si"
+      },
+      {
+        "locator": "Forward Scheme 2; E02 forward preparation",
+        "pages": [
+          2
+        ],
+        "sha256": "959e74aeee65afe8f90ac2d792cbb15e153bd20af11b24c98cde8a50b91bc99a",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "E02.1"
+    ],
+    "substrate_product_smiles": "CC(C)I.COCOc1cc(C)c(OC)cc1CC(=O)O>>COCOc1cc(C)c(OC)cc1[C@H](C(=O)O)C(C)C"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E03",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "12"
+    ],
+    "reactant_labels": [
+      "9"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "9",
+        "percent": 89,
+        "product_label": "12",
+        "scope": "isolated source preparation over 2 reported stages"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source substrates/products and named carbon partners; other agents separate; not atom-balanced",
+    "source_references": [
+      {
+        "locator": "SI PDF page 4; E03 forward preparation",
+        "pages": [
+          4
+        ],
+        "sha256": "ab491ea30279400361fc267a12929a09cbe51780ee624e256acfdabe27670181",
+        "source_id": "si"
+      },
+      {
+        "locator": "Forward Scheme 2; E03 forward preparation",
+        "pages": [
+          2
+        ],
+        "sha256": "959e74aeee65afe8f90ac2d792cbb15e153bd20af11b24c98cde8a50b91bc99a",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "E03.1"
+    ],
+    "substrate_product_smiles": "COCOc1cc(C)c(OC)cc1[C@H](C(=O)O)C(C)C>>COCOc1cc(C)c(OC)cc1[C@H](CI)C(C)C"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E04",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "8"
+    ],
+    "reactant_labels": [
+      "12",
+      "tms-propyne"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "12",
+        "percent": 82,
+        "product_label": "8",
+        "scope": "isolated source preparation over 3 reported stages"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source substrates/products and named carbon partners; other agents separate; not atom-balanced",
+    "source_references": [
+      {
+        "locator": "SI PDF page 5; E04 forward preparation",
+        "pages": [
+          5
+        ],
+        "sha256": "ab491ea30279400361fc267a12929a09cbe51780ee624e256acfdabe27670181",
+        "source_id": "si"
+      },
+      {
+        "locator": "Forward Scheme 2; E04 forward preparation",
+        "pages": [
+          2
+        ],
+        "sha256": "959e74aeee65afe8f90ac2d792cbb15e153bd20af11b24c98cde8a50b91bc99a",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "E04.1",
+      "E04.2"
+    ],
+    "substrate_product_smiles": "CC#C[Si](C)(C)C.COCOc1cc(C)c(OC)cc1[C@H](CI)C(C)C>>C#CCC[C@@H](c1cc(OC)c(C)cc1O)C(C)C"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E05",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "14b",
+      "14a"
+    ],
+    "reactant_labels": [
+      "8"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "8",
+        "percent": 44,
+        "product_label": "14b",
+        "scope": "isolated source preparation"
+      },
+      {
+        "from_label": "8",
+        "percent": 18,
+        "product_label": "14a",
+        "scope": "isolated source preparation"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source substrates/products and named carbon partners; other agents separate; not atom-balanced",
+    "source_references": [
+      {
+        "locator": "SI PDF page 6; E05 forward preparation",
+        "pages": [
+          6
+        ],
+        "sha256": "ab491ea30279400361fc267a12929a09cbe51780ee624e256acfdabe27670181",
+        "source_id": "si"
+      },
+      {
+        "locator": "Forward Scheme 3; E05 forward preparation",
+        "pages": [
+          3
+        ],
+        "sha256": "959e74aeee65afe8f90ac2d792cbb15e153bd20af11b24c98cde8a50b91bc99a",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "E05.1"
+    ],
+    "substrate_product_smiles": "C#CCC[C@@H](c1cc(OC)c(C)cc1O)C(C)C>>C=C1CC[C@H](C(C)C)[C@@]12C=C(OC)C(C)=CC2=O.C=C1CC[C@H](C(C)C)[C@]12C=C(OC)C(C)=CC2=O"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "crude_product_dr": "3:1; isolated 15 after separation, article page 3",
+    "event_id": "E06",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "15"
+    ],
+    "reactant_labels": [
+      "14b"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "14b",
+        "percent": 68,
+        "product_label": "15",
+        "scope": "isolated source preparation"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source substrates/products and named carbon partners; other agents separate; not atom-balanced",
+    "source_references": [
+      {
+        "locator": "SI PDF page 6; E06 forward preparation",
+        "pages": [
+          6
+        ],
+        "sha256": "ab491ea30279400361fc267a12929a09cbe51780ee624e256acfdabe27670181",
+        "source_id": "si"
+      },
+      {
+        "locator": "Forward Scheme 3; E06 forward preparation",
+        "pages": [
+          3
+        ],
+        "sha256": "959e74aeee65afe8f90ac2d792cbb15e153bd20af11b24c98cde8a50b91bc99a",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "E06.1"
+    ],
+    "substrate_product_smiles": "C=C1CC[C@H](C(C)C)[C@@]12C=C(OC)C(C)=CC2=O>>COC1=C[C@@]2(C(=O)C=C1C)[C@H](C)CC[C@@H]2C(C)C"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E07",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "7"
+    ],
+    "reactant_labels": [
+      "15"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "15",
+        "percent": 89,
+        "product_label": "7",
+        "scope": "isolated source preparation"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source substrates/products and named carbon partners; other agents separate; not atom-balanced",
+    "source_references": [
+      {
+        "locator": "SI PDF page 7; E07 forward preparation",
+        "pages": [
+          7
+        ],
+        "sha256": "ab491ea30279400361fc267a12929a09cbe51780ee624e256acfdabe27670181",
+        "source_id": "si"
+      },
+      {
+        "locator": "Forward Scheme 3; E07 forward preparation",
+        "pages": [
+          3
+        ],
+        "sha256": "959e74aeee65afe8f90ac2d792cbb15e153bd20af11b24c98cde8a50b91bc99a",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "E07.1"
+    ],
+    "substrate_product_smiles": "COC1=C[C@@]2(C(=O)C=C1C)[C@H](C)CC[C@@H]2C(C)C>>CC1=CC(=O)[C@]2(CC1=O)[C@H](C)CC[C@@H]2C(C)C"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E08",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "4"
+    ],
+    "reactant_labels": [
+      "7"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "7",
+        "percent": 91,
+        "product_label": "4",
+        "scope": "isolated source preparation"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source substrates/products and named carbon partners; other agents separate; not atom-balanced",
+    "source_references": [
+      {
+        "locator": "SI PDF page 7; E08 forward preparation",
+        "pages": [
+          7
+        ],
+        "sha256": "ab491ea30279400361fc267a12929a09cbe51780ee624e256acfdabe27670181",
+        "source_id": "si"
+      },
+      {
+        "locator": "Forward Scheme 3; E08 forward preparation",
+        "pages": [
+          3
+        ],
+        "sha256": "959e74aeee65afe8f90ac2d792cbb15e153bd20af11b24c98cde8a50b91bc99a",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "E08.1"
+    ],
+    "substrate_product_smiles": "CC1=CC(=O)[C@]2(CC1=O)[C@H](C)CC[C@@H]2C(C)C>>CC1=CC(=O)[C@]2(C(=O)C1=O)[C@H](C)CC[C@@H]2C(C)C"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E09",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "5"
+    ],
+    "reactant_labels": [
+      "4"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "4",
+        "percent": 100,
+        "product_label": "5",
+        "scope": "Article Scheme 3 explicitly reports 100%; SI says quantitative"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source substrates/products and named carbon partners; other agents separate; not atom-balanced",
+    "source_references": [
+      {
+        "locator": "SI PDF page 8; E09 forward preparation",
+        "pages": [
+          8
+        ],
+        "sha256": "ab491ea30279400361fc267a12929a09cbe51780ee624e256acfdabe27670181",
+        "source_id": "si"
+      },
+      {
+        "locator": "Forward Scheme 3; E09 forward preparation",
+        "pages": [
+          3
+        ],
+        "sha256": "959e74aeee65afe8f90ac2d792cbb15e153bd20af11b24c98cde8a50b91bc99a",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "E09.1"
+    ],
+    "substrate_product_smiles": "CC1=CC(=O)[C@]2(C(=O)C1=O)[C@H](C)CC[C@@H]2C(C)C>>CC1=C(N)C(=O)[C@]2(C(=O)C1=O)[C@H](C)CC[C@@H]2C(C)C"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E10",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "17"
+    ],
+    "reactant_labels": [
+      "7"
+    ],
+    "reported_product_dr": "2:1",
+    "reported_yields": [
+      {
+        "from_label": "7",
+        "percent": 92,
+        "product_label": "17",
+        "scope": "combined isolated yield of epoxide diastereomer mixture"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source substrates/products and named carbon partners; other agents separate; not atom-balanced",
+    "source_references": [
+      {
+        "locator": "SI PDF page 9; E10 forward preparation",
+        "pages": [
+          9
+        ],
+        "sha256": "ab491ea30279400361fc267a12929a09cbe51780ee624e256acfdabe27670181",
+        "source_id": "si"
+      },
+      {
+        "locator": "Forward Scheme 5; E10 forward preparation",
+        "pages": [
+          4
+        ],
+        "sha256": "959e74aeee65afe8f90ac2d792cbb15e153bd20af11b24c98cde8a50b91bc99a",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "E10.1"
+    ],
+    "substrate_product_smiles": "CC1=CC(=O)[C@]2(CC1=O)[C@H](C)CC[C@@H]2C(C)C>>CC(C)[C@H]1CC[C@@H](C)[C@]12CC(=O)C1(C)OC1C2=O"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E11",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "18"
+    ],
+    "reactant_labels": [
+      "17"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "17",
+        "percent": 82,
+        "product_label": "18",
+        "scope": "isolated source preparation"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source substrates/products and named carbon partners; other agents separate; not atom-balanced",
+    "source_references": [
+      {
+        "locator": "SI PDF page 9; E11 forward preparation",
+        "pages": [
+          9
+        ],
+        "sha256": "ab491ea30279400361fc267a12929a09cbe51780ee624e256acfdabe27670181",
+        "source_id": "si"
+      },
+      {
+        "locator": "Forward Scheme 5; E11 forward preparation",
+        "pages": [
+          4
+        ],
+        "sha256": "959e74aeee65afe8f90ac2d792cbb15e153bd20af11b24c98cde8a50b91bc99a",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "E11.1"
+    ],
+    "substrate_product_smiles": "CC(C)[C@H]1CC[C@@H](C)[C@]12CC(=O)C1(C)OC1C2=O>>CC1=C(O)C(=O)[C@]2(CC1=O)[C@H](C)CC[C@@H]2C(C)C"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E12",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "6"
+    ],
+    "reactant_labels": [
+      "18"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "18",
+        "percent": 76,
+        "product_label": "6",
+        "scope": "isolated source preparation"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source substrates/products and named carbon partners; other agents separate; not atom-balanced",
+    "source_references": [
+      {
+        "locator": "SI PDF page 10; E12 forward preparation",
+        "pages": [
+          10
+        ],
+        "sha256": "ab491ea30279400361fc267a12929a09cbe51780ee624e256acfdabe27670181",
+        "source_id": "si"
+      },
+      {
+        "locator": "Forward Scheme 5; E12 forward preparation",
+        "pages": [
+          4
+        ],
+        "sha256": "959e74aeee65afe8f90ac2d792cbb15e153bd20af11b24c98cde8a50b91bc99a",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "E12.1"
+    ],
+    "substrate_product_smiles": "CC1=C(O)C(=O)[C@]2(CC1=O)[C@H](C)CC[C@@H]2C(C)C>>CC1=C(O)C(=O)[C@]2(C(=O)C1=O)[C@H](C)CC[C@@H]2C(C)C"
+  }
+]

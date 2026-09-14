@@ -1,0 +1,639 @@
+[
+  {
+    "admission_authority": false,
+    "agents": [
+      "Ph3P",
+      "DIAD"
+    ],
+    "event_id": "A01",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "2"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "D-glucose",
+        "percent": 60.8,
+        "product_label": "2",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "reactant_labels": [
+      "D-glucose",
+      "1"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "1,4-dioxane"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: A01",
+        "pages": [
+          3
+        ],
+        "sha256": "4820410d807f12f9a7875ba91fc1627a1735a7f1d60bc85763cf0291db6e2568",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "A01.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "C=C(CCOCc1ccc(OC)cc1)C(=O)O.OC[C@H]1OC(O)[C@H](O)[C@@H](O)[C@@H]1O>>C=C(CCOCc1ccc(OC)cc1)C(=O)O[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O",
+    "yield_percent": 60.8
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "HMDS",
+      "TMSCl"
+    ],
+    "event_id": "A02",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "3"
+    ],
+    "product_specific_yields": [],
+    "reactant_labels": [
+      "2"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "pyridine"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: A02",
+        "pages": [
+          4
+        ],
+        "sha256": "4820410d807f12f9a7875ba91fc1627a1735a7f1d60bc85763cf0291db6e2568",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "A02.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "C=C(CCOCc1ccc(OC)cc1)C(=O)O[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O>>C=C(CCOCc1ccc(OC)cc1)C(=O)O[C@@H]1O[C@H](CO[Si](C)(C)C)[C@@H](O[Si](C)(C)C)[C@H](O[Si](C)(C)C)[C@H]1O[Si](C)(C)C",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "NH4OAc"
+    ],
+    "event_id": "A03",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "4"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "2",
+        "percent": 66,
+        "product_label": "4",
+        "scope": "66%over2steps from2; not single3->4 yield"
+      }
+    ],
+    "reactant_labels": [
+      "3"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "DCM",
+      "MeOH"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: A03",
+        "pages": [
+          4,
+          5
+        ],
+        "sha256": "4820410d807f12f9a7875ba91fc1627a1735a7f1d60bc85763cf0291db6e2568",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "A03.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "C=C(CCOCc1ccc(OC)cc1)C(=O)O[C@@H]1O[C@H](CO[Si](C)(C)C)[C@@H](O[Si](C)(C)C)[C@H](O[Si](C)(C)C)[C@H]1O[Si](C)(C)C>>C=C(CCOCc1ccc(OC)cc1)C(=O)O[C@@H]1O[C@H](CO)[C@@H](O[Si](C)(C)C)[C@H](O[Si](C)(C)C)[C@H]1O[Si](C)(C)C",
+    "yield_percent": 66
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "Ph3P",
+      "DIAD"
+    ],
+    "event_id": "B01",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "8"
+    ],
+    "product_specific_yields": [],
+    "reactant_labels": [
+      "D-glucose",
+      "6"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "1,4-dioxane"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: B01",
+        "pages": [
+          9
+        ],
+        "sha256": "4820410d807f12f9a7875ba91fc1627a1735a7f1d60bc85763cf0291db6e2568",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "B01.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "C=C(C(=O)O)[C@@H](COCc1ccc(OC)cc1)O[Si](C)(C)C(C)(C)C.OC[C@H]1OC(O)[C@H](O)[C@@H](O)[C@@H]1O>>C=C(C(=O)O[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O)[C@@H](COCc1ccc(OC)cc1)O[Si](C)(C)C(C)(C)C",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "HMDS",
+      "TMSCl"
+    ],
+    "event_id": "B02",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "9"
+    ],
+    "product_specific_yields": [],
+    "reactant_labels": [
+      "8"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "pyridine"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: B02",
+        "pages": [
+          9,
+          10
+        ],
+        "sha256": "4820410d807f12f9a7875ba91fc1627a1735a7f1d60bc85763cf0291db6e2568",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "B02.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "C=C(C(=O)O[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O)[C@@H](COCc1ccc(OC)cc1)O[Si](C)(C)C(C)(C)C>>C=C(C(=O)O[C@@H]1O[C@H](CO[Si](C)(C)C)[C@@H](O[Si](C)(C)C)[C@H](O[Si](C)(C)C)[C@H]1O[Si](C)(C)C)[C@@H](COCc1ccc(OC)cc1)O[Si](C)(C)C(C)(C)C",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "NH4OAc"
+    ],
+    "event_id": "B03",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "10"
+    ],
+    "product_specific_yields": [],
+    "reactant_labels": [
+      "9"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "DCM",
+      "MeOH"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: B03",
+        "pages": [
+          10,
+          11
+        ],
+        "sha256": "4820410d807f12f9a7875ba91fc1627a1735a7f1d60bc85763cf0291db6e2568",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "B03.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "C=C(C(=O)O[C@@H]1O[C@H](CO[Si](C)(C)C)[C@@H](O[Si](C)(C)C)[C@H](O[Si](C)(C)C)[C@H]1O[Si](C)(C)C)[C@@H](COCc1ccc(OC)cc1)O[Si](C)(C)C(C)(C)C>>C=C(C(=O)O[C@@H]1O[C@H](CO)[C@@H](O[Si](C)(C)C)[C@H](O[Si](C)(C)C)[C@H]1O[Si](C)(C)C)[C@@H](COCc1ccc(OC)cc1)O[Si](C)(C)C(C)(C)C",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "DIC",
+      "DMAP",
+      "molecular sieves4A"
+    ],
+    "event_id": "D01",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "5"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "4",
+        "percent": 30.2,
+        "product_label": "5",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "reactant_labels": [
+      "4",
+      "1"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "DCM"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: D01",
+        "pages": [
+          5,
+          6
+        ],
+        "sha256": "4820410d807f12f9a7875ba91fc1627a1735a7f1d60bc85763cf0291db6e2568",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "D01.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "C=C(CCOCc1ccc(OC)cc1)C(=O)O.C=C(CCOCc1ccc(OC)cc1)C(=O)O[C@@H]1O[C@H](CO)[C@@H](O[Si](C)(C)C)[C@H](O[Si](C)(C)C)[C@H]1O[Si](C)(C)C>>C=C(CCOCc1ccc(OC)cc1)C(=O)OC[C@H]1O[C@@H](OC(=O)C(=C)CCOCc2ccc(OC)cc2)[C@H](O[Si](C)(C)C)[C@@H](O[Si](C)(C)C)[C@@H]1O[Si](C)(C)C",
+    "yield_percent": 30.2
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "TFA"
+    ],
+    "event_id": "D02",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "PosD"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "5",
+        "percent": 49.3,
+        "product_label": "PosD",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "reactant_labels": [
+      "5"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "DCM"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: D02",
+        "pages": [
+          6,
+          7
+        ],
+        "sha256": "4820410d807f12f9a7875ba91fc1627a1735a7f1d60bc85763cf0291db6e2568",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "D02.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "C=C(CCOCc1ccc(OC)cc1)C(=O)OC[C@H]1O[C@@H](OC(=O)C(=C)CCOCc2ccc(OC)cc2)[C@H](O[Si](C)(C)C)[C@@H](O[Si](C)(C)C)[C@@H]1O[Si](C)(C)C>>C=C(CCO)C(=O)OC[C@H]1O[C@@H](OC(=O)C(=C)CCO)[C@H](O)[C@@H](O)[C@@H]1O",
+    "yield_percent": 49.3
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "DIC",
+      "DMAP",
+      "molecular sieves4A"
+    ],
+    "event_id": "F01",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "7"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "4",
+        "percent": 27.4,
+        "product_label": "7",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "reactant_labels": [
+      "4",
+      "6"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "DCM"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: F01",
+        "pages": [
+          7,
+          8
+        ],
+        "sha256": "4820410d807f12f9a7875ba91fc1627a1735a7f1d60bc85763cf0291db6e2568",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "F01.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "C=C(C(=O)O)[C@@H](COCc1ccc(OC)cc1)O[Si](C)(C)C(C)(C)C.C=C(CCOCc1ccc(OC)cc1)C(=O)O[C@@H]1O[C@H](CO)[C@@H](O[Si](C)(C)C)[C@H](O[Si](C)(C)C)[C@H]1O[Si](C)(C)C>>C=C(CCOCc1ccc(OC)cc1)C(=O)O[C@@H]1O[C@H](COC(=O)C(=C)[C@@H](COCc2ccc(OC)cc2)O[Si](C)(C)C(C)(C)C)[C@@H](O[Si](C)(C)C)[C@H](O[Si](C)(C)C)[C@H]1O[Si](C)(C)C",
+    "yield_percent": 27.4
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "TFA"
+    ],
+    "event_id": "F02",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "PosF"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "7",
+        "percent": 29.3,
+        "product_label": "PosF",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "reactant_labels": [
+      "7"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "DCM"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: F02",
+        "pages": [
+          8
+        ],
+        "sha256": "4820410d807f12f9a7875ba91fc1627a1735a7f1d60bc85763cf0291db6e2568",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "F02.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "C=C(CCOCc1ccc(OC)cc1)C(=O)O[C@@H]1O[C@H](COC(=O)C(=C)[C@@H](COCc2ccc(OC)cc2)O[Si](C)(C)C(C)(C)C)[C@@H](O[Si](C)(C)C)[C@H](O[Si](C)(C)C)[C@H]1O[Si](C)(C)C>>C=C(CCO)C(=O)O[C@@H]1O[C@H](COC(=O)C(=C)[C@H](O)CO)[C@@H](O)[C@H](O)[C@H]1O",
+    "yield_percent": 29.3
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "DIC",
+      "DMAP",
+      "molecular sieves4A"
+    ],
+    "event_id": "I01",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "11"
+    ],
+    "product_specific_yields": [],
+    "reactant_labels": [
+      "10",
+      "1"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "DCM"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: I01",
+        "pages": [
+          11
+        ],
+        "sha256": "4820410d807f12f9a7875ba91fc1627a1735a7f1d60bc85763cf0291db6e2568",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "I01.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "C=C(C(=O)O[C@@H]1O[C@H](CO)[C@@H](O[Si](C)(C)C)[C@H](O[Si](C)(C)C)[C@H]1O[Si](C)(C)C)[C@@H](COCc1ccc(OC)cc1)O[Si](C)(C)C(C)(C)C.C=C(CCOCc1ccc(OC)cc1)C(=O)O>>C=C(CCOCc1ccc(OC)cc1)C(=O)OC[C@H]1O[C@@H](OC(=O)C(=C)[C@@H](COCc2ccc(OC)cc2)O[Si](C)(C)C(C)(C)C)[C@H](O[Si](C)(C)C)[C@@H](O[Si](C)(C)C)[C@@H]1O[Si](C)(C)C",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "TFA"
+    ],
+    "event_id": "I02",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "isoPosF"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "10",
+        "percent": 8.1,
+        "product_label": "isoPosF",
+        "scope": "8.1%over2steps,notsingledeprotectionyield"
+      }
+    ],
+    "reactant_labels": [
+      "11"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "DCM"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: I02",
+        "pages": [
+          12
+        ],
+        "sha256": "4820410d807f12f9a7875ba91fc1627a1735a7f1d60bc85763cf0291db6e2568",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "I02.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "C=C(CCOCc1ccc(OC)cc1)C(=O)OC[C@H]1O[C@@H](OC(=O)C(=C)[C@@H](COCc2ccc(OC)cc2)O[Si](C)(C)C(C)(C)C)[C@H](O[Si](C)(C)C)[C@@H](O[Si](C)(C)C)[C@@H]1O[Si](C)(C)C>>C=C(CCO)C(=O)OC[C@H]1O[C@@H](OC(=O)C(=C)[C@H](O)CO)[C@H](O)[C@@H](O)[C@@H]1O",
+    "yield_percent": 8.1
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "DIC",
+      "DMAP",
+      "molecular sieves4A"
+    ],
+    "event_id": "H01",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "12"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "10",
+        "percent": 17.5,
+        "product_label": "12",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "reactant_labels": [
+      "10",
+      "6"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "DCM"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: H01",
+        "pages": [
+          12,
+          13
+        ],
+        "sha256": "4820410d807f12f9a7875ba91fc1627a1735a7f1d60bc85763cf0291db6e2568",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "H01.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "C=C(C(=O)O)[C@@H](COCc1ccc(OC)cc1)O[Si](C)(C)C(C)(C)C.C=C(C(=O)O[C@@H]1O[C@H](CO)[C@@H](O[Si](C)(C)C)[C@H](O[Si](C)(C)C)[C@H]1O[Si](C)(C)C)[C@@H](COCc1ccc(OC)cc1)O[Si](C)(C)C(C)(C)C>>C=C(C(=O)OC[C@H]1O[C@@H](OC(=O)C(=C)[C@@H](COCc2ccc(OC)cc2)O[Si](C)(C)C(C)(C)C)[C@H](O[Si](C)(C)C)[C@@H](O[Si](C)(C)C)[C@@H]1O[Si](C)(C)C)[C@@H](COCc1ccc(OC)cc1)O[Si](C)(C)C(C)(C)C",
+    "yield_percent": 17.5
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "TFA"
+    ],
+    "event_id": "H02",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "diOH-PosD"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "12",
+        "percent": 10.5,
+        "product_label": "diOH-PosD",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "reactant_labels": [
+      "12"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "DCM"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: H02",
+        "pages": [
+          13
+        ],
+        "sha256": "4820410d807f12f9a7875ba91fc1627a1735a7f1d60bc85763cf0291db6e2568",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "H02.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "C=C(C(=O)OC[C@H]1O[C@@H](OC(=O)C(=C)[C@@H](COCc2ccc(OC)cc2)O[Si](C)(C)C(C)(C)C)[C@H](O[Si](C)(C)C)[C@@H](O[Si](C)(C)C)[C@@H]1O[Si](C)(C)C)[C@@H](COCc1ccc(OC)cc1)O[Si](C)(C)C(C)(C)C>>C=C(C(=O)OC[C@H]1O[C@@H](OC(=O)C(=C)[C@H](O)CO)[C@H](O)[C@@H](O)[C@@H]1O)[C@H](O)CO",
+    "yield_percent": 10.5
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "TFA"
+    ],
+    "event_id": "M01",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "1-PosB"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "8",
+        "percent": 28.8,
+        "product_label": "1-PosB",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "reactant_labels": [
+      "8"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "DCM"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: M01",
+        "pages": [
+          14
+        ],
+        "sha256": "4820410d807f12f9a7875ba91fc1627a1735a7f1d60bc85763cf0291db6e2568",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "M01.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "C=C(C(=O)O[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O)[C@@H](COCc1ccc(OC)cc1)O[Si](C)(C)C(C)(C)C>>C=C(C(=O)O[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O)[C@H](O)CO",
+    "yield_percent": 28.8
+  }
+]

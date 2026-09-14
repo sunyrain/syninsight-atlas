@@ -1,0 +1,2016 @@
+[
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "A01",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "preparation_boundary": true,
+    "product_labels": [
+      "11"
+    ],
+    "reactant_labels": [
+      "10"
+    ],
+    "reagents": [],
+    "reported_yields": [
+      {
+        "from_label": "10",
+        "percent": 69,
+        "product_label": "11",
+        "scope": "Aggregate over two referenced steps; details absent in local main article"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: A01",
+        "pages": [
+          3
+        ],
+        "sha256": "164e728edc844b85e599f7689b4cebab4c448aaadf0f466c63cfab2c313b6bae",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "A01.1"
+    ],
+    "substrate_product_smiles": "N[C@H](Cc1ccc(O)cc1)C(=O)O>>CC(=O)c1cc(C[C@@H](O)C(=O)O)ccc1O",
+    "yield_scope": "Aggregate over two referenced steps; details absent in local main article"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "A02",
+    "experimental_stage_count": 2,
+    "formal_benchmark_eligible": false,
+    "operation_stages": [
+      {
+        "operation": "dioxolanone protection"
+      },
+      {
+        "operation": "phenolic methylation"
+      }
+    ],
+    "product_labels": [
+      "12"
+    ],
+    "reactant_labels": [
+      "11"
+    ],
+    "reagents": [
+      "2,2-dimethoxypropane",
+      "PPTS",
+      "Me2SO4",
+      "K2CO3"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "11",
+        "percent": 59,
+        "product_label": "12",
+        "scope": "Two-operation sequence"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "acetone"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: A02",
+        "pages": [
+          3
+        ],
+        "sha256": "164e728edc844b85e599f7689b4cebab4c448aaadf0f466c63cfab2c313b6bae",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "A02.1"
+    ],
+    "substrate_product_smiles": "CC(=O)c1cc(C[C@@H](O)C(=O)O)ccc1O>>COc1ccc(C[C@H]2OC(C)(C)OC2=O)cc1C(C)=O",
+    "yield_scope": "Two-operation sequence"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "A03",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "13"
+    ],
+    "reactant_labels": [
+      "12"
+    ],
+    "reagents": [
+      "mCPBA",
+      "NaHCO3"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "12",
+        "percent": 83,
+        "product_label": "13",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "DCM"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: A03",
+        "pages": [
+          3
+        ],
+        "sha256": "164e728edc844b85e599f7689b4cebab4c448aaadf0f466c63cfab2c313b6bae",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "A03.1"
+    ],
+    "substrate_product_smiles": "COc1ccc(C[C@H]2OC(C)(C)OC2=O)cc1C(C)=O>>COc1ccc(C[C@H]2OC(C)(C)OC2=O)cc1OC(C)=O"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "A04",
+    "experimental_stage_count": 2,
+    "formal_benchmark_eligible": false,
+    "operation_stages": [
+      {
+        "operation": "hydrolysis"
+      },
+      {
+        "operation": "dioxolanone reprotection"
+      }
+    ],
+    "product_labels": [
+      "14"
+    ],
+    "reactant_labels": [
+      "13"
+    ],
+    "reagents": [
+      "NaOH",
+      "2,2-dimethoxypropane",
+      "PPTS"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "13",
+        "percent": 59,
+        "product_label": "14",
+        "scope": "Two-operation sequence"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "THF",
+      "water",
+      "acetone"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: A04",
+        "pages": [
+          3
+        ],
+        "sha256": "164e728edc844b85e599f7689b4cebab4c448aaadf0f466c63cfab2c313b6bae",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "A04.1"
+    ],
+    "substrate_product_smiles": "COc1ccc(C[C@H]2OC(C)(C)OC2=O)cc1OC(C)=O>>COc1ccc(C[C@H]2OC(C)(C)OC2=O)cc1O",
+    "yield_scope": "Two-operation sequence"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "A05",
+    "experimental_stage_count": 2,
+    "formal_benchmark_eligible": false,
+    "operation_stages": [
+      {
+        "operation": "phenolic allylation"
+      },
+      {
+        "operation": "thermal Claisen rearrangement"
+      }
+    ],
+    "product_labels": [
+      "15"
+    ],
+    "reactant_labels": [
+      "14"
+    ],
+    "reagents": [
+      "allyl bromide",
+      "K2CO3"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "14",
+        "percent": 54,
+        "product_label": "15",
+        "scope": "Two-operation sequence"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "acetone"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: A05",
+        "pages": [
+          3
+        ],
+        "sha256": "164e728edc844b85e599f7689b4cebab4c448aaadf0f466c63cfab2c313b6bae",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "A05.1"
+    ],
+    "substrate_product_smiles": "COc1ccc(C[C@H]2OC(C)(C)OC2=O)cc1O>>C=CCc1c(C[C@H]2OC(C)(C)OC2=O)ccc(OC)c1O",
+    "yield_scope": "Two-operation sequence"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "A06",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "16"
+    ],
+    "reactant_labels": [
+      "15"
+    ],
+    "reagents": [
+      "NH3"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "15",
+        "percent": 83,
+        "product_label": "16",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "MeOH"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: A06",
+        "pages": [
+          3
+        ],
+        "sha256": "164e728edc844b85e599f7689b4cebab4c448aaadf0f466c63cfab2c313b6bae",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "A06.1"
+    ],
+    "substrate_product_smiles": "C=CCc1c(C[C@H]2OC(C)(C)OC2=O)ccc(OC)c1O>>C=CCc1c(C[C@@H](O)C(N)=O)ccc(OC)c1O"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "A07",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "18"
+    ],
+    "reactant_labels": [
+      "16"
+    ],
+    "reagents": [
+      "TBSCl",
+      "imidazole"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "16",
+        "percent": 94,
+        "product_label": "18",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "DCM"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: A07",
+        "pages": [
+          3
+        ],
+        "sha256": "164e728edc844b85e599f7689b4cebab4c448aaadf0f466c63cfab2c313b6bae",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "A07.1"
+    ],
+    "substrate_product_smiles": "C=CCc1c(C[C@@H](O)C(N)=O)ccc(OC)c1O>>C=CCc1c(C[C@@H](O[Si](C)(C)C(C)(C)C)C(N)=O)ccc(OC)c1O[Si](C)(C)C(C)(C)C"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "A08",
+    "experimental_stage_count": 3,
+    "formal_benchmark_eligible": false,
+    "operation_stages": [
+      {
+        "operation": "hydroboration and amide reduction"
+      },
+      {
+        "operation": "oxidative workup"
+      },
+      {
+        "operation": "N-Boc protection"
+      }
+    ],
+    "product_labels": [
+      "19"
+    ],
+    "reactant_labels": [
+      "18"
+    ],
+    "reagents": [
+      "BH3 THF",
+      "NaOH",
+      "H2O2",
+      "Boc2O"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "18",
+        "percent": 68,
+        "product_label": "19",
+        "scope": "One-pot sequence"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "THF",
+      "water",
+      "EtOH"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: A08",
+        "pages": [
+          3
+        ],
+        "sha256": "164e728edc844b85e599f7689b4cebab4c448aaadf0f466c63cfab2c313b6bae",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "A08.1"
+    ],
+    "substrate_product_smiles": "C=CCc1c(C[C@@H](O[Si](C)(C)C(C)(C)C)C(N)=O)ccc(OC)c1O[Si](C)(C)C(C)(C)C>>COc1ccc(C[C@H](CNCC(C)(C)OC=O)O[Si](C)(C)C(C)(C)C)c(CCCO)c1O[Si](C)(C)C(C)(C)C",
+    "yield_scope": "One-pot sequence"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "A09",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "20"
+    ],
+    "reactant_labels": [
+      "19"
+    ],
+    "reagents": [
+      "MsCl",
+      "pyridine"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "19",
+        "percent": 80,
+        "product_label": "20",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: A09",
+        "pages": [
+          3
+        ],
+        "sha256": "164e728edc844b85e599f7689b4cebab4c448aaadf0f466c63cfab2c313b6bae",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "A09.1"
+    ],
+    "substrate_product_smiles": "COc1ccc(C[C@H](CNCC(C)(C)OC=O)O[Si](C)(C)C(C)(C)C)c(CCCO)c1O[Si](C)(C)C(C)(C)C>>COc1ccc(C[C@H](CNCC(C)(C)OC=O)O[Si](C)(C)C(C)(C)C)c(CCCOS(C)(=O)=O)c1O[Si](C)(C)C(C)(C)C"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "enantiomeric_excess_percent": 90,
+    "event_id": "A10",
+    "experimental_stage_count": 2,
+    "formal_benchmark_eligible": false,
+    "operation_stages": [
+      {
+        "operation": "intramolecular N-alkylation"
+      },
+      {
+        "operation": "methanol quench and phenolic desilylation"
+      }
+    ],
+    "product_labels": [
+      "9"
+    ],
+    "reactant_labels": [
+      "20"
+    ],
+    "reagents": [
+      "NaH"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "20",
+        "percent": 50,
+        "product_label": "9",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "THF",
+      "MeOH"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: A10",
+        "pages": [
+          3
+        ],
+        "sha256": "164e728edc844b85e599f7689b4cebab4c448aaadf0f466c63cfab2c313b6bae",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "A10.1"
+    ],
+    "substrate_product_smiles": "COc1ccc(C[C@H](CNCC(C)(C)OC=O)O[Si](C)(C)C(C)(C)C)c(CCCOS(C)(=O)=O)c1O[Si](C)(C)C(C)(C)C>>COc1ccc2c(c1O)CCCN(C(=O)OC(C)(C)C)C[C@H](O[Si](C)(C)C(C)(C)C)C2"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "B01",
+    "experimental_stage_count": 2,
+    "formal_benchmark_eligible": false,
+    "operation_stages": [
+      {
+        "operation": "oxidative dearomatization"
+      },
+      {
+        "operation": "Diels-Alder cycloaddition"
+      }
+    ],
+    "product_labels": [
+      "21"
+    ],
+    "reactant_labels": [
+      "9",
+      "methyl acrylate"
+    ],
+    "reagents": [
+      "PhI(OAc)2"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "9",
+        "percent": 68,
+        "product_label": "21",
+        "scope": "Single observed diastereomer"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "DCM",
+      "MeOH"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: B01",
+        "pages": [
+          3
+        ],
+        "sha256": "164e728edc844b85e599f7689b4cebab4c448aaadf0f466c63cfab2c313b6bae",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "B01.1"
+    ],
+    "substrate_product_smiles": "C=CC(=O)OC.COc1ccc2c(c1O)CCCN(C(=O)OC(C)(C)C)C[C@H](O[Si](C)(C)C(C)(C)C)C2>>COC(=O)[C@@H]1C[C@@H]2C=C3C[C@@H](O[Si](C)(C)C(C)(C)C)CN(C(=O)OC(C)(C)C)CCC[C@@]31C(=O)C2(OC)OC",
+    "yield_scope": "Single observed diastereomer"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "B02",
+    "experimental_stage_count": 2,
+    "formal_benchmark_eligible": false,
+    "operation_stages": [
+      {
+        "operation": "ester reduction"
+      },
+      {
+        "operation": "alcohol oxidation"
+      }
+    ],
+    "product_labels": [
+      "7"
+    ],
+    "reactant_labels": [
+      "21"
+    ],
+    "reagents": [
+      "DIBAL-H",
+      "Dess-Martin periodinane"
+    ],
+    "reported_yields": [],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "DCM"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: B02",
+        "pages": [
+          3
+        ],
+        "sha256": "164e728edc844b85e599f7689b4cebab4c448aaadf0f466c63cfab2c313b6bae",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "B02.1"
+    ],
+    "substrate_product_smiles": "COC(=O)[C@@H]1C[C@@H]2C=C3C[C@@H](O[Si](C)(C)C(C)(C)C)CN(C(=O)OC(C)(C)C)CCC[C@@]31C(=O)C2(OC)OC>>COC1(OC)C(=O)[C@]23CCCN(C(=O)OC(C)(C)C)C[C@H](O[Si](C)(C)C(C)(C)C)CC2=C[C@H]1C[C@H]3C=O",
+    "yield_text": "quantitative over two operations"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "B03",
+    "experimental_stage_count": 2,
+    "formal_benchmark_eligible": false,
+    "operation_stages": [
+      {
+        "operation": "Wittig olefination"
+      },
+      {
+        "operation": "reductive demethoxylation"
+      }
+    ],
+    "product_labels": [
+      "22"
+    ],
+    "reactant_labels": [
+      "7",
+      "methoxymethyl phosphonium chloride"
+    ],
+    "reagents": [
+      "tBuOK",
+      "SmI2"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "7",
+        "percent": 22,
+        "product_label": "22",
+        "scope": "Two-operation yield of cis enol ether; trans decomposed"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "THF",
+      "MeOH"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: B03",
+        "pages": [
+          3
+        ],
+        "sha256": "164e728edc844b85e599f7689b4cebab4c448aaadf0f466c63cfab2c313b6bae",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "B03.1"
+    ],
+    "substrate_product_smiles": "COC1(OC)C(=O)[C@]23CCCN(C(=O)OC(C)(C)C)C[C@H](O[Si](C)(C)C(C)(C)C)CC2=C[C@H]1C[C@H]3C=O.COC[P+](c1ccccc1)(c1ccccc1)c1ccccc1.[Cl-]>>CO/C=C\\[C@@H]1C[C@@H]2C=C3C[C@@H](O[Si](C)(C)C(C)(C)C)CN(C(=O)OC(C)(C)C)CCC[C@@]31C(=O)C2",
+    "yield_scope": "Two-operation yield of cis enol ether; trans decomposed"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "B04",
+    "experimental_stage_count": 2,
+    "formal_benchmark_eligible": false,
+    "operation_stages": [
+      {
+        "operation": "ketone reduction"
+      },
+      {
+        "operation": "enol ether hydrolysis"
+      }
+    ],
+    "product_labels": [
+      "23"
+    ],
+    "reactant_labels": [
+      "22"
+    ],
+    "reagents": [
+      "NaBH4",
+      "CSA"
+    ],
+    "reported_yields": [],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "EtOH",
+      "DCM"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: B04",
+        "pages": [
+          3
+        ],
+        "sha256": "164e728edc844b85e599f7689b4cebab4c448aaadf0f466c63cfab2c313b6bae",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "B04.1"
+    ],
+    "substrate_product_smiles": "CO/C=C\\[C@@H]1C[C@@H]2C=C3C[C@@H](O[Si](C)(C)C(C)(C)C)CN(C(=O)OC(C)(C)C)CCC[C@@]31C(=O)C2>>CC(C)(C)OC(=O)N1CCC[C@@]23C(=C[C@@H](C[C@H]2CC=O)C[C@H]3O)C[C@@H](O[Si](C)(C)C(C)(C)C)C1",
+    "yield_scope": "Unstable source-drawn aldehyde carried directly onward; no separate yield"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "B05",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "24"
+    ],
+    "reactant_labels": [
+      "23"
+    ],
+    "reagents": [
+      "tert-dodecanethiol",
+      "AIBN"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "22",
+        "percent": 36,
+        "product_label": "24",
+        "scope": "Scheme 3 aggregate yield over reduction, hydrolysis, cyclization; not single cyclization yield"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "benzene"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: B05",
+        "pages": [
+          3
+        ],
+        "sha256": "164e728edc844b85e599f7689b4cebab4c448aaadf0f466c63cfab2c313b6bae",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "B05.1"
+    ],
+    "substrate_product_smiles": "CC(C)(C)OC(=O)N1CCC[C@@]23C(=C[C@@H](C[C@H]2CC=O)C[C@H]3O)C[C@@H](O[Si](C)(C)C(C)(C)C)C1>>CC(C)(C)OC(=O)N1CCC[C@]23[C@@H]4CC(=O)[C@]2(C[C@@H](C4)C[C@H]3O)C[C@@H](O[Si](C)(C)C(C)(C)C)C1",
+    "yield_from_label": "22",
+    "yield_scope": "Scheme 3 aggregate yield over reduction, hydrolysis, cyclization; not single cyclization yield"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "B06",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "6"
+    ],
+    "reactant_labels": [
+      "24"
+    ],
+    "reagents": [
+      "Dess-Martin periodinane"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "24",
+        "percent": 69,
+        "product_label": "6",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "DCM"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: B06",
+        "pages": [
+          3
+        ],
+        "sha256": "164e728edc844b85e599f7689b4cebab4c448aaadf0f466c63cfab2c313b6bae",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "B06.1"
+    ],
+    "substrate_product_smiles": "CC(C)(C)OC(=O)N1CCC[C@]23[C@@H]4CC(=O)[C@]2(C[C@@H](C4)C[C@H]3O)C[C@@H](O[Si](C)(C)C(C)(C)C)C1>>CC(C)(C)OC(=O)N1CCC[C@]23C(=O)C[C@@H]4C[C@H]2CC(=O)[C@]3(C4)C[C@@H](O[Si](C)(C)C(C)(C)C)C1"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "B07",
+    "experimental_stage_count": 2,
+    "formal_benchmark_eligible": false,
+    "operation_stages": [
+      {
+        "operation": "TBS/Boc removal"
+      },
+      {
+        "operation": "spontaneous intramolecular hemiaminal formation"
+      }
+    ],
+    "product_labels": [
+      "25"
+    ],
+    "reactant_labels": [
+      "6"
+    ],
+    "reagents": [
+      "concentrated aqueous HCl"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "6",
+        "percent": 48,
+        "product_label": "25",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "toluene"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: B07",
+        "pages": [
+          3
+        ],
+        "sha256": "164e728edc844b85e599f7689b4cebab4c448aaadf0f466c63cfab2c313b6bae",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "B07.1"
+    ],
+    "substrate_product_smiles": "CC(C)(C)OC(=O)N1CCC[C@]23C(=O)C[C@@H]4C[C@H]2CC(=O)[C@]3(C4)C[C@@H](O[Si](C)(C)C(C)(C)C)C1>>O=C1C[C@@H]2C[C@@H]3C[C@]14C[C@@H](O)CN1CCC[C@]24[C@]1(O)C3"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "B08",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "1"
+    ],
+    "reactant_labels": [
+      "25",
+      "formaldehyde"
+    ],
+    "reagents": [
+      "NaBH3CN"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "25",
+        "percent": 70,
+        "product_label": "1",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "MeOH",
+      "AcOH"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: B08",
+        "pages": [
+          3
+        ],
+        "sha256": "164e728edc844b85e599f7689b4cebab4c448aaadf0f466c63cfab2c313b6bae",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "B08.1"
+    ],
+    "substrate_product_smiles": "C=O.O=C1C[C@@H]2C[C@@H]3C[C@]14C[C@@H](O)CN1CCC[C@]24[C@]1(O)C3>>CN1CCC[C@]23C(=O)C[C@@H]4C[C@H]2CC(=O)[C@@]3(C[C@@H](O)C1)C4"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "ent-A01",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "preparation_boundary": true,
+    "product_labels": [
+      "ent-11"
+    ],
+    "reactant_labels": [
+      "ent-10"
+    ],
+    "reagents": [],
+    "reported_yields": [
+      {
+        "from_label": "ent-10",
+        "percent": 69,
+        "product_label": "ent-11",
+        "scope": "Aggregate over two referenced steps; details absent in local main article"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: ent-A01",
+        "pages": [
+          3
+        ],
+        "sha256": "164e728edc844b85e599f7689b4cebab4c448aaadf0f466c63cfab2c313b6bae",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "ent-A01.1"
+    ],
+    "substrate_product_smiles": "N[C@@H](Cc1ccc(O)cc1)C(=O)O>>CC(=O)c1cc(C[C@H](O)C(=O)O)ccc1O",
+    "yield_scope": "Aggregate over two referenced steps; details absent in local main article"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "ent-A02",
+    "experimental_stage_count": 2,
+    "formal_benchmark_eligible": false,
+    "operation_stages": [
+      {
+        "operation": "dioxolanone protection"
+      },
+      {
+        "operation": "phenolic methylation"
+      }
+    ],
+    "product_labels": [
+      "ent-12"
+    ],
+    "reactant_labels": [
+      "ent-11"
+    ],
+    "reagents": [
+      "2,2-dimethoxypropane",
+      "PPTS",
+      "Me2SO4",
+      "K2CO3"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "ent-11",
+        "percent": 80,
+        "product_label": "ent-12",
+        "scope": "Two-operation sequence"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "acetone"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: ent-A02",
+        "pages": [
+          3
+        ],
+        "sha256": "164e728edc844b85e599f7689b4cebab4c448aaadf0f466c63cfab2c313b6bae",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "ent-A02.1"
+    ],
+    "substrate_product_smiles": "CC(=O)c1cc(C[C@H](O)C(=O)O)ccc1O>>COc1ccc(C[C@@H]2OC(C)(C)OC2=O)cc1C(C)=O",
+    "yield_scope": "Two-operation sequence"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "ent-A03",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "ent-13"
+    ],
+    "reactant_labels": [
+      "ent-12"
+    ],
+    "reagents": [
+      "mCPBA",
+      "NaHCO3"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "ent-12",
+        "percent": 91,
+        "product_label": "ent-13",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "DCM"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: ent-A03",
+        "pages": [
+          3
+        ],
+        "sha256": "164e728edc844b85e599f7689b4cebab4c448aaadf0f466c63cfab2c313b6bae",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "ent-A03.1"
+    ],
+    "substrate_product_smiles": "COc1ccc(C[C@@H]2OC(C)(C)OC2=O)cc1C(C)=O>>COc1ccc(C[C@@H]2OC(C)(C)OC2=O)cc1OC(C)=O"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "ent-A04",
+    "experimental_stage_count": 2,
+    "formal_benchmark_eligible": false,
+    "operation_stages": [
+      {
+        "operation": "hydrolysis"
+      },
+      {
+        "operation": "dioxolanone reprotection"
+      }
+    ],
+    "product_labels": [
+      "ent-14"
+    ],
+    "reactant_labels": [
+      "ent-13"
+    ],
+    "reagents": [
+      "NaOH",
+      "2,2-dimethoxypropane",
+      "PPTS"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "ent-13",
+        "percent": 60,
+        "product_label": "ent-14",
+        "scope": "Two-operation sequence"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "THF",
+      "water",
+      "acetone"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: ent-A04",
+        "pages": [
+          3
+        ],
+        "sha256": "164e728edc844b85e599f7689b4cebab4c448aaadf0f466c63cfab2c313b6bae",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "ent-A04.1"
+    ],
+    "substrate_product_smiles": "COc1ccc(C[C@@H]2OC(C)(C)OC2=O)cc1OC(C)=O>>COc1ccc(C[C@@H]2OC(C)(C)OC2=O)cc1O",
+    "yield_scope": "Two-operation sequence"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "ent-A05",
+    "experimental_stage_count": 2,
+    "formal_benchmark_eligible": false,
+    "operation_stages": [
+      {
+        "operation": "phenolic allylation"
+      },
+      {
+        "operation": "thermal Claisen rearrangement"
+      }
+    ],
+    "product_labels": [
+      "ent-15"
+    ],
+    "reactant_labels": [
+      "ent-14"
+    ],
+    "reagents": [
+      "allyl bromide",
+      "K2CO3"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "ent-14",
+        "percent": 60,
+        "product_label": "ent-15",
+        "scope": "Two-operation sequence"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "acetone"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: ent-A05",
+        "pages": [
+          3
+        ],
+        "sha256": "164e728edc844b85e599f7689b4cebab4c448aaadf0f466c63cfab2c313b6bae",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "ent-A05.1"
+    ],
+    "substrate_product_smiles": "COc1ccc(C[C@@H]2OC(C)(C)OC2=O)cc1O>>C=CCc1c(C[C@@H]2OC(C)(C)OC2=O)ccc(OC)c1O",
+    "yield_scope": "Two-operation sequence"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "ent-A06",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "ent-16"
+    ],
+    "reactant_labels": [
+      "ent-15"
+    ],
+    "reagents": [
+      "NH3"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "ent-15",
+        "percent": 83,
+        "product_label": "ent-16",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "MeOH"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: ent-A06",
+        "pages": [
+          3
+        ],
+        "sha256": "164e728edc844b85e599f7689b4cebab4c448aaadf0f466c63cfab2c313b6bae",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "ent-A06.1"
+    ],
+    "substrate_product_smiles": "C=CCc1c(C[C@@H]2OC(C)(C)OC2=O)ccc(OC)c1O>>C=CCc1c(C[C@H](O)C(N)=O)ccc(OC)c1O"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "ent-A07",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "ent-18"
+    ],
+    "reactant_labels": [
+      "ent-16"
+    ],
+    "reagents": [
+      "TBSCl",
+      "imidazole"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "ent-16",
+        "percent": 88,
+        "product_label": "ent-18",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "DCM"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: ent-A07",
+        "pages": [
+          3
+        ],
+        "sha256": "164e728edc844b85e599f7689b4cebab4c448aaadf0f466c63cfab2c313b6bae",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "ent-A07.1"
+    ],
+    "substrate_product_smiles": "C=CCc1c(C[C@H](O)C(N)=O)ccc(OC)c1O>>C=CCc1c(C[C@H](O[Si](C)(C)C(C)(C)C)C(N)=O)ccc(OC)c1O[Si](C)(C)C(C)(C)C"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "ent-A08",
+    "experimental_stage_count": 3,
+    "formal_benchmark_eligible": false,
+    "operation_stages": [
+      {
+        "operation": "hydroboration and amide reduction"
+      },
+      {
+        "operation": "oxidative workup"
+      },
+      {
+        "operation": "N-Boc protection"
+      }
+    ],
+    "product_labels": [
+      "ent-19"
+    ],
+    "reactant_labels": [
+      "ent-18"
+    ],
+    "reagents": [
+      "BH3 THF",
+      "NaOH",
+      "H2O2",
+      "Boc2O"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "ent-18",
+        "percent": 67,
+        "product_label": "ent-19",
+        "scope": "One-pot sequence"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "THF",
+      "water",
+      "EtOH"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: ent-A08",
+        "pages": [
+          3
+        ],
+        "sha256": "164e728edc844b85e599f7689b4cebab4c448aaadf0f466c63cfab2c313b6bae",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "ent-A08.1"
+    ],
+    "substrate_product_smiles": "C=CCc1c(C[C@H](O[Si](C)(C)C(C)(C)C)C(N)=O)ccc(OC)c1O[Si](C)(C)C(C)(C)C>>COc1ccc(C[C@@H](CNCC(C)(C)OC=O)O[Si](C)(C)C(C)(C)C)c(CCCO)c1O[Si](C)(C)C(C)(C)C",
+    "yield_scope": "One-pot sequence"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "ent-A09",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "ent-20"
+    ],
+    "reactant_labels": [
+      "ent-19"
+    ],
+    "reagents": [
+      "MsCl",
+      "pyridine"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "ent-19",
+        "percent": 71,
+        "product_label": "ent-20",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: ent-A09",
+        "pages": [
+          3
+        ],
+        "sha256": "164e728edc844b85e599f7689b4cebab4c448aaadf0f466c63cfab2c313b6bae",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "ent-A09.1"
+    ],
+    "substrate_product_smiles": "COc1ccc(C[C@@H](CNCC(C)(C)OC=O)O[Si](C)(C)C(C)(C)C)c(CCCO)c1O[Si](C)(C)C(C)(C)C>>COc1ccc(C[C@@H](CNCC(C)(C)OC=O)O[Si](C)(C)C(C)(C)C)c(CCCOS(C)(=O)=O)c1O[Si](C)(C)C(C)(C)C"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "enantiomeric_excess_percent": 94,
+    "event_id": "ent-A10",
+    "experimental_stage_count": 2,
+    "formal_benchmark_eligible": false,
+    "operation_stages": [
+      {
+        "operation": "intramolecular N-alkylation"
+      },
+      {
+        "operation": "methanol quench and phenolic desilylation"
+      }
+    ],
+    "product_labels": [
+      "ent-9"
+    ],
+    "reactant_labels": [
+      "ent-20"
+    ],
+    "reagents": [
+      "NaH"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "ent-20",
+        "percent": 65,
+        "product_label": "ent-9",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "THF",
+      "MeOH"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: ent-A10",
+        "pages": [
+          3
+        ],
+        "sha256": "164e728edc844b85e599f7689b4cebab4c448aaadf0f466c63cfab2c313b6bae",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "ent-A10.1"
+    ],
+    "substrate_product_smiles": "COc1ccc(C[C@@H](CNCC(C)(C)OC=O)O[Si](C)(C)C(C)(C)C)c(CCCOS(C)(=O)=O)c1O[Si](C)(C)C(C)(C)C>>COc1ccc2c(c1O)CCCN(C(=O)OC(C)(C)C)C[C@@H](O[Si](C)(C)C(C)(C)C)C2"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "ent-B01",
+    "experimental_stage_count": 2,
+    "formal_benchmark_eligible": false,
+    "operation_stages": [
+      {
+        "operation": "oxidative dearomatization"
+      },
+      {
+        "operation": "Diels-Alder cycloaddition"
+      }
+    ],
+    "product_labels": [
+      "ent-21"
+    ],
+    "reactant_labels": [
+      "ent-9",
+      "methyl acrylate"
+    ],
+    "reagents": [
+      "PhI(OAc)2"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "ent-9",
+        "percent": 75,
+        "product_label": "ent-21",
+        "scope": "Single observed diastereomer"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "DCM",
+      "MeOH"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: ent-B01",
+        "pages": [
+          3
+        ],
+        "sha256": "164e728edc844b85e599f7689b4cebab4c448aaadf0f466c63cfab2c313b6bae",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "ent-B01.1"
+    ],
+    "substrate_product_smiles": "C=CC(=O)OC.COc1ccc2c(c1O)CCCN(C(=O)OC(C)(C)C)C[C@@H](O[Si](C)(C)C(C)(C)C)C2>>COC(=O)[C@H]1C[C@H]2C=C3C[C@H](O[Si](C)(C)C(C)(C)C)CN(C(=O)OC(C)(C)C)CCC[C@]31C(=O)C2(OC)OC",
+    "yield_scope": "Single observed diastereomer"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "ent-B02",
+    "experimental_stage_count": 2,
+    "formal_benchmark_eligible": false,
+    "operation_stages": [
+      {
+        "operation": "ester reduction"
+      },
+      {
+        "operation": "alcohol oxidation"
+      }
+    ],
+    "product_labels": [
+      "ent-7"
+    ],
+    "reactant_labels": [
+      "ent-21"
+    ],
+    "reagents": [
+      "DIBAL-H",
+      "Dess-Martin periodinane"
+    ],
+    "reported_yields": [],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "DCM"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: ent-B02",
+        "pages": [
+          3
+        ],
+        "sha256": "164e728edc844b85e599f7689b4cebab4c448aaadf0f466c63cfab2c313b6bae",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "ent-B02.1"
+    ],
+    "substrate_product_smiles": "COC(=O)[C@H]1C[C@H]2C=C3C[C@H](O[Si](C)(C)C(C)(C)C)CN(C(=O)OC(C)(C)C)CCC[C@]31C(=O)C2(OC)OC>>COC1(OC)C(=O)[C@@]23CCCN(C(=O)OC(C)(C)C)C[C@@H](O[Si](C)(C)C(C)(C)C)CC2=C[C@@H]1C[C@@H]3C=O",
+    "yield_text": "quantitative over two operations"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "ent-B03",
+    "experimental_stage_count": 2,
+    "formal_benchmark_eligible": false,
+    "operation_stages": [
+      {
+        "operation": "Wittig olefination"
+      },
+      {
+        "operation": "reductive demethoxylation"
+      }
+    ],
+    "product_labels": [
+      "ent-22"
+    ],
+    "reactant_labels": [
+      "ent-7",
+      "methoxymethyl phosphonium chloride"
+    ],
+    "reagents": [
+      "tBuOK",
+      "SmI2"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "ent-7",
+        "percent": 29,
+        "product_label": "ent-22",
+        "scope": "Two-operation yield of cis enol ether; trans decomposed"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "THF",
+      "MeOH"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: ent-B03",
+        "pages": [
+          3
+        ],
+        "sha256": "164e728edc844b85e599f7689b4cebab4c448aaadf0f466c63cfab2c313b6bae",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "ent-B03.1"
+    ],
+    "substrate_product_smiles": "COC1(OC)C(=O)[C@@]23CCCN(C(=O)OC(C)(C)C)C[C@@H](O[Si](C)(C)C(C)(C)C)CC2=C[C@@H]1C[C@@H]3C=O.COC[P+](c1ccccc1)(c1ccccc1)c1ccccc1.[Cl-]>>CO/C=C\\[C@H]1C[C@H]2C=C3C[C@H](O[Si](C)(C)C(C)(C)C)CN(C(=O)OC(C)(C)C)CCC[C@]31C(=O)C2",
+    "yield_scope": "Two-operation yield of cis enol ether; trans decomposed"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "ent-B04",
+    "experimental_stage_count": 2,
+    "formal_benchmark_eligible": false,
+    "operation_stages": [
+      {
+        "operation": "ketone reduction"
+      },
+      {
+        "operation": "enol ether hydrolysis"
+      }
+    ],
+    "product_labels": [
+      "ent-23"
+    ],
+    "reactant_labels": [
+      "ent-22"
+    ],
+    "reagents": [
+      "NaBH4",
+      "CSA"
+    ],
+    "reported_yields": [],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "EtOH",
+      "DCM"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: ent-B04",
+        "pages": [
+          3
+        ],
+        "sha256": "164e728edc844b85e599f7689b4cebab4c448aaadf0f466c63cfab2c313b6bae",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "ent-B04.1"
+    ],
+    "substrate_product_smiles": "CO/C=C\\[C@H]1C[C@H]2C=C3C[C@H](O[Si](C)(C)C(C)(C)C)CN(C(=O)OC(C)(C)C)CCC[C@]31C(=O)C2>>CC(C)(C)OC(=O)N1CCC[C@]23C(=C[C@H](C[C@@H]2CC=O)C[C@@H]3O)C[C@H](O[Si](C)(C)C(C)(C)C)C1",
+    "yield_scope": "Unstable source-drawn aldehyde carried directly onward; no separate yield"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "ent-B05",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "ent-24"
+    ],
+    "reactant_labels": [
+      "ent-23"
+    ],
+    "reagents": [
+      "tert-dodecanethiol",
+      "AIBN"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "ent-22",
+        "percent": 41,
+        "product_label": "ent-24",
+        "scope": "Scheme 3 aggregate yield over reduction, hydrolysis, cyclization; not single cyclization yield"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "benzene"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: ent-B05",
+        "pages": [
+          3
+        ],
+        "sha256": "164e728edc844b85e599f7689b4cebab4c448aaadf0f466c63cfab2c313b6bae",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "ent-B05.1"
+    ],
+    "substrate_product_smiles": "CC(C)(C)OC(=O)N1CCC[C@]23C(=C[C@H](C[C@@H]2CC=O)C[C@@H]3O)C[C@H](O[Si](C)(C)C(C)(C)C)C1>>CC(C)(C)OC(=O)N1CCC[C@@]23[C@H]4CC(=O)[C@@]2(C[C@H](C4)C[C@@H]3O)C[C@H](O[Si](C)(C)C(C)(C)C)C1",
+    "yield_from_label": "ent-22",
+    "yield_scope": "Scheme 3 aggregate yield over reduction, hydrolysis, cyclization; not single cyclization yield"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "ent-B06",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "ent-6"
+    ],
+    "reactant_labels": [
+      "ent-24"
+    ],
+    "reagents": [
+      "Dess-Martin periodinane"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "ent-24",
+        "percent": 78,
+        "product_label": "ent-6",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "DCM"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: ent-B06",
+        "pages": [
+          3
+        ],
+        "sha256": "164e728edc844b85e599f7689b4cebab4c448aaadf0f466c63cfab2c313b6bae",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "ent-B06.1"
+    ],
+    "substrate_product_smiles": "CC(C)(C)OC(=O)N1CCC[C@@]23[C@H]4CC(=O)[C@@]2(C[C@H](C4)C[C@@H]3O)C[C@H](O[Si](C)(C)C(C)(C)C)C1>>CC(C)(C)OC(=O)N1CCC[C@@]23C(=O)C[C@H]4C[C@@H]2CC(=O)[C@@]3(C4)C[C@H](O[Si](C)(C)C(C)(C)C)C1"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "ent-B07",
+    "experimental_stage_count": 2,
+    "formal_benchmark_eligible": false,
+    "operation_stages": [
+      {
+        "operation": "TBS/Boc removal"
+      },
+      {
+        "operation": "spontaneous intramolecular hemiaminal formation"
+      }
+    ],
+    "product_labels": [
+      "ent-25"
+    ],
+    "reactant_labels": [
+      "ent-6"
+    ],
+    "reagents": [
+      "concentrated aqueous HCl"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "ent-6",
+        "percent": 44,
+        "product_label": "ent-25",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "toluene"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: ent-B07",
+        "pages": [
+          3
+        ],
+        "sha256": "164e728edc844b85e599f7689b4cebab4c448aaadf0f466c63cfab2c313b6bae",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "ent-B07.1"
+    ],
+    "substrate_product_smiles": "CC(C)(C)OC(=O)N1CCC[C@@]23C(=O)C[C@H]4C[C@@H]2CC(=O)[C@@]3(C4)C[C@H](O[Si](C)(C)C(C)(C)C)C1>>O=C1C[C@H]2C[C@H]3C[C@@]14C[C@H](O)CN1CCC[C@@]24[C@@]1(O)C3"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "ent-B08",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "ent-1"
+    ],
+    "reactant_labels": [
+      "ent-25",
+      "formaldehyde"
+    ],
+    "reagents": [
+      "NaBH3CN"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "ent-25",
+        "percent": 82,
+        "product_label": "ent-1",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "MeOH",
+      "AcOH"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: ent-B08",
+        "pages": [
+          3
+        ],
+        "sha256": "164e728edc844b85e599f7689b4cebab4c448aaadf0f466c63cfab2c313b6bae",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "ent-B08.1"
+    ],
+    "substrate_product_smiles": "C=O.O=C1C[C@H]2C[C@H]3C[C@@]14C[C@H](O)CN1CCC[C@@]24[C@@]1(O)C3>>CN1CCC[C@@]23C(=O)C[C@H]4C[C@@H]2CC(=O)[C@]3(C[C@H](O)C1)C4"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "ALT01",
+    "experimental_stage_count": 2,
+    "formal_benchmark_eligible": false,
+    "operation_stages": [
+      {
+        "operation": "ammonolysis"
+      },
+      {
+        "operation": "selective allylation"
+      }
+    ],
+    "product_labels": [
+      "17"
+    ],
+    "reactant_labels": [
+      "ent-13"
+    ],
+    "reagents": [
+      "NH3",
+      "allyl bromide",
+      "K2CO3"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "ent-13",
+        "percent": 69,
+        "product_label": "17",
+        "scope": "Two-operation sequence"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "MeOH",
+      "EtOH"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: ALT01",
+        "pages": [
+          3
+        ],
+        "sha256": "164e728edc844b85e599f7689b4cebab4c448aaadf0f466c63cfab2c313b6bae",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "ALT01.1"
+    ],
+    "substrate_product_smiles": "COc1ccc(C[C@@H]2OC(C)(C)OC2=O)cc1OC(C)=O>>C=CCOc1cc(C[C@H](O)C(N)=O)ccc1OC",
+    "yield_scope": "Two-operation sequence"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "ALT02",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_stages": [
+      {
+        "operation": "microwave Claisen rearrangement"
+      }
+    ],
+    "product_labels": [
+      "ent-16"
+    ],
+    "reactant_labels": [
+      "17"
+    ],
+    "reagents": [],
+    "reported_yields": [
+      {
+        "from_label": "17",
+        "percent": 40,
+        "product_label": "ent-16",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "1,2-dichlorobenzene"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: ALT02",
+        "pages": [
+          3
+        ],
+        "sha256": "164e728edc844b85e599f7689b4cebab4c448aaadf0f466c63cfab2c313b6bae",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "ALT02.1"
+    ],
+    "substrate_product_smiles": "C=CCOc1cc(C[C@H](O)C(N)=O)ccc1OC>>C=CCc1c(C[C@H](O)C(N)=O)ccc(OC)c1O"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "CTRL01",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "ent-19a"
+    ],
+    "product_relationship": "Ent-19a is the drawn over-reduced component; other mixture member not sufficiently defined in available main source",
+    "reactant_labels": [
+      "ent-18"
+    ],
+    "reagents": [
+      "BEt3",
+      "KOAc",
+      "PhSiH3",
+      "HCl",
+      "Boc2O",
+      "Et3N"
+    ],
+    "reported_yields": [],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "MTBE",
+      "EtOAc",
+      "EtOH"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: CTRL01",
+        "pages": [
+          3
+        ],
+        "sha256": "164e728edc844b85e599f7689b4cebab4c448aaadf0f466c63cfab2c313b6bae",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "CTRL01.1"
+    ],
+    "substrate_product_smiles": "C=CCc1c(C[C@H](O[Si](C)(C)C(C)(C)C)C(N)=O)ccc(OC)c1O[Si](C)(C)C(C)(C)C>>CCCc1c(C[C@@H](CNCC(C)(C)OC=O)O[Si](C)(C)C(C)(C)C)ccc(OC)c1O[Si](C)(C)C(C)(C)C",
+    "yield_scope": "Inseparable mixture; no individual yield reported"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "CTRL02",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "26"
+    ],
+    "reactant_labels": [
+      "6"
+    ],
+    "reagents": [
+      "PTSA"
+    ],
+    "reported_yields": [],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "DCM"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: CTRL02",
+        "pages": [
+          4
+        ],
+        "sha256": "164e728edc844b85e599f7689b4cebab4c448aaadf0f466c63cfab2c313b6bae",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "CTRL02.1"
+    ],
+    "substrate_product_smiles": "CC(C)(C)OC(=O)N1CCC[C@]23C(=O)C[C@@H]4C[C@H]2CC(=O)[C@]3(C4)C[C@@H](O[Si](C)(C)C(C)(C)C)C1>>CC(C)(C)OC(=O)N1CCC[C@]23C(=O)C[C@@H]4C[C@H]2CC(=O)[C@@]3(C[C@@H](O)C1)C4"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "C01",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "29"
+    ],
+    "reactant_labels": [
+      "25"
+    ],
+    "reagents": [
+      "Dess-Martin periodinane"
+    ],
+    "reported_yields": [],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "DCM"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: C01",
+        "pages": [
+          4
+        ],
+        "sha256": "164e728edc844b85e599f7689b4cebab4c448aaadf0f466c63cfab2c313b6bae",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "C01.1"
+    ],
+    "substrate_product_smiles": "O=C1C[C@@H]2C[C@@H]3C[C@]14C[C@@H](O)CN1CCC[C@]24[C@]1(O)C3>>O=C1CN2CCC[C@]34[C@@H]5CC(=O)[C@@]3(C1)C[C@@H](C5)C[C@]24O"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "C02",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "30"
+    ],
+    "reactant_labels": [
+      "29"
+    ],
+    "reagents": [
+      "L-Selectride"
+    ],
+    "reported_yields": [],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: C02",
+        "pages": [
+          4
+        ],
+        "sha256": "164e728edc844b85e599f7689b4cebab4c448aaadf0f466c63cfab2c313b6bae",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "C02.1"
+    ],
+    "substrate_product_smiles": "O=C1CN2CCC[C@]34[C@@H]5CC(=O)[C@@]3(C1)C[C@@H](C5)C[C@]24O>>O=C1C[C@@H]2C[C@@H]3C[C@]14C[C@H](O)CN1CCC[C@]24[C@]1(O)C3"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "C03",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "2"
+    ],
+    "reactant_labels": [
+      "30",
+      "formaldehyde"
+    ],
+    "reagents": [
+      "NaBH3CN"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "25",
+        "percent": 25,
+        "product_label": "2",
+        "scope": "25% over oxidation, reduction, reductive methylation; not last-operation yield"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "MeOH",
+      "AcOH"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: C03",
+        "pages": [
+          4
+        ],
+        "sha256": "164e728edc844b85e599f7689b4cebab4c448aaadf0f466c63cfab2c313b6bae",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "C03.1"
+    ],
+    "substrate_product_smiles": "C=O.O=C1C[C@@H]2C[C@@H]3C[C@]14C[C@H](O)CN1CCC[C@]24[C@]1(O)C3>>CN1CCC[C@]23C(=O)C[C@@H]4C[C@H]2CC(=O)[C@@]3(C[C@H](O)C1)C4",
+    "yield_from_label": "25",
+    "yield_scope": "25% over oxidation, reduction, reductive methylation; not last-operation yield"
+  }
+]

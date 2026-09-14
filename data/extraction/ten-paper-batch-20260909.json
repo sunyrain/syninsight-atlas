@@ -1,0 +1,102 @@
+{
+  "batch_id": "ten-papers-20260909",
+  "paper_count": 10,
+  "extraction_state": "source_bound_candidates_pending_independent_review",
+  "selection_change": {
+    "deferred": "paper-e6385b951e04c2da",
+    "replacement": "paper-07ff316d638655e4",
+    "reason": "Caged-framework stereochemistry in deferred source requires further review; selected source has a clearer forward network."
+  },
+  "papers": [
+    {
+      "paper_id": "paper-07ff316d638655e4",
+      "curation_path": "data/curation/isoriccardins-network.json",
+      "adapter": "scripts/extract_isoriccardins_case.py",
+      "molecules": 25,
+      "events": 18,
+      "paths": 3,
+      "coverage": "Main-paper Schemes 1-3: complete forward network for Isoriccardin C/D and the nitro analogue, from available aldehyde, boronic acids and supplied S1-S4 partners. SI is unavailable locally, so cited precursor preparations of S2/S4 and internal intermediates without drawings are outside source-bound coverage. THP stereocenters and macrocyclic planar stereochemistry remain unassigned; E/Z Wittig mixtures remain mixtures."
+    },
+    {
+      "paper_id": "paper-e5ffb08ae89e3c60",
+      "curation_path": "data/curation/kayeassamin_mammeasin-network.json",
+      "adapter": "scripts/extract_kayeassamin_mammeasin_case.py",
+      "molecules": 41,
+      "events": 35,
+      "paths": 9,
+      "coverage": "Forward preparative networks of Schemes 3-5 plus named isolated byproduct 47: both convergent fragments, successful targets, rejected regioselective branches and recoverable byproducts. Earlier literature Schemes 1/2 and unidentified decomposition products excluded. Screening repeats with the same molecular endpoints are represented by selected source conditions, not fabricated additional steps. SI unavailable locally; main experimental data provide source validation."
+    },
+    {
+      "paper_id": "paper-e33dda994e3c8017",
+      "curation_path": "data/curation/nobilin_bibenzyls-network.json",
+      "adapter": "scripts/extract_nobilin_bibenzyls_case.py",
+      "molecules": 27,
+      "events": 21,
+      "paths": 11,
+      "coverage": "All forward transformations in Schemes 2-5 from the cited known diketone 5, including the failed Dakin branch and X-ray derivatives. Unisolated 6/7 and aggregate three-stage yield remain explicitly grouped; no upstream literature chemistry inferred. SI is unavailable locally. Relative cage stereochemistry of starting 5 and transient 6/7 remains unassigned; racemic alcohol and epoxide graphs do not assert a single enantiomer."
+    },
+    {
+      "paper_id": "paper-5adb96be45d961bc",
+      "curation_path": "data/curation/penibruguieramine-network.json",
+      "adapter": "scripts/extract_penibruguieramine_case.py",
+      "molecules": 18,
+      "events": 10,
+      "paths": 2,
+      "coverage": "All displayed successful forward transformations from known chiral 8 and the racemic exploration from 10. The four-step literature preparation 9 to 8 is only cited, not expanded into guessed intermediates; the natural-product route starts at 8. SI procedures are not locally available, so conditions and stereobonds are bounded to main Schemes 1-3."
+    },
+    {
+      "paper_id": "paper-77c5a5f42c45c029",
+      "curation_path": "data/curation/pm_oxazoles-network.json",
+      "adapter": "scripts/extract_pm_oxazoles_case.py",
+      "molecules": 27,
+      "events": 20,
+      "paths": 3,
+      "coverage": "Preparative total-synthesis network in Schemes 1-3, from literature starting materials 4 and 13 and supplied allenoate/auxiliary. E/Z mixture, isolated Z branch and convergent reactants retained. Unisolated activation intermediates are operation stages, not invented isolated compounds. Analytical Mosher/Marfey degradation experiments are outside preparative route coverage."
+    },
+    {
+      "paper_id": "paper-77fd7065d0ee2310",
+      "curation_path": "data/curation/procerones-network.json",
+      "adapter": "scripts/extract_procerones_case.py",
+      "molecules": 17,
+      "events": 10,
+      "paths": 4,
+      "coverage": "Complete source preparative network for procerones A/B, including epoxide and over-reduced branches and physical HPLC separation. Starts 10 and 11a/b are explicitly purchased. Source natural-product configuration labels are retained; chromatographic resolution is not counted as chemical bond formation."
+    },
+    {
+      "paper_id": "paper-7cb3eccb7d7bacf1",
+      "curation_path": "data/curation/protulactone_b-network.json",
+      "adapter": "scripts/extract_protulactone_b_case.py",
+      "molecules": 13,
+      "events": 9,
+      "paths": 2,
+      "coverage": "Eight-event target route from commercial methyl alpha-L-rhamnopyranoside and observed methanolysis side branch, bound to main-paper experimental procedures and Schemes 3/4. Names parsed locally by cached OPSIN and checked against source drawings/formulas. Proposed mechanistic species 17/18 and the unobserved desired tetraol 13 are not isolated preparations. Anomeric/diastereomeric mixtures retain unspecified centers."
+    },
+    {
+      "paper_id": "paper-6ff9a985e64e1b0e",
+      "curation_path": "data/curation/scytonemin-network.json",
+      "adapter": "scripts/extract_scytonemin_case.py",
+      "molecules": 16,
+      "events": 18,
+      "paths": 4,
+      "coverage": "Source Schemes 2-5 and SI preparations from isatin 7 and known ketone 8, including isolated TMS ether S1 and crude drawn aminal 6. Earlier preparation of known 8 is not reconstructed. Unassigned source mixtures remain unspecified."
+    },
+    {
+      "paper_id": "paper-3e14822739da3f53",
+      "curation_path": "data/curation/spirobroussonin-network.json",
+      "adapter": "scripts/extract_spirobroussonin_case.py",
+      "molecules": 13,
+      "events": 10,
+      "paths": 7,
+      "coverage": "Four-event main route from 3,4-dihydroxybenzaldehyde to racemic spirobroussonin B, plus reported methyl-analogue conversion, gram-scale preparation and HPLC fractions. The named unnumbered chalcone used for 5a is an explicit upstream boundary. Scheme-only protected 6 and radical intermediates are mechanistic, not isolated preparative nodes."
+    },
+    {
+      "paper_id": "paper-4535edb11a27941f",
+      "curation_path": "data/curation/waltherione-network.json",
+      "adapter": "scripts/extract_waltherione_case.py",
+      "molecules": 43,
+      "events": 28,
+      "paths": 13,
+      "coverage": "Main article preparation network 1-4, 5a-l and 6a-l, plus the observed unsaturated Heck screening product. Waltherione S is 6a; 6b-l are synthetic analogues. Main figures and experimental section cover these steps; unavailable SI spectra are not claimed reviewed."
+    }
+  ]
+}

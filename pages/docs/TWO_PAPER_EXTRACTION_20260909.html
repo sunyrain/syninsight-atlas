@@ -1,0 +1,73 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>两篇新增文章的路线提取与 token 实测 | SynInsight Atlas</title><link rel="stylesheet" href="../../assets/report.css"><link rel="icon" href="../../assets/favicon.svg"></head><body class="publication-page"><a class="skip-link" href="#document">Skip to content</a><nav class="publication-nav" aria-label="Atlas navigation"><a class="brand" href="../../index.html">SI · SynInsight Atlas</a><div><a href="../../index.html#atlas">Papers & routes</a><a href="../../index.html#dataset">Reaction dataset</a></div></nav><div class="document-meta">Reference document · <a href="../../docs/TWO_PAPER_EXTRACTION_20260909.md" download>Download original file</a></div><main id="document" class="document-content"><h1 id="token">两篇新增文章的路线提取与 token 实测</h1>
+<p>本轮于 2026-09-09 10:30:04（Asia/Shanghai）开始。选择时，两篇均未有 <code>data/routes/&lt;paper_id&gt;/dataset.json</code>，且正文和补充材料已在本地；不占用原优先 19 篇的名单。</p>
+<div aria-label="Scrollable data table" class="table-scroll" tabindex="0"><table>
+<thead>
+<tr>
+<th>文章</th>
+<th style="text-align: right;">分子记录</th>
+<th style="text-align: right;">制备/对照事件</th>
+<th style="text-align: right;">路径</th>
+<th>报告</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Fleminchalcone C，<code>paper-ed2bb8684ec5aaae</code></td>
+<td style="text-align: right;">29</td>
+<td style="text-align: right;">26</td>
+<td style="text-align: right;">4</td>
+<td><a href="../data/routes/paper-ed2bb8684ec5aaae/report.html">打开</a></td>
+</tr>
+<tr>
+<td>Violaceoid E，<code>paper-c2d9ec46e06369bf</code></td>
+<td style="text-align: right;">23</td>
+<td style="text-align: right;">21</td>
+<td style="text-align: right;">6</td>
+<td><a href="../data/routes/paper-c2d9ec46e06369bf/report.html">打开</a></td>
+</tr>
+<tr>
+<td>合计</td>
+<td style="text-align: right;">52</td>
+<td style="text-align: right;">47</td>
+<td style="text-align: right;">10</td>
+<td></td>
+</tr>
+</tbody>
+</table></div>
+<p>这里的“事件”是有来源依据的制备或对照转换。一锅多阶段操作保留 <code>operation_stages</code>；未单独分离的内部中间体不补写独立 SMILES。路径包括成功路线和有图示产物的对照分支，不等于 10 个天然产物。</p>
+<h2 id="_1">实际过程</h2>
+<ol>
+<li>从库存及已有案例状态中选文，确认正文与 SI 的真实内容，排除重复正文和原始 NMR 压缩包。</li>
+<li>使用本地文件、已有索引、限量摘录和局部页图核对反应图。两篇原文下载次数为 <strong>0</strong>；计量接口说明另有官方文档查阅，不属于论文获取。</li>
+<li>Fleminchalcone C 逐图转录共同骨架，程序展开外消旋体及两个对映体系列，按来源配置检查 CIP、环系、双键和分子式。</li>
+<li>Violaceoid E 的制备步骤位于正文，SI 是谱图及计算。18 个实验标题名称与正文规范化匹配通过；连同 1 个从起始物图示整理的名称，共 19 个名称交给本地 OPSIN 一次批量解析。之后核对源图，不将名称解析成功等同于结构正确。</li>
+<li>两篇结构和反应事实保存在 <code>data/curation/*-network.json</code>。通用编译器生成 canonical isomeric SMILES、反应连接、路线序列、分子式和精确质量。43 条 HRMS 记录由程序抽取后按来源顺序绑定标签：42 条分子式一致，1 条保留原文冲突。</li>
+<li>程序生成 JSON、CSV、SDF、SVG 和 HTML，执行 schema、拓扑、canonical SMILES、端点、SDF 往返和校验和检查。仅重建选中的两篇；随后统一更新一次 SQLite 和数据库导出。</li>
+<li>重复运行相同选择，确认案例和数据库均命中缓存。过程包括试运行发现的问题和修正，它们也计入 token。</li>
+</ol>
+<h2 id="_2">关键化学范围</h2>
+<ul>
+<li><strong>Fleminchalcone C：</strong>从已知 6 出发，外消旋路线 8 个事件、R/S 路线各 9 个事件；另含未保护底物的 Shi 对照。6 的文献上游六步不在本文制备网络内。外消旋物另存带 AND 组的 canonical CXSMILES；普通 canonical SMILES 不伪装成单一对映体。a/b 表示所报主要对映体，不表示 100% ee。</li>
+<li><strong>Violaceoid E：</strong>覆盖原拟结构的短路线、修订天然结构 <code>(4R,5R)-1</code> 的 8 事件路线及另一条原拟结构路线；展开正文合并图中的分离中间体 18、19、20。3α/3β 的 68% 是混合物总产率，11/12 则分别保存实验所报分离产率。</li>
+<li>Violaceoid E 的金属烯醇盐 5 是机理中间体，13 是文献对照物，计算模型不是制备产物；均不列为本文分离节点。</li>
+<li>原文用量、编号、ee 和 HRMS 冲突保留在 <code>issues</code>/<code>hrms_checks</code>。Violaceoid E 的 16 原文公式写 O₃，图示、名称和所报质量支持 O₄，两者分别记录。</li>
+<li>两篇已覆盖上述<strong>本文成功制备网络</strong>。已知起始物的外部文献制备没有补造；<code>from_commercial_starting_materials_complete=false</code>。独立化学专家审核仍待完成，未进入正式 benchmark。</li>
+</ul>
+<h2 id="token_1">Token 计量口径</h2>
+<p>权威数字见 <a href="../../reader.html?file=data%2Fextraction%2Ftwo-paper-token-usage.json">two-paper-token-usage.json</a>，由 <a href="../../reader.html?file=scripts%2Fmeasure_extraction_tokens.py">计量程序</a>读取当前工作 turn 的本地 <code>token_usage_record</code> 实测记录。没有依据字数估算，也没有导出提示词、思维内容、其他 turn 数据或会话标识。</p>
+<ul>
+<li><code>total</code>：运行时该 turn 的累计计数；<code>responses</code>：去重后的逐响应数字。<code>per_response_sum_matches_turn_total</code> 验证二者一致。</li>
+<li><code>input_tokens</code> 已包含 <code>cached_input_tokens</code>；两者不能相加。非缓存输入另列 <code>uncached_input_tokens</code>。</li>
+<li><code>reasoning_output_tokens</code> 是输出的子集，不能再次加到 <code>output_tokens</code> 上。</li>
+<li><code>stages</code> 分为选文/计量准备、第一篇、第二篇、共享验证与交付。它按记录时间分段，跨工具边界和共享代码使其<strong>不是两次隔离的单篇基准测试</strong>；化学原文较简单也不代表共享计量开销小。</li>
+<li>总数包含选文、技能与文档读取、计量工具开发、失败修正、两篇提取、验证和最终答复。确定性 Python/RDKit/OPSIN 程序本身没有调用 LLM；它们返回给助手的内容仍会占后续模型输入。</li>
+<li>最后一个后台采集器等最终答复的用量落盘后补记。<code>turn_completed=true</code> 表示工作 turn 已结束；<code>measurement_finalized=true</code> 表示结束后至少 30 秒、记录至少 15 秒无新增，采集器已收尾。查看最终数值应检查这两个字段。</li>
+<li>这是 token 遥测，不是账单金额。历史长上下文的缓存输入会重复计入每次响应输入；没有同条件对照，不能从本轮直接推算节省百分比。</li>
+</ul>
+<h2 id="_3">复现</h2>
+<p>验收结果：27 个案例审计通过，其中 25 个复用既有审计缓存；SQLite 完整性通过、外键违规 0。流程与新案例测试 43 项通过，数据库与新案例测试 60 项通过（两组有 3 项重复）。第二次选文运行显示两个案例 <code>unchanged</code>、数据库 <code>unchanged</code>。</p>
+<pre><code class="language-powershell">.venv/Scripts/python.exe scripts/batch_extract_atlas.py --paper paper-ed2bb8684ec5aaae --paper paper-c2d9ec46e06369bf
+.venv/Scripts/python.exe scripts/audit_route_cases.py
+.venv/Scripts/python.exe -m pytest tests/test_two_paper_networks.py tests/test_extraction_cache.py tests/test_resource_cache.py tests/test_partial19_cases.py tests/test_batch_extraction.py -q
+</code></pre>
+<p>结构编译不依赖再次调用 OPSIN 或 LLM。源文件哈希、配置、程序、运行时和输出参与缓存判断；改变来源时要求重新核对。token 采集的本地日志定位信息留在 <code>.local/</code>，不属于可再分发数据。</p></main><footer class="publication-footer"><a href="../../index.html">Return to Atlas</a><span>Candidate curation · Data CC BY 4.0 · Code MIT</span></footer><script src="../../assets/publication.js" defer></script></body></html>

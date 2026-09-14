@@ -1,88 +1,109 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="SynInsight Atlas: an evidence-grounded candidate dataset for strategic reasoning in recent total synthesis.">
-  <title>SynInsight Atlas</title>
-  <link rel="stylesheet" href="assets/styles.css">
-</head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="SynInsight Atlas: an evidence-grounded candidate dataset for strategic reasoning in recent total synthesis." name="description"/>
+<title>SynInsight Atlas · Synthesis data &amp; evidence</title>
+<link href="assets/favicon.svg" rel="icon"/>
+<link href="assets/styles.css" rel="stylesheet"/>
+<link href="assets/dataset.css" rel="stylesheet"/><link href="assets/interactions.css" rel="stylesheet"/><script defer="" src="assets/interactions.js"></script></head>
 <body>
-  <header class="hero">
-    <nav class="nav shell">
-      <a class="brand" href="./" aria-label="SynInsight Atlas home"><span>SI</span> SynInsight Atlas</a>
-      <div class="nav-links">
-        <a href="#explore">Explore</a>
-        <a href="#methods">Design</a>
-        <a href="data/targets.csv">Download</a>
-        <a href="https://github.com/sunyrain/syninsight-atlas">GitHub</a>
-      </div>
-    </nav>
-    <div class="shell hero-grid">
-      <div>
-        <p class="eyebrow">Candidate curation release · v0.1</p>
-        <h1>Evidence-grounded data for<br><em>synthetic insight</em></h1>
-        <p class="lede">A browsable collection of recent total-synthesis targets, source-bound structure candidates, route-evidence leads, and explicit human-admission state.</p>
-        <div class="hero-actions">
-          <a class="button primary" href="#explore">Explore targets</a>
-          <a class="button" href="data/release.json">Release metadata</a>
-        </div>
-      </div>
-      <aside class="status-panel">
-        <p class="status-label">Release boundary</p>
-        <strong id="release-stage">Loading…</strong>
-        <p>This release supports transparent expert curation. Candidate structures and route leads are not literature truth until independent review.</p>
-        <div class="admission-line"><span id="admitted-count">—</span> human-admitted runnable targets</div>
-      </aside>
-    </div>
-  </header>
-
-  <main>
-    <section class="shell metrics" aria-label="Dataset summary">
-      <article><strong id="metric-papers">—</strong><span>candidate papers</span></article>
-      <article><strong id="metric-targets">—</strong><span>target slots</span></article>
-      <article><strong id="metric-structures">—</strong><span>RDKit-valid candidates</span></article>
-      <article><strong id="metric-routes">—</strong><span>route-evidence leads</span></article>
-      <article><strong id="metric-sources">—</strong><span>source packages</span></article>
-    </section>
-
-    <section id="explore" class="shell explorer">
-      <div class="section-heading">
-        <div><p class="eyebrow">Dataset browser</p><h2>Targets and evidence state</h2></div>
-        <div class="download-links"><a href="data/targets.csv">Targets CSV</a><a href="data/papers.csv">Papers CSV</a><a href="CHECKSUMS.sha256">Checksums</a></div>
-      </div>
-      <div class="notice"><strong>Interpretation:</strong> “candidate” means machine-assisted transcription or extraction awaiting source-concordant human admission. It is not a negative or positive planning result.</div>
-      <form class="filters" id="filters" role="search">
-        <label class="search"><span>Search</span><input id="query" type="search" placeholder="Target, paper, DOI, journal…"></label>
-        <label><span>Cohort</span><select id="cohort"><option value="all">All</option><option value="P0">P0 curated seed</option><option value="P1">P1 candidate</option></select></label>
-        <label><span>Structure</span><select id="structure"><option value="all">All</option><option value="exact_source_structure_candidate">Candidate: exact source</option><option value="partial_stereo_candidate">Candidate: stereo unresolved</option><option value="unresolved">Unresolved</option></select></label>
-        <label><span>Route lead</span><select id="route"><option value="all">All</option><option value="yes">Available</option><option value="no">Not located</option></select></label>
-        <label><span>Source</span><select id="source"><option value="all">All</option><option value="article_and_supporting_information">Article + SI</option><option value="article_only">Article only</option><option value="supporting_information_only">SI only</option><option value="none">Missing</option></select></label>
-      </form>
-      <div class="result-line"><strong id="result-count">0</strong> targets <button id="reset" type="button">Reset filters</button></div>
-      <div id="cards" class="cards" aria-live="polite"></div>
-      <div id="empty" class="empty" hidden>No targets match these filters.</div>
-      <nav class="pagination" aria-label="Result pages"><button id="previous" type="button">Previous</button><span id="page-label"></span><button id="next" type="button">Next</button></nav>
-    </section>
-
-    <section id="methods" class="methods">
-      <div class="shell methods-grid">
-        <div><p class="eyebrow">Why this dataset</p><h2>Route value is more than step count</h2></div>
-        <div class="method-list">
-          <article><span>01</span><div><h3>Evidence before admission</h3><p>Paper identity, target stereochemistry, and route-defining transformations remain separate claims with source locators.</p></div></article>
-          <article><span>02</span><div><h3>Insight before imitation</h3><p>Literature similarity and intrinsic route value are evaluated separately, so credible novel strategies remain visible.</p></div></article>
-          <article><span>03</span><div><h3>Failures stay in the denominator</h3><p>Unresolved structures, missing sources, and negative reviews are first-class dataset states rather than hidden exclusions.</p></div></article>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <dialog id="detail-dialog">
-    <button class="dialog-close" id="dialog-close" aria-label="Close">×</button>
-    <div id="dialog-content"></div>
-  </dialog>
-
-  <footer class="shell footer"><p>SynInsight Atlas · candidate curation release</p><p>Data: CC BY 4.0 · Code: MIT</p></footer>
-  <script src="assets/app.js" defer></script>
-</body>
+<a class="skip-link" href="#dataset">Skip to dataset</a>
+<header class="hero">
+<nav class="nav shell">
+<a aria-label="SynInsight Atlas home" class="brand" href="index.html"><span>SI</span> SynInsight Atlas</a>
+<div class="nav-links"><a href="#dataset">Reaction dataset</a>
+<a href="#atlas">Papers &amp; routes</a><a href="#explore">Targets</a>
+<a href="#methods">Design</a>
+<a href="https://github.com/sunyrain/syninsight-atlas" rel="noopener noreferrer" target="_blank">GitHub</a>
+</div>
+</nav>
+<div class="shell atlas-heading">
+<div><p class="eyebrow">Total synthesis · evidence &amp; curation</p>
+<h1>Synthesis routes, step by step.</h1>
+<p class="lede">Explore and download an ABSynth-shaped dataset, grounded in source-bound synthesis records.</p></div>
+<a class="button" download="" href="data/database/SynInsight_ABSynth_Dataset.csv">Download dataset CSV ↓</a>
+</div>
+</header>
+<main>
+<p class="shell notice" hidden="" id="site-status" role="status"></p>
+<section aria-labelledby="ds-title" class="shell ds-section" id="dataset">
+<div class="section-heading"><div><p class="eyebrow">Primary dataset · ABSynth format</p><h2 id="ds-title">Reaction steps &amp; synthesis paths</h2></div><div class="download-links"><a download="" href="data/database/SynInsight_ABSynth_Dataset.csv">Download CSV</a><a download="" href="data/database/SynInsight_ABSynth_Dataset.tsv">Tab-separated TSV</a><a href="pages/docs/ABSYNTH_DATASET.html">Fields &amp; scope</a><a download="" href="data/database/absynth_metadata.json">Provenance metadata</a></div></div>
+<p class="notice">Candidate records · pending independent chemical review. Each row is a step occurrence in a path; shared operations repeat across paths. Partial routes and control branches are included.</p>
+<div aria-live="polite" class="atlas-metrics" id="ds-metrics"></div>
+<form class="ds-filters" id="ds-filters" role="search"><label>Search dataset<input aria-keyshortcuts="/" id="ds-query" placeholder="Search target, DOI, author, SMILES or conditions…" type="search"/></label><label>Target / path<select id="ds-path"><option value="">All paths</option></select></label><label>Path type<select id="ds-kind"><option value="">All types</option></select></label><button type="reset">Reset</button></form>
+<div aria-label="Active filters" hidden="" id="ds-active-filters"></div><div class="result-line"><span id="ds-count" role="status">Loading reaction dataset…</span><button id="ds-share" type="button">Copy search link</button><button disabled="" id="ds-export" type="button">Export filtered CSV</button><button aria-label="Previous page" disabled="" id="ds-prev-top" type="button">←</button><button aria-label="Next page" disabled="" id="ds-next-top" type="button">→</button><form class="ds-jump" id="ds-jump-form-top"><label for="ds-jump-top">Go to page</label><input aria-describedby="ds-jump-total-top" disabled="" id="ds-jump-top" inputmode="numeric" max="1" min="1" required="" step="1" type="number" value="1"/><span id="ds-jump-total-top">/ —</span><button disabled="" type="submit">Go</button></form></div>
+<p class="ds-help">Nine CSV fields are shown below; Year and Author appear beneath DOI. Select a target to open its vector reaction pathway; use Filter this path to narrow the table, or choose Preview step to inspect its conditions and source evidence above the table. Scroll the table horizontally to inspect all columns.</p>
+<div class="notice" hidden="" id="ds-error" role="alert"></div>
+<aside aria-label="Selected reaction step" class="ds-preview" hidden="" id="ds-preview" tabindex="-1"></aside>
+<div aria-label="Reaction dataset table" class="table-scroll" tabindex="0"><table class="ds-table"><thead><tr><th scope="col">TargetName / PathId</th><th scope="col">DOI / Year / Author</th><th scope="col">StepId</th><th scope="col">RxnSMILES</th><th scope="col">RxnName</th><th scope="col">Conditions</th><th scope="col">Evidence</th></tr></thead><tbody id="ds-rows"></tbody></table></div>
+<p class="empty" hidden="" id="ds-empty">No steps match your filters. Try fewer keywords. <button id="ds-empty-reset" type="button">Clear filters</button></p>
+<nav aria-label="Reaction dataset pages" class="pagination"><button disabled="" id="ds-prev" type="button">Previous</button><span id="ds-page"></span><button disabled="" id="ds-next" type="button">Next</button><form class="ds-jump" id="ds-jump-form-bottom"><label for="ds-jump-bottom">Go to page</label><input aria-describedby="ds-jump-total-bottom" disabled="" id="ds-jump-bottom" inputmode="numeric" max="1" min="1" required="" step="1" type="number" value="1"/><span id="ds-jump-total-bottom">/ —</span><button disabled="" type="submit">Go</button></form></nav>
+<p class="ds-help" id="ds-quality"></p><noscript><p>JavaScript is needed for search. <a download="" href="data/database/SynInsight_ABSynth_Dataset.csv">Download the complete CSV</a> or read the case reports below.</p></noscript>
+</section><section aria-label="Current extraction database" class="shell atlas-workspace" id="atlas">
+<div class="section-heading"><div><p class="eyebrow">Current extraction database</p><h2>Papers &amp; reaction networks</h2></div>
+<div class="download-links"><a download="" href="data/atlas.sqlite">SQLite database</a><a href="reader.html?file=data%2Fdatabase%2Fpapers.csv">Paper coverage CSV</a><a href="reader.html?file=data%2Fdatabase%2Froute_smiles.csv">Route SMILES CSV</a></div></div>
+<p class="notice">Source-bound candidates await independent chemical review. Paths include partial routes and control branches; preparation events are not necessarily linear synthesis steps.</p>
+<div aria-live="polite" class="atlas-metrics" id="atlas-metrics"></div>
+<div aria-label="Paper extraction coverage" class="coverage" id="atlas-coverage"></div>
+<form class="paper-filters" id="paper-filters" role="search">
+<label><span>Find a paper</span><input id="paper-query" placeholder="Title, DOI or paper ID…" type="search"/></label>
+<label><span>Extraction state</span><select id="paper-status"><option value="all">All papers</option><option value="extracted_candidate_pending_review">Extracted · pending review</option><option value="pending_structure_transcription">Pending transcription</option><option value="source_missing_local">Local source missing</option><option value="metadata_only">Metadata only</option></select></label>
+<button type="reset">Reset</button>
+</form>
+<div class="result-line"><span id="paper-count" role="status">Loading paper coverage…</span><span>Counts refer to records within each paper</span></div>
+<div class="notice" hidden="" id="paper-error" role="alert"></div>
+<div aria-label="Paper coverage table" class="table-scroll" tabindex="0"><table class="paper-table"><thead><tr><th scope="col">Paper / source</th><th scope="col">Extraction state</th><th scope="col">Molecules</th><th scope="col">Events</th><th scope="col">Paths</th><th scope="col">Data</th></tr></thead><tbody id="paper-rows"></tbody></table></div>
+<p class="empty" hidden="" id="paper-empty">No papers match. Try a different title or extraction state.</p>
+<nav aria-label="Paper pages" class="pagination"><button disabled="" id="paper-previous" type="button">Previous</button><span id="paper-page"></span><button disabled="" id="paper-next" type="button">Next</button></nav>
+</section>
+<div class="shell snapshot-heading"><p class="eyebrow">Original candidate release · v0.1</p><h2>Target structure catalog</h2><p>These release-snapshot counts are separate from the current extraction database above. <span id="release-stage">Loading…</span> · <span id="admitted-count">—</span> human-admitted runnable targets.</p></div>
+<section aria-label="Dataset summary" class="shell metrics">
+<article><strong id="metric-papers">—</strong><span>candidate papers</span></article>
+<article><strong id="metric-targets">—</strong><span>target slots</span></article>
+<article><strong id="metric-structures">—</strong><span>RDKit-valid candidates</span></article>
+<article><strong id="metric-routes">—</strong><span>route-evidence leads</span></article>
+<article><strong id="metric-sources">—</strong><span>source packages</span></article>
+</section>
+<section class="shell explorer" id="explore">
+<div class="section-heading">
+<div><p class="eyebrow">Dataset browser</p><h2>Targets and evidence state</h2></div>
+<div class="download-links"><a href="reader.html?file=data%2Ftargets.csv">Targets CSV</a><a href="reader.html?file=data%2Fpapers.csv">Papers CSV</a></div>
+</div>
+<div class="notice"><strong>Interpretation:</strong> “candidate” means machine-assisted transcription or extraction awaiting source-concordant human admission. It is not a negative or positive planning result.</div>
+<form class="filters" id="filters" role="search">
+<label class="search"><span>Search</span><input id="query" placeholder="Target, paper, DOI, journal…" type="search"/></label>
+<label><span>Cohort</span><select id="cohort"><option value="all">All</option><option value="P0">P0 curated seed</option><option value="P1">P1 candidate</option></select></label>
+<label><span>Structure</span><select id="structure"><option value="all">All</option><option value="exact_source_structure_candidate">Candidate: exact source</option><option value="partial_stereo_candidate">Candidate: stereo unresolved</option><option value="unresolved">Unresolved</option></select></label>
+<label><span>Route lead</span><select id="route"><option value="all">All</option><option value="yes">Available</option><option value="no">Not located</option></select></label>
+<label><span>Source</span><select id="source"><option value="all">All</option><option value="article_and_supporting_information">Article + SI</option><option value="article_only">Article only</option><option value="supporting_information_only">SI only</option><option value="none">Missing</option></select></label>
+</form>
+<div class="result-line"><span><strong id="result-count">0</strong> targets</span> <button id="reset" type="button">Reset filters</button></div>
+<div aria-live="polite" class="cards" id="cards"></div>
+<noscript><p class="notice">Enable JavaScript for interactive search, or <a href="pages/data/database/report.html">read the database report</a>.</p></noscript>
+<div class="empty" hidden="" id="empty">No targets match these filters.</div>
+<nav aria-label="Result pages" class="pagination"><button id="previous" type="button">Previous</button><span id="page-label"></span><button id="next" type="button">Next</button></nav>
+</section>
+<section class="methods" id="methods">
+<div class="shell methods-grid">
+<div><p class="eyebrow">Why this dataset</p><h2>Route value is more than step count</h2></div>
+<div class="method-list">
+<article><span>01</span><div><h3>Evidence before admission</h3><p>Paper identity, target stereochemistry, and route-defining transformations remain separate claims with source locators.</p></div></article>
+<article><span>02</span><div><h3>Insight before imitation</h3><p>Literature similarity and intrinsic route value are evaluated separately, so credible novel strategies remain visible.</p></div></article>
+<article><span>03</span><div><h3>Failures stay in the denominator</h3><p>Unresolved structures, missing sources, and negative reviews are first-class dataset states rather than hidden exclusions.</p></div></article>
+</div>
+</div>
+</section>
+</main>
+<dialog aria-label="Target evidence details" id="detail-dialog">
+<button aria-label="Close" class="dialog-close" id="dialog-close">×</button>
+<div id="dialog-content"></div>
+</dialog>
+<footer class="shell footer"><p>SynInsight Atlas · candidate curation release</p><p>Data: CC BY 4.0 · Code: MIT</p></footer>
+<script defer="" src="assets/site.js"></script>
+<script defer="" src="assets/app.js"></script>
+<script defer="" src="assets/atlas.js"></script>
+<dialog aria-label="Reaction step details" id="ds-dialog"><button aria-label="Close reaction details" id="ds-close" type="button">Close ×</button><div id="ds-detail"></div></dialog><script defer="" src="assets/dataset.js"></script></body>
 </html>

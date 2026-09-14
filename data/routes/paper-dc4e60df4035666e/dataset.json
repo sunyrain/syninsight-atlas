@@ -1,0 +1,626 @@
+{
+  "admission_authority": false,
+  "available_si_preparation_network_covered": true,
+  "conditions_fully_standardized": false,
+  "coverage_definition": "All three forward preparations in available SI pp2-4 and Figure S4-S6 p6, including the drawn prenyl bromide coupling substrate. Main article unavailable locally; no full-article coverage claim. Epoxide absolute configuration not specified by source drawings.",
+  "doi": "10.1080/14786419.2026.2694725",
+  "extraction_method": "source_drawing_checked_network_transcription",
+  "formal_benchmark_eligible": false,
+  "formula_checks": [
+    {
+      "check_basis": "Curation expected formula; source HRMS where available, otherwise drawing atom count.",
+      "expected_neutral_formula": "C10H6O4",
+      "label": "4",
+      "neutral_formula_match": true,
+      "source_references": [
+        {
+          "locator": "SI drawing/procedure: formula 4",
+          "pages": [
+            2,
+            6
+          ],
+          "sha256": "a4174db8036829e8ecbda5ccccc886f5a07b392f14bd6e03e5da12139c62273d",
+          "source_id": "si"
+        }
+      ]
+    },
+    {
+      "check_basis": "Curation expected formula; source HRMS where available, otherwise drawing atom count.",
+      "expected_neutral_formula": "C10H5BrO4",
+      "label": "3",
+      "neutral_formula_match": true,
+      "source_references": [
+        {
+          "locator": "SI drawing/procedure: formula 3",
+          "pages": [
+            2,
+            6
+          ],
+          "sha256": "a4174db8036829e8ecbda5ccccc886f5a07b392f14bd6e03e5da12139c62273d",
+          "source_id": "si"
+        }
+      ]
+    },
+    {
+      "check_basis": "Curation expected formula; source HRMS where available, otherwise drawing atom count.",
+      "expected_neutral_formula": "C5H9Br",
+      "label": "prenyl-bromide",
+      "neutral_formula_match": true,
+      "source_references": [
+        {
+          "locator": "SI drawing/procedure: formula prenyl-bromide",
+          "pages": [
+            3,
+            6
+          ],
+          "sha256": "a4174db8036829e8ecbda5ccccc886f5a07b392f14bd6e03e5da12139c62273d",
+          "source_id": "si"
+        }
+      ]
+    },
+    {
+      "check_basis": "Curation expected formula; source HRMS where available, otherwise drawing atom count.",
+      "expected_neutral_formula": "C15H14O4",
+      "label": "2",
+      "neutral_formula_match": true,
+      "source_references": [
+        {
+          "locator": "SI drawing/procedure: formula 2",
+          "pages": [
+            3,
+            6
+          ],
+          "sha256": "a4174db8036829e8ecbda5ccccc886f5a07b392f14bd6e03e5da12139c62273d",
+          "source_id": "si"
+        }
+      ]
+    },
+    {
+      "check_basis": "Curation expected formula; source HRMS where available, otherwise drawing atom count.",
+      "expected_neutral_formula": "C15H14O5",
+      "label": "1",
+      "neutral_formula_match": true,
+      "source_references": [
+        {
+          "locator": "SI drawing/procedure: formula 1",
+          "pages": [
+            4,
+            6
+          ],
+          "sha256": "a4174db8036829e8ecbda5ccccc886f5a07b392f14bd6e03e5da12139c62273d",
+          "source_id": "si"
+        }
+      ]
+    }
+  ],
+  "full_article_route_coverage": false,
+  "hrms_checks": [],
+  "issues": [
+    {
+      "detail": "SI reports 500 mg/2.63 mmol starting material and 318 mg brominated product as 90%; these do not agree stoichiometrically. Reported percent retained.",
+      "id": "yield-mass",
+      "severity": "source_conflict",
+      "subject": "E01"
+    },
+    {
+      "detail": "Only SI available locally.",
+      "id": "missing-main",
+      "severity": "representation_boundary",
+      "subject": "all"
+    },
+    {
+      "detail": "No absolute stereochemistry assigned in SI drawings.",
+      "id": "epoxide-stereo",
+      "severity": "review_pending",
+      "subject": "1"
+    },
+    {
+      "detail": "Source-bound facts require independent chemist review.",
+      "id": "independent-review",
+      "severity": "review_pending",
+      "subject": "all"
+    }
+  ],
+  "molecules": [
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "O=C1C=CC(=O)c2c(O)ccc(O)c21",
+      "canonical_smiles": "O=C1C=CC(=O)c2c(O)ccc(O)c21",
+      "depiction": "structures/4.svg",
+      "exact_mass": 190.026608672,
+      "formal_benchmark_eligible": false,
+      "label": "4",
+      "molecular_formula": "C10H6O4",
+      "molecule_id": "mol-d0e646ec30b2ace5d04703ad27ae22c46e03ac3500e63d7c02c6b8b808db5451",
+      "name": "SI compound 4",
+      "paper_label": "4",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "locator": "SI drawing/procedure: 4",
+          "pages": [
+            2,
+            6
+          ],
+          "sha256": "a4174db8036829e8ecbda5ccccc886f5a07b392f14bd6e03e5da12139c62273d",
+          "source_id": "si"
+        }
+      ],
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "O=C1C=C(Br)C(=O)c2c(O)ccc(O)c21",
+      "canonical_smiles": "O=C1C=C(Br)C(=O)c2c(O)ccc(O)c21",
+      "depiction": "structures/3.svg",
+      "exact_mass": 267.93712074000007,
+      "formal_benchmark_eligible": false,
+      "label": "3",
+      "molecular_formula": "C10H5BrO4",
+      "molecule_id": "mol-f800d43b0145385b40257b024045089d8941b5a5cb145081a430153c3c3734ed",
+      "name": "SI compound 3",
+      "paper_label": "3",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "locator": "SI drawing/procedure: 3",
+          "pages": [
+            2,
+            6
+          ],
+          "sha256": "a4174db8036829e8ecbda5ccccc886f5a07b392f14bd6e03e5da12139c62273d",
+          "source_id": "si"
+        }
+      ],
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "CC(C)=CCBr",
+      "canonical_smiles": "CC(C)=CCBr",
+      "depiction": "structures/prenyl-bromide.svg",
+      "exact_mass": 147.988762388,
+      "formal_benchmark_eligible": false,
+      "label": "prenyl-bromide",
+      "molecular_formula": "C5H9Br",
+      "molecule_id": "mol-4d259a9bad8348461f0814eb74e1ea4f79405147bfb5ff710f2c92455cd0f33f",
+      "name": "SI compound prenyl-bromide",
+      "paper_label": "prenyl-bromide",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "locator": "SI drawing/procedure: prenyl-bromide",
+          "pages": [
+            3,
+            6
+          ],
+          "sha256": "a4174db8036829e8ecbda5ccccc886f5a07b392f14bd6e03e5da12139c62273d",
+          "source_id": "si"
+        }
+      ],
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "CC(C)=CCC1=CC(=O)c2c(O)ccc(O)c2C1=O",
+      "canonical_smiles": "CC(C)=CCC1=CC(=O)c2c(O)ccc(O)c2C1=O",
+      "depiction": "structures/2.svg",
+      "exact_mass": 258.089208928,
+      "formal_benchmark_eligible": false,
+      "label": "2",
+      "molecular_formula": "C15H14O4",
+      "molecule_id": "mol-f2734a357e26f4b09bae7891e8159ffa73ccd66a91e6ae162fd922206236e0aa",
+      "name": "SI compound 2",
+      "paper_label": "2",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "locator": "SI drawing/procedure: 2",
+          "pages": [
+            3,
+            6
+          ],
+          "sha256": "a4174db8036829e8ecbda5ccccc886f5a07b392f14bd6e03e5da12139c62273d",
+          "source_id": "si"
+        }
+      ],
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "CC(C)=CCC12OC1C(=O)c1c(O)ccc(O)c1C2=O",
+      "canonical_smiles": "CC(C)=CCC12OC1C(=O)c1c(O)ccc(O)c1C2=O",
+      "depiction": "structures/1.svg",
+      "exact_mass": 274.084123548,
+      "formal_benchmark_eligible": false,
+      "label": "1",
+      "molecular_formula": "C15H14O5",
+      "molecule_id": "mol-f4b0892b2ce54e8f667d318f6239fb74d5866e77e1bda6fd8e285d50ef45b8c9",
+      "name": "SI compound 1",
+      "paper_label": "1",
+      "review_status": "pending_independent_chemist_review",
+      "role": "target",
+      "source_references": [
+        {
+          "locator": "SI drawing/procedure: 1",
+          "pages": [
+            4,
+            6
+          ],
+          "sha256": "a4174db8036829e8ecbda5ccccc886f5a07b392f14bd6e03e5da12139c62273d",
+          "source_id": "si"
+        }
+      ],
+      "stereo_status": "absolute_configuration_unspecified_in_source",
+      "structure_basis": "source_drawing_transcription"
+    }
+  ],
+  "observations": [
+    "SI presents 4 to 3 to 2 to 1; reaction direction follows preparations, not retrosynthetic arrows.",
+    "Final epoxide lies on the quinone alkene, not the prenyl side chain."
+  ],
+  "paper_id": "paper-dc4e60df4035666e",
+  "participants": [],
+  "reactions": [
+    {
+      "admission_authority": false,
+      "category": "forward_synthesis",
+      "event_id": "E01",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "product_labels": [
+        "3"
+      ],
+      "reactant_labels": [
+        "4"
+      ],
+      "reagents": [
+        "NBS",
+        "CuBr2",
+        "ZnCl2"
+      ],
+      "reported_yields": [
+        {
+          "from_label": "4",
+          "percent": 90,
+          "product_label": "3",
+          "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+        }
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "acetonitrile"
+      ],
+      "source_references": [
+        {
+          "locator": "SI drawing/procedure: E01",
+          "pages": [
+            2,
+            6
+          ],
+          "sha256": "a4174db8036829e8ecbda5ccccc886f5a07b392f14bd6e03e5da12139c62273d",
+          "source_id": "si"
+        }
+      ],
+      "step_ids": [
+        "E01.1"
+      ],
+      "substrate_product_smiles": "O=C1C=CC(=O)c2c(O)ccc(O)c21>>O=C1C=C(Br)C(=O)c2c(O)ccc(O)c21",
+      "temperature": "room temperature",
+      "time": "24 h"
+    },
+    {
+      "admission_authority": false,
+      "category": "forward_synthesis",
+      "event_id": "E02",
+      "experimental_stage_count": 2,
+      "formal_benchmark_eligible": false,
+      "operation_stages": [
+        "Organolithium formation at -40 C, 90 min",
+        "Addition to 3 at -78 C, 21 h"
+      ],
+      "product_labels": [
+        "2"
+      ],
+      "reactant_labels": [
+        "3",
+        "prenyl-bromide"
+      ],
+      "reagents": [
+        "Li"
+      ],
+      "reported_yields": [
+        {
+          "from_label": "3",
+          "percent": 65.23,
+          "product_label": "2",
+          "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+        }
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "diethyl ether",
+        "THF"
+      ],
+      "source_references": [
+        {
+          "locator": "SI drawing/procedure: E02",
+          "pages": [
+            3,
+            6
+          ],
+          "sha256": "a4174db8036829e8ecbda5ccccc886f5a07b392f14bd6e03e5da12139c62273d",
+          "source_id": "si"
+        }
+      ],
+      "step_ids": [
+        "E02.1"
+      ],
+      "substrate_product_smiles": "CC(C)=CCBr.O=C1C=C(Br)C(=O)c2c(O)ccc(O)c21>>CC(C)=CCC1=CC(=O)c2c(O)ccc(O)c2C1=O"
+    },
+    {
+      "admission_authority": false,
+      "category": "forward_synthesis",
+      "event_id": "E03",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "product_labels": [
+        "1"
+      ],
+      "reactant_labels": [
+        "2"
+      ],
+      "reagents": [
+        "30% aqueous H2O2",
+        "Na2CO3"
+      ],
+      "reported_yields": [
+        {
+          "from_label": "2",
+          "percent": 48,
+          "product_label": "1",
+          "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+        }
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "1,4-dioxane",
+        "water"
+      ],
+      "source_references": [
+        {
+          "locator": "SI drawing/procedure: E03",
+          "pages": [
+            4,
+            6
+          ],
+          "sha256": "a4174db8036829e8ecbda5ccccc886f5a07b392f14bd6e03e5da12139c62273d",
+          "source_id": "si"
+        }
+      ],
+      "step_ids": [
+        "E03.1"
+      ],
+      "substrate_product_smiles": "CC(C)=CCC1=CC(=O)c2c(O)ccc(O)c2C1=O>>CC(C)=CCC12OC1C(=O)c1c(O)ccc(O)c1C2=O",
+      "temperature": "0-5 C addition then room temperature",
+      "time": "2.5 h"
+    }
+  ],
+  "report_heading": "Chemical synthesis of the antiproliferative natural product 2,3-epoxysesamone from a naphthazarin scaffold — source-bound synthesis network",
+  "report_note": "All three forward preparations in available SI pp2-4 and Figure S4-S6 p6, including the drawn prenyl bromide coupling substrate. Main article unavailable locally; no full-article coverage claim. Epoxide absolute configuration not specified by source drawings. Facts compiled deterministically; independent review pending.",
+  "routes": [
+    {
+      "admission_authority": false,
+      "formal_benchmark_eligible": false,
+      "from_commercial_starting_materials_complete": false,
+      "full_article_route_coverage": false,
+      "molecule_smiles_sequence": [
+        "O=C1C=CC(=O)c2c(O)ccc(O)c21",
+        "O=C1C=C(Br)C(=O)c2c(O)ccc(O)c21",
+        "CC(C)=CCBr",
+        "CC(C)=CCC1=CC(=O)c2c(O)ccc(O)c2C1=O",
+        "CC(C)=CCC12OC1C(=O)c1c(O)ccc(O)c1C2=O"
+      ],
+      "ordered_event_ids": [
+        "E01",
+        "E02",
+        "E03"
+      ],
+      "ordered_molecule_labels": [
+        "4",
+        "3",
+        "prenyl-bromide",
+        "2",
+        "1"
+      ],
+      "ordered_step_ids": [
+        "E01.1",
+        "E02.1",
+        "E03.1"
+      ],
+      "route_id": "available-si",
+      "route_type": "source_bound_successful_synthesis",
+      "split_group": "10.1080/14786419.2026.2694725",
+      "start_label": "4",
+      "start_labels": [
+        "4",
+        "prenyl-bromide"
+      ],
+      "step_reaction_smiles_sequence": [
+        "O=C1C=CC(=O)c2c(O)ccc(O)c21>>O=C1C=C(Br)C(=O)c2c(O)ccc(O)c21",
+        "CC(C)=CCBr.O=C1C=C(Br)C(=O)c2c(O)ccc(O)c21>>CC(C)=CCC1=CC(=O)c2c(O)ccc(O)c2C1=O",
+        "CC(C)=CCC1=CC(=O)c2c(O)ccc(O)c2C1=O>>CC(C)=CCC12OC1C(=O)c1c(O)ccc(O)c1C2=O"
+      ],
+      "target_label": "1"
+    }
+  ],
+  "schema_version": "syninsight.route-extraction.v1",
+  "software": {
+    "rdkit": "2026.03.6"
+  },
+  "sources": [
+    {
+      "format": "pdf",
+      "page_count": 11,
+      "path": "papers/paper-dc4e60df4035666e/supporting_information/si-001.pdf",
+      "redistribute_source": false,
+      "role": "supporting_information",
+      "sha256": "a4174db8036829e8ecbda5ccccc886f5a07b392f14bd6e03e5da12139c62273d",
+      "source_id": "si"
+    }
+  ],
+  "steps": [
+    {
+      "admission_authority": false,
+      "agents": [
+        "NBS",
+        "CuBr2",
+        "ZnCl2"
+      ],
+      "event_id": "E01",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+      "product_labels": [
+        "3"
+      ],
+      "product_specific_yields": [
+        {
+          "from_label": "4",
+          "percent": 90,
+          "product_label": "3",
+          "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+        }
+      ],
+      "reactant_labels": [
+        "4"
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "acetonitrile"
+      ],
+      "source_references": [
+        {
+          "locator": "SI drawing/procedure: E01",
+          "pages": [
+            2,
+            6
+          ],
+          "sha256": "a4174db8036829e8ecbda5ccccc886f5a07b392f14bd6e03e5da12139c62273d",
+          "source_id": "si"
+        }
+      ],
+      "step_id": "E01.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "O=C1C=CC(=O)c2c(O)ccc(O)c21>>O=C1C=C(Br)C(=O)c2c(O)ccc(O)c21",
+      "temperature": "room temperature",
+      "time": "24 h",
+      "yield_percent": 90
+    },
+    {
+      "admission_authority": false,
+      "agents": [
+        "Li"
+      ],
+      "event_id": "E02",
+      "experimental_stage_count": 2,
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+      "operation_stages": [
+        "Organolithium formation at -40 C, 90 min",
+        "Addition to 3 at -78 C, 21 h"
+      ],
+      "product_labels": [
+        "2"
+      ],
+      "product_specific_yields": [
+        {
+          "from_label": "3",
+          "percent": 65.23,
+          "product_label": "2",
+          "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+        }
+      ],
+      "reactant_labels": [
+        "3",
+        "prenyl-bromide"
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "diethyl ether",
+        "THF"
+      ],
+      "source_references": [
+        {
+          "locator": "SI drawing/procedure: E02",
+          "pages": [
+            3,
+            6
+          ],
+          "sha256": "a4174db8036829e8ecbda5ccccc886f5a07b392f14bd6e03e5da12139c62273d",
+          "source_id": "si"
+        }
+      ],
+      "step_id": "E02.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "CC(C)=CCBr.O=C1C=C(Br)C(=O)c2c(O)ccc(O)c21>>CC(C)=CCC1=CC(=O)c2c(O)ccc(O)c2C1=O",
+      "yield_percent": 65.23
+    },
+    {
+      "admission_authority": false,
+      "agents": [
+        "30% aqueous H2O2",
+        "Na2CO3"
+      ],
+      "event_id": "E03",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+      "product_labels": [
+        "1"
+      ],
+      "product_specific_yields": [
+        {
+          "from_label": "2",
+          "percent": 48,
+          "product_label": "1",
+          "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+        }
+      ],
+      "reactant_labels": [
+        "2"
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "1,4-dioxane",
+        "water"
+      ],
+      "source_references": [
+        {
+          "locator": "SI drawing/procedure: E03",
+          "pages": [
+            4,
+            6
+          ],
+          "sha256": "a4174db8036829e8ecbda5ccccc886f5a07b392f14bd6e03e5da12139c62273d",
+          "source_id": "si"
+        }
+      ],
+      "step_id": "E03.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "CC(C)=CCC1=CC(=O)c2c(O)ccc(O)c2C1=O>>CC(C)=CCC12OC1C(=O)c1c(O)ccc(O)c1C2=O",
+      "temperature": "0-5 C addition then room temperature",
+      "time": "2.5 h",
+      "yield_percent": 48
+    }
+  ],
+  "title": "Chemical synthesis of the antiproliferative natural product 2,3-epoxysesamone from a naphthazarin scaffold",
+  "unresolved_events": []
+}

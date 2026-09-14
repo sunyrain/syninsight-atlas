@@ -1,0 +1,300 @@
+[
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E01",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "6"
+    ],
+    "reactant_labels": [
+      "aminoacetal",
+      "bromohexene"
+    ],
+    "reported_yield_text": null,
+    "reported_yields": [
+      {
+        "from_label": "aminoacetal",
+        "percent": 63,
+        "product_label": "6",
+        "scope": "SI isolated preparation"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source-reported substrates and products; agents separate; not atom-balanced",
+    "source_references": [
+      {
+        "locator": "SI PDF page 3, section 2; E01: aminoacetal,bromohexene -> 6",
+        "pages": [
+          3
+        ],
+        "sha256": "beceb6f9ef1af282d403411d5c9d938ce664ade222d4d8235e5873870ba93942",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E01.1"
+    ],
+    "substrate_product_smiles": "C=CCCCCBr.CCOC(CCN)OCC>>C=CCCCCNCCC(OCC)OCC"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E02",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "7"
+    ],
+    "reactant_labels": [
+      "6",
+      "hexenoic-acid"
+    ],
+    "reported_yield_text": null,
+    "reported_yields": [
+      {
+        "from_label": "6",
+        "percent": 83,
+        "product_label": "7",
+        "scope": "SI isolated preparation"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source-reported substrates and products; agents separate; not atom-balanced",
+    "source_references": [
+      {
+        "locator": "SI PDF page 4, section 2; E02: 6,hexenoic-acid -> 7",
+        "pages": [
+          4
+        ],
+        "sha256": "beceb6f9ef1af282d403411d5c9d938ce664ade222d4d8235e5873870ba93942",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E02.1"
+    ],
+    "substrate_product_smiles": "C=CCCCC(=O)O.C=CCCCCNCCC(OCC)OCC>>C=CCCCCN(CCC(OCC)OCC)C(=O)CCCC=C"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E03",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "3"
+    ],
+    "reactant_labels": [
+      "7",
+      "tryptamine"
+    ],
+    "reported_yield_text": null,
+    "reported_yields": [
+      {
+        "from_label": "7",
+        "percent": 85,
+        "product_label": "3",
+        "scope": "SI isolated preparation"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source-reported substrates and products; agents separate; not atom-balanced",
+    "source_references": [
+      {
+        "locator": "SI PDF page 5, section 2; E03: 7,tryptamine -> 3",
+        "pages": [
+          5
+        ],
+        "sha256": "beceb6f9ef1af282d403411d5c9d938ce664ade222d4d8235e5873870ba93942",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E03.1"
+    ],
+    "substrate_product_smiles": "C=CCCCCN(CCC(OCC)OCC)C(=O)CCCC=C.NCCc1c[nH]c2ccccc12>>C=CCCCCN(CCC1NCCc2c1[nH]c1ccccc21)C(=O)CCCC=C"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E04",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "4"
+    ],
+    "reactant_labels": [
+      "3"
+    ],
+    "reported_yield_text": null,
+    "reported_yields": [
+      {
+        "from_label": "3",
+        "percent": 23,
+        "product_label": "4",
+        "scope": "SI isolated preparation"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source-reported substrates and products; agents separate; not atom-balanced",
+    "source_references": [
+      {
+        "locator": "SI PDF page 6, section 2; E04: 3 -> 4",
+        "pages": [
+          6
+        ],
+        "sha256": "beceb6f9ef1af282d403411d5c9d938ce664ade222d4d8235e5873870ba93942",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E04.1"
+    ],
+    "substrate_product_smiles": "C=CCCCCN(CCC1NCCc2c1[nH]c1ccccc21)C(=O)CCCC=C>>O=C1CCCC=CCCCCN1CCC1NCCc2c1[nH]c1ccccc21"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E05",
+    "formal_benchmark_eligible": false,
+    "precursor_label_resolution": "source_conflict_corrected_from_drawn_structure_and_reported_molar_mass",
+    "product_labels": [
+      "2"
+    ],
+    "reactant_labels": [
+      "4"
+    ],
+    "reported_precursor_label": "3",
+    "reported_yield_text": null,
+    "reported_yields": [
+      {
+        "from_label": "4",
+        "percent": 38,
+        "product_label": "2",
+        "scope": "SI isolated preparation"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source-reported substrates and products; agents separate; not atom-balanced",
+    "source_references": [
+      {
+        "locator": "SI PDF page 8, section 2; E05: 4 -> 2",
+        "pages": [
+          8
+        ],
+        "sha256": "beceb6f9ef1af282d403411d5c9d938ce664ade222d4d8235e5873870ba93942",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E05.1"
+    ],
+    "substrate_product_smiles": "O=C1CCCC=CCCCCN1CCC1NCCc2c1[nH]c1ccccc21>>C1=CCCCCN(CCC2NCCc3c2[nH]c2ccccc32)CCCC1"
+  },
+  {
+    "admission_authority": false,
+    "category": "control_substrate_preparation",
+    "event_id": "E06",
+    "formal_benchmark_eligible": false,
+    "precursor_label_resolution": "source_conflict_corrected_from_drawn_structure_and_reported_molar_mass",
+    "product_labels": [
+      "13"
+    ],
+    "reactant_labels": [
+      "3"
+    ],
+    "reported_precursor_label": "13",
+    "reported_yield_text": "quantitative",
+    "reported_yields": [],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source-reported substrates and products; agents separate; not atom-balanced",
+    "source_references": [
+      {
+        "locator": "SI PDF page 9, section 2; E06: 3 -> 13",
+        "pages": [
+          9
+        ],
+        "sha256": "beceb6f9ef1af282d403411d5c9d938ce664ade222d4d8235e5873870ba93942",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E06.1"
+    ],
+    "substrate_product_smiles": "C=CCCCCN(CCC1NCCc2c1[nH]c1ccccc21)C(=O)CCCC=C>>C=CCCCCN(CCC1c2[nH]c3ccccc3c2CC[N+]1(C)C)C(=O)CCCC=C.[I-]"
+  },
+  {
+    "admission_authority": false,
+    "category": "control_substrate_preparation",
+    "event_id": "E07",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "17"
+    ],
+    "reactant_labels": [
+      "phenylpropylamine",
+      "bromohexene"
+    ],
+    "reported_yield_text": null,
+    "reported_yields": [
+      {
+        "from_label": "phenylpropylamine",
+        "percent": 23,
+        "product_label": "17",
+        "scope": "SI isolated preparation"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source-reported substrates and products; agents separate; not atom-balanced",
+    "source_references": [
+      {
+        "locator": "SI PDF page 10, section 2; E07: phenylpropylamine,bromohexene -> 17",
+        "pages": [
+          10
+        ],
+        "sha256": "beceb6f9ef1af282d403411d5c9d938ce664ade222d4d8235e5873870ba93942",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E07.1"
+    ],
+    "substrate_product_smiles": "C=CCCCCBr.NCCCc1ccccc1>>C=CCCCCNCCCc1ccccc1"
+  },
+  {
+    "admission_authority": false,
+    "category": "control_substrate_preparation",
+    "event_id": "E08",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "15"
+    ],
+    "reactant_labels": [
+      "17",
+      "hexenoic-acid"
+    ],
+    "reported_yield_text": null,
+    "reported_yields": [
+      {
+        "from_label": "17",
+        "percent": 23,
+        "product_label": "15",
+        "scope": "SI isolated preparation"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source-reported substrates and products; agents separate; not atom-balanced",
+    "source_references": [
+      {
+        "locator": "SI PDF page 11, section 2; E08: 17,hexenoic-acid -> 15",
+        "pages": [
+          11
+        ],
+        "sha256": "beceb6f9ef1af282d403411d5c9d938ce664ade222d4d8235e5873870ba93942",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E08.1"
+    ],
+    "substrate_product_smiles": "C=CCCCC(=O)O.C=CCCCCNCCCc1ccccc1>>C=CCCCCN(CCCc1ccccc1)C(=O)CCCC=C"
+  }
+]

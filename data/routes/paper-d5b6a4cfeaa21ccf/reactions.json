@@ -1,0 +1,2603 @@
+[
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "M01",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "10a"
+    ],
+    "reactant_labels": [
+      "known-sclareol-ketoester"
+    ],
+    "reagents": [
+      "LiHMDS",
+      "LiAlH4",
+      "AlCl3"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "known-sclareol-ketoester",
+        "percent": 60,
+        "product_label": "10a",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: M01",
+        "pages": [
+          45
+        ],
+        "sha256": "6075b3945ba6677a82bf51eee8abfe302badc6f24dd51ac29d7c727f7abfaba7",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "M01.1"
+    ],
+    "substrate_product_smiles": "COC(=O)C1C(=O)CC[C@H]2[C@]3(C)CCCC(C)(C)[C@H]3CC[C@]12C>>CC1(C)CCC[C@]2(C)[C@@H]1CC[C@]1(C)C(CO)C(=O)CC[C@@H]21"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "M02",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "11a"
+    ],
+    "reactant_labels": [
+      "10a"
+    ],
+    "reagents": [
+      "pTsOH"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "10a",
+        "percent": 90,
+        "product_label": "11a",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "toluene"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: M02",
+        "pages": [
+          45,
+          46
+        ],
+        "sha256": "6075b3945ba6677a82bf51eee8abfe302badc6f24dd51ac29d7c727f7abfaba7",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "M02.1"
+    ],
+    "substrate_product_smiles": "CC1(C)CCC[C@]2(C)[C@@H]1CC[C@]1(C)C(CO)C(=O)CC[C@@H]21>>C=C1C(=O)CC[C@H]2[C@]3(C)CCCC(C)(C)[C@H]3CC[C@]12C"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "M03",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "17a"
+    ],
+    "reactant_labels": [
+      "11a",
+      "9a"
+    ],
+    "reagents": [
+      "pTsOH"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "11a",
+        "percent": 85,
+        "product_label": "17a",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "toluene"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: M03",
+        "pages": [
+          46,
+          47
+        ],
+        "sha256": "6075b3945ba6677a82bf51eee8abfe302badc6f24dd51ac29d7c727f7abfaba7",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "M03.1"
+    ],
+    "substrate_product_smiles": "C=C1C(=O)CC[C@H]2[C@]3(C)CCCC(C)(C)[C@H]3CC[C@]12C.Cc1oc(=O)cc(O)c1C>>Cc1oc(=O)c(CC2C(=O)CC[C@H]3[C@]4(C)CCCC(C)(C)[C@H]4CC[C@]23C)c(O)c1C"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "M04",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "12a"
+    ],
+    "reactant_labels": [
+      "17a"
+    ],
+    "reagents": [
+      "pTsOH"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "17a",
+        "percent": 70,
+        "product_label": "12a",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "toluene"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: M04",
+        "pages": [
+          47,
+          48
+        ],
+        "sha256": "6075b3945ba6677a82bf51eee8abfe302badc6f24dd51ac29d7c727f7abfaba7",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "M04.1"
+    ],
+    "substrate_product_smiles": "Cc1oc(=O)c(CC2C(=O)CC[C@H]3[C@]4(C)CCCC(C)(C)[C@H]4CC[C@]23C)c(O)c1C>>Cc1oc(=O)c2c(c1C)OC1=C(C2)[C@@]2(C)CC[C@@H]3C(C)(C)CCC[C@@]3(C)[C@@H]2CC1"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "M05",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "18a"
+    ],
+    "reactant_labels": [
+      "12a"
+    ],
+    "reagents": [
+      "mCPBA"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "12a",
+        "percent": 90,
+        "product_label": "18a",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "DCM"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: M05",
+        "pages": [
+          48
+        ],
+        "sha256": "6075b3945ba6677a82bf51eee8abfe302badc6f24dd51ac29d7c727f7abfaba7",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "M05.1"
+    ],
+    "substrate_product_smiles": "Cc1oc(=O)c2c(c1C)OC1=C(C2)[C@@]2(C)CC[C@@H]3C(C)(C)CCC[C@@]3(C)[C@@H]2CC1>>Cc1oc(=O)c2c(c1C)OC13CC[C@H]4[C@]5(C)CCCC(C)(C)[C@H]5CC[C@]4(C)C1(C2)O3"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "M06",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "19a",
+      "20a"
+    ],
+    "reactant_labels": [
+      "18a"
+    ],
+    "reagents": [
+      "HCl"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "18a",
+        "percent": 90,
+        "product_label": "19a",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      },
+      {
+        "from_label": "18a",
+        "percent": 10,
+        "product_label": "20a",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "THF",
+      "water"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: M06",
+        "pages": [
+          49,
+          50
+        ],
+        "sha256": "6075b3945ba6677a82bf51eee8abfe302badc6f24dd51ac29d7c727f7abfaba7",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "M06.1"
+    ],
+    "substrate_product_smiles": "Cc1oc(=O)c2c(c1C)OC13CC[C@H]4[C@]5(C)CCCC(C)(C)[C@H]5CC[C@]4(C)C1(C2)O3>>Cc1oc(=O)c(CC2(O)C(=O)CC[C@H]3[C@]4(C)CCCC(C)(C)[C@H]4CC[C@@]32C)c(O)c1C.Cc1oc(=O)c2c(c1C)OC13CC[C@H]4[C@]5(C)CCCC(C)(C)[C@H]5CC[C@]4(C)C1(C2)O3"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "M07",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "13a"
+    ],
+    "reactant_labels": [
+      "19a"
+    ],
+    "reagents": [
+      "pTsOH.H2O"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "19a",
+        "percent": 56,
+        "product_label": "13a",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "CHCl3"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: M07",
+        "pages": [
+          50
+        ],
+        "sha256": "6075b3945ba6677a82bf51eee8abfe302badc6f24dd51ac29d7c727f7abfaba7",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "M07.1"
+    ],
+    "substrate_product_smiles": "Cc1oc(=O)c(CC2(O)C(=O)CC[C@H]3[C@]4(C)CCCC(C)(C)[C@H]4CC[C@@]32C)c(O)c1C>>Cc1oc(=O)c2c(c1C)O[C@@]1(C2)C(=O)CC[C@H]2[C@]3(C)CCCC(C)(C)[C@H]3CC[C@@]21C"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "M08",
+    "experimental_stage_count": 2,
+    "formal_benchmark_eligible": false,
+    "operation_stages": [
+      {
+        "description": "Elimination/Michael addition/cyclization",
+        "stage": 1
+      },
+      {
+        "description": "Epoxidation and aqueous acid opening",
+        "stage": 2
+      }
+    ],
+    "product_labels": [
+      "19a"
+    ],
+    "reactant_labels": [
+      "10a",
+      "9a"
+    ],
+    "reagents": [
+      "pTsOH",
+      "mCPBA",
+      "HCl"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "10a",
+        "percent": 55,
+        "product_label": "19a",
+        "scope": "general procedure I entire sequence"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "toluene",
+      "DCM",
+      "THF",
+      "water"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: M08",
+        "pages": [
+          51
+        ],
+        "sha256": "6075b3945ba6677a82bf51eee8abfe302badc6f24dd51ac29d7c727f7abfaba7",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "M08.1"
+    ],
+    "substrate_product_smiles": "CC1(C)CCC[C@]2(C)[C@@H]1CC[C@]1(C)C(CO)C(=O)CC[C@@H]21.Cc1oc(=O)cc(O)c1C>>Cc1oc(=O)c(CC2(O)C(=O)CC[C@H]3[C@]4(C)CCCC(C)(C)[C@H]4CC[C@@]32C)c(O)c1C",
+    "yield_scope": "general procedure I entire sequence"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "M09b",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "19b"
+    ],
+    "reactant_labels": [
+      "10a",
+      "9b"
+    ],
+    "reagents": [
+      "pTsOH",
+      "mCPBA",
+      "HCl"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "10a",
+        "percent": 54,
+        "product_label": "19b",
+        "scope": "general procedure I sequence"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "toluene",
+      "DCM",
+      "THF",
+      "water"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: M09b",
+        "pages": [
+          52
+        ],
+        "sha256": "6075b3945ba6677a82bf51eee8abfe302badc6f24dd51ac29d7c727f7abfaba7",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "M09b.1"
+    ],
+    "substrate_product_smiles": "CC1(C)CCC[C@]2(C)[C@@H]1CC[C@]1(C)C(CO)C(=O)CC[C@@H]21.Cc1cc(O)cc(=O)o1>>Cc1cc(O)c(CC2(O)C(=O)CC[C@H]3[C@]4(C)CCCC(C)(C)[C@H]4CC[C@@]32C)c(=O)o1",
+    "yield_scope": "general procedure I sequence"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "M09c",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "19c"
+    ],
+    "reactant_labels": [
+      "10a",
+      "9c"
+    ],
+    "reagents": [
+      "pTsOH",
+      "mCPBA",
+      "HCl"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "10a",
+        "percent": 64,
+        "product_label": "19c",
+        "scope": "general procedure I sequence"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "toluene",
+      "DCM",
+      "THF",
+      "water"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: M09c",
+        "pages": [
+          53
+        ],
+        "sha256": "6075b3945ba6677a82bf51eee8abfe302badc6f24dd51ac29d7c727f7abfaba7",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "M09c.1"
+    ],
+    "substrate_product_smiles": "CC1(C)CCC[C@]2(C)[C@@H]1CC[C@]1(C)C(CO)C(=O)CC[C@@H]21.Cc1c(O)cc(=O)oc1C(C)C>>Cc1c(C(C)C)oc(=O)c(CC2(O)C(=O)CC[C@H]3[C@]4(C)CCCC(C)(C)[C@H]4CC[C@@]32C)c1O",
+    "yield_scope": "general procedure I sequence"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "M09d",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "19d"
+    ],
+    "reactant_labels": [
+      "10a",
+      "9d"
+    ],
+    "reagents": [
+      "pTsOH",
+      "mCPBA",
+      "HCl"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "10a",
+        "percent": 54,
+        "product_label": "19d",
+        "scope": "general procedure I sequence"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "toluene",
+      "DCM",
+      "THF",
+      "water"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: M09d",
+        "pages": [
+          54
+        ],
+        "sha256": "6075b3945ba6677a82bf51eee8abfe302badc6f24dd51ac29d7c727f7abfaba7",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "M09d.1"
+    ],
+    "substrate_product_smiles": "CC1(C)CCC[C@]2(C)[C@@H]1CC[C@]1(C)C(CO)C(=O)CC[C@@H]21.O=c1cc(O)c2c(o1)CCC2>>CC1(C)CCC[C@]2(C)[C@@H]1CC[C@@]1(C)[C@H]2CCC(=O)C1(O)Cc1c(O)c2c(oc1=O)CCC2",
+    "yield_scope": "general procedure I sequence"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "M10b",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "13b"
+    ],
+    "reactant_labels": [
+      "19b"
+    ],
+    "reagents": [
+      "pTsOH.H2O"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "19b",
+        "percent": 42,
+        "product_label": "13b",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "CHCl3"
+    ],
+    "source_note": "Procedure cross-reference19a is a typo for13a cyclization.",
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: M10b",
+        "pages": [
+          55
+        ],
+        "sha256": "6075b3945ba6677a82bf51eee8abfe302badc6f24dd51ac29d7c727f7abfaba7",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "M10b.1"
+    ],
+    "substrate_product_smiles": "Cc1cc(O)c(CC2(O)C(=O)CC[C@H]3[C@]4(C)CCCC(C)(C)[C@H]4CC[C@@]32C)c(=O)o1>>Cc1cc2c(c(=O)o1)C[C@]1(O2)C(=O)CC[C@H]2[C@]3(C)CCCC(C)(C)[C@H]3CC[C@@]21C"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "M10c",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "13c"
+    ],
+    "reactant_labels": [
+      "19c"
+    ],
+    "reagents": [
+      "pTsOH.H2O"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "19c",
+        "percent": 54,
+        "product_label": "13c",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "CHCl3"
+    ],
+    "source_note": "Procedure cross-reference19a is a typo for13a cyclization.",
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: M10c",
+        "pages": [
+          55,
+          56
+        ],
+        "sha256": "6075b3945ba6677a82bf51eee8abfe302badc6f24dd51ac29d7c727f7abfaba7",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "M10c.1"
+    ],
+    "substrate_product_smiles": "Cc1c(C(C)C)oc(=O)c(CC2(O)C(=O)CC[C@H]3[C@]4(C)CCCC(C)(C)[C@H]4CC[C@@]32C)c1O>>Cc1c(C(C)C)oc(=O)c2c1O[C@@]1(C2)C(=O)CC[C@H]2[C@]3(C)CCCC(C)(C)[C@H]3CC[C@@]21C"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "M10d",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "13d"
+    ],
+    "reactant_labels": [
+      "19d"
+    ],
+    "reagents": [
+      "pTsOH.H2O"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "19d",
+        "percent": 33,
+        "product_label": "13d",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "CHCl3"
+    ],
+    "source_note": "Procedure cross-reference19a is a typo for13a cyclization.",
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: M10d",
+        "pages": [
+          56
+        ],
+        "sha256": "6075b3945ba6677a82bf51eee8abfe302badc6f24dd51ac29d7c727f7abfaba7",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "M10d.1"
+    ],
+    "substrate_product_smiles": "CC1(C)CCC[C@]2(C)[C@@H]1CC[C@@]1(C)[C@H]2CCC(=O)C1(O)Cc1c(O)c2c(oc1=O)CCC2>>CC1(C)CCC[C@]2(C)[C@@H]1CC[C@@]1(C)[C@H]2CCC(=O)[C@@]12Cc1c(c3c(oc1=O)CCC3)O2"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "M11e",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "18e"
+    ],
+    "reactant_labels": [
+      "10a",
+      "9e"
+    ],
+    "reagents": [
+      "pTsOH",
+      "mCPBA"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "10a",
+        "percent": 76,
+        "product_label": "18e",
+        "scope": "general procedure II entire sequence"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "DCE",
+      "toluene",
+      "DCM"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: M11e",
+        "pages": [
+          57,
+          58
+        ],
+        "sha256": "6075b3945ba6677a82bf51eee8abfe302badc6f24dd51ac29d7c727f7abfaba7",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "M11e.1"
+    ],
+    "substrate_product_smiles": "CC1(C)CCC[C@]2(C)[C@@H]1CC[C@]1(C)C(CO)C(=O)CC[C@@H]21.O=c1cc(O)cc(-c2ccccc2)o1>>CC1(C)CCC[C@]2(C)[C@@H]1CC[C@@]1(C)[C@H]2CCC23Oc4cc(-c5ccccc5)oc(=O)c4CC21O3",
+    "yield_scope": "general procedure II entire sequence"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "M11f",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "18f"
+    ],
+    "reactant_labels": [
+      "10a",
+      "9f"
+    ],
+    "reagents": [
+      "pTsOH",
+      "mCPBA"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "10a",
+        "percent": 79,
+        "product_label": "18f",
+        "scope": "general procedure II entire sequence"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "DCE",
+      "toluene",
+      "DCM"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: M11f",
+        "pages": [
+          58,
+          59
+        ],
+        "sha256": "6075b3945ba6677a82bf51eee8abfe302badc6f24dd51ac29d7c727f7abfaba7",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "M11f.1"
+    ],
+    "substrate_product_smiles": "CC1(C)CCC[C@]2(C)[C@@H]1CC[C@]1(C)C(CO)C(=O)CC[C@@H]21.O=c1cc(O)c2ccccc2o1>>CC1(C)CCC[C@]2(C)[C@@H]1CC[C@@]1(C)[C@H]2CCC23Oc4c(c(=O)oc5ccccc45)CC21O3",
+    "yield_scope": "general procedure II entire sequence"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "M12e",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "13e"
+    ],
+    "reactant_labels": [
+      "18e"
+    ],
+    "reagents": [
+      "HCl",
+      "pTsOH.H2O"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "18e",
+        "percent": 34,
+        "product_label": "13e",
+        "scope": "general procedure III opening/cyclization"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "THF",
+      "water",
+      "CHCl3"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: M12e",
+        "pages": [
+          59,
+          60
+        ],
+        "sha256": "6075b3945ba6677a82bf51eee8abfe302badc6f24dd51ac29d7c727f7abfaba7",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "M12e.1"
+    ],
+    "substrate_product_smiles": "CC1(C)CCC[C@]2(C)[C@@H]1CC[C@@]1(C)[C@H]2CCC23Oc4cc(-c5ccccc5)oc(=O)c4CC21O3>>CC1(C)CCC[C@]2(C)[C@@H]1CC[C@@]1(C)[C@H]2CCC(=O)[C@@]12Cc1c(cc(-c3ccccc3)oc1=O)O2",
+    "yield_scope": "general procedure III opening/cyclization"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "M12f",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "13f"
+    ],
+    "reactant_labels": [
+      "18f"
+    ],
+    "reagents": [
+      "HCl",
+      "pTsOH.H2O"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "18f",
+        "percent": 27,
+        "product_label": "13f",
+        "scope": "general procedure III opening/cyclization"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "THF",
+      "water",
+      "CHCl3"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: M12f",
+        "pages": [
+          60
+        ],
+        "sha256": "6075b3945ba6677a82bf51eee8abfe302badc6f24dd51ac29d7c727f7abfaba7",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "M12f.1"
+    ],
+    "substrate_product_smiles": "CC1(C)CCC[C@]2(C)[C@@H]1CC[C@@]1(C)[C@H]2CCC23Oc4c(c(=O)oc5ccccc45)CC21O3>>CC1(C)CCC[C@]2(C)[C@@H]1CC[C@@]1(C)[C@H]2CCC(=O)[C@@]12Cc1c(c3ccccc3oc1=O)O2",
+    "yield_scope": "general procedure III opening/cyclization"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "M13-CSA",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "17a"
+    ],
+    "reactant_labels": [
+      "11a",
+      "9a"
+    ],
+    "reagents": [
+      "CSA"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "11a",
+        "percent": 80,
+        "product_label": "17a",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "DCM"
+    ],
+    "source_note": "Table S10 optimization; mismatched scheme retained as issue.",
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: M13-CSA",
+        "pages": [
+          21
+        ],
+        "sha256": "6075b3945ba6677a82bf51eee8abfe302badc6f24dd51ac29d7c727f7abfaba7",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "M13-CSA.1"
+    ],
+    "substrate_product_smiles": "C=C1C(=O)CC[C@H]2[C@]3(C)CCCC(C)(C)[C@H]3CC[C@]12C.Cc1oc(=O)cc(O)c1C>>Cc1oc(=O)c(CC2C(=O)CC[C@H]3[C@]4(C)CCCC(C)(C)[C@H]4CC[C@]23C)c(O)c1C"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "M13-TFA",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "17a"
+    ],
+    "reactant_labels": [
+      "11a",
+      "9a"
+    ],
+    "reagents": [
+      "TFA"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "11a",
+        "percent": 50,
+        "product_label": "17a",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "DCM"
+    ],
+    "source_note": "Table S10 optimization; mismatched scheme retained as issue.",
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: M13-TFA",
+        "pages": [
+          21
+        ],
+        "sha256": "6075b3945ba6677a82bf51eee8abfe302badc6f24dd51ac29d7c727f7abfaba7",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "M13-TFA.1"
+    ],
+    "substrate_product_smiles": "C=C1C(=O)CC[C@H]2[C@]3(C)CCCC(C)(C)[C@H]3CC[C@]12C.Cc1oc(=O)cc(O)c1C>>Cc1oc(=O)c(CC2C(=O)CC[C@H]3[C@]4(C)CCCC(C)(C)[C@H]4CC[C@]23C)c(O)c1C"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "B01",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "22"
+    ],
+    "reactant_labels": [
+      "21"
+    ],
+    "reagents": [
+      "K2OsO4.2H2O",
+      "Corey-Noe-Lin ligand",
+      "K3Fe(CN)6",
+      "K2CO3",
+      "MeSO2NH2"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "21",
+        "percent": 54,
+        "product_label": "22",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "selectivity": "92% ee, decagram scale",
+    "solvents": [
+      "tBuOH",
+      "water"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: B01",
+        "pages": [
+          61
+        ],
+        "sha256": "6075b3945ba6677a82bf51eee8abfe302badc6f24dd51ac29d7c727f7abfaba7",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "B01.1"
+    ],
+    "substrate_product_smiles": "CC(=O)OC/C=C(\\C)CC/C=C(\\C)CC/C=C(\\C)CCC=C(C)C>>CC(=O)OC/C=C(\\C)CC/C=C(\\C)CC/C=C(\\C)CC[C@@H](O)C(C)(C)O"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "B01-opt1",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "22"
+    ],
+    "reactant_labels": [
+      "21"
+    ],
+    "reagents": [
+      "ADmix-beta",
+      "K2OsO4",
+      "K3Fe(CN)6",
+      "K2CO3",
+      "MeSO2NH2"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "21",
+        "percent": 9,
+        "product_label": "22",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "selectivity": "59% ee, 100mg-scale table S13 entry1",
+    "solvents": [
+      "tBuOH",
+      "water"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: B01-opt1",
+        "pages": [
+          24
+        ],
+        "sha256": "6075b3945ba6677a82bf51eee8abfe302badc6f24dd51ac29d7c727f7abfaba7",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "B01-opt1.1"
+    ],
+    "substrate_product_smiles": "CC(=O)OC/C=C(\\C)CC/C=C(\\C)CC/C=C(\\C)CCC=C(C)C>>CC(=O)OC/C=C(\\C)CC/C=C(\\C)CC/C=C(\\C)CC[C@@H](O)C(C)(C)O"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "B01-opt2",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "22"
+    ],
+    "reactant_labels": [
+      "21"
+    ],
+    "reagents": [
+      "Corey-Noe-Lin ligand",
+      "K2OsO4",
+      "K3Fe(CN)6",
+      "K2CO3",
+      "MeSO2NH2"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "21",
+        "percent": 29,
+        "product_label": "22",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "selectivity": "90% ee, 100mg-scale table S13 entry2",
+    "solvents": [
+      "tBuOH",
+      "water"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: B01-opt2",
+        "pages": [
+          24
+        ],
+        "sha256": "6075b3945ba6677a82bf51eee8abfe302badc6f24dd51ac29d7c727f7abfaba7",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "B01-opt2.1"
+    ],
+    "substrate_product_smiles": "CC(=O)OC/C=C(\\C)CC/C=C(\\C)CC/C=C(\\C)CCC=C(C)C>>CC(=O)OC/C=C(\\C)CC/C=C(\\C)CC/C=C(\\C)CC[C@@H](O)C(C)(C)O"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "B01-opt3",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "22"
+    ],
+    "reactant_labels": [
+      "21"
+    ],
+    "reagents": [
+      "Corey-Noe-Lin ligand",
+      "K2OsO4",
+      "K3Fe(CN)6",
+      "K2CO3",
+      "MeSO2NH2"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "21",
+        "percent": 47,
+        "product_label": "22",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "selectivity": "91% ee, 100mg-scale table S13 entry3",
+    "solvents": [
+      "tBuOH",
+      "water"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: B01-opt3",
+        "pages": [
+          24
+        ],
+        "sha256": "6075b3945ba6677a82bf51eee8abfe302badc6f24dd51ac29d7c727f7abfaba7",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "B01-opt3.1"
+    ],
+    "substrate_product_smiles": "CC(=O)OC/C=C(\\C)CC/C=C(\\C)CC/C=C(\\C)CCC=C(C)C>>CC(=O)OC/C=C(\\C)CC/C=C(\\C)CC/C=C(\\C)CC[C@@H](O)C(C)(C)O"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "B01-opt4",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "22"
+    ],
+    "reactant_labels": [
+      "21"
+    ],
+    "reagents": [
+      "Corey-Noe-Lin ligand",
+      "K2OsO4",
+      "K3Fe(CN)6",
+      "K2CO3",
+      "MeSO2NH2"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "21",
+        "percent": 48,
+        "product_label": "22",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "selectivity": "91% ee, 100mg-scale table S13 entry4",
+    "solvents": [
+      "tBuOH",
+      "water"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: B01-opt4",
+        "pages": [
+          24
+        ],
+        "sha256": "6075b3945ba6677a82bf51eee8abfe302badc6f24dd51ac29d7c727f7abfaba7",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "B01-opt4.1"
+    ],
+    "substrate_product_smiles": "CC(=O)OC/C=C(\\C)CC/C=C(\\C)CC/C=C(\\C)CCC=C(C)C>>CC(=O)OC/C=C(\\C)CC/C=C(\\C)CC/C=C(\\C)CC[C@@H](O)C(C)(C)O"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "B01-opt5",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "22"
+    ],
+    "reactant_labels": [
+      "21"
+    ],
+    "reagents": [
+      "Corey-Noe-Lin ligand",
+      "K2OsO4",
+      "K3Fe(CN)6",
+      "K2CO3",
+      "MeSO2NH2"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "21",
+        "percent": 43,
+        "product_label": "22",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "selectivity": "93% ee, 100mg-scale table S13 entry5",
+    "solvents": [
+      "tBuOH",
+      "water"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: B01-opt5",
+        "pages": [
+          24
+        ],
+        "sha256": "6075b3945ba6677a82bf51eee8abfe302badc6f24dd51ac29d7c727f7abfaba7",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "B01-opt5.1"
+    ],
+    "substrate_product_smiles": "CC(=O)OC/C=C(\\C)CC/C=C(\\C)CC/C=C(\\C)CCC=C(C)C>>CC(=O)OC/C=C(\\C)CC/C=C(\\C)CC/C=C(\\C)CC[C@@H](O)C(C)(C)O"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "B02",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "23"
+    ],
+    "reactant_labels": [
+      "22"
+    ],
+    "reagents": [
+      "Tf2O",
+      "pyridine"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "22",
+        "percent": 88,
+        "product_label": "23",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "DCM"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: B02",
+        "pages": [
+          62
+        ],
+        "sha256": "6075b3945ba6677a82bf51eee8abfe302badc6f24dd51ac29d7c727f7abfaba7",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "B02.1"
+    ],
+    "substrate_product_smiles": "CC(=O)OC/C=C(\\C)CC/C=C(\\C)CC/C=C(\\C)CC[C@@H](O)C(C)(C)O>>CC(=O)OC/C=C(\\C)CC/C=C(\\C)CC/C=C(\\C)CC[C@@H]1OC1(C)C"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "B03",
+    "experimental_stage_count": 2,
+    "formal_benchmark_eligible": false,
+    "operation_stages": [
+      {
+        "description": "Reductive polyene cyclization",
+        "stage": 1
+      },
+      {
+        "description": "Acid hydrolysis",
+        "stage": 2
+      }
+    ],
+    "product_labels": [
+      "24"
+    ],
+    "reactant_labels": [
+      "23"
+    ],
+    "reagents": [
+      "Cp2TiCl2",
+      "Mn",
+      "collidine",
+      "TMSCl",
+      "HCl"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "23",
+        "percent": 30,
+        "product_label": "24",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: B03",
+        "pages": [
+          62,
+          63
+        ],
+        "sha256": "6075b3945ba6677a82bf51eee8abfe302badc6f24dd51ac29d7c727f7abfaba7",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "B03.1"
+    ],
+    "substrate_product_smiles": "CC(=O)OC/C=C(\\C)CC/C=C(\\C)CC/C=C(\\C)CC[C@@H]1OC1(C)C>>C=C1CC[C@H]2[C@]3(C)CCC(O)C(C)(C)[C@H]3CC[C@]2(C)C1COC(C)=O"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "B04",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "25"
+    ],
+    "reactant_labels": [
+      "24"
+    ],
+    "reagents": [
+      "MgO",
+      "2-benzyloxy-N-methylpyridinium triflate"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "24",
+        "percent": 80,
+        "product_label": "25",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "PhCF3"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: B04",
+        "pages": [
+          63,
+          64
+        ],
+        "sha256": "6075b3945ba6677a82bf51eee8abfe302badc6f24dd51ac29d7c727f7abfaba7",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "B04.1"
+    ],
+    "substrate_product_smiles": "C=C1CC[C@H]2[C@]3(C)CCC(O)C(C)(C)[C@H]3CC[C@]2(C)C1COC(C)=O>>C=C1CC[C@H]2[C@]3(C)CCC(OCc4ccccc4)C(C)(C)[C@H]3CC[C@]2(C)C1COC(C)=O"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "B05",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "26"
+    ],
+    "reactant_labels": [
+      "25"
+    ],
+    "reagents": [
+      "O3",
+      "pyridine",
+      "Me2S"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "25",
+        "percent": 54,
+        "product_label": "26",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "DCM"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: B05",
+        "pages": [
+          64
+        ],
+        "sha256": "6075b3945ba6677a82bf51eee8abfe302badc6f24dd51ac29d7c727f7abfaba7",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "B05.1"
+    ],
+    "substrate_product_smiles": "C=C1CC[C@H]2[C@]3(C)CCC(OCc4ccccc4)C(C)(C)[C@H]3CC[C@]2(C)C1COC(C)=O>>CC(=O)OCC1C(=O)CC[C@H]2[C@]3(C)CCC(OCc4ccccc4)C(C)(C)[C@H]3CC[C@]12C"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "B05-control",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "26"
+    ],
+    "reactant_labels": [
+      "25"
+    ],
+    "reagents": [
+      "O3",
+      "Me2S"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "25",
+        "percent": 30,
+        "product_label": "26",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "DCM"
+    ],
+    "source_note": "Table S14 heading25 is product26; without pyridine additive.",
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: B05-control",
+        "pages": [
+          25
+        ],
+        "sha256": "6075b3945ba6677a82bf51eee8abfe302badc6f24dd51ac29d7c727f7abfaba7",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "B05-control.1"
+    ],
+    "substrate_product_smiles": "C=C1CC[C@H]2[C@]3(C)CCC(OCc4ccccc4)C(C)(C)[C@H]3CC[C@]2(C)C1COC(C)=O>>CC(=O)OCC1C(=O)CC[C@H]2[C@]3(C)CCC(OCc4ccccc4)C(C)(C)[C@H]3CC[C@]12C"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "B06",
+    "experimental_stage_count": 3,
+    "formal_benchmark_eligible": false,
+    "operation_stages": [
+      {
+        "description": "Elimination",
+        "stage": 1
+      },
+      {
+        "description": "Michael addition",
+        "stage": 2
+      },
+      {
+        "description": "Cyclization",
+        "stage": 3
+      }
+    ],
+    "product_labels": [
+      "27"
+    ],
+    "reactant_labels": [
+      "26",
+      "9a"
+    ],
+    "reagents": [
+      "pTsOH"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "26",
+        "percent": 48,
+        "product_label": "27",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "toluene"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: B06",
+        "pages": [
+          65
+        ],
+        "sha256": "6075b3945ba6677a82bf51eee8abfe302badc6f24dd51ac29d7c727f7abfaba7",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "B06.1"
+    ],
+    "substrate_product_smiles": "CC(=O)OCC1C(=O)CC[C@H]2[C@]3(C)CCC(OCc4ccccc4)C(C)(C)[C@H]3CC[C@]12C.Cc1oc(=O)cc(O)c1C>>Cc1oc(=O)c2c(c1C)OC1=C(C2)[C@@]2(C)CC[C@@H]3C(C)(C)C(OCc4ccccc4)CC[C@@]3(C)[C@@H]2CC1"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "B07",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "28"
+    ],
+    "reactant_labels": [
+      "27"
+    ],
+    "reagents": [
+      "mCPBA"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "27",
+        "percent": 89,
+        "product_label": "28",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "DCM"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: B07",
+        "pages": [
+          66
+        ],
+        "sha256": "6075b3945ba6677a82bf51eee8abfe302badc6f24dd51ac29d7c727f7abfaba7",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "B07.1"
+    ],
+    "substrate_product_smiles": "Cc1oc(=O)c2c(c1C)OC1=C(C2)[C@@]2(C)CC[C@@H]3C(C)(C)C(OCc4ccccc4)CC[C@@]3(C)[C@@H]2CC1>>Cc1oc(=O)c2c(c1C)OC13CC[C@H]4[C@]5(C)CCC(OCc6ccccc6)C(C)(C)[C@H]5CC[C@]4(C)C1(C2)O3"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "B08",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "isolation": "crude source bracketed intermediate",
+    "product_labels": [
+      "29"
+    ],
+    "reactant_labels": [
+      "28"
+    ],
+    "reagents": [
+      "HCl"
+    ],
+    "reported_yields": [],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "THF",
+      "water"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: B08",
+        "pages": [
+          67
+        ],
+        "sha256": "6075b3945ba6677a82bf51eee8abfe302badc6f24dd51ac29d7c727f7abfaba7",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "B08.1"
+    ],
+    "substrate_product_smiles": "Cc1oc(=O)c2c(c1C)OC13CC[C@H]4[C@]5(C)CCC(OCc6ccccc6)C(C)(C)[C@H]5CC[C@]4(C)C1(C2)O3>>Cc1oc(=O)c(CC2(O)C(=O)CC[C@H]3[C@]4(C)CCC(OCc5ccccc5)C(C)(C)[C@H]4CC[C@@]32C)c(O)c1C"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "B09",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "30"
+    ],
+    "reactant_labels": [
+      "29"
+    ],
+    "reagents": [
+      "pTsOH",
+      "pTsOH.H2O"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "29",
+        "percent": 45,
+        "product_label": "30",
+        "scope": "opening/cyclization sequence"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "CHCl3"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: B09",
+        "pages": [
+          67
+        ],
+        "sha256": "6075b3945ba6677a82bf51eee8abfe302badc6f24dd51ac29d7c727f7abfaba7",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "B09.1"
+    ],
+    "substrate_product_smiles": "Cc1oc(=O)c(CC2(O)C(=O)CC[C@H]3[C@]4(C)CCC(OCc5ccccc5)C(C)(C)[C@H]4CC[C@@]32C)c(O)c1C>>Cc1oc(=O)c2c(c1C)O[C@@]1(C2)C(=O)CC[C@H]2[C@]3(C)CCC(OCc4ccccc4)C(C)(C)[C@H]3CC[C@@]21C",
+    "yield_from": "28",
+    "yield_scope": "opening/cyclization sequence"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "B10",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "31"
+    ],
+    "reactant_labels": [
+      "30"
+    ],
+    "reagents": [
+      "MeMgCl",
+      "CeCl3"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "30",
+        "percent": 90,
+        "product_label": "31",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: B10",
+        "pages": [
+          68
+        ],
+        "sha256": "6075b3945ba6677a82bf51eee8abfe302badc6f24dd51ac29d7c727f7abfaba7",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "B10.1"
+    ],
+    "substrate_product_smiles": "Cc1oc(=O)c2c(c1C)O[C@@]1(C2)C(=O)CC[C@H]2[C@]3(C)CCC(OCc4ccccc4)C(C)(C)[C@H]3CC[C@@]21C>>Cc1oc(=O)c2c(c1C)O[C@@]1(C2)C(C)(O)CC[C@H]2[C@]3(C)CCC(OCc4ccccc4)C(C)(C)[C@H]3CC[C@@]21C"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "B11",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "31'"
+    ],
+    "reactant_labels": [
+      "31"
+    ],
+    "reagents": [
+      "SOCl2"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "31",
+        "percent": 67,
+        "product_label": "31'",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "pyridine"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: B11",
+        "pages": [
+          69
+        ],
+        "sha256": "6075b3945ba6677a82bf51eee8abfe302badc6f24dd51ac29d7c727f7abfaba7",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "B11.1"
+    ],
+    "substrate_product_smiles": "Cc1oc(=O)c2c(c1C)O[C@@]1(C2)C(C)(O)CC[C@H]2[C@]3(C)CCC(OCc4ccccc4)C(C)(C)[C@H]3CC[C@@]21C>>CC1=CC[C@H]2[C@]3(C)CCC(OCc4ccccc4)C(C)(C)[C@H]3CC[C@]2(C)[C@]12Cc1c(c(C)c(C)oc1=O)O2"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "B12",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "3"
+    ],
+    "reactant_labels": [
+      "31'"
+    ],
+    "reagents": [
+      "DDQ"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "31'",
+        "percent": 89,
+        "product_label": "3",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "DCM",
+      "water"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: B12",
+        "pages": [
+          69,
+          70
+        ],
+        "sha256": "6075b3945ba6677a82bf51eee8abfe302badc6f24dd51ac29d7c727f7abfaba7",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "B12.1"
+    ],
+    "substrate_product_smiles": "CC1=CC[C@H]2[C@]3(C)CCC(OCc4ccccc4)C(C)(C)[C@H]3CC[C@]2(C)[C@]12Cc1c(c(C)c(C)oc1=O)O2>>CC1=CC[C@H]2[C@]3(C)CCC(O)C(C)(C)[C@H]3CC[C@]2(C)[C@]12Cc1c(c(C)c(C)oc1=O)O2"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "B13",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "2"
+    ],
+    "reactant_labels": [
+      "3"
+    ],
+    "reagents": [
+      "Dess-Martin periodinane"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "3",
+        "percent": 91,
+        "product_label": "2",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "DCM"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: B13",
+        "pages": [
+          70,
+          71
+        ],
+        "sha256": "6075b3945ba6677a82bf51eee8abfe302badc6f24dd51ac29d7c727f7abfaba7",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "B13.1"
+    ],
+    "substrate_product_smiles": "CC1=CC[C@H]2[C@]3(C)CCC(O)C(C)(C)[C@H]3CC[C@]2(C)[C@]12Cc1c(c(C)c(C)oc1=O)O2>>CC1=CC[C@H]2[C@]3(C)CCC(=O)C(C)(C)[C@H]3CC[C@]2(C)[C@]12Cc1c(c(C)c(C)oc1=O)O2"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "C00",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "32"
+    ],
+    "reactant_labels": [
+      "farnesyl acetone"
+    ],
+    "reagents": [
+      "SeO2",
+      "TBHP"
+    ],
+    "reported_yields": [],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "DCM"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: C00",
+        "pages": [
+          71
+        ],
+        "sha256": "6075b3945ba6677a82bf51eee8abfe302badc6f24dd51ac29d7c727f7abfaba7",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "C00.1"
+    ],
+    "substrate_product_smiles": "CC(=O)CC/C=C(\\C)CC/C=C(\\C)CCC=C(C)C>>CC(=O)CC/C=C(\\C)CC/C=C(\\C)CC/C=C(\\C)CO",
+    "yield_scope": "known literature preparation, no yield reported"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "C01",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "16"
+    ],
+    "reactant_labels": [
+      "32"
+    ],
+    "reagents": [
+      "Ti(OiPr)4",
+      "L-(+)-DET",
+      "TBHP",
+      "4A molecular sieves"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "32",
+        "percent": 65,
+        "product_label": "16",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "selectivity": "92% ee",
+    "solvents": [
+      "DCM"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: C01",
+        "pages": [
+          71,
+          72
+        ],
+        "sha256": "6075b3945ba6677a82bf51eee8abfe302badc6f24dd51ac29d7c727f7abfaba7",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "C01.1"
+    ],
+    "substrate_product_smiles": "CC(=O)CC/C=C(\\C)CC/C=C(\\C)CC/C=C(\\C)CO>>CC(=O)CC/C=C(\\C)CC/C=C(\\C)CC[C@@H]1O[C@@]1(C)CO"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "C02",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "15",
+      "15'"
+    ],
+    "reactant_labels": [
+      "16"
+    ],
+    "reagents": [
+      "CSA"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "16",
+        "percent": 25,
+        "product_label": "15",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      },
+      {
+        "from_label": "16",
+        "percent": 4,
+        "product_label": "15'",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "HFIP"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: C02",
+        "pages": [
+          72,
+          73
+        ],
+        "sha256": "6075b3945ba6677a82bf51eee8abfe302badc6f24dd51ac29d7c727f7abfaba7",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "C02.1"
+    ],
+    "substrate_product_smiles": "CC(=O)CC/C=C(\\C)CC/C=C(\\C)CC[C@@H]1O[C@@]1(C)CO>>CC(=O)CCC1=C(C)CC[C@@H]2C(C)(CO)C(O)CC[C@@]12C.CC(=O)CC[C@@H]1C(C)=CC[C@@H]2C(C)(CO)C(O)CC[C@@]12C"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "C03",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "15a"
+    ],
+    "reactant_labels": [
+      "15"
+    ],
+    "reagents": [
+      "PhOC(S)Cl",
+      "DMAP",
+      "pyridine"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "15",
+        "percent": 45,
+        "product_label": "15a",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "MeCN"
+    ],
+    "source_note": "Unidentified two byproducts39%; source reports recycling15 in96% from those byproducts, not structurally resolved.",
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: C03",
+        "pages": [
+          73,
+          74
+        ],
+        "sha256": "6075b3945ba6677a82bf51eee8abfe302badc6f24dd51ac29d7c727f7abfaba7",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "C03.1"
+    ],
+    "substrate_product_smiles": "CC(=O)CCC1=C(C)CC[C@@H]2C(C)(CO)C(O)CC[C@@]12C>>CC(=O)CCC1=C(C)CC[C@@H]2C(C)(COC(=S)Oc3ccccc3)C(O)CC[C@@]12C"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "C04",
+    "experimental_stage_count": 2,
+    "formal_benchmark_eligible": false,
+    "operation_stages": [
+      {
+        "description": "Acetal protection",
+        "stage": 1
+      },
+      {
+        "description": "Alcohol oxidation",
+        "stage": 2
+      }
+    ],
+    "product_labels": [
+      "33"
+    ],
+    "reactant_labels": [
+      "15a"
+    ],
+    "reagents": [
+      "PPTS",
+      "ethylene glycol",
+      "pyridine",
+      "PCC",
+      "Celite"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "15a",
+        "percent": 53,
+        "product_label": "33",
+        "scope": "two steps"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "benzene",
+      "DCM"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: C04",
+        "pages": [
+          74,
+          75
+        ],
+        "sha256": "6075b3945ba6677a82bf51eee8abfe302badc6f24dd51ac29d7c727f7abfaba7",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "C04.1"
+    ],
+    "substrate_product_smiles": "CC(=O)CCC1=C(C)CC[C@@H]2C(C)(COC(=S)Oc3ccccc3)C(O)CC[C@@]12C>>CC1=C(CCC2(C)OCCO2)[C@]2(C)CCC(=O)C(C)(COC(=S)Oc3ccccc3)[C@H]2CC1",
+    "yield_scope": "two steps"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "C05",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "34"
+    ],
+    "reactant_labels": [
+      "33"
+    ],
+    "reagents": [
+      "(TMS)3SiH",
+      "AIBN"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "33",
+        "percent": 76,
+        "product_label": "34",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "selectivity": "dr>20:1",
+    "solvents": [
+      "benzene"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: C05",
+        "pages": [
+          75
+        ],
+        "sha256": "6075b3945ba6677a82bf51eee8abfe302badc6f24dd51ac29d7c727f7abfaba7",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "C05.1"
+    ],
+    "substrate_product_smiles": "CC1=C(CCC2(C)OCCO2)[C@]2(C)CCC(=O)C(C)(COC(=S)Oc3ccccc3)[C@H]2CC1>>CC1=C(CCC2(C)OCCO2)[C@]2(C)CCC(=O)CC(C)[C@H]2CC1"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "C06",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "35"
+    ],
+    "reactant_labels": [
+      "34"
+    ],
+    "reagents": [
+      "LiAlH4"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "34",
+        "percent": 78,
+        "product_label": "35",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "selectivity": "dr>20:1",
+    "solvents": [
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: C06",
+        "pages": [
+          76
+        ],
+        "sha256": "6075b3945ba6677a82bf51eee8abfe302badc6f24dd51ac29d7c727f7abfaba7",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "C06.1"
+    ],
+    "substrate_product_smiles": "CC1=C(CCC2(C)OCCO2)[C@]2(C)CCC(=O)CC(C)[C@H]2CC1>>CC1=C(CCC2(C)OCCO2)[C@]2(C)CCC(O)CC(C)[C@H]2CC1"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "C07",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "36"
+    ],
+    "reactant_labels": [
+      "35"
+    ],
+    "reagents": [
+      "MgO",
+      "2-benzyloxy-N-methylpyridinium triflate",
+      "HCl"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "35",
+        "percent": 56,
+        "product_label": "36",
+        "scope": "benzylation and acetal cleavage"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "PhCF3",
+      "THF",
+      "water"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: C07",
+        "pages": [
+          76,
+          77
+        ],
+        "sha256": "6075b3945ba6677a82bf51eee8abfe302badc6f24dd51ac29d7c727f7abfaba7",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "C07.1"
+    ],
+    "substrate_product_smiles": "CC1=C(CCC2(C)OCCO2)[C@]2(C)CCC(O)CC(C)[C@H]2CC1>>CC(=O)CCC1=C(C)CC[C@@H]2C(C)CC(OCc3ccccc3)CC[C@@]12C",
+    "yield_scope": "benzylation and acetal cleavage"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "C08",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "14"
+    ],
+    "reactant_labels": [
+      "36"
+    ],
+    "reagents": [
+      "LiTMP",
+      "HMPA",
+      "methyl cyanoformate"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "36",
+        "percent": 72,
+        "product_label": "14",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: C08",
+        "pages": [
+          77,
+          78
+        ],
+        "sha256": "6075b3945ba6677a82bf51eee8abfe302badc6f24dd51ac29d7c727f7abfaba7",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "C08.1"
+    ],
+    "substrate_product_smiles": "CC(=O)CCC1=C(C)CC[C@@H]2C(C)CC(OCc3ccccc3)CC[C@@]12C>>COC(=O)CC(=O)CCC1=C(C)CC[C@@H]2C(C)CC(OCc3ccccc3)CC[C@@]12C"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "C09",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "38"
+    ],
+    "reactant_labels": [
+      "14"
+    ],
+    "reagents": [
+      "SnCl4"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "14",
+        "percent": 41,
+        "product_label": "38",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "water-saturated DCM"
+    ],
+    "source_note": "Major isolated product; scheme/table total mixture46% beta/alpha8:1 not assigned to major alone.",
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: C09",
+        "pages": [
+          78
+        ],
+        "sha256": "6075b3945ba6677a82bf51eee8abfe302badc6f24dd51ac29d7c727f7abfaba7",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "C09.1"
+    ],
+    "substrate_product_smiles": "COC(=O)CC(=O)CCC1=C(C)CC[C@@H]2C(C)CC(OCc3ccccc3)CC[C@@]12C>>COC(=O)C1C(=O)CC[C@H]2[C@]3(C)CCC(OCc4ccccc4)CC(C)[C@H]3CC[C@]12C"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "C10",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "isolation": "crude",
+    "product_labels": [
+      "8"
+    ],
+    "reactant_labels": [
+      "38"
+    ],
+    "reagents": [
+      "LiHMDS",
+      "LiAlH4",
+      "AlCl3"
+    ],
+    "reported_yields": [],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: C10",
+        "pages": [
+          80
+        ],
+        "sha256": "6075b3945ba6677a82bf51eee8abfe302badc6f24dd51ac29d7c727f7abfaba7",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "C10.1"
+    ],
+    "substrate_product_smiles": "COC(=O)C1C(=O)CC[C@H]2[C@]3(C)CCC(OCc4ccccc4)CC(C)[C@H]3CC[C@]12C>>CC1CC(OCc2ccccc2)CC[C@]2(C)[C@@H]1CC[C@]1(C)C(CO)C(=O)CC[C@@H]21"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "C11",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "39"
+    ],
+    "reactant_labels": [
+      "8",
+      "9a"
+    ],
+    "reagents": [
+      "pTsOH"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "8",
+        "percent": 31,
+        "product_label": "39",
+        "scope": "two reported steps, reduction plus elimination/addition/cyclization"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "toluene"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: C11",
+        "pages": [
+          80
+        ],
+        "sha256": "6075b3945ba6677a82bf51eee8abfe302badc6f24dd51ac29d7c727f7abfaba7",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "C11.1"
+    ],
+    "substrate_product_smiles": "CC1CC(OCc2ccccc2)CC[C@]2(C)[C@@H]1CC[C@]1(C)C(CO)C(=O)CC[C@@H]21.Cc1oc(=O)cc(O)c1C>>Cc1oc(=O)c2c(c1C)OC1=C(C2)[C@@]2(C)CC[C@@H]3C(C)CC(OCc4ccccc4)CC[C@@]3(C)[C@@H]2CC1",
+    "yield_from": "38",
+    "yield_scope": "two reported steps, reduction plus elimination/addition/cyclization"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "C12",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "isolation": "crude source bracketed intermediate",
+    "product_labels": [
+      "40"
+    ],
+    "reactant_labels": [
+      "39"
+    ],
+    "reagents": [
+      "mCPBA"
+    ],
+    "reported_yields": [],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "DCM"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: C12",
+        "pages": [
+          81
+        ],
+        "sha256": "6075b3945ba6677a82bf51eee8abfe302badc6f24dd51ac29d7c727f7abfaba7",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "C12.1"
+    ],
+    "substrate_product_smiles": "Cc1oc(=O)c2c(c1C)OC1=C(C2)[C@@]2(C)CC[C@@H]3C(C)CC(OCc4ccccc4)CC[C@@]3(C)[C@@H]2CC1>>Cc1oc(=O)c2c(c1C)OC13CC[C@H]4[C@]5(C)CCC(OCc6ccccc6)CC(C)[C@H]5CC[C@]4(C)C1(C2)O3"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "C13",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "isolation": "crude source bracketed intermediate",
+    "product_labels": [
+      "41"
+    ],
+    "reactant_labels": [
+      "40"
+    ],
+    "reagents": [
+      "HCl"
+    ],
+    "reported_yields": [],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "THF",
+      "water"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: C13",
+        "pages": [
+          81
+        ],
+        "sha256": "6075b3945ba6677a82bf51eee8abfe302badc6f24dd51ac29d7c727f7abfaba7",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "C13.1"
+    ],
+    "substrate_product_smiles": "Cc1oc(=O)c2c(c1C)OC13CC[C@H]4[C@]5(C)CCC(OCc6ccccc6)CC(C)[C@H]5CC[C@]4(C)C1(C2)O3>>Cc1oc(=O)c(CC2(O)C(=O)CC[C@H]3[C@]4(C)CCC(OCc5ccccc5)CC(C)[C@H]4CC[C@@]32C)c(O)c1C"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "C14",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "7"
+    ],
+    "reactant_labels": [
+      "41"
+    ],
+    "reagents": [
+      "pTsOH.H2O"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "41",
+        "percent": 32,
+        "product_label": "7",
+        "scope": "three operations"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "CHCl3"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: C14",
+        "pages": [
+          81,
+          82
+        ],
+        "sha256": "6075b3945ba6677a82bf51eee8abfe302badc6f24dd51ac29d7c727f7abfaba7",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "C14.1"
+    ],
+    "substrate_product_smiles": "Cc1oc(=O)c(CC2(O)C(=O)CC[C@H]3[C@]4(C)CCC(OCc5ccccc5)CC(C)[C@H]4CC[C@@]32C)c(O)c1C>>Cc1oc(=O)c2c(c1C)O[C@@]1(C2)C(=O)CC[C@H]2[C@]3(C)CCC(OCc4ccccc4)CC(C)[C@H]3CC[C@@]21C",
+    "yield_from": "39",
+    "yield_scope": "three operations"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "C15",
+    "experimental_stage_count": 2,
+    "formal_benchmark_eligible": false,
+    "operation_stages": [
+      {
+        "description": "Methyl addition",
+        "stage": 1
+      },
+      {
+        "description": "Dehydration",
+        "stage": 2
+      }
+    ],
+    "product_labels": [
+      "42"
+    ],
+    "reactant_labels": [
+      "7"
+    ],
+    "reagents": [
+      "MeMgCl",
+      "CeCl3",
+      "SOCl2"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "7",
+        "percent": 57,
+        "product_label": "42",
+        "scope": "two steps"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "THF",
+      "pyridine"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: C15",
+        "pages": [
+          82,
+          83
+        ],
+        "sha256": "6075b3945ba6677a82bf51eee8abfe302badc6f24dd51ac29d7c727f7abfaba7",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "C15.1"
+    ],
+    "substrate_product_smiles": "Cc1oc(=O)c2c(c1C)O[C@@]1(C2)C(=O)CC[C@H]2[C@]3(C)CCC(OCc4ccccc4)CC(C)[C@H]3CC[C@@]21C>>CC1=CC[C@H]2[C@]3(C)CCC(OCc4ccccc4)CC(C)[C@H]3CC[C@]2(C)[C@]12Cc1c(c(C)c(C)oc1=O)O2",
+    "yield_scope": "two steps"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "C16",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "43"
+    ],
+    "reactant_labels": [
+      "42"
+    ],
+    "reagents": [
+      "DDQ"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "42",
+        "percent": 85,
+        "product_label": "43",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "DCM",
+      "water"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: C16",
+        "pages": [
+          83
+        ],
+        "sha256": "6075b3945ba6677a82bf51eee8abfe302badc6f24dd51ac29d7c727f7abfaba7",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "C16.1"
+    ],
+    "substrate_product_smiles": "CC1=CC[C@H]2[C@]3(C)CCC(OCc4ccccc4)CC(C)[C@H]3CC[C@]2(C)[C@]12Cc1c(c(C)c(C)oc1=O)O2>>CC1=CC[C@H]2[C@]3(C)CCC(O)CC(C)[C@H]3CC[C@]2(C)[C@]12Cc1c(c(C)c(C)oc1=O)O2"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "C17",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "4"
+    ],
+    "reactant_labels": [
+      "43"
+    ],
+    "reagents": [
+      "(PhSeO)2O",
+      "pyridine"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "43",
+        "percent": 31,
+        "product_label": "4",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "toluene"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: C17",
+        "pages": [
+          84
+        ],
+        "sha256": "6075b3945ba6677a82bf51eee8abfe302badc6f24dd51ac29d7c727f7abfaba7",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "C17.1"
+    ],
+    "substrate_product_smiles": "CC1=CC[C@H]2[C@]3(C)CCC(O)CC(C)[C@H]3CC[C@]2(C)[C@]12Cc1c(c(C)c(C)oc1=O)O2>>CC1=CC(=O)C=C[C@]2(C)[C@@H]1CC[C@@]1(C)[C@H]2CC=C(C)[C@@]12Cc1c(c(C)c(C)oc1=O)O2"
+  }
+]

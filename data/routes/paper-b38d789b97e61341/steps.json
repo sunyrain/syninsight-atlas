@@ -1,0 +1,277 @@
+[
+  {
+    "admission_authority": false,
+    "agents": [
+      "sodium iodide"
+    ],
+    "event_id": "E01",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "One source-reported preparation; internal transient species not separately drawn",
+    "product_labels": [
+      "6"
+    ],
+    "reactant_labels": [
+      "aminoacetal",
+      "bromohexene"
+    ],
+    "solvents": [
+      "ethanol"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF page 3, section 2; E01: aminoacetal,bromohexene -> 6",
+        "pages": [
+          3
+        ],
+        "sha256": "beceb6f9ef1af282d403411d5c9d938ce664ade222d4d8235e5873870ba93942",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E01.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "C=CCCCCBr.CCOC(CCN)OCC>>C=CCCCCNCCC(OCC)OCC",
+    "yield_percent": 63
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "DCC",
+      "DIPEA",
+      "HOBt monohydrate"
+    ],
+    "event_id": "E02",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "One source-reported preparation; internal transient species not separately drawn",
+    "product_labels": [
+      "7"
+    ],
+    "reactant_labels": [
+      "6",
+      "hexenoic-acid"
+    ],
+    "solvents": [
+      "dichloromethane"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF page 4, section 2; E02: 6,hexenoic-acid -> 7",
+        "pages": [
+          4
+        ],
+        "sha256": "beceb6f9ef1af282d403411d5c9d938ce664ade222d4d8235e5873870ba93942",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E02.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "C=CCCCC(=O)O.C=CCCCCNCCC(OCC)OCC>>C=CCCCCN(CCC(OCC)OCC)C(=O)CCCC=C",
+    "yield_percent": 83
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "acetic acid"
+    ],
+    "event_id": "E03",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "One source-reported preparation; internal transient species not separately drawn",
+    "product_labels": [
+      "3"
+    ],
+    "reactant_labels": [
+      "7",
+      "tryptamine"
+    ],
+    "solvents": [
+      "acetic acid",
+      "methanol"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF page 5, section 2; E03: 7,tryptamine -> 3",
+        "pages": [
+          5
+        ],
+        "sha256": "beceb6f9ef1af282d403411d5c9d938ce664ade222d4d8235e5873870ba93942",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E03.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "C=CCCCCN(CCC(OCC)OCC)C(=O)CCCC=C.NCCc1c[nH]c2ccccc12>>C=CCCCCN(CCC1NCCc2c1[nH]c1ccccc21)C(=O)CCCC=C",
+    "yield_percent": 85
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "p-toluenesulfonic acid",
+      "Grubbs second-generation catalyst"
+    ],
+    "event_id": "E04",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "One source-reported preparation; internal transient species not separately drawn",
+    "product_labels": [
+      "4"
+    ],
+    "reactant_labels": [
+      "3"
+    ],
+    "solvents": [
+      "dichloromethane"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF page 6, section 2; E04: 3 -> 4",
+        "pages": [
+          6
+        ],
+        "sha256": "beceb6f9ef1af282d403411d5c9d938ce664ade222d4d8235e5873870ba93942",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E04.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "C=CCCCCN(CCC1NCCc2c1[nH]c1ccccc21)C(=O)CCCC=C>>O=C1CCCC=CCCCCN1CCC1NCCc2c1[nH]c1ccccc21",
+    "yield_percent": 23
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "lithium aluminium hydride"
+    ],
+    "event_id": "E05",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "One source-reported preparation; internal transient species not separately drawn",
+    "product_labels": [
+      "2"
+    ],
+    "reactant_labels": [
+      "4"
+    ],
+    "solvents": [
+      "tetrahydrofuran"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF page 8, section 2; E05: 4 -> 2",
+        "pages": [
+          8
+        ],
+        "sha256": "beceb6f9ef1af282d403411d5c9d938ce664ade222d4d8235e5873870ba93942",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E05.1",
+    "step_index_within_event": 1,
+    "structure_basis": "procedural_interpretation",
+    "substrate_product_smiles": "O=C1CCCC=CCCCCN1CCC1NCCc2c1[nH]c1ccccc21>>C1=CCCCCN(CCC2NCCc3c2[nH]c2ccccc32)CCCC1",
+    "yield_percent": 38
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "methyl iodide"
+    ],
+    "event_id": "E06",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "One source-reported preparation; internal transient species not separately drawn",
+    "product_labels": [
+      "13"
+    ],
+    "reactant_labels": [
+      "3"
+    ],
+    "solvents": [
+      "dichloromethane"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF page 9, section 2; E06: 3 -> 13",
+        "pages": [
+          9
+        ],
+        "sha256": "beceb6f9ef1af282d403411d5c9d938ce664ade222d4d8235e5873870ba93942",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E06.1",
+    "step_index_within_event": 1,
+    "structure_basis": "procedural_interpretation",
+    "substrate_product_smiles": "C=CCCCCN(CCC1NCCc2c1[nH]c1ccccc21)C(=O)CCCC=C>>C=CCCCCN(CCC1c2[nH]c3ccccc3c2CC[N+]1(C)C)C(=O)CCCC=C.[I-]",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "sodium iodide"
+    ],
+    "event_id": "E07",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "One source-reported preparation; internal transient species not separately drawn",
+    "product_labels": [
+      "17"
+    ],
+    "reactant_labels": [
+      "phenylpropylamine",
+      "bromohexene"
+    ],
+    "solvents": [
+      "ethanol"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF page 10, section 2; E07: phenylpropylamine,bromohexene -> 17",
+        "pages": [
+          10
+        ],
+        "sha256": "beceb6f9ef1af282d403411d5c9d938ce664ade222d4d8235e5873870ba93942",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E07.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "C=CCCCCBr.NCCCc1ccccc1>>C=CCCCCNCCCc1ccccc1",
+    "yield_percent": 23
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "DCC",
+      "DIPEA",
+      "HOBt monohydrate"
+    ],
+    "event_id": "E08",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "One source-reported preparation; internal transient species not separately drawn",
+    "product_labels": [
+      "15"
+    ],
+    "reactant_labels": [
+      "17",
+      "hexenoic-acid"
+    ],
+    "solvents": [
+      "dichloromethane"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF page 11, section 2; E08: 17,hexenoic-acid -> 15",
+        "pages": [
+          11
+        ],
+        "sha256": "beceb6f9ef1af282d403411d5c9d938ce664ade222d4d8235e5873870ba93942",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E08.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "C=CCCCC(=O)O.C=CCCCCNCCCc1ccccc1>>C=CCCCCN(CCCc1ccccc1)C(=O)CCCC=C",
+    "yield_percent": 23
+  }
+]

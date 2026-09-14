@@ -1,0 +1,295 @@
+[
+  {
+    "admission_authority": false,
+    "category": "historical_preparation_boundary",
+    "event_id": "E01",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_stages": [
+      "Source cites two known steps; detailed operations unavailable in main article"
+    ],
+    "product_labels": [
+      "38"
+    ],
+    "reactant_labels": [
+      "37"
+    ],
+    "reagents": [],
+    "reported_yields": [],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E01",
+        "pages": [
+          7
+        ],
+        "sha256": "0a6782c24d848dca0735bd5393457aca587a1d3fdf828d901bed288d66b832c7",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "E01.1"
+    ],
+    "substrate_product_smiles": "COC(=O)[C@@]1(C)CCCC1=O>>CC(C)(C)[Si](C)(C)OC1=CCC[C@]1(C)CO"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E02",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "39"
+    ],
+    "reactant_labels": [
+      "38"
+    ],
+    "reagents": [
+      "TBDPSCl",
+      "imidazole"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "38",
+        "percent": 78,
+        "product_label": "39",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "CH2Cl2"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E02",
+        "pages": [
+          7
+        ],
+        "sha256": "0a6782c24d848dca0735bd5393457aca587a1d3fdf828d901bed288d66b832c7",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "E02.1"
+    ],
+    "substrate_product_smiles": "CC(C)(C)[Si](C)(C)OC1=CCC[C@]1(C)CO>>CC(C)(C)[Si](C)(C)OC1=CCC[C@]1(C)CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E03",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_stages": [
+      "456 nm LED, 23 C"
+    ],
+    "product_labels": [
+      "41"
+    ],
+    "reactant_labels": [
+      "39",
+      "chloroacetonitrile"
+    ],
+    "reagents": [
+      "photocatalyst 40",
+      "2,6-lutidine"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "39",
+        "percent": 55,
+        "product_label": "41",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "1,2-dichloroethane"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E03",
+        "pages": [
+          7
+        ],
+        "sha256": "0a6782c24d848dca0735bd5393457aca587a1d3fdf828d901bed288d66b832c7",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "E03.1"
+    ],
+    "substrate_product_smiles": "CC(C)(C)[Si](C)(C)OC1=CCC[C@]1(C)CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C.N#CCCl>>CC(C)(C)[Si](C)(C)OC1=C(CC#N)CC[C@]1(C)CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E04",
+    "experimental_stage_count": 2,
+    "formal_benchmark_eligible": false,
+    "operation_stages": [
+      "nitrile reduction then nosylation, reported 59% for this group",
+      "methylation then enol-silyl-ether hydrolysis, reported 81% for this group"
+    ],
+    "product_labels": [
+      "42"
+    ],
+    "reactant_labels": [
+      "41"
+    ],
+    "reagents": [
+      "CoCl2",
+      "NaBH4",
+      "p-NsCl",
+      "NEt3",
+      "Cs2CO3",
+      "MeI",
+      "TFA"
+    ],
+    "reported_yields": [],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E04",
+        "pages": [
+          7
+        ],
+        "sha256": "0a6782c24d848dca0735bd5393457aca587a1d3fdf828d901bed288d66b832c7",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "E04.1"
+    ],
+    "substrate_product_smiles": "CC(C)(C)[Si](C)(C)OC1=C(CC#N)CC[C@]1(C)CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C>>CN(CCC1CC[C@](C)(CO[Si](c2ccccc2)(c2ccccc2)C(C)(C)C)C1=O)S(=O)(=O)c1ccc([N+](=O)[O-])cc1",
+    "yield_scope": "Separate 59% and 81% operation-group yields; no overall yield invented"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E05",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "mixture_yield_percent": 60,
+    "product_labels": [
+      "44"
+    ],
+    "reactant_labels": [
+      "42",
+      "27"
+    ],
+    "reagents": [
+      "AcOH"
+    ],
+    "reported_yield_text": "60% combined mixture yield",
+    "reported_yields": [],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E05",
+        "pages": [
+          7
+        ],
+        "sha256": "0a6782c24d848dca0735bd5393457aca587a1d3fdf828d901bed288d66b832c7",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "E05.1"
+    ],
+    "substrate_product_smiles": "CN(CCC1CC[C@](C)(CO[Si](c2ccccc2)(c2ccccc2)C(C)(C)C)C1=O)S(=O)(=O)c1ccc([N+](=O)[O-])cc1.COc1ccc(NN)cc1>>COc1ccc2c(c1)[C@@]1(CCN(C)S(=O)(=O)c3ccc([N+](=O)[O-])cc3)CC[C@](C)(CO[Si](c3ccccc3)(c3ccccc3)C(C)(C)C)C1=N2",
+    "temperature": "60 C",
+    "yield_scope": "combined 2.3:1 diastereomer mixture; shown major 44"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E06",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "45"
+    ],
+    "reactant_labels": [
+      "44"
+    ],
+    "reagents": [
+      "Cs2CO3",
+      "PhSH"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "44",
+        "percent": 61,
+        "product_label": "45",
+        "scope": "reported isolated 45, >20:1 dr"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "CH3CN"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E06",
+        "pages": [
+          7
+        ],
+        "sha256": "0a6782c24d848dca0735bd5393457aca587a1d3fdf828d901bed288d66b832c7",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "E06.1"
+    ],
+    "substrate_product_smiles": "COc1ccc2c(c1)[C@@]1(CCN(C)S(=O)(=O)c3ccc([N+](=O)[O-])cc3)CC[C@](C)(CO[Si](c3ccccc3)(c3ccccc3)C(C)(C)C)C1=N2>>COc1ccc2c(c1)[C@]13CCN(C)[C@@]1(N2)[C@@](C)(CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C)CC3",
+    "temperature": "23 to 60 C",
+    "yield_scope": "reported isolated 45, >20:1 dr"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E07",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "4"
+    ],
+    "reactant_labels": [
+      "45"
+    ],
+    "reagents": [
+      "TBAF"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "45",
+        "percent": 73,
+        "product_label": "4",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E07",
+        "pages": [
+          7
+        ],
+        "sha256": "0a6782c24d848dca0735bd5393457aca587a1d3fdf828d901bed288d66b832c7",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "E07.1"
+    ],
+    "substrate_product_smiles": "COc1ccc2c(c1)[C@]13CCN(C)[C@@]1(N2)[C@@](C)(CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C)CC3>>COc1ccc2c(c1)[C@]13CCN(C)[C@@]1(N2)[C@@](C)(CO)CC3"
+  }
+]

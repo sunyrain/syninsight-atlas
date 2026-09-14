@@ -1,0 +1,1019 @@
+{
+  "admission_authority": false,
+  "available_si_preparation_network_covered": false,
+  "conditions_fully_standardized": false,
+  "coverage_definition": "Main Fig5c chemical total synthesis. SI unavailable, correction impact unresolved; biosynthetic substrate scope and additional SI ester derivatizations not covered.",
+  "doi": "10.1021/acscentsci.6c00057",
+  "extraction_method": "source_drawing_checked_network_transcription",
+  "formal_benchmark_eligible": false,
+  "formula_checks": [
+    {
+      "check_basis": "Curation expected formula; source HRMS where available, otherwise drawing atom count.",
+      "expected_neutral_formula": "C17H24N2O2",
+      "label": "4",
+      "neutral_formula_match": true,
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: formula 4",
+          "pages": [
+            7
+          ],
+          "sha256": "0a6782c24d848dca0735bd5393457aca587a1d3fdf828d901bed288d66b832c7",
+          "source_id": "article"
+        }
+      ]
+    }
+  ],
+  "full_article_route_coverage": false,
+  "hrms_checks": [],
+  "issues": [
+    {
+      "detail": "Supporting information unavailable locally; PMC delivery encountered reCAPTCHA and publisher access unavailable. Chemical main Fig5c only.",
+      "id": "PENS-SI",
+      "severity": "representation_boundary",
+      "subject": "coverage"
+    },
+    {
+      "detail": "Correction DOI 10.1021/acscentsci.6c01223 located; text unavailable so its effect on extraction is unresolved.",
+      "id": "PENS-CORRECTION",
+      "severity": "review_pending",
+      "subject": "article"
+    },
+    {
+      "detail": "Figure5 gives 60%; prose gives 61%; figure mixture yield retained.",
+      "id": "PENS-44-YIELD",
+      "severity": "source_conflict",
+      "subject": "44"
+    },
+    {
+      "detail": "Minor diastereomer not independently drawn; cannot assign mixture yield to major structure.",
+      "id": "PENS-MINOR",
+      "severity": "representation_boundary",
+      "subject": "44"
+    },
+    {
+      "detail": "This main article also reports enzymatic substrate scope and additional ester analogues. Their full preparation network requires SI and remains unextracted.",
+      "id": "PENS-BIO",
+      "severity": "representation_boundary",
+      "subject": "biosynthetic scope"
+    },
+    {
+      "detail": "Source-bound facts require independent chemist review.",
+      "id": "independent-review",
+      "severity": "review_pending",
+      "subject": "all"
+    }
+  ],
+  "molecules": [
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "COC(=O)[C@@]1(C)CCCC1=O",
+      "canonical_smiles": "COC(=O)[C@@]1(C)CCCC1=O",
+      "depiction": "structures/37.svg",
+      "exact_mass": 156.078644244,
+      "formal_benchmark_eligible": false,
+      "label": "37",
+      "molecular_formula": "C8H12O3",
+      "molecule_id": "mol-d02383a790b0bc53d0f2ea20776f41dd91f301eb231a51513e6bbb61a9807a74",
+      "name": "SI compound 37",
+      "paper_label": "37",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: 37",
+          "pages": [
+            7
+          ],
+          "sha256": "0a6782c24d848dca0735bd5393457aca587a1d3fdf828d901bed288d66b832c7",
+          "source_id": "article"
+        }
+      ],
+      "stereo_status": "source (+)-37, 90% ee",
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "CC(C)(C)[Si](C)(C)OC1=CCC[C@]1(C)CO",
+      "canonical_smiles": "CC(C)(C)[Si](C)(C)OC1=CCC[C@]1(C)CO",
+      "depiction": "structures/38.svg",
+      "exact_mass": 242.17020660199998,
+      "formal_benchmark_eligible": false,
+      "label": "38",
+      "molecular_formula": "C13H26O2Si",
+      "molecule_id": "mol-b0ffc6e0305d96a6de77133419aba38639631b086d5d250936d6571c1576b04d",
+      "name": "SI compound 38",
+      "paper_label": "38",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: 38",
+          "pages": [
+            7
+          ],
+          "sha256": "0a6782c24d848dca0735bd5393457aca587a1d3fdf828d901bed288d66b832c7",
+          "source_id": "article"
+        }
+      ],
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "CC(C)(C)[Si](C)(C)OC1=CCC[C@]1(C)CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C",
+      "canonical_smiles": "CC(C)(C)[Si](C)(C)OC1=CCC[C@]1(C)CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C",
+      "depiction": "structures/39.svg",
+      "exact_mass": 480.28798370799996,
+      "formal_benchmark_eligible": false,
+      "label": "39",
+      "molecular_formula": "C29H44O2Si2",
+      "molecule_id": "mol-977a750d9380afb7967447adc11119f33c7bb4430f475ef34edf3fc46b5b947b",
+      "name": "SI compound 39",
+      "paper_label": "39",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: 39",
+          "pages": [
+            7
+          ],
+          "sha256": "0a6782c24d848dca0735bd5393457aca587a1d3fdf828d901bed288d66b832c7",
+          "source_id": "article"
+        }
+      ],
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "N#CCCl",
+      "canonical_smiles": "N#CCCl",
+      "depiction": "structures/chloroacetonitrile.svg",
+      "exact_mass": 74.987576744,
+      "formal_benchmark_eligible": false,
+      "label": "chloroacetonitrile",
+      "molecular_formula": "C2H2ClN",
+      "molecule_id": "mol-0937098a5395472bafffb5722c3a1568dfc55fd67729cd21444d506e700675b5",
+      "name": "SI compound chloroacetonitrile",
+      "paper_label": "chloroacetonitrile",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: chloroacetonitrile",
+          "pages": [
+            7
+          ],
+          "sha256": "0a6782c24d848dca0735bd5393457aca587a1d3fdf828d901bed288d66b832c7",
+          "source_id": "article"
+        }
+      ],
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "CC(C)(C)[Si](C)(C)OC1=C(CC#N)CC[C@]1(C)CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C",
+      "canonical_smiles": "CC(C)(C)[Si](C)(C)OC1=C(CC#N)CC[C@]1(C)CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C",
+      "depiction": "structures/41.svg",
+      "exact_mass": 519.29888274,
+      "formal_benchmark_eligible": false,
+      "label": "41",
+      "molecular_formula": "C31H45NO2Si2",
+      "molecule_id": "mol-8f65c2540cd8c3029bf8beaed1acdb3e647b53f8a786bf1b1cd05322878682b8",
+      "name": "SI compound 41",
+      "paper_label": "41",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: 41",
+          "pages": [
+            7
+          ],
+          "sha256": "0a6782c24d848dca0735bd5393457aca587a1d3fdf828d901bed288d66b832c7",
+          "source_id": "article"
+        }
+      ],
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "CN(CCC1CC[C@](C)(CO[Si](c2ccccc2)(c2ccccc2)C(C)(C)C)C1=O)S(=O)(=O)c1ccc([N+](=O)[O-])cc1",
+      "canonical_smiles": "CN(CCC1CC[C@](C)(CO[Si](c2ccccc2)(c2ccccc2)C(C)(C)C)C1=O)S(=O)(=O)c1ccc([N+](=O)[O-])cc1",
+      "depiction": "structures/42.svg",
+      "exact_mass": 608.2376345299999,
+      "formal_benchmark_eligible": false,
+      "label": "42",
+      "molecular_formula": "C32H40N2O6SSi",
+      "molecule_id": "mol-e3b94234f70c88754e27e550602af9bca8c0875335efb32d5992949b88c876f9",
+      "name": "SI compound 42",
+      "paper_label": "42",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: 42",
+          "pages": [
+            7
+          ],
+          "sha256": "0a6782c24d848dca0735bd5393457aca587a1d3fdf828d901bed288d66b832c7",
+          "source_id": "article"
+        }
+      ],
+      "stereo_status": "C3 wavy bond: unspecified ketone diastereomer; C3-prime drawn absolute configuration",
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "COc1ccc(NN)cc1",
+      "canonical_smiles": "COc1ccc(NN)cc1",
+      "depiction": "structures/27.svg",
+      "exact_mass": 138.07931294,
+      "formal_benchmark_eligible": false,
+      "label": "27",
+      "molecular_formula": "C7H10N2O",
+      "molecule_id": "mol-b40d582faff18c084f9cc8ea62314698f2535f13b440c377d47f5cbbb59b51a4",
+      "name": "SI compound 27",
+      "paper_label": "27",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: 27",
+          "pages": [
+            7
+          ],
+          "sha256": "0a6782c24d848dca0735bd5393457aca587a1d3fdf828d901bed288d66b832c7",
+          "source_id": "article"
+        }
+      ],
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "COc1ccc2c(c1)[C@@]1(CCN(C)S(=O)(=O)c3ccc([N+](=O)[O-])cc3)CC[C@](C)(CO[Si](c3ccccc3)(c3ccccc3)C(C)(C)C)C1=N2",
+      "canonical_smiles": "COc1ccc2c(c1)[C@@]1(CCN(C)S(=O)(=O)c3ccc([N+](=O)[O-])cc3)CC[C@](C)(CO[Si](c3ccccc3)(c3ccccc3)C(C)(C)C)C1=N2",
+      "depiction": "structures/44.svg",
+      "exact_mass": 711.2798336899999,
+      "formal_benchmark_eligible": false,
+      "label": "44",
+      "molecular_formula": "C39H45N3O6SSi",
+      "molecule_id": "mol-824d59dcf8de3445d8259ad4f5e32a3a43a6f871dda380dc1fd2b61f127ed9d5",
+      "name": "SI compound 44",
+      "paper_label": "44",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: 44",
+          "pages": [
+            7
+          ],
+          "sha256": "0a6782c24d848dca0735bd5393457aca587a1d3fdf828d901bed288d66b832c7",
+          "source_id": "article"
+        }
+      ],
+      "stereo_status": "source major diastereomer of 2.3:1 mixture",
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "COc1ccc2c(c1)[C@]13CCN(C)[C@@]1(N2)[C@@](C)(CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C)CC3",
+      "canonical_smiles": "COc1ccc2c(c1)[C@]13CCN(C)[C@@]1(N2)[C@@](C)(CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C)CC3",
+      "depiction": "structures/45.svg",
+      "exact_mass": 526.301555114,
+      "formal_benchmark_eligible": false,
+      "label": "45",
+      "molecular_formula": "C33H42N2O2Si",
+      "molecule_id": "mol-fc581cbefe9ddc786ff1ceaf0a039742707a648ff37fe32b782ca0f91993ada9",
+      "name": "SI compound 45",
+      "paper_label": "45",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: 45",
+          "pages": [
+            7
+          ],
+          "sha256": "0a6782c24d848dca0735bd5393457aca587a1d3fdf828d901bed288d66b832c7",
+          "source_id": "article"
+        }
+      ],
+      "stereo_status": "source major isolated aminal, >20:1 dr",
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "COc1ccc2c(c1)[C@]13CCN(C)[C@@]1(N2)[C@@](C)(CO)CC3",
+      "canonical_smiles": "COc1ccc2c(c1)[C@]13CCN(C)[C@@]1(N2)[C@@](C)(CO)CC3",
+      "depiction": "structures/4.svg",
+      "exact_mass": 288.183778008,
+      "formal_benchmark_eligible": false,
+      "label": "4",
+      "molecular_formula": "C17H24N2O2",
+      "molecule_id": "mol-fc00c6889c88558af6c7b5d382de760cc4005ceecdd2b0d959fc32a53a9f2f63",
+      "name": "SI compound 4",
+      "paper_label": "4",
+      "review_status": "pending_independent_chemist_review",
+      "role": "target",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: 4",
+          "pages": [
+            7
+          ],
+          "sha256": "0a6782c24d848dca0735bd5393457aca587a1d3fdf828d901bed288d66b832c7",
+          "source_id": "article"
+        }
+      ],
+      "structure_basis": "source_drawing_transcription"
+    }
+  ],
+  "observations": [],
+  "paper_id": "paper-0e05697c35b4bd20",
+  "participants": [],
+  "reactions": [
+    {
+      "admission_authority": false,
+      "category": "historical_preparation_boundary",
+      "event_id": "E01",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "operation_stages": [
+        "Source cites two known steps; detailed operations unavailable in main article"
+      ],
+      "product_labels": [
+        "38"
+      ],
+      "reactant_labels": [
+        "37"
+      ],
+      "reagents": [],
+      "reported_yields": [],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: E01",
+          "pages": [
+            7
+          ],
+          "sha256": "0a6782c24d848dca0735bd5393457aca587a1d3fdf828d901bed288d66b832c7",
+          "source_id": "article"
+        }
+      ],
+      "step_ids": [
+        "E01.1"
+      ],
+      "substrate_product_smiles": "COC(=O)[C@@]1(C)CCCC1=O>>CC(C)(C)[Si](C)(C)OC1=CCC[C@]1(C)CO"
+    },
+    {
+      "admission_authority": false,
+      "category": "forward_synthesis",
+      "event_id": "E02",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "product_labels": [
+        "39"
+      ],
+      "reactant_labels": [
+        "38"
+      ],
+      "reagents": [
+        "TBDPSCl",
+        "imidazole"
+      ],
+      "reported_yields": [
+        {
+          "from_label": "38",
+          "percent": 78,
+          "product_label": "39",
+          "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+        }
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "CH2Cl2"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: E02",
+          "pages": [
+            7
+          ],
+          "sha256": "0a6782c24d848dca0735bd5393457aca587a1d3fdf828d901bed288d66b832c7",
+          "source_id": "article"
+        }
+      ],
+      "step_ids": [
+        "E02.1"
+      ],
+      "substrate_product_smiles": "CC(C)(C)[Si](C)(C)OC1=CCC[C@]1(C)CO>>CC(C)(C)[Si](C)(C)OC1=CCC[C@]1(C)CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C"
+    },
+    {
+      "admission_authority": false,
+      "category": "forward_synthesis",
+      "event_id": "E03",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "operation_stages": [
+        "456 nm LED, 23 C"
+      ],
+      "product_labels": [
+        "41"
+      ],
+      "reactant_labels": [
+        "39",
+        "chloroacetonitrile"
+      ],
+      "reagents": [
+        "photocatalyst 40",
+        "2,6-lutidine"
+      ],
+      "reported_yields": [
+        {
+          "from_label": "39",
+          "percent": 55,
+          "product_label": "41",
+          "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+        }
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "1,2-dichloroethane"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: E03",
+          "pages": [
+            7
+          ],
+          "sha256": "0a6782c24d848dca0735bd5393457aca587a1d3fdf828d901bed288d66b832c7",
+          "source_id": "article"
+        }
+      ],
+      "step_ids": [
+        "E03.1"
+      ],
+      "substrate_product_smiles": "CC(C)(C)[Si](C)(C)OC1=CCC[C@]1(C)CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C.N#CCCl>>CC(C)(C)[Si](C)(C)OC1=C(CC#N)CC[C@]1(C)CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C"
+    },
+    {
+      "admission_authority": false,
+      "category": "forward_synthesis",
+      "event_id": "E04",
+      "experimental_stage_count": 2,
+      "formal_benchmark_eligible": false,
+      "operation_stages": [
+        "nitrile reduction then nosylation, reported 59% for this group",
+        "methylation then enol-silyl-ether hydrolysis, reported 81% for this group"
+      ],
+      "product_labels": [
+        "42"
+      ],
+      "reactant_labels": [
+        "41"
+      ],
+      "reagents": [
+        "CoCl2",
+        "NaBH4",
+        "p-NsCl",
+        "NEt3",
+        "Cs2CO3",
+        "MeI",
+        "TFA"
+      ],
+      "reported_yields": [],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: E04",
+          "pages": [
+            7
+          ],
+          "sha256": "0a6782c24d848dca0735bd5393457aca587a1d3fdf828d901bed288d66b832c7",
+          "source_id": "article"
+        }
+      ],
+      "step_ids": [
+        "E04.1"
+      ],
+      "substrate_product_smiles": "CC(C)(C)[Si](C)(C)OC1=C(CC#N)CC[C@]1(C)CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C>>CN(CCC1CC[C@](C)(CO[Si](c2ccccc2)(c2ccccc2)C(C)(C)C)C1=O)S(=O)(=O)c1ccc([N+](=O)[O-])cc1",
+      "yield_scope": "Separate 59% and 81% operation-group yields; no overall yield invented"
+    },
+    {
+      "admission_authority": false,
+      "category": "forward_synthesis",
+      "event_id": "E05",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "mixture_yield_percent": 60,
+      "product_labels": [
+        "44"
+      ],
+      "reactant_labels": [
+        "42",
+        "27"
+      ],
+      "reagents": [
+        "AcOH"
+      ],
+      "reported_yield_text": "60% combined mixture yield",
+      "reported_yields": [],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: E05",
+          "pages": [
+            7
+          ],
+          "sha256": "0a6782c24d848dca0735bd5393457aca587a1d3fdf828d901bed288d66b832c7",
+          "source_id": "article"
+        }
+      ],
+      "step_ids": [
+        "E05.1"
+      ],
+      "substrate_product_smiles": "CN(CCC1CC[C@](C)(CO[Si](c2ccccc2)(c2ccccc2)C(C)(C)C)C1=O)S(=O)(=O)c1ccc([N+](=O)[O-])cc1.COc1ccc(NN)cc1>>COc1ccc2c(c1)[C@@]1(CCN(C)S(=O)(=O)c3ccc([N+](=O)[O-])cc3)CC[C@](C)(CO[Si](c3ccccc3)(c3ccccc3)C(C)(C)C)C1=N2",
+      "temperature": "60 C",
+      "yield_scope": "combined 2.3:1 diastereomer mixture; shown major 44"
+    },
+    {
+      "admission_authority": false,
+      "category": "forward_synthesis",
+      "event_id": "E06",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "product_labels": [
+        "45"
+      ],
+      "reactant_labels": [
+        "44"
+      ],
+      "reagents": [
+        "Cs2CO3",
+        "PhSH"
+      ],
+      "reported_yields": [
+        {
+          "from_label": "44",
+          "percent": 61,
+          "product_label": "45",
+          "scope": "reported isolated 45, >20:1 dr"
+        }
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "CH3CN"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: E06",
+          "pages": [
+            7
+          ],
+          "sha256": "0a6782c24d848dca0735bd5393457aca587a1d3fdf828d901bed288d66b832c7",
+          "source_id": "article"
+        }
+      ],
+      "step_ids": [
+        "E06.1"
+      ],
+      "substrate_product_smiles": "COc1ccc2c(c1)[C@@]1(CCN(C)S(=O)(=O)c3ccc([N+](=O)[O-])cc3)CC[C@](C)(CO[Si](c3ccccc3)(c3ccccc3)C(C)(C)C)C1=N2>>COc1ccc2c(c1)[C@]13CCN(C)[C@@]1(N2)[C@@](C)(CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C)CC3",
+      "temperature": "23 to 60 C",
+      "yield_scope": "reported isolated 45, >20:1 dr"
+    },
+    {
+      "admission_authority": false,
+      "category": "forward_synthesis",
+      "event_id": "E07",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "product_labels": [
+        "4"
+      ],
+      "reactant_labels": [
+        "45"
+      ],
+      "reagents": [
+        "TBAF"
+      ],
+      "reported_yields": [
+        {
+          "from_label": "45",
+          "percent": 73,
+          "product_label": "4",
+          "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+        }
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "THF"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: E07",
+          "pages": [
+            7
+          ],
+          "sha256": "0a6782c24d848dca0735bd5393457aca587a1d3fdf828d901bed288d66b832c7",
+          "source_id": "article"
+        }
+      ],
+      "step_ids": [
+        "E07.1"
+      ],
+      "substrate_product_smiles": "COc1ccc2c(c1)[C@]13CCN(C)[C@@]1(N2)[C@@](C)(CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C)CC3>>COc1ccc2c(c1)[C@]13CCN(C)[C@@]1(N2)[C@@](C)(CO)CC3"
+    }
+  ],
+  "report_heading": "Propellane Alkaloid Biosynthesis and Total Synthesis via Interrupted Reaction Pathways. — source-bound synthesis network",
+  "report_note": "Main Fig5c chemical total synthesis. SI unavailable, correction impact unresolved; biosynthetic substrate scope and additional SI ester derivatizations not covered. Facts compiled deterministically; independent review pending.",
+  "routes": [
+    {
+      "admission_authority": false,
+      "formal_benchmark_eligible": false,
+      "from_commercial_starting_materials_complete": false,
+      "full_article_route_coverage": false,
+      "molecule_smiles_sequence": [
+        "COC(=O)[C@@]1(C)CCCC1=O",
+        "CC(C)(C)[Si](C)(C)OC1=CCC[C@]1(C)CO",
+        "CC(C)(C)[Si](C)(C)OC1=CCC[C@]1(C)CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C",
+        "N#CCCl",
+        "CC(C)(C)[Si](C)(C)OC1=C(CC#N)CC[C@]1(C)CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C",
+        "CN(CCC1CC[C@](C)(CO[Si](c2ccccc2)(c2ccccc2)C(C)(C)C)C1=O)S(=O)(=O)c1ccc([N+](=O)[O-])cc1",
+        "COc1ccc(NN)cc1",
+        "COc1ccc2c(c1)[C@@]1(CCN(C)S(=O)(=O)c3ccc([N+](=O)[O-])cc3)CC[C@](C)(CO[Si](c3ccccc3)(c3ccccc3)C(C)(C)C)C1=N2",
+        "COc1ccc2c(c1)[C@]13CCN(C)[C@@]1(N2)[C@@](C)(CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C)CC3",
+        "COc1ccc2c(c1)[C@]13CCN(C)[C@@]1(N2)[C@@](C)(CO)CC3"
+      ],
+      "ordered_event_ids": [
+        "E01",
+        "E02",
+        "E03",
+        "E04",
+        "E05",
+        "E06",
+        "E07"
+      ],
+      "ordered_molecule_labels": [
+        "37",
+        "38",
+        "39",
+        "chloroacetonitrile",
+        "41",
+        "42",
+        "27",
+        "44",
+        "45",
+        "4"
+      ],
+      "ordered_step_ids": [
+        "E01.1",
+        "E02.1",
+        "E03.1",
+        "E04.1",
+        "E05.1",
+        "E06.1",
+        "E07.1"
+      ],
+      "route_id": "main chemical synthesis",
+      "route_type": "source_bound_successful_synthesis",
+      "split_group": "10.1021/acscentsci.6c00057",
+      "start_label": "37",
+      "start_labels": [
+        "37",
+        "chloroacetonitrile",
+        "27"
+      ],
+      "step_reaction_smiles_sequence": [
+        "COC(=O)[C@@]1(C)CCCC1=O>>CC(C)(C)[Si](C)(C)OC1=CCC[C@]1(C)CO",
+        "CC(C)(C)[Si](C)(C)OC1=CCC[C@]1(C)CO>>CC(C)(C)[Si](C)(C)OC1=CCC[C@]1(C)CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C",
+        "CC(C)(C)[Si](C)(C)OC1=CCC[C@]1(C)CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C.N#CCCl>>CC(C)(C)[Si](C)(C)OC1=C(CC#N)CC[C@]1(C)CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C",
+        "CC(C)(C)[Si](C)(C)OC1=C(CC#N)CC[C@]1(C)CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C>>CN(CCC1CC[C@](C)(CO[Si](c2ccccc2)(c2ccccc2)C(C)(C)C)C1=O)S(=O)(=O)c1ccc([N+](=O)[O-])cc1",
+        "CN(CCC1CC[C@](C)(CO[Si](c2ccccc2)(c2ccccc2)C(C)(C)C)C1=O)S(=O)(=O)c1ccc([N+](=O)[O-])cc1.COc1ccc(NN)cc1>>COc1ccc2c(c1)[C@@]1(CCN(C)S(=O)(=O)c3ccc([N+](=O)[O-])cc3)CC[C@](C)(CO[Si](c3ccccc3)(c3ccccc3)C(C)(C)C)C1=N2",
+        "COc1ccc2c(c1)[C@@]1(CCN(C)S(=O)(=O)c3ccc([N+](=O)[O-])cc3)CC[C@](C)(CO[Si](c3ccccc3)(c3ccccc3)C(C)(C)C)C1=N2>>COc1ccc2c(c1)[C@]13CCN(C)[C@@]1(N2)[C@@](C)(CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C)CC3",
+        "COc1ccc2c(c1)[C@]13CCN(C)[C@@]1(N2)[C@@](C)(CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C)CC3>>COc1ccc2c(c1)[C@]13CCN(C)[C@@]1(N2)[C@@](C)(CO)CC3"
+      ],
+      "target_label": "4"
+    }
+  ],
+  "schema_version": "syninsight.route-extraction.v1",
+  "software": {
+    "rdkit": "2026.03.6"
+  },
+  "sources": [
+    {
+      "format": "pdf",
+      "page_count": 11,
+      "path": "papers/paper-0e05697c35b4bd20/article/main.pdf",
+      "redistribute_source": false,
+      "role": "main_article",
+      "sha256": "0a6782c24d848dca0735bd5393457aca587a1d3fdf828d901bed288d66b832c7",
+      "source_id": "article"
+    }
+  ],
+  "steps": [
+    {
+      "admission_authority": false,
+      "agents": [],
+      "category": "historical_preparation_boundary",
+      "event_id": "E01",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+      "operation_stages": [
+        "Source cites two known steps; detailed operations unavailable in main article"
+      ],
+      "product_labels": [
+        "38"
+      ],
+      "product_specific_yields": [],
+      "reactant_labels": [
+        "37"
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: E01",
+          "pages": [
+            7
+          ],
+          "sha256": "0a6782c24d848dca0735bd5393457aca587a1d3fdf828d901bed288d66b832c7",
+          "source_id": "article"
+        }
+      ],
+      "step_id": "E01.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "COC(=O)[C@@]1(C)CCCC1=O>>CC(C)(C)[Si](C)(C)OC1=CCC[C@]1(C)CO",
+      "yield_percent": null
+    },
+    {
+      "admission_authority": false,
+      "agents": [
+        "TBDPSCl",
+        "imidazole"
+      ],
+      "event_id": "E02",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+      "product_labels": [
+        "39"
+      ],
+      "product_specific_yields": [
+        {
+          "from_label": "38",
+          "percent": 78,
+          "product_label": "39",
+          "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+        }
+      ],
+      "reactant_labels": [
+        "38"
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "CH2Cl2"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: E02",
+          "pages": [
+            7
+          ],
+          "sha256": "0a6782c24d848dca0735bd5393457aca587a1d3fdf828d901bed288d66b832c7",
+          "source_id": "article"
+        }
+      ],
+      "step_id": "E02.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "CC(C)(C)[Si](C)(C)OC1=CCC[C@]1(C)CO>>CC(C)(C)[Si](C)(C)OC1=CCC[C@]1(C)CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C",
+      "yield_percent": 78
+    },
+    {
+      "admission_authority": false,
+      "agents": [
+        "photocatalyst 40",
+        "2,6-lutidine"
+      ],
+      "event_id": "E03",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+      "operation_stages": [
+        "456 nm LED, 23 C"
+      ],
+      "product_labels": [
+        "41"
+      ],
+      "product_specific_yields": [
+        {
+          "from_label": "39",
+          "percent": 55,
+          "product_label": "41",
+          "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+        }
+      ],
+      "reactant_labels": [
+        "39",
+        "chloroacetonitrile"
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "1,2-dichloroethane"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: E03",
+          "pages": [
+            7
+          ],
+          "sha256": "0a6782c24d848dca0735bd5393457aca587a1d3fdf828d901bed288d66b832c7",
+          "source_id": "article"
+        }
+      ],
+      "step_id": "E03.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "CC(C)(C)[Si](C)(C)OC1=CCC[C@]1(C)CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C.N#CCCl>>CC(C)(C)[Si](C)(C)OC1=C(CC#N)CC[C@]1(C)CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C",
+      "yield_percent": 55
+    },
+    {
+      "admission_authority": false,
+      "agents": [
+        "CoCl2",
+        "NaBH4",
+        "p-NsCl",
+        "NEt3",
+        "Cs2CO3",
+        "MeI",
+        "TFA"
+      ],
+      "event_id": "E04",
+      "experimental_stage_count": 2,
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+      "operation_stages": [
+        "nitrile reduction then nosylation, reported 59% for this group",
+        "methylation then enol-silyl-ether hydrolysis, reported 81% for this group"
+      ],
+      "product_labels": [
+        "42"
+      ],
+      "product_specific_yields": [],
+      "reactant_labels": [
+        "41"
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: E04",
+          "pages": [
+            7
+          ],
+          "sha256": "0a6782c24d848dca0735bd5393457aca587a1d3fdf828d901bed288d66b832c7",
+          "source_id": "article"
+        }
+      ],
+      "step_id": "E04.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "CC(C)(C)[Si](C)(C)OC1=C(CC#N)CC[C@]1(C)CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C>>CN(CCC1CC[C@](C)(CO[Si](c2ccccc2)(c2ccccc2)C(C)(C)C)C1=O)S(=O)(=O)c1ccc([N+](=O)[O-])cc1",
+      "yield_percent": null
+    },
+    {
+      "admission_authority": false,
+      "agents": [
+        "AcOH"
+      ],
+      "event_id": "E05",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "mixture_yield_percent": 60,
+      "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+      "product_labels": [
+        "44"
+      ],
+      "product_specific_yields": [],
+      "reactant_labels": [
+        "42",
+        "27"
+      ],
+      "reported_yield_text": "60% combined mixture yield",
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: E05",
+          "pages": [
+            7
+          ],
+          "sha256": "0a6782c24d848dca0735bd5393457aca587a1d3fdf828d901bed288d66b832c7",
+          "source_id": "article"
+        }
+      ],
+      "step_id": "E05.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "CN(CCC1CC[C@](C)(CO[Si](c2ccccc2)(c2ccccc2)C(C)(C)C)C1=O)S(=O)(=O)c1ccc([N+](=O)[O-])cc1.COc1ccc(NN)cc1>>COc1ccc2c(c1)[C@@]1(CCN(C)S(=O)(=O)c3ccc([N+](=O)[O-])cc3)CC[C@](C)(CO[Si](c3ccccc3)(c3ccccc3)C(C)(C)C)C1=N2",
+      "temperature": "60 C",
+      "yield_percent": null
+    },
+    {
+      "admission_authority": false,
+      "agents": [
+        "Cs2CO3",
+        "PhSH"
+      ],
+      "event_id": "E06",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+      "product_labels": [
+        "45"
+      ],
+      "product_specific_yields": [
+        {
+          "from_label": "44",
+          "percent": 61,
+          "product_label": "45",
+          "scope": "reported isolated 45, >20:1 dr"
+        }
+      ],
+      "reactant_labels": [
+        "44"
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "CH3CN"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: E06",
+          "pages": [
+            7
+          ],
+          "sha256": "0a6782c24d848dca0735bd5393457aca587a1d3fdf828d901bed288d66b832c7",
+          "source_id": "article"
+        }
+      ],
+      "step_id": "E06.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "COc1ccc2c(c1)[C@@]1(CCN(C)S(=O)(=O)c3ccc([N+](=O)[O-])cc3)CC[C@](C)(CO[Si](c3ccccc3)(c3ccccc3)C(C)(C)C)C1=N2>>COc1ccc2c(c1)[C@]13CCN(C)[C@@]1(N2)[C@@](C)(CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C)CC3",
+      "temperature": "23 to 60 C",
+      "yield_percent": 61
+    },
+    {
+      "admission_authority": false,
+      "agents": [
+        "TBAF"
+      ],
+      "event_id": "E07",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+      "product_labels": [
+        "4"
+      ],
+      "product_specific_yields": [
+        {
+          "from_label": "45",
+          "percent": 73,
+          "product_label": "4",
+          "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+        }
+      ],
+      "reactant_labels": [
+        "45"
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "THF"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: E07",
+          "pages": [
+            7
+          ],
+          "sha256": "0a6782c24d848dca0735bd5393457aca587a1d3fdf828d901bed288d66b832c7",
+          "source_id": "article"
+        }
+      ],
+      "step_id": "E07.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "COc1ccc2c(c1)[C@]13CCN(C)[C@@]1(N2)[C@@](C)(CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C)CC3>>COc1ccc2c(c1)[C@]13CCN(C)[C@@]1(N2)[C@@](C)(CO)CC3",
+      "yield_percent": 73
+    }
+  ],
+  "title": "Propellane Alkaloid Biosynthesis and Total Synthesis via Interrupted Reaction Pathways.",
+  "unresolved_events": []
+}

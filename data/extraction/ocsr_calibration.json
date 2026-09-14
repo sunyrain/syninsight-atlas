@@ -1,0 +1,90 @@
+{
+  "schema_version": "syninsight.ocsr-calibration.v1",
+  "paper_id": "paper-0bac8bc7088bc164",
+  "source_sha256": "3c267ab99b5e43d52366b3df41d8c12d323121763bc94b18bd496dc9a790dd87",
+  "source_page_1based": 3,
+  "source_scheme": "Scheme 3",
+  "model_sha256": {
+    "pix2seq_reaction_full.ckpt": "b0020634f13fb3e1f588bddca97f68fd6483f0cdecd83e2ca31c2434ea4340fe",
+    "swin_base_char_aux_1m.pth": "6f0df56fa32b5ffc21f8c7f311ef333da522f590bf5622e966c6bcb1f2d9ea1d"
+  },
+  "script": "scripts/evaluate_local_ocsr.py",
+  "script_sha256": "2f39f1606e0efc83ea6115c403dbefeeadffdaed66d9b3821a3e8061f88ca4cb",
+  "torch": "2.5.1+cpu",
+  "rdkit": "2026.03.6",
+  "runs": [
+    {
+      "render_dpi": 150,
+      "detected_connections": 3,
+      "matched_numbered_structures": [
+        "a",
+        "a1"
+      ],
+      "expected_numbered_structures": [
+        "a1",
+        "a2",
+        "a3",
+        "a"
+      ],
+      "all_route_endpoints_correct": false,
+      "elapsed_seconds_after_imports": 9.6,
+      "raw_result_sha256": "fd47384d71a85b145d44374b27ad9f4330ae4bdabd27d7b00902454ca19a3a21",
+      "checkpoint_load_audit": [
+        {
+          "module": "RxnScribe",
+          "missing": [],
+          "unexpected": []
+        },
+        {
+          "module": "Encoder",
+          "missing": [],
+          "unexpected": []
+        },
+        {
+          "module": "Decoder",
+          "missing": [],
+          "unexpected": []
+        }
+      ]
+    },
+    {
+      "render_dpi": 300,
+      "detected_connections": 3,
+      "matched_numbered_structures": [
+        "a",
+        "a1"
+      ],
+      "expected_numbered_structures": [
+        "a1",
+        "a2",
+        "a3",
+        "a"
+      ],
+      "all_route_endpoints_correct": false,
+      "elapsed_seconds_after_imports": 10.2,
+      "raw_result_sha256": "4c9738daa0576dc05cc6f4ab61de0147be95e90763de3c8d9a535480202254fa",
+      "checkpoint_load_audit": [
+        {
+          "module": "RxnScribe",
+          "missing": [],
+          "unexpected": []
+        },
+        {
+          "module": "Encoder",
+          "missing": [],
+          "unexpected": []
+        },
+        {
+          "module": "Decoder",
+          "missing": [],
+          "unexpected": []
+        }
+      ]
+    }
+  ],
+  "assessment": "THP groups in a2 and a3 are misread or unresolved at both resolutions. Some incorrect 150 dpi outputs contain Tl/P fragments and nevertheless parse as valid canonical SMILES. No complete reaction in this trial has all route endpoints correctly transcribed.",
+  "scope": "One source-bound diagnostic, not a corpus benchmark or full-paper extraction.",
+  "imported_into_curated_routes": false,
+  "unattended_full_route_admission_supported": false,
+  "formal_benchmark_eligible": false
+}

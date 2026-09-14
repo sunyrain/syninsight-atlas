@@ -1,0 +1,2803 @@
+{
+  "admission_authority": false,
+  "available_si_preparation_network_covered": false,
+  "conditions_fully_standardized": false,
+  "coverage_definition": "Chemical-structure-only transcription of main Schemes2-4: source compound identities and directed step connectivity. Experimental reagents, solvents, yields, temperatures, timing, and all microbiological methods are outside this restricted extraction. SI is NMR/crystallographic characterization, not an added preparative source.",
+  "doi": "10.1021/acs.joc.6c00749",
+  "extraction_method": "source_drawing_checked_network_transcription",
+  "formal_benchmark_eligible": false,
+  "formula_checks": [
+    {
+      "check_basis": "Curation expected formula; source HRMS where available, otherwise drawing atom count.",
+      "expected_neutral_formula": "C10H9NO",
+      "label": "6",
+      "neutral_formula_match": true,
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: formula 6",
+          "pages": [
+            2
+          ],
+          "sha256": "785478d5dfb6070e70d6f0370fcf60dbb844abc8ae21e0ae6e695c8a538a41fc",
+          "source_id": "article"
+        }
+      ]
+    },
+    {
+      "check_basis": "Curation expected formula; source HRMS where available, otherwise drawing atom count.",
+      "expected_neutral_formula": "C10H5Cl2NO2",
+      "label": "5",
+      "neutral_formula_match": true,
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: formula 5",
+          "pages": [
+            2
+          ],
+          "sha256": "785478d5dfb6070e70d6f0370fcf60dbb844abc8ae21e0ae6e695c8a538a41fc",
+          "source_id": "article"
+        }
+      ]
+    },
+    {
+      "check_basis": "Curation expected formula; source HRMS where available, otherwise drawing atom count.",
+      "expected_neutral_formula": "C2H6ClN",
+      "label": "2-chloroethylamine",
+      "neutral_formula_match": true,
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: formula 2-chloroethylamine",
+          "pages": [
+            2
+          ],
+          "sha256": "785478d5dfb6070e70d6f0370fcf60dbb844abc8ae21e0ae6e695c8a538a41fc",
+          "source_id": "article"
+        }
+      ]
+    },
+    {
+      "check_basis": "Curation expected formula; source HRMS where available, otherwise drawing atom count.",
+      "expected_neutral_formula": "C12H10Cl2N2O2",
+      "label": "3",
+      "neutral_formula_match": true,
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: formula 3",
+          "pages": [
+            2
+          ],
+          "sha256": "785478d5dfb6070e70d6f0370fcf60dbb844abc8ae21e0ae6e695c8a538a41fc",
+          "source_id": "article"
+        }
+      ]
+    },
+    {
+      "check_basis": "Curation expected formula; source HRMS where available, otherwise drawing atom count.",
+      "expected_neutral_formula": "C12H10Cl2N2O2",
+      "label": "4",
+      "neutral_formula_match": true,
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: formula 4",
+          "pages": [
+            2
+          ],
+          "sha256": "785478d5dfb6070e70d6f0370fcf60dbb844abc8ae21e0ae6e695c8a538a41fc",
+          "source_id": "article"
+        }
+      ]
+    },
+    {
+      "check_basis": "Curation expected formula; source HRMS where available, otherwise drawing atom count.",
+      "expected_neutral_formula": "C12H10N2O2S",
+      "label": "7",
+      "neutral_formula_match": true,
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: formula 7",
+          "pages": [
+            2
+          ],
+          "sha256": "785478d5dfb6070e70d6f0370fcf60dbb844abc8ae21e0ae6e695c8a538a41fc",
+          "source_id": "article"
+        }
+      ]
+    },
+    {
+      "check_basis": "Curation expected formula; source HRMS where available, otherwise drawing atom count.",
+      "expected_neutral_formula": "C12H10N2O2S",
+      "label": "8",
+      "neutral_formula_match": true,
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: formula 8",
+          "pages": [
+            2
+          ],
+          "sha256": "785478d5dfb6070e70d6f0370fcf60dbb844abc8ae21e0ae6e695c8a538a41fc",
+          "source_id": "article"
+        }
+      ]
+    },
+    {
+      "check_basis": "Curation expected formula; source HRMS where available, otherwise drawing atom count.",
+      "expected_neutral_formula": "C12H10N2O3S",
+      "label": "9",
+      "neutral_formula_match": true,
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: formula 9",
+          "pages": [
+            3
+          ],
+          "sha256": "785478d5dfb6070e70d6f0370fcf60dbb844abc8ae21e0ae6e695c8a538a41fc",
+          "source_id": "article"
+        }
+      ]
+    },
+    {
+      "check_basis": "Curation expected formula; source HRMS where available, otherwise drawing atom count.",
+      "expected_neutral_formula": "C12H10N2O4S",
+      "label": "10",
+      "neutral_formula_match": true,
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: formula 10",
+          "pages": [
+            3
+          ],
+          "sha256": "785478d5dfb6070e70d6f0370fcf60dbb844abc8ae21e0ae6e695c8a538a41fc",
+          "source_id": "article"
+        }
+      ]
+    },
+    {
+      "check_basis": "Curation expected formula; source HRMS where available, otherwise drawing atom count.",
+      "expected_neutral_formula": "C12H8N2O4S",
+      "label": "11",
+      "neutral_formula_match": true,
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: formula 11",
+          "pages": [
+            3
+          ],
+          "sha256": "785478d5dfb6070e70d6f0370fcf60dbb844abc8ae21e0ae6e695c8a538a41fc",
+          "source_id": "article"
+        }
+      ]
+    },
+    {
+      "check_basis": "Curation expected formula; source HRMS where available, otherwise drawing atom count.",
+      "expected_neutral_formula": "C12H8N2O5S",
+      "label": "12",
+      "neutral_formula_match": true,
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: formula 12",
+          "pages": [
+            3
+          ],
+          "sha256": "785478d5dfb6070e70d6f0370fcf60dbb844abc8ae21e0ae6e695c8a538a41fc",
+          "source_id": "article"
+        }
+      ]
+    },
+    {
+      "check_basis": "Curation expected formula; source HRMS where available, otherwise drawing atom count.",
+      "expected_neutral_formula": "C12H8N2O6S",
+      "label": "1",
+      "neutral_formula_match": true,
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: formula 1",
+          "pages": [
+            3
+          ],
+          "sha256": "785478d5dfb6070e70d6f0370fcf60dbb844abc8ae21e0ae6e695c8a538a41fc",
+          "source_id": "article"
+        }
+      ]
+    },
+    {
+      "check_basis": "Curation expected formula; source HRMS where available, otherwise drawing atom count.",
+      "expected_neutral_formula": "C12H6N2O6S",
+      "label": "13",
+      "neutral_formula_match": true,
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: formula 13",
+          "pages": [
+            3
+          ],
+          "sha256": "785478d5dfb6070e70d6f0370fcf60dbb844abc8ae21e0ae6e695c8a538a41fc",
+          "source_id": "article"
+        }
+      ]
+    },
+    {
+      "check_basis": "Curation expected formula; source HRMS where available, otherwise drawing atom count.",
+      "expected_neutral_formula": "C12H10N2O3S",
+      "label": "14",
+      "neutral_formula_match": true,
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: formula 14",
+          "pages": [
+            4
+          ],
+          "sha256": "785478d5dfb6070e70d6f0370fcf60dbb844abc8ae21e0ae6e695c8a538a41fc",
+          "source_id": "article"
+        }
+      ]
+    },
+    {
+      "check_basis": "Curation expected formula; source HRMS where available, otherwise drawing atom count.",
+      "expected_neutral_formula": "C12H10N2O4S",
+      "label": "15",
+      "neutral_formula_match": true,
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: formula 15",
+          "pages": [
+            4
+          ],
+          "sha256": "785478d5dfb6070e70d6f0370fcf60dbb844abc8ae21e0ae6e695c8a538a41fc",
+          "source_id": "article"
+        }
+      ]
+    },
+    {
+      "check_basis": "Curation expected formula; source HRMS where available, otherwise drawing atom count.",
+      "expected_neutral_formula": "C12H8N2O4S",
+      "label": "16",
+      "neutral_formula_match": true,
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: formula 16",
+          "pages": [
+            4
+          ],
+          "sha256": "785478d5dfb6070e70d6f0370fcf60dbb844abc8ae21e0ae6e695c8a538a41fc",
+          "source_id": "article"
+        }
+      ]
+    },
+    {
+      "check_basis": "Curation expected formula; source HRMS where available, otherwise drawing atom count.",
+      "expected_neutral_formula": "C12H8N2O4S",
+      "label": "17",
+      "neutral_formula_match": true,
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: formula 17",
+          "pages": [
+            4
+          ],
+          "sha256": "785478d5dfb6070e70d6f0370fcf60dbb844abc8ae21e0ae6e695c8a538a41fc",
+          "source_id": "article"
+        }
+      ]
+    },
+    {
+      "check_basis": "Curation expected formula; source HRMS where available, otherwise drawing atom count.",
+      "expected_neutral_formula": "C12H8N2O5S",
+      "label": "18",
+      "neutral_formula_match": true,
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: formula 18",
+          "pages": [
+            4
+          ],
+          "sha256": "785478d5dfb6070e70d6f0370fcf60dbb844abc8ae21e0ae6e695c8a538a41fc",
+          "source_id": "article"
+        }
+      ]
+    },
+    {
+      "check_basis": "Curation expected formula; source HRMS where available, otherwise drawing atom count.",
+      "expected_neutral_formula": "C12H8N2O6S",
+      "label": "19",
+      "neutral_formula_match": true,
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: formula 19",
+          "pages": [
+            4
+          ],
+          "sha256": "785478d5dfb6070e70d6f0370fcf60dbb844abc8ae21e0ae6e695c8a538a41fc",
+          "source_id": "article"
+        }
+      ]
+    },
+    {
+      "check_basis": "Curation expected formula; source HRMS where available, otherwise drawing atom count.",
+      "expected_neutral_formula": "C12H6N2O6S",
+      "label": "2",
+      "neutral_formula_match": true,
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: formula 2",
+          "pages": [
+            4
+          ],
+          "sha256": "785478d5dfb6070e70d6f0370fcf60dbb844abc8ae21e0ae6e695c8a538a41fc",
+          "source_id": "article"
+        }
+      ]
+    }
+  ],
+  "full_article_route_coverage": false,
+  "hrms_checks": [],
+  "issues": [
+    {
+      "detail": "Chemical structure/network dataset only. No reagents, solvents, yield values, temperatures, times, procedural stages, microbiological assays, or pathogen cultivation protocols are part of this extraction.",
+      "id": "restricted-scope",
+      "severity": "coverage_boundary",
+      "subject": "all"
+    },
+    {
+      "detail": "Perspective S=O marks in sulfoxide drawings have not been resolved to absolute sulfur configuration in this candidate. Sulfur stereochemistry is omitted, not certified absent from the source; no enantiopurity claim.",
+      "id": "sulfoxide-stereo",
+      "severity": "stereochemistry_scope",
+      "subject": "9/12/14/18"
+    },
+    {
+      "detail": "si-001.pdf is an11-page main article copy with different watermark. ActualSI is si-002.pdf (82 pages, NMR/crystallographic data); classification corrected without modifying source bytes.",
+      "id": "source-copy",
+      "severity": "source_classification",
+      "subject": "sources"
+    },
+    {
+      "detail": "Source-bound facts require independent chemist review.",
+      "id": "independent-review",
+      "severity": "review_pending",
+      "subject": "all"
+    }
+  ],
+  "molecules": [
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "Cc1ccc2cccc(O)c2n1",
+      "canonical_smiles": "Cc1ccc2cccc(O)c2n1",
+      "depiction": "structures/6.svg",
+      "exact_mass": 159.068413908,
+      "formal_benchmark_eligible": false,
+      "label": "6",
+      "molecular_formula": "C10H9NO",
+      "molecule_id": "mol-cbde188a582fc591e50206aeedacf3dd45c46a3eee9d481eb34f1a0a5762b013",
+      "name": "SI compound 6",
+      "paper_label": "6",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: 6",
+          "pages": [
+            2
+          ],
+          "sha256": "785478d5dfb6070e70d6f0370fcf60dbb844abc8ae21e0ae6e695c8a538a41fc",
+          "source_id": "article"
+        }
+      ],
+      "stereo_status": "No stereochemistry inferred; sulfur stereochemistry is not encoded. Perspective S=O drawing marks require independent stereochemical review.",
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "Cc1ccc2c(n1)C(=O)C(Cl)=C(Cl)C2=O",
+      "canonical_smiles": "Cc1ccc2c(n1)C(=O)C(Cl)=C(Cl)C2=O",
+      "depiction": "structures/5.svg",
+      "exact_mass": 240.96973376,
+      "formal_benchmark_eligible": false,
+      "label": "5",
+      "molecular_formula": "C10H5Cl2NO2",
+      "molecule_id": "mol-baccc11649b32dd94f9e5870bf1361b98c2d5da4f3ae78b9a399c153636a4f62",
+      "name": "SI compound 5",
+      "paper_label": "5",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: 5",
+          "pages": [
+            2
+          ],
+          "sha256": "785478d5dfb6070e70d6f0370fcf60dbb844abc8ae21e0ae6e695c8a538a41fc",
+          "source_id": "article"
+        }
+      ],
+      "stereo_status": "No stereochemistry inferred; sulfur stereochemistry is not encoded. Perspective S=O drawing marks require independent stereochemical review.",
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "NCCCl",
+      "canonical_smiles": "NCCCl",
+      "depiction": "structures/2-chloroethylamine.svg",
+      "exact_mass": 79.01887687199999,
+      "formal_benchmark_eligible": false,
+      "label": "2-chloroethylamine",
+      "molecular_formula": "C2H6ClN",
+      "molecule_id": "mol-55c4721673cea140644f41f813e12421ea04a27554569d8a511d3e08b37417bd",
+      "name": "SI compound 2-chloroethylamine",
+      "paper_label": "2-chloroethylamine",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: 2-chloroethylamine",
+          "pages": [
+            2
+          ],
+          "sha256": "785478d5dfb6070e70d6f0370fcf60dbb844abc8ae21e0ae6e695c8a538a41fc",
+          "source_id": "article"
+        }
+      ],
+      "stereo_status": "No stereochemistry inferred; sulfur stereochemistry is not encoded. Perspective S=O drawing marks require independent stereochemical review.",
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "Cc1ccc2c(n1)C(=O)C(NCCCl)=C(Cl)C2=O",
+      "canonical_smiles": "Cc1ccc2c(n1)C(=O)C(NCCCl)=C(Cl)C2=O",
+      "depiction": "structures/3.svg",
+      "exact_mass": 284.01193291999994,
+      "formal_benchmark_eligible": false,
+      "label": "3",
+      "molecular_formula": "C12H10Cl2N2O2",
+      "molecule_id": "mol-cd7fe1ef20d059ffb019f8aacd6722bb95e298f8d8f6f734f77c08bb1829520f",
+      "name": "SI compound 3",
+      "paper_label": "3",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: 3",
+          "pages": [
+            2
+          ],
+          "sha256": "785478d5dfb6070e70d6f0370fcf60dbb844abc8ae21e0ae6e695c8a538a41fc",
+          "source_id": "article"
+        }
+      ],
+      "stereo_status": "No stereochemistry inferred; sulfur stereochemistry is not encoded. Perspective S=O drawing marks require independent stereochemical review.",
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "Cc1ccc2c(n1)C(=O)C(Cl)=C(NCCCl)C2=O",
+      "canonical_smiles": "Cc1ccc2c(n1)C(=O)C(Cl)=C(NCCCl)C2=O",
+      "depiction": "structures/4.svg",
+      "exact_mass": 284.01193291999994,
+      "formal_benchmark_eligible": false,
+      "label": "4",
+      "molecular_formula": "C12H10Cl2N2O2",
+      "molecule_id": "mol-d727cf676d0b3b429150758626cd395021578c5501852507fe0a3444125e480f",
+      "name": "SI compound 4",
+      "paper_label": "4",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: 4",
+          "pages": [
+            2
+          ],
+          "sha256": "785478d5dfb6070e70d6f0370fcf60dbb844abc8ae21e0ae6e695c8a538a41fc",
+          "source_id": "article"
+        }
+      ],
+      "stereo_status": "No stereochemistry inferred; sulfur stereochemistry is not encoded. Perspective S=O drawing marks require independent stereochemical review.",
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "Cc1ccc2c(n1)C(=O)C1=C(SCCN1)C2=O",
+      "canonical_smiles": "Cc1ccc2c(n1)C(=O)C1=C(SCCN1)C2=O",
+      "depiction": "structures/7.svg",
+      "exact_mass": 246.04629856,
+      "formal_benchmark_eligible": false,
+      "label": "7",
+      "molecular_formula": "C12H10N2O2S",
+      "molecule_id": "mol-3a617c6e32657fede3119a6469e8cb6155fbcc014a4e7a0c3e51c5ab7f79f789",
+      "name": "SI compound 7",
+      "paper_label": "7",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: 7",
+          "pages": [
+            2
+          ],
+          "sha256": "785478d5dfb6070e70d6f0370fcf60dbb844abc8ae21e0ae6e695c8a538a41fc",
+          "source_id": "article"
+        }
+      ],
+      "stereo_status": "No stereochemistry inferred; sulfur stereochemistry is not encoded. Perspective S=O drawing marks require independent stereochemical review.",
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "Cc1ccc2c(n1)C(=O)C1=C(NCCS1)C2=O",
+      "canonical_smiles": "Cc1ccc2c(n1)C(=O)C1=C(NCCS1)C2=O",
+      "depiction": "structures/8.svg",
+      "exact_mass": 246.04629856,
+      "formal_benchmark_eligible": false,
+      "label": "8",
+      "molecular_formula": "C12H10N2O2S",
+      "molecule_id": "mol-33fa55a00167941fa995c8e298e0a0b47a64e1c0a2e1ff2fdfea97b09d1fd021",
+      "name": "SI compound 8",
+      "paper_label": "8",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: 8",
+          "pages": [
+            2
+          ],
+          "sha256": "785478d5dfb6070e70d6f0370fcf60dbb844abc8ae21e0ae6e695c8a538a41fc",
+          "source_id": "article"
+        }
+      ],
+      "stereo_status": "No stereochemistry inferred; sulfur stereochemistry is not encoded. Perspective S=O drawing marks require independent stereochemical review.",
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "Cc1ccc2c(n1)C(=O)C1=C(C2=O)S(=O)CCN1",
+      "canonical_smiles": "Cc1ccc2c(n1)C(=O)C1=C(C2=O)S(=O)CCN1",
+      "depiction": "structures/9.svg",
+      "exact_mass": 262.04121318,
+      "formal_benchmark_eligible": false,
+      "label": "9",
+      "molecular_formula": "C12H10N2O3S",
+      "molecule_id": "mol-9c123bbc5450bb5272361216a3601634bc46b7ac50847937e3eac9c9ea06615c",
+      "name": "SI compound 9",
+      "paper_label": "9",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: 9",
+          "pages": [
+            3
+          ],
+          "sha256": "785478d5dfb6070e70d6f0370fcf60dbb844abc8ae21e0ae6e695c8a538a41fc",
+          "source_id": "article"
+        }
+      ],
+      "stereo_status": "No stereochemistry inferred; sulfur stereochemistry is not encoded. Perspective S=O drawing marks require independent stereochemical review.",
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "Cc1ccc2c(n1)C(=O)C1=C(C2=O)S(=O)(=O)CCN1",
+      "canonical_smiles": "Cc1ccc2c(n1)C(=O)C1=C(C2=O)S(=O)(=O)CCN1",
+      "depiction": "structures/10.svg",
+      "exact_mass": 278.03612780000003,
+      "formal_benchmark_eligible": false,
+      "label": "10",
+      "molecular_formula": "C12H10N2O4S",
+      "molecule_id": "mol-e09819f33604b99825f314f94027e71acc97182d1efbcae07ac1bead9b045b04",
+      "name": "SI compound 10",
+      "paper_label": "10",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: 10",
+          "pages": [
+            3
+          ],
+          "sha256": "785478d5dfb6070e70d6f0370fcf60dbb844abc8ae21e0ae6e695c8a538a41fc",
+          "source_id": "article"
+        }
+      ],
+      "stereo_status": "No stereochemistry inferred; sulfur stereochemistry is not encoded. Perspective S=O drawing marks require independent stereochemical review.",
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "O=C(O)c1ccc2c(n1)C(=O)C1=C(SCCN1)C2=O",
+      "canonical_smiles": "O=C(O)c1ccc2c(n1)C(=O)C1=C(SCCN1)C2=O",
+      "depiction": "structures/11.svg",
+      "exact_mass": 276.020477736,
+      "formal_benchmark_eligible": false,
+      "label": "11",
+      "molecular_formula": "C12H8N2O4S",
+      "molecule_id": "mol-e29787ab3f4bd99b6996829017fdb619cd3c9f909e1b1c9147c882d1787bd71c",
+      "name": "SI compound 11",
+      "paper_label": "11",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: 11",
+          "pages": [
+            3
+          ],
+          "sha256": "785478d5dfb6070e70d6f0370fcf60dbb844abc8ae21e0ae6e695c8a538a41fc",
+          "source_id": "article"
+        }
+      ],
+      "stereo_status": "No stereochemistry inferred; sulfur stereochemistry is not encoded. Perspective S=O drawing marks require independent stereochemical review.",
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "O=C(O)c1ccc2c(n1)C(=O)C1=C(C2=O)S(=O)CCN1",
+      "canonical_smiles": "O=C(O)c1ccc2c(n1)C(=O)C1=C(C2=O)S(=O)CCN1",
+      "depiction": "structures/12.svg",
+      "exact_mass": 292.01539235600006,
+      "formal_benchmark_eligible": false,
+      "label": "12",
+      "molecular_formula": "C12H8N2O5S",
+      "molecule_id": "mol-0a57c676123019b3f66e38629e4c92863db5509554da57e30e1d13cf5f2d0bd8",
+      "name": "SI compound 12",
+      "paper_label": "12",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: 12",
+          "pages": [
+            3
+          ],
+          "sha256": "785478d5dfb6070e70d6f0370fcf60dbb844abc8ae21e0ae6e695c8a538a41fc",
+          "source_id": "article"
+        }
+      ],
+      "stereo_status": "No stereochemistry inferred; sulfur stereochemistry is not encoded. Perspective S=O drawing marks require independent stereochemical review.",
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "O=C(O)c1ccc2c(n1)C(=O)C1=C(C2=O)S(=O)(=O)CCN1",
+      "canonical_smiles": "O=C(O)c1ccc2c(n1)C(=O)C1=C(C2=O)S(=O)(=O)CCN1",
+      "depiction": "structures/1.svg",
+      "exact_mass": 308.01030697600004,
+      "formal_benchmark_eligible": false,
+      "label": "1",
+      "molecular_formula": "C12H8N2O6S",
+      "molecule_id": "mol-d29627aad0af459d5f94544bb8355a2cbb7cd624897ee3f4429bc1879c53f622",
+      "name": "SI compound 1",
+      "paper_label": "1",
+      "review_status": "pending_independent_chemist_review",
+      "role": "target",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: 1",
+          "pages": [
+            3
+          ],
+          "sha256": "785478d5dfb6070e70d6f0370fcf60dbb844abc8ae21e0ae6e695c8a538a41fc",
+          "source_id": "article"
+        }
+      ],
+      "stereo_status": "No stereochemistry inferred; sulfur stereochemistry is not encoded. Perspective S=O drawing marks require independent stereochemical review.",
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "O=C(O)c1ccc2c(n1)C(=O)C1=C(C2=O)S(=O)(=O)C=CN1",
+      "canonical_smiles": "O=C(O)c1ccc2c(n1)C(=O)C1=C(C2=O)S(=O)(=O)C=CN1",
+      "depiction": "structures/13.svg",
+      "exact_mass": 305.99465691200004,
+      "formal_benchmark_eligible": false,
+      "label": "13",
+      "molecular_formula": "C12H6N2O6S",
+      "molecule_id": "mol-36c7c89671f5de6fca5e322d51ba2041a7ff856ae6c09da52c37cd450d426d1b",
+      "name": "SI compound 13",
+      "paper_label": "13",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: 13",
+          "pages": [
+            3
+          ],
+          "sha256": "785478d5dfb6070e70d6f0370fcf60dbb844abc8ae21e0ae6e695c8a538a41fc",
+          "source_id": "article"
+        }
+      ],
+      "stereo_status": "No stereochemistry inferred; sulfur stereochemistry is not encoded. Perspective S=O drawing marks require independent stereochemical review.",
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "Cc1ccc2c(n1)C(=O)C1=C(NCCS1=O)C2=O",
+      "canonical_smiles": "Cc1ccc2c(n1)C(=O)C1=C(NCCS1=O)C2=O",
+      "depiction": "structures/14.svg",
+      "exact_mass": 262.04121318,
+      "formal_benchmark_eligible": false,
+      "label": "14",
+      "molecular_formula": "C12H10N2O3S",
+      "molecule_id": "mol-5ee05894844c9e883730e94e8ef51d69d373ab7f42d05c95f8fdc5a437106c2d",
+      "name": "SI compound 14",
+      "paper_label": "14",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: 14",
+          "pages": [
+            4
+          ],
+          "sha256": "785478d5dfb6070e70d6f0370fcf60dbb844abc8ae21e0ae6e695c8a538a41fc",
+          "source_id": "article"
+        }
+      ],
+      "stereo_status": "No stereochemistry inferred; sulfur stereochemistry is not encoded. Perspective S=O drawing marks require independent stereochemical review.",
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "Cc1ccc2c(n1)C(=O)C1=C(NCCS1(=O)=O)C2=O",
+      "canonical_smiles": "Cc1ccc2c(n1)C(=O)C1=C(NCCS1(=O)=O)C2=O",
+      "depiction": "structures/15.svg",
+      "exact_mass": 278.0361278,
+      "formal_benchmark_eligible": false,
+      "label": "15",
+      "molecular_formula": "C12H10N2O4S",
+      "molecule_id": "mol-35fae46cadfff081e64c46199eeb8ac5e965b9cc9eb6736e94e69c94280c3d69",
+      "name": "SI compound 15",
+      "paper_label": "15",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: 15",
+          "pages": [
+            4
+          ],
+          "sha256": "785478d5dfb6070e70d6f0370fcf60dbb844abc8ae21e0ae6e695c8a538a41fc",
+          "source_id": "article"
+        }
+      ],
+      "stereo_status": "No stereochemistry inferred; sulfur stereochemistry is not encoded. Perspective S=O drawing marks require independent stereochemical review.",
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "Cc1ccc2c(n1)C(=O)C1=C(NC=CS1(=O)=O)C2=O",
+      "canonical_smiles": "Cc1ccc2c(n1)C(=O)C1=C(NC=CS1(=O)=O)C2=O",
+      "depiction": "structures/16.svg",
+      "exact_mass": 276.020477736,
+      "formal_benchmark_eligible": false,
+      "label": "16",
+      "molecular_formula": "C12H8N2O4S",
+      "molecule_id": "mol-633fd657556e25c6def8c656f40dd3f341960a7b101cf860ee9ced3bb60c1052",
+      "name": "SI compound 16",
+      "paper_label": "16",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: 16",
+          "pages": [
+            4
+          ],
+          "sha256": "785478d5dfb6070e70d6f0370fcf60dbb844abc8ae21e0ae6e695c8a538a41fc",
+          "source_id": "article"
+        }
+      ],
+      "stereo_status": "No stereochemistry inferred; sulfur stereochemistry is not encoded. Perspective S=O drawing marks require independent stereochemical review.",
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "O=C(O)c1ccc2c(n1)C(=O)C1=C(NCCS1)C2=O",
+      "canonical_smiles": "O=C(O)c1ccc2c(n1)C(=O)C1=C(NCCS1)C2=O",
+      "depiction": "structures/17.svg",
+      "exact_mass": 276.020477736,
+      "formal_benchmark_eligible": false,
+      "label": "17",
+      "molecular_formula": "C12H8N2O4S",
+      "molecule_id": "mol-a92b007b5043e72407b777bfff980471708feef15bbed2508ac63dc32dc2aa5a",
+      "name": "SI compound 17",
+      "paper_label": "17",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: 17",
+          "pages": [
+            4
+          ],
+          "sha256": "785478d5dfb6070e70d6f0370fcf60dbb844abc8ae21e0ae6e695c8a538a41fc",
+          "source_id": "article"
+        }
+      ],
+      "stereo_status": "No stereochemistry inferred; sulfur stereochemistry is not encoded. Perspective S=O drawing marks require independent stereochemical review.",
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "O=C(O)c1ccc2c(n1)C(=O)C1=C(NCCS1=O)C2=O",
+      "canonical_smiles": "O=C(O)c1ccc2c(n1)C(=O)C1=C(NCCS1=O)C2=O",
+      "depiction": "structures/18.svg",
+      "exact_mass": 292.01539235599995,
+      "formal_benchmark_eligible": false,
+      "label": "18",
+      "molecular_formula": "C12H8N2O5S",
+      "molecule_id": "mol-228486de74a17aacb5f987be93039d74eb60851da1f6ab829cb4dcd9d95dca45",
+      "name": "SI compound 18",
+      "paper_label": "18",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: 18",
+          "pages": [
+            4
+          ],
+          "sha256": "785478d5dfb6070e70d6f0370fcf60dbb844abc8ae21e0ae6e695c8a538a41fc",
+          "source_id": "article"
+        }
+      ],
+      "stereo_status": "No stereochemistry inferred; sulfur stereochemistry is not encoded. Perspective S=O drawing marks require independent stereochemical review.",
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "O=C(O)c1ccc2c(n1)C(=O)C1=C(NCCS1(=O)=O)C2=O",
+      "canonical_smiles": "O=C(O)c1ccc2c(n1)C(=O)C1=C(NCCS1(=O)=O)C2=O",
+      "depiction": "structures/19.svg",
+      "exact_mass": 308.010306976,
+      "formal_benchmark_eligible": false,
+      "label": "19",
+      "molecular_formula": "C12H8N2O6S",
+      "molecule_id": "mol-5b201551ab40c71b51920d2b3caf780240a2ace8d7f04a2e43e87f5e9fd32ac9",
+      "name": "SI compound 19",
+      "paper_label": "19",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: 19",
+          "pages": [
+            4
+          ],
+          "sha256": "785478d5dfb6070e70d6f0370fcf60dbb844abc8ae21e0ae6e695c8a538a41fc",
+          "source_id": "article"
+        }
+      ],
+      "stereo_status": "No stereochemistry inferred; sulfur stereochemistry is not encoded. Perspective S=O drawing marks require independent stereochemical review.",
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "O=C(O)c1ccc2c(n1)C(=O)C1=C(NC=CS1(=O)=O)C2=O",
+      "canonical_smiles": "O=C(O)c1ccc2c(n1)C(=O)C1=C(NC=CS1(=O)=O)C2=O",
+      "depiction": "structures/2.svg",
+      "exact_mass": 305.994656912,
+      "formal_benchmark_eligible": false,
+      "label": "2",
+      "molecular_formula": "C12H6N2O6S",
+      "molecule_id": "mol-97722ca17e2209c106b1ee00dea22279b364407c03be4741c434689a473ff9d4",
+      "name": "SI compound 2",
+      "paper_label": "2",
+      "review_status": "pending_independent_chemist_review",
+      "role": "target",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: 2",
+          "pages": [
+            4
+          ],
+          "sha256": "785478d5dfb6070e70d6f0370fcf60dbb844abc8ae21e0ae6e695c8a538a41fc",
+          "source_id": "article"
+        }
+      ],
+      "stereo_status": "No stereochemistry inferred; sulfur stereochemistry is not encoded. Perspective S=O drawing marks require independent stereochemical review.",
+      "structure_basis": "source_drawing_transcription"
+    }
+  ],
+  "observations": [
+    "Publisher abstract explicitly refers to previously determined low toxicity of ascidiathiazone A; antibacterial MIC is not a mammalian toxicity endpoint. No claim of zero risk or safety certification.",
+    "Previous combined parallel task was content-review blocked; this record is limited to chemical identities and graph connectivity and does not reproduce biological or preparative protocols.",
+    "Source Fig1 background natural products and retrosynthetic arrows are not imported as experimentally obtained route compounds."
+  ],
+  "paper_id": "paper-715f9106f76c8961",
+  "participants": [],
+  "reactions": [
+    {
+      "admission_authority": false,
+      "category": "chemical_graph_only",
+      "event_id": "E01",
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-drawn chemical identities and directed relationship only; experimental operations intentionally not transcribed.",
+      "product_labels": [
+        "5"
+      ],
+      "reactant_labels": [
+        "6"
+      ],
+      "reagents": [],
+      "reported_yields": [],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: E01",
+          "pages": [
+            2
+          ],
+          "sha256": "785478d5dfb6070e70d6f0370fcf60dbb844abc8ae21e0ae6e695c8a538a41fc",
+          "source_id": "article"
+        }
+      ],
+      "step_ids": [
+        "E01.1"
+      ],
+      "substrate_product_smiles": "Cc1ccc2cccc(O)c2n1>>Cc1ccc2c(n1)C(=O)C(Cl)=C(Cl)C2=O"
+    },
+    {
+      "admission_authority": false,
+      "category": "chemical_graph_only",
+      "event_id": "E02",
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-drawn chemical identities and directed relationship only; experimental operations intentionally not transcribed.",
+      "product_labels": [
+        "3",
+        "4"
+      ],
+      "reactant_labels": [
+        "5",
+        "2-chloroethylamine"
+      ],
+      "reagents": [],
+      "reported_yields": [],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: E02",
+          "pages": [
+            2
+          ],
+          "sha256": "785478d5dfb6070e70d6f0370fcf60dbb844abc8ae21e0ae6e695c8a538a41fc",
+          "source_id": "article"
+        }
+      ],
+      "step_ids": [
+        "E02.1"
+      ],
+      "substrate_product_smiles": "Cc1ccc2c(n1)C(=O)C(Cl)=C(Cl)C2=O.NCCCl>>Cc1ccc2c(n1)C(=O)C(Cl)=C(NCCCl)C2=O.Cc1ccc2c(n1)C(=O)C(NCCCl)=C(Cl)C2=O"
+    },
+    {
+      "admission_authority": false,
+      "category": "chemical_graph_only",
+      "event_id": "E03",
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-drawn chemical identities and directed relationship only; experimental operations intentionally not transcribed.",
+      "product_labels": [
+        "7"
+      ],
+      "reactant_labels": [
+        "3"
+      ],
+      "reagents": [],
+      "reported_yields": [],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: E03",
+          "pages": [
+            2
+          ],
+          "sha256": "785478d5dfb6070e70d6f0370fcf60dbb844abc8ae21e0ae6e695c8a538a41fc",
+          "source_id": "article"
+        }
+      ],
+      "step_ids": [
+        "E03.1"
+      ],
+      "substrate_product_smiles": "Cc1ccc2c(n1)C(=O)C(NCCCl)=C(Cl)C2=O>>Cc1ccc2c(n1)C(=O)C1=C(SCCN1)C2=O"
+    },
+    {
+      "admission_authority": false,
+      "category": "chemical_graph_only",
+      "event_id": "E04",
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-drawn chemical identities and directed relationship only; experimental operations intentionally not transcribed.",
+      "product_labels": [
+        "8"
+      ],
+      "reactant_labels": [
+        "4"
+      ],
+      "reagents": [],
+      "reported_yields": [],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: E04",
+          "pages": [
+            2
+          ],
+          "sha256": "785478d5dfb6070e70d6f0370fcf60dbb844abc8ae21e0ae6e695c8a538a41fc",
+          "source_id": "article"
+        }
+      ],
+      "step_ids": [
+        "E04.1"
+      ],
+      "substrate_product_smiles": "Cc1ccc2c(n1)C(=O)C(Cl)=C(NCCCl)C2=O>>Cc1ccc2c(n1)C(=O)C1=C(NCCS1)C2=O"
+    },
+    {
+      "admission_authority": false,
+      "category": "chemical_graph_only",
+      "event_id": "A01",
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-drawn chemical identities and directed relationship only; experimental operations intentionally not transcribed.",
+      "product_labels": [
+        "9"
+      ],
+      "reactant_labels": [
+        "7"
+      ],
+      "reagents": [],
+      "reported_yields": [],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: A01",
+          "pages": [
+            3
+          ],
+          "sha256": "785478d5dfb6070e70d6f0370fcf60dbb844abc8ae21e0ae6e695c8a538a41fc",
+          "source_id": "article"
+        }
+      ],
+      "step_ids": [
+        "A01.1"
+      ],
+      "substrate_product_smiles": "Cc1ccc2c(n1)C(=O)C1=C(SCCN1)C2=O>>Cc1ccc2c(n1)C(=O)C1=C(C2=O)S(=O)CCN1"
+    },
+    {
+      "admission_authority": false,
+      "category": "chemical_graph_only",
+      "event_id": "A02",
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-drawn chemical identities and directed relationship only; experimental operations intentionally not transcribed.",
+      "product_labels": [
+        "10"
+      ],
+      "reactant_labels": [
+        "9"
+      ],
+      "reagents": [],
+      "reported_yields": [],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: A02",
+          "pages": [
+            3
+          ],
+          "sha256": "785478d5dfb6070e70d6f0370fcf60dbb844abc8ae21e0ae6e695c8a538a41fc",
+          "source_id": "article"
+        }
+      ],
+      "step_ids": [
+        "A02.1"
+      ],
+      "substrate_product_smiles": "Cc1ccc2c(n1)C(=O)C1=C(C2=O)S(=O)CCN1>>Cc1ccc2c(n1)C(=O)C1=C(C2=O)S(=O)(=O)CCN1"
+    },
+    {
+      "admission_authority": false,
+      "category": "chemical_graph_only",
+      "event_id": "A03",
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-drawn chemical identities and directed relationship only; experimental operations intentionally not transcribed.",
+      "product_labels": [
+        "10"
+      ],
+      "reactant_labels": [
+        "7"
+      ],
+      "reagents": [],
+      "reported_yields": [],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: A03",
+          "pages": [
+            3
+          ],
+          "sha256": "785478d5dfb6070e70d6f0370fcf60dbb844abc8ae21e0ae6e695c8a538a41fc",
+          "source_id": "article"
+        }
+      ],
+      "step_ids": [
+        "A03.1"
+      ],
+      "substrate_product_smiles": "Cc1ccc2c(n1)C(=O)C1=C(SCCN1)C2=O>>Cc1ccc2c(n1)C(=O)C1=C(C2=O)S(=O)(=O)CCN1"
+    },
+    {
+      "admission_authority": false,
+      "category": "chemical_graph_only",
+      "event_id": "A04",
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-drawn chemical identities and directed relationship only; experimental operations intentionally not transcribed.",
+      "product_labels": [
+        "1"
+      ],
+      "reactant_labels": [
+        "10"
+      ],
+      "reagents": [],
+      "reported_yields": [],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: A04",
+          "pages": [
+            3
+          ],
+          "sha256": "785478d5dfb6070e70d6f0370fcf60dbb844abc8ae21e0ae6e695c8a538a41fc",
+          "source_id": "article"
+        }
+      ],
+      "step_ids": [
+        "A04.1"
+      ],
+      "substrate_product_smiles": "Cc1ccc2c(n1)C(=O)C1=C(C2=O)S(=O)(=O)CCN1>>O=C(O)c1ccc2c(n1)C(=O)C1=C(C2=O)S(=O)(=O)CCN1"
+    },
+    {
+      "admission_authority": false,
+      "category": "chemical_graph_only",
+      "event_id": "A05",
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-drawn chemical identities and directed relationship only; experimental operations intentionally not transcribed.",
+      "product_labels": [
+        "11"
+      ],
+      "reactant_labels": [
+        "7"
+      ],
+      "reagents": [],
+      "reported_yields": [],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: A05",
+          "pages": [
+            3
+          ],
+          "sha256": "785478d5dfb6070e70d6f0370fcf60dbb844abc8ae21e0ae6e695c8a538a41fc",
+          "source_id": "article"
+        }
+      ],
+      "step_ids": [
+        "A05.1"
+      ],
+      "substrate_product_smiles": "Cc1ccc2c(n1)C(=O)C1=C(SCCN1)C2=O>>O=C(O)c1ccc2c(n1)C(=O)C1=C(SCCN1)C2=O"
+    },
+    {
+      "admission_authority": false,
+      "category": "chemical_graph_only",
+      "event_id": "A06",
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-drawn chemical identities and directed relationship only; experimental operations intentionally not transcribed.",
+      "product_labels": [
+        "12"
+      ],
+      "reactant_labels": [
+        "11"
+      ],
+      "reagents": [],
+      "reported_yields": [],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: A06",
+          "pages": [
+            3
+          ],
+          "sha256": "785478d5dfb6070e70d6f0370fcf60dbb844abc8ae21e0ae6e695c8a538a41fc",
+          "source_id": "article"
+        }
+      ],
+      "step_ids": [
+        "A06.1"
+      ],
+      "substrate_product_smiles": "O=C(O)c1ccc2c(n1)C(=O)C1=C(SCCN1)C2=O>>O=C(O)c1ccc2c(n1)C(=O)C1=C(C2=O)S(=O)CCN1"
+    },
+    {
+      "admission_authority": false,
+      "category": "chemical_graph_only",
+      "event_id": "A07",
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-drawn chemical identities and directed relationship only; experimental operations intentionally not transcribed.",
+      "product_labels": [
+        "1"
+      ],
+      "reactant_labels": [
+        "11"
+      ],
+      "reagents": [],
+      "reported_yields": [],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: A07",
+          "pages": [
+            3
+          ],
+          "sha256": "785478d5dfb6070e70d6f0370fcf60dbb844abc8ae21e0ae6e695c8a538a41fc",
+          "source_id": "article"
+        }
+      ],
+      "step_ids": [
+        "A07.1"
+      ],
+      "substrate_product_smiles": "O=C(O)c1ccc2c(n1)C(=O)C1=C(SCCN1)C2=O>>O=C(O)c1ccc2c(n1)C(=O)C1=C(C2=O)S(=O)(=O)CCN1"
+    },
+    {
+      "admission_authority": false,
+      "category": "chemical_graph_only",
+      "event_id": "A08",
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-drawn chemical identities and directed relationship only; experimental operations intentionally not transcribed.",
+      "product_labels": [
+        "13"
+      ],
+      "reactant_labels": [
+        "1"
+      ],
+      "reagents": [],
+      "reported_yields": [],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: A08",
+          "pages": [
+            3
+          ],
+          "sha256": "785478d5dfb6070e70d6f0370fcf60dbb844abc8ae21e0ae6e695c8a538a41fc",
+          "source_id": "article"
+        }
+      ],
+      "step_ids": [
+        "A08.1"
+      ],
+      "substrate_product_smiles": "O=C(O)c1ccc2c(n1)C(=O)C1=C(C2=O)S(=O)(=O)CCN1>>O=C(O)c1ccc2c(n1)C(=O)C1=C(C2=O)S(=O)(=O)C=CN1"
+    },
+    {
+      "admission_authority": false,
+      "category": "chemical_graph_only",
+      "event_id": "B01",
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-drawn chemical identities and directed relationship only; experimental operations intentionally not transcribed.",
+      "product_labels": [
+        "14"
+      ],
+      "reactant_labels": [
+        "8"
+      ],
+      "reagents": [],
+      "reported_yields": [],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: B01",
+          "pages": [
+            4
+          ],
+          "sha256": "785478d5dfb6070e70d6f0370fcf60dbb844abc8ae21e0ae6e695c8a538a41fc",
+          "source_id": "article"
+        }
+      ],
+      "step_ids": [
+        "B01.1"
+      ],
+      "substrate_product_smiles": "Cc1ccc2c(n1)C(=O)C1=C(NCCS1)C2=O>>Cc1ccc2c(n1)C(=O)C1=C(NCCS1=O)C2=O"
+    },
+    {
+      "admission_authority": false,
+      "category": "chemical_graph_only",
+      "event_id": "B02",
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-drawn chemical identities and directed relationship only; experimental operations intentionally not transcribed.",
+      "product_labels": [
+        "15"
+      ],
+      "reactant_labels": [
+        "14"
+      ],
+      "reagents": [],
+      "reported_yields": [],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: B02",
+          "pages": [
+            4
+          ],
+          "sha256": "785478d5dfb6070e70d6f0370fcf60dbb844abc8ae21e0ae6e695c8a538a41fc",
+          "source_id": "article"
+        }
+      ],
+      "step_ids": [
+        "B02.1"
+      ],
+      "substrate_product_smiles": "Cc1ccc2c(n1)C(=O)C1=C(NCCS1=O)C2=O>>Cc1ccc2c(n1)C(=O)C1=C(NCCS1(=O)=O)C2=O"
+    },
+    {
+      "admission_authority": false,
+      "category": "chemical_graph_only",
+      "event_id": "B03",
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-drawn chemical identities and directed relationship only; experimental operations intentionally not transcribed.",
+      "product_labels": [
+        "15"
+      ],
+      "reactant_labels": [
+        "8"
+      ],
+      "reagents": [],
+      "reported_yields": [],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: B03",
+          "pages": [
+            4
+          ],
+          "sha256": "785478d5dfb6070e70d6f0370fcf60dbb844abc8ae21e0ae6e695c8a538a41fc",
+          "source_id": "article"
+        }
+      ],
+      "step_ids": [
+        "B03.1"
+      ],
+      "substrate_product_smiles": "Cc1ccc2c(n1)C(=O)C1=C(NCCS1)C2=O>>Cc1ccc2c(n1)C(=O)C1=C(NCCS1(=O)=O)C2=O"
+    },
+    {
+      "admission_authority": false,
+      "category": "chemical_graph_only",
+      "event_id": "B04",
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-drawn chemical identities and directed relationship only; experimental operations intentionally not transcribed.",
+      "product_labels": [
+        "16"
+      ],
+      "reactant_labels": [
+        "15"
+      ],
+      "reagents": [],
+      "reported_yields": [],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: B04",
+          "pages": [
+            4
+          ],
+          "sha256": "785478d5dfb6070e70d6f0370fcf60dbb844abc8ae21e0ae6e695c8a538a41fc",
+          "source_id": "article"
+        }
+      ],
+      "step_ids": [
+        "B04.1"
+      ],
+      "substrate_product_smiles": "Cc1ccc2c(n1)C(=O)C1=C(NCCS1(=O)=O)C2=O>>Cc1ccc2c(n1)C(=O)C1=C(NC=CS1(=O)=O)C2=O"
+    },
+    {
+      "admission_authority": false,
+      "category": "chemical_graph_only",
+      "event_id": "B05",
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-drawn chemical identities and directed relationship only; experimental operations intentionally not transcribed.",
+      "product_labels": [
+        "2"
+      ],
+      "reactant_labels": [
+        "16"
+      ],
+      "reagents": [],
+      "reported_yields": [],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: B05",
+          "pages": [
+            4
+          ],
+          "sha256": "785478d5dfb6070e70d6f0370fcf60dbb844abc8ae21e0ae6e695c8a538a41fc",
+          "source_id": "article"
+        }
+      ],
+      "step_ids": [
+        "B05.1"
+      ],
+      "substrate_product_smiles": "Cc1ccc2c(n1)C(=O)C1=C(NC=CS1(=O)=O)C2=O>>O=C(O)c1ccc2c(n1)C(=O)C1=C(NC=CS1(=O)=O)C2=O"
+    },
+    {
+      "admission_authority": false,
+      "category": "chemical_graph_only",
+      "event_id": "B06",
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-drawn chemical identities and directed relationship only; experimental operations intentionally not transcribed.",
+      "product_labels": [
+        "17"
+      ],
+      "reactant_labels": [
+        "8"
+      ],
+      "reagents": [],
+      "reported_yields": [],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: B06",
+          "pages": [
+            4
+          ],
+          "sha256": "785478d5dfb6070e70d6f0370fcf60dbb844abc8ae21e0ae6e695c8a538a41fc",
+          "source_id": "article"
+        }
+      ],
+      "step_ids": [
+        "B06.1"
+      ],
+      "substrate_product_smiles": "Cc1ccc2c(n1)C(=O)C1=C(NCCS1)C2=O>>O=C(O)c1ccc2c(n1)C(=O)C1=C(NCCS1)C2=O"
+    },
+    {
+      "admission_authority": false,
+      "category": "chemical_graph_only",
+      "event_id": "B07",
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-drawn chemical identities and directed relationship only; experimental operations intentionally not transcribed.",
+      "product_labels": [
+        "18"
+      ],
+      "reactant_labels": [
+        "17"
+      ],
+      "reagents": [],
+      "reported_yields": [],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: B07",
+          "pages": [
+            4
+          ],
+          "sha256": "785478d5dfb6070e70d6f0370fcf60dbb844abc8ae21e0ae6e695c8a538a41fc",
+          "source_id": "article"
+        }
+      ],
+      "step_ids": [
+        "B07.1"
+      ],
+      "substrate_product_smiles": "O=C(O)c1ccc2c(n1)C(=O)C1=C(NCCS1)C2=O>>O=C(O)c1ccc2c(n1)C(=O)C1=C(NCCS1=O)C2=O"
+    },
+    {
+      "admission_authority": false,
+      "category": "chemical_graph_only",
+      "event_id": "B08",
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-drawn chemical identities and directed relationship only; experimental operations intentionally not transcribed.",
+      "product_labels": [
+        "19"
+      ],
+      "reactant_labels": [
+        "17"
+      ],
+      "reagents": [],
+      "reported_yields": [],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: B08",
+          "pages": [
+            4
+          ],
+          "sha256": "785478d5dfb6070e70d6f0370fcf60dbb844abc8ae21e0ae6e695c8a538a41fc",
+          "source_id": "article"
+        }
+      ],
+      "step_ids": [
+        "B08.1"
+      ],
+      "substrate_product_smiles": "O=C(O)c1ccc2c(n1)C(=O)C1=C(NCCS1)C2=O>>O=C(O)c1ccc2c(n1)C(=O)C1=C(NCCS1(=O)=O)C2=O"
+    },
+    {
+      "admission_authority": false,
+      "category": "chemical_graph_only",
+      "event_id": "B09",
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-drawn chemical identities and directed relationship only; experimental operations intentionally not transcribed.",
+      "product_labels": [
+        "2"
+      ],
+      "reactant_labels": [
+        "19"
+      ],
+      "reagents": [],
+      "reported_yields": [],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: B09",
+          "pages": [
+            4
+          ],
+          "sha256": "785478d5dfb6070e70d6f0370fcf60dbb844abc8ae21e0ae6e695c8a538a41fc",
+          "source_id": "article"
+        }
+      ],
+      "step_ids": [
+        "B09.1"
+      ],
+      "substrate_product_smiles": "O=C(O)c1ccc2c(n1)C(=O)C1=C(NCCS1(=O)=O)C2=O>>O=C(O)c1ccc2c(n1)C(=O)C1=C(NC=CS1(=O)=O)C2=O"
+    }
+  ],
+  "report_heading": "Total Synthesis and Antimycobacterial Activity of Ascidiathiazones A and B and Analogues. — source-bound synthesis network",
+  "report_note": "Chemical-structure-only transcription of main Schemes2-4: source compound identities and directed step connectivity. Experimental reagents, solvents, yields, temperatures, timing, and all microbiological methods are outside this restricted extraction. SI is NMR/crystallographic characterization, not an added preparative source. Facts compiled deterministically; independent review pending.",
+  "routes": [
+    {
+      "admission_authority": false,
+      "formal_benchmark_eligible": false,
+      "from_commercial_starting_materials_complete": false,
+      "full_article_route_coverage": false,
+      "molecule_smiles_sequence": [
+        "Cc1ccc2cccc(O)c2n1",
+        "Cc1ccc2c(n1)C(=O)C(Cl)=C(Cl)C2=O",
+        "NCCCl",
+        "Cc1ccc2c(n1)C(=O)C(NCCCl)=C(Cl)C2=O",
+        "Cc1ccc2c(n1)C(=O)C(Cl)=C(NCCCl)C2=O",
+        "Cc1ccc2c(n1)C(=O)C1=C(SCCN1)C2=O",
+        "O=C(O)c1ccc2c(n1)C(=O)C1=C(SCCN1)C2=O",
+        "O=C(O)c1ccc2c(n1)C(=O)C1=C(C2=O)S(=O)(=O)CCN1"
+      ],
+      "ordered_event_ids": [
+        "E01",
+        "E02",
+        "E03",
+        "A05",
+        "A07"
+      ],
+      "ordered_molecule_labels": [
+        "6",
+        "5",
+        "2-chloroethylamine",
+        "3",
+        "4",
+        "7",
+        "11",
+        "1"
+      ],
+      "ordered_step_ids": [
+        "E01.1",
+        "E02.1",
+        "E03.1",
+        "A05.1",
+        "A07.1"
+      ],
+      "route_id": "A-network",
+      "route_type": "source_bound_successful_synthesis",
+      "split_group": "10.1021/acs.joc.6c00749",
+      "start_label": "6",
+      "start_labels": [
+        "6",
+        "2-chloroethylamine"
+      ],
+      "step_reaction_smiles_sequence": [
+        "Cc1ccc2cccc(O)c2n1>>Cc1ccc2c(n1)C(=O)C(Cl)=C(Cl)C2=O",
+        "Cc1ccc2c(n1)C(=O)C(Cl)=C(Cl)C2=O.NCCCl>>Cc1ccc2c(n1)C(=O)C(Cl)=C(NCCCl)C2=O.Cc1ccc2c(n1)C(=O)C(NCCCl)=C(Cl)C2=O",
+        "Cc1ccc2c(n1)C(=O)C(NCCCl)=C(Cl)C2=O>>Cc1ccc2c(n1)C(=O)C1=C(SCCN1)C2=O",
+        "Cc1ccc2c(n1)C(=O)C1=C(SCCN1)C2=O>>O=C(O)c1ccc2c(n1)C(=O)C1=C(SCCN1)C2=O",
+        "O=C(O)c1ccc2c(n1)C(=O)C1=C(SCCN1)C2=O>>O=C(O)c1ccc2c(n1)C(=O)C1=C(C2=O)S(=O)(=O)CCN1"
+      ],
+      "target_label": "1"
+    },
+    {
+      "admission_authority": false,
+      "formal_benchmark_eligible": false,
+      "from_commercial_starting_materials_complete": false,
+      "full_article_route_coverage": false,
+      "molecule_smiles_sequence": [
+        "Cc1ccc2cccc(O)c2n1",
+        "Cc1ccc2c(n1)C(=O)C(Cl)=C(Cl)C2=O",
+        "NCCCl",
+        "Cc1ccc2c(n1)C(=O)C(NCCCl)=C(Cl)C2=O",
+        "Cc1ccc2c(n1)C(=O)C(Cl)=C(NCCCl)C2=O",
+        "Cc1ccc2c(n1)C(=O)C1=C(SCCN1)C2=O",
+        "Cc1ccc2c(n1)C(=O)C1=C(C2=O)S(=O)(=O)CCN1",
+        "O=C(O)c1ccc2c(n1)C(=O)C1=C(C2=O)S(=O)(=O)CCN1"
+      ],
+      "ordered_event_ids": [
+        "E01",
+        "E02",
+        "E03",
+        "A03",
+        "A04"
+      ],
+      "ordered_molecule_labels": [
+        "6",
+        "5",
+        "2-chloroethylamine",
+        "3",
+        "4",
+        "7",
+        "10",
+        "1"
+      ],
+      "ordered_step_ids": [
+        "E01.1",
+        "E02.1",
+        "E03.1",
+        "A03.1",
+        "A04.1"
+      ],
+      "route_id": "A-alternative",
+      "route_type": "source_bound_successful_synthesis",
+      "split_group": "10.1021/acs.joc.6c00749",
+      "start_label": "6",
+      "start_labels": [
+        "6",
+        "2-chloroethylamine"
+      ],
+      "step_reaction_smiles_sequence": [
+        "Cc1ccc2cccc(O)c2n1>>Cc1ccc2c(n1)C(=O)C(Cl)=C(Cl)C2=O",
+        "Cc1ccc2c(n1)C(=O)C(Cl)=C(Cl)C2=O.NCCCl>>Cc1ccc2c(n1)C(=O)C(Cl)=C(NCCCl)C2=O.Cc1ccc2c(n1)C(=O)C(NCCCl)=C(Cl)C2=O",
+        "Cc1ccc2c(n1)C(=O)C(NCCCl)=C(Cl)C2=O>>Cc1ccc2c(n1)C(=O)C1=C(SCCN1)C2=O",
+        "Cc1ccc2c(n1)C(=O)C1=C(SCCN1)C2=O>>Cc1ccc2c(n1)C(=O)C1=C(C2=O)S(=O)(=O)CCN1",
+        "Cc1ccc2c(n1)C(=O)C1=C(C2=O)S(=O)(=O)CCN1>>O=C(O)c1ccc2c(n1)C(=O)C1=C(C2=O)S(=O)(=O)CCN1"
+      ],
+      "target_label": "1"
+    },
+    {
+      "admission_authority": false,
+      "formal_benchmark_eligible": false,
+      "from_commercial_starting_materials_complete": false,
+      "full_article_route_coverage": false,
+      "molecule_smiles_sequence": [
+        "Cc1ccc2cccc(O)c2n1",
+        "Cc1ccc2c(n1)C(=O)C(Cl)=C(Cl)C2=O",
+        "NCCCl",
+        "Cc1ccc2c(n1)C(=O)C(NCCCl)=C(Cl)C2=O",
+        "Cc1ccc2c(n1)C(=O)C(Cl)=C(NCCCl)C2=O",
+        "Cc1ccc2c(n1)C(=O)C1=C(SCCN1)C2=O",
+        "Cc1ccc2c(n1)C(=O)C1=C(C2=O)S(=O)CCN1",
+        "Cc1ccc2c(n1)C(=O)C1=C(C2=O)S(=O)(=O)CCN1",
+        "O=C(O)c1ccc2c(n1)C(=O)C1=C(C2=O)S(=O)(=O)CCN1"
+      ],
+      "ordered_event_ids": [
+        "E01",
+        "E02",
+        "E03",
+        "A01",
+        "A02",
+        "A04"
+      ],
+      "ordered_molecule_labels": [
+        "6",
+        "5",
+        "2-chloroethylamine",
+        "3",
+        "4",
+        "7",
+        "9",
+        "10",
+        "1"
+      ],
+      "ordered_step_ids": [
+        "E01.1",
+        "E02.1",
+        "E03.1",
+        "A01.1",
+        "A02.1",
+        "A04.1"
+      ],
+      "route_id": "A-via-sulfoxide",
+      "route_type": "source_bound_successful_synthesis",
+      "split_group": "10.1021/acs.joc.6c00749",
+      "start_label": "6",
+      "start_labels": [
+        "6",
+        "2-chloroethylamine"
+      ],
+      "step_reaction_smiles_sequence": [
+        "Cc1ccc2cccc(O)c2n1>>Cc1ccc2c(n1)C(=O)C(Cl)=C(Cl)C2=O",
+        "Cc1ccc2c(n1)C(=O)C(Cl)=C(Cl)C2=O.NCCCl>>Cc1ccc2c(n1)C(=O)C(Cl)=C(NCCCl)C2=O.Cc1ccc2c(n1)C(=O)C(NCCCl)=C(Cl)C2=O",
+        "Cc1ccc2c(n1)C(=O)C(NCCCl)=C(Cl)C2=O>>Cc1ccc2c(n1)C(=O)C1=C(SCCN1)C2=O",
+        "Cc1ccc2c(n1)C(=O)C1=C(SCCN1)C2=O>>Cc1ccc2c(n1)C(=O)C1=C(C2=O)S(=O)CCN1",
+        "Cc1ccc2c(n1)C(=O)C1=C(C2=O)S(=O)CCN1>>Cc1ccc2c(n1)C(=O)C1=C(C2=O)S(=O)(=O)CCN1",
+        "Cc1ccc2c(n1)C(=O)C1=C(C2=O)S(=O)(=O)CCN1>>O=C(O)c1ccc2c(n1)C(=O)C1=C(C2=O)S(=O)(=O)CCN1"
+      ],
+      "target_label": "1"
+    },
+    {
+      "admission_authority": false,
+      "formal_benchmark_eligible": false,
+      "from_commercial_starting_materials_complete": false,
+      "full_article_route_coverage": false,
+      "molecule_smiles_sequence": [
+        "Cc1ccc2cccc(O)c2n1",
+        "Cc1ccc2c(n1)C(=O)C(Cl)=C(Cl)C2=O",
+        "NCCCl",
+        "Cc1ccc2c(n1)C(=O)C(NCCCl)=C(Cl)C2=O",
+        "Cc1ccc2c(n1)C(=O)C(Cl)=C(NCCCl)C2=O",
+        "Cc1ccc2c(n1)C(=O)C1=C(SCCN1)C2=O",
+        "O=C(O)c1ccc2c(n1)C(=O)C1=C(SCCN1)C2=O",
+        "O=C(O)c1ccc2c(n1)C(=O)C1=C(C2=O)S(=O)(=O)CCN1",
+        "O=C(O)c1ccc2c(n1)C(=O)C1=C(C2=O)S(=O)(=O)C=CN1"
+      ],
+      "ordered_event_ids": [
+        "E01",
+        "E02",
+        "E03",
+        "A05",
+        "A07",
+        "A08"
+      ],
+      "ordered_molecule_labels": [
+        "6",
+        "5",
+        "2-chloroethylamine",
+        "3",
+        "4",
+        "7",
+        "11",
+        "1",
+        "13"
+      ],
+      "ordered_step_ids": [
+        "E01.1",
+        "E02.1",
+        "E03.1",
+        "A05.1",
+        "A07.1",
+        "A08.1"
+      ],
+      "route_id": "A-unsaturated-analogue",
+      "route_type": "source_bound_control_branch",
+      "split_group": "10.1021/acs.joc.6c00749",
+      "start_label": "6",
+      "start_labels": [
+        "6",
+        "2-chloroethylamine"
+      ],
+      "step_reaction_smiles_sequence": [
+        "Cc1ccc2cccc(O)c2n1>>Cc1ccc2c(n1)C(=O)C(Cl)=C(Cl)C2=O",
+        "Cc1ccc2c(n1)C(=O)C(Cl)=C(Cl)C2=O.NCCCl>>Cc1ccc2c(n1)C(=O)C(Cl)=C(NCCCl)C2=O.Cc1ccc2c(n1)C(=O)C(NCCCl)=C(Cl)C2=O",
+        "Cc1ccc2c(n1)C(=O)C(NCCCl)=C(Cl)C2=O>>Cc1ccc2c(n1)C(=O)C1=C(SCCN1)C2=O",
+        "Cc1ccc2c(n1)C(=O)C1=C(SCCN1)C2=O>>O=C(O)c1ccc2c(n1)C(=O)C1=C(SCCN1)C2=O",
+        "O=C(O)c1ccc2c(n1)C(=O)C1=C(SCCN1)C2=O>>O=C(O)c1ccc2c(n1)C(=O)C1=C(C2=O)S(=O)(=O)CCN1",
+        "O=C(O)c1ccc2c(n1)C(=O)C1=C(C2=O)S(=O)(=O)CCN1>>O=C(O)c1ccc2c(n1)C(=O)C1=C(C2=O)S(=O)(=O)C=CN1"
+      ],
+      "target_label": "13"
+    },
+    {
+      "admission_authority": false,
+      "formal_benchmark_eligible": false,
+      "from_commercial_starting_materials_complete": false,
+      "full_article_route_coverage": false,
+      "molecule_smiles_sequence": [
+        "Cc1ccc2cccc(O)c2n1",
+        "Cc1ccc2c(n1)C(=O)C(Cl)=C(Cl)C2=O",
+        "NCCCl",
+        "Cc1ccc2c(n1)C(=O)C(NCCCl)=C(Cl)C2=O",
+        "Cc1ccc2c(n1)C(=O)C(Cl)=C(NCCCl)C2=O",
+        "Cc1ccc2c(n1)C(=O)C1=C(SCCN1)C2=O",
+        "O=C(O)c1ccc2c(n1)C(=O)C1=C(SCCN1)C2=O",
+        "O=C(O)c1ccc2c(n1)C(=O)C1=C(C2=O)S(=O)CCN1"
+      ],
+      "ordered_event_ids": [
+        "E01",
+        "E02",
+        "E03",
+        "A05",
+        "A06"
+      ],
+      "ordered_molecule_labels": [
+        "6",
+        "5",
+        "2-chloroethylamine",
+        "3",
+        "4",
+        "7",
+        "11",
+        "12"
+      ],
+      "ordered_step_ids": [
+        "E01.1",
+        "E02.1",
+        "E03.1",
+        "A05.1",
+        "A06.1"
+      ],
+      "route_id": "A-sulfoxide-carboxylic-acid",
+      "route_type": "source_bound_control_branch",
+      "split_group": "10.1021/acs.joc.6c00749",
+      "start_label": "6",
+      "start_labels": [
+        "6",
+        "2-chloroethylamine"
+      ],
+      "step_reaction_smiles_sequence": [
+        "Cc1ccc2cccc(O)c2n1>>Cc1ccc2c(n1)C(=O)C(Cl)=C(Cl)C2=O",
+        "Cc1ccc2c(n1)C(=O)C(Cl)=C(Cl)C2=O.NCCCl>>Cc1ccc2c(n1)C(=O)C(Cl)=C(NCCCl)C2=O.Cc1ccc2c(n1)C(=O)C(NCCCl)=C(Cl)C2=O",
+        "Cc1ccc2c(n1)C(=O)C(NCCCl)=C(Cl)C2=O>>Cc1ccc2c(n1)C(=O)C1=C(SCCN1)C2=O",
+        "Cc1ccc2c(n1)C(=O)C1=C(SCCN1)C2=O>>O=C(O)c1ccc2c(n1)C(=O)C1=C(SCCN1)C2=O",
+        "O=C(O)c1ccc2c(n1)C(=O)C1=C(SCCN1)C2=O>>O=C(O)c1ccc2c(n1)C(=O)C1=C(C2=O)S(=O)CCN1"
+      ],
+      "target_label": "12"
+    },
+    {
+      "admission_authority": false,
+      "formal_benchmark_eligible": false,
+      "from_commercial_starting_materials_complete": false,
+      "full_article_route_coverage": false,
+      "molecule_smiles_sequence": [
+        "Cc1ccc2cccc(O)c2n1",
+        "Cc1ccc2c(n1)C(=O)C(Cl)=C(Cl)C2=O",
+        "NCCCl",
+        "Cc1ccc2c(n1)C(=O)C(NCCCl)=C(Cl)C2=O",
+        "Cc1ccc2c(n1)C(=O)C(Cl)=C(NCCCl)C2=O",
+        "Cc1ccc2c(n1)C(=O)C1=C(NCCS1)C2=O",
+        "Cc1ccc2c(n1)C(=O)C1=C(NCCS1(=O)=O)C2=O",
+        "Cc1ccc2c(n1)C(=O)C1=C(NC=CS1(=O)=O)C2=O",
+        "O=C(O)c1ccc2c(n1)C(=O)C1=C(NC=CS1(=O)=O)C2=O"
+      ],
+      "ordered_event_ids": [
+        "E01",
+        "E02",
+        "E04",
+        "B03",
+        "B04",
+        "B05"
+      ],
+      "ordered_molecule_labels": [
+        "6",
+        "5",
+        "2-chloroethylamine",
+        "3",
+        "4",
+        "8",
+        "15",
+        "16",
+        "2"
+      ],
+      "ordered_step_ids": [
+        "E01.1",
+        "E02.1",
+        "E04.1",
+        "B03.1",
+        "B04.1",
+        "B05.1"
+      ],
+      "route_id": "B-network",
+      "route_type": "source_bound_successful_synthesis",
+      "split_group": "10.1021/acs.joc.6c00749",
+      "start_label": "6",
+      "start_labels": [
+        "6",
+        "2-chloroethylamine"
+      ],
+      "step_reaction_smiles_sequence": [
+        "Cc1ccc2cccc(O)c2n1>>Cc1ccc2c(n1)C(=O)C(Cl)=C(Cl)C2=O",
+        "Cc1ccc2c(n1)C(=O)C(Cl)=C(Cl)C2=O.NCCCl>>Cc1ccc2c(n1)C(=O)C(Cl)=C(NCCCl)C2=O.Cc1ccc2c(n1)C(=O)C(NCCCl)=C(Cl)C2=O",
+        "Cc1ccc2c(n1)C(=O)C(Cl)=C(NCCCl)C2=O>>Cc1ccc2c(n1)C(=O)C1=C(NCCS1)C2=O",
+        "Cc1ccc2c(n1)C(=O)C1=C(NCCS1)C2=O>>Cc1ccc2c(n1)C(=O)C1=C(NCCS1(=O)=O)C2=O",
+        "Cc1ccc2c(n1)C(=O)C1=C(NCCS1(=O)=O)C2=O>>Cc1ccc2c(n1)C(=O)C1=C(NC=CS1(=O)=O)C2=O",
+        "Cc1ccc2c(n1)C(=O)C1=C(NC=CS1(=O)=O)C2=O>>O=C(O)c1ccc2c(n1)C(=O)C1=C(NC=CS1(=O)=O)C2=O"
+      ],
+      "target_label": "2"
+    },
+    {
+      "admission_authority": false,
+      "formal_benchmark_eligible": false,
+      "from_commercial_starting_materials_complete": false,
+      "full_article_route_coverage": false,
+      "molecule_smiles_sequence": [
+        "Cc1ccc2cccc(O)c2n1",
+        "Cc1ccc2c(n1)C(=O)C(Cl)=C(Cl)C2=O",
+        "NCCCl",
+        "Cc1ccc2c(n1)C(=O)C(NCCCl)=C(Cl)C2=O",
+        "Cc1ccc2c(n1)C(=O)C(Cl)=C(NCCCl)C2=O",
+        "Cc1ccc2c(n1)C(=O)C1=C(NCCS1)C2=O",
+        "O=C(O)c1ccc2c(n1)C(=O)C1=C(NCCS1)C2=O",
+        "O=C(O)c1ccc2c(n1)C(=O)C1=C(NCCS1(=O)=O)C2=O",
+        "O=C(O)c1ccc2c(n1)C(=O)C1=C(NC=CS1(=O)=O)C2=O"
+      ],
+      "ordered_event_ids": [
+        "E01",
+        "E02",
+        "E04",
+        "B06",
+        "B08",
+        "B09"
+      ],
+      "ordered_molecule_labels": [
+        "6",
+        "5",
+        "2-chloroethylamine",
+        "3",
+        "4",
+        "8",
+        "17",
+        "19",
+        "2"
+      ],
+      "ordered_step_ids": [
+        "E01.1",
+        "E02.1",
+        "E04.1",
+        "B06.1",
+        "B08.1",
+        "B09.1"
+      ],
+      "route_id": "B-alternative",
+      "route_type": "source_bound_successful_synthesis",
+      "split_group": "10.1021/acs.joc.6c00749",
+      "start_label": "6",
+      "start_labels": [
+        "6",
+        "2-chloroethylamine"
+      ],
+      "step_reaction_smiles_sequence": [
+        "Cc1ccc2cccc(O)c2n1>>Cc1ccc2c(n1)C(=O)C(Cl)=C(Cl)C2=O",
+        "Cc1ccc2c(n1)C(=O)C(Cl)=C(Cl)C2=O.NCCCl>>Cc1ccc2c(n1)C(=O)C(Cl)=C(NCCCl)C2=O.Cc1ccc2c(n1)C(=O)C(NCCCl)=C(Cl)C2=O",
+        "Cc1ccc2c(n1)C(=O)C(Cl)=C(NCCCl)C2=O>>Cc1ccc2c(n1)C(=O)C1=C(NCCS1)C2=O",
+        "Cc1ccc2c(n1)C(=O)C1=C(NCCS1)C2=O>>O=C(O)c1ccc2c(n1)C(=O)C1=C(NCCS1)C2=O",
+        "O=C(O)c1ccc2c(n1)C(=O)C1=C(NCCS1)C2=O>>O=C(O)c1ccc2c(n1)C(=O)C1=C(NCCS1(=O)=O)C2=O",
+        "O=C(O)c1ccc2c(n1)C(=O)C1=C(NCCS1(=O)=O)C2=O>>O=C(O)c1ccc2c(n1)C(=O)C1=C(NC=CS1(=O)=O)C2=O"
+      ],
+      "target_label": "2"
+    },
+    {
+      "admission_authority": false,
+      "formal_benchmark_eligible": false,
+      "from_commercial_starting_materials_complete": false,
+      "full_article_route_coverage": false,
+      "molecule_smiles_sequence": [
+        "Cc1ccc2cccc(O)c2n1",
+        "Cc1ccc2c(n1)C(=O)C(Cl)=C(Cl)C2=O",
+        "NCCCl",
+        "Cc1ccc2c(n1)C(=O)C(NCCCl)=C(Cl)C2=O",
+        "Cc1ccc2c(n1)C(=O)C(Cl)=C(NCCCl)C2=O",
+        "Cc1ccc2c(n1)C(=O)C1=C(NCCS1)C2=O",
+        "Cc1ccc2c(n1)C(=O)C1=C(NCCS1=O)C2=O",
+        "Cc1ccc2c(n1)C(=O)C1=C(NCCS1(=O)=O)C2=O",
+        "Cc1ccc2c(n1)C(=O)C1=C(NC=CS1(=O)=O)C2=O",
+        "O=C(O)c1ccc2c(n1)C(=O)C1=C(NC=CS1(=O)=O)C2=O"
+      ],
+      "ordered_event_ids": [
+        "E01",
+        "E02",
+        "E04",
+        "B01",
+        "B02",
+        "B04",
+        "B05"
+      ],
+      "ordered_molecule_labels": [
+        "6",
+        "5",
+        "2-chloroethylamine",
+        "3",
+        "4",
+        "8",
+        "14",
+        "15",
+        "16",
+        "2"
+      ],
+      "ordered_step_ids": [
+        "E01.1",
+        "E02.1",
+        "E04.1",
+        "B01.1",
+        "B02.1",
+        "B04.1",
+        "B05.1"
+      ],
+      "route_id": "B-via-sulfoxide",
+      "route_type": "source_bound_successful_synthesis",
+      "split_group": "10.1021/acs.joc.6c00749",
+      "start_label": "6",
+      "start_labels": [
+        "6",
+        "2-chloroethylamine"
+      ],
+      "step_reaction_smiles_sequence": [
+        "Cc1ccc2cccc(O)c2n1>>Cc1ccc2c(n1)C(=O)C(Cl)=C(Cl)C2=O",
+        "Cc1ccc2c(n1)C(=O)C(Cl)=C(Cl)C2=O.NCCCl>>Cc1ccc2c(n1)C(=O)C(Cl)=C(NCCCl)C2=O.Cc1ccc2c(n1)C(=O)C(NCCCl)=C(Cl)C2=O",
+        "Cc1ccc2c(n1)C(=O)C(Cl)=C(NCCCl)C2=O>>Cc1ccc2c(n1)C(=O)C1=C(NCCS1)C2=O",
+        "Cc1ccc2c(n1)C(=O)C1=C(NCCS1)C2=O>>Cc1ccc2c(n1)C(=O)C1=C(NCCS1=O)C2=O",
+        "Cc1ccc2c(n1)C(=O)C1=C(NCCS1=O)C2=O>>Cc1ccc2c(n1)C(=O)C1=C(NCCS1(=O)=O)C2=O",
+        "Cc1ccc2c(n1)C(=O)C1=C(NCCS1(=O)=O)C2=O>>Cc1ccc2c(n1)C(=O)C1=C(NC=CS1(=O)=O)C2=O",
+        "Cc1ccc2c(n1)C(=O)C1=C(NC=CS1(=O)=O)C2=O>>O=C(O)c1ccc2c(n1)C(=O)C1=C(NC=CS1(=O)=O)C2=O"
+      ],
+      "target_label": "2"
+    },
+    {
+      "admission_authority": false,
+      "formal_benchmark_eligible": false,
+      "from_commercial_starting_materials_complete": false,
+      "full_article_route_coverage": false,
+      "molecule_smiles_sequence": [
+        "Cc1ccc2cccc(O)c2n1",
+        "Cc1ccc2c(n1)C(=O)C(Cl)=C(Cl)C2=O",
+        "NCCCl",
+        "Cc1ccc2c(n1)C(=O)C(NCCCl)=C(Cl)C2=O",
+        "Cc1ccc2c(n1)C(=O)C(Cl)=C(NCCCl)C2=O",
+        "Cc1ccc2c(n1)C(=O)C1=C(NCCS1)C2=O",
+        "O=C(O)c1ccc2c(n1)C(=O)C1=C(NCCS1)C2=O",
+        "O=C(O)c1ccc2c(n1)C(=O)C1=C(NCCS1=O)C2=O"
+      ],
+      "ordered_event_ids": [
+        "E01",
+        "E02",
+        "E04",
+        "B06",
+        "B07"
+      ],
+      "ordered_molecule_labels": [
+        "6",
+        "5",
+        "2-chloroethylamine",
+        "3",
+        "4",
+        "8",
+        "17",
+        "18"
+      ],
+      "ordered_step_ids": [
+        "E01.1",
+        "E02.1",
+        "E04.1",
+        "B06.1",
+        "B07.1"
+      ],
+      "route_id": "B-sulfoxide-carboxylic-acid",
+      "route_type": "source_bound_control_branch",
+      "split_group": "10.1021/acs.joc.6c00749",
+      "start_label": "6",
+      "start_labels": [
+        "6",
+        "2-chloroethylamine"
+      ],
+      "step_reaction_smiles_sequence": [
+        "Cc1ccc2cccc(O)c2n1>>Cc1ccc2c(n1)C(=O)C(Cl)=C(Cl)C2=O",
+        "Cc1ccc2c(n1)C(=O)C(Cl)=C(Cl)C2=O.NCCCl>>Cc1ccc2c(n1)C(=O)C(Cl)=C(NCCCl)C2=O.Cc1ccc2c(n1)C(=O)C(NCCCl)=C(Cl)C2=O",
+        "Cc1ccc2c(n1)C(=O)C(Cl)=C(NCCCl)C2=O>>Cc1ccc2c(n1)C(=O)C1=C(NCCS1)C2=O",
+        "Cc1ccc2c(n1)C(=O)C1=C(NCCS1)C2=O>>O=C(O)c1ccc2c(n1)C(=O)C1=C(NCCS1)C2=O",
+        "O=C(O)c1ccc2c(n1)C(=O)C1=C(NCCS1)C2=O>>O=C(O)c1ccc2c(n1)C(=O)C1=C(NCCS1=O)C2=O"
+      ],
+      "target_label": "18"
+    }
+  ],
+  "schema_version": "syninsight.route-extraction.v1",
+  "software": {
+    "rdkit": "2026.03.6"
+  },
+  "sources": [
+    {
+      "format": "pdf",
+      "page_count": 11,
+      "path": "papers/paper-715f9106f76c8961/article/main.pdf",
+      "redistribute_source": false,
+      "role": "main_article",
+      "sha256": "785478d5dfb6070e70d6f0370fcf60dbb844abc8ae21e0ae6e695c8a538a41fc",
+      "source_id": "article"
+    },
+    {
+      "format": "pdf",
+      "page_count": 82,
+      "path": "papers/paper-715f9106f76c8961/supporting_information/si-002.pdf",
+      "redistribute_source": false,
+      "role": "supporting_information",
+      "sha256": "ce20fe021644bf736971cc1ab833f6a88635b989a44b7762a8caa743cf435819",
+      "source_id": "si"
+    }
+  ],
+  "steps": [
+    {
+      "admission_authority": false,
+      "agents": [],
+      "category": "chemical_graph_only",
+      "event_id": "E01",
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-drawn chemical identities and directed relationship only; experimental operations intentionally not transcribed.",
+      "product_labels": [
+        "5"
+      ],
+      "product_specific_yields": [],
+      "reactant_labels": [
+        "6"
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: E01",
+          "pages": [
+            2
+          ],
+          "sha256": "785478d5dfb6070e70d6f0370fcf60dbb844abc8ae21e0ae6e695c8a538a41fc",
+          "source_id": "article"
+        }
+      ],
+      "step_id": "E01.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "Cc1ccc2cccc(O)c2n1>>Cc1ccc2c(n1)C(=O)C(Cl)=C(Cl)C2=O",
+      "yield_percent": null
+    },
+    {
+      "admission_authority": false,
+      "agents": [],
+      "category": "chemical_graph_only",
+      "event_id": "E02",
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-drawn chemical identities and directed relationship only; experimental operations intentionally not transcribed.",
+      "product_labels": [
+        "3",
+        "4"
+      ],
+      "product_specific_yields": [],
+      "reactant_labels": [
+        "5",
+        "2-chloroethylamine"
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: E02",
+          "pages": [
+            2
+          ],
+          "sha256": "785478d5dfb6070e70d6f0370fcf60dbb844abc8ae21e0ae6e695c8a538a41fc",
+          "source_id": "article"
+        }
+      ],
+      "step_id": "E02.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "Cc1ccc2c(n1)C(=O)C(Cl)=C(Cl)C2=O.NCCCl>>Cc1ccc2c(n1)C(=O)C(Cl)=C(NCCCl)C2=O.Cc1ccc2c(n1)C(=O)C(NCCCl)=C(Cl)C2=O",
+      "yield_percent": null
+    },
+    {
+      "admission_authority": false,
+      "agents": [],
+      "category": "chemical_graph_only",
+      "event_id": "E03",
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-drawn chemical identities and directed relationship only; experimental operations intentionally not transcribed.",
+      "product_labels": [
+        "7"
+      ],
+      "product_specific_yields": [],
+      "reactant_labels": [
+        "3"
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: E03",
+          "pages": [
+            2
+          ],
+          "sha256": "785478d5dfb6070e70d6f0370fcf60dbb844abc8ae21e0ae6e695c8a538a41fc",
+          "source_id": "article"
+        }
+      ],
+      "step_id": "E03.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "Cc1ccc2c(n1)C(=O)C(NCCCl)=C(Cl)C2=O>>Cc1ccc2c(n1)C(=O)C1=C(SCCN1)C2=O",
+      "yield_percent": null
+    },
+    {
+      "admission_authority": false,
+      "agents": [],
+      "category": "chemical_graph_only",
+      "event_id": "E04",
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-drawn chemical identities and directed relationship only; experimental operations intentionally not transcribed.",
+      "product_labels": [
+        "8"
+      ],
+      "product_specific_yields": [],
+      "reactant_labels": [
+        "4"
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: E04",
+          "pages": [
+            2
+          ],
+          "sha256": "785478d5dfb6070e70d6f0370fcf60dbb844abc8ae21e0ae6e695c8a538a41fc",
+          "source_id": "article"
+        }
+      ],
+      "step_id": "E04.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "Cc1ccc2c(n1)C(=O)C(Cl)=C(NCCCl)C2=O>>Cc1ccc2c(n1)C(=O)C1=C(NCCS1)C2=O",
+      "yield_percent": null
+    },
+    {
+      "admission_authority": false,
+      "agents": [],
+      "category": "chemical_graph_only",
+      "event_id": "A01",
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-drawn chemical identities and directed relationship only; experimental operations intentionally not transcribed.",
+      "product_labels": [
+        "9"
+      ],
+      "product_specific_yields": [],
+      "reactant_labels": [
+        "7"
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: A01",
+          "pages": [
+            3
+          ],
+          "sha256": "785478d5dfb6070e70d6f0370fcf60dbb844abc8ae21e0ae6e695c8a538a41fc",
+          "source_id": "article"
+        }
+      ],
+      "step_id": "A01.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "Cc1ccc2c(n1)C(=O)C1=C(SCCN1)C2=O>>Cc1ccc2c(n1)C(=O)C1=C(C2=O)S(=O)CCN1",
+      "yield_percent": null
+    },
+    {
+      "admission_authority": false,
+      "agents": [],
+      "category": "chemical_graph_only",
+      "event_id": "A02",
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-drawn chemical identities and directed relationship only; experimental operations intentionally not transcribed.",
+      "product_labels": [
+        "10"
+      ],
+      "product_specific_yields": [],
+      "reactant_labels": [
+        "9"
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: A02",
+          "pages": [
+            3
+          ],
+          "sha256": "785478d5dfb6070e70d6f0370fcf60dbb844abc8ae21e0ae6e695c8a538a41fc",
+          "source_id": "article"
+        }
+      ],
+      "step_id": "A02.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "Cc1ccc2c(n1)C(=O)C1=C(C2=O)S(=O)CCN1>>Cc1ccc2c(n1)C(=O)C1=C(C2=O)S(=O)(=O)CCN1",
+      "yield_percent": null
+    },
+    {
+      "admission_authority": false,
+      "agents": [],
+      "category": "chemical_graph_only",
+      "event_id": "A03",
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-drawn chemical identities and directed relationship only; experimental operations intentionally not transcribed.",
+      "product_labels": [
+        "10"
+      ],
+      "product_specific_yields": [],
+      "reactant_labels": [
+        "7"
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: A03",
+          "pages": [
+            3
+          ],
+          "sha256": "785478d5dfb6070e70d6f0370fcf60dbb844abc8ae21e0ae6e695c8a538a41fc",
+          "source_id": "article"
+        }
+      ],
+      "step_id": "A03.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "Cc1ccc2c(n1)C(=O)C1=C(SCCN1)C2=O>>Cc1ccc2c(n1)C(=O)C1=C(C2=O)S(=O)(=O)CCN1",
+      "yield_percent": null
+    },
+    {
+      "admission_authority": false,
+      "agents": [],
+      "category": "chemical_graph_only",
+      "event_id": "A04",
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-drawn chemical identities and directed relationship only; experimental operations intentionally not transcribed.",
+      "product_labels": [
+        "1"
+      ],
+      "product_specific_yields": [],
+      "reactant_labels": [
+        "10"
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: A04",
+          "pages": [
+            3
+          ],
+          "sha256": "785478d5dfb6070e70d6f0370fcf60dbb844abc8ae21e0ae6e695c8a538a41fc",
+          "source_id": "article"
+        }
+      ],
+      "step_id": "A04.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "Cc1ccc2c(n1)C(=O)C1=C(C2=O)S(=O)(=O)CCN1>>O=C(O)c1ccc2c(n1)C(=O)C1=C(C2=O)S(=O)(=O)CCN1",
+      "yield_percent": null
+    },
+    {
+      "admission_authority": false,
+      "agents": [],
+      "category": "chemical_graph_only",
+      "event_id": "A05",
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-drawn chemical identities and directed relationship only; experimental operations intentionally not transcribed.",
+      "product_labels": [
+        "11"
+      ],
+      "product_specific_yields": [],
+      "reactant_labels": [
+        "7"
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: A05",
+          "pages": [
+            3
+          ],
+          "sha256": "785478d5dfb6070e70d6f0370fcf60dbb844abc8ae21e0ae6e695c8a538a41fc",
+          "source_id": "article"
+        }
+      ],
+      "step_id": "A05.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "Cc1ccc2c(n1)C(=O)C1=C(SCCN1)C2=O>>O=C(O)c1ccc2c(n1)C(=O)C1=C(SCCN1)C2=O",
+      "yield_percent": null
+    },
+    {
+      "admission_authority": false,
+      "agents": [],
+      "category": "chemical_graph_only",
+      "event_id": "A06",
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-drawn chemical identities and directed relationship only; experimental operations intentionally not transcribed.",
+      "product_labels": [
+        "12"
+      ],
+      "product_specific_yields": [],
+      "reactant_labels": [
+        "11"
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: A06",
+          "pages": [
+            3
+          ],
+          "sha256": "785478d5dfb6070e70d6f0370fcf60dbb844abc8ae21e0ae6e695c8a538a41fc",
+          "source_id": "article"
+        }
+      ],
+      "step_id": "A06.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "O=C(O)c1ccc2c(n1)C(=O)C1=C(SCCN1)C2=O>>O=C(O)c1ccc2c(n1)C(=O)C1=C(C2=O)S(=O)CCN1",
+      "yield_percent": null
+    },
+    {
+      "admission_authority": false,
+      "agents": [],
+      "category": "chemical_graph_only",
+      "event_id": "A07",
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-drawn chemical identities and directed relationship only; experimental operations intentionally not transcribed.",
+      "product_labels": [
+        "1"
+      ],
+      "product_specific_yields": [],
+      "reactant_labels": [
+        "11"
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: A07",
+          "pages": [
+            3
+          ],
+          "sha256": "785478d5dfb6070e70d6f0370fcf60dbb844abc8ae21e0ae6e695c8a538a41fc",
+          "source_id": "article"
+        }
+      ],
+      "step_id": "A07.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "O=C(O)c1ccc2c(n1)C(=O)C1=C(SCCN1)C2=O>>O=C(O)c1ccc2c(n1)C(=O)C1=C(C2=O)S(=O)(=O)CCN1",
+      "yield_percent": null
+    },
+    {
+      "admission_authority": false,
+      "agents": [],
+      "category": "chemical_graph_only",
+      "event_id": "A08",
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-drawn chemical identities and directed relationship only; experimental operations intentionally not transcribed.",
+      "product_labels": [
+        "13"
+      ],
+      "product_specific_yields": [],
+      "reactant_labels": [
+        "1"
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: A08",
+          "pages": [
+            3
+          ],
+          "sha256": "785478d5dfb6070e70d6f0370fcf60dbb844abc8ae21e0ae6e695c8a538a41fc",
+          "source_id": "article"
+        }
+      ],
+      "step_id": "A08.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "O=C(O)c1ccc2c(n1)C(=O)C1=C(C2=O)S(=O)(=O)CCN1>>O=C(O)c1ccc2c(n1)C(=O)C1=C(C2=O)S(=O)(=O)C=CN1",
+      "yield_percent": null
+    },
+    {
+      "admission_authority": false,
+      "agents": [],
+      "category": "chemical_graph_only",
+      "event_id": "B01",
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-drawn chemical identities and directed relationship only; experimental operations intentionally not transcribed.",
+      "product_labels": [
+        "14"
+      ],
+      "product_specific_yields": [],
+      "reactant_labels": [
+        "8"
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: B01",
+          "pages": [
+            4
+          ],
+          "sha256": "785478d5dfb6070e70d6f0370fcf60dbb844abc8ae21e0ae6e695c8a538a41fc",
+          "source_id": "article"
+        }
+      ],
+      "step_id": "B01.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "Cc1ccc2c(n1)C(=O)C1=C(NCCS1)C2=O>>Cc1ccc2c(n1)C(=O)C1=C(NCCS1=O)C2=O",
+      "yield_percent": null
+    },
+    {
+      "admission_authority": false,
+      "agents": [],
+      "category": "chemical_graph_only",
+      "event_id": "B02",
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-drawn chemical identities and directed relationship only; experimental operations intentionally not transcribed.",
+      "product_labels": [
+        "15"
+      ],
+      "product_specific_yields": [],
+      "reactant_labels": [
+        "14"
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: B02",
+          "pages": [
+            4
+          ],
+          "sha256": "785478d5dfb6070e70d6f0370fcf60dbb844abc8ae21e0ae6e695c8a538a41fc",
+          "source_id": "article"
+        }
+      ],
+      "step_id": "B02.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "Cc1ccc2c(n1)C(=O)C1=C(NCCS1=O)C2=O>>Cc1ccc2c(n1)C(=O)C1=C(NCCS1(=O)=O)C2=O",
+      "yield_percent": null
+    },
+    {
+      "admission_authority": false,
+      "agents": [],
+      "category": "chemical_graph_only",
+      "event_id": "B03",
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-drawn chemical identities and directed relationship only; experimental operations intentionally not transcribed.",
+      "product_labels": [
+        "15"
+      ],
+      "product_specific_yields": [],
+      "reactant_labels": [
+        "8"
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: B03",
+          "pages": [
+            4
+          ],
+          "sha256": "785478d5dfb6070e70d6f0370fcf60dbb844abc8ae21e0ae6e695c8a538a41fc",
+          "source_id": "article"
+        }
+      ],
+      "step_id": "B03.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "Cc1ccc2c(n1)C(=O)C1=C(NCCS1)C2=O>>Cc1ccc2c(n1)C(=O)C1=C(NCCS1(=O)=O)C2=O",
+      "yield_percent": null
+    },
+    {
+      "admission_authority": false,
+      "agents": [],
+      "category": "chemical_graph_only",
+      "event_id": "B04",
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-drawn chemical identities and directed relationship only; experimental operations intentionally not transcribed.",
+      "product_labels": [
+        "16"
+      ],
+      "product_specific_yields": [],
+      "reactant_labels": [
+        "15"
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: B04",
+          "pages": [
+            4
+          ],
+          "sha256": "785478d5dfb6070e70d6f0370fcf60dbb844abc8ae21e0ae6e695c8a538a41fc",
+          "source_id": "article"
+        }
+      ],
+      "step_id": "B04.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "Cc1ccc2c(n1)C(=O)C1=C(NCCS1(=O)=O)C2=O>>Cc1ccc2c(n1)C(=O)C1=C(NC=CS1(=O)=O)C2=O",
+      "yield_percent": null
+    },
+    {
+      "admission_authority": false,
+      "agents": [],
+      "category": "chemical_graph_only",
+      "event_id": "B05",
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-drawn chemical identities and directed relationship only; experimental operations intentionally not transcribed.",
+      "product_labels": [
+        "2"
+      ],
+      "product_specific_yields": [],
+      "reactant_labels": [
+        "16"
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: B05",
+          "pages": [
+            4
+          ],
+          "sha256": "785478d5dfb6070e70d6f0370fcf60dbb844abc8ae21e0ae6e695c8a538a41fc",
+          "source_id": "article"
+        }
+      ],
+      "step_id": "B05.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "Cc1ccc2c(n1)C(=O)C1=C(NC=CS1(=O)=O)C2=O>>O=C(O)c1ccc2c(n1)C(=O)C1=C(NC=CS1(=O)=O)C2=O",
+      "yield_percent": null
+    },
+    {
+      "admission_authority": false,
+      "agents": [],
+      "category": "chemical_graph_only",
+      "event_id": "B06",
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-drawn chemical identities and directed relationship only; experimental operations intentionally not transcribed.",
+      "product_labels": [
+        "17"
+      ],
+      "product_specific_yields": [],
+      "reactant_labels": [
+        "8"
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: B06",
+          "pages": [
+            4
+          ],
+          "sha256": "785478d5dfb6070e70d6f0370fcf60dbb844abc8ae21e0ae6e695c8a538a41fc",
+          "source_id": "article"
+        }
+      ],
+      "step_id": "B06.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "Cc1ccc2c(n1)C(=O)C1=C(NCCS1)C2=O>>O=C(O)c1ccc2c(n1)C(=O)C1=C(NCCS1)C2=O",
+      "yield_percent": null
+    },
+    {
+      "admission_authority": false,
+      "agents": [],
+      "category": "chemical_graph_only",
+      "event_id": "B07",
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-drawn chemical identities and directed relationship only; experimental operations intentionally not transcribed.",
+      "product_labels": [
+        "18"
+      ],
+      "product_specific_yields": [],
+      "reactant_labels": [
+        "17"
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: B07",
+          "pages": [
+            4
+          ],
+          "sha256": "785478d5dfb6070e70d6f0370fcf60dbb844abc8ae21e0ae6e695c8a538a41fc",
+          "source_id": "article"
+        }
+      ],
+      "step_id": "B07.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "O=C(O)c1ccc2c(n1)C(=O)C1=C(NCCS1)C2=O>>O=C(O)c1ccc2c(n1)C(=O)C1=C(NCCS1=O)C2=O",
+      "yield_percent": null
+    },
+    {
+      "admission_authority": false,
+      "agents": [],
+      "category": "chemical_graph_only",
+      "event_id": "B08",
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-drawn chemical identities and directed relationship only; experimental operations intentionally not transcribed.",
+      "product_labels": [
+        "19"
+      ],
+      "product_specific_yields": [],
+      "reactant_labels": [
+        "17"
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: B08",
+          "pages": [
+            4
+          ],
+          "sha256": "785478d5dfb6070e70d6f0370fcf60dbb844abc8ae21e0ae6e695c8a538a41fc",
+          "source_id": "article"
+        }
+      ],
+      "step_id": "B08.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "O=C(O)c1ccc2c(n1)C(=O)C1=C(NCCS1)C2=O>>O=C(O)c1ccc2c(n1)C(=O)C1=C(NCCS1(=O)=O)C2=O",
+      "yield_percent": null
+    },
+    {
+      "admission_authority": false,
+      "agents": [],
+      "category": "chemical_graph_only",
+      "event_id": "B09",
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-drawn chemical identities and directed relationship only; experimental operations intentionally not transcribed.",
+      "product_labels": [
+        "2"
+      ],
+      "product_specific_yields": [],
+      "reactant_labels": [
+        "19"
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: B09",
+          "pages": [
+            4
+          ],
+          "sha256": "785478d5dfb6070e70d6f0370fcf60dbb844abc8ae21e0ae6e695c8a538a41fc",
+          "source_id": "article"
+        }
+      ],
+      "step_id": "B09.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "O=C(O)c1ccc2c(n1)C(=O)C1=C(NCCS1(=O)=O)C2=O>>O=C(O)c1ccc2c(n1)C(=O)C1=C(NC=CS1(=O)=O)C2=O",
+      "yield_percent": null
+    }
+  ],
+  "title": "Total Synthesis and Antimycobacterial Activity of Ascidiathiazones A and B and Analogues.",
+  "unresolved_events": []
+}

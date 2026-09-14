@@ -1,0 +1,570 @@
+[
+  {
+    "admission_authority": false,
+    "agents": [
+      "ICl"
+    ],
+    "event_id": "E01",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "S3"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "9",
+        "percent": 93,
+        "product_label": "S3",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "reactant_labels": [
+      "9"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "acetic acid"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: E01",
+        "pages": [
+          6
+        ],
+        "sha256": "1fbcbfec0a80ea108a1d9f2fd1e9c936e5343f7f78c4d0e321f1d12f84daf1a1",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E01.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "O=Cc1ccccc1O>>O=Cc1cc(I)ccc1O",
+    "yield_percent": 93
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "dimethyl sulfate",
+      "K2CO3"
+    ],
+    "event_id": "E02",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "10"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "S3",
+        "percent": 100,
+        "product_label": "10",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "reactant_labels": [
+      "S3"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "acetone"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: E02",
+        "pages": [
+          6
+        ],
+        "sha256": "1fbcbfec0a80ea108a1d9f2fd1e9c936e5343f7f78c4d0e321f1d12f84daf1a1",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E02.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "O=Cc1cc(I)ccc1O>>COc1ccc(I)cc1C=O",
+    "yield_percent": 100
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "NaHMDS"
+    ],
+    "event_id": "E03",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "6"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "10",
+        "percent": 76,
+        "product_label": "6",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "reactant_labels": [
+      "10",
+      "Wittig-salt"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "THF",
+      "HMPA"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: E03",
+        "pages": [
+          7
+        ],
+        "sha256": "1fbcbfec0a80ea108a1d9f2fd1e9c936e5343f7f78c4d0e321f1d12f84daf1a1",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E03.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "COc1ccc(I)cc1C=O.IC[P+](c1ccccc1)(c1ccccc1)c1ccccc1.[I-]>>COc1ccc(I)cc1/C=C\\I",
+    "yield_percent": 76
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "HOBt",
+      "EDC hydrochloride",
+      "N-methylmorpholine"
+    ],
+    "event_id": "E04",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "8"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "7",
+        "percent": 97,
+        "product_label": "8",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "reactant_labels": [
+      "7",
+      "Ile-amide"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "DMF"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: E04",
+        "pages": [
+          7,
+          8
+        ],
+        "sha256": "1fbcbfec0a80ea108a1d9f2fd1e9c936e5343f7f78c4d0e321f1d12f84daf1a1",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E04.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "CC(C)(C)OC(=O)N1CC[C@H](O)[C@H]1C(=O)O.CC[C@H](C)[C@H](N)C(N)=O>>CC[C@H](C)[C@H](NC(=O)[C@@H]1[C@@H](O)CCN1C(=O)OC(C)(C)C)C(N)=O",
+    "yield_percent": 97
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "CuI",
+      "Cs2CO3",
+      "trans-N,N-dimethylcyclohexane-1,2-diamine"
+    ],
+    "event_id": "E05",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "S1"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "8",
+        "percent": 74,
+        "product_label": "S1",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "reactant_labels": [
+      "8",
+      "6"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: E05",
+        "pages": [
+          8,
+          9
+        ],
+        "sha256": "1fbcbfec0a80ea108a1d9f2fd1e9c936e5343f7f78c4d0e321f1d12f84daf1a1",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E05.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "CC[C@H](C)[C@H](NC(=O)[C@@H]1[C@@H](O)CCN1C(=O)OC(C)(C)C)C(N)=O.COc1ccc(I)cc1/C=C\\I>>CC[C@H](C)[C@H](NC(=O)[C@@H]1[C@@H](O)CCN1C(=O)OC(C)(C)C)C(=O)N/C=C\\c1cc(I)ccc1OC",
+    "yield_percent": 74
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "CuI",
+      "Cs2CO3",
+      "3,4,7,8-tetramethyl-1,10-phenanthroline"
+    ],
+    "event_id": "E06",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "S2"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "S1",
+        "percent": 38,
+        "product_label": "S2",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "reactant_labels": [
+      "S1"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: E06",
+        "pages": [
+          9
+        ],
+        "sha256": "1fbcbfec0a80ea108a1d9f2fd1e9c936e5343f7f78c4d0e321f1d12f84daf1a1",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E06.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "CC[C@H](C)[C@H](NC(=O)[C@@H]1[C@@H](O)CCN1C(=O)OC(C)(C)C)C(=O)N/C=C\\c1cc(I)ccc1OC>>CC[C@H](C)[C@@H]1NC(=O)[C@@H]2[C@H](CCN2C(=O)OC(C)(C)C)Oc2ccc(OC)c(c2)/C=C\\NC1=O",
+    "yield_percent": 38
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "CuI",
+      "Cs2CO3",
+      "trans-N,N-dimethylcyclohexane-1,2-diamine",
+      "3,4,7,8-tetramethyl-1,10-phenanthroline"
+    ],
+    "event_id": "E07",
+    "experimental_stage_count": 2,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "operation_stages": [
+      {
+        "operation": "intermolecular vinyl amidation"
+      },
+      {
+        "operation": "intramolecular aryl ether closure"
+      }
+    ],
+    "product_labels": [
+      "S2"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "8",
+        "percent": 22,
+        "product_label": "S2",
+        "scope": "Combined two-stage one-pot isolated yield."
+      }
+    ],
+    "reactant_labels": [
+      "8",
+      "6"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: E07",
+        "pages": [
+          9,
+          10
+        ],
+        "sha256": "1fbcbfec0a80ea108a1d9f2fd1e9c936e5343f7f78c4d0e321f1d12f84daf1a1",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E07.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "CC[C@H](C)[C@H](NC(=O)[C@@H]1[C@@H](O)CCN1C(=O)OC(C)(C)C)C(N)=O.COc1ccc(I)cc1/C=C\\I>>CC[C@H](C)[C@@H]1NC(=O)[C@@H]2[C@H](CCN2C(=O)OC(C)(C)C)Oc2ccc(OC)c(c2)/C=C\\NC1=O",
+    "yield_percent": 22
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "acetyl chloride",
+      "methanol (HCl generation)"
+    ],
+    "event_id": "E08",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "S4"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "8",
+        "percent": 100,
+        "product_label": "S4",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "reactant_labels": [
+      "8"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "1,2-dichloroethane",
+      "1,4-dioxane"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: E08",
+        "pages": [
+          11
+        ],
+        "sha256": "1fbcbfec0a80ea108a1d9f2fd1e9c936e5343f7f78c4d0e321f1d12f84daf1a1",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E08.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "CC[C@H](C)[C@H](NC(=O)[C@@H]1[C@@H](O)CCN1C(=O)OC(C)(C)C)C(N)=O>>CC[C@H](C)[C@H](NC(=O)[C@H]1[NH2+]CC[C@@H]1O)C(N)=O.[Cl-]",
+    "yield_percent": 100
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "HOBt",
+      "EDC hydrochloride",
+      "N-methylmorpholine"
+    ],
+    "event_id": "E09",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "5"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "S4",
+        "percent": 54,
+        "product_label": "5",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "reactant_labels": [
+      "S4",
+      "Me2Phe"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "DMF"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: E09",
+        "pages": [
+          11,
+          12
+        ],
+        "sha256": "1fbcbfec0a80ea108a1d9f2fd1e9c936e5343f7f78c4d0e321f1d12f84daf1a1",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E09.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "CC[C@H](C)[C@H](NC(=O)[C@H]1[NH2+]CC[C@@H]1O)C(N)=O.CN(C)[C@@H](Cc1ccccc1)C(=O)O.[Cl-]>>CC[C@H](C)[C@H](NC(=O)[C@@H]1[C@@H](O)CCN1C(=O)[C@H](Cc1ccccc1)N(C)C)C(N)=O",
+    "yield_percent": 54
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "CuI",
+      "Cs2CO3",
+      "trans-N,N-dimethylcyclohexane-1,2-diamine"
+    ],
+    "event_id": "E10",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "Z-11"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "5",
+        "percent": 87,
+        "product_label": "Z-11",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "reactant_labels": [
+      "5",
+      "6"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "1,4-dioxane"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: E10",
+        "pages": [
+          12,
+          13
+        ],
+        "sha256": "1fbcbfec0a80ea108a1d9f2fd1e9c936e5343f7f78c4d0e321f1d12f84daf1a1",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E10.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "CC[C@H](C)[C@H](NC(=O)[C@@H]1[C@@H](O)CCN1C(=O)[C@H](Cc1ccccc1)N(C)C)C(N)=O.COc1ccc(I)cc1/C=C\\I>>CC[C@H](C)[C@H](NC(=O)[C@@H]1[C@@H](O)CCN1C(=O)[C@H](Cc1ccccc1)N(C)C)C(=O)N/C=C\\c1cc(I)ccc1OC",
+    "yield_percent": 87
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "CuI",
+      "Cs2CO3",
+      "3,4,7,8-tetramethyl-1,10-phenanthroline"
+    ],
+    "event_id": "E11",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "4"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "Z-11",
+        "percent": 32,
+        "product_label": "4",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "reactant_labels": [
+      "Z-11"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: E11",
+        "pages": [
+          13,
+          14
+        ],
+        "sha256": "1fbcbfec0a80ea108a1d9f2fd1e9c936e5343f7f78c4d0e321f1d12f84daf1a1",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E11.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "CC[C@H](C)[C@H](NC(=O)[C@@H]1[C@@H](O)CCN1C(=O)[C@H](Cc1ccccc1)N(C)C)C(=O)N/C=C\\c1cc(I)ccc1OC>>CC[C@H](C)[C@@H]1NC(=O)[C@@H]2[C@H](CCN2C(=O)[C@H](Cc2ccccc2)N(C)C)Oc2ccc(OC)c(c2)/C=C\\NC1=O",
+    "yield_percent": 32
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "CuI",
+      "Cs2CO3",
+      "trans-N,N-dimethylcyclohexane-1,2-diamine",
+      "3,4,7,8-tetramethyl-1,10-phenanthroline"
+    ],
+    "event_id": "E12",
+    "experimental_stage_count": 2,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "operation_stages": [
+      {
+        "operation": "intermolecular vinyl amidation"
+      },
+      {
+        "operation": "intramolecular aryl ether closure"
+      }
+    ],
+    "product_labels": [
+      "4"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "5",
+        "percent": 24,
+        "product_label": "4",
+        "scope": "Combined two-stage one-pot isolated yield."
+      }
+    ],
+    "reactant_labels": [
+      "5",
+      "6"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "1,4-dioxane",
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: E12",
+        "pages": [
+          14
+        ],
+        "sha256": "1fbcbfec0a80ea108a1d9f2fd1e9c936e5343f7f78c4d0e321f1d12f84daf1a1",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E12.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "CC[C@H](C)[C@H](NC(=O)[C@@H]1[C@@H](O)CCN1C(=O)[C@H](Cc1ccccc1)N(C)C)C(N)=O.COc1ccc(I)cc1/C=C\\I>>CC[C@H](C)[C@@H]1NC(=O)[C@@H]2[C@H](CCN2C(=O)[C@H](Cc2ccccc2)N(C)C)Oc2ccc(OC)c(c2)/C=C\\NC1=O",
+    "yield_percent": 24
+  }
+]

@@ -1,0 +1,154 @@
+[
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E01",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "6a"
+    ],
+    "reactant_labels": [
+      "dimethylfuran"
+    ],
+    "reported_yields": [],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source endpoints; target stereobonds express relative drawings, not absolute configurations; not atom-balanced",
+    "source_references": [
+      {
+        "cdx_sha256": "b81e0e9c7a686281c9edb2476b5c2f96e24817cfdc5d6425c4ae10360097701c",
+        "locator": "SI native object 3, structure/procedure: E01 preparation",
+        "locator_kind": "native_document_object",
+        "pages": [],
+        "sha256": "a5e6c00d8f09caf1e760dd49b95b2c41708a1f4a7ef5421d5240e2abd4ca32eb",
+        "source_id": "si",
+        "source_member": "word/embeddings/oleObject3.bin",
+        "xml_paragraph_index_1based": 77
+      },
+      {
+        "locator": "Specific identity of furan precursor to 6a",
+        "pages": [
+          3
+        ],
+        "sha256": "294d0614fc54db29d93956b73985ce8a2e9d3fa0f86c68902f1a1b67ab55369b",
+        "source_id": "main"
+      }
+    ],
+    "step_ids": [
+      "E01.1"
+    ],
+    "substrate_product_smiles": "Cc1ccc(C)o1>>CC(=O)/C=C\\C(C)=O"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E02",
+    "formal_benchmark_eligible": false,
+    "minor_product_yield_percent": null,
+    "product_labels": [
+      "7c",
+      "8c"
+    ],
+    "reactant_labels": [
+      "5c",
+      "6a"
+    ],
+    "reported_dr": ">10:1",
+    "reported_mass_mg": 35.0,
+    "reported_mass_yield_inconsistency": true,
+    "reported_scale_mmol": 0.2,
+    "reported_yields": [
+      {
+        "from_label": "5c",
+        "percent": 74,
+        "product_label": "7c",
+        "scope": "reported individually isolated yield"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source endpoints; target stereobonds express relative drawings, not absolute configurations; not atom-balanced",
+    "source_references": [
+      {
+        "cdx_sha256": "243789d1601e5a9feeb2ee791102ee82653fba0f4186809d26ac3baebc886afd",
+        "locator": "SI native object 12, structure/procedure: E02 preparation",
+        "locator_kind": "native_document_object",
+        "pages": [],
+        "sha256": "a5e6c00d8f09caf1e760dd49b95b2c41708a1f4a7ef5421d5240e2abd4ca32eb",
+        "source_id": "si",
+        "source_member": "word/embeddings/oleObject12.bin",
+        "xml_paragraph_index_1based": 221
+      },
+      {
+        "locator": "Scheme 3 yield basis and gram-scale isolated yields",
+        "pages": [
+          4,
+          5
+        ],
+        "sha256": "294d0614fc54db29d93956b73985ce8a2e9d3fa0f86c68902f1a1b67ab55369b",
+        "source_id": "main"
+      }
+    ],
+    "step_ids": [
+      "E02.1"
+    ],
+    "substrate_product_smiles": "CC(=O)/C=C\\C(C)=O.COc1cc(/C=C/CO)ccc1O>>COc1cc([C@@H]2O[C@]3(C)O[C@@]4(C)C[C@@H]3[C@@H]2CO4)ccc1O.COc1cc([C@H]2O[C@]3(C)O[C@@]4(C)C[C@@H]3[C@@H]2CO4)ccc1O",
+    "yield_basis_note": "74% is isolated 7c per Scheme 3 footnote; 8c individual yield absent in this experiment"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "distinct_preparation_not_sequential_step": true,
+    "event_id": "E03",
+    "experiment_variant_of": "E02",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "7c",
+      "8c"
+    ],
+    "reactant_labels": [
+      "5c",
+      "6a"
+    ],
+    "reported_scale_mmol": 5.5,
+    "reported_yields": [
+      {
+        "from_label": "5c",
+        "percent": 65,
+        "product_label": "7c",
+        "scope": "reported individually isolated yield"
+      },
+      {
+        "from_label": "5c",
+        "percent": 5,
+        "product_label": "8c",
+        "scope": "reported individually isolated yield"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source endpoints; target stereobonds express relative drawings, not absolute configurations; not atom-balanced",
+    "source_references": [
+      {
+        "cdx_sha256": "4df31b3d7a6bcf45a242d65dfa28d62d78eaf91dae22fdab76022fae1d16cc7d",
+        "locator": "SI native object 6, structure/procedure: E03 preparation",
+        "locator_kind": "native_document_object",
+        "pages": [],
+        "sha256": "a5e6c00d8f09caf1e760dd49b95b2c41708a1f4a7ef5421d5240e2abd4ca32eb",
+        "source_id": "si",
+        "source_member": "word/embeddings/oleObject6.bin",
+        "xml_paragraph_index_1based": 196
+      },
+      {
+        "locator": "Scheme 3 yield basis and gram-scale isolated yields",
+        "pages": [
+          4,
+          5
+        ],
+        "sha256": "294d0614fc54db29d93956b73985ce8a2e9d3fa0f86c68902f1a1b67ab55369b",
+        "source_id": "main"
+      }
+    ],
+    "step_ids": [
+      "E03.1"
+    ],
+    "substrate_product_smiles": "CC(=O)/C=C\\C(C)=O.COc1cc(/C=C/CO)ccc1O>>COc1cc([C@@H]2O[C@]3(C)O[C@@]4(C)C[C@@H]3[C@@H]2CO4)ccc1O.COc1cc([C@H]2O[C@]3(C)O[C@@]4(C)C[C@@H]3[C@@H]2CO4)ccc1O"
+  }
+]

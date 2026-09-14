@@ -1,0 +1,717 @@
+[
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E01",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "7"
+    ],
+    "reactant_labels": [
+      "9",
+      "Boc2O"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "9",
+        "percent": 79,
+        "product_label": "7",
+        "scope": "reported separately isolated product"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source covalent endpoints; racemic relative drawings are not absolute assignments; not atom-balanced",
+    "source_references": [
+      {
+        "locator": "SI PDF pages (printed page number is one lower): E01 preparation",
+        "pages": [
+          3
+        ],
+        "sha256": "5c61b422c9c9c11b53bc73563827c14098efe8c328121909abf314c026b070da",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E01.1"
+    ],
+    "substrate_product_smiles": "CC(C)(C)OC(=O)OC(=O)OC(C)(C)C.COC(=O)CNCCc1c[nH]c2ccccc12>>COC(=O)CN(CCc1cn(C(=O)OC(C)(C)C)c2ccccc12)C(=O)OC(C)(C)C"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E02",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "10"
+    ],
+    "reactant_labels": [
+      "7"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "7",
+        "percent": 67,
+        "product_label": "10",
+        "scope": "reported separately isolated product"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source covalent endpoints; racemic relative drawings are not absolute assignments; not atom-balanced",
+    "source_references": [
+      {
+        "locator": "SI PDF pages (printed page number is one lower): E02 preparation",
+        "pages": [
+          3,
+          4
+        ],
+        "sha256": "5c61b422c9c9c11b53bc73563827c14098efe8c328121909abf314c026b070da",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E02.1"
+    ],
+    "substrate_product_smiles": "COC(=O)CN(CCc1cn(C(=O)OC(C)(C)C)c2ccccc12)C(=O)OC(C)(C)C>>CC(C)(C)OC(=O)N(CC=O)CCc1cn(C(=O)OC(C)(C)C)c2ccccc12"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E03",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "11"
+    ],
+    "reactant_labels": [
+      "10",
+      "wittig-ylide"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "10",
+        "percent": 62,
+        "product_label": "11",
+        "scope": "reported separately isolated product"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source covalent endpoints; racemic relative drawings are not absolute assignments; not atom-balanced",
+    "source_references": [
+      {
+        "locator": "SI PDF pages (printed page number is one lower): E03 preparation",
+        "pages": [
+          4
+        ],
+        "sha256": "5c61b422c9c9c11b53bc73563827c14098efe8c328121909abf314c026b070da",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E03.1"
+    ],
+    "substrate_product_smiles": "CC(C)(C)OC(=O)N(CC=O)CCc1cn(C(=O)OC(C)(C)C)c2ccccc12.CCOC(=O)C=P(c1ccccc1)(c1ccccc1)c1ccccc1>>CCOC(=O)/C=C/CN(CCc1cn(C(=O)OC(C)(C)C)c2ccccc12)C(=O)OC(C)(C)C"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E04",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "6"
+    ],
+    "reactant_labels": [
+      "11"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "11",
+        "percent": 75,
+        "product_label": "6",
+        "scope": "reported separately isolated product"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source covalent endpoints; racemic relative drawings are not absolute assignments; not atom-balanced",
+    "source_references": [
+      {
+        "locator": "SI PDF pages (printed page number is one lower): E04 preparation",
+        "pages": [
+          4,
+          5
+        ],
+        "sha256": "5c61b422c9c9c11b53bc73563827c14098efe8c328121909abf314c026b070da",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E04.1"
+    ],
+    "substrate_product_smiles": "CCOC(=O)/C=C/CN(CCc1cn(C(=O)OC(C)(C)C)c2ccccc12)C(=O)OC(C)(C)C>>CC(C)(C)OC(=O)N(C/C=C/CO)CCc1cn(C(=O)OC(C)(C)C)c2ccccc12"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E05",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "4"
+    ],
+    "reactant_labels": [
+      "6",
+      "5"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "6",
+        "percent": 96,
+        "product_label": "4",
+        "scope": "reported separately isolated product"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source covalent endpoints; racemic relative drawings are not absolute assignments; not atom-balanced",
+    "source_references": [
+      {
+        "locator": "SI PDF pages (printed page number is one lower): E05 preparation",
+        "pages": [
+          5
+        ],
+        "sha256": "5c61b422c9c9c11b53bc73563827c14098efe8c328121909abf314c026b070da",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E05.1"
+    ],
+    "substrate_product_smiles": "CC(C)(C)OC(=O)N(C/C=C/CO)CCc1cn(C(=O)OC(C)(C)C)c2ccccc12.O=C(O)CCC1OCCO1>>CC(C)(C)OC(=O)N(C/C=C/COC(=O)CCC1OCCO1)CCc1cn(C(=O)OC(C)(C)C)c2ccccc12"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E06",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "15"
+    ],
+    "reactant_labels": [
+      "8a",
+      "13"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "8a",
+        "percent": 57,
+        "product_label": "15",
+        "scope": "reported separately isolated product"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source covalent endpoints; racemic relative drawings are not absolute assignments; not atom-balanced",
+    "source_references": [
+      {
+        "locator": "SI PDF pages (printed page number is one lower): E06 preparation",
+        "pages": [
+          6
+        ],
+        "sha256": "5c61b422c9c9c11b53bc73563827c14098efe8c328121909abf314c026b070da",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E06.1"
+    ],
+    "substrate_product_smiles": "COC(=O)/C=C/CBr.NCCc1c[nH]c2ccccc12>>COC(=O)/C=C/CNCCc1c[nH]c2ccccc12"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E07",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "14"
+    ],
+    "reactant_labels": [
+      "15",
+      "Boc2O"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "15",
+        "percent": 77,
+        "product_label": "14",
+        "scope": "reported separately isolated product"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source covalent endpoints; racemic relative drawings are not absolute assignments; not atom-balanced",
+    "source_references": [
+      {
+        "locator": "SI PDF pages (printed page number is one lower): E07 preparation",
+        "pages": [
+          6,
+          7
+        ],
+        "sha256": "5c61b422c9c9c11b53bc73563827c14098efe8c328121909abf314c026b070da",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E07.1"
+    ],
+    "substrate_product_smiles": "CC(C)(C)OC(=O)OC(=O)OC(C)(C)C.COC(=O)/C=C/CNCCc1c[nH]c2ccccc12>>COC(=O)/C=C/CN(CCc1cn(C(=O)OC(C)(C)C)c2ccccc12)C(=O)OC(C)(C)C"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E08",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "6"
+    ],
+    "reactant_labels": [
+      "14"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "14",
+        "percent": 86,
+        "product_label": "6",
+        "scope": "reported separately isolated product"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source covalent endpoints; racemic relative drawings are not absolute assignments; not atom-balanced",
+    "source_references": [
+      {
+        "locator": "SI PDF pages (printed page number is one lower): E08 preparation",
+        "pages": [
+          7
+        ],
+        "sha256": "5c61b422c9c9c11b53bc73563827c14098efe8c328121909abf314c026b070da",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E08.1"
+    ],
+    "substrate_product_smiles": "COC(=O)/C=C/CN(CCc1cn(C(=O)OC(C)(C)C)c2ccccc12)C(=O)OC(C)(C)C>>CC(C)(C)OC(=O)N(C/C=C/CO)CCc1cn(C(=O)OC(C)(C)C)c2ccccc12"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E09",
+    "formal_benchmark_eligible": false,
+    "individual_yields_not_calculated": true,
+    "product_labels": [
+      "16a",
+      "16b"
+    ],
+    "reactant_labels": [
+      "4"
+    ],
+    "reported_combined_yield_percent": 80,
+    "reported_isolated_masses_g": {
+      "16a": 1.02,
+      "16b": 0.55
+    },
+    "reported_product_ratio": "16a:16b = 65:35",
+    "reported_yields": [],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source covalent endpoints; racemic relative drawings are not absolute assignments; not atom-balanced",
+    "source_references": [
+      {
+        "locator": "SI PDF pages (printed page number is one lower): E09 preparation",
+        "pages": [
+          7,
+          8,
+          9
+        ],
+        "sha256": "5c61b422c9c9c11b53bc73563827c14098efe8c328121909abf314c026b070da",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E09.1"
+    ],
+    "substrate_product_smiles": "CC(C)(C)OC(=O)N(C/C=C/COC(=O)CCC1OCCO1)CCc1cn(C(=O)OC(C)(C)C)c2ccccc12>>C=C[C@@H](CN(CCc1cn(C(=O)OC(C)(C)C)c2ccccc12)C(=O)OC(C)(C)C)[C@@H](CC1OCCO1)C(=O)O.C=C[C@@H](CN(CCc1cn(C(=O)OC(C)(C)C)c2ccccc12)C(=O)OC(C)(C)C)[C@H](CC1OCCO1)C(=O)O",
+    "yield_product_labels": [
+      "16a",
+      "16b"
+    ]
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E10",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "3a"
+    ],
+    "reactant_labels": [
+      "16a",
+      "diazomethane"
+    ],
+    "reported_overall_yield_percent": null,
+    "reported_stage_yields": [
+      {
+        "basis": "based on recovered starting material (brsm)",
+        "percent": 55,
+        "stage": "isolated unnamed diazoketone"
+      },
+      {
+        "basis": "isolated methyl ester from unnamed diazoketone",
+        "percent": 88,
+        "stage": "homologation followed by methylation"
+      }
+    ],
+    "reported_yields": [],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source covalent endpoints; racemic relative drawings are not absolute assignments; not atom-balanced",
+    "source_references": [
+      {
+        "locator": "SI PDF pages (printed page number is one lower): E10 preparation",
+        "pages": [
+          9,
+          10
+        ],
+        "sha256": "5c61b422c9c9c11b53bc73563827c14098efe8c328121909abf314c026b070da",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E10.1"
+    ],
+    "substrate_product_smiles": "C=C[C@@H](CN(CCc1cn(C(=O)OC(C)(C)C)c2ccccc12)C(=O)OC(C)(C)C)[C@@H](CC1OCCO1)C(=O)O.C=[N+]=[N-]>>C=C[C@@H](CN(CCc1cn(C(=O)OC(C)(C)C)c2ccccc12)C(=O)OC(C)(C)C)[C@H](CC(=O)OC)CC1OCCO1",
+    "unreported_internal_structure": true,
+    "untranscribed_internal_intermediates": [
+      "mixed anhydride",
+      "isolated unnamed diazoketone",
+      "homologated acid"
+    ],
+    "yield_basis_note": "Neither stage yield is an overall isolated yield from 16a/16b; percentages are not multiplied"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E11",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "17a",
+      "17a-prime"
+    ],
+    "ratio_basis": "source scheme ratio; separately isolated product percentages retained",
+    "reactant_labels": [
+      "3a"
+    ],
+    "reported_combined_yield_percent": 86,
+    "reported_product_ratio": "92:8",
+    "reported_yields": [
+      {
+        "from_label": "3a",
+        "percent": 79,
+        "product_label": "17a",
+        "scope": "reported separately isolated product"
+      },
+      {
+        "from_label": "3a",
+        "percent": 7,
+        "product_label": "17a-prime",
+        "scope": "reported separately isolated product"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source covalent endpoints; racemic relative drawings are not absolute assignments; not atom-balanced",
+    "source_references": [
+      {
+        "locator": "SI PDF pages (printed page number is one lower): E11 preparation",
+        "pages": [
+          10,
+          11
+        ],
+        "sha256": "5c61b422c9c9c11b53bc73563827c14098efe8c328121909abf314c026b070da",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E11.1"
+    ],
+    "substrate_product_smiles": "C=C[C@@H](CN(CCc1cn(C(=O)OC(C)(C)C)c2ccccc12)C(=O)OC(C)(C)C)[C@H](CC(=O)OC)CC1OCCO1>>C=C[C@H]1CN2CCc3c([nH]c4ccccc34)[C@@H]2C[C@H]1CC(=O)OC.C=C[C@H]1CN2CCc3c([nH]c4ccccc34)[C@H]2C[C@H]1CC(=O)OC"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E12",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "IV"
+    ],
+    "reactant_labels": [
+      "17a"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "17a",
+        "percent": 89,
+        "product_label": "IV",
+        "scope": "reported separately isolated product"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source covalent endpoints; racemic relative drawings are not absolute assignments; not atom-balanced",
+    "source_references": [
+      {
+        "locator": "SI PDF pages (printed page number is one lower): E12 preparation",
+        "pages": [
+          11
+        ],
+        "sha256": "5c61b422c9c9c11b53bc73563827c14098efe8c328121909abf314c026b070da",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E12.1"
+    ],
+    "substrate_product_smiles": "C=C[C@H]1CN2CCc3c([nH]c4ccccc34)[C@@H]2C[C@H]1CC(=O)OC>>C=C[C@H]1CN2CCc3c([nH]c4ccccc34)[C@@H]2C[C@H]1CCO"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E13",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "V"
+    ],
+    "reactant_labels": [
+      "IV"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "IV",
+        "percent": 81,
+        "product_label": "V",
+        "scope": "reported separately isolated product"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source covalent endpoints; racemic relative drawings are not absolute assignments; not atom-balanced",
+    "source_references": [
+      {
+        "locator": "SI PDF pages (printed page number is one lower): E13 preparation",
+        "pages": [
+          12
+        ],
+        "sha256": "5c61b422c9c9c11b53bc73563827c14098efe8c328121909abf314c026b070da",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E13.1"
+    ],
+    "substrate_product_smiles": "C=C[C@H]1CN2CCc3c([nH]c4ccccc34)[C@@H]2C[C@H]1CCO>>CC[C@H]1CN2CCc3c([nH]c4ccccc34)[C@@H]2C[C@H]1CCO"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E14",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "3b"
+    ],
+    "reactant_labels": [
+      "16b",
+      "diazomethane"
+    ],
+    "reported_overall_yield_percent": null,
+    "reported_stage_yields": [
+      {
+        "basis": "based on recovered starting material (brsm)",
+        "percent": 70,
+        "stage": "isolated unnamed diazoketone"
+      },
+      {
+        "basis": "isolated methyl ester from unnamed diazoketone",
+        "percent": 91,
+        "stage": "homologation followed by methylation"
+      }
+    ],
+    "reported_yields": [],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source covalent endpoints; racemic relative drawings are not absolute assignments; not atom-balanced",
+    "source_references": [
+      {
+        "locator": "SI PDF pages (printed page number is one lower): E14 preparation",
+        "pages": [
+          12,
+          13
+        ],
+        "sha256": "5c61b422c9c9c11b53bc73563827c14098efe8c328121909abf314c026b070da",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E14.1"
+    ],
+    "substrate_product_smiles": "C=C[C@@H](CN(CCc1cn(C(=O)OC(C)(C)C)c2ccccc12)C(=O)OC(C)(C)C)[C@H](CC1OCCO1)C(=O)O.C=[N+]=[N-]>>C=C[C@@H](CN(CCc1cn(C(=O)OC(C)(C)C)c2ccccc12)C(=O)OC(C)(C)C)[C@@H](CC(=O)OC)CC1OCCO1",
+    "unreported_internal_structure": true,
+    "untranscribed_internal_intermediates": [
+      "mixed anhydride",
+      "isolated unnamed diazoketone",
+      "homologated acid"
+    ],
+    "yield_basis_note": "Neither stage yield is an overall isolated yield from 16a/16b; percentages are not multiplied"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E15",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "17b",
+      "17b-prime"
+    ],
+    "ratio_basis": "source scheme ratio; separately isolated product percentages retained",
+    "reactant_labels": [
+      "3b"
+    ],
+    "reported_combined_yield_percent": 80,
+    "reported_product_ratio": "86:14",
+    "reported_yields": [
+      {
+        "from_label": "3b",
+        "percent": 69,
+        "product_label": "17b",
+        "scope": "reported separately isolated product"
+      },
+      {
+        "from_label": "3b",
+        "percent": 11,
+        "product_label": "17b-prime",
+        "scope": "reported separately isolated product"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source covalent endpoints; racemic relative drawings are not absolute assignments; not atom-balanced",
+    "source_references": [
+      {
+        "locator": "SI PDF pages (printed page number is one lower): E15 preparation",
+        "pages": [
+          14
+        ],
+        "sha256": "5c61b422c9c9c11b53bc73563827c14098efe8c328121909abf314c026b070da",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E15.1"
+    ],
+    "substrate_product_smiles": "C=C[C@@H](CN(CCc1cn(C(=O)OC(C)(C)C)c2ccccc12)C(=O)OC(C)(C)C)[C@@H](CC(=O)OC)CC1OCCO1>>C=C[C@H]1CN2CCc3c([nH]c4ccccc34)[C@@H]2C[C@@H]1CC(=O)OC.C=C[C@H]1CN2CCc3c([nH]c4ccccc34)[C@H]2C[C@@H]1CC(=O)OC"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E16",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "II"
+    ],
+    "reactant_labels": [
+      "17b"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "17b",
+        "percent": 90,
+        "product_label": "II",
+        "scope": "reported separately isolated product"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source covalent endpoints; racemic relative drawings are not absolute assignments; not atom-balanced",
+    "source_references": [
+      {
+        "locator": "SI PDF pages (printed page number is one lower): E16 preparation",
+        "pages": [
+          15
+        ],
+        "sha256": "5c61b422c9c9c11b53bc73563827c14098efe8c328121909abf314c026b070da",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E16.1"
+    ],
+    "substrate_product_smiles": "C=C[C@H]1CN2CCc3c([nH]c4ccccc34)[C@H]2C[C@@H]1CC(=O)OC>>C=C[C@H]1CN2CCc3c([nH]c4ccccc34)[C@H]2C[C@@H]1CCO"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E17",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "I"
+    ],
+    "reactant_labels": [
+      "17b-prime"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "17b-prime",
+        "percent": 87,
+        "product_label": "I",
+        "scope": "reported separately isolated product"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source covalent endpoints; racemic relative drawings are not absolute assignments; not atom-balanced",
+    "source_references": [
+      {
+        "locator": "SI PDF pages (printed page number is one lower): E17 preparation",
+        "pages": [
+          15,
+          16
+        ],
+        "sha256": "5c61b422c9c9c11b53bc73563827c14098efe8c328121909abf314c026b070da",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E17.1"
+    ],
+    "substrate_product_smiles": "C=C[C@H]1CN2CCc3c([nH]c4ccccc34)[C@@H]2C[C@@H]1CC(=O)OC>>C=C[C@H]1CN2CCc3c([nH]c4ccccc34)[C@@H]2C[C@@H]1CCO"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E18",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "III"
+    ],
+    "reactant_labels": [
+      "I"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "I",
+        "percent": 85,
+        "product_label": "III",
+        "scope": "reported separately isolated product"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source covalent endpoints; racemic relative drawings are not absolute assignments; not atom-balanced",
+    "source_references": [
+      {
+        "locator": "SI PDF pages (printed page number is one lower): E18 preparation",
+        "pages": [
+          16
+        ],
+        "sha256": "5c61b422c9c9c11b53bc73563827c14098efe8c328121909abf314c026b070da",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E18.1"
+    ],
+    "substrate_product_smiles": "C=C[C@H]1CN2CCc3c([nH]c4ccccc34)[C@@H]2C[C@@H]1CCO>>CC[C@H]1CN2CCc3c([nH]c4ccccc34)[C@@H]2C[C@@H]1CCO"
+  }
+]

@@ -1,0 +1,746 @@
+{
+  "cohort_id": "initial-partial-19",
+  "total_papers": 19,
+  "stage_counts": {
+    "available_si_scope_extracted_pending_review": 6,
+    "article_drawn_network_extracted_pending_review": 11,
+    "partial_pending_transcription": 2
+  },
+  "source_bound_datasets": 19,
+  "article_drawn_networks_extracted": 11,
+  "papers_without_article_drawn_network_extraction": 8,
+  "independently_verified_complete": 0,
+  "completion_definition": "Article coverage is limited to source-drawn successful routes. SI-only scope, missing upstream chemistry, and pending expert review are tracked separately.",
+  "papers": [
+    {
+      "paper_id": "paper-13a38f0d3231b5ac",
+      "title": "Enantiospecific Acid‐Catalysed Hydroperoxidation of Scalemic Tertiary Benzylic Alcohols Facilitating a Concise Asymmetric Synthesis of Yingzhaosu C",
+      "doi": "10.1002/ejoc.70581",
+      "extraction_status": "extracted_candidate_pending_review",
+      "initial_extraction_status": "partial_provisional_candidates",
+      "progress_stage": "available_si_scope_extracted_pending_review",
+      "source_bound_dataset_imported": true,
+      "article_drawn_network_extracted": false,
+      "available_si_scope_extracted": true,
+      "from_commercial_starting_materials_complete": false,
+      "independently_verified_complete": false,
+      "counts": {
+        "paper_compounds": 16,
+        "reaction_events": 7,
+        "operation_steps": 7,
+        "routes": 5
+      },
+      "sources": [
+        {
+          "source_id": "archive-001",
+          "effective_role": "supporting_information",
+          "path": "papers/paper-13a38f0d3231b5ac/supporting_information/si-001.pdf",
+          "sha256": "b0b6621f8c247a6b3c96bfa893da2f6ead658d9ffc6ca2d2d17547b36bcc0f08",
+          "page_count": 71,
+          "exists": true
+        }
+      ],
+      "remaining_scope_or_note": "Target-specific SI preparations on pages 15–16, 26–27 and 39–44, including racemic controls and S-gossonorol alternative; excludes auxiliary synthesis and general method scope"
+    },
+    {
+      "paper_id": "paper-17346d5cc784e311",
+      "title": "Concise total synthesis of coerulescine by Cu(I)-catalyzed tandem reaction.",
+      "doi": "10.1080/10286020.2026.2695175",
+      "extraction_status": "extracted_candidate_pending_review",
+      "initial_extraction_status": "partial_native_reaction_endpoints",
+      "progress_stage": "available_si_scope_extracted_pending_review",
+      "source_bound_dataset_imported": true,
+      "article_drawn_network_extracted": false,
+      "available_si_scope_extracted": true,
+      "from_commercial_starting_materials_complete": false,
+      "independently_verified_complete": false,
+      "counts": {
+        "paper_compounds": 7,
+        "reaction_events": 6,
+        "operation_steps": 6,
+        "routes": 1
+      },
+      "sources": [
+        {
+          "source_id": "archive-001",
+          "effective_role": "supporting_information",
+          "path": "papers/paper-17346d5cc784e311/supporting_information/si-001.doc",
+          "sha256": "33462ea58955b1b1ea7cfdc70b04ef5bbdc568e52a3d736b4b7caa875cbf270d",
+          "page_count": null,
+          "exists": true
+        }
+      ],
+      "remaining_scope_or_note": "All six arrows of available SI Scheme 2 only; preparation of 10 absent"
+    },
+    {
+      "paper_id": "paper-30f79134d51e3020",
+      "title": "Total Synthesis of Corynanthe Alkaloids: Corynantheol, Isocorynantheol, and Dihydrocorynantheol",
+      "doi": "10.1002/ejoc.202501241",
+      "extraction_status": "extracted_candidate_pending_review",
+      "initial_extraction_status": "partial_provisional_candidates",
+      "progress_stage": "available_si_scope_extracted_pending_review",
+      "source_bound_dataset_imported": true,
+      "article_drawn_network_extracted": false,
+      "available_si_scope_extracted": true,
+      "from_commercial_starting_materials_complete": false,
+      "independently_verified_complete": false,
+      "counts": {
+        "paper_compounds": 27,
+        "reaction_events": 18,
+        "operation_steps": 18,
+        "routes": 10
+      },
+      "sources": [
+        {
+          "source_id": "archive-001",
+          "effective_role": "supporting_information",
+          "path": "papers/paper-30f79134d51e3020/supporting_information/si-001.pdf",
+          "sha256": "5c61b422c9c9c11b53bc73563827c14098efe8c328121909abf314c026b070da",
+          "page_count": 55,
+          "exists": true
+        }
+      ],
+      "remaining_scope_or_note": "Available SI source-drawn preparation network for five racemic targets and both routes to 6; unnamed homologation intermediates and upstream 9/5 preparation remain unresolved; main article absent"
+    },
+    {
+      "paper_id": "paper-327998a67c12eca6",
+      "title": "Bioinspired Concise Synthesis of Caged 1,6-Epoxyfuro[3,4- c ]pyrans via a Brønsted Acid-Catalyzed Cascade Reaction",
+      "doi": "10.1021/acscatal.6c03096",
+      "extraction_status": "extracted_candidate_pending_review",
+      "initial_extraction_status": "partial_native_reaction_endpoints",
+      "progress_stage": "article_drawn_network_extracted_pending_review",
+      "source_bound_dataset_imported": true,
+      "article_drawn_network_extracted": true,
+      "available_si_scope_extracted": true,
+      "from_commercial_starting_materials_complete": true,
+      "independently_verified_complete": false,
+      "counts": {
+        "paper_compounds": 5,
+        "reaction_events": 3,
+        "operation_steps": 3,
+        "routes": 3
+      },
+      "sources": [
+        {
+          "source_id": "archive-001",
+          "effective_role": "main_article",
+          "path": "papers/paper-327998a67c12eca6/article/main.pdf",
+          "sha256": "294d0614fc54db29d93956b73985ce8a2e9d3fa0f86c68902f1a1b67ab55369b",
+          "page_count": 8,
+          "exists": true
+        },
+        {
+          "source_id": "archive-002",
+          "effective_role": "supporting_information",
+          "path": "papers/paper-327998a67c12eca6/supporting_information/si-001.zip",
+          "sha256": "a5e6c00d8f09caf1e760dd49b95b2c41708a1f4a7ef5421d5240e2abd4ca32eb",
+          "page_count": null,
+          "exists": true
+        },
+        {
+          "source_id": "archive-003",
+          "effective_role": "main_article",
+          "path": "papers/paper-327998a67c12eca6/supporting_information/si-002.pdf",
+          "sha256": "e461e12a213c8b14fc735acd80fc9389311619c79e965c4e2d8fde12584afb89",
+          "page_count": 8,
+          "exists": true
+        }
+      ],
+      "remaining_scope_or_note": "Complete source-drawn successful target network for catunaregin/epicatunaregin, including 6a preparation and separate standard/gram-scale experiments. Relative stereo and an 8c source stereobond conflict remain pending review."
+    },
+    {
+      "paper_id": "paper-80b3004a95a413da",
+      "title": "Divergent Asymmetric Total Synthesis of (+)-Panduratin I, (+)-Nicolaioidesin B, (+)-Isopanduratin A1, and (+)-2-Hydroxyisopanduratin A via Enantioselective Radical Cation (4 + 2) Cycloaddition.",
+      "doi": "10.1021/acs.orglett.6c02169",
+      "extraction_status": "extracted_candidate_pending_review",
+      "initial_extraction_status": "partial_provisional_candidates",
+      "progress_stage": "article_drawn_network_extracted_pending_review",
+      "source_bound_dataset_imported": true,
+      "article_drawn_network_extracted": true,
+      "available_si_scope_extracted": true,
+      "from_commercial_starting_materials_complete": false,
+      "independently_verified_complete": false,
+      "counts": {
+        "paper_compounds": 44,
+        "reaction_events": 20,
+        "operation_steps": 33,
+        "routes": 5
+      },
+      "sources": [
+        {
+          "source_id": "archive-001",
+          "effective_role": "main_article",
+          "path": "papers/paper-80b3004a95a413da/article/main.pdf",
+          "sha256": "8cd7533cc2e4d5c6f8ece41e327613fa3e968783ef94f631034da56fdaa23f45",
+          "page_count": 4,
+          "exists": true
+        },
+        {
+          "source_id": "archive-002",
+          "effective_role": "main_article",
+          "path": "papers/paper-80b3004a95a413da/supporting_information/si-001.pdf",
+          "sha256": "8e290a4c030f064a1bf5b2a8dcfe8dec8bb5c993caf2a1a94790936502b1bd22",
+          "page_count": 4,
+          "exists": true
+        },
+        {
+          "source_id": "archive-003",
+          "effective_role": "supporting_information",
+          "path": "papers/paper-80b3004a95a413da/supporting_information/si-002.pdf",
+          "sha256": "a6ffe5e992e896da765adbe931c05789fef9282a9c836565dcde757a6c1edf24",
+          "page_count": 93,
+          "exists": true
+        }
+      ],
+      "remaining_scope_or_note": "Four target-specific successful routes in main Schemes 2/3 and SI section 3, including aryl partner preparations and separately tracked racemic oxidation control; literature preparation of 9/10/S7 and model optimization excluded"
+    },
+    {
+      "paper_id": "paper-85ead15cb461d3b7",
+      "title": "First total synthesis of Ternatusine A from D-allal.",
+      "doi": "10.1080/14786419.2026.2640603",
+      "extraction_status": "extracted_candidate_pending_review",
+      "initial_extraction_status": "partial_provisional_candidates",
+      "progress_stage": "partial_pending_transcription",
+      "source_bound_dataset_imported": true,
+      "article_drawn_network_extracted": false,
+      "available_si_scope_extracted": false,
+      "from_commercial_starting_materials_complete": false,
+      "independently_verified_complete": false,
+      "counts": {
+        "paper_compounds": 8,
+        "reaction_events": 4,
+        "operation_steps": 4,
+        "routes": 3
+      },
+      "sources": [
+        {
+          "source_id": "archive-001",
+          "effective_role": "supporting_information",
+          "path": "papers/paper-85ead15cb461d3b7/supporting_information/si-001.pdf",
+          "sha256": "77cd6a4a846450d2d9e88ad6a99358c57860e9e37d78934f9439260ce1ac6260",
+          "page_count": 15,
+          "exists": true
+        }
+      ],
+      "remaining_scope_or_note": "已核对并提取 2→4、4a→4b、6→7→8 三段路线；保护步骤、环氧化物及后段结构/转化冲突未解决，尚未形成通向终产物的完整路线。"
+    },
+    {
+      "paper_id": "paper-92c5e420009953b7",
+      "title": "Bioinspired Collective Synthesis of Gymnothelignans I, F, K, and L.",
+      "doi": "10.1021/acs.joc.5c03261",
+      "extraction_status": "extracted_candidate_pending_review",
+      "initial_extraction_status": "partial_provisional_candidates",
+      "progress_stage": "article_drawn_network_extracted_pending_review",
+      "source_bound_dataset_imported": true,
+      "article_drawn_network_extracted": true,
+      "available_si_scope_extracted": true,
+      "from_commercial_starting_materials_complete": false,
+      "independently_verified_complete": false,
+      "counts": {
+        "paper_compounds": 48,
+        "reaction_events": 18,
+        "operation_steps": 37,
+        "routes": 15
+      },
+      "sources": [
+        {
+          "source_id": "archive-001",
+          "effective_role": "main_article",
+          "path": "papers/paper-92c5e420009953b7/article/main.pdf",
+          "sha256": "5c3cac57b641d17284fb2fbb3f63fa4221ebcad14c33beb9d14cb216729d61ff",
+          "page_count": 10,
+          "exists": true
+        },
+        {
+          "source_id": "archive-002",
+          "effective_role": "supporting_information",
+          "path": "papers/paper-92c5e420009953b7/supporting_information/si-001.pdf",
+          "sha256": "fbcf6dd6bf3392eafd4c21f60d6205f35b536b6b7dbfd84b3deff65c3e4ec249",
+          "page_count": 89,
+          "exists": true
+        }
+      ],
+      "remaining_scope_or_note": "Main successful target routes and SI precursor/epimer/model preparations; named known precursors bound the upstream scope. Unassigned minor mixture components and optimization-only NMR conversions are retained separately."
+    },
+    {
+      "paper_id": "paper-9737a45310e98867",
+      "title": "Total Synthesis of Annonaceae Acetogenins Calamistrin A and Uvarigrin.",
+      "doi": "10.1021/acs.orglett.6c01172",
+      "extraction_status": "extracted_candidate_pending_review",
+      "initial_extraction_status": "partial_provisional_candidates",
+      "progress_stage": "article_drawn_network_extracted_pending_review",
+      "source_bound_dataset_imported": true,
+      "article_drawn_network_extracted": true,
+      "available_si_scope_extracted": true,
+      "from_commercial_starting_materials_complete": false,
+      "independently_verified_complete": false,
+      "counts": {
+        "paper_compounds": 33,
+        "reaction_events": 16,
+        "operation_steps": 24,
+        "routes": 2
+      },
+      "sources": [
+        {
+          "source_id": "archive-001",
+          "effective_role": "main_article",
+          "path": "papers/paper-9737a45310e98867/article/main.pdf",
+          "sha256": "c8a5e7f64fe44542f42f9963aa3666719f184b7539be331ef016405b6aa0275f",
+          "page_count": 4,
+          "exists": true
+        },
+        {
+          "source_id": "archive-002",
+          "effective_role": "main_article",
+          "path": "papers/paper-9737a45310e98867/supporting_information/si-001.pdf",
+          "sha256": "5c73b23bb6ff23b2d83c6195c3c0a7fc8de025f7afebd8e4be65ab853ab61ee0",
+          "page_count": 4,
+          "exists": true
+        },
+        {
+          "source_id": "archive-003",
+          "effective_role": "supporting_information",
+          "path": "papers/paper-9737a45310e98867/supporting_information/si-002.pdf",
+          "sha256": "b4730f4365e3d00b455f94952ec709f47c2d54e2d4be639841d951fe5b81da1c",
+          "page_count": 51,
+          "exists": true
+        }
+      ],
+      "remaining_scope_or_note": "Main Schemes 2-4 successful routes from known 9 and 6 to Uvarigrin and Calamistrin A. Explicit procedure stages include seven transparently inferred uncharacterized intermediate graphs; source conflicts remain pending review."
+    },
+    {
+      "paper_id": "paper-9c5caeefea123377",
+      "title": "Total Synthesis of Benthol A: The Nominal and the Actual Natural Product.",
+      "doi": "10.1021/jacs.6c05583",
+      "extraction_status": "extracted_candidate_pending_review",
+      "initial_extraction_status": "partial_provisional_candidates",
+      "progress_stage": "article_drawn_network_extracted_pending_review",
+      "source_bound_dataset_imported": true,
+      "article_drawn_network_extracted": true,
+      "available_si_scope_extracted": false,
+      "from_commercial_starting_materials_complete": false,
+      "independently_verified_complete": false,
+      "counts": {
+        "paper_compounds": 67,
+        "reaction_events": 48,
+        "operation_steps": 56,
+        "routes": 6
+      },
+      "sources": [
+        {
+          "source_id": "archive-001",
+          "effective_role": "main_article",
+          "path": "papers/paper-9c5caeefea123377/article/main.pdf",
+          "sha256": "76b1e686c5f8feecfde42c5cf53a849deb1ae5179bf23e8277698b44fbaaf890",
+          "page_count": 13,
+          "exists": true
+        },
+        {
+          "source_id": "archive-002",
+          "effective_role": "supporting_information",
+          "path": "papers/paper-9c5caeefea123377/supporting_information/si-001.pdf",
+          "sha256": "0bc0ede57ecaa8504b3a1866986b9e8f137bb5b21948a659f61c1f22f366897f",
+          "page_count": 215,
+          "exists": true
+        },
+        {
+          "source_id": "archive-003",
+          "effective_role": "main_article",
+          "path": "papers/paper-9c5caeefea123377/supporting_information/si-002.pdf",
+          "sha256": "18420838ed4a58b4aa571346af54e3d64923ca9ae99b4d1624fb72028ad9af47",
+          "page_count": 13,
+          "exists": true
+        }
+      ],
+      "remaining_scope_or_note": "Main successful nominal/revised Benthol A target network and C-fragment preparations, including recycle 8 to 7 and analytical polyol 32. Known epoxide and A/B precursors bound companion-paper coverage; unassigned crude mixtures and separate model/analytical studies remain outside scope."
+    },
+    {
+      "paper_id": "paper-b38d789b97e61341",
+      "title": "Total Synthesis of rac ‐Keramamine C Enabled by Intrinsic H‐Bond‐Induced Conformational Fixation of Amides",
+      "doi": "10.1002/ejoc.202501128",
+      "extraction_status": "extracted_candidate_pending_review",
+      "initial_extraction_status": "partial_provisional_candidates",
+      "progress_stage": "available_si_scope_extracted_pending_review",
+      "source_bound_dataset_imported": true,
+      "article_drawn_network_extracted": false,
+      "available_si_scope_extracted": true,
+      "from_commercial_starting_materials_complete": true,
+      "independently_verified_complete": false,
+      "counts": {
+        "paper_compounds": 13,
+        "reaction_events": 8,
+        "operation_steps": 8,
+        "routes": 3
+      },
+      "sources": [
+        {
+          "source_id": "archive-001",
+          "effective_role": "supporting_information",
+          "path": "papers/paper-b38d789b97e61341/supporting_information/si-001.pdf",
+          "sha256": "beceb6f9ef1af282d403411d5c9d938ce664ade222d4d8235e5873870ba93942",
+          "page_count": 24,
+          "exists": true
+        }
+      ],
+      "remaining_scope_or_note": "SI section 2 target route plus isolated control preparations, excluding analytical Boc derivatives on page 7"
+    },
+    {
+      "paper_id": "paper-bcb45e24169aebc0",
+      "title": "Total Synthesis of Indigotinoline A and Enabled Stereochemical Revision of Isatindigotindoline B.",
+      "doi": "10.1021/acs.orglett.6c01066",
+      "extraction_status": "extracted_candidate_pending_review",
+      "initial_extraction_status": "partial_provisional_candidates",
+      "progress_stage": "article_drawn_network_extracted_pending_review",
+      "source_bound_dataset_imported": true,
+      "article_drawn_network_extracted": true,
+      "available_si_scope_extracted": true,
+      "from_commercial_starting_materials_complete": false,
+      "independently_verified_complete": false,
+      "counts": {
+        "paper_compounds": 26,
+        "reaction_events": 14,
+        "operation_steps": 23,
+        "routes": 7
+      },
+      "sources": [
+        {
+          "source_id": "archive-001",
+          "effective_role": "main_article",
+          "path": "papers/paper-bcb45e24169aebc0/article/main.pdf",
+          "sha256": "1a294ac56334e46d734ed97bc25135bcc43de3eeb536a9d2668226f76b1b1d3d",
+          "page_count": 6,
+          "exists": true
+        },
+        {
+          "source_id": "archive-002",
+          "effective_role": "supporting_information",
+          "path": "papers/paper-bcb45e24169aebc0/supporting_information/si-001.pdf",
+          "sha256": "245408e78c3307c52b62044c473e7f6e8274a17624267459ad85ba33616d32f0",
+          "page_count": 41,
+          "exists": true
+        },
+        {
+          "source_id": "archive-003",
+          "effective_role": "main_article",
+          "path": "papers/paper-bcb45e24169aebc0/supporting_information/si-002.pdf",
+          "sha256": "f926dbec6abf8674f75d2ad22600af09be03a5b32ac9c39a3408ebeec2096875",
+          "page_count": 6,
+          "exists": true
+        }
+      ],
+      "remaining_scope_or_note": "Main Schemes 2A/3A successful routes and SI precursor/control preparations; includes bracketed unisolated stage graphs, excludes proposed mechanism and unsynthesized revised natural-product structure"
+    },
+    {
+      "paper_id": "paper-be6c8cb9a5ec1a41",
+      "title": "Total Synthesis and Biofilm Inhibitory Studies of Knightine Cembranoid Diterpenes",
+      "doi": "10.1021/acs.joc.6c01571",
+      "extraction_status": "extracted_candidate_pending_review",
+      "initial_extraction_status": "partial_provisional_candidates",
+      "progress_stage": "article_drawn_network_extracted_pending_review",
+      "source_bound_dataset_imported": true,
+      "article_drawn_network_extracted": true,
+      "available_si_scope_extracted": true,
+      "from_commercial_starting_materials_complete": false,
+      "independently_verified_complete": false,
+      "counts": {
+        "paper_compounds": 51,
+        "reaction_events": 27,
+        "operation_steps": 29,
+        "routes": 14
+      },
+      "sources": [
+        {
+          "source_id": "archive-001",
+          "effective_role": "main_article",
+          "path": "papers/paper-be6c8cb9a5ec1a41/article/main.pdf",
+          "sha256": "7d626fb59b8d0bdcf07319db86f90a0b41020c94cf9e051e2536e77a4fd42c45",
+          "page_count": 6,
+          "exists": true
+        },
+        {
+          "source_id": "archive-002",
+          "effective_role": "main_article",
+          "path": "papers/paper-be6c8cb9a5ec1a41/supporting_information/si-001.pdf",
+          "sha256": "4d3f8eee75d06786b1249131f480dfae8e1dc15b4aaa2e4352e488d2db544b21",
+          "page_count": 6,
+          "exists": true
+        },
+        {
+          "source_id": "archive-003",
+          "effective_role": "supporting_information",
+          "path": "papers/paper-be6c8cb9a5ec1a41/supporting_information/si-002.pdf",
+          "sha256": "bd1eafec43b6cbf90236c716dc4d16d88fc63700c48541ccfad55f5b852577c5",
+          "page_count": 92,
+          "exists": true
+        }
+      ],
+      "remaining_scope_or_note": "Main successful preparations of knightol, knightol acetate and knightal, three approaches to 10, diagnostic epoxide assignment and characterized side branches. Transient bromohydrin/diol graphs and unresolved mixture components remain explicit boundaries; not an assertion of individually characterized complete intermediates."
+    },
+    {
+      "paper_id": "paper-bf1e3268993973fa",
+      "title": "Synthesis and Structure Revision of Urupocidins A and B",
+      "doi": "10.1021/acs.joc.6c00752",
+      "extraction_status": "extracted_candidate_pending_review",
+      "initial_extraction_status": "partial_provisional_candidates",
+      "progress_stage": "article_drawn_network_extracted_pending_review",
+      "source_bound_dataset_imported": true,
+      "article_drawn_network_extracted": true,
+      "available_si_scope_extracted": true,
+      "from_commercial_starting_materials_complete": false,
+      "independently_verified_complete": false,
+      "counts": {
+        "paper_compounds": 62,
+        "reaction_events": 41,
+        "operation_steps": 45,
+        "routes": 6
+      },
+      "sources": [
+        {
+          "source_id": "archive-001",
+          "effective_role": "main_article",
+          "path": "papers/paper-bf1e3268993973fa/article/main.pdf",
+          "sha256": "a7c02c5e12f257394d5b20c59de788b63b7748962066020ef251505c7e36bbce",
+          "page_count": 12,
+          "exists": true
+        },
+        {
+          "source_id": "archive-002",
+          "effective_role": "supporting_information",
+          "path": "papers/paper-bf1e3268993973fa/supporting_information/si-001.pdf",
+          "sha256": "272c537417304be4d8b55f4356e5eb73a4f1b89cd6cd840cd182953e215dbb28",
+          "page_count": 58,
+          "exists": true
+        },
+        {
+          "source_id": "archive-003",
+          "effective_role": "main_article",
+          "path": "papers/paper-bf1e3268993973fa/supporting_information/si-002.pdf",
+          "sha256": "e3074667377dfccf794471bbfe01bcd1587704deade1307c8cb410622d961de0",
+          "page_count": 12,
+          "exists": true
+        }
+      ],
+      "remaining_scope_or_note": "Main successful revised urupocidin A/B routes and SI isolated precursor, syn-diol and configuration-assignment branches. Known alcohol 4 and cited upstream syntheses bound coverage; cascade mechanisms excluded and three unisolated preparative graphs explicitly inferred."
+    },
+    {
+      "paper_id": "paper-bf43bfa09423bcac",
+      "title": "Total Synthesis of JBIR-141 and Its Analogues: Potent Inhibitors of Forkhead Box O3 (FOXO3).",
+      "doi": "10.1021/acs.orglett.6c02149",
+      "extraction_status": "extracted_candidate_pending_review",
+      "initial_extraction_status": "partial_provisional_candidates",
+      "progress_stage": "article_drawn_network_extracted_pending_review",
+      "source_bound_dataset_imported": true,
+      "article_drawn_network_extracted": true,
+      "available_si_scope_extracted": true,
+      "from_commercial_starting_materials_complete": false,
+      "independently_verified_complete": false,
+      "counts": {
+        "paper_compounds": 70,
+        "reaction_events": 26,
+        "operation_steps": 57,
+        "routes": 5
+      },
+      "sources": [
+        {
+          "source_id": "archive-001",
+          "effective_role": "main_article",
+          "path": "papers/paper-bf43bfa09423bcac/article/main.pdf",
+          "sha256": "630c320d6ed45f30d71066fddb7a928a48b81df7d5d306777424d78597429510",
+          "page_count": 5,
+          "exists": true
+        },
+        {
+          "source_id": "archive-002",
+          "effective_role": "supporting_information",
+          "path": "papers/paper-bf43bfa09423bcac/supporting_information/si-001.pdf",
+          "sha256": "4700ac053c9b5a9dc34b2a1ba3b45073dc5218dd613a552c01847dd245b48e30",
+          "page_count": 54,
+          "exists": true
+        },
+        {
+          "source_id": "archive-003",
+          "effective_role": "main_article",
+          "path": "papers/paper-bf43bfa09423bcac/supporting_information/si-002.pdf",
+          "sha256": "7adeca086d7386ca67720b744acaceb5ed9d5c1a0896fd37416df40eda49eb93",
+          "page_count": 5,
+          "exists": true
+        }
+      ],
+      "remaining_scope_or_note": "Main successful syntheses of JBIR-141 and four analogues, including three fragment preparations in available SI. Known S1/S3/S11 bound upstream coverage; unisolated internal graphs explicitly inferred and analytical degradation products left unassigned."
+    },
+    {
+      "paper_id": "paper-c4c0d668b9a2b9f7",
+      "title": "Total Synthesis of Coniferin B, Butylconiferin, and Coniferin Via a Reductive Acetal Ring‐Opening Reaction",
+      "doi": "10.1002/slct.202506979",
+      "extraction_status": "extracted_candidate_pending_review",
+      "initial_extraction_status": "partial_provisional_candidates",
+      "progress_stage": "partial_pending_transcription",
+      "source_bound_dataset_imported": true,
+      "article_drawn_network_extracted": false,
+      "available_si_scope_extracted": false,
+      "from_commercial_starting_materials_complete": false,
+      "independently_verified_complete": false,
+      "counts": {
+        "paper_compounds": 23,
+        "reaction_events": 12,
+        "operation_steps": 12,
+        "routes": 6
+      },
+      "sources": [
+        {
+          "source_id": "archive-001",
+          "effective_role": "supporting_information",
+          "path": "papers/paper-c4c0d668b9a2b9f7/supporting_information/si-001.pdf",
+          "sha256": "8ee96cb227c536e043dca0d5ada32ff08c5429ba887e8863487b3fa401977a3e",
+          "page_count": 52,
+          "exists": true
+        }
+      ],
+      "remaining_scope_or_note": "已提取现有 SI 中可确定结构的路线片段与三种终产物；三处涉及未明确糖供体的反应单列为未解决事件，目标路线仍有断点。"
+    },
+    {
+      "paper_id": "paper-d4852cb652b4d31f",
+      "title": "Total Synthesis of Sacrolide A and Cytotoxic Evaluation",
+      "doi": "10.1002/ejoc.70617",
+      "extraction_status": "extracted_candidate_pending_review",
+      "initial_extraction_status": "partial_provisional_candidates",
+      "progress_stage": "available_si_scope_extracted_pending_review",
+      "source_bound_dataset_imported": true,
+      "article_drawn_network_extracted": false,
+      "available_si_scope_extracted": true,
+      "from_commercial_starting_materials_complete": false,
+      "independently_verified_complete": false,
+      "counts": {
+        "paper_compounds": 34,
+        "reaction_events": 22,
+        "operation_steps": 23,
+        "routes": 4
+      },
+      "sources": [
+        {
+          "source_id": "archive-001",
+          "effective_role": "supporting_information",
+          "path": "papers/paper-d4852cb652b4d31f/supporting_information/si-001.pdf",
+          "sha256": "505f8bc5bbfae0fdf21f419115bf355469f937b4d72469639ecc5dbd7b9a39b5",
+          "page_count": 71,
+          "exists": true
+        }
+      ],
+      "remaining_scope_or_note": "Available SI pages 3-24: Sacrolide A synthesis, named crude diol, alternative coupling 15/16, and explicitly identified minor C9 epimers; main article unavailable"
+    },
+    {
+      "paper_id": "paper-f0b88258787c03ae",
+      "title": "Enantioselective Total Synthesis of Rhodocoranes C, D, and E by Chiral Lithium Amide Alkylation and Gold-Catalyzed Spirocyclization.",
+      "doi": "10.1021/acs.orglett.6c02945",
+      "extraction_status": "extracted_candidate_pending_review",
+      "initial_extraction_status": "partial_provisional_candidates",
+      "progress_stage": "article_drawn_network_extracted_pending_review",
+      "source_bound_dataset_imported": true,
+      "article_drawn_network_extracted": true,
+      "available_si_scope_extracted": true,
+      "from_commercial_starting_materials_complete": false,
+      "independently_verified_complete": false,
+      "counts": {
+        "paper_compounds": 18,
+        "reaction_events": 12,
+        "operation_steps": 13,
+        "routes": 3
+      },
+      "sources": [
+        {
+          "source_id": "archive-001",
+          "effective_role": "main_article",
+          "path": "papers/paper-f0b88258787c03ae/article/main.pdf",
+          "sha256": "959e74aeee65afe8f90ac2d792cbb15e153bd20af11b24c98cde8a50b91bc99a",
+          "page_count": 5,
+          "exists": true
+        },
+        {
+          "source_id": "archive-002",
+          "effective_role": "supporting_information",
+          "path": "papers/paper-f0b88258787c03ae/supporting_information/si-001.pdf",
+          "sha256": "ab491ea30279400361fc267a12929a09cbe51780ee624e256acfdabe27670181",
+          "page_count": 33,
+          "exists": true
+        },
+        {
+          "source_id": "archive-003",
+          "effective_role": "main_article",
+          "path": "papers/paper-f0b88258787c03ae/supporting_information/si-002.pdf",
+          "sha256": "cbb1dcebf832258625d6f1efe1e0b7b45ed307ba4282314490dea1f8a9f4563a",
+          "page_count": 5,
+          "exists": true
+        }
+      ],
+      "remaining_scope_or_note": "Successful isolated target-route network in article Schemes 2, 3 and 5 and SI pages 3–10; excludes optimization rows, failed proposals and literature preparation of 11"
+    },
+    {
+      "paper_id": "paper-f108ae1dc658cd85",
+      "title": "Total Synthesis of the Naturally Occurring Amaryllidaceae Alkaloid (+)‐Zephycitrine",
+      "doi": "10.1002/ejoc.202501205",
+      "extraction_status": "extracted_candidate_pending_review",
+      "initial_extraction_status": "partial_provisional_candidates",
+      "progress_stage": "available_si_scope_extracted_pending_review",
+      "source_bound_dataset_imported": true,
+      "article_drawn_network_extracted": false,
+      "available_si_scope_extracted": true,
+      "from_commercial_starting_materials_complete": false,
+      "independently_verified_complete": false,
+      "counts": {
+        "paper_compounds": 20,
+        "reaction_events": 13,
+        "operation_steps": 14,
+        "routes": 3
+      },
+      "sources": [
+        {
+          "source_id": "archive-001",
+          "effective_role": "supporting_information",
+          "path": "papers/paper-f108ae1dc658cd85/supporting_information/si-001.pdf",
+          "sha256": "e2dce0766b0fc3362a6373f76c4e8a39f998e91cad1f17fdc13161f79e1a8ab7",
+          "page_count": 70,
+          "exists": true
+        }
+      ],
+      "remaining_scope_or_note": "Available SI target sequence from known iodocyclohexenone, plus racemic reduction control and dimethyl ether side branch. Crude detosylated intermediate explicitly inferred; main article missing."
+    },
+    {
+      "paper_id": "paper-f30e351117a5b6cc",
+      "title": "Enantioselective Total Synthesis of (+)-Bisabosqual A and Studies on Late-Stage C(sp3)–H Functionalization Approaches to Bisabosquals",
+      "doi": "10.1021/acs.joc.6c01205",
+      "extraction_status": "extracted_candidate_pending_review",
+      "initial_extraction_status": "partial_provisional_candidates",
+      "progress_stage": "article_drawn_network_extracted_pending_review",
+      "source_bound_dataset_imported": true,
+      "article_drawn_network_extracted": true,
+      "available_si_scope_extracted": false,
+      "from_commercial_starting_materials_complete": false,
+      "independently_verified_complete": false,
+      "counts": {
+        "paper_compounds": 49,
+        "reaction_events": 28,
+        "operation_steps": 33,
+        "routes": 4
+      },
+      "sources": [
+        {
+          "source_id": "archive-001",
+          "effective_role": "main_article",
+          "path": "papers/paper-f30e351117a5b6cc/article/main.pdf",
+          "sha256": "8473912c3d1c0d0dcdcfe8bf3888ee09b33d314c9bbc81468b0d1a7d686728f0",
+          "page_count": 10,
+          "exists": true
+        },
+        {
+          "source_id": "archive-002",
+          "effective_role": "supporting_information",
+          "path": "papers/paper-f30e351117a5b6cc/supporting_information/si-001.pdf",
+          "sha256": "77ca64d52640da8402d0acdf5b1cb49dbf47440fdf01240b5a757ab389d9d33e",
+          "page_count": 281,
+          "exists": true
+        }
+      ],
+      "remaining_scope_or_note": "Successful Bisabosqual A/F route from local starting-material preparations, with direct optimization byproducts and recycling. Ancillary model chemistry and catalyst synthesis excluded explicitly."
+    }
+  ]
+}

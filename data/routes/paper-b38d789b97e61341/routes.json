@@ -1,0 +1,162 @@
+[
+  {
+    "admission_authority": false,
+    "coverage_scope": "Available SI preparative route; main article unavailable; analytical Boc derivatives excluded",
+    "formal_benchmark_eligible": false,
+    "from_commercial_starting_materials_complete": true,
+    "full_article_route_coverage": false,
+    "molecule_smiles_sequence": [
+      "CCOC(CCN)OCC",
+      "C=CCCCCBr",
+      "C=CCCCC(=O)O",
+      "NCCc1c[nH]c2ccccc12",
+      "C=CCCCCNCCC(OCC)OCC",
+      "C=CCCCCN(CCC(OCC)OCC)C(=O)CCCC=C",
+      "C=CCCCCN(CCC1NCCc2c1[nH]c1ccccc21)C(=O)CCCC=C",
+      "O=C1CCCC=CCCCCN1CCC1NCCc2c1[nH]c1ccccc21",
+      "C1=CCCCCN(CCC2NCCc3c2[nH]c2ccccc32)CCCC1"
+    ],
+    "ordered_event_ids": [
+      "E01",
+      "E02",
+      "E03",
+      "E04",
+      "E05"
+    ],
+    "ordered_molecule_labels": [
+      "aminoacetal",
+      "bromohexene",
+      "hexenoic-acid",
+      "tryptamine",
+      "6",
+      "7",
+      "3",
+      "4",
+      "2"
+    ],
+    "ordered_step_ids": [
+      "E01.1",
+      "E02.1",
+      "E03.1",
+      "E04.1",
+      "E05.1"
+    ],
+    "route_id": "keramamine-c",
+    "route_type": "total_synthesis",
+    "split_group": "10.1002/ejoc.202501128",
+    "start_label": "aminoacetal",
+    "start_labels": [
+      "aminoacetal",
+      "bromohexene",
+      "hexenoic-acid",
+      "tryptamine"
+    ],
+    "step_reaction_smiles_sequence": [
+      "C=CCCCCBr.CCOC(CCN)OCC>>C=CCCCCNCCC(OCC)OCC",
+      "C=CCCCC(=O)O.C=CCCCCNCCC(OCC)OCC>>C=CCCCCN(CCC(OCC)OCC)C(=O)CCCC=C",
+      "C=CCCCCN(CCC(OCC)OCC)C(=O)CCCC=C.NCCc1c[nH]c2ccccc12>>C=CCCCCN(CCC1NCCc2c1[nH]c1ccccc21)C(=O)CCCC=C",
+      "C=CCCCCN(CCC1NCCc2c1[nH]c1ccccc21)C(=O)CCCC=C>>O=C1CCCC=CCCCCN1CCC1NCCc2c1[nH]c1ccccc21",
+      "O=C1CCCC=CCCCCN1CCC1NCCc2c1[nH]c1ccccc21>>C1=CCCCCN(CCC2NCCc3c2[nH]c2ccccc32)CCCC1"
+    ],
+    "target_label": "2"
+  },
+  {
+    "admission_authority": false,
+    "coverage_scope": "Available SI preparative route; main article unavailable; analytical Boc derivatives excluded",
+    "formal_benchmark_eligible": false,
+    "from_commercial_starting_materials_complete": true,
+    "full_article_route_coverage": false,
+    "molecule_smiles_sequence": [
+      "CCOC(CCN)OCC",
+      "C=CCCCCBr",
+      "C=CCCCC(=O)O",
+      "NCCc1c[nH]c2ccccc12",
+      "C=CCCCCNCCC(OCC)OCC",
+      "C=CCCCCN(CCC(OCC)OCC)C(=O)CCCC=C",
+      "C=CCCCCN(CCC1NCCc2c1[nH]c1ccccc21)C(=O)CCCC=C",
+      "C=CCCCCN(CCC1c2[nH]c3ccccc3c2CC[N+]1(C)C)C(=O)CCCC=C.[I-]"
+    ],
+    "ordered_event_ids": [
+      "E01",
+      "E02",
+      "E03",
+      "E06"
+    ],
+    "ordered_molecule_labels": [
+      "aminoacetal",
+      "bromohexene",
+      "hexenoic-acid",
+      "tryptamine",
+      "6",
+      "7",
+      "3",
+      "13"
+    ],
+    "ordered_step_ids": [
+      "E01.1",
+      "E02.1",
+      "E03.1",
+      "E06.1"
+    ],
+    "route_id": "quaternary-control",
+    "route_type": "control_substrate_preparation",
+    "split_group": "10.1002/ejoc.202501128",
+    "start_label": "aminoacetal",
+    "start_labels": [
+      "aminoacetal",
+      "bromohexene",
+      "hexenoic-acid",
+      "tryptamine"
+    ],
+    "step_reaction_smiles_sequence": [
+      "C=CCCCCBr.CCOC(CCN)OCC>>C=CCCCCNCCC(OCC)OCC",
+      "C=CCCCC(=O)O.C=CCCCCNCCC(OCC)OCC>>C=CCCCCN(CCC(OCC)OCC)C(=O)CCCC=C",
+      "C=CCCCCN(CCC(OCC)OCC)C(=O)CCCC=C.NCCc1c[nH]c2ccccc12>>C=CCCCCN(CCC1NCCc2c1[nH]c1ccccc21)C(=O)CCCC=C",
+      "C=CCCCCN(CCC1NCCc2c1[nH]c1ccccc21)C(=O)CCCC=C>>C=CCCCCN(CCC1c2[nH]c3ccccc3c2CC[N+]1(C)C)C(=O)CCCC=C.[I-]"
+    ],
+    "target_label": "13"
+  },
+  {
+    "admission_authority": false,
+    "coverage_scope": "Available SI preparative route; main article unavailable; analytical Boc derivatives excluded",
+    "formal_benchmark_eligible": false,
+    "from_commercial_starting_materials_complete": true,
+    "full_article_route_coverage": false,
+    "molecule_smiles_sequence": [
+      "NCCCc1ccccc1",
+      "C=CCCCCBr",
+      "C=CCCCC(=O)O",
+      "C=CCCCCNCCCc1ccccc1",
+      "C=CCCCCN(CCCc1ccccc1)C(=O)CCCC=C"
+    ],
+    "ordered_event_ids": [
+      "E07",
+      "E08"
+    ],
+    "ordered_molecule_labels": [
+      "phenylpropylamine",
+      "bromohexene",
+      "hexenoic-acid",
+      "17",
+      "15"
+    ],
+    "ordered_step_ids": [
+      "E07.1",
+      "E08.1"
+    ],
+    "route_id": "model-dienamide",
+    "route_type": "control_substrate_preparation",
+    "split_group": "10.1002/ejoc.202501128",
+    "start_label": "phenylpropylamine",
+    "start_labels": [
+      "phenylpropylamine",
+      "bromohexene",
+      "hexenoic-acid"
+    ],
+    "step_reaction_smiles_sequence": [
+      "C=CCCCCBr.NCCCc1ccccc1>>C=CCCCCNCCCc1ccccc1",
+      "C=CCCCC(=O)O.C=CCCCCNCCCc1ccccc1>>C=CCCCCN(CCCc1ccccc1)C(=O)CCCC=C"
+    ],
+    "target_label": "15"
+  }
+]

@@ -1,0 +1,1621 @@
+[
+  {
+    "agent_participant_ids": [
+      "participant-015"
+    ],
+    "agents": [
+      "Fe"
+    ],
+    "all_named_participants_have_smiles": true,
+    "atom_mapping_status": "not_assigned",
+    "duration_hours": 6,
+    "event_id": "E01",
+    "formal_benchmark_eligible": false,
+    "notes": "",
+    "product_labels": [
+      "U23_imine"
+    ],
+    "reactant_labels": [
+      "23"
+    ],
+    "solvent_participant_ids": [
+      "participant-004"
+    ],
+    "solvents": [
+      "AcOH"
+    ],
+    "source_references": [
+      {
+        "locator": "Experimental preparation / reaction drawing",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "12d89578011a62dfcb72d6e927df1499bb52a7f00da663668fb9d229fba97c32",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E01.1",
+    "step_index_within_event": 1,
+    "structure_basis": "contains_procedural_interpretation",
+    "substrate_product_smiles": "O=C(CCBr)N[C@H]1[C@H]2C=CC[C@]1(c1ccccc1[N+](=O)[O-])C(=O)CC2>>O=C(CCBr)N[C@H]1[C@H]2C=CC[C@]13C(=Nc1ccccc13)CC2",
+    "temperature_reported": "70 C",
+    "transformation": "reductive condensation",
+    "yield_percent": null
+  },
+  {
+    "agent_participant_ids": [
+      "participant-032"
+    ],
+    "agents": [
+      "NaBH4"
+    ],
+    "all_named_participants_have_smiles": true,
+    "atom_mapping_status": "not_assigned",
+    "duration_hours": 0.25,
+    "event_id": "E01",
+    "formal_benchmark_eligible": false,
+    "notes": "",
+    "product_labels": [
+      "U23_NH"
+    ],
+    "reactant_labels": [
+      "U23_imine"
+    ],
+    "solvent_participant_ids": [
+      "participant-004",
+      "participant-049"
+    ],
+    "solvents": [
+      "AcOH",
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "Experimental preparation / reaction drawing",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "12d89578011a62dfcb72d6e927df1499bb52a7f00da663668fb9d229fba97c32",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E01.2",
+    "step_index_within_event": 2,
+    "structure_basis": "contains_procedural_interpretation",
+    "substrate_product_smiles": "O=C(CCBr)N[C@H]1[C@H]2C=CC[C@]13C(=Nc1ccccc13)CC2>>O=C(CCBr)N[C@H]1[C@H]2C=CC[C@@]13c1ccccc1N[C@H]3CC2",
+    "temperature_reported": "0 C",
+    "transformation": "imine reduction",
+    "yield_percent": null
+  },
+  {
+    "agent_participant_ids": [
+      "participant-007",
+      "participant-031"
+    ],
+    "agents": [
+      "CbzCl",
+      "Na2CO3"
+    ],
+    "all_named_participants_have_smiles": true,
+    "atom_mapping_status": "not_assigned",
+    "duration_hours": 0.25,
+    "event_id": "E01",
+    "formal_benchmark_eligible": false,
+    "notes": "",
+    "product_labels": [
+      "24"
+    ],
+    "reactant_labels": [
+      "U23_NH"
+    ],
+    "solvent_participant_ids": [
+      "participant-004",
+      "participant-049"
+    ],
+    "solvents": [
+      "AcOH",
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "Experimental preparation / reaction drawing",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "12d89578011a62dfcb72d6e927df1499bb52a7f00da663668fb9d229fba97c32",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E01.3",
+    "step_index_within_event": 3,
+    "structure_basis": "contains_procedural_interpretation",
+    "substrate_product_smiles": "O=C(CCBr)N[C@H]1[C@H]2C=CC[C@@]13c1ccccc1N[C@H]3CC2>>O=C(CCBr)N[C@H]1[C@H]2C=CC[C@@]13c1ccccc1N(C(=O)OCc1ccccc1)[C@H]3CC2",
+    "temperature_reported": "0 C",
+    "transformation": "N-Cbz protection",
+    "yield_percent": null
+  },
+  {
+    "agent_participant_ids": [
+      "participant-035",
+      "participant-034"
+    ],
+    "agents": [
+      "OsO4",
+      "NaIO4"
+    ],
+    "all_named_participants_have_smiles": true,
+    "atom_mapping_status": "not_assigned",
+    "duration_hours": 6,
+    "event_id": "E02",
+    "formal_benchmark_eligible": false,
+    "notes": "Article reports dialdehyde/hemiaminal equilibrium; alternative U24_hemi. Neither member is an isolated pure structure.",
+    "product_labels": [
+      "U24_CHO"
+    ],
+    "reactant_labels": [
+      "24"
+    ],
+    "solvent_participant_ids": [
+      "participant-055",
+      "participant-017"
+    ],
+    "solvents": [
+      "tBuOH",
+      "H2O"
+    ],
+    "source_references": [
+      {
+        "locator": "Experimental preparation / reaction drawing",
+        "pages": [
+          3,
+          4
+        ],
+        "sha256": "12d89578011a62dfcb72d6e927df1499bb52a7f00da663668fb9d229fba97c32",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E02.1",
+    "step_index_within_event": 1,
+    "structure_basis": "contains_procedural_interpretation",
+    "substrate_product_smiles": "O=C(CCBr)N[C@H]1[C@H]2C=CC[C@@]13c1ccccc1N(C(=O)OCc1ccccc1)[C@H]3CC2>>O=CC[C@]12c3ccccc3N(C(=O)OCc3ccccc3)[C@H]1CC[C@H](C=O)[C@@H]2NC(=O)CCBr",
+    "temperature_reported": "40 C",
+    "transformation": "oxidative alkene cleavage",
+    "yield_percent": null
+  },
+  {
+    "agent_participant_ids": [
+      "participant-057"
+    ],
+    "agents": [
+      "tBuONa"
+    ],
+    "all_named_participants_have_smiles": true,
+    "atom_mapping_status": "not_assigned",
+    "duration_hours": 2,
+    "event_id": "E02",
+    "formal_benchmark_eligible": false,
+    "notes": "",
+    "product_labels": [
+      "25"
+    ],
+    "reactant_labels": [
+      "U24_CHO"
+    ],
+    "solvent_participant_ids": [
+      "participant-049"
+    ],
+    "solvents": [
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "Experimental preparation / reaction drawing",
+        "pages": [
+          3,
+          4
+        ],
+        "sha256": "12d89578011a62dfcb72d6e927df1499bb52a7f00da663668fb9d229fba97c32",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E02.2",
+    "step_index_within_event": 2,
+    "structure_basis": "contains_procedural_interpretation",
+    "substrate_product_smiles": "O=CC[C@]12c3ccccc3N(C(=O)OCc3ccccc3)[C@H]1CC[C@H](C=O)[C@@H]2NC(=O)CCBr>>O=C[C@]12CCC(=O)N3[C@@H](O)C[C@@]4(c5ccccc5N(C(=O)OCc5ccccc5)[C@H]4CC1)[C@@H]32",
+    "temperature_reported": "0 C",
+    "transformation": "ring reorganization and intramolecular alkylation",
+    "yield_percent": null
+  },
+  {
+    "agent_participant_ids": [
+      "participant-041",
+      "participant-056"
+    ],
+    "agents": [
+      "Ph3PMeBr",
+      "tBuOK"
+    ],
+    "all_named_participants_have_smiles": true,
+    "atom_mapping_status": "not_assigned",
+    "duration_hours": 1.5,
+    "event_id": "E03",
+    "formal_benchmark_eligible": false,
+    "notes": "",
+    "product_labels": [
+      "26"
+    ],
+    "reactant_labels": [
+      "25"
+    ],
+    "solvent_participant_ids": [
+      "participant-049"
+    ],
+    "solvents": [
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "Experimental preparation / reaction drawing",
+        "pages": [
+          5,
+          6,
+          7
+        ],
+        "sha256": "12d89578011a62dfcb72d6e927df1499bb52a7f00da663668fb9d229fba97c32",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E03.1",
+    "step_index_within_event": 1,
+    "structure_basis": "drawn_endpoints",
+    "substrate_product_smiles": "O=C[C@]12CCC(=O)N3[C@@H](O)C[C@@]4(c5ccccc5N(C(=O)OCc5ccccc5)[C@H]4CC1)[C@@H]32>>C=C[C@]12CCC(=O)N3C(O)C[C@@]4(c5ccccc5N(C(=O)OCc5ccccc5)[C@H]4CC1)[C@@H]32",
+    "temperature_reported": "0 C to room temperature",
+    "transformation": "Wittig methylenation",
+    "yield_percent": null
+  },
+  {
+    "agent_participant_ids": [
+      "participant-016",
+      "participant-039",
+      "participant-018"
+    ],
+    "agents": [
+      "H2",
+      "Pd/C",
+      "HCl"
+    ],
+    "all_named_participants_have_smiles": false,
+    "atom_mapping_status": "not_assigned",
+    "duration_hours": 4,
+    "event_id": "E04",
+    "formal_benchmark_eligible": false,
+    "notes": "",
+    "product_labels": [
+      "U26_H2"
+    ],
+    "reactant_labels": [
+      "26"
+    ],
+    "solvent_participant_ids": [
+      "participant-027"
+    ],
+    "solvents": [
+      "MeOH"
+    ],
+    "source_references": [
+      {
+        "locator": "Experimental preparation / reaction drawing",
+        "pages": [
+          5,
+          6
+        ],
+        "sha256": "12d89578011a62dfcb72d6e927df1499bb52a7f00da663668fb9d229fba97c32",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E04.1",
+    "step_index_within_event": 1,
+    "structure_basis": "contains_procedural_interpretation",
+    "substrate_product_smiles": "C=C[C@]12CCC(=O)N3C(O)C[C@@]4(c5ccccc5N(C(=O)OCc5ccccc5)[C@H]4CC1)[C@@H]32>>CC[C@]12CCC(=O)N3C(O)C[C@@]4(c5ccccc5N[C@H]4CC1)[C@@H]32",
+    "temperature_reported": "40 C",
+    "transformation": "hydrogenation and N-Cbz hydrogenolysis",
+    "yield_percent": null
+  },
+  {
+    "agent_participant_ids": [
+      "participant-024"
+    ],
+    "agents": [
+      "LiAlH4"
+    ],
+    "all_named_participants_have_smiles": true,
+    "atom_mapping_status": "not_assigned",
+    "duration_hours": 8,
+    "event_id": "E04",
+    "formal_benchmark_eligible": false,
+    "notes": "",
+    "product_labels": [
+      "1"
+    ],
+    "reactant_labels": [
+      "U26_H2"
+    ],
+    "solvent_participant_ids": [
+      "participant-049"
+    ],
+    "solvents": [
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "Experimental preparation / reaction drawing",
+        "pages": [
+          5,
+          6
+        ],
+        "sha256": "12d89578011a62dfcb72d6e927df1499bb52a7f00da663668fb9d229fba97c32",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E04.2",
+    "step_index_within_event": 2,
+    "structure_basis": "contains_procedural_interpretation",
+    "substrate_product_smiles": "CC[C@]12CCC(=O)N3C(O)C[C@@]4(c5ccccc5N[C@H]4CC1)[C@@H]32>>CC[C@]12CCCN3CC[C@@]4(c5ccccc5N[C@H]4CC1)[C@@H]32",
+    "temperature_reported": "70 C",
+    "transformation": "hemiaminal and lactam reduction",
+    "yield_percent": null
+  },
+  {
+    "agent_participant_ids": [
+      "participant-024"
+    ],
+    "agents": [
+      "LiAlH4"
+    ],
+    "all_named_participants_have_smiles": true,
+    "atom_mapping_status": "not_assigned",
+    "duration_hours": 6,
+    "event_id": "E05",
+    "formal_benchmark_eligible": false,
+    "notes": "",
+    "product_labels": [
+      "U26_LAH"
+    ],
+    "reactant_labels": [
+      "26"
+    ],
+    "solvent_participant_ids": [
+      "participant-049"
+    ],
+    "solvents": [
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "Experimental preparation / reaction drawing",
+        "pages": [
+          6,
+          7
+        ],
+        "sha256": "12d89578011a62dfcb72d6e927df1499bb52a7f00da663668fb9d229fba97c32",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E05.1",
+    "step_index_within_event": 1,
+    "structure_basis": "contains_procedural_interpretation",
+    "substrate_product_smiles": "C=C[C@]12CCC(=O)N3C(O)C[C@@]4(c5ccccc5N(C(=O)OCc5ccccc5)[C@H]4CC1)[C@@H]32>>C=C[C@]12CCCN3CC[C@@]4(c5ccccc5N(C)[C@H]4CC1)[C@@H]32",
+    "temperature_reported": "70 C",
+    "transformation": "global reduction including carbamate to N-methyl",
+    "yield_percent": null
+  },
+  {
+    "agent_participant_ids": [
+      "participant-016",
+      "participant-039"
+    ],
+    "agents": [
+      "H2",
+      "Pd/C"
+    ],
+    "all_named_participants_have_smiles": false,
+    "atom_mapping_status": "not_assigned",
+    "duration_hours": 2,
+    "event_id": "E05",
+    "formal_benchmark_eligible": false,
+    "notes": "",
+    "product_labels": [
+      "2"
+    ],
+    "reactant_labels": [
+      "U26_LAH"
+    ],
+    "solvent_participant_ids": [
+      "participant-049"
+    ],
+    "solvents": [
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "Experimental preparation / reaction drawing",
+        "pages": [
+          6,
+          7
+        ],
+        "sha256": "12d89578011a62dfcb72d6e927df1499bb52a7f00da663668fb9d229fba97c32",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E05.2",
+    "step_index_within_event": 2,
+    "structure_basis": "contains_procedural_interpretation",
+    "substrate_product_smiles": "C=C[C@]12CCCN3CC[C@@]4(c5ccccc5N(C)[C@H]4CC1)[C@@H]32>>CC[C@]12CCCN3CC[C@@]4(c5ccccc5N(C)[C@H]4CC1)[C@@H]32",
+    "temperature_reported": "40 C",
+    "transformation": "alkene hydrogenation",
+    "yield_percent": null
+  },
+  {
+    "agent_participant_ids": [
+      "participant-003",
+      "participant-020"
+    ],
+    "agents": [
+      "Ac2O",
+      "K2CO3"
+    ],
+    "all_named_participants_have_smiles": true,
+    "atom_mapping_status": "not_assigned",
+    "duration_hours": 1.5,
+    "event_id": "E06",
+    "formal_benchmark_eligible": false,
+    "notes": "",
+    "product_labels": [
+      "27"
+    ],
+    "reactant_labels": [
+      "1"
+    ],
+    "solvent_participant_ids": [
+      "participant-049"
+    ],
+    "solvents": [
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "Experimental preparation / reaction drawing",
+        "pages": [
+          7,
+          8
+        ],
+        "sha256": "12d89578011a62dfcb72d6e927df1499bb52a7f00da663668fb9d229fba97c32",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E06.1",
+    "step_index_within_event": 1,
+    "structure_basis": "drawn_endpoints",
+    "substrate_product_smiles": "CC[C@]12CCCN3CC[C@@]4(c5ccccc5N[C@H]4CC1)[C@@H]32>>CC[C@]12CCCN3CC[C@@]4(c5ccccc5N(C(C)=O)[C@H]4CC1)[C@@H]32",
+    "temperature_reported": "60 C",
+    "transformation": "N-acetylation",
+    "yield_percent": 100
+  },
+  {
+    "agent_participant_ids": [
+      "participant-038",
+      "participant-042",
+      "participant-013"
+    ],
+    "agents": [
+      "Pd(OAc)2",
+      "PhI(OAc)2",
+      "Et3N"
+    ],
+    "all_named_participants_have_smiles": true,
+    "atom_mapping_status": "not_assigned",
+    "duration_hours": null,
+    "event_id": "E07",
+    "formal_benchmark_eligible": false,
+    "notes": "Oxidation 18 h then methanol/Et3N treatment 15 h. Internal protected phenol is not separately identified.",
+    "product_labels": [
+      "3"
+    ],
+    "reactant_labels": [
+      "27"
+    ],
+    "solvent_participant_ids": [
+      "participant-047",
+      "participant-048",
+      "participant-027"
+    ],
+    "solvents": [
+      "TFA",
+      "TFAA",
+      "MeOH"
+    ],
+    "source_references": [
+      {
+        "locator": "Experimental preparation / reaction drawing",
+        "pages": [
+          8,
+          9
+        ],
+        "sha256": "12d89578011a62dfcb72d6e927df1499bb52a7f00da663668fb9d229fba97c32",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E07.1",
+    "step_index_within_event": 1,
+    "structure_basis": "drawn_endpoints",
+    "substrate_product_smiles": "CC[C@]12CCCN3CC[C@@]4(c5ccccc5N(C(C)=O)[C@H]4CC1)[C@@H]32>>CC[C@]12CCCN3CC[C@@]4(c5cccc(O)c5N(C(C)=O)[C@H]4CC1)[C@@H]32",
+    "temperature_reported": "75 C",
+    "transformation": "directed aromatic C-H oxygenation and deprotection",
+    "yield_percent": 88
+  },
+  {
+    "agent_participant_ids": [
+      "participant-026",
+      "participant-008"
+    ],
+    "agents": [
+      "MeI",
+      "Cs2CO3"
+    ],
+    "all_named_participants_have_smiles": true,
+    "atom_mapping_status": "not_assigned",
+    "duration_hours": 3,
+    "event_id": "E08",
+    "formal_benchmark_eligible": false,
+    "notes": "",
+    "product_labels": [
+      "4"
+    ],
+    "reactant_labels": [
+      "3"
+    ],
+    "solvent_participant_ids": [
+      "participant-051"
+    ],
+    "solvents": [
+      "acetone"
+    ],
+    "source_references": [
+      {
+        "locator": "Experimental preparation / reaction drawing",
+        "pages": [
+          9,
+          10
+        ],
+        "sha256": "12d89578011a62dfcb72d6e927df1499bb52a7f00da663668fb9d229fba97c32",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E08.1",
+    "step_index_within_event": 1,
+    "structure_basis": "drawn_endpoints",
+    "substrate_product_smiles": "CC[C@]12CCCN3CC[C@@]4(c5cccc(O)c5N(C(C)=O)[C@H]4CC1)[C@@H]32>>CC[C@]12CCCN3CC[C@@]4(c5cccc(OC)c5N(C(C)=O)[C@H]4CC1)[C@@H]32",
+    "temperature_reported": "room temperature",
+    "transformation": "phenol O-methylation",
+    "yield_percent": 99
+  },
+  {
+    "agent_participant_ids": [
+      "participant-050",
+      "participant-030",
+      "participant-002"
+    ],
+    "agents": [
+      "TPAP",
+      "NMO",
+      "4A molecular sieves"
+    ],
+    "all_named_participants_have_smiles": false,
+    "atom_mapping_status": "not_assigned",
+    "duration_hours": 1.5,
+    "event_id": "E09",
+    "formal_benchmark_eligible": false,
+    "notes": "",
+    "product_labels": [
+      "5"
+    ],
+    "reactant_labels": [
+      "1"
+    ],
+    "solvent_participant_ids": [
+      "participant-006",
+      "participant-025"
+    ],
+    "solvents": [
+      "CH2Cl2",
+      "MeCN"
+    ],
+    "source_references": [
+      {
+        "locator": "Experimental preparation / reaction drawing",
+        "pages": [
+          10
+        ],
+        "sha256": "12d89578011a62dfcb72d6e927df1499bb52a7f00da663668fb9d229fba97c32",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E09.1",
+    "step_index_within_event": 1,
+    "structure_basis": "drawn_endpoints",
+    "substrate_product_smiles": "CC[C@]12CCCN3CC[C@@]4(c5ccccc5N[C@H]4CC1)[C@@H]32>>CC[C@]12CCCN3CC[C@]4(C(=Nc5ccccc54)CC1)[C@@H]32",
+    "temperature_reported": "room temperature",
+    "transformation": "amine oxidation (Ley)",
+    "yield_percent": 79
+  },
+  {
+    "agent_participant_ids": [
+      "participant-021",
+      "participant-022"
+    ],
+    "agents": [
+      "KBH4",
+      "KOH"
+    ],
+    "all_named_participants_have_smiles": true,
+    "atom_mapping_status": "not_assigned",
+    "duration_hours": 15,
+    "event_id": "E10",
+    "formal_benchmark_eligible": false,
+    "notes": "",
+    "product_labels": [
+      "6"
+    ],
+    "reactant_labels": [
+      "5"
+    ],
+    "solvent_participant_ids": [
+      "participant-027"
+    ],
+    "solvents": [
+      "MeOH"
+    ],
+    "source_references": [
+      {
+        "locator": "Experimental preparation / reaction drawing",
+        "pages": [
+          12,
+          13
+        ],
+        "sha256": "12d89578011a62dfcb72d6e927df1499bb52a7f00da663668fb9d229fba97c32",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E10.1",
+    "step_index_within_event": 1,
+    "structure_basis": "drawn_endpoints",
+    "substrate_product_smiles": "CC[C@]12CCCN3CC[C@]4(C(=Nc5ccccc54)CC1)[C@@H]32>>CC[C@]12CCCN(CCc3c([nH]c4ccccc34)CC1)C2",
+    "temperature_reported": "70 C",
+    "transformation": "reductive ring opening",
+    "yield_percent": 64
+  },
+  {
+    "agent_participant_ids": [
+      "participant-054",
+      "participant-028"
+    ],
+    "agents": [
+      "n-BuLi",
+      "NCCO2Me"
+    ],
+    "all_named_participants_have_smiles": true,
+    "atom_mapping_status": "not_assigned",
+    "duration_hours": 2,
+    "event_id": "E11",
+    "formal_benchmark_eligible": false,
+    "notes": "",
+    "product_labels": [
+      "7",
+      "31"
+    ],
+    "reactant_labels": [
+      "5"
+    ],
+    "solvent_participant_ids": [
+      "participant-049"
+    ],
+    "solvents": [
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "Experimental preparation / reaction drawing",
+        "pages": [
+          13,
+          14
+        ],
+        "sha256": "12d89578011a62dfcb72d6e927df1499bb52a7f00da663668fb9d229fba97c32",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E11.1",
+    "step_index_within_event": 1,
+    "structure_basis": "drawn_endpoints",
+    "substrate_product_smiles": "CC[C@]12CCCN3CC[C@]4(C(=Nc5ccccc54)CC1)[C@@H]32>>CC[C@]12CCCN3CC[C@]4(C(=C(C(=O)OC)C1)Nc1ccccc14)[C@@H]32.CC[C@@]12CC=C3N(C(=O)OC)c4ccccc4[C@@]34CCN(CCC1)[C@@H]24",
+    "temperature_reported": "-78 C",
+    "transformation": "carbomethoxylation",
+    "yield_percent": null
+  },
+  {
+    "agent_participant_ids": [
+      "participant-011",
+      "participant-001",
+      "participant-013"
+    ],
+    "agents": [
+      "DMSO",
+      "(COCl)2",
+      "Et3N"
+    ],
+    "all_named_participants_have_smiles": true,
+    "atom_mapping_status": "not_assigned",
+    "duration_hours": null,
+    "event_id": "E12",
+    "formal_benchmark_eligible": false,
+    "notes": "",
+    "product_labels": [
+      "5",
+      "28"
+    ],
+    "reactant_labels": [
+      "1"
+    ],
+    "solvent_participant_ids": [
+      "participant-006"
+    ],
+    "solvents": [
+      "CH2Cl2"
+    ],
+    "source_references": [
+      {
+        "locator": "Experimental preparation / reaction drawing",
+        "pages": [
+          11
+        ],
+        "sha256": "12d89578011a62dfcb72d6e927df1499bb52a7f00da663668fb9d229fba97c32",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E12.1",
+    "step_index_within_event": 1,
+    "structure_basis": "drawn_endpoints",
+    "substrate_product_smiles": "CC[C@]12CCCN3CC[C@@]4(c5ccccc5N[C@H]4CC1)[C@@H]32>>CC[C@]12CCCN3CC[C@]4(C(=Nc5ccccc54)CC1)[C@@H]32.CC[C@]12CCCN3CC[C@@]4(c5cccc(CSC)c5N[C@H]4CC1)[C@@H]32",
+    "temperature_reported": "-78 C to room temperature",
+    "transformation": "Swern oxidation with competing aromatic substitution",
+    "yield_percent": null
+  },
+  {
+    "agent_participant_ids": [
+      "participant-007",
+      "participant-031"
+    ],
+    "agents": [
+      "CbzCl",
+      "Na2CO3"
+    ],
+    "all_named_participants_have_smiles": true,
+    "atom_mapping_status": "not_assigned",
+    "duration_hours": 1,
+    "event_id": "E13",
+    "formal_benchmark_eligible": false,
+    "notes": "",
+    "product_labels": [
+      "29",
+      "30"
+    ],
+    "reactant_labels": [
+      "5",
+      "28"
+    ],
+    "solvent_participant_ids": [
+      "participant-049"
+    ],
+    "solvents": [
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "Experimental preparation / reaction drawing",
+        "pages": [
+          11,
+          12
+        ],
+        "sha256": "12d89578011a62dfcb72d6e927df1499bb52a7f00da663668fb9d229fba97c32",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E13.1",
+    "step_index_within_event": 1,
+    "structure_basis": "drawn_endpoints",
+    "substrate_product_smiles": "CC[C@]12CCCN3CC[C@]4(C(=Nc5ccccc54)CC1)[C@@H]32.CC[C@]12CCCN3CC[C@@]4(c5cccc(CSC)c5N[C@H]4CC1)[C@@H]32>>CC[C@@]12CC=C3N(C(=O)OCc4ccccc4)c4ccccc4[C@@]34CCN(CCC1)[C@@H]24.CC[C@]12CCCN3CC[C@@]4(c5cccc(CSC)c5N(C(=O)OCc5ccccc5)[C@H]4CC1)[C@@H]32",
+    "temperature_reported": "room temperature",
+    "transformation": "N-Cbz derivatization of mixture",
+    "yield_percent": null
+  },
+  {
+    "agent_participant_ids": [
+      "participant-040",
+      "participant-056"
+    ],
+    "agents": [
+      "Ph3PCH2OMeBr",
+      "tBuOK"
+    ],
+    "all_named_participants_have_smiles": true,
+    "atom_mapping_status": "not_assigned",
+    "duration_hours": 2,
+    "event_id": "E14",
+    "formal_benchmark_eligible": false,
+    "notes": "",
+    "product_labels": [
+      "32"
+    ],
+    "reactant_labels": [
+      "25"
+    ],
+    "solvent_participant_ids": [
+      "participant-049"
+    ],
+    "solvents": [
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "Experimental preparation / reaction drawing",
+        "pages": [
+          14,
+          15,
+          22
+        ],
+        "sha256": "12d89578011a62dfcb72d6e927df1499bb52a7f00da663668fb9d229fba97c32",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E14.1",
+    "step_index_within_event": 1,
+    "structure_basis": "drawn_endpoints",
+    "substrate_product_smiles": "O=C[C@]12CCC(=O)N3[C@@H](O)C[C@@]4(c5ccccc5N(C(=O)OCc5ccccc5)[C@H]4CC1)[C@@H]32>>CO/C=C/[C@]12CCC(=O)N3C(O)C[C@@]4(c5ccccc5N(C(=O)OCc5ccccc5)[C@H]4CC1)[C@@H]32",
+    "temperature_reported": "0 C to room temperature",
+    "transformation": "Wittig methoxymethylenation",
+    "yield_percent": null
+  },
+  {
+    "agent_participant_ids": [
+      "participant-037"
+    ],
+    "agents": [
+      "PTSA"
+    ],
+    "all_named_participants_have_smiles": true,
+    "atom_mapping_status": "not_assigned",
+    "duration_hours": 10,
+    "event_id": "E15",
+    "formal_benchmark_eligible": false,
+    "notes": "",
+    "product_labels": [
+      "U32_CHO"
+    ],
+    "reactant_labels": [
+      "32"
+    ],
+    "solvent_participant_ids": [
+      "participant-049"
+    ],
+    "solvents": [
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "Experimental preparation / reaction drawing",
+        "pages": [
+          14,
+          15,
+          16
+        ],
+        "sha256": "12d89578011a62dfcb72d6e927df1499bb52a7f00da663668fb9d229fba97c32",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E15.1",
+    "step_index_within_event": 1,
+    "structure_basis": "contains_procedural_interpretation",
+    "substrate_product_smiles": "CO/C=C/[C@]12CCC(=O)N3C(O)C[C@@]4(c5ccccc5N(C(=O)OCc5ccccc5)[C@H]4CC1)[C@@H]32>>O=CC[C@]12CCC(=O)N3C(O)C[C@@]4(c5ccccc5N(C(=O)OCc5ccccc5)[C@H]4CC1)[C@@H]32",
+    "temperature_reported": "room temperature",
+    "transformation": "enol ether hydrolysis",
+    "yield_percent": null
+  },
+  {
+    "agent_participant_ids": [
+      "participant-005",
+      "participant-012"
+    ],
+    "agents": [
+      "BH3.THF",
+      "Et2NH"
+    ],
+    "all_named_participants_have_smiles": true,
+    "atom_mapping_status": "not_assigned",
+    "duration_hours": 24,
+    "event_id": "E15",
+    "formal_benchmark_eligible": false,
+    "notes": "Includes subsequent borane-complex dissociation with Et2NH.",
+    "product_labels": [
+      "33"
+    ],
+    "reactant_labels": [
+      "U32_CHO"
+    ],
+    "solvent_participant_ids": [
+      "participant-049"
+    ],
+    "solvents": [
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "Experimental preparation / reaction drawing",
+        "pages": [
+          14,
+          15,
+          16
+        ],
+        "sha256": "12d89578011a62dfcb72d6e927df1499bb52a7f00da663668fb9d229fba97c32",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E15.2",
+    "step_index_within_event": 2,
+    "structure_basis": "contains_procedural_interpretation",
+    "substrate_product_smiles": "O=CC[C@]12CCC(=O)N3C(O)C[C@@]4(c5ccccc5N(C(=O)OCc5ccccc5)[C@H]4CC1)[C@@H]32>>O=C(OCc1ccccc1)N1c2ccccc2[C@@]23CCN4CCC[C@@](CCO)(CC[C@H]12)[C@H]43",
+    "temperature_reported": "50 C",
+    "transformation": "aldehyde, hemiaminal and amide reduction",
+    "yield_percent": null
+  },
+  {
+    "agent_participant_ids": [
+      "participant-016",
+      "participant-039",
+      "participant-018"
+    ],
+    "agents": [
+      "H2",
+      "Pd/C",
+      "HCl"
+    ],
+    "all_named_participants_have_smiles": false,
+    "atom_mapping_status": "not_assigned",
+    "duration_hours": 5,
+    "event_id": "E16",
+    "formal_benchmark_eligible": false,
+    "notes": "",
+    "product_labels": [
+      "8"
+    ],
+    "reactant_labels": [
+      "33"
+    ],
+    "solvent_participant_ids": [
+      "participant-027"
+    ],
+    "solvents": [
+      "MeOH"
+    ],
+    "source_references": [
+      {
+        "locator": "Experimental preparation / reaction drawing",
+        "pages": [
+          16
+        ],
+        "sha256": "12d89578011a62dfcb72d6e927df1499bb52a7f00da663668fb9d229fba97c32",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E16.1",
+    "step_index_within_event": 1,
+    "structure_basis": "drawn_endpoints",
+    "substrate_product_smiles": "O=C(OCc1ccccc1)N1c2ccccc2[C@@]23CCN4CCC[C@@](CCO)(CC[C@H]12)[C@H]43>>OCC[C@]12CCCN3CC[C@@]4(c5ccccc5N[C@H]4CC1)[C@@H]32",
+    "temperature_reported": "room temperature",
+    "transformation": "N-Cbz hydrogenolysis",
+    "yield_percent": 83
+  },
+  {
+    "agent_participant_ids": [
+      "participant-003"
+    ],
+    "agents": [
+      "Ac2O"
+    ],
+    "all_named_participants_have_smiles": true,
+    "atom_mapping_status": "not_assigned",
+    "duration_hours": 2,
+    "event_id": "E17",
+    "formal_benchmark_eligible": false,
+    "notes": "",
+    "product_labels": [
+      "34"
+    ],
+    "reactant_labels": [
+      "8"
+    ],
+    "solvent_participant_ids": [
+      "participant-006"
+    ],
+    "solvents": [
+      "CH2Cl2"
+    ],
+    "source_references": [
+      {
+        "locator": "Experimental preparation / reaction drawing",
+        "pages": [
+          17
+        ],
+        "sha256": "12d89578011a62dfcb72d6e927df1499bb52a7f00da663668fb9d229fba97c32",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E17.1",
+    "step_index_within_event": 1,
+    "structure_basis": "drawn_endpoints",
+    "substrate_product_smiles": "OCC[C@]12CCCN3CC[C@@]4(c5ccccc5N[C@H]4CC1)[C@@H]32>>CC(=O)N1c2ccccc2[C@@]23CCN4CCC[C@@](CCO)(CC[C@H]12)[C@H]43",
+    "temperature_reported": "0 C to room temperature",
+    "transformation": "selective N-acetylation",
+    "yield_percent": 100
+  },
+  {
+    "agent_participant_ids": [
+      "participant-010",
+      "participant-033"
+    ],
+    "agents": [
+      "DMP",
+      "NaHCO3"
+    ],
+    "all_named_participants_have_smiles": false,
+    "atom_mapping_status": "not_assigned",
+    "duration_hours": 1,
+    "event_id": "E18",
+    "formal_benchmark_eligible": false,
+    "notes": "",
+    "product_labels": [
+      "35"
+    ],
+    "reactant_labels": [
+      "34"
+    ],
+    "solvent_participant_ids": [
+      "participant-006"
+    ],
+    "solvents": [
+      "CH2Cl2"
+    ],
+    "source_references": [
+      {
+        "locator": "Experimental preparation / reaction drawing",
+        "pages": [
+          18
+        ],
+        "sha256": "12d89578011a62dfcb72d6e927df1499bb52a7f00da663668fb9d229fba97c32",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E18.1",
+    "step_index_within_event": 1,
+    "structure_basis": "drawn_endpoints",
+    "substrate_product_smiles": "CC(=O)N1c2ccccc2[C@@]23CCN4CCC[C@@](CCO)(CC[C@H]12)[C@H]43>>CC(=O)N1c2ccccc2[C@@]23CCN4CCC[C@@](CC=O)(CC[C@H]12)[C@H]43",
+    "temperature_reported": "room temperature",
+    "transformation": "primary alcohol oxidation",
+    "yield_percent": 91
+  },
+  {
+    "agent_participant_ids": [
+      "participant-019",
+      "participant-022"
+    ],
+    "agents": [
+      "I2",
+      "KOH"
+    ],
+    "all_named_participants_have_smiles": true,
+    "atom_mapping_status": "not_assigned",
+    "duration_hours": 2,
+    "event_id": "E19",
+    "formal_benchmark_eligible": false,
+    "notes": "",
+    "product_labels": [
+      "9"
+    ],
+    "reactant_labels": [
+      "35"
+    ],
+    "solvent_participant_ids": [
+      "participant-027"
+    ],
+    "solvents": [
+      "MeOH"
+    ],
+    "source_references": [
+      {
+        "locator": "Experimental preparation / reaction drawing",
+        "pages": [
+          18,
+          19
+        ],
+        "sha256": "12d89578011a62dfcb72d6e927df1499bb52a7f00da663668fb9d229fba97c32",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E19.1",
+    "step_index_within_event": 1,
+    "structure_basis": "drawn_endpoints",
+    "substrate_product_smiles": "CC(=O)N1c2ccccc2[C@@]23CCN4CCC[C@@](CC=O)(CC[C@H]12)[C@H]43>>COC(=O)C[C@]12CCCN3CC[C@@]4(c5ccccc5N(C(C)=O)[C@H]4CC1)[C@@H]32",
+    "temperature_reported": "0 C",
+    "transformation": "oxidative methyl ester formation",
+    "yield_percent": 60
+  },
+  {
+    "agent_participant_ids": [
+      "participant-044",
+      "participant-029"
+    ],
+    "agents": [
+      "TBADT",
+      "NFSI"
+    ],
+    "all_named_participants_have_smiles": false,
+    "atom_mapping_status": "not_assigned",
+    "duration_hours": 3,
+    "event_id": "E20",
+    "formal_benchmark_eligible": false,
+    "notes": "390 nm, 8 W; new oxygen bridge joins side-chain oxygen to the bridge methine.",
+    "product_labels": [
+      "10"
+    ],
+    "reactant_labels": [
+      "34"
+    ],
+    "solvent_participant_ids": [
+      "participant-025"
+    ],
+    "solvents": [
+      "MeCN"
+    ],
+    "source_references": [
+      {
+        "locator": "Experimental preparation / reaction drawing",
+        "pages": [
+          20
+        ],
+        "sha256": "12d89578011a62dfcb72d6e927df1499bb52a7f00da663668fb9d229fba97c32",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E20.1",
+    "step_index_within_event": 1,
+    "structure_basis": "drawn_endpoints",
+    "substrate_product_smiles": "CC(=O)N1c2ccccc2[C@@]23CCN4CCC[C@@](CCO)(CC[C@H]12)[C@H]43>>CC(=O)N1c2ccccc2[C@]23CCN4CCC[C@@]5(CCO[C@]452)CC[C@H]13",
+    "temperature_reported": "room temperature",
+    "transformation": "photochemical oxidative ether cyclization",
+    "yield_percent": 55
+  },
+  {
+    "agent_participant_ids": [
+      "participant-038",
+      "participant-036",
+      "participant-013"
+    ],
+    "agents": [
+      "Pd(OAc)2",
+      "PIDA",
+      "Et3N"
+    ],
+    "all_named_participants_have_smiles": true,
+    "atom_mapping_status": "not_assigned",
+    "duration_hours": null,
+    "event_id": "E21",
+    "formal_benchmark_eligible": false,
+    "notes": "Pretreatment 8 h, oxidation 18 h, methanol/Et3N treatment 12 h; unisolated transient protection states not assigned unique molecules.",
+    "product_labels": [
+      "11"
+    ],
+    "reactant_labels": [
+      "10"
+    ],
+    "solvent_participant_ids": [
+      "participant-047",
+      "participant-048",
+      "participant-027"
+    ],
+    "solvents": [
+      "TFA",
+      "TFAA",
+      "MeOH"
+    ],
+    "source_references": [
+      {
+        "locator": "Experimental preparation / reaction drawing",
+        "pages": [
+          21
+        ],
+        "sha256": "12d89578011a62dfcb72d6e927df1499bb52a7f00da663668fb9d229fba97c32",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E21.1",
+    "step_index_within_event": 1,
+    "structure_basis": "drawn_endpoints",
+    "substrate_product_smiles": "CC(=O)N1c2ccccc2[C@]23CCN4CCC[C@@]5(CCO[C@]452)CC[C@H]13>>CC(=O)N1c2c(O)cccc2[C@]23CCN4CCC[C@@]5(CCO[C@]452)CC[C@H]13",
+    "temperature_reported": "60 C then 75 C",
+    "transformation": "directed aromatic C-H oxygenation and deprotection",
+    "yield_percent": 69
+  },
+  {
+    "agent_participant_ids": [
+      "participant-037"
+    ],
+    "agents": [
+      "PTSA"
+    ],
+    "all_named_participants_have_smiles": true,
+    "atom_mapping_status": "not_assigned",
+    "duration_hours": 1,
+    "event_id": "E22",
+    "formal_benchmark_eligible": false,
+    "notes": "",
+    "product_labels": [
+      "U32_CHO"
+    ],
+    "reactant_labels": [
+      "32"
+    ],
+    "solvent_participant_ids": [
+      "participant-009"
+    ],
+    "solvents": [
+      "DCE"
+    ],
+    "source_references": [
+      {
+        "locator": "Experimental preparation / reaction drawing",
+        "pages": [
+          22,
+          23
+        ],
+        "sha256": "12d89578011a62dfcb72d6e927df1499bb52a7f00da663668fb9d229fba97c32",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E22.1",
+    "step_index_within_event": 1,
+    "structure_basis": "contains_procedural_interpretation",
+    "substrate_product_smiles": "CO/C=C/[C@]12CCC(=O)N3C(O)C[C@@]4(c5ccccc5N(C(=O)OCc5ccccc5)[C@H]4CC1)[C@@H]32>>O=CC[C@]12CCC(=O)N3C(O)C[C@@]4(c5ccccc5N(C(=O)OCc5ccccc5)[C@H]4CC1)[C@@H]32",
+    "temperature_reported": "room temperature",
+    "transformation": "enol ether hydrolysis",
+    "yield_percent": null
+  },
+  {
+    "agent_participant_ids": [
+      "participant-014",
+      "participant-037"
+    ],
+    "agents": [
+      "Et3SiH",
+      "PTSA"
+    ],
+    "all_named_participants_have_smiles": true,
+    "atom_mapping_status": "not_assigned",
+    "duration_hours": 3,
+    "event_id": "E22",
+    "formal_benchmark_eligible": false,
+    "notes": "",
+    "product_labels": [
+      "36"
+    ],
+    "reactant_labels": [
+      "U32_CHO"
+    ],
+    "solvent_participant_ids": [
+      "participant-009"
+    ],
+    "solvents": [
+      "DCE"
+    ],
+    "source_references": [
+      {
+        "locator": "Experimental preparation / reaction drawing",
+        "pages": [
+          22,
+          23
+        ],
+        "sha256": "12d89578011a62dfcb72d6e927df1499bb52a7f00da663668fb9d229fba97c32",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E22.2",
+    "step_index_within_event": 2,
+    "structure_basis": "contains_procedural_interpretation",
+    "substrate_product_smiles": "O=CC[C@]12CCC(=O)N3C(O)C[C@@]4(c5ccccc5N(C(=O)OCc5ccccc5)[C@H]4CC1)[C@@H]32>>O=C1CC[C@@]2(CCO)CC[C@@H]3N(C(=O)OCc4ccccc4)c4ccccc4[C@@]34CCN1[C@@H]24",
+    "temperature_reported": "50 C",
+    "transformation": "acid-promoted aldehyde and hemiaminal reduction",
+    "yield_percent": null
+  },
+  {
+    "agent_participant_ids": [
+      "participant-046",
+      "participant-052"
+    ],
+    "agents": [
+      "TBSCl",
+      "imidazole"
+    ],
+    "all_named_participants_have_smiles": true,
+    "atom_mapping_status": "not_assigned",
+    "duration_hours": 0.5,
+    "event_id": "E23",
+    "formal_benchmark_eligible": false,
+    "notes": "",
+    "product_labels": [
+      "37"
+    ],
+    "reactant_labels": [
+      "36"
+    ],
+    "solvent_participant_ids": [
+      "participant-006"
+    ],
+    "solvents": [
+      "CH2Cl2"
+    ],
+    "source_references": [
+      {
+        "locator": "Experimental preparation / reaction drawing",
+        "pages": [
+          23,
+          24
+        ],
+        "sha256": "12d89578011a62dfcb72d6e927df1499bb52a7f00da663668fb9d229fba97c32",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E23.1",
+    "step_index_within_event": 1,
+    "structure_basis": "drawn_endpoints",
+    "substrate_product_smiles": "O=C1CC[C@@]2(CCO)CC[C@@H]3N(C(=O)OCc4ccccc4)c4ccccc4[C@@]34CCN1[C@@H]24>>CC(C)(C)[Si](C)(C)OCC[C@]12CCC(=O)N3CC[C@@]4(c5ccccc5N(C(=O)OCc5ccccc5)[C@H]4CC1)[C@@H]32",
+    "temperature_reported": "room temperature",
+    "transformation": "primary alcohol TBS protection",
+    "yield_percent": 87
+  },
+  {
+    "agent_participant_ids": [
+      "participant-023",
+      "participant-043"
+    ],
+    "agents": [
+      "LDA",
+      "PhSeCl"
+    ],
+    "all_named_participants_have_smiles": true,
+    "atom_mapping_status": "not_assigned",
+    "duration_hours": 3.5,
+    "event_id": "E24",
+    "formal_benchmark_eligible": false,
+    "notes": "",
+    "product_labels": [
+      "U37_Se"
+    ],
+    "reactant_labels": [
+      "37"
+    ],
+    "solvent_participant_ids": [
+      "participant-049"
+    ],
+    "solvents": [
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "Experimental preparation / reaction drawing",
+        "pages": [
+          24,
+          25
+        ],
+        "sha256": "12d89578011a62dfcb72d6e927df1499bb52a7f00da663668fb9d229fba97c32",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E24.1",
+    "step_index_within_event": 1,
+    "structure_basis": "contains_procedural_interpretation",
+    "substrate_product_smiles": "CC(C)(C)[Si](C)(C)OCC[C@]12CCC(=O)N3CC[C@@]4(c5ccccc5N(C(=O)OCc5ccccc5)[C@H]4CC1)[C@@H]32>>CC(C)(C)[Si](C)(C)OCC[C@@]12CC[C@@H]3N(C(=O)OCc4ccccc4)c4ccccc4[C@@]34CCN(C(=O)C([Se]c3ccccc3)C1)[C@@H]24",
+    "temperature_reported": "-78 C",
+    "transformation": "lactam alpha-phenylselenylation",
+    "yield_percent": null
+  },
+  {
+    "agent_participant_ids": [
+      "participant-053"
+    ],
+    "agents": [
+      "m-CPBA"
+    ],
+    "all_named_participants_have_smiles": true,
+    "atom_mapping_status": "not_assigned",
+    "duration_hours": 1,
+    "event_id": "E24",
+    "formal_benchmark_eligible": false,
+    "notes": "",
+    "product_labels": [
+      "38"
+    ],
+    "reactant_labels": [
+      "U37_Se"
+    ],
+    "solvent_participant_ids": [
+      "participant-006"
+    ],
+    "solvents": [
+      "CH2Cl2"
+    ],
+    "source_references": [
+      {
+        "locator": "Experimental preparation / reaction drawing",
+        "pages": [
+          24,
+          25
+        ],
+        "sha256": "12d89578011a62dfcb72d6e927df1499bb52a7f00da663668fb9d229fba97c32",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E24.2",
+    "step_index_within_event": 2,
+    "structure_basis": "contains_procedural_interpretation",
+    "substrate_product_smiles": "CC(C)(C)[Si](C)(C)OCC[C@@]12CC[C@@H]3N(C(=O)OCc4ccccc4)c4ccccc4[C@@]34CCN(C(=O)C([Se]c3ccccc3)C1)[C@@H]24>>CC(C)(C)[Si](C)(C)OCC[C@]12C=CC(=O)N3CC[C@@]4(c5ccccc5N(C(=O)OCc5ccccc5)[C@H]4CC1)[C@@H]32",
+    "temperature_reported": "-78 C to room temperature",
+    "transformation": "selenoxide elimination",
+    "yield_percent": null
+  },
+  {
+    "agent_participant_ids": [
+      "participant-045"
+    ],
+    "agents": [
+      "TBAF"
+    ],
+    "all_named_participants_have_smiles": true,
+    "atom_mapping_status": "not_assigned",
+    "duration_hours": 4,
+    "event_id": "E25",
+    "formal_benchmark_eligible": false,
+    "notes": "",
+    "product_labels": [
+      "39"
+    ],
+    "reactant_labels": [
+      "38"
+    ],
+    "solvent_participant_ids": [
+      "participant-049"
+    ],
+    "solvents": [
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "Experimental preparation / reaction drawing",
+        "pages": [
+          25,
+          26
+        ],
+        "sha256": "12d89578011a62dfcb72d6e927df1499bb52a7f00da663668fb9d229fba97c32",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E25.1",
+    "step_index_within_event": 1,
+    "structure_basis": "drawn_endpoints",
+    "substrate_product_smiles": "CC(C)(C)[Si](C)(C)OCC[C@]12C=CC(=O)N3CC[C@@]4(c5ccccc5N(C(=O)OCc5ccccc5)[C@H]4CC1)[C@@H]32>>O=C1C[C@@H]2OCC[C@@]23CC[C@@H]2N(C(=O)OCc4ccccc4)c4ccccc4[C@@]24CCN1[C@@H]34",
+    "temperature_reported": "0 C",
+    "transformation": "TBS removal and oxa-Michael cyclization",
+    "yield_percent": 86
+  },
+  {
+    "agent_participant_ids": [
+      "participant-005",
+      "participant-012"
+    ],
+    "agents": [
+      "BH3.THF",
+      "Et2NH"
+    ],
+    "all_named_participants_have_smiles": true,
+    "atom_mapping_status": "not_assigned",
+    "duration_hours": 6,
+    "event_id": "E26",
+    "formal_benchmark_eligible": false,
+    "notes": "",
+    "product_labels": [
+      "S1"
+    ],
+    "reactant_labels": [
+      "39"
+    ],
+    "solvent_participant_ids": [
+      "participant-049"
+    ],
+    "solvents": [
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "Experimental preparation / reaction drawing",
+        "pages": [
+          26,
+          27
+        ],
+        "sha256": "12d89578011a62dfcb72d6e927df1499bb52a7f00da663668fb9d229fba97c32",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E26.1",
+    "step_index_within_event": 1,
+    "structure_basis": "drawn_endpoints",
+    "substrate_product_smiles": "O=C1C[C@@H]2OCC[C@@]23CC[C@@H]2N(C(=O)OCc4ccccc4)c4ccccc4[C@@]24CCN1[C@@H]34>>O=C(OCc1ccccc1)N1c2ccccc2[C@@]23CCN4CC[C@@H]5OCC[C@]5(CC[C@H]12)[C@H]43",
+    "temperature_reported": "0 C",
+    "transformation": "lactam reduction",
+    "yield_percent": 78
+  },
+  {
+    "agent_participant_ids": [
+      "participant-016",
+      "participant-039"
+    ],
+    "agents": [
+      "H2",
+      "Pd/C"
+    ],
+    "all_named_participants_have_smiles": false,
+    "atom_mapping_status": "not_assigned",
+    "duration_hours": 1,
+    "event_id": "E27",
+    "formal_benchmark_eligible": false,
+    "notes": "",
+    "product_labels": [
+      "40"
+    ],
+    "reactant_labels": [
+      "S1"
+    ],
+    "solvent_participant_ids": [
+      "participant-027"
+    ],
+    "solvents": [
+      "MeOH"
+    ],
+    "source_references": [
+      {
+        "locator": "Experimental preparation / reaction drawing",
+        "pages": [
+          27,
+          28
+        ],
+        "sha256": "12d89578011a62dfcb72d6e927df1499bb52a7f00da663668fb9d229fba97c32",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E27.1",
+    "step_index_within_event": 1,
+    "structure_basis": "drawn_endpoints",
+    "substrate_product_smiles": "O=C(OCc1ccccc1)N1c2ccccc2[C@@]23CCN4CC[C@@H]5OCC[C@]5(CC[C@H]12)[C@H]43>>c1ccc2c(c1)N[C@H]1CC[C@]34CCO[C@H]3CCN3CC[C@]21[C@@H]34",
+    "temperature_reported": "room temperature",
+    "transformation": "N-Cbz hydrogenolysis",
+    "yield_percent": 73
+  }
+]

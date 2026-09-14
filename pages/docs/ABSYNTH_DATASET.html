@@ -1,0 +1,61 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>ABSynth-shaped route-step dataset | SynInsight Atlas</title><link rel="stylesheet" href="../../assets/report.css"><link rel="icon" href="../../assets/favicon.svg"></head><body class="publication-page"><a class="skip-link" href="#document">Skip to content</a><nav class="publication-nav" aria-label="Atlas navigation"><a class="brand" href="../../index.html">SI · SynInsight Atlas</a><div><a href="../../index.html#atlas">Papers & routes</a><a href="../../index.html#dataset">Reaction dataset</a></div></nav><div class="document-meta">Reference document · <a href="../../docs/ABSYNTH_DATASET.md" download>Download original file</a></div><main id="document" class="document-content"><h1 id="absynth-shaped-route-step-dataset">ABSynth-shaped route-step dataset</h1>
+<p>The website's main table reads <code>data/database/SynInsight_ABSynth_Dataset.csv</code> directly. It has the same nine named columns, in the same order, as the supplied ABSynth reference. The reference is actually tab-delimited despite its <code>.csv</code> suffix and has an empty trailing header. Our CSV uses comma separation, standard quoting and UTF-8 with BOM; the companion <code>.tsv</code> preserves tab separation without the unnamed column. Reference records are not copied into this dataset.</p>
+<h2 id="row-scope">Row scope</h2>
+<p>6,555 rows represent operation occurrences in 635 existing paths across 91 extracted papers. They cover 2,166 distinct paper-specific operations. Shared upstream operations repeat across paths. The complete extraction database contains 2,315 operations: 149 operations not assigned to these exported paths are not included in this path-shaped table. Do not count rows as unique reactions or regard paths as verified complete syntheses. Partial, formal and control branches remain included.</p>
+<h2 id="field-mapping">Field mapping</h2>
+<div aria-label="Scrollable data table" class="table-scroll" tabindex="0"><table>
+<thead>
+<tr>
+<th>Column</th>
+<th>Source and meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>PathId</td>
+<td>Existing globally unique <code>route_id</code> from <code>route_steps.csv</code>; treated as text, not renumbered.</td>
+</tr>
+<tr>
+<td>TargetName</td>
+<td>Existing route label with paper-ID prefix removed. It may be a named target, a numbered endpoint, or a branch description; not a newly assigned chemical name.</td>
+</tr>
+<tr>
+<td>Year</td>
+<td>First four characters of existing <code>publication_date</code> in <code>data/papers.json</code>.</td>
+</tr>
+<tr>
+<td>DOI</td>
+<td>Existing paper DOI.</td>
+</tr>
+<tr>
+<td>Author</td>
+<td>Existing <code>first_author</code> text, preserved as recorded; may contain multiple names. Not normalized to corresponding-author surname.</td>
+</tr>
+<tr>
+<td>StepId</td>
+<td>One-based step occurrence index within PathId. <code>(PathId, StepId)</code> is unique. Original local operation/event IDs remain in metadata.</td>
+</tr>
+<tr>
+<td>RxnSMILES</td>
+<td>Existing <code>canonical_reaction_smiles</code>, unchanged. Not guaranteed atom-mapped or atom-balanced. Dot-separated species are preserved.</td>
+</tr>
+<tr>
+<td>RxnName</td>
+<td>Existing operation <code>transformation</code> only. No reaction-class inference from SMILES. 6,409 rows are blank.</td>
+</tr>
+<tr>
+<td>Conditions</td>
+<td>Labeled, semicolon-separated existing agents, solvents, temperature/time, pressure/current and operation stages. Nested values use JSON so source stage detail is retained. 215 rows are blank; presence does not mean conditions are complete or standardized.</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="provenance-and-review">Provenance and review</h2>
+<p><code>data/database/absynth_metadata.json</code> stores path type, coverage, review status, original step/event identifiers, reported yield, source locators and source SHA-256 hashes. It accompanies the CSV and must be retained for reuse. All records remain candidates pending independent chemical review. Source conflicts and full limitations are in each original case dataset/report; a compact conditions cell does not reconcile them. Blank values mean absent in existing data, not a negative result.</p>
+<p>Filters and filtered downloads retain the exact nine-column schema. The website defaults to all paths. A target/route button filters to its full path; Step details links back to the source case. Related paper coverage and the original catalog remain available below the main dataset.</p>
+<h2 id="rebuild">Rebuild</h2>
+<p>Run from the project root:</p>
+<pre><code class="language-sh">.venv/Scripts/python.exe scripts/build_absynth.py
+.venv/Scripts/python.exe scripts/build_web.py
+.venv/Scripts/python.exe scripts/validate_web.py
+</code></pre>
+<p>The builder validates row identity, path-step order and reaction agreement with case data (allowing only dot-component order changes), and records source hashes. Existing scientific exports are not overwritten. Publication metadata are reused, not newly verified against publishers.</p></main><footer class="publication-footer"><a href="../../index.html">Return to Atlas</a><span>Candidate curation · Data CC BY 4.0 · Code MIT</span></footer><script src="../../assets/publication.js" defer></script></body></html>

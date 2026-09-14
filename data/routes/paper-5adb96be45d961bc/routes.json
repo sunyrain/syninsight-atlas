@@ -1,0 +1,127 @@
+[
+  {
+    "admission_authority": false,
+    "formal_benchmark_eligible": false,
+    "from_commercial_starting_materials_complete": false,
+    "full_article_route_coverage": true,
+    "molecule_smiles_sequence": [
+      "COC(=O)[C@@]1(COCc2ccccc2)CCCN1C(=O)OC(C)(C)C",
+      "CNOC",
+      "CON(C)C(=O)[C@@]1(COCc2ccccc2)CCCN1C(=O)OC(C)(C)C",
+      "C/C=C/CCC[CH2][Mg][Br]",
+      "C/C=C/CCCCC(=O)[C@@]1(COCc2ccccc2)CCCN1C(=O)OC(C)(C)C",
+      "CCC(=O)Cl",
+      "C/C=C/CCCCC(=O)[C@@]1(COCc2ccccc2)CCCN1C(=O)CC",
+      "C/C=C/CCCC[C@@]1(O)[C@H](C)C(=O)N2CCC[C@@]21COCc1ccccc1",
+      "C/C=C/CCCC[C@]1(O)C(C)C(=O)N2CCC[C@@]21COCc1ccccc1",
+      "C/C=C/CCCC[C@@]1(O)[C@H](C)C(=O)N2CCC[C@@]21CO"
+    ],
+    "ordered_event_ids": [
+      "E01",
+      "E02",
+      "E03",
+      "E04",
+      "E05"
+    ],
+    "ordered_molecule_labels": [
+      "8",
+      "weinreb-amine",
+      "11",
+      "alkenyl-Grignard",
+      "7",
+      "propionyl-chloride",
+      "6b",
+      "13a",
+      "13b-mixture",
+      "1"
+    ],
+    "ordered_step_ids": [
+      "E01.1",
+      "E02.1",
+      "E03.1",
+      "E04.1",
+      "E05.1"
+    ],
+    "route_id": "penibruguieramine-1",
+    "route_type": "source_bound_successful_synthesis",
+    "split_group": "10.1021/acs.joc.6c00282",
+    "start_label": "8",
+    "start_labels": [
+      "8",
+      "weinreb-amine",
+      "alkenyl-Grignard",
+      "propionyl-chloride"
+    ],
+    "step_reaction_smiles_sequence": [
+      "CNOC.COC(=O)[C@@]1(COCc2ccccc2)CCCN1C(=O)OC(C)(C)C>>CON(C)C(=O)[C@@]1(COCc2ccccc2)CCCN1C(=O)OC(C)(C)C",
+      "C/C=C/CCC[CH2][Mg][Br].CON(C)C(=O)[C@@]1(COCc2ccccc2)CCCN1C(=O)OC(C)(C)C>>C/C=C/CCCCC(=O)[C@@]1(COCc2ccccc2)CCCN1C(=O)OC(C)(C)C",
+      "C/C=C/CCCCC(=O)[C@@]1(COCc2ccccc2)CCCN1C(=O)OC(C)(C)C.CCC(=O)Cl>>C/C=C/CCCCC(=O)[C@@]1(COCc2ccccc2)CCCN1C(=O)CC",
+      "C/C=C/CCCCC(=O)[C@@]1(COCc2ccccc2)CCCN1C(=O)CC>>C/C=C/CCCC[C@@]1(O)[C@H](C)C(=O)N2CCC[C@@]21COCc1ccccc1.C/C=C/CCCC[C@]1(O)C(C)C(=O)N2CCC[C@@]21COCc1ccccc1",
+      "C/C=C/CCCC[C@@]1(O)[C@H](C)C(=O)N2CCC[C@@]21COCc1ccccc1>>C/C=C/CCCC[C@@]1(O)[C@H](C)C(=O)N2CCC[C@@]21CO"
+    ],
+    "target_label": "1"
+  },
+  {
+    "admission_authority": false,
+    "formal_benchmark_eligible": false,
+    "from_commercial_starting_materials_complete": false,
+    "full_article_route_coverage": true,
+    "molecule_smiles_sequence": [
+      "COC(=O)C1CCCN1C(=O)OC(C)(C)C",
+      "ClCOCc1ccccc1",
+      "COC(=O)C1(COCc2ccccc2)CCCN1C(=O)OC(C)(C)C",
+      "CNOC",
+      "CON(C)C(=O)C1(COCc2ccccc2)CCCN1C(=O)OC(C)(C)C",
+      "C/C=C/CCC[CH2][Mg][Br]",
+      "C/C=C/CCCCC(=O)C1(COCc2ccccc2)CCCN1C(=O)OC(C)(C)C",
+      "COC(=O)C(C)C(=O)Cl",
+      "C/C=C/CCCCC(=O)C1(COCc2ccccc2)CCCN1C(=O)C(C)C(=O)OC",
+      "C/C=C/CCCCC1(O)C(C)(C(=O)OC)C(=O)N2CCCC21COCc1ccccc1"
+    ],
+    "ordered_event_ids": [
+      "E06",
+      "E07",
+      "E08",
+      "E09",
+      "E10"
+    ],
+    "ordered_molecule_labels": [
+      "10",
+      "BOMCl",
+      "rac-8",
+      "weinreb-amine",
+      "rac-11",
+      "alkenyl-Grignard",
+      "rac-7",
+      "malonyl-chloride",
+      "6a",
+      "12"
+    ],
+    "ordered_step_ids": [
+      "E06.1",
+      "E07.1",
+      "E08.1",
+      "E09.1",
+      "E10.1"
+    ],
+    "route_id": "racemic-exploration",
+    "route_type": "source_bound_control_branch",
+    "split_group": "10.1021/acs.joc.6c00282",
+    "start_label": "10",
+    "start_labels": [
+      "10",
+      "BOMCl",
+      "weinreb-amine",
+      "alkenyl-Grignard",
+      "malonyl-chloride"
+    ],
+    "step_reaction_smiles_sequence": [
+      "COC(=O)C1CCCN1C(=O)OC(C)(C)C.ClCOCc1ccccc1>>COC(=O)C1(COCc2ccccc2)CCCN1C(=O)OC(C)(C)C",
+      "CNOC.COC(=O)C1(COCc2ccccc2)CCCN1C(=O)OC(C)(C)C>>CON(C)C(=O)C1(COCc2ccccc2)CCCN1C(=O)OC(C)(C)C",
+      "C/C=C/CCC[CH2][Mg][Br].CON(C)C(=O)C1(COCc2ccccc2)CCCN1C(=O)OC(C)(C)C>>C/C=C/CCCCC(=O)C1(COCc2ccccc2)CCCN1C(=O)OC(C)(C)C",
+      "C/C=C/CCCCC(=O)C1(COCc2ccccc2)CCCN1C(=O)OC(C)(C)C.COC(=O)C(C)C(=O)Cl>>C/C=C/CCCCC(=O)C1(COCc2ccccc2)CCCN1C(=O)C(C)C(=O)OC",
+      "C/C=C/CCCCC(=O)C1(COCc2ccccc2)CCCN1C(=O)C(C)C(=O)OC>>C/C=C/CCCCC1(O)C(C)(C(=O)OC)C(=O)N2CCCC21COCc1ccccc1"
+    ],
+    "target_label": "12"
+  }
+]

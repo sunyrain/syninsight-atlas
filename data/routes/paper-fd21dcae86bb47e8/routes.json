@@ -1,0 +1,338 @@
+[
+  {
+    "admission_authority": false,
+    "formal_benchmark_eligible": false,
+    "from_commercial_starting_materials_complete": false,
+    "full_article_route_coverage": true,
+    "molecule_smiles_sequence": [
+      "C=C1C(=O)C[C@H]2C(=C)CC[C@H]3C(=C)C(=O)O[C@@H]3[C@@H]12",
+      "C=C1C(=O)O[C@@H]2[C@H]3C4=C(C[C@H]3C(=C)CC[C@@H]12)O[C@]1(CC4)C(=O)C[C@H]2C(=C)CC[C@H]3C(=C)C(=O)O[C@@H]3[C@H]21",
+      "C=C1C(=O)O[C@@H]2[C@@H]3[C@@H](C[C@@]45OO[C@@]34CC[C@@]3(O5)C(=O)C[C@H]4C(=C)CC[C@H]5C(=C)C(=O)O[C@@H]5[C@H]43)C(=C)CC[C@@H]12",
+      "C=C1C(=O)O[C@@H]2[C@@H]3[C@@H](CC(=O)O[C@@]34CC[C@@]3(O4)C(=O)C[C@H]4C(=C)CC[C@H]5C(=C)C(=O)O[C@@H]5[C@H]43)C(=C)CC[C@@H]12"
+    ],
+    "ordered_event_ids": [
+      "P01",
+      "T01",
+      "T06"
+    ],
+    "ordered_molecule_labels": [
+      "2",
+      "3",
+      "11",
+      "5"
+    ],
+    "ordered_step_ids": [
+      "P01.1",
+      "T01.1",
+      "T06.1"
+    ],
+    "route_id": "Direct oxidative cascade",
+    "route_type": "source_bound_successful_synthesis",
+    "split_group": "10.1021/acs.orglett.6c00658",
+    "start_label": "2",
+    "start_labels": [
+      "2"
+    ],
+    "step_reaction_smiles_sequence": [
+      "C=C1C(=O)C[C@H]2C(=C)CC[C@H]3C(=C)C(=O)O[C@@H]3[C@@H]12>>C=C1C(=O)O[C@@H]2[C@H]3C4=C(C[C@H]3C(=C)CC[C@@H]12)O[C@]1(CC4)C(=O)C[C@H]2C(=C)CC[C@H]3C(=C)C(=O)O[C@@H]3[C@H]21",
+      "C=C1C(=O)O[C@@H]2[C@H]3C4=C(C[C@H]3C(=C)CC[C@@H]12)O[C@]1(CC4)C(=O)C[C@H]2C(=C)CC[C@H]3C(=C)C(=O)O[C@@H]3[C@H]21>>C=C1C(=O)O[C@@H]2[C@@H]3[C@@H](C[C@@]45OO[C@@]34CC[C@@]3(O5)C(=O)C[C@H]4C(=C)CC[C@H]5C(=C)C(=O)O[C@@H]5[C@H]43)C(=C)CC[C@@H]12",
+      "C=C1C(=O)O[C@@H]2[C@@H]3[C@@H](C[C@@]45OO[C@@]34CC[C@@]3(O5)C(=O)C[C@H]4C(=C)CC[C@H]5C(=C)C(=O)O[C@@H]5[C@H]43)C(=C)CC[C@@H]12>>C=C1C(=O)O[C@@H]2[C@@H]3[C@@H](CC(=O)O[C@@]34CC[C@@]3(O4)C(=O)C[C@H]4C(=C)CC[C@H]5C(=C)C(=O)O[C@@H]5[C@H]43)C(=C)CC[C@@H]12"
+    ],
+    "target_label": "5"
+  },
+  {
+    "admission_authority": false,
+    "formal_benchmark_eligible": false,
+    "from_commercial_starting_materials_complete": false,
+    "full_article_route_coverage": true,
+    "molecule_smiles_sequence": [
+      "C=C1C(=O)C[C@H]2C(=C)CC[C@H]3C(=C)C(=O)O[C@@H]3[C@@H]12",
+      "C=C1C(=O)O[C@@H]2[C@H]3C4=C(C[C@H]3C(=C)CC[C@@H]12)O[C@]1(CC4)C(=O)C[C@H]2C(=C)CC[C@H]3C(=C)C(=O)O[C@@H]3[C@H]21",
+      "C=C1C(=O)O[C@@H]2[C@@H]3[C@@H](C[C@@]45OO[C@@]34CC[C@@]3(O5)C(=O)C[C@H]4C(=C)CC[C@H]5C(=C)C(=O)O[C@@H]5[C@H]43)C(=C)CC[C@@H]12",
+      "C=C1CC[C@H]2C(=C)C(=O)O[C@@H]2[C@@H]2[C@H]1C=C1O[C@]34C[C@H]5C(=C)CC[C@H]6C(=C)C(=O)O[C@@H]6[C@H]5[C@]3(OO)CC[C@@]12O4",
+      "C=C1CC[C@H]2C(=C)C(=O)O[C@@H]2[C@@H]2[C@H]1C=C(O)[C@]21CCC(=O)[C@@H]2[C@H]3OC(=O)C(=C)[C@@H]3CCC(=C)[C@@H]2CC(=O)O1",
+      "C=C1C(=O)O[C@@H]2[C@@H]3[C@@H](CC(=O)O[C@@]34CC[C@@]3(O4)C(=O)C[C@H]4C(=C)CC[C@H]5C(=C)C(=O)O[C@@H]5[C@H]43)C(=C)CC[C@@H]12"
+    ],
+    "ordered_event_ids": [
+      "P01",
+      "T01",
+      "T02",
+      "T03",
+      "T05"
+    ],
+    "ordered_molecule_labels": [
+      "2",
+      "3",
+      "11",
+      "12",
+      "13",
+      "5"
+    ],
+    "ordered_step_ids": [
+      "P01.1",
+      "T01.1",
+      "T02.1",
+      "T03.1",
+      "T05.1"
+    ],
+    "route_id": "Via isolated keto-lactone",
+    "route_type": "source_bound_successful_synthesis",
+    "split_group": "10.1021/acs.orglett.6c00658",
+    "start_label": "2",
+    "start_labels": [
+      "2"
+    ],
+    "step_reaction_smiles_sequence": [
+      "C=C1C(=O)C[C@H]2C(=C)CC[C@H]3C(=C)C(=O)O[C@@H]3[C@@H]12>>C=C1C(=O)O[C@@H]2[C@H]3C4=C(C[C@H]3C(=C)CC[C@@H]12)O[C@]1(CC4)C(=O)C[C@H]2C(=C)CC[C@H]3C(=C)C(=O)O[C@@H]3[C@H]21",
+      "C=C1C(=O)O[C@@H]2[C@H]3C4=C(C[C@H]3C(=C)CC[C@@H]12)O[C@]1(CC4)C(=O)C[C@H]2C(=C)CC[C@H]3C(=C)C(=O)O[C@@H]3[C@H]21>>C=C1C(=O)O[C@@H]2[C@@H]3[C@@H](C[C@@]45OO[C@@]34CC[C@@]3(O5)C(=O)C[C@H]4C(=C)CC[C@H]5C(=C)C(=O)O[C@@H]5[C@H]43)C(=C)CC[C@@H]12",
+      "C=C1C(=O)O[C@@H]2[C@@H]3[C@@H](C[C@@]45OO[C@@]34CC[C@@]3(O5)C(=O)C[C@H]4C(=C)CC[C@H]5C(=C)C(=O)O[C@@H]5[C@H]43)C(=C)CC[C@@H]12>>C=C1CC[C@H]2C(=C)C(=O)O[C@@H]2[C@@H]2[C@H]1C=C1O[C@]34C[C@H]5C(=C)CC[C@H]6C(=C)C(=O)O[C@@H]6[C@H]5[C@]3(OO)CC[C@@]12O4",
+      "C=C1CC[C@H]2C(=C)C(=O)O[C@@H]2[C@@H]2[C@H]1C=C1O[C@]34C[C@H]5C(=C)CC[C@H]6C(=C)C(=O)O[C@@H]6[C@H]5[C@]3(OO)CC[C@@]12O4>>C=C1CC[C@H]2C(=C)C(=O)O[C@@H]2[C@@H]2[C@H]1C=C(O)[C@]21CCC(=O)[C@@H]2[C@H]3OC(=O)C(=C)[C@@H]3CCC(=C)[C@@H]2CC(=O)O1",
+      "C=C1CC[C@H]2C(=C)C(=O)O[C@@H]2[C@@H]2[C@H]1C=C(O)[C@]21CCC(=O)[C@@H]2[C@H]3OC(=O)C(=C)[C@@H]3CCC(=C)[C@@H]2CC(=O)O1>>C=C1C(=O)O[C@@H]2[C@@H]3[C@@H](CC(=O)O[C@@]34CC[C@@]3(O4)C(=O)C[C@H]4C(=C)CC[C@H]5C(=C)C(=O)O[C@@H]5[C@H]43)C(=C)CC[C@@H]12"
+    ],
+    "target_label": "5"
+  },
+  {
+    "admission_authority": false,
+    "formal_benchmark_eligible": false,
+    "from_commercial_starting_materials_complete": false,
+    "full_article_route_coverage": true,
+    "molecule_smiles_sequence": [
+      "C=C1C(=O)C[C@H]2C(=C)CC[C@H]3C(=C)C(=O)O[C@@H]3[C@@H]12",
+      "C=C1C(=O)O[C@@H]2[C@H]3C4=C(C[C@H]3C(=C)CC[C@@H]12)O[C@]1(CC4)C(=O)C[C@H]2C(=C)CC[C@H]3C(=C)C(=O)O[C@@H]3[C@H]21",
+      "C=C1C(=O)O[C@@H]2[C@@H]3[C@@H](C[C@@]45OO[C@@]34CC[C@@]3(O5)C(=O)C[C@H]4C(=C)CC[C@H]5C(=C)C(=O)O[C@@H]5[C@H]43)C(=C)CC[C@@H]12",
+      "C=C1CC[C@H]2C(=C)C(=O)O[C@@H]2[C@@H]2[C@H]1C=C1O[C@]34C[C@H]5C(=C)CC[C@H]6C(=C)C(=O)O[C@@H]6[C@H]5[C@]3(OO)CC[C@@]12O4",
+      "C=C1CC[C@H]2C(=C)C(=O)O[C@@H]2[C@@H]2[C@H]1C=C(O)[C@]21CCC(=O)[C@@H]2[C@H]3OC(=O)C(=C)[C@@H]3CCC(=C)[C@@H]2CC(=O)O1",
+      "C=C1CC[C@H]2C(=C)C(=O)O[C@@H]2[C@@H]2[C@H]1C=C1OC(=O)C[C@H]3C(=C)CC[C@H]4C(=C)C(=O)O[C@@H]4[C@H]3C(=O)CC[C@@]12O"
+    ],
+    "ordered_event_ids": [
+      "P01",
+      "T01",
+      "T02",
+      "T03",
+      "T04"
+    ],
+    "ordered_molecule_labels": [
+      "2",
+      "3",
+      "11",
+      "12",
+      "13",
+      "14"
+    ],
+    "ordered_step_ids": [
+      "P01.1",
+      "T01.1",
+      "T02.1",
+      "T03.1",
+      "T04.1"
+    ],
+    "route_id": "Translactone branch",
+    "route_type": "source_bound_control_branch",
+    "split_group": "10.1021/acs.orglett.6c00658",
+    "start_label": "2",
+    "start_labels": [
+      "2"
+    ],
+    "step_reaction_smiles_sequence": [
+      "C=C1C(=O)C[C@H]2C(=C)CC[C@H]3C(=C)C(=O)O[C@@H]3[C@@H]12>>C=C1C(=O)O[C@@H]2[C@H]3C4=C(C[C@H]3C(=C)CC[C@@H]12)O[C@]1(CC4)C(=O)C[C@H]2C(=C)CC[C@H]3C(=C)C(=O)O[C@@H]3[C@H]21",
+      "C=C1C(=O)O[C@@H]2[C@H]3C4=C(C[C@H]3C(=C)CC[C@@H]12)O[C@]1(CC4)C(=O)C[C@H]2C(=C)CC[C@H]3C(=C)C(=O)O[C@@H]3[C@H]21>>C=C1C(=O)O[C@@H]2[C@@H]3[C@@H](C[C@@]45OO[C@@]34CC[C@@]3(O5)C(=O)C[C@H]4C(=C)CC[C@H]5C(=C)C(=O)O[C@@H]5[C@H]43)C(=C)CC[C@@H]12",
+      "C=C1C(=O)O[C@@H]2[C@@H]3[C@@H](C[C@@]45OO[C@@]34CC[C@@]3(O5)C(=O)C[C@H]4C(=C)CC[C@H]5C(=C)C(=O)O[C@@H]5[C@H]43)C(=C)CC[C@@H]12>>C=C1CC[C@H]2C(=C)C(=O)O[C@@H]2[C@@H]2[C@H]1C=C1O[C@]34C[C@H]5C(=C)CC[C@H]6C(=C)C(=O)O[C@@H]6[C@H]5[C@]3(OO)CC[C@@]12O4",
+      "C=C1CC[C@H]2C(=C)C(=O)O[C@@H]2[C@@H]2[C@H]1C=C1O[C@]34C[C@H]5C(=C)CC[C@H]6C(=C)C(=O)O[C@@H]6[C@H]5[C@]3(OO)CC[C@@]12O4>>C=C1CC[C@H]2C(=C)C(=O)O[C@@H]2[C@@H]2[C@H]1C=C(O)[C@]21CCC(=O)[C@@H]2[C@H]3OC(=O)C(=C)[C@@H]3CCC(=C)[C@@H]2CC(=O)O1",
+      "C=C1CC[C@H]2C(=C)C(=O)O[C@@H]2[C@@H]2[C@H]1C=C(O)[C@]21CCC(=O)[C@@H]2[C@H]3OC(=O)C(=C)[C@@H]3CCC(=C)[C@@H]2CC(=O)O1>>C=C1CC[C@H]2C(=C)C(=O)O[C@@H]2[C@@H]2[C@H]1C=C1OC(=O)C[C@H]3C(=C)CC[C@H]4C(=C)C(=O)O[C@@H]4[C@H]3C(=O)CC[C@@]12O"
+    ],
+    "target_label": "14"
+  },
+  {
+    "admission_authority": false,
+    "formal_benchmark_eligible": false,
+    "from_commercial_starting_materials_complete": false,
+    "full_article_route_coverage": true,
+    "molecule_smiles_sequence": [
+      "C=C1C(=O)C[C@H]2C(=C)CC[C@H]3C(=C)C(=O)O[C@@H]3[C@@H]12",
+      "C=C1C(=O)O[C@@H]2[C@H]3C4=C(C[C@H]3C(=C)CC[C@@H]12)O[C@]1(CC4)C(=O)C[C@H]2C(=C)CC[C@H]3C(=C)C(=O)O[C@@H]3[C@H]21",
+      "C=C1C(=O)O[C@@H]2[C@@H]3[C@@H](CC(=O)[C@]34CC[C@]35O[C@]3(C[C@H]3C(=C)CC[C@H]6C(=C)C(=O)O[C@@H]6[C@H]35)O4)C(=C)CC[C@@H]12",
+      "C=C1CC[C@H]2C(=C)C(=O)O[C@@H]2[C@@H]2[C@H]1C=C1O[C@]34C[C@H]5C(=C)CC[C@H]6C(=C)C(=O)O[C@@H]6[C@H]5[C@]3(O)CC[C@@]12O4"
+    ],
+    "ordered_event_ids": [
+      "P01",
+      "O01"
+    ],
+    "ordered_molecule_labels": [
+      "2",
+      "3",
+      "7",
+      "8"
+    ],
+    "ordered_step_ids": [
+      "P01.1",
+      "O01.1"
+    ],
+    "route_id": "Diversification 7",
+    "route_type": "source_bound_control_branch",
+    "split_group": "10.1021/acs.orglett.6c00658",
+    "start_label": "2",
+    "start_labels": [
+      "2"
+    ],
+    "step_reaction_smiles_sequence": [
+      "C=C1C(=O)C[C@H]2C(=C)CC[C@H]3C(=C)C(=O)O[C@@H]3[C@@H]12>>C=C1C(=O)O[C@@H]2[C@H]3C4=C(C[C@H]3C(=C)CC[C@@H]12)O[C@]1(CC4)C(=O)C[C@H]2C(=C)CC[C@H]3C(=C)C(=O)O[C@@H]3[C@H]21",
+      "C=C1C(=O)O[C@@H]2[C@H]3C4=C(C[C@H]3C(=C)CC[C@@H]12)O[C@]1(CC4)C(=O)C[C@H]2C(=C)CC[C@H]3C(=C)C(=O)O[C@@H]3[C@H]21>>C=C1C(=O)O[C@@H]2[C@@H]3[C@@H](CC(=O)[C@]34CC[C@]35O[C@]3(C[C@H]3C(=C)CC[C@H]6C(=C)C(=O)O[C@@H]6[C@H]35)O4)C(=C)CC[C@@H]12.C=C1CC[C@H]2C(=C)C(=O)O[C@@H]2[C@@H]2[C@H]1C=C1O[C@]34C[C@H]5C(=C)CC[C@H]6C(=C)C(=O)O[C@@H]6[C@H]5[C@]3(O)CC[C@@]12O4"
+    ],
+    "target_label": "7"
+  },
+  {
+    "admission_authority": false,
+    "formal_benchmark_eligible": false,
+    "from_commercial_starting_materials_complete": false,
+    "full_article_route_coverage": true,
+    "molecule_smiles_sequence": [
+      "C=C1C(=O)C[C@H]2C(=C)CC[C@H]3C(=C)C(=O)O[C@@H]3[C@@H]12",
+      "C=C1C(=O)O[C@@H]2[C@H]3C4=C(C[C@H]3C(=C)CC[C@@H]12)O[C@]1(CC4)C(=O)C[C@H]2C(=C)CC[C@H]3C(=C)C(=O)O[C@@H]3[C@H]21",
+      "C=C1CC[C@H]2C(=C)C(=O)O[C@@H]2[C@@H]2[C@H]1C=C1O[C@]34C[C@H]5C(=C)CC[C@H]6C(=C)C(=O)O[C@@H]6[C@H]5[C@]3(O)CC[C@@]12O4"
+    ],
+    "ordered_event_ids": [
+      "P01",
+      "O02"
+    ],
+    "ordered_molecule_labels": [
+      "2",
+      "3",
+      "8"
+    ],
+    "ordered_step_ids": [
+      "P01.1",
+      "O02.1"
+    ],
+    "route_id": "Diversification 8",
+    "route_type": "source_bound_control_branch",
+    "split_group": "10.1021/acs.orglett.6c00658",
+    "start_label": "2",
+    "start_labels": [
+      "2"
+    ],
+    "step_reaction_smiles_sequence": [
+      "C=C1C(=O)C[C@H]2C(=C)CC[C@H]3C(=C)C(=O)O[C@@H]3[C@@H]12>>C=C1C(=O)O[C@@H]2[C@H]3C4=C(C[C@H]3C(=C)CC[C@@H]12)O[C@]1(CC4)C(=O)C[C@H]2C(=C)CC[C@H]3C(=C)C(=O)O[C@@H]3[C@H]21",
+      "C=C1C(=O)O[C@@H]2[C@H]3C4=C(C[C@H]3C(=C)CC[C@@H]12)O[C@]1(CC4)C(=O)C[C@H]2C(=C)CC[C@H]3C(=C)C(=O)O[C@@H]3[C@H]21>>C=C1CC[C@H]2C(=C)C(=O)O[C@@H]2[C@@H]2[C@H]1C=C1O[C@]34C[C@H]5C(=C)CC[C@H]6C(=C)C(=O)O[C@@H]6[C@H]5[C@]3(O)CC[C@@]12O4"
+    ],
+    "target_label": "8"
+  },
+  {
+    "admission_authority": false,
+    "formal_benchmark_eligible": false,
+    "from_commercial_starting_materials_complete": false,
+    "full_article_route_coverage": true,
+    "molecule_smiles_sequence": [
+      "C=C1C(=O)C[C@H]2C(=C)CC[C@H]3C(=C)C(=O)O[C@@H]3[C@@H]12",
+      "C=C1C(=O)O[C@@H]2[C@H]3C4=C(C[C@H]3C(=C)CC[C@@H]12)O[C@]1(CC4)C(=O)C[C@H]2C(=C)CC[C@H]3C(=C)C(=O)O[C@@H]3[C@H]21",
+      "C=C1C(=O)O[C@@H]2[C@@H]3[C@@H](CC(=O)[C@]34CC[C@]35O[C@]3(C[C@H]3C(=C)CC[C@H]6C(=C)C(=O)O[C@@H]6[C@H]35)O4)C(=C)CC[C@@H]12",
+      "C=C1CC[C@H]2C(=C)C(=O)O[C@@H]2[C@@H]2[C@H]1C=C1O[C@]34C[C@H]5C(=C)CC[C@H]6C(=C)C(=O)O[C@@H]6[C@H]5[C@]3(O)CC[C@@]12O4",
+      "C=C1C(=O)O[C@@H]2[C@@H]3[C@@H](CC4(O)O[C@]56C[C@H]7C(=C)CC[C@H]8C(=C)C(=O)O[C@@H]8[C@H]7[C@]5(O)CC[C@]34O6)C(=C)CC[C@@H]12"
+    ],
+    "ordered_event_ids": [
+      "P01",
+      "O01",
+      "O03"
+    ],
+    "ordered_molecule_labels": [
+      "2",
+      "3",
+      "7",
+      "8",
+      "9"
+    ],
+    "ordered_step_ids": [
+      "P01.1",
+      "O01.1",
+      "O03.1"
+    ],
+    "route_id": "Diversification 9",
+    "route_type": "source_bound_control_branch",
+    "split_group": "10.1021/acs.orglett.6c00658",
+    "start_label": "2",
+    "start_labels": [
+      "2"
+    ],
+    "step_reaction_smiles_sequence": [
+      "C=C1C(=O)C[C@H]2C(=C)CC[C@H]3C(=C)C(=O)O[C@@H]3[C@@H]12>>C=C1C(=O)O[C@@H]2[C@H]3C4=C(C[C@H]3C(=C)CC[C@@H]12)O[C@]1(CC4)C(=O)C[C@H]2C(=C)CC[C@H]3C(=C)C(=O)O[C@@H]3[C@H]21",
+      "C=C1C(=O)O[C@@H]2[C@H]3C4=C(C[C@H]3C(=C)CC[C@@H]12)O[C@]1(CC4)C(=O)C[C@H]2C(=C)CC[C@H]3C(=C)C(=O)O[C@@H]3[C@H]21>>C=C1C(=O)O[C@@H]2[C@@H]3[C@@H](CC(=O)[C@]34CC[C@]35O[C@]3(C[C@H]3C(=C)CC[C@H]6C(=C)C(=O)O[C@@H]6[C@H]35)O4)C(=C)CC[C@@H]12.C=C1CC[C@H]2C(=C)C(=O)O[C@@H]2[C@@H]2[C@H]1C=C1O[C@]34C[C@H]5C(=C)CC[C@H]6C(=C)C(=O)O[C@@H]6[C@H]5[C@]3(O)CC[C@@]12O4",
+      "C=C1C(=O)O[C@@H]2[C@@H]3[C@@H](CC(=O)[C@]34CC[C@]35O[C@]3(C[C@H]3C(=C)CC[C@H]6C(=C)C(=O)O[C@@H]6[C@H]35)O4)C(=C)CC[C@@H]12>>C=C1C(=O)O[C@@H]2[C@@H]3[C@@H](CC4(O)O[C@]56C[C@H]7C(=C)CC[C@H]8C(=C)C(=O)O[C@@H]8[C@H]7[C@]5(O)CC[C@]34O6)C(=C)CC[C@@H]12"
+    ],
+    "target_label": "9"
+  },
+  {
+    "admission_authority": false,
+    "formal_benchmark_eligible": false,
+    "from_commercial_starting_materials_complete": false,
+    "full_article_route_coverage": true,
+    "molecule_smiles_sequence": [
+      "C=C1C(=O)C[C@H]2C(=C)CC[C@H]3C(=C)C(=O)O[C@@H]3[C@@H]12",
+      "C=C1C(=O)O[C@@H]2[C@H]3C4=C(C[C@H]3C(=C)CC[C@@H]12)O[C@]1(CC4)C(=O)C[C@H]2C(=C)CC[C@H]3C(=C)C(=O)O[C@@H]3[C@H]21",
+      "C=C1CC[C@H]2C(=C)C(=O)O[C@@H]2[C@@H]2[C@H]1C(O)[C@@]13O[C@@]45C[C@H]6C(=C)CC[C@H]7C(=C)C(=O)O[C@@H]7[C@H]6[C@]4(CC[C@]21O5)O3",
+      "C=C1CC[C@H]2C(=C)C(=O)O[C@@H]2[C@@H]2[C@H]1C(O)[C@@]13O[C@@]45C[C@H]6C(=C)CC[C@H]7C(=C)C(=O)O[C@@H]7[C@H]6[C@]4(CC[C@]21O5)O3"
+    ],
+    "ordered_event_ids": [
+      "P01",
+      "O04"
+    ],
+    "ordered_molecule_labels": [
+      "2",
+      "3",
+      "10a",
+      "10b"
+    ],
+    "ordered_step_ids": [
+      "P01.1",
+      "O04.1"
+    ],
+    "route_id": "Diversification 10a",
+    "route_type": "source_bound_control_branch",
+    "split_group": "10.1021/acs.orglett.6c00658",
+    "start_label": "2",
+    "start_labels": [
+      "2"
+    ],
+    "step_reaction_smiles_sequence": [
+      "C=C1C(=O)C[C@H]2C(=C)CC[C@H]3C(=C)C(=O)O[C@@H]3[C@@H]12>>C=C1C(=O)O[C@@H]2[C@H]3C4=C(C[C@H]3C(=C)CC[C@@H]12)O[C@]1(CC4)C(=O)C[C@H]2C(=C)CC[C@H]3C(=C)C(=O)O[C@@H]3[C@H]21",
+      "C=C1C(=O)O[C@@H]2[C@H]3C4=C(C[C@H]3C(=C)CC[C@@H]12)O[C@]1(CC4)C(=O)C[C@H]2C(=C)CC[C@H]3C(=C)C(=O)O[C@@H]3[C@H]21>>C=C1CC[C@H]2C(=C)C(=O)O[C@@H]2[C@@H]2[C@H]1C(O)[C@@]13O[C@@]45C[C@H]6C(=C)CC[C@H]7C(=C)C(=O)O[C@@H]7[C@H]6[C@]4(CC[C@]21O5)O3.C=C1CC[C@H]2C(=C)C(=O)O[C@@H]2[C@@H]2[C@H]1C(O)[C@@]13O[C@@]45C[C@H]6C(=C)CC[C@H]7C(=C)C(=O)O[C@@H]7[C@H]6[C@]4(CC[C@]21O5)O3"
+    ],
+    "target_label": "10a"
+  },
+  {
+    "admission_authority": false,
+    "formal_benchmark_eligible": false,
+    "from_commercial_starting_materials_complete": false,
+    "full_article_route_coverage": true,
+    "molecule_smiles_sequence": [
+      "C=C1C(=O)C[C@H]2C(=C)CC[C@H]3C(=C)C(=O)O[C@@H]3[C@@H]12",
+      "C=C1C(=O)O[C@@H]2[C@H]3C4=C(C[C@H]3C(=C)CC[C@@H]12)O[C@]1(CC4)C(=O)C[C@H]2C(=C)CC[C@H]3C(=C)C(=O)O[C@@H]3[C@H]21",
+      "C=C1CC[C@H]2C(=C)C(=O)O[C@@H]2[C@@H]2[C@H]1C(O)[C@@]13O[C@@]45C[C@H]6C(=C)CC[C@H]7C(=C)C(=O)O[C@@H]7[C@H]6[C@]4(CC[C@]21O5)O3",
+      "C=C1CC[C@H]2C(=C)C(=O)O[C@@H]2[C@@H]2[C@H]1C(O)[C@@]13O[C@@]45C[C@H]6C(=C)CC[C@H]7C(=C)C(=O)O[C@@H]7[C@H]6[C@]4(CC[C@]21O5)O3"
+    ],
+    "ordered_event_ids": [
+      "P01",
+      "O04"
+    ],
+    "ordered_molecule_labels": [
+      "2",
+      "3",
+      "10a",
+      "10b"
+    ],
+    "ordered_step_ids": [
+      "P01.1",
+      "O04.1"
+    ],
+    "route_id": "Diversification 10b",
+    "route_type": "source_bound_control_branch",
+    "split_group": "10.1021/acs.orglett.6c00658",
+    "start_label": "2",
+    "start_labels": [
+      "2"
+    ],
+    "step_reaction_smiles_sequence": [
+      "C=C1C(=O)C[C@H]2C(=C)CC[C@H]3C(=C)C(=O)O[C@@H]3[C@@H]12>>C=C1C(=O)O[C@@H]2[C@H]3C4=C(C[C@H]3C(=C)CC[C@@H]12)O[C@]1(CC4)C(=O)C[C@H]2C(=C)CC[C@H]3C(=C)C(=O)O[C@@H]3[C@H]21",
+      "C=C1C(=O)O[C@@H]2[C@H]3C4=C(C[C@H]3C(=C)CC[C@@H]12)O[C@]1(CC4)C(=O)C[C@H]2C(=C)CC[C@H]3C(=C)C(=O)O[C@@H]3[C@H]21>>C=C1CC[C@H]2C(=C)C(=O)O[C@@H]2[C@@H]2[C@H]1C(O)[C@@]13O[C@@]45C[C@H]6C(=C)CC[C@H]7C(=C)C(=O)O[C@@H]7[C@H]6[C@]4(CC[C@]21O5)O3.C=C1CC[C@H]2C(=C)C(=O)O[C@@H]2[C@@H]2[C@H]1C(O)[C@@]13O[C@@]45C[C@H]6C(=C)CC[C@H]7C(=C)C(=O)O[C@@H]7[C@H]6[C@]4(CC[C@]21O5)O3"
+    ],
+    "target_label": "10b"
+  }
+]

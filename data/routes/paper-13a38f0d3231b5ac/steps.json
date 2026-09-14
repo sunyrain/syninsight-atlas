@@ -1,0 +1,283 @@
+[
+  {
+    "admission_authority": false,
+    "agents": [
+      "(R,R)-L1"
+    ],
+    "event_id": "E01",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "One source-reported preparation of a stereoisomer mixture",
+    "product_labels": [
+      "5R",
+      "5S"
+    ],
+    "reactant_labels": [
+      "ketone",
+      "MeMgBr"
+    ],
+    "reported_combined_yield_percent": 62,
+    "sample_series": "R-enriched",
+    "solvents": [
+      "toluene",
+      "diethyl ether"
+    ],
+    "source_references": [
+      {
+        "locator": "SI target-specific preparation/characterization; E01 R-enriched experiment",
+        "pages": [
+          15,
+          16
+        ],
+        "sha256": "b0b6621f8c247a6b3c96bfa893da2f6ead658d9ffc6ca2d2d17547b36bcc0f08",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E01.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "CC(C)=CCCC(=O)c1ccc(C)cc1.[Br-].[CH3-].[Mg+2]>>CC(C)=CCC[C@@](C)(O)c1ccc(C)cc1.CC(C)=CCC[C@](C)(O)c1ccc(C)cc1"
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "Amberlyst-15",
+      "hydrogen peroxide"
+    ],
+    "event_id": "E02",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "One source-reported preparation of a stereoisomer mixture",
+    "product_labels": [
+      "6R",
+      "6S"
+    ],
+    "reactant_labels": [
+      "5R",
+      "5S"
+    ],
+    "reported_combined_yield_percent": 53,
+    "sample_series": "R-enriched",
+    "solvents": [
+      "cyclopentyl methyl ether",
+      "toluene"
+    ],
+    "source_references": [
+      {
+        "locator": "SI target-specific preparation/characterization; E02 R-enriched experiment",
+        "pages": [
+          26,
+          27
+        ],
+        "sha256": "b0b6621f8c247a6b3c96bfa893da2f6ead658d9ffc6ca2d2d17547b36bcc0f08",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E02.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "CC(C)=CCC[C@@](C)(O)c1ccc(C)cc1.CC(C)=CCC[C@](C)(O)c1ccc(C)cc1>>CC(C)=CCC[C@@](C)(OO)c1ccc(C)cc1.CC(C)=CCC[C@](C)(OO)c1ccc(C)cc1"
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "oxidized samarium(II) iodide solution",
+      "air"
+    ],
+    "event_id": "E03",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "One source-reported preparation of a stereoisomer mixture",
+    "product_labels": [
+      "7",
+      "ent-7",
+      "8",
+      "ent-8"
+    ],
+    "reactant_labels": [
+      "6R",
+      "6S"
+    ],
+    "reported_combined_yield_percent": 27,
+    "sample_series": "scalemic",
+    "solvents": [
+      "benzene",
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "SI target-specific preparation/characterization; E03 scalemic experiment",
+        "pages": [
+          39,
+          40,
+          41
+        ],
+        "sha256": "b0b6621f8c247a6b3c96bfa893da2f6ead658d9ffc6ca2d2d17547b36bcc0f08",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E03.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "CC(C)=CCC[C@@](C)(OO)c1ccc(C)cc1.CC(C)=CCC[C@](C)(OO)c1ccc(C)cc1>>Cc1ccc([C@@]2(C)CC[C@@H](C(C)(C)OO)OO2)cc1.Cc1ccc([C@@]2(C)CC[C@H](C(C)(C)OO)OO2)cc1.Cc1ccc([C@]2(C)CC[C@@H](C(C)(C)OO)OO2)cc1.Cc1ccc([C@]2(C)CC[C@H](C(C)(C)OO)OO2)cc1"
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "triphenylphosphine"
+    ],
+    "event_id": "E04",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "One source-reported preparation of a stereoisomer mixture",
+    "product_labels": [
+      "1",
+      "ent-1",
+      "2",
+      "ent-2"
+    ],
+    "reactant_labels": [
+      "7",
+      "ent-7",
+      "8",
+      "ent-8"
+    ],
+    "reported_combined_yield_percent": 75,
+    "sample_series": "scalemic",
+    "solvents": [
+      "chloroform"
+    ],
+    "source_references": [
+      {
+        "locator": "SI target-specific preparation/characterization; E04 scalemic experiment",
+        "pages": [
+          43,
+          44
+        ],
+        "sha256": "b0b6621f8c247a6b3c96bfa893da2f6ead658d9ffc6ca2d2d17547b36bcc0f08",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E04.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "Cc1ccc([C@@]2(C)CC[C@@H](C(C)(C)OO)OO2)cc1.Cc1ccc([C@@]2(C)CC[C@H](C(C)(C)OO)OO2)cc1.Cc1ccc([C@]2(C)CC[C@@H](C(C)(C)OO)OO2)cc1.Cc1ccc([C@]2(C)CC[C@H](C(C)(C)OO)OO2)cc1>>Cc1ccc([C@@]2(C)CC[C@@H](C(C)(C)O)OO2)cc1.Cc1ccc([C@@]2(C)CC[C@H](C(C)(C)O)OO2)cc1.Cc1ccc([C@]2(C)CC[C@@H](C(C)(C)O)OO2)cc1.Cc1ccc([C@]2(C)CC[C@H](C(C)(C)O)OO2)cc1"
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "oxidized samarium(II) iodide solution",
+      "air"
+    ],
+    "event_id": "E05",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "One source-reported preparation of a stereoisomer mixture",
+    "product_labels": [
+      "7",
+      "ent-7",
+      "8",
+      "ent-8"
+    ],
+    "reactant_labels": [
+      "6R",
+      "6S"
+    ],
+    "reported_combined_yield_percent": 40,
+    "sample_series": "racemic",
+    "solvents": [
+      "benzene",
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "SI target-specific preparation/characterization; E05 racemic experiment",
+        "pages": [
+          39,
+          40,
+          41
+        ],
+        "sha256": "b0b6621f8c247a6b3c96bfa893da2f6ead658d9ffc6ca2d2d17547b36bcc0f08",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E05.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "CC(C)=CCC[C@@](C)(OO)c1ccc(C)cc1.CC(C)=CCC[C@](C)(OO)c1ccc(C)cc1>>Cc1ccc([C@@]2(C)CC[C@@H](C(C)(C)OO)OO2)cc1.Cc1ccc([C@@]2(C)CC[C@H](C(C)(C)OO)OO2)cc1.Cc1ccc([C@]2(C)CC[C@@H](C(C)(C)OO)OO2)cc1.Cc1ccc([C@]2(C)CC[C@H](C(C)(C)OO)OO2)cc1"
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "triphenylphosphine"
+    ],
+    "event_id": "E06",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "One source-reported preparation of a stereoisomer mixture",
+    "product_labels": [
+      "1",
+      "ent-1",
+      "2",
+      "ent-2"
+    ],
+    "reactant_labels": [
+      "7",
+      "ent-7",
+      "8",
+      "ent-8"
+    ],
+    "reported_combined_yield_percent": 80,
+    "sample_series": "racemic",
+    "solvents": [
+      "chloroform"
+    ],
+    "source_references": [
+      {
+        "locator": "SI target-specific preparation/characterization; E06 racemic experiment",
+        "pages": [
+          43,
+          44
+        ],
+        "sha256": "b0b6621f8c247a6b3c96bfa893da2f6ead658d9ffc6ca2d2d17547b36bcc0f08",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E06.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "Cc1ccc([C@@]2(C)CC[C@@H](C(C)(C)OO)OO2)cc1.Cc1ccc([C@@]2(C)CC[C@H](C(C)(C)OO)OO2)cc1.Cc1ccc([C@]2(C)CC[C@@H](C(C)(C)OO)OO2)cc1.Cc1ccc([C@]2(C)CC[C@H](C(C)(C)OO)OO2)cc1>>Cc1ccc([C@@]2(C)CC[C@@H](C(C)(C)O)OO2)cc1.Cc1ccc([C@@]2(C)CC[C@H](C(C)(C)O)OO2)cc1.Cc1ccc([C@]2(C)CC[C@@H](C(C)(C)O)OO2)cc1.Cc1ccc([C@]2(C)CC[C@H](C(C)(C)O)OO2)cc1"
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "(R,R)-L2"
+    ],
+    "event_id": "E07",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "One source-reported preparation of a stereoisomer mixture",
+    "product_labels": [
+      "5R",
+      "5S"
+    ],
+    "reactant_labels": [
+      "acetophenone",
+      "prenylMgBr"
+    ],
+    "reported_combined_yield_percent": 73,
+    "sample_series": "S-enriched",
+    "solvents": [
+      "toluene",
+      "diethyl ether"
+    ],
+    "source_references": [
+      {
+        "locator": "SI target-specific preparation/characterization; E07 S-enriched experiment",
+        "pages": [
+          15,
+          16
+        ],
+        "sha256": "b0b6621f8c247a6b3c96bfa893da2f6ead658d9ffc6ca2d2d17547b36bcc0f08",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E07.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "CC(=O)c1ccc(C)cc1.[Br-].[CH2-]CC=C(C)C.[Mg+2]>>CC(C)=CCC[C@@](C)(O)c1ccc(C)cc1.CC(C)=CCC[C@](C)(O)c1ccc(C)cc1"
+  }
+]

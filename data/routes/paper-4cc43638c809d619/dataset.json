@@ -1,0 +1,1220 @@
+{
+  "admission_authority": false,
+  "available_si_preparation_network_covered": true,
+  "conditions_fully_standardized": false,
+  "coverage_definition": "Source-bound forward preparations in main Scheme 2/Tables 1-2 and SI pp3-4, from literature-known protected 10-keto-acaudiol A (4). Includes diene preparation and the isolated regioisomer. The cited upstream synthesis of 4 is outside this paper. Presumed LR-MS species 10 is not an isolated structure-confirmed preparation. Independent chemical review remains pending.",
+  "doi": "10.1021/acs.joc.6c00941",
+  "extraction_method": "source_drawing_checked_network_transcription",
+  "formal_benchmark_eligible": false,
+  "formula_checks": [
+    {
+      "check_basis": "Curation expected formula; source HRMS where available, otherwise drawing atom count.",
+      "expected_neutral_formula": "C5H8O2",
+      "label": "acetylacetone",
+      "neutral_formula_match": true,
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: formula acetylacetone",
+          "pages": [
+            2
+          ],
+          "sha256": "729f3e2d15edbc1f46d2b5cea1cdf72bf01200685477a8809abeb07565735748",
+          "source_id": "article"
+        }
+      ]
+    },
+    {
+      "check_basis": "Curation expected formula; source HRMS where available, otherwise drawing atom count.",
+      "expected_neutral_formula": "C21H24O6",
+      "label": "4",
+      "neutral_formula_match": true,
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: formula 4",
+          "pages": [
+            2
+          ],
+          "sha256": "729f3e2d15edbc1f46d2b5cea1cdf72bf01200685477a8809abeb07565735748",
+          "source_id": "article"
+        }
+      ]
+    },
+    {
+      "check_basis": "Curation expected formula; source HRMS where available, otherwise drawing atom count.",
+      "expected_neutral_formula": "C7H8O3",
+      "label": "7",
+      "neutral_formula_match": true,
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: formula 7",
+          "pages": [
+            2
+          ],
+          "sha256": "729f3e2d15edbc1f46d2b5cea1cdf72bf01200685477a8809abeb07565735748",
+          "source_id": "article"
+        }
+      ]
+    },
+    {
+      "check_basis": "Curation expected formula; source HRMS where available, otherwise drawing atom count.",
+      "expected_neutral_formula": "C11H24O2Si2",
+      "label": "8",
+      "neutral_formula_match": true,
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: formula 8",
+          "pages": [
+            2
+          ],
+          "sha256": "729f3e2d15edbc1f46d2b5cea1cdf72bf01200685477a8809abeb07565735748",
+          "source_id": "article"
+        }
+      ]
+    },
+    {
+      "check_basis": "Curation expected formula; source HRMS where available, otherwise drawing atom count.",
+      "expected_neutral_formula": "C26H30O7",
+      "label": "6",
+      "neutral_formula_match": true,
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: formula 6",
+          "pages": [
+            2
+          ],
+          "sha256": "729f3e2d15edbc1f46d2b5cea1cdf72bf01200685477a8809abeb07565735748",
+          "source_id": "article"
+        }
+      ]
+    },
+    {
+      "check_basis": "Curation expected formula; source HRMS where available, otherwise drawing atom count.",
+      "expected_neutral_formula": "C26H30O7",
+      "label": "9",
+      "neutral_formula_match": true,
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: formula 9",
+          "pages": [
+            2
+          ],
+          "sha256": "729f3e2d15edbc1f46d2b5cea1cdf72bf01200685477a8809abeb07565735748",
+          "source_id": "article"
+        }
+      ]
+    },
+    {
+      "check_basis": "Curation expected formula; source HRMS where available, otherwise drawing atom count.",
+      "expected_neutral_formula": "C19H24O7",
+      "label": "1",
+      "neutral_formula_match": true,
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: formula 1",
+          "pages": [
+            1,
+            2
+          ],
+          "sha256": "729f3e2d15edbc1f46d2b5cea1cdf72bf01200685477a8809abeb07565735748",
+          "source_id": "article"
+        }
+      ]
+    }
+  ],
+  "full_article_route_coverage": true,
+  "hrms_checks": [
+    {
+      "adduct": "[M+Na]+",
+      "calculated_mz_reported": 477.1884,
+      "found_mz_reported": 477.1891,
+      "graph_calculated_mz": 477.1883740000909,
+      "label": "6",
+      "neutral_formula_match": true,
+      "reported_calculated_mz_consistent": true,
+      "reported_ion_formula": "C26H30O7Na",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: 6",
+          "pages": [
+            2
+          ],
+          "sha256": "729f3e2d15edbc1f46d2b5cea1cdf72bf01200685477a8809abeb07565735748",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: 6",
+          "pages": [
+            3
+          ],
+          "sha256": "5b99396ac1641ad310706e797d77e017107b7d6e7a1ff9331ee9fc81760236d5",
+          "source_id": "si"
+        }
+      ]
+    },
+    {
+      "adduct": "[M+Na]+",
+      "calculated_mz_reported": 477.1884,
+      "found_mz_reported": 477.1898,
+      "graph_calculated_mz": 477.1883740000909,
+      "label": "9",
+      "neutral_formula_match": true,
+      "reported_calculated_mz_consistent": true,
+      "reported_ion_formula": "C26H30O7Na",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: 9",
+          "pages": [
+            2
+          ],
+          "sha256": "729f3e2d15edbc1f46d2b5cea1cdf72bf01200685477a8809abeb07565735748",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: 9",
+          "pages": [
+            4
+          ],
+          "sha256": "5b99396ac1641ad310706e797d77e017107b7d6e7a1ff9331ee9fc81760236d5",
+          "source_id": "si"
+        }
+      ]
+    },
+    {
+      "adduct": "[M+Na]+",
+      "calculated_mz_reported": 387.1414,
+      "found_mz_reported": 387.1418,
+      "graph_calculated_mz": 387.14142380809096,
+      "label": "1",
+      "neutral_formula_match": true,
+      "reported_calculated_mz_consistent": true,
+      "reported_ion_formula": "C19H24O7Na",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: 1",
+          "pages": [
+            1,
+            2
+          ],
+          "sha256": "729f3e2d15edbc1f46d2b5cea1cdf72bf01200685477a8809abeb07565735748",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: 1",
+          "pages": [
+            4
+          ],
+          "sha256": "5b99396ac1641ad310706e797d77e017107b7d6e7a1ff9331ee9fc81760236d5",
+          "source_id": "si"
+        }
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "detail": "SI p3 explicitly uses 1,2-dichloroethane/TFA, while main Table 1 specifies CH2Cl2/TFA. Procedure values retained.",
+      "id": "acid-solvent",
+      "severity": "source_conflict",
+      "subject": "E02"
+    },
+    {
+      "detail": "Source drawing does not assign new C8/C9 centers; no stereochemical completion inferred.",
+      "id": "regio-stereo",
+      "severity": "review_pending",
+      "subject": "9"
+    },
+    {
+      "detail": "Previously published upstream synthesis is cited but not repeated here; target route begins at the source-drawn known macrocycle.",
+      "id": "known-start",
+      "severity": "representation_boundary",
+      "subject": "4"
+    },
+    {
+      "detail": "Source-bound facts require independent chemist review.",
+      "id": "independent-review",
+      "severity": "review_pending",
+      "subject": "all"
+    }
+  ],
+  "molecules": [
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "CC(=O)CC(C)=O",
+      "canonical_smiles": "CC(=O)CC(C)=O",
+      "depiction": "structures/acetylacetone.svg",
+      "exact_mass": 100.052429496,
+      "formal_benchmark_eligible": false,
+      "label": "acetylacetone",
+      "molecular_formula": "C5H8O2",
+      "molecule_id": "mol-f992fc62b91bfd6ce7dcd013769b89f22e454906c434d96125100f5889e38211",
+      "name": "SI compound acetylacetone",
+      "paper_label": "acetylacetone",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: acetylacetone",
+          "pages": [
+            2
+          ],
+          "sha256": "729f3e2d15edbc1f46d2b5cea1cdf72bf01200685477a8809abeb07565735748",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: acetylacetone",
+          "pages": [
+            3
+          ],
+          "sha256": "5b99396ac1641ad310706e797d77e017107b7d6e7a1ff9331ee9fc81760236d5",
+          "source_id": "si"
+        }
+      ],
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "C[C@@H]1OC(=O)/C=C/C(=O)CC[C@H](C)OC(=O)/C=C/[C@H]1OCc1ccccc1",
+      "canonical_smiles": "C[C@@H]1OC(=O)/C=C/C(=O)CC[C@H](C)OC(=O)/C=C/[C@H]1OCc1ccccc1",
+      "depiction": "structures/4.svg",
+      "exact_mass": 372.157288488,
+      "formal_benchmark_eligible": false,
+      "label": "4",
+      "molecular_formula": "C21H24O6",
+      "molecule_id": "mol-95dd93bb3b6baa2ab226365c6f2ac529a03f1b8d971ad361869e9249bc5b1087",
+      "name": "Protected 10-keto-acaudiol A",
+      "paper_label": "4",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: 4",
+          "pages": [
+            2
+          ],
+          "sha256": "729f3e2d15edbc1f46d2b5cea1cdf72bf01200685477a8809abeb07565735748",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: 4",
+          "pages": [
+            3
+          ],
+          "sha256": "5b99396ac1641ad310706e797d77e017107b7d6e7a1ff9331ee9fc81760236d5",
+          "source_id": "si"
+        }
+      ],
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "COc1cc(C)oc(=O)c1",
+      "canonical_smiles": "COc1cc(C)oc(=O)c1",
+      "depiction": "structures/7.svg",
+      "exact_mass": 140.047344116,
+      "formal_benchmark_eligible": false,
+      "label": "7",
+      "molecular_formula": "C7H8O3",
+      "molecule_id": "mol-e3834fe70221d8bc17d1d584270cbc8b760e9aa76175aeb79037e9e209c70306",
+      "name": "4-Methoxy-6-methyl-2H-pyran-2-one",
+      "paper_label": "7",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: 7",
+          "pages": [
+            2
+          ],
+          "sha256": "729f3e2d15edbc1f46d2b5cea1cdf72bf01200685477a8809abeb07565735748",
+          "source_id": "article"
+        }
+      ],
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "C=C(C=C(C)O[Si](C)(C)C)O[Si](C)(C)C",
+      "canonical_smiles": "C=C(C=C(C)O[Si](C)(C)C)O[Si](C)(C)C",
+      "depiction": "structures/8.svg",
+      "exact_mass": 244.13148306799997,
+      "formal_benchmark_eligible": false,
+      "label": "8",
+      "molecular_formula": "C11H24O2Si2",
+      "molecule_id": "mol-44d6a84266612048864dd407291277f6922a54b242ff158ae544a3c62ba0e89d",
+      "name": "Bis-silyloxy diene",
+      "paper_label": "8",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: 8",
+          "pages": [
+            2
+          ],
+          "sha256": "729f3e2d15edbc1f46d2b5cea1cdf72bf01200685477a8809abeb07565735748",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: 8",
+          "pages": [
+            3
+          ],
+          "sha256": "5b99396ac1641ad310706e797d77e017107b7d6e7a1ff9331ee9fc81760236d5",
+          "source_id": "si"
+        }
+      ],
+      "stereo_status": "E_Z_mixture_unresolved",
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "CC1=CC(=O)C[C@@H]2C(=O)O[C@@H](C)[C@H](OCc3ccccc3)/C=C/C(=O)O[C@@H](C)CCC(=O)[C@@H]12",
+      "canonical_smiles": "CC1=CC(=O)C[C@@H]2C(=O)O[C@@H](C)[C@H](OCc3ccccc3)/C=C/C(=O)O[C@@H](C)CCC(=O)[C@@H]12",
+      "depiction": "structures/6.svg",
+      "exact_mass": 454.1991532999999,
+      "formal_benchmark_eligible": false,
+      "label": "6",
+      "molecular_formula": "C26H30O7",
+      "molecule_id": "mol-327633c738709881d9d593e579ae1f58e6c4fe661a26bf8fe7d3bc6ad7325dc3",
+      "name": "Protected acaulone B",
+      "paper_label": "6",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: 6",
+          "pages": [
+            2
+          ],
+          "sha256": "729f3e2d15edbc1f46d2b5cea1cdf72bf01200685477a8809abeb07565735748",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: 6",
+          "pages": [
+            3
+          ],
+          "sha256": "5b99396ac1641ad310706e797d77e017107b7d6e7a1ff9331ee9fc81760236d5",
+          "source_id": "si"
+        }
+      ],
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "CC1=CC(=O)CC2C(=O)CC[C@H](C)OC(=O)/C=C/[C@@H](OCc3ccccc3)[C@H](C)OC(=O)C12",
+      "canonical_smiles": "CC1=CC(=O)CC2C(=O)CC[C@H](C)OC(=O)/C=C/[C@@H](OCc3ccccc3)[C@H](C)OC(=O)C12",
+      "depiction": "structures/9.svg",
+      "exact_mass": 454.1991532999999,
+      "formal_benchmark_eligible": false,
+      "label": "9",
+      "molecular_formula": "C26H30O7",
+      "molecule_id": "mol-b585eb6b330abfa23f8092f709198c6f3f509392c13ea54e701a802b9a7ecc57",
+      "name": "Protected regioisomer of acaulone B",
+      "paper_label": "9",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: 9",
+          "pages": [
+            2
+          ],
+          "sha256": "729f3e2d15edbc1f46d2b5cea1cdf72bf01200685477a8809abeb07565735748",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: 9",
+          "pages": [
+            4
+          ],
+          "sha256": "5b99396ac1641ad310706e797d77e017107b7d6e7a1ff9331ee9fc81760236d5",
+          "source_id": "si"
+        }
+      ],
+      "stereo_status": "C8_C9_unspecified_in_source",
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "CC1=CC(=O)C[C@@H]2C(=O)O[C@@H](C)[C@H](O)/C=C/C(=O)O[C@@H](C)CCC(=O)[C@@H]12",
+      "canonical_smiles": "CC1=CC(=O)C[C@@H]2C(=O)O[C@@H](C)[C@H](O)/C=C/C(=O)O[C@@H](C)CCC(=O)[C@@H]12",
+      "depiction": "structures/1.svg",
+      "exact_mass": 364.152203108,
+      "formal_benchmark_eligible": false,
+      "label": "1",
+      "molecular_formula": "C19H24O7",
+      "molecule_id": "mol-ddebae8edccf5a64a747a33bdc52e61918b0f8971117a85df48b03ff58fc332f",
+      "name": "(+)-Acaulone B",
+      "paper_label": "1",
+      "review_status": "pending_independent_chemist_review",
+      "role": "target",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: 1",
+          "pages": [
+            1,
+            2
+          ],
+          "sha256": "729f3e2d15edbc1f46d2b5cea1cdf72bf01200685477a8809abeb07565735748",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: 1",
+          "pages": [
+            4
+          ],
+          "sha256": "5b99396ac1641ad310706e797d77e017107b7d6e7a1ff9331ee9fc81760236d5",
+          "source_id": "si"
+        }
+      ],
+      "structure_basis": "source_drawing_transcription"
+    }
+  ],
+  "observations": [
+    "SI p3 prepares diene 8 from acetylacetone in 63% crude yield; E/Z mixture is not resolved.",
+    "4 + 8 gives isolated 6 (67%) and 9 (2%) through a one-pot cycloaddition/acid treatment.",
+    "Main article confirms C8/C9 stereochemistry of 6 by X-ray. SI drawing of 9 leaves those centers unspecified.",
+    "Photochemical debenzylation of 6 gives 1 in 55% isolated yield.",
+    "The three inherited stereocenters and assigned centers in 6/1 are transcribed from source wedge drawings using explicit coordinates; temporary atom maps are removed from identity SMILES."
+  ],
+  "paper_id": "paper-4cc43638c809d619",
+  "participants": [],
+  "reactions": [
+    {
+      "admission_authority": false,
+      "category": "forward_synthesis",
+      "event_id": "E01",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "mixture_yield_percent": 63,
+      "product_labels": [
+        "8"
+      ],
+      "reactant_labels": [
+        "acetylacetone"
+      ],
+      "reagents": [
+        "Et3N",
+        "TMSOTf"
+      ],
+      "reported_yield_text": "63% combined mixture yield",
+      "reported_yields": [],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "ether"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: E01",
+          "pages": [
+            2
+          ],
+          "sha256": "729f3e2d15edbc1f46d2b5cea1cdf72bf01200685477a8809abeb07565735748",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: E01",
+          "pages": [
+            3
+          ],
+          "sha256": "5b99396ac1641ad310706e797d77e017107b7d6e7a1ff9331ee9fc81760236d5",
+          "source_id": "si"
+        }
+      ],
+      "step_ids": [
+        "E01.1"
+      ],
+      "substrate_product_smiles": "CC(=O)CC(C)=O>>C=C(C=C(C)O[Si](C)(C)C)O[Si](C)(C)C",
+      "temperature": "0 C",
+      "yield_scope": "Crude E/Z mixture yield, not an isolated single stereoisomer."
+    },
+    {
+      "admission_authority": false,
+      "category": "forward_synthesis",
+      "event_id": "E02",
+      "experimental_stage_count": 2,
+      "formal_benchmark_eligible": false,
+      "operation_stages": [
+        "Cycloaddition at 50 C, 2 h",
+        "Acidic desilylation/dehydration at room temperature, 20 min"
+      ],
+      "product_labels": [
+        "6",
+        "9"
+      ],
+      "reactant_labels": [
+        "4",
+        "8"
+      ],
+      "reagents": [
+        "TFA"
+      ],
+      "reported_yields": [
+        {
+          "from_label": "4",
+          "percent": 67,
+          "product_label": "6",
+          "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+        },
+        {
+          "from_label": "4",
+          "percent": 2,
+          "product_label": "9",
+          "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+        }
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "neat",
+        "1,2-dichloroethane"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: E02",
+          "pages": [
+            2
+          ],
+          "sha256": "729f3e2d15edbc1f46d2b5cea1cdf72bf01200685477a8809abeb07565735748",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: E02",
+          "pages": [
+            3
+          ],
+          "sha256": "5b99396ac1641ad310706e797d77e017107b7d6e7a1ff9331ee9fc81760236d5",
+          "source_id": "si"
+        }
+      ],
+      "step_ids": [
+        "E02.1"
+      ],
+      "substrate_product_smiles": "C=C(C=C(C)O[Si](C)(C)C)O[Si](C)(C)C.C[C@@H]1OC(=O)/C=C/C(=O)CC[C@H](C)OC(=O)/C=C/[C@H]1OCc1ccccc1>>CC1=CC(=O)CC2C(=O)CC[C@H](C)OC(=O)/C=C/[C@@H](OCc3ccccc3)[C@H](C)OC(=O)C12.CC1=CC(=O)C[C@@H]2C(=O)O[C@@H](C)[C@H](OCc3ccccc3)/C=C/C(=O)O[C@@H](C)CCC(=O)[C@@H]12"
+    },
+    {
+      "admission_authority": false,
+      "category": "forward_synthesis",
+      "event_id": "E03",
+      "experimental_stage_count": 2,
+      "formal_benchmark_eligible": false,
+      "operation_stages": [
+        "Irradiation 7 h",
+        "Additional CH2Cl2/water; irradiation 18.5 h"
+      ],
+      "product_labels": [
+        "1"
+      ],
+      "reactant_labels": [
+        "6"
+      ],
+      "reagents": [
+        "DDQ",
+        "525 nm green LED"
+      ],
+      "reported_yields": [
+        {
+          "from_label": "6",
+          "percent": 55,
+          "product_label": "1",
+          "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+        }
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "dichloromethane",
+        "water"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: E03",
+          "pages": [
+            2
+          ],
+          "sha256": "729f3e2d15edbc1f46d2b5cea1cdf72bf01200685477a8809abeb07565735748",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: E03",
+          "pages": [
+            4
+          ],
+          "sha256": "5b99396ac1641ad310706e797d77e017107b7d6e7a1ff9331ee9fc81760236d5",
+          "source_id": "si"
+        }
+      ],
+      "step_ids": [
+        "E03.1"
+      ],
+      "substrate_product_smiles": "CC1=CC(=O)C[C@@H]2C(=O)O[C@@H](C)[C@H](OCc3ccccc3)/C=C/C(=O)O[C@@H](C)CCC(=O)[C@@H]12>>CC1=CC(=O)C[C@@H]2C(=O)O[C@@H](C)[C@H](O)/C=C/C(=O)O[C@@H](C)CCC(=O)[C@@H]12",
+      "temperature": "room temperature"
+    },
+    {
+      "admission_authority": false,
+      "category": "forward_synthesis",
+      "event_id": "E04",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "product_labels": [
+        "6",
+        "9"
+      ],
+      "reactant_labels": [
+        "4",
+        "7"
+      ],
+      "reagents": [],
+      "reported_yields": [
+        {
+          "from_label": "4",
+          "percent": 13,
+          "product_label": "6",
+          "scope": "Main Table 1 entry 1; alternative pyrone route, with retro-cycloaddition loss of CO2."
+        },
+        {
+          "from_label": "4",
+          "percent": 5,
+          "product_label": "9",
+          "scope": "Main Table 1 entry 1; alternative pyrone route, with retro-cycloaddition loss of CO2."
+        }
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "toluene"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: E04",
+          "pages": [
+            2
+          ],
+          "sha256": "729f3e2d15edbc1f46d2b5cea1cdf72bf01200685477a8809abeb07565735748",
+          "source_id": "article"
+        }
+      ],
+      "step_ids": [
+        "E04.1"
+      ],
+      "substrate_product_smiles": "COc1cc(C)oc(=O)c1.C[C@@H]1OC(=O)/C=C/C(=O)CC[C@H](C)OC(=O)/C=C/[C@H]1OCc1ccccc1>>CC1=CC(=O)CC2C(=O)CC[C@H](C)OC(=O)/C=C/[C@@H](OCc3ccccc3)[C@H](C)OC(=O)C12.CC1=CC(=O)C[C@@H]2C(=O)O[C@@H](C)[C@H](OCc3ccccc3)/C=C/C(=O)O[C@@H](C)CCC(=O)[C@@H]12",
+      "temperature": "reflux, 0.1 M",
+      "yield_scope": "Main Table 1 entry 1; alternative pyrone route, with retro-cycloaddition loss of CO2."
+    },
+    {
+      "admission_authority": false,
+      "category": "forward_synthesis",
+      "event_id": "E05",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "product_labels": [
+        "1"
+      ],
+      "reactant_labels": [
+        "6"
+      ],
+      "reagents": [
+        "DDQ",
+        "pH 7 aqueous buffer"
+      ],
+      "reported_yields": [
+        {
+          "from_label": "6",
+          "percent": 17,
+          "product_label": "1",
+          "scope": "Alternative nonphotochemical condition, main Table 2 entry 1."
+        }
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "1,2-dichloroethane",
+        "water"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: E05",
+          "pages": [
+            2
+          ],
+          "sha256": "729f3e2d15edbc1f46d2b5cea1cdf72bf01200685477a8809abeb07565735748",
+          "source_id": "article"
+        }
+      ],
+      "step_ids": [
+        "E05.1"
+      ],
+      "substrate_product_smiles": "CC1=CC(=O)C[C@@H]2C(=O)O[C@@H](C)[C@H](OCc3ccccc3)/C=C/C(=O)O[C@@H](C)CCC(=O)[C@@H]12>>CC1=CC(=O)C[C@@H]2C(=O)O[C@@H](C)[C@H](O)/C=C/C(=O)O[C@@H](C)CCC(=O)[C@@H]12",
+      "temperature": "room temperature",
+      "yield_scope": "Alternative nonphotochemical condition, main Table 2 entry 1."
+    }
+  ],
+  "report_heading": "Asymmetric Total Synthesis of (+)-Acaulone B. — source-bound synthesis network",
+  "report_note": "Source-bound forward preparations in main Scheme 2/Tables 1-2 and SI pp3-4, from literature-known protected 10-keto-acaudiol A (4). Includes diene preparation and the isolated regioisomer. The cited upstream synthesis of 4 is outside this paper. Presumed LR-MS species 10 is not an isolated structure-confirmed preparation. Independent chemical review remains pending. Facts compiled deterministically; independent review pending.",
+  "routes": [
+    {
+      "admission_authority": false,
+      "formal_benchmark_eligible": false,
+      "from_commercial_starting_materials_complete": false,
+      "full_article_route_coverage": true,
+      "molecule_smiles_sequence": [
+        "CC(=O)CC(C)=O",
+        "C=C(C=C(C)O[Si](C)(C)C)O[Si](C)(C)C",
+        "C[C@@H]1OC(=O)/C=C/C(=O)CC[C@H](C)OC(=O)/C=C/[C@H]1OCc1ccccc1",
+        "CC1=CC(=O)C[C@@H]2C(=O)O[C@@H](C)[C@H](OCc3ccccc3)/C=C/C(=O)O[C@@H](C)CCC(=O)[C@@H]12",
+        "CC1=CC(=O)CC2C(=O)CC[C@H](C)OC(=O)/C=C/[C@@H](OCc3ccccc3)[C@H](C)OC(=O)C12",
+        "CC1=CC(=O)C[C@@H]2C(=O)O[C@@H](C)[C@H](O)/C=C/C(=O)O[C@@H](C)CCC(=O)[C@@H]12"
+      ],
+      "ordered_event_ids": [
+        "E01",
+        "E02",
+        "E03"
+      ],
+      "ordered_molecule_labels": [
+        "acetylacetone",
+        "8",
+        "4",
+        "6",
+        "9",
+        "1"
+      ],
+      "ordered_step_ids": [
+        "E01.1",
+        "E02.1",
+        "E03.1"
+      ],
+      "route_id": "optimized",
+      "route_type": "source_bound_successful_synthesis",
+      "split_group": "10.1021/acs.joc.6c00941",
+      "start_label": "acetylacetone",
+      "start_labels": [
+        "acetylacetone",
+        "4"
+      ],
+      "step_reaction_smiles_sequence": [
+        "CC(=O)CC(C)=O>>C=C(C=C(C)O[Si](C)(C)C)O[Si](C)(C)C",
+        "C=C(C=C(C)O[Si](C)(C)C)O[Si](C)(C)C.C[C@@H]1OC(=O)/C=C/C(=O)CC[C@H](C)OC(=O)/C=C/[C@H]1OCc1ccccc1>>CC1=CC(=O)CC2C(=O)CC[C@H](C)OC(=O)/C=C/[C@@H](OCc3ccccc3)[C@H](C)OC(=O)C12.CC1=CC(=O)C[C@@H]2C(=O)O[C@@H](C)[C@H](OCc3ccccc3)/C=C/C(=O)O[C@@H](C)CCC(=O)[C@@H]12",
+        "CC1=CC(=O)C[C@@H]2C(=O)O[C@@H](C)[C@H](OCc3ccccc3)/C=C/C(=O)O[C@@H](C)CCC(=O)[C@@H]12>>CC1=CC(=O)C[C@@H]2C(=O)O[C@@H](C)[C@H](O)/C=C/C(=O)O[C@@H](C)CCC(=O)[C@@H]12"
+      ],
+      "target_label": "1"
+    },
+    {
+      "admission_authority": false,
+      "formal_benchmark_eligible": false,
+      "from_commercial_starting_materials_complete": false,
+      "full_article_route_coverage": true,
+      "molecule_smiles_sequence": [
+        "C[C@@H]1OC(=O)/C=C/C(=O)CC[C@H](C)OC(=O)/C=C/[C@H]1OCc1ccccc1",
+        "COc1cc(C)oc(=O)c1",
+        "CC1=CC(=O)C[C@@H]2C(=O)O[C@@H](C)[C@H](OCc3ccccc3)/C=C/C(=O)O[C@@H](C)CCC(=O)[C@@H]12",
+        "CC1=CC(=O)CC2C(=O)CC[C@H](C)OC(=O)/C=C/[C@@H](OCc3ccccc3)[C@H](C)OC(=O)C12",
+        "CC1=CC(=O)C[C@@H]2C(=O)O[C@@H](C)[C@H](O)/C=C/C(=O)O[C@@H](C)CCC(=O)[C@@H]12"
+      ],
+      "ordered_event_ids": [
+        "E04",
+        "E03"
+      ],
+      "ordered_molecule_labels": [
+        "4",
+        "7",
+        "6",
+        "9",
+        "1"
+      ],
+      "ordered_step_ids": [
+        "E04.1",
+        "E03.1"
+      ],
+      "route_id": "pyrone-alternative",
+      "route_type": "source_bound_successful_synthesis",
+      "split_group": "10.1021/acs.joc.6c00941",
+      "start_label": "4",
+      "start_labels": [
+        "4",
+        "7"
+      ],
+      "step_reaction_smiles_sequence": [
+        "COc1cc(C)oc(=O)c1.C[C@@H]1OC(=O)/C=C/C(=O)CC[C@H](C)OC(=O)/C=C/[C@H]1OCc1ccccc1>>CC1=CC(=O)CC2C(=O)CC[C@H](C)OC(=O)/C=C/[C@@H](OCc3ccccc3)[C@H](C)OC(=O)C12.CC1=CC(=O)C[C@@H]2C(=O)O[C@@H](C)[C@H](OCc3ccccc3)/C=C/C(=O)O[C@@H](C)CCC(=O)[C@@H]12",
+        "CC1=CC(=O)C[C@@H]2C(=O)O[C@@H](C)[C@H](OCc3ccccc3)/C=C/C(=O)O[C@@H](C)CCC(=O)[C@@H]12>>CC1=CC(=O)C[C@@H]2C(=O)O[C@@H](C)[C@H](O)/C=C/C(=O)O[C@@H](C)CCC(=O)[C@@H]12"
+      ],
+      "target_label": "1"
+    },
+    {
+      "admission_authority": false,
+      "formal_benchmark_eligible": false,
+      "from_commercial_starting_materials_complete": false,
+      "full_article_route_coverage": true,
+      "molecule_smiles_sequence": [
+        "CC(=O)CC(C)=O",
+        "C=C(C=C(C)O[Si](C)(C)C)O[Si](C)(C)C",
+        "C[C@@H]1OC(=O)/C=C/C(=O)CC[C@H](C)OC(=O)/C=C/[C@H]1OCc1ccccc1",
+        "CC1=CC(=O)C[C@@H]2C(=O)O[C@@H](C)[C@H](OCc3ccccc3)/C=C/C(=O)O[C@@H](C)CCC(=O)[C@@H]12",
+        "CC1=CC(=O)CC2C(=O)CC[C@H](C)OC(=O)/C=C/[C@@H](OCc3ccccc3)[C@H](C)OC(=O)C12"
+      ],
+      "ordered_event_ids": [
+        "E01",
+        "E02"
+      ],
+      "ordered_molecule_labels": [
+        "acetylacetone",
+        "8",
+        "4",
+        "6",
+        "9"
+      ],
+      "ordered_step_ids": [
+        "E01.1",
+        "E02.1"
+      ],
+      "route_id": "regioisomer",
+      "route_type": "source_bound_control_branch",
+      "split_group": "10.1021/acs.joc.6c00941",
+      "start_label": "acetylacetone",
+      "start_labels": [
+        "acetylacetone",
+        "4"
+      ],
+      "step_reaction_smiles_sequence": [
+        "CC(=O)CC(C)=O>>C=C(C=C(C)O[Si](C)(C)C)O[Si](C)(C)C",
+        "C=C(C=C(C)O[Si](C)(C)C)O[Si](C)(C)C.C[C@@H]1OC(=O)/C=C/C(=O)CC[C@H](C)OC(=O)/C=C/[C@H]1OCc1ccccc1>>CC1=CC(=O)CC2C(=O)CC[C@H](C)OC(=O)/C=C/[C@@H](OCc3ccccc3)[C@H](C)OC(=O)C12.CC1=CC(=O)C[C@@H]2C(=O)O[C@@H](C)[C@H](OCc3ccccc3)/C=C/C(=O)O[C@@H](C)CCC(=O)[C@@H]12"
+      ],
+      "target_label": "9"
+    },
+    {
+      "admission_authority": false,
+      "formal_benchmark_eligible": false,
+      "from_commercial_starting_materials_complete": false,
+      "full_article_route_coverage": true,
+      "molecule_smiles_sequence": [
+        "CC(=O)CC(C)=O",
+        "C=C(C=C(C)O[Si](C)(C)C)O[Si](C)(C)C",
+        "C[C@@H]1OC(=O)/C=C/C(=O)CC[C@H](C)OC(=O)/C=C/[C@H]1OCc1ccccc1",
+        "CC1=CC(=O)C[C@@H]2C(=O)O[C@@H](C)[C@H](OCc3ccccc3)/C=C/C(=O)O[C@@H](C)CCC(=O)[C@@H]12",
+        "CC1=CC(=O)CC2C(=O)CC[C@H](C)OC(=O)/C=C/[C@@H](OCc3ccccc3)[C@H](C)OC(=O)C12",
+        "CC1=CC(=O)C[C@@H]2C(=O)O[C@@H](C)[C@H](O)/C=C/C(=O)O[C@@H](C)CCC(=O)[C@@H]12"
+      ],
+      "ordered_event_ids": [
+        "E01",
+        "E02",
+        "E05"
+      ],
+      "ordered_molecule_labels": [
+        "acetylacetone",
+        "8",
+        "4",
+        "6",
+        "9",
+        "1"
+      ],
+      "ordered_step_ids": [
+        "E01.1",
+        "E02.1",
+        "E05.1"
+      ],
+      "route_id": "nonphotochemical",
+      "route_type": "source_bound_successful_synthesis",
+      "split_group": "10.1021/acs.joc.6c00941",
+      "start_label": "acetylacetone",
+      "start_labels": [
+        "acetylacetone",
+        "4"
+      ],
+      "step_reaction_smiles_sequence": [
+        "CC(=O)CC(C)=O>>C=C(C=C(C)O[Si](C)(C)C)O[Si](C)(C)C",
+        "C=C(C=C(C)O[Si](C)(C)C)O[Si](C)(C)C.C[C@@H]1OC(=O)/C=C/C(=O)CC[C@H](C)OC(=O)/C=C/[C@H]1OCc1ccccc1>>CC1=CC(=O)CC2C(=O)CC[C@H](C)OC(=O)/C=C/[C@@H](OCc3ccccc3)[C@H](C)OC(=O)C12.CC1=CC(=O)C[C@@H]2C(=O)O[C@@H](C)[C@H](OCc3ccccc3)/C=C/C(=O)O[C@@H](C)CCC(=O)[C@@H]12",
+        "CC1=CC(=O)C[C@@H]2C(=O)O[C@@H](C)[C@H](OCc3ccccc3)/C=C/C(=O)O[C@@H](C)CCC(=O)[C@@H]12>>CC1=CC(=O)C[C@@H]2C(=O)O[C@@H](C)[C@H](O)/C=C/C(=O)O[C@@H](C)CCC(=O)[C@@H]12"
+      ],
+      "target_label": "1"
+    }
+  ],
+  "schema_version": "syninsight.route-extraction.v1",
+  "software": {
+    "rdkit": "2026.03.6"
+  },
+  "sources": [
+    {
+      "format": "pdf",
+      "page_count": 5,
+      "path": "papers/paper-4cc43638c809d619/article/main.pdf",
+      "redistribute_source": false,
+      "role": "main_article",
+      "sha256": "729f3e2d15edbc1f46d2b5cea1cdf72bf01200685477a8809abeb07565735748",
+      "source_id": "article"
+    },
+    {
+      "format": "pdf",
+      "page_count": 33,
+      "path": "papers/paper-4cc43638c809d619/supporting_information/si-001.pdf",
+      "redistribute_source": false,
+      "role": "supporting_information",
+      "sha256": "5b99396ac1641ad310706e797d77e017107b7d6e7a1ff9331ee9fc81760236d5",
+      "source_id": "si"
+    }
+  ],
+  "steps": [
+    {
+      "admission_authority": false,
+      "agents": [
+        "Et3N",
+        "TMSOTf"
+      ],
+      "event_id": "E01",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "mixture_yield_percent": 63,
+      "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+      "product_labels": [
+        "8"
+      ],
+      "product_specific_yields": [],
+      "reactant_labels": [
+        "acetylacetone"
+      ],
+      "reported_yield_text": "63% combined mixture yield",
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "ether"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: E01",
+          "pages": [
+            2
+          ],
+          "sha256": "729f3e2d15edbc1f46d2b5cea1cdf72bf01200685477a8809abeb07565735748",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: E01",
+          "pages": [
+            3
+          ],
+          "sha256": "5b99396ac1641ad310706e797d77e017107b7d6e7a1ff9331ee9fc81760236d5",
+          "source_id": "si"
+        }
+      ],
+      "step_id": "E01.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "CC(=O)CC(C)=O>>C=C(C=C(C)O[Si](C)(C)C)O[Si](C)(C)C",
+      "temperature": "0 C",
+      "yield_percent": null
+    },
+    {
+      "admission_authority": false,
+      "agents": [
+        "TFA"
+      ],
+      "event_id": "E02",
+      "experimental_stage_count": 2,
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+      "operation_stages": [
+        "Cycloaddition at 50 C, 2 h",
+        "Acidic desilylation/dehydration at room temperature, 20 min"
+      ],
+      "product_labels": [
+        "6",
+        "9"
+      ],
+      "product_specific_yields": [
+        {
+          "from_label": "4",
+          "percent": 67,
+          "product_label": "6",
+          "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+        },
+        {
+          "from_label": "4",
+          "percent": 2,
+          "product_label": "9",
+          "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+        }
+      ],
+      "reactant_labels": [
+        "4",
+        "8"
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "neat",
+        "1,2-dichloroethane"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: E02",
+          "pages": [
+            2
+          ],
+          "sha256": "729f3e2d15edbc1f46d2b5cea1cdf72bf01200685477a8809abeb07565735748",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: E02",
+          "pages": [
+            3
+          ],
+          "sha256": "5b99396ac1641ad310706e797d77e017107b7d6e7a1ff9331ee9fc81760236d5",
+          "source_id": "si"
+        }
+      ],
+      "step_id": "E02.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "C=C(C=C(C)O[Si](C)(C)C)O[Si](C)(C)C.C[C@@H]1OC(=O)/C=C/C(=O)CC[C@H](C)OC(=O)/C=C/[C@H]1OCc1ccccc1>>CC1=CC(=O)CC2C(=O)CC[C@H](C)OC(=O)/C=C/[C@@H](OCc3ccccc3)[C@H](C)OC(=O)C12.CC1=CC(=O)C[C@@H]2C(=O)O[C@@H](C)[C@H](OCc3ccccc3)/C=C/C(=O)O[C@@H](C)CCC(=O)[C@@H]12",
+      "yield_percent": null
+    },
+    {
+      "admission_authority": false,
+      "agents": [
+        "DDQ",
+        "525 nm green LED"
+      ],
+      "event_id": "E03",
+      "experimental_stage_count": 2,
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+      "operation_stages": [
+        "Irradiation 7 h",
+        "Additional CH2Cl2/water; irradiation 18.5 h"
+      ],
+      "product_labels": [
+        "1"
+      ],
+      "product_specific_yields": [
+        {
+          "from_label": "6",
+          "percent": 55,
+          "product_label": "1",
+          "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+        }
+      ],
+      "reactant_labels": [
+        "6"
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "dichloromethane",
+        "water"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: E03",
+          "pages": [
+            2
+          ],
+          "sha256": "729f3e2d15edbc1f46d2b5cea1cdf72bf01200685477a8809abeb07565735748",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: E03",
+          "pages": [
+            4
+          ],
+          "sha256": "5b99396ac1641ad310706e797d77e017107b7d6e7a1ff9331ee9fc81760236d5",
+          "source_id": "si"
+        }
+      ],
+      "step_id": "E03.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "CC1=CC(=O)C[C@@H]2C(=O)O[C@@H](C)[C@H](OCc3ccccc3)/C=C/C(=O)O[C@@H](C)CCC(=O)[C@@H]12>>CC1=CC(=O)C[C@@H]2C(=O)O[C@@H](C)[C@H](O)/C=C/C(=O)O[C@@H](C)CCC(=O)[C@@H]12",
+      "temperature": "room temperature",
+      "yield_percent": 55
+    },
+    {
+      "admission_authority": false,
+      "agents": [],
+      "event_id": "E04",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+      "product_labels": [
+        "6",
+        "9"
+      ],
+      "product_specific_yields": [
+        {
+          "from_label": "4",
+          "percent": 13,
+          "product_label": "6",
+          "scope": "Main Table 1 entry 1; alternative pyrone route, with retro-cycloaddition loss of CO2."
+        },
+        {
+          "from_label": "4",
+          "percent": 5,
+          "product_label": "9",
+          "scope": "Main Table 1 entry 1; alternative pyrone route, with retro-cycloaddition loss of CO2."
+        }
+      ],
+      "reactant_labels": [
+        "4",
+        "7"
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "toluene"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: E04",
+          "pages": [
+            2
+          ],
+          "sha256": "729f3e2d15edbc1f46d2b5cea1cdf72bf01200685477a8809abeb07565735748",
+          "source_id": "article"
+        }
+      ],
+      "step_id": "E04.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "COc1cc(C)oc(=O)c1.C[C@@H]1OC(=O)/C=C/C(=O)CC[C@H](C)OC(=O)/C=C/[C@H]1OCc1ccccc1>>CC1=CC(=O)CC2C(=O)CC[C@H](C)OC(=O)/C=C/[C@@H](OCc3ccccc3)[C@H](C)OC(=O)C12.CC1=CC(=O)C[C@@H]2C(=O)O[C@@H](C)[C@H](OCc3ccccc3)/C=C/C(=O)O[C@@H](C)CCC(=O)[C@@H]12",
+      "temperature": "reflux, 0.1 M",
+      "yield_percent": null
+    },
+    {
+      "admission_authority": false,
+      "agents": [
+        "DDQ",
+        "pH 7 aqueous buffer"
+      ],
+      "event_id": "E05",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+      "product_labels": [
+        "1"
+      ],
+      "product_specific_yields": [
+        {
+          "from_label": "6",
+          "percent": 17,
+          "product_label": "1",
+          "scope": "Alternative nonphotochemical condition, main Table 2 entry 1."
+        }
+      ],
+      "reactant_labels": [
+        "6"
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "1,2-dichloroethane",
+        "water"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: E05",
+          "pages": [
+            2
+          ],
+          "sha256": "729f3e2d15edbc1f46d2b5cea1cdf72bf01200685477a8809abeb07565735748",
+          "source_id": "article"
+        }
+      ],
+      "step_id": "E05.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "CC1=CC(=O)C[C@@H]2C(=O)O[C@@H](C)[C@H](OCc3ccccc3)/C=C/C(=O)O[C@@H](C)CCC(=O)[C@@H]12>>CC1=CC(=O)C[C@@H]2C(=O)O[C@@H](C)[C@H](O)/C=C/C(=O)O[C@@H](C)CCC(=O)[C@@H]12",
+      "temperature": "room temperature",
+      "yield_percent": 17
+    }
+  ],
+  "title": "Asymmetric Total Synthesis of (+)-Acaulone B.",
+  "unresolved_events": []
+}

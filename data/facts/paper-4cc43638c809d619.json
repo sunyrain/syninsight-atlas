@@ -1,0 +1,48 @@
+{
+  "paper_id":"paper-4cc43638c809d619",
+  "targets":["1"],
+  "full_article_route_coverage":true,
+  "available_si_preparation_network_covered":true,
+  "coverage":"Source-bound forward preparations in main Scheme 2/Tables 1-2 and SI pp3-4, from literature-known protected 10-keto-acaudiol A (4). Includes diene preparation and the isolated regioisomer. The cited upstream synthesis of 4 is outside this paper. Presumed LR-MS species 10 is not an isolated structure-confirmed preparation. Independent chemical review remains pending.",
+  "confirmed_facts":[
+    "SI p3 prepares diene 8 from acetylacetone in 63% crude yield; E/Z mixture is not resolved.",
+    "4 + 8 gives isolated 6 (67%) and 9 (2%) through a one-pot cycloaddition/acid treatment.",
+    "Main article confirms C8/C9 stereochemistry of 6 by X-ray. SI drawing of 9 leaves those centers unspecified.",
+    "Photochemical debenzylation of 6 gives 1 in 55% isolated yield.",
+    "The three inherited stereocenters and assigned centers in 6/1 are transcribed from source wedge drawings using explicit coordinates; temporary atom maps are removed from identity SMILES."
+  ],
+  "open_questions":["Relative configuration of the new C8/C9 centers in regioisomer 9 remains unassigned in the displayed source.","SI p3 uses 1,2-dichloroethane in the acid step, whereas the main table says CH2Cl2; retain both statements."],
+  "stereo_templates":{
+    "inherited":{
+      "coordinates":{"1":[0,6],"113":[1,5.4],"13":[1,4.2],"12":[2,3.6],"14":[0,3.6],"3":[-1,4.2],"4":[-2,3.6],"40":[-3,4.2],"5":[-2,2.4],"6":[-3,1.8],"105":[-1,1.8]},
+      "wedges":[[13,14,"hashed"],[4,40,"hashed"],[5,6,"solid"]]
+    },
+    "product":{
+      "coordinates":{"1":[0,6],"113":[1,5.4],"13":[1,4.2],"12":[2,3.6],"14":[0,3.6],"3":[-1,4.2],"4":[-2,3.6],"40":[-3,4.2],"5":[-2,2.4],"6":[-3,1.8],"105":[-1,1.8],"7":[0,1.2],"8":[0,0],"9":[1,0.6],"10":[1,1.8],"101":[0,-1.2],"102":[2,0]},
+      "wedges":[[13,14,"hashed"],[4,40,"hashed"],[5,6,"solid"],[8,101,"hashed"],[9,10,"solid"]]
+    }
+  },
+  "molecules":[
+    {"label":"acetylacetone","smiles":"CC(=O)CC(C)=O","formula":"C5H8O2","evidence":{"article":[2],"si":[3]}},
+    {"label":"4","name":"Protected 10-keto-acaudiol A","smiles":"O=[C:1]1[O:113][CH:13]([CH3:14])[CH2:12][CH2:11][C:10](=O)/[CH:9]=[CH:8]/[C:7](=O)[O:105][CH:5]([CH3:6])[CH:4]([O:40]Cc3ccccc3)/[CH:3]=[CH:2]/1","drawing_template":"inherited","formula":"C21H24O6","evidence":{"article":[2],"si":[3]}},
+    {"label":"7","name":"4-Methoxy-6-methyl-2H-pyran-2-one","smiles":"COc1cc(C)oc(=O)c1","formula":"C7H8O3","evidence":{"article":[2]}},
+    {"label":"8","name":"Bis-silyloxy diene","smiles":"C=C(O[Si](C)(C)C)C=C(C)O[Si](C)(C)C","formula":"C11H24O2Si2","stereo_status":"E_Z_mixture_unresolved","evidence":{"article":[2],"si":[3]}},
+    {"label":"6","name":"Protected acaulone B","smiles":"O=[C:1]1[O:113][CH:13]([CH3:14])[CH2:12][CH2:11][C:10](=O)[CH:9]2[CH:8]([C:7](=O)[O:105][CH:5]([CH3:6])[CH:4]([O:40]Cc3ccccc3)/[CH:3]=[CH:2]/1)[CH2:101][C:104](=O)[CH:103]=[C:102]2C","drawing_template":"product","formula":"C26H30O7","evidence":{"article":[2],"si":[3]}},
+    {"label":"9","name":"Protected regioisomer of acaulone B","smiles":"O=[C:1]1[O:113][CH:13]([CH3:14])[CH2:12][CH2:11][C:10](=O)[CH:9]2[CH:8]([C:7](=O)[O:105][CH:5]([CH3:6])[CH:4]([O:40]Cc3ccccc3)/[CH:3]=[CH:2]/1)[C:102](C)=[CH:103][C:104](=O)[CH2:101]2","drawing_template":"inherited","formula":"C26H30O7","stereo_status":"C8_C9_unspecified_in_source","evidence":{"article":[2],"si":[4]}},
+    {"label":"1","name":"(+)-Acaulone B","smiles":"O=[C:1]1[O:113][CH:13]([CH3:14])[CH2:12][CH2:11][C:10](=O)[CH:9]2[CH:8]([C:7](=O)[O:105][CH:5]([CH3:6])[CH:4]([OH:40])/[CH:3]=[CH:2]/1)[CH2:101][C:104](=O)[CH:103]=[C:102]2C","drawing_template":"product","formula":"C19H24O7","evidence":{"article":[1,2],"si":[4]}}
+  ],
+  "events":[
+    {"id":"E01","in":["acetylacetone"],"out":["8"],"yields":{},"mixture_yield_percent":63,"yield_scope":"Crude E/Z mixture yield, not an isolated single stereoisomer.","reagents":["Et3N","TMSOTf"],"solvents":["ether"],"temperature":"0 C","evidence":{"article":[2],"si":[3]}},
+    {"id":"E02","in":["4","8"],"out":["6","9"],"yields":{"6":67,"9":2},"reagents":["TFA"],"solvents":["neat","1,2-dichloroethane"],"operation_stages":["Cycloaddition at 50 C, 2 h","Acidic desilylation/dehydration at room temperature, 20 min"],"evidence":{"article":[2],"si":[3]}},
+    {"id":"E03","in":["6"],"out":["1"],"yields":{"1":55},"reagents":["DDQ","525 nm green LED"],"solvents":["dichloromethane","water"],"temperature":"room temperature","operation_stages":["Irradiation 7 h","Additional CH2Cl2/water; irradiation 18.5 h"],"evidence":{"article":[2],"si":[4]}},
+    {"id":"E04","in":["4","7"],"out":["6","9"],"yields":{"6":13,"9":5},"solvents":["toluene"],"temperature":"reflux, 0.1 M","yield_scope":"Main Table 1 entry 1; alternative pyrone route, with retro-cycloaddition loss of CO2.","evidence":{"article":[2]}},
+    {"id":"E05","in":["6"],"out":["1"],"yields":{"1":17},"reagents":["DDQ","pH 7 aqueous buffer"],"solvents":["1,2-dichloroethane","water"],"temperature":"room temperature","yield_scope":"Alternative nonphotochemical condition, main Table 2 entry 1.","evidence":{"article":[2]}}
+  ],
+  "paths":[["optimized","1",["E01","E02","E03"]],["pyrone-alternative","1",["E04","E03"]],["regioisomer","9",["E01","E02"]],["nonphotochemical","1",["E01","E02","E05"]]],
+  "hrms_records":[
+    {"label":"6","adduct":"[M+Na]+","reported_ion_formula":"C26H30O7Na","calculated_mz_reported":477.1884,"found_mz_reported":477.1891},
+    {"label":"9","adduct":"[M+Na]+","reported_ion_formula":"C26H30O7Na","calculated_mz_reported":477.1884,"found_mz_reported":477.1898},
+    {"label":"1","adduct":"[M+Na]+","reported_ion_formula":"C19H24O7Na","calculated_mz_reported":387.1414,"found_mz_reported":387.1418}
+  ],
+  "issues":[["acid-solvent","source_conflict","E02","SI p3 explicitly uses 1,2-dichloroethane/TFA, while main Table 1 specifies CH2Cl2/TFA. Procedure values retained."],["regio-stereo","review_pending","9","Source drawing does not assign new C8/C9 centers; no stereochemical completion inferred."],["known-start","representation_boundary","4","Previously published upstream synthesis is cited but not repeated here; target route begins at the source-drawn known macrocycle."]]
+}
