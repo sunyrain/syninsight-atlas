@@ -34,17 +34,7 @@ def validate(root=ROOT):
             if u.fragment and target.suffix=='.html':
                 other=soups.get(target) or BeautifulSoup(target.read_text(encoding='utf8'),'html.parser')
                 if not other.find(id=unquote(u.fragment)):errors.append(f'anchor_missing:{path.relative_to(root)}:{value}')
-    figures=json.loads((root/'assets/route-figures.json').read_text(encoding='utf8'))
     paths=json.loads((root/'data/database/absynth_metadata.json').read_text(encoding='utf8'))['paths']
-    if set(figures)!=set(paths):errors.append('route_figure_coverage_mismatch')
-    for key,figure in figures.items():
-        try:
-            svg=ET.parse(root/figure['file']).getroot()
-            captions=[n.text or '' for n in svg.findall('.//{http://www.w3.org/2000/svg}text')]
-            steps=[t for t in captions if t.startswith('Step ') and '·' in t]
-            if len(steps)!=len(paths[key]['steps']):errors.append(f'route_step_count:{key}')
-            if figure['file'] not in manifest:errors.append(f'route_not_packaged:{key}')
-        except (OSError,ET.ParseError) as exc:errors.append(f'route_svg:{key}:{exc}')
     overviews=json.loads((root/'assets/route-overviews.json').read_text(encoding='utf8'))
     if set(overviews)!=set(paths):errors.append('connected_route_coverage_mismatch')
     for key,figure in overviews.items():
@@ -66,6 +56,6 @@ def validate(root=ROOT):
                 boxes.append((x,y,w,h))
 
         except (OSError,ET.ParseError) as exc:errors.append(f'connected_route_svg:{key}:{exc}')
-    result={'passed':not errors,'pages':len(pages),'links':links,'assets':assets,'route_figures':len(figures),'connected_routes':len(overviews),'external_urls':len(external),'errors':errors}
+    result={'passed':not errors,'pages':len(pages),'links':links,'assets':assets,'connected_routes':len(overviews),'external_urls':len(external),'errors':errors}
     print(json.dumps(result,ensure_ascii=False,indent=2));return result
 if __name__=='__main__':raise SystemExit(0 if validate()['passed'] else 1)

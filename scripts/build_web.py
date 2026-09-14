@@ -43,8 +43,6 @@ def diagram_svg(code):
 def build(output=None):
     from build_absynth import build as build_absynth
     build_absynth()
-    from build_route_figures import build as build_route_figures
-    build_route_figures()
     from build_route_overviews import build as build_route_overviews
     build_route_overviews()
     papers = list(csv.DictReader((ROOT/'data/database/papers.csv').open(encoding='utf-8-sig', newline='')))
