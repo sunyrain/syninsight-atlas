@@ -1,0 +1,254 @@
+{
+  "review_date": "2026-09-11",
+  "group": "c",
+  "policy_basis": "User conservative risk exclusions; distinguish assay evidence from high acute toxicity and target from congeners. Metadata review only for excluded/pending cases.",
+  "summary": {
+    "papers_reviewed": 7,
+    "risk_excluded": 4,
+    "risk_pending": 1,
+    "scope_excluded_review": 1,
+    "source_insufficient": 1,
+    "papers_extracted": 0
+  },
+  "global_files_modified": false,
+  "source_handling": "Existing acquisition log and available metadata reused. No access restrictions bypassed. No web-rendered PDF was assigned a local hash.",
+  "papers": [
+    {
+      "status": "risk_excluded",
+      "reason": "Target-specific cytotoxicity in primary research; conservative user risk exclusion, not an assertion of high acute toxicity.",
+      "risk_evidence": [
+        {
+          "url": "https://www.jstage.jst.go.jp/article/antibiotics1968/53/2/53_2_123/_pdf",
+          "locator": "PDF page 6, Cytotoxic Activity",
+          "finding": "FR182877 inhibits human tumor cell lines and mouse bone marrow cells; bone marrow IC50 600 ng/mL. The paper separately reports acute LD50 over 60 mg/kg, which does not support calling it highly acutely toxic.",
+          "source_kind": "primary_research"
+        }
+      ],
+      "source_conclusion": "Existing Thieme access-check/JavaScript response; no local synthesis article/SI. Risk evidence is a separate original biological study.",
+      "paper_id": "paper-e308745e497d7800",
+      "doi": "10.1055/a-2909-3334",
+      "title": "Enantioselective Total Synthesis of (−)-FR182877 and Evaluation of the Biological Activity of Its Pharmacophore",
+      "acquisition_cache_reviewed": "data/extraction/source_acquisition.json",
+      "local_source_artifacts": [],
+      "new_source_pdf_or_si_acquired": false,
+      "full_article_route_coverage": false,
+      "extraction_counts": {
+        "molecules": 0,
+        "events": 0,
+        "routes": 0
+      },
+      "search_urls": [
+        "https://doi.org/10.1055/a-2909-3334"
+      ],
+      "search_queries": [
+        "10.1055/a-2909-3334",
+        "FR182877 cytotoxicity original J Antibiotics"
+      ]
+    },
+    {
+      "status": "risk_excluded",
+      "reason": "Exact target erycristagallin has measured cytotoxicity in primary research.",
+      "risk_evidence": [
+        {
+          "url": "https://www.researchgate.net/profile/Apichart-Suksamrarn/publication/5760588_Biological_Activities_of_the_Chemical_Constituents_ofErythrina_stricta_andErythrina_subumbrans/links/0fcfd510a489e350b3000000/Biological-Activities-of-the-Chemical-Constituents-ofErythrina-stricta-andErythrina-subumbrans.pdf?origin=scientificContributions",
+          "locator": "PDF page 1 identifies compound 7; PDF page 3 / printed page 1400, Table I",
+          "finding": "Compound 7 is erycristagallin. Cytotoxic IC50 against KB, BC and NCI-H187 cells is 14.9, 12.5 and 2.6 ug/mL respectively. Biological Activities of the Chemical Constituents of Erythrina stricta and Erythrina subumbrans, Archives of Pharmacal Research 30(11), 2007. Author-hosted ResearchGate PDF read through web.",
+          "source_kind": "primary_research"
+        }
+      ],
+      "source_conclusion": "Current article landing abstract describes antibacterial synthesis; no local article/SI. Exact-target older primary assay supplies exclusion evidence.",
+      "paper_id": "paper-35bfcabee1d3351d",
+      "doi": "10.1016/j.ejmech.2026.119057",
+      "title": "Total synthesis, antibacterial activity, and mechanistic characterization of erycristagallin as a promising anti-MRSA lead.",
+      "acquisition_cache_reviewed": "data/extraction/source_acquisition.json",
+      "local_source_artifacts": [],
+      "new_source_pdf_or_si_acquired": false,
+      "full_article_route_coverage": false,
+      "extraction_counts": {
+        "molecules": 0,
+        "events": 0,
+        "routes": 0
+      },
+      "search_urls": [
+        "https://www.sciencedirect.com/science/article/abs/pii/S0223523426005027",
+        "https://pubmed.ncbi.nlm.nih.gov/42302661/"
+      ],
+      "search_queries": [
+        "10.1016/j.ejmech.2026.119057",
+        "erycristagallin cytotoxicity Erythrina stricta subumbrans"
+      ]
+    },
+    {
+      "status": "risk_pending",
+      "reason": "Curvularin cytotoxicity is established, but exact correspondence of the tested material to current target (S)-curvularin was not independently confirmed. Retain pending; do not extrapolate to Xestodecalactone A.",
+      "risk_evidence": [
+        {
+          "url": "https://link.springer.com/article/10.1186/2193-1801-2-122",
+          "locator": "Abstract and cytotoxicity results, Table 1",
+          "finding": "The primary 2013 SpringerPlus study reports cytotoxicity of curvularin itself, separately from alpha,beta-dehydrocurvularin, in A549, HeLa, MDA-MB-231 and MCF-7. Curvularin is inactive against COLO205. The accessible text does not explicitly identify the S stereoisomer.",
+          "source_kind": "primary_research"
+        },
+        {
+          "url": "https://journals.sagepub.com/doi/pdf/10.1177/1934578X1501000735",
+          "locator": "PDF page 1 cytotoxicity paragraph; page 2 Curvularin (2)",
+          "finding": "2015 primary study reports curvularin (2) IC50 72.3 uM against MDA-MB-231, and optical rotation -46.7. It is obtained from the named 15S dehydro compound. This supports concern, but the structure drawing/stereochemical correspondence was not verified here.",
+          "source_kind": "primary_research"
+        }
+      ],
+      "source_conclusion": "Current synthesis source remains unavailable locally. Attempted Springer risk-study figure returned HTML, not a valid image; not accepted as source image. No exact stereochemical toxicity conclusion asserted.",
+      "paper_id": "paper-ea35093e94671445",
+      "doi": "10.1055/a-2862-3959",
+      "title": "Development of a Concise Stereospecific Strategy for the Total Synthesis of Xestodecalactone A and (S)-Curvularin",
+      "acquisition_cache_reviewed": "data/extraction/source_acquisition.json",
+      "local_source_artifacts": [],
+      "new_source_pdf_or_si_acquired": false,
+      "full_article_route_coverage": false,
+      "extraction_counts": {
+        "molecules": 0,
+        "events": 0,
+        "routes": 0
+      },
+      "search_urls": [
+        "https://doi.org/10.1055/a-2862-3959",
+        "https://www.researchgate.net/publication/404309881_Development_of_a_Concise_Stereospecific_Strategy_for_the_Total_Synthesis_of_Xestodecalactone_A_and_S-Curvularin"
+      ],
+      "search_queries": [
+        "10.1055/a-2862-3959",
+        "(S)-curvularin cytotoxicity primary",
+        "curvularin 2193-1801 rotation"
+      ]
+    },
+    {
+      "status": "risk_excluded",
+      "reason": "Current primary article explicitly reports target-specific cytotoxicity.",
+      "risk_evidence": [
+        {
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0040402026001626",
+          "locator": "Introduction, paragraph describing biological activity of aigialomycin D",
+          "finding": "The current primary synthesis paper reports cytotoxic IC50 3.0 and 18 ug/mL in KB and BC-1 cells. Units retained as ug/mL from the publisher text.",
+          "source_kind": "primary_research"
+        }
+      ],
+      "source_conclusion": "Publisher introduction available through search indexing; no local full article/SI. Sufficient target-specific risk metadata for conservative exclusion.",
+      "paper_id": "paper-81b765e0f0c30805",
+      "doi": "10.1016/j.tet.2026.135292",
+      "title": "Stereoselective total synthesis of aigialomycin D",
+      "acquisition_cache_reviewed": "data/extraction/source_acquisition.json",
+      "local_source_artifacts": [],
+      "new_source_pdf_or_si_acquired": false,
+      "full_article_route_coverage": false,
+      "extraction_counts": {
+        "molecules": 0,
+        "events": 0,
+        "routes": 0
+      },
+      "search_urls": [
+        "https://www.sciencedirect.com/science/article/abs/pii/S0040402026001626"
+      ],
+      "search_queries": [
+        "10.1016/j.tet.2026.135292",
+        "aigialomycin D cytotoxicity KB BC-1"
+      ]
+    },
+    {
+      "status": "scope_excluded_review",
+      "reason": "Publisher classifies this as Review, summarizing prior syntheses rather than a new experimental synthesis paper.",
+      "risk_evidence": [],
+      "scope_evidence": [
+        {
+          "url": "https://link.springer.com/article/10.1007/s11030-026-11542-1",
+          "locator": "Article type Review; publication date 12 April 2026; Abstract",
+          "finding": "The article reviews six research groups and lycodine dimers/derivatives. It is not a new experimental total synthesis report.",
+          "source_kind": "publisher_metadata"
+        }
+      ],
+      "source_conclusion": "Subscription preview available; classified outside new experimental extraction scope. This is not a toxicity exclusion.",
+      "paper_id": "paper-109387ec9e8fe2ca",
+      "doi": "10.1007/s11030-026-11542-1",
+      "title": "Total synthesis of pyridine-containing natural product Lycodine as well as its dimers and derivatives.",
+      "acquisition_cache_reviewed": "data/extraction/source_acquisition.json",
+      "local_source_artifacts": [],
+      "new_source_pdf_or_si_acquired": false,
+      "full_article_route_coverage": false,
+      "extraction_counts": {
+        "molecules": 0,
+        "events": 0,
+        "routes": 0
+      },
+      "search_urls": [
+        "https://link.springer.com/article/10.1007/s11030-026-11542-1",
+        "https://pubmed.ncbi.nlm.nih.gov/41966664/"
+      ],
+      "search_queries": [
+        "10.1007/s11030-026-11542-1"
+      ]
+    },
+    {
+      "status": "risk_excluded",
+      "reason": "Original primary study shows concentration-dependent target-specific cell proliferation inhibition and apoptosis. Conservative user exclusion; do not label generally high toxicity.",
+      "risk_evidence": [
+        {
+          "url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2021.685556/full",
+          "locator": "Results: Mechanism of Inhibition of LA Against NO Production In Vitro; Figure 3A/B",
+          "finding": "Litcubanine A below 10 uM showed no cytotoxicity in RAW264.7 cells; at 10 uM it inhibited proliferation and induced apoptosis. Novel Isoquinoline Alkaloid Litcubanine A - A Potential Anti-Inflammatory Candidate, 2021.",
+          "source_kind": "primary_research"
+        }
+      ],
+      "source_conclusion": "Current publisher abstract available; direct access returned 403, not retried. No local synthesis article/SI. Open original biological paper supplies exact-target risk evidence.",
+      "paper_id": "paper-5c63dd967a272b99",
+      "doi": "10.1016/j.fitote.2026.107205",
+      "title": "Total synthesis of Litcubanine A and comparative anti-inflammatory activity assessment of its derivatives.",
+      "acquisition_cache_reviewed": "data/extraction/source_acquisition.json",
+      "local_source_artifacts": [],
+      "new_source_pdf_or_si_acquired": false,
+      "full_article_route_coverage": false,
+      "extraction_counts": {
+        "molecules": 0,
+        "events": 0,
+        "routes": 0
+      },
+      "search_urls": [
+        "https://www.sciencedirect.com/science/article/pii/S0367326X26001243",
+        "https://pubmed.ncbi.nlm.nih.gov/41881084/"
+      ],
+      "search_queries": [
+        "10.1016/j.fitote.2026.107205",
+        "Litcubanine A cytotoxicity apoptosis"
+      ]
+    },
+    {
+      "status": "source_insufficient",
+      "reason": "No established target-specific risk found; current article and SI not legally obtained as complete local sources. Do not infer safety or import activity of chaetoxanthones A-C.",
+      "risk_evidence": [
+        {
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0040403926000845",
+          "locator": "Introduction",
+          "finding": "The current article says the 2015 report of chaetoxanthone D did not include bioactivity data. Activity discussed for A-C is not evidence for D.",
+          "source_kind": "primary_research"
+        }
+      ],
+      "source_conclusion": "Publisher snippets and author institutional publication list checked. Author page links only to DOI, no public full-text deposit. ResearchGate result requests full text. No complete article/SI or drawn preparative network available; no extraction generated.",
+      "paper_id": "paper-a078d08064d92edc",
+      "doi": "10.1016/j.tetlet.2026.156042",
+      "title": "Total synthesis and structure revision of (±)-chaetoxanthone D",
+      "acquisition_cache_reviewed": "data/extraction/source_acquisition.json",
+      "local_source_artifacts": [],
+      "new_source_pdf_or_si_acquired": false,
+      "full_article_route_coverage": false,
+      "extraction_counts": {
+        "molecules": 0,
+        "events": 0,
+        "routes": 0
+      },
+      "search_urls": [
+        "https://www.sciencedirect.com/science/article/abs/pii/S0040403926000845",
+        "https://www.lakeforest.edu/academics/faculty/gladen"
+      ],
+      "search_queries": [
+        "10.1016/j.tetlet.2026.156042",
+        "Total synthesis and structure revision chaetoxanthone D pdf",
+        "Paul T Gladen chaetoxanthone D"
+      ]
+    }
+  ]
+}

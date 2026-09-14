@@ -1,0 +1,1304 @@
+[
+  {
+    "admission_authority": false,
+    "agents": [
+      "NBS"
+    ],
+    "event_id": "E01",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "2"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "1",
+        "percent": 89.5,
+        "product_label": "2",
+        "scope": "Source-reported yield; source conflict notes take precedence."
+      }
+    ],
+    "reactant_labels": [
+      "1"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "acetonitrile"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E01",
+        "pages": [
+          2
+        ],
+        "sha256": "1e14ebb56ecaeb2012b391497d2ec5bc9a00c5e54b8648fa7c6b89e1f6431f72",
+        "source_id": "article"
+      }
+    ],
+    "step_id": "E01.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "Cc1ncccc1O>>Cc1nc(Br)cc(Br)c1O",
+    "temperature": "90 deg C",
+    "time": "1 h",
+    "yield_percent": 89.5
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "Na2CO3"
+    ],
+    "event_id": "E02",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "3"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "2",
+        "percent": 92.3,
+        "product_label": "3",
+        "scope": "Source-reported yield; source conflict notes take precedence."
+      }
+    ],
+    "reactant_labels": [
+      "2",
+      "iodomethane"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "DMF"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E02",
+        "pages": [
+          2
+        ],
+        "sha256": "1e14ebb56ecaeb2012b391497d2ec5bc9a00c5e54b8648fa7c6b89e1f6431f72",
+        "source_id": "article"
+      }
+    ],
+    "step_id": "E02.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "CI.Cc1nc(Br)cc(Br)c1O>>COc1c(Br)cc(Br)nc1C",
+    "time": "4 h",
+    "yield_percent": 92.3
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "NaH"
+    ],
+    "event_id": "E03",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "4"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "3",
+        "percent": 93.5,
+        "product_label": "4",
+        "scope": "Source-reported yield; source conflict notes take precedence."
+      }
+    ],
+    "reactant_labels": [
+      "3",
+      "benzyl-alcohol"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "DMSO"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E03",
+        "pages": [
+          2
+        ],
+        "sha256": "1e14ebb56ecaeb2012b391497d2ec5bc9a00c5e54b8648fa7c6b89e1f6431f72",
+        "source_id": "article"
+      }
+    ],
+    "step_id": "E03.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "COc1c(Br)cc(Br)nc1C.OCc1ccccc1>>COc1c(OCc2ccccc2)cc(Br)nc1C",
+    "time": "30 min + 30 min",
+    "yield_percent": 93.5
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "Pd(PPh3)4",
+      "K2CO3",
+      "formic acid"
+    ],
+    "event_id": "E04",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "5a"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "4",
+        "percent": 63.5,
+        "product_label": "5a",
+        "scope": "Source-reported yield; source conflict notes take precedence."
+      }
+    ],
+    "reactant_labels": [
+      "4",
+      "coupling-partner-a"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "ethanol"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E04",
+        "pages": [
+          3
+        ],
+        "sha256": "1e14ebb56ecaeb2012b391497d2ec5bc9a00c5e54b8648fa7c6b89e1f6431f72",
+        "source_id": "article"
+      }
+    ],
+    "step_id": "E04.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "C=CCCCCCCCCCC.COc1c(OCc2ccccc2)cc(Br)nc1C>>CCCCCCCCCCCCc1cc(OCc2ccccc2)c(OC)c(C)n1",
+    "temperature": "reflux",
+    "time": "24 h",
+    "yield_percent": 63.5
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "HCl",
+      "TFA",
+      "AcOH"
+    ],
+    "event_id": "E05",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "6a"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "5a",
+        "percent": 78.4,
+        "product_label": "6a",
+        "scope": "Source-reported yield; source conflict notes take precedence."
+      }
+    ],
+    "reactant_labels": [
+      "5a"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E05",
+        "pages": [
+          3
+        ],
+        "sha256": "1e14ebb56ecaeb2012b391497d2ec5bc9a00c5e54b8648fa7c6b89e1f6431f72",
+        "source_id": "article"
+      }
+    ],
+    "step_id": "E05.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "CCCCCCCCCCCCc1cc(OCc2ccccc2)c(OC)c(C)n1>>CCCCCCCCCCCCc1cc(=O)c(OC)c(C)[nH]1",
+    "temperature": "90 deg C",
+    "time": "12 h",
+    "yield_percent": 78.4
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "Pd(PPh3)4",
+      "K2CO3",
+      "formic acid"
+    ],
+    "event_id": "E06",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "5b"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "4",
+        "percent": 59.2,
+        "product_label": "5b",
+        "scope": "Source-reported yield; source conflict notes take precedence."
+      }
+    ],
+    "reactant_labels": [
+      "4",
+      "coupling-partner-b"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "ethanol"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E06",
+        "pages": [
+          3
+        ],
+        "sha256": "1e14ebb56ecaeb2012b391497d2ec5bc9a00c5e54b8648fa7c6b89e1f6431f72",
+        "source_id": "article"
+      }
+    ],
+    "step_id": "E06.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "C=Cc1ccccc1.COc1c(OCc2ccccc2)cc(Br)nc1C>>COc1c(OCc2ccccc2)cc(C(C)c2ccccc2)nc1C",
+    "temperature": "reflux",
+    "time": "24 h",
+    "yield_percent": 59.2
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "HCl",
+      "TFA",
+      "AcOH"
+    ],
+    "event_id": "E07",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "6b"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "5b",
+        "percent": 74.0,
+        "product_label": "6b",
+        "scope": "Source-reported yield; source conflict notes take precedence."
+      }
+    ],
+    "reactant_labels": [
+      "5b"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E07",
+        "pages": [
+          4
+        ],
+        "sha256": "1e14ebb56ecaeb2012b391497d2ec5bc9a00c5e54b8648fa7c6b89e1f6431f72",
+        "source_id": "article"
+      }
+    ],
+    "step_id": "E07.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "COc1c(OCc2ccccc2)cc(C(C)c2ccccc2)nc1C>>COc1c(C)[nH]c(C(C)c2ccccc2)cc1=O",
+    "temperature": "90 deg C",
+    "time": "12 h",
+    "yield_percent": 74.0
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "Pd(PPh3)4",
+      "K2CO3",
+      "formic acid"
+    ],
+    "event_id": "E08",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "5c"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "4",
+        "percent": 62.2,
+        "product_label": "5c",
+        "scope": "Source-reported yield; source conflict notes take precedence."
+      }
+    ],
+    "reactant_labels": [
+      "4",
+      "coupling-partner-c"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "ethanol"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E08",
+        "pages": [
+          3
+        ],
+        "sha256": "1e14ebb56ecaeb2012b391497d2ec5bc9a00c5e54b8648fa7c6b89e1f6431f72",
+        "source_id": "article"
+      }
+    ],
+    "step_id": "E08.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "C=CCc1ccccc1.COc1c(OCc2ccccc2)cc(Br)nc1C>>COc1c(OCc2ccccc2)cc(CCCc2ccccc2)nc1C",
+    "temperature": "reflux",
+    "time": "24 h",
+    "yield_percent": 62.2
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "HCl",
+      "TFA",
+      "AcOH"
+    ],
+    "event_id": "E09",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "6c"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "5c",
+        "percent": 72.9,
+        "product_label": "6c",
+        "scope": "Source-reported yield; source conflict notes take precedence."
+      }
+    ],
+    "reactant_labels": [
+      "5c"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E09",
+        "pages": [
+          4
+        ],
+        "sha256": "1e14ebb56ecaeb2012b391497d2ec5bc9a00c5e54b8648fa7c6b89e1f6431f72",
+        "source_id": "article"
+      }
+    ],
+    "step_id": "E09.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "COc1c(OCc2ccccc2)cc(CCCc2ccccc2)nc1C>>COc1c(C)[nH]c(CCCc2ccccc2)cc1=O",
+    "temperature": "90 deg C",
+    "time": "12 h",
+    "yield_percent": 72.9
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "Pd(OAc)2",
+      "PtBu3.HBF4",
+      "NaOH"
+    ],
+    "event_id": "E10",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "5d"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "4",
+        "percent": 73.3,
+        "product_label": "5d",
+        "scope": "Source-reported yield; source conflict notes take precedence."
+      }
+    ],
+    "reactant_labels": [
+      "4",
+      "coupling-partner-d"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "n-butanol",
+      "water"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E10",
+        "pages": [
+          3
+        ],
+        "sha256": "1e14ebb56ecaeb2012b391497d2ec5bc9a00c5e54b8648fa7c6b89e1f6431f72",
+        "source_id": "article"
+      }
+    ],
+    "step_id": "E10.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "COc1c(OCc2ccccc2)cc(Br)nc1C.OB(O)c1ccc2c(c1)OCO2>>COc1c(OCc2ccccc2)cc(-c2ccc3c(c2)OCO3)nc1C",
+    "temperature": "room temperature",
+    "time": "1 h",
+    "yield_percent": 73.3
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "HCl",
+      "TFA",
+      "AcOH"
+    ],
+    "event_id": "E11",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "6d"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "5d",
+        "percent": 70.1,
+        "product_label": "6d",
+        "scope": "Source-reported yield; source conflict notes take precedence."
+      }
+    ],
+    "reactant_labels": [
+      "5d"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E11",
+        "pages": [
+          4
+        ],
+        "sha256": "1e14ebb56ecaeb2012b391497d2ec5bc9a00c5e54b8648fa7c6b89e1f6431f72",
+        "source_id": "article"
+      }
+    ],
+    "step_id": "E11.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "COc1c(OCc2ccccc2)cc(-c2ccc3c(c2)OCO3)nc1C>>COc1c(C)[nH]c(-c2ccc3c(c2)OCO3)cc1=O",
+    "temperature": "90 deg C",
+    "time": "12 h",
+    "yield_percent": 70.1
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "Pd(OAc)2",
+      "PtBu3.HBF4",
+      "NaOH"
+    ],
+    "event_id": "E12",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "5e"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "4",
+        "percent": 83.2,
+        "product_label": "5e",
+        "scope": "Source-reported yield; source conflict notes take precedence."
+      }
+    ],
+    "reactant_labels": [
+      "4",
+      "coupling-partner-e"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "n-butanol",
+      "water"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E12",
+        "pages": [
+          3
+        ],
+        "sha256": "1e14ebb56ecaeb2012b391497d2ec5bc9a00c5e54b8648fa7c6b89e1f6431f72",
+        "source_id": "article"
+      }
+    ],
+    "step_id": "E12.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "COc1c(OCc2ccccc2)cc(Br)nc1C.OB(O)c1cccs1>>COc1c(OCc2ccccc2)cc(-c2cccs2)nc1C",
+    "temperature": "room temperature",
+    "time": "1 h",
+    "yield_percent": 83.2
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "HCl",
+      "TFA",
+      "AcOH"
+    ],
+    "event_id": "E13",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "6e"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "5e",
+        "percent": 73.2,
+        "product_label": "6e",
+        "scope": "Source-reported yield; source conflict notes take precedence."
+      }
+    ],
+    "reactant_labels": [
+      "5e"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E13",
+        "pages": [
+          4
+        ],
+        "sha256": "1e14ebb56ecaeb2012b391497d2ec5bc9a00c5e54b8648fa7c6b89e1f6431f72",
+        "source_id": "article"
+      }
+    ],
+    "step_id": "E13.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "COc1c(OCc2ccccc2)cc(-c2cccs2)nc1C>>COc1c(C)[nH]c(-c2cccs2)cc1=O",
+    "temperature": "90 deg C",
+    "time": "12 h",
+    "yield_percent": 73.2
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "Pd(OAc)2",
+      "PtBu3.HBF4",
+      "NaOH"
+    ],
+    "event_id": "E14",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "5f"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "4",
+        "percent": 83.6,
+        "product_label": "5f",
+        "scope": "Source-reported yield; source conflict notes take precedence."
+      }
+    ],
+    "reactant_labels": [
+      "4",
+      "coupling-partner-f"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "n-butanol",
+      "water"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E14",
+        "pages": [
+          3
+        ],
+        "sha256": "1e14ebb56ecaeb2012b391497d2ec5bc9a00c5e54b8648fa7c6b89e1f6431f72",
+        "source_id": "article"
+      }
+    ],
+    "step_id": "E14.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "COc1c(OCc2ccccc2)cc(Br)nc1C.OB(O)c1ccco1>>COc1c(OCc2ccccc2)cc(-c2ccco2)nc1C",
+    "temperature": "room temperature",
+    "time": "1 h",
+    "yield_percent": 83.6
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "HCl",
+      "TFA",
+      "AcOH"
+    ],
+    "event_id": "E15",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "6f"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "5f",
+        "percent": 72.0,
+        "product_label": "6f",
+        "scope": "Source-reported yield; source conflict notes take precedence."
+      }
+    ],
+    "reactant_labels": [
+      "5f"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E15",
+        "pages": [
+          4
+        ],
+        "sha256": "1e14ebb56ecaeb2012b391497d2ec5bc9a00c5e54b8648fa7c6b89e1f6431f72",
+        "source_id": "article"
+      }
+    ],
+    "step_id": "E15.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "COc1c(OCc2ccccc2)cc(-c2ccco2)nc1C>>COc1c(C)[nH]c(-c2ccco2)cc1=O",
+    "temperature": "90 deg C",
+    "time": "12 h",
+    "yield_percent": 72.0
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "Pd(OAc)2",
+      "PtBu3.HBF4",
+      "NaOH"
+    ],
+    "event_id": "E16",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "5g"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "4",
+        "percent": 81.9,
+        "product_label": "5g",
+        "scope": "Source-reported yield; source conflict notes take precedence."
+      }
+    ],
+    "reactant_labels": [
+      "4",
+      "coupling-partner-g"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "n-butanol",
+      "water"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E16",
+        "pages": [
+          3
+        ],
+        "sha256": "1e14ebb56ecaeb2012b391497d2ec5bc9a00c5e54b8648fa7c6b89e1f6431f72",
+        "source_id": "article"
+      }
+    ],
+    "step_id": "E16.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "COc1c(OCc2ccccc2)cc(Br)nc1C.COc1ccc(B(O)O)cc1OC>>COc1ccc(-c2cc(OCc3ccccc3)c(OC)c(C)n2)cc1OC",
+    "temperature": "room temperature",
+    "time": "1 h",
+    "yield_percent": 81.9
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "HCl",
+      "TFA",
+      "AcOH"
+    ],
+    "event_id": "E17",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "6g"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "5g",
+        "percent": 74.3,
+        "product_label": "6g",
+        "scope": "Source-reported yield; source conflict notes take precedence."
+      }
+    ],
+    "reactant_labels": [
+      "5g"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E17",
+        "pages": [
+          4
+        ],
+        "sha256": "1e14ebb56ecaeb2012b391497d2ec5bc9a00c5e54b8648fa7c6b89e1f6431f72",
+        "source_id": "article"
+      }
+    ],
+    "step_id": "E17.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "COc1ccc(-c2cc(OCc3ccccc3)c(OC)c(C)n2)cc1OC>>COc1ccc(-c2cc(=O)c(OC)c(C)[nH]2)cc1OC",
+    "temperature": "90 deg C",
+    "time": "12 h",
+    "yield_percent": 74.3
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "Pd(OAc)2",
+      "PtBu3.HBF4",
+      "NaOH"
+    ],
+    "event_id": "E18",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "5h"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "4",
+        "percent": 78.5,
+        "product_label": "5h",
+        "scope": "Source-reported yield; source conflict notes take precedence."
+      }
+    ],
+    "reactant_labels": [
+      "4",
+      "coupling-partner-h"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "n-butanol",
+      "water"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E18",
+        "pages": [
+          4
+        ],
+        "sha256": "1e14ebb56ecaeb2012b391497d2ec5bc9a00c5e54b8648fa7c6b89e1f6431f72",
+        "source_id": "article"
+      }
+    ],
+    "step_id": "E18.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "COc1c(OCc2ccccc2)cc(Br)nc1C.COc1cc(OC)cc(B(O)O)c1>>COc1cc(OC)cc(-c2cc(OCc3ccccc3)c(OC)c(C)n2)c1",
+    "temperature": "room temperature",
+    "time": "1 h",
+    "yield_percent": 78.5
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "HCl",
+      "TFA",
+      "AcOH"
+    ],
+    "event_id": "E19",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "6h"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "5h",
+        "percent": 69.0,
+        "product_label": "6h",
+        "scope": "Source-reported yield; source conflict notes take precedence."
+      }
+    ],
+    "reactant_labels": [
+      "5h"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E19",
+        "pages": [
+          5
+        ],
+        "sha256": "1e14ebb56ecaeb2012b391497d2ec5bc9a00c5e54b8648fa7c6b89e1f6431f72",
+        "source_id": "article"
+      }
+    ],
+    "step_id": "E19.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "COc1cc(OC)cc(-c2cc(OCc3ccccc3)c(OC)c(C)n2)c1>>COc1cc(OC)cc(-c2cc(=O)c(OC)c(C)[nH]2)c1",
+    "temperature": "90 deg C",
+    "time": "12 h",
+    "yield_percent": 69.0
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "Pd(OAc)2",
+      "PtBu3.HBF4",
+      "NaOH"
+    ],
+    "event_id": "E20",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "5i"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "4",
+        "percent": 70.8,
+        "product_label": "5i",
+        "scope": "Source-reported yield; source conflict notes take precedence."
+      }
+    ],
+    "reactant_labels": [
+      "4",
+      "coupling-partner-i"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "n-butanol",
+      "water"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E20",
+        "pages": [
+          4
+        ],
+        "sha256": "1e14ebb56ecaeb2012b391497d2ec5bc9a00c5e54b8648fa7c6b89e1f6431f72",
+        "source_id": "article"
+      }
+    ],
+    "step_id": "E20.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "COc1c(OCc2ccccc2)cc(Br)nc1C.OB(O)c1ccc(Cl)cc1>>COc1c(OCc2ccccc2)cc(-c2ccc(Cl)cc2)nc1C",
+    "temperature": "room temperature",
+    "time": "1 h",
+    "yield_percent": 70.8
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "HCl",
+      "TFA",
+      "AcOH"
+    ],
+    "event_id": "E21",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "6i"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "5i",
+        "percent": 73.5,
+        "product_label": "6i",
+        "scope": "Source-reported yield; source conflict notes take precedence."
+      }
+    ],
+    "reactant_labels": [
+      "5i"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E21",
+        "pages": [
+          5
+        ],
+        "sha256": "1e14ebb56ecaeb2012b391497d2ec5bc9a00c5e54b8648fa7c6b89e1f6431f72",
+        "source_id": "article"
+      }
+    ],
+    "step_id": "E21.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "COc1c(OCc2ccccc2)cc(-c2ccc(Cl)cc2)nc1C>>COc1c(C)[nH]c(-c2ccc(Cl)cc2)cc1=O",
+    "temperature": "90 deg C",
+    "time": "12 h",
+    "yield_percent": 73.5
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "Pd(PPh3)4",
+      "K2CO3"
+    ],
+    "event_id": "E22",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "5j"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "4",
+        "percent": 65.3,
+        "product_label": "5j",
+        "scope": "Source-reported yield; source conflict notes take precedence."
+      }
+    ],
+    "reactant_labels": [
+      "4",
+      "coupling-partner-j"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "1,4-dioxane"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E22",
+        "pages": [
+          4
+        ],
+        "sha256": "1e14ebb56ecaeb2012b391497d2ec5bc9a00c5e54b8648fa7c6b89e1f6431f72",
+        "source_id": "article"
+      }
+    ],
+    "step_id": "E22.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "COc1c(OCc2ccccc2)cc(Br)nc1C.OB(O)C1CC1>>COc1c(OCc2ccccc2)cc(C2CC2)nc1C",
+    "temperature": "120 deg C",
+    "time": "24 h",
+    "yield_percent": 65.3
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "HCl",
+      "TFA",
+      "AcOH"
+    ],
+    "event_id": "E23",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "6j"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "5j",
+        "percent": 69.1,
+        "product_label": "6j",
+        "scope": "Source-reported yield; source conflict notes take precedence."
+      }
+    ],
+    "reactant_labels": [
+      "5j"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E23",
+        "pages": [
+          5
+        ],
+        "sha256": "1e14ebb56ecaeb2012b391497d2ec5bc9a00c5e54b8648fa7c6b89e1f6431f72",
+        "source_id": "article"
+      }
+    ],
+    "step_id": "E23.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "COc1c(OCc2ccccc2)cc(C2CC2)nc1C>>COc1c(C)[nH]c(C2CC2)cc1=O",
+    "temperature": "90 deg C",
+    "time": "12 h",
+    "yield_percent": 69.1
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "Pd(PPh3)4",
+      "K2CO3"
+    ],
+    "event_id": "E24",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "5k"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "4",
+        "percent": 68.4,
+        "product_label": "5k",
+        "scope": "Source-reported yield; source conflict notes take precedence."
+      }
+    ],
+    "reactant_labels": [
+      "4",
+      "coupling-partner-k"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "1,4-dioxane"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E24",
+        "pages": [
+          4
+        ],
+        "sha256": "1e14ebb56ecaeb2012b391497d2ec5bc9a00c5e54b8648fa7c6b89e1f6431f72",
+        "source_id": "article"
+      }
+    ],
+    "step_id": "E24.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "COc1c(OCc2ccccc2)cc(Br)nc1C.COc1ccc(Cl)c(B(O)O)c1>>COc1ccc(Cl)c(-c2cc(OCc3ccccc3)c(OC)c(C)n2)c1",
+    "temperature": "120 deg C",
+    "time": "24 h",
+    "yield_percent": 68.4
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "HCl",
+      "TFA",
+      "AcOH"
+    ],
+    "event_id": "E25",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "6k"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "5k",
+        "percent": 76.7,
+        "product_label": "6k",
+        "scope": "Source-reported yield; source conflict notes take precedence."
+      }
+    ],
+    "reactant_labels": [
+      "5k"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E25",
+        "pages": [
+          5
+        ],
+        "sha256": "1e14ebb56ecaeb2012b391497d2ec5bc9a00c5e54b8648fa7c6b89e1f6431f72",
+        "source_id": "article"
+      }
+    ],
+    "step_id": "E25.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "COc1ccc(Cl)c(-c2cc(OCc3ccccc3)c(OC)c(C)n2)c1>>COc1ccc(Cl)c(-c2cc(=O)c(OC)c(C)[nH]2)c1",
+    "temperature": "90 deg C",
+    "time": "12 h",
+    "yield_percent": 76.7
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "Pd(PPh3)4",
+      "K2CO3"
+    ],
+    "event_id": "E26",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "5l"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "4",
+        "percent": 66.1,
+        "product_label": "5l",
+        "scope": "Source-reported yield; source conflict notes take precedence."
+      }
+    ],
+    "reactant_labels": [
+      "4",
+      "coupling-partner-l"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "1,4-dioxane"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E26",
+        "pages": [
+          4
+        ],
+        "sha256": "1e14ebb56ecaeb2012b391497d2ec5bc9a00c5e54b8648fa7c6b89e1f6431f72",
+        "source_id": "article"
+      }
+    ],
+    "step_id": "E26.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "COc1c(OCc2ccccc2)cc(Br)nc1C.OB(O)c1cc(F)c(F)c(F)c1>>COc1c(OCc2ccccc2)cc(-c2cc(F)c(F)c(F)c2)nc1C",
+    "temperature": "120 deg C",
+    "time": "24 h",
+    "yield_percent": 66.1
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "HCl",
+      "TFA",
+      "AcOH"
+    ],
+    "event_id": "E27",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "6l"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "5l",
+        "percent": 72.1,
+        "product_label": "6l",
+        "scope": "Source-reported yield; source conflict notes take precedence."
+      }
+    ],
+    "reactant_labels": [
+      "5l"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E27",
+        "pages": [
+          5
+        ],
+        "sha256": "1e14ebb56ecaeb2012b391497d2ec5bc9a00c5e54b8648fa7c6b89e1f6431f72",
+        "source_id": "article"
+      }
+    ],
+    "step_id": "E27.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "COc1c(OCc2ccccc2)cc(-c2cc(F)c(F)c(F)c2)nc1C>>COc1c(C)[nH]c(-c2cc(F)c(F)c(F)c2)cc1=O",
+    "temperature": "90 deg C",
+    "time": "12 h",
+    "yield_percent": 72.1
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "Pd(PPh3)4",
+      "K2CO3"
+    ],
+    "event_id": "E28",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "5a-prime"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "4",
+        "percent": 21.5,
+        "product_label": "5a-prime",
+        "scope": "HPLC conversion from screening, not isolated yield."
+      }
+    ],
+    "reactant_labels": [
+      "4",
+      "coupling-partner-a"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "DMF"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E28",
+        "pages": [
+          5,
+          6
+        ],
+        "sha256": "1e14ebb56ecaeb2012b391497d2ec5bc9a00c5e54b8648fa7c6b89e1f6431f72",
+        "source_id": "article"
+      }
+    ],
+    "step_id": "E28.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "C=CCCCCCCCCCC.COc1c(OCc2ccccc2)cc(Br)nc1C>>CCCCCCCCCC/C=C/c1cc(OCc2ccccc2)c(OC)c(C)n1",
+    "temperature": "reflux",
+    "time": "36 h",
+    "yield_percent": 21.5
+  }
+]

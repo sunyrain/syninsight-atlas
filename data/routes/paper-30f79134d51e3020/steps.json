@@ -1,0 +1,652 @@
+[
+  {
+    "admission_authority": false,
+    "agents": [
+      "triethylamine"
+    ],
+    "event_id": "E01",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source preparation event",
+    "product_labels": [
+      "7"
+    ],
+    "reactant_labels": [
+      "9",
+      "Boc2O"
+    ],
+    "solvents": [
+      "dichloromethane"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF pages (printed page number is one lower): E01 preparation",
+        "pages": [
+          3
+        ],
+        "sha256": "5c61b422c9c9c11b53bc73563827c14098efe8c328121909abf314c026b070da",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E01.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "CC(C)(C)OC(=O)OC(=O)OC(C)(C)C.COC(=O)CNCCc1c[nH]c2ccccc12>>COC(=O)CN(CCc1cn(C(=O)OC(C)(C)C)c2ccccc12)C(=O)OC(C)(C)C",
+    "unreported_internal_structure": false,
+    "yield_percent": 79
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "DIBAL-H"
+    ],
+    "event_id": "E02",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source preparation event",
+    "product_labels": [
+      "10"
+    ],
+    "reactant_labels": [
+      "7"
+    ],
+    "solvents": [
+      "dichloromethane",
+      "toluene"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF pages (printed page number is one lower): E02 preparation",
+        "pages": [
+          3,
+          4
+        ],
+        "sha256": "5c61b422c9c9c11b53bc73563827c14098efe8c328121909abf314c026b070da",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E02.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "COC(=O)CN(CCc1cn(C(=O)OC(C)(C)C)c2ccccc12)C(=O)OC(C)(C)C>>CC(C)(C)OC(=O)N(CC=O)CCc1cn(C(=O)OC(C)(C)C)c2ccccc12",
+    "unreported_internal_structure": false,
+    "yield_percent": 67
+  },
+  {
+    "admission_authority": false,
+    "agents": [],
+    "event_id": "E03",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source preparation event",
+    "product_labels": [
+      "11"
+    ],
+    "reactant_labels": [
+      "10",
+      "wittig-ylide"
+    ],
+    "solvents": [
+      "dichloromethane"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF pages (printed page number is one lower): E03 preparation",
+        "pages": [
+          4
+        ],
+        "sha256": "5c61b422c9c9c11b53bc73563827c14098efe8c328121909abf314c026b070da",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E03.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "CC(C)(C)OC(=O)N(CC=O)CCc1cn(C(=O)OC(C)(C)C)c2ccccc12.CCOC(=O)C=P(c1ccccc1)(c1ccccc1)c1ccccc1>>CCOC(=O)/C=C/CN(CCc1cn(C(=O)OC(C)(C)C)c2ccccc12)C(=O)OC(C)(C)C",
+    "unreported_internal_structure": false,
+    "yield_percent": 62
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "DIBAL-H"
+    ],
+    "event_id": "E04",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source preparation event",
+    "product_labels": [
+      "6"
+    ],
+    "reactant_labels": [
+      "11"
+    ],
+    "solvents": [
+      "THF",
+      "toluene"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF pages (printed page number is one lower): E04 preparation",
+        "pages": [
+          4,
+          5
+        ],
+        "sha256": "5c61b422c9c9c11b53bc73563827c14098efe8c328121909abf314c026b070da",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E04.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "CCOC(=O)/C=C/CN(CCc1cn(C(=O)OC(C)(C)C)c2ccccc12)C(=O)OC(C)(C)C>>CC(C)(C)OC(=O)N(C/C=C/CO)CCc1cn(C(=O)OC(C)(C)C)c2ccccc12",
+    "unreported_internal_structure": false,
+    "yield_percent": 75
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "EDC hydrochloride",
+      "triethylamine",
+      "DMAP"
+    ],
+    "event_id": "E05",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source preparation event",
+    "product_labels": [
+      "4"
+    ],
+    "reactant_labels": [
+      "6",
+      "5"
+    ],
+    "solvents": [
+      "dichloromethane"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF pages (printed page number is one lower): E05 preparation",
+        "pages": [
+          5
+        ],
+        "sha256": "5c61b422c9c9c11b53bc73563827c14098efe8c328121909abf314c026b070da",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E05.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "CC(C)(C)OC(=O)N(C/C=C/CO)CCc1cn(C(=O)OC(C)(C)C)c2ccccc12.O=C(O)CCC1OCCO1>>CC(C)(C)OC(=O)N(C/C=C/COC(=O)CCC1OCCO1)CCc1cn(C(=O)OC(C)(C)C)c2ccccc12",
+    "unreported_internal_structure": false,
+    "yield_percent": 96
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "triethylamine"
+    ],
+    "event_id": "E06",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source preparation event",
+    "product_labels": [
+      "15"
+    ],
+    "reactant_labels": [
+      "8a",
+      "13"
+    ],
+    "solvents": [
+      "dichloromethane"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF pages (printed page number is one lower): E06 preparation",
+        "pages": [
+          6
+        ],
+        "sha256": "5c61b422c9c9c11b53bc73563827c14098efe8c328121909abf314c026b070da",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E06.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "COC(=O)/C=C/CBr.NCCc1c[nH]c2ccccc12>>COC(=O)/C=C/CNCCc1c[nH]c2ccccc12",
+    "unreported_internal_structure": false,
+    "yield_percent": 57
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "triethylamine"
+    ],
+    "event_id": "E07",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source preparation event",
+    "product_labels": [
+      "14"
+    ],
+    "reactant_labels": [
+      "15",
+      "Boc2O"
+    ],
+    "solvents": [
+      "dichloromethane"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF pages (printed page number is one lower): E07 preparation",
+        "pages": [
+          6,
+          7
+        ],
+        "sha256": "5c61b422c9c9c11b53bc73563827c14098efe8c328121909abf314c026b070da",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E07.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "CC(C)(C)OC(=O)OC(=O)OC(C)(C)C.COC(=O)/C=C/CNCCc1c[nH]c2ccccc12>>COC(=O)/C=C/CN(CCc1cn(C(=O)OC(C)(C)C)c2ccccc12)C(=O)OC(C)(C)C",
+    "unreported_internal_structure": false,
+    "yield_percent": 77
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "DIBAL-H"
+    ],
+    "event_id": "E08",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source preparation event",
+    "product_labels": [
+      "6"
+    ],
+    "reactant_labels": [
+      "14"
+    ],
+    "solvents": [
+      "THF",
+      "toluene"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF pages (printed page number is one lower): E08 preparation",
+        "pages": [
+          7
+        ],
+        "sha256": "5c61b422c9c9c11b53bc73563827c14098efe8c328121909abf314c026b070da",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E08.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "COC(=O)/C=C/CN(CCc1cn(C(=O)OC(C)(C)C)c2ccccc12)C(=O)OC(C)(C)C>>CC(C)(C)OC(=O)N(C/C=C/CO)CCc1cn(C(=O)OC(C)(C)C)c2ccccc12",
+    "unreported_internal_structure": false,
+    "yield_percent": 86
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "trimethylsilyl chloride",
+      "triethylamine",
+      "LiHMDS",
+      "hydrochloric acid"
+    ],
+    "event_id": "E09",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source preparation event",
+    "product_labels": [
+      "16a",
+      "16b"
+    ],
+    "reactant_labels": [
+      "4"
+    ],
+    "solvents": [
+      "toluene",
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF pages (printed page number is one lower): E09 preparation",
+        "pages": [
+          7,
+          8,
+          9
+        ],
+        "sha256": "5c61b422c9c9c11b53bc73563827c14098efe8c328121909abf314c026b070da",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E09.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "CC(C)(C)OC(=O)N(C/C=C/COC(=O)CCC1OCCO1)CCc1cn(C(=O)OC(C)(C)C)c2ccccc12>>C=C[C@@H](CN(CCc1cn(C(=O)OC(C)(C)C)c2ccccc12)C(=O)OC(C)(C)C)[C@@H](CC1OCCO1)C(=O)O.C=C[C@@H](CN(CCc1cn(C(=O)OC(C)(C)C)c2ccccc12)C(=O)OC(C)(C)C)[C@H](CC1OCCO1)C(=O)O",
+    "unreported_internal_structure": false,
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "triethylamine",
+      "isobutyl chloroformate",
+      "silver acetate"
+    ],
+    "event_id": "E10",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Grouped homologation preparation; internal structures not drawn in available SI, stage yields retained separately",
+    "product_labels": [
+      "3a"
+    ],
+    "reactant_labels": [
+      "16a",
+      "diazomethane"
+    ],
+    "solvents": [
+      "THF",
+      "diethyl ether",
+      "1,4-dioxane",
+      "water"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF pages (printed page number is one lower): E10 preparation",
+        "pages": [
+          9,
+          10
+        ],
+        "sha256": "5c61b422c9c9c11b53bc73563827c14098efe8c328121909abf314c026b070da",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E10.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "C=C[C@@H](CN(CCc1cn(C(=O)OC(C)(C)C)c2ccccc12)C(=O)OC(C)(C)C)[C@@H](CC1OCCO1)C(=O)O.C=[N+]=[N-]>>C=C[C@@H](CN(CCc1cn(C(=O)OC(C)(C)C)c2ccccc12)C(=O)OC(C)(C)C)[C@H](CC(=O)OC)CC1OCCO1",
+    "unreported_internal_structure": true,
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "trifluoroacetic acid"
+    ],
+    "event_id": "E11",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source preparation event",
+    "product_labels": [
+      "17a",
+      "17a-prime"
+    ],
+    "reactant_labels": [
+      "3a"
+    ],
+    "solvents": [
+      "dichloromethane"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF pages (printed page number is one lower): E11 preparation",
+        "pages": [
+          10,
+          11
+        ],
+        "sha256": "5c61b422c9c9c11b53bc73563827c14098efe8c328121909abf314c026b070da",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E11.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "C=C[C@@H](CN(CCc1cn(C(=O)OC(C)(C)C)c2ccccc12)C(=O)OC(C)(C)C)[C@H](CC(=O)OC)CC1OCCO1>>C=C[C@H]1CN2CCc3c([nH]c4ccccc34)[C@@H]2C[C@H]1CC(=O)OC.C=C[C@H]1CN2CCc3c([nH]c4ccccc34)[C@H]2C[C@H]1CC(=O)OC",
+    "unreported_internal_structure": false,
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "lithium aluminium hydride"
+    ],
+    "event_id": "E12",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source preparation event",
+    "product_labels": [
+      "IV"
+    ],
+    "reactant_labels": [
+      "17a"
+    ],
+    "solvents": [
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF pages (printed page number is one lower): E12 preparation",
+        "pages": [
+          11
+        ],
+        "sha256": "5c61b422c9c9c11b53bc73563827c14098efe8c328121909abf314c026b070da",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E12.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "C=C[C@H]1CN2CCc3c([nH]c4ccccc34)[C@@H]2C[C@H]1CC(=O)OC>>C=C[C@H]1CN2CCc3c([nH]c4ccccc34)[C@@H]2C[C@H]1CCO",
+    "unreported_internal_structure": false,
+    "yield_percent": 89
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "hydrogen",
+      "palladium on carbon"
+    ],
+    "event_id": "E13",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source preparation event",
+    "product_labels": [
+      "V"
+    ],
+    "reactant_labels": [
+      "IV"
+    ],
+    "solvents": [
+      "methanol"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF pages (printed page number is one lower): E13 preparation",
+        "pages": [
+          12
+        ],
+        "sha256": "5c61b422c9c9c11b53bc73563827c14098efe8c328121909abf314c026b070da",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E13.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "C=C[C@H]1CN2CCc3c([nH]c4ccccc34)[C@@H]2C[C@H]1CCO>>CC[C@H]1CN2CCc3c([nH]c4ccccc34)[C@@H]2C[C@H]1CCO",
+    "unreported_internal_structure": false,
+    "yield_percent": 81
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "triethylamine",
+      "isobutyl chloroformate",
+      "silver acetate"
+    ],
+    "event_id": "E14",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Grouped homologation preparation; internal structures not drawn in available SI, stage yields retained separately",
+    "product_labels": [
+      "3b"
+    ],
+    "reactant_labels": [
+      "16b",
+      "diazomethane"
+    ],
+    "solvents": [
+      "THF",
+      "diethyl ether",
+      "1,4-dioxane",
+      "water"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF pages (printed page number is one lower): E14 preparation",
+        "pages": [
+          12,
+          13
+        ],
+        "sha256": "5c61b422c9c9c11b53bc73563827c14098efe8c328121909abf314c026b070da",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E14.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "C=C[C@@H](CN(CCc1cn(C(=O)OC(C)(C)C)c2ccccc12)C(=O)OC(C)(C)C)[C@H](CC1OCCO1)C(=O)O.C=[N+]=[N-]>>C=C[C@@H](CN(CCc1cn(C(=O)OC(C)(C)C)c2ccccc12)C(=O)OC(C)(C)C)[C@@H](CC(=O)OC)CC1OCCO1",
+    "unreported_internal_structure": true,
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "trifluoroacetic acid"
+    ],
+    "event_id": "E15",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source preparation event",
+    "product_labels": [
+      "17b",
+      "17b-prime"
+    ],
+    "reactant_labels": [
+      "3b"
+    ],
+    "solvents": [
+      "dichloromethane"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF pages (printed page number is one lower): E15 preparation",
+        "pages": [
+          14
+        ],
+        "sha256": "5c61b422c9c9c11b53bc73563827c14098efe8c328121909abf314c026b070da",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E15.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "C=C[C@@H](CN(CCc1cn(C(=O)OC(C)(C)C)c2ccccc12)C(=O)OC(C)(C)C)[C@@H](CC(=O)OC)CC1OCCO1>>C=C[C@H]1CN2CCc3c([nH]c4ccccc34)[C@@H]2C[C@@H]1CC(=O)OC.C=C[C@H]1CN2CCc3c([nH]c4ccccc34)[C@H]2C[C@@H]1CC(=O)OC",
+    "unreported_internal_structure": false,
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "lithium aluminium hydride"
+    ],
+    "event_id": "E16",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source preparation event",
+    "product_labels": [
+      "II"
+    ],
+    "reactant_labels": [
+      "17b"
+    ],
+    "solvents": [
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF pages (printed page number is one lower): E16 preparation",
+        "pages": [
+          15
+        ],
+        "sha256": "5c61b422c9c9c11b53bc73563827c14098efe8c328121909abf314c026b070da",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E16.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "C=C[C@H]1CN2CCc3c([nH]c4ccccc34)[C@H]2C[C@@H]1CC(=O)OC>>C=C[C@H]1CN2CCc3c([nH]c4ccccc34)[C@H]2C[C@@H]1CCO",
+    "unreported_internal_structure": false,
+    "yield_percent": 90
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "lithium aluminium hydride"
+    ],
+    "event_id": "E17",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source preparation event",
+    "product_labels": [
+      "I"
+    ],
+    "reactant_labels": [
+      "17b-prime"
+    ],
+    "solvents": [
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF pages (printed page number is one lower): E17 preparation",
+        "pages": [
+          15,
+          16
+        ],
+        "sha256": "5c61b422c9c9c11b53bc73563827c14098efe8c328121909abf314c026b070da",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E17.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "C=C[C@H]1CN2CCc3c([nH]c4ccccc34)[C@@H]2C[C@@H]1CC(=O)OC>>C=C[C@H]1CN2CCc3c([nH]c4ccccc34)[C@@H]2C[C@@H]1CCO",
+    "unreported_internal_structure": false,
+    "yield_percent": 87
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "hydrogen",
+      "platinum dioxide"
+    ],
+    "event_id": "E18",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source preparation event",
+    "product_labels": [
+      "III"
+    ],
+    "reactant_labels": [
+      "I"
+    ],
+    "solvents": [
+      "methanol"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF pages (printed page number is one lower): E18 preparation",
+        "pages": [
+          16
+        ],
+        "sha256": "5c61b422c9c9c11b53bc73563827c14098efe8c328121909abf314c026b070da",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E18.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "C=C[C@H]1CN2CCc3c([nH]c4ccccc34)[C@@H]2C[C@@H]1CCO>>CC[C@H]1CN2CCc3c([nH]c4ccccc34)[C@@H]2C[C@@H]1CCO",
+    "unreported_internal_structure": false,
+    "yield_percent": 85
+  }
+]

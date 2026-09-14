@@ -1,0 +1,4721 @@
+{
+  "admission_authority": false,
+  "available_si_preparation_network_covered": true,
+  "conditions_fully_standardized": false,
+  "coverage_definition": "Main routes and SI preparations S1-S8, including model Heck controls and oxidative side product. Racemic source structures are representative relative stereochemistry, not enantiopure assignments. Chiral separation of 6 is an analytical resolution observation; absolute assignments of separated fractions are not inferred from rotation sign.",
+  "doi": "10.1021/acs.orglett.6c00418",
+  "extraction_method": "source_drawing_checked_network_transcription",
+  "formal_benchmark_eligible": false,
+  "formula_checks": [
+    {
+      "check_basis": "Curation expected formula; source HRMS where available, otherwise drawing atom count.",
+      "expected_neutral_formula": "C34H26O8",
+      "label": "4",
+      "neutral_formula_match": true,
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: formula 4",
+          "pages": [
+            3
+          ],
+          "sha256": "6e0d4573235aea9ebb9014db50984f0476f53ca16168486e0d8eef0f83e7a6e6",
+          "source_id": "article"
+        }
+      ]
+    },
+    {
+      "check_basis": "Curation expected formula; source HRMS where available, otherwise drawing atom count.",
+      "expected_neutral_formula": "C34H28O9",
+      "label": "5",
+      "neutral_formula_match": true,
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: formula 5",
+          "pages": [
+            3
+          ],
+          "sha256": "6e0d4573235aea9ebb9014db50984f0476f53ca16168486e0d8eef0f83e7a6e6",
+          "source_id": "article"
+        }
+      ]
+    },
+    {
+      "check_basis": "Curation expected formula; source HRMS where available, otherwise drawing atom count.",
+      "expected_neutral_formula": "C44H46O14",
+      "label": "21",
+      "neutral_formula_match": true,
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: formula 21",
+          "pages": [
+            4
+          ],
+          "sha256": "6e0d4573235aea9ebb9014db50984f0476f53ca16168486e0d8eef0f83e7a6e6",
+          "source_id": "article"
+        }
+      ]
+    },
+    {
+      "check_basis": "Curation expected formula; source HRMS where available, otherwise drawing atom count.",
+      "expected_neutral_formula": "C34H26O9",
+      "label": "6",
+      "neutral_formula_match": true,
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: formula 6",
+          "pages": [
+            4
+          ],
+          "sha256": "6e0d4573235aea9ebb9014db50984f0476f53ca16168486e0d8eef0f83e7a6e6",
+          "source_id": "article"
+        }
+      ]
+    },
+    {
+      "check_basis": "Curation expected formula; source HRMS where available, otherwise drawing atom count.",
+      "expected_neutral_formula": "C36H36O11",
+      "label": "S8",
+      "neutral_formula_match": true,
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: formula S8",
+          "pages": [
+            4
+          ],
+          "sha256": "6e0d4573235aea9ebb9014db50984f0476f53ca16168486e0d8eef0f83e7a6e6",
+          "source_id": "article"
+        }
+      ]
+    }
+  ],
+  "full_article_route_coverage": true,
+  "hrms_checks": [],
+  "issues": [
+    {
+      "detail": "Perspective bridged drawings were inspected, but C1 in 5 and C1/C4 in 21/6 are left unassigned rather than guessing. These records are not complete stereochemical training targets until independently resolved.",
+      "id": "bridge-stereo",
+      "severity": "representation_boundary",
+      "subject": "5/21/6"
+    },
+    {
+      "detail": "SI S24 separates (-)-6 (4.28 mg) and (+)-6 (4.37 mg) from 10 mg racemate; no absolute graph assignment is inferred solely from signs or HPLC retention.",
+      "id": "resolution",
+      "severity": "representation_boundary",
+      "subject": "6"
+    },
+    {
+      "detail": "SI S10 prose calls product 16; heading/scheme/formula identify acetate 17. SI S11 calls cycloaddition feed 8 but mass and scheme identify 17.",
+      "id": "17-label",
+      "severity": "source_conflict",
+      "subject": "17"
+    },
+    {
+      "detail": "Main Scheme 7 gives H2SO4/EtOH/60 C; SI S17 actual experiment gives HCl/MeOH/80 C. Both locators retained; SI conditions are used.",
+      "id": "20-conditions",
+      "severity": "source_conflict",
+      "subject": "19-to-20"
+    },
+    {
+      "detail": "SI gives 68.7 mg as 0.815 mmol; inconsistent with molecular mass, so no trusted reagent loading inferred.",
+      "id": "S7-amount",
+      "severity": "source_conflict",
+      "subject": "19-to-S7"
+    },
+    {
+      "detail": "Source-bound facts require independent chemist review.",
+      "id": "independent-review",
+      "severity": "review_pending",
+      "subject": "all"
+    }
+  ],
+  "molecules": [
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "COC(=O)c1cc(O)c(I)c(O)c1",
+      "canonical_smiles": "COC(=O)c1cc(O)c(I)c(O)c1",
+      "depiction": "structures/S1.svg",
+      "exact_mass": 293.93890670400003,
+      "formal_benchmark_eligible": false,
+      "label": "S1",
+      "molecular_formula": "C8H7IO4",
+      "molecule_id": "mol-9153010319966dae7f4b5a6b5e2c32208e31fff4c174d4428b4bb1598a029686",
+      "name": "SI compound S1",
+      "paper_label": "S1",
+      "preparation_boundary": "S1 prepared by cited literature",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: S1",
+          "pages": [
+            2
+          ],
+          "sha256": "6e0d4573235aea9ebb9014db50984f0476f53ca16168486e0d8eef0f83e7a6e6",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: S1",
+          "pages": [
+            3
+          ],
+          "sha256": "084da53f87c1c89300817bc5728b545b67d111b080b3046377930d938dc09314",
+          "source_id": "si"
+        }
+      ],
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "COCOc1cc(C(=O)OC)cc(OCOC)c1I",
+      "canonical_smiles": "COCOc1cc(C(=O)OC)cc(OCOC)c1I",
+      "depiction": "structures/S2.svg",
+      "exact_mass": 381.99133620000003,
+      "formal_benchmark_eligible": false,
+      "label": "S2",
+      "molecular_formula": "C12H15IO6",
+      "molecule_id": "mol-7f07b6c05b200de67eafd88bb581248f11211ec8f577f032730b38b7f92bc11a",
+      "name": "SI compound S2",
+      "paper_label": "S2",
+      "preparation_boundary": "",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: S2",
+          "pages": [
+            2
+          ],
+          "sha256": "6e0d4573235aea9ebb9014db50984f0476f53ca16168486e0d8eef0f83e7a6e6",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: S2",
+          "pages": [
+            3
+          ],
+          "sha256": "084da53f87c1c89300817bc5728b545b67d111b080b3046377930d938dc09314",
+          "source_id": "si"
+        }
+      ],
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "COCOc1cc(C=O)cc(OCOC)c1I",
+      "canonical_smiles": "COCOc1cc(C=O)cc(OCOC)c1I",
+      "depiction": "structures/S3.svg",
+      "exact_mass": 351.980771516,
+      "formal_benchmark_eligible": false,
+      "label": "S3",
+      "molecular_formula": "C11H13IO5",
+      "molecule_id": "mol-24fd4ca94156132723912bdd1f3f716dd579f421f3663a559b9003c33365b201",
+      "name": "SI compound S3",
+      "paper_label": "S3",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: S3",
+          "pages": [
+            2
+          ],
+          "sha256": "6e0d4573235aea9ebb9014db50984f0476f53ca16168486e0d8eef0f83e7a6e6",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: S3",
+          "pages": [
+            3,
+            4
+          ],
+          "sha256": "084da53f87c1c89300817bc5728b545b67d111b080b3046377930d938dc09314",
+          "source_id": "si"
+        }
+      ],
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "C#Cc1cc(OCOC)c(I)c(OCOC)c1",
+      "canonical_smiles": "C#Cc1cc(OCOC)c(I)c(OCOC)c1",
+      "depiction": "structures/12.svg",
+      "exact_mass": 347.985856896,
+      "formal_benchmark_eligible": false,
+      "label": "12",
+      "molecular_formula": "C12H13IO4",
+      "molecule_id": "mol-dc98b7bcdeabd2aae51c0613ea9d14861a20bf4d129d97994854700606fcae69",
+      "name": "SI compound 12",
+      "paper_label": "12",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: 12",
+          "pages": [
+            2
+          ],
+          "sha256": "6e0d4573235aea9ebb9014db50984f0476f53ca16168486e0d8eef0f83e7a6e6",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: 12",
+          "pages": [
+            4,
+            5
+          ],
+          "sha256": "084da53f87c1c89300817bc5728b545b67d111b080b3046377930d938dc09314",
+          "source_id": "si"
+        }
+      ],
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "COCOc1cccc(O)c1",
+      "canonical_smiles": "COCOc1cccc(O)c1",
+      "depiction": "structures/10.svg",
+      "exact_mass": 154.06299418,
+      "formal_benchmark_eligible": false,
+      "label": "10",
+      "molecular_formula": "C8H10O3",
+      "molecule_id": "mol-9e1d3570395401f6188dd192b1ba1e4b3ee3f453162d681b6ead1d403c7a2996",
+      "name": "SI compound 10",
+      "paper_label": "10",
+      "preparation_boundary": "Known resorcinol mono-MOM ether; upstream procedure cited.",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: 10",
+          "pages": [
+            2
+          ],
+          "sha256": "6e0d4573235aea9ebb9014db50984f0476f53ca16168486e0d8eef0f83e7a6e6",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: 10",
+          "pages": [
+            5
+          ],
+          "sha256": "084da53f87c1c89300817bc5728b545b67d111b080b3046377930d938dc09314",
+          "source_id": "si"
+        }
+      ],
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "COCOc1ccc(I)c(O)c1",
+      "canonical_smiles": "COCOc1ccc(I)c(O)c1",
+      "depiction": "structures/S4.svg",
+      "exact_mass": 279.959642148,
+      "formal_benchmark_eligible": false,
+      "label": "S4",
+      "molecular_formula": "C8H9IO3",
+      "molecule_id": "mol-dbee260b966961bc9c00c62e8dc6e230972696bb8e957c65ef2d42af3382f5b7",
+      "name": "SI compound S4",
+      "paper_label": "S4",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: S4",
+          "pages": [
+            2
+          ],
+          "sha256": "6e0d4573235aea9ebb9014db50984f0476f53ca16168486e0d8eef0f83e7a6e6",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: S4",
+          "pages": [
+            5
+          ],
+          "sha256": "084da53f87c1c89300817bc5728b545b67d111b080b3046377930d938dc09314",
+          "source_id": "si"
+        }
+      ],
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "COCOc1ccc(I)c(OC(C)=O)c1",
+      "canonical_smiles": "COCOc1ccc(I)c(OC(C)=O)c1",
+      "depiction": "structures/11.svg",
+      "exact_mass": 321.970206832,
+      "formal_benchmark_eligible": false,
+      "label": "11",
+      "molecular_formula": "C10H11IO4",
+      "molecule_id": "mol-5d6acec838883c3a5f040f04f9e6a9af60b1c04d9c6881542ad10b58ebc1e3d4",
+      "name": "SI compound 11",
+      "paper_label": "11",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: 11",
+          "pages": [
+            2
+          ],
+          "sha256": "6e0d4573235aea9ebb9014db50984f0476f53ca16168486e0d8eef0f83e7a6e6",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: 11",
+          "pages": [
+            5,
+            6
+          ],
+          "sha256": "084da53f87c1c89300817bc5728b545b67d111b080b3046377930d938dc09314",
+          "source_id": "si"
+        }
+      ],
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "COCOc1ccc(C#Cc2cc(OCOC)c(I)c(OCOC)c2)c(OC(C)=O)c1",
+      "canonical_smiles": "COCOc1ccc(C#Cc2cc(OCOC)c(I)c(OCOC)c2)c(OC(C)=O)c1",
+      "depiction": "structures/13.svg",
+      "exact_mass": 542.0437656959998,
+      "formal_benchmark_eligible": false,
+      "label": "13",
+      "molecular_formula": "C22H23IO8",
+      "molecule_id": "mol-bfa84f0040e04bd8156dc627db358ca36f596d516ea0ee7b123f32fa525036bb",
+      "name": "SI compound 13",
+      "paper_label": "13",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: 13",
+          "pages": [
+            2
+          ],
+          "sha256": "6e0d4573235aea9ebb9014db50984f0476f53ca16168486e0d8eef0f83e7a6e6",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: 13",
+          "pages": [
+            6,
+            7
+          ],
+          "sha256": "084da53f87c1c89300817bc5728b545b67d111b080b3046377930d938dc09314",
+          "source_id": "si"
+        }
+      ],
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "COCOc1ccc2cc(-c3cc(OCOC)c(I)c(OCOC)c3)oc2c1",
+      "canonical_smiles": "COCOc1ccc2cc(-c3cc(OCOC)c(I)c(OCOC)c3)oc2c1",
+      "depiction": "structures/14.svg",
+      "exact_mass": 500.03320101199995,
+      "formal_benchmark_eligible": false,
+      "label": "14",
+      "molecular_formula": "C20H21IO7",
+      "molecule_id": "mol-386fbbed528ec07500f525ec2fbe46214d03411436de6aa70883f9661cd2ab34",
+      "name": "SI compound 14",
+      "paper_label": "14",
+      "preparation_boundary": "",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: 14",
+          "pages": [
+            2
+          ],
+          "sha256": "6e0d4573235aea9ebb9014db50984f0476f53ca16168486e0d8eef0f83e7a6e6",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: 14",
+          "pages": [
+            7,
+            8,
+            9
+          ],
+          "sha256": "084da53f87c1c89300817bc5728b545b67d111b080b3046377930d938dc09314",
+          "source_id": "si"
+        }
+      ],
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "C=C(C)/C=C/c1c(OCOC)cc(-c2cc3ccc(OCOC)cc3o2)cc1OCOC",
+      "canonical_smiles": "C=C(C)/C=C/c1c(OCOC)cc(-c2cc3ccc(OCOC)cc3o2)cc1OCOC",
+      "depiction": "structures/9.svg",
+      "exact_mass": 440.18350323599986,
+      "formal_benchmark_eligible": false,
+      "label": "9",
+      "molecular_formula": "C25H28O7",
+      "molecule_id": "mol-9c1943b1dabd10e855f5e747f1977072e8a7d2a7894172cc288b9bdefc96e2ee",
+      "name": "SI compound 9",
+      "paper_label": "9",
+      "preparation_boundary": "",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: 9",
+          "pages": [
+            2
+          ],
+          "sha256": "6e0d4573235aea9ebb9014db50984f0476f53ca16168486e0d8eef0f83e7a6e6",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: 9",
+          "pages": [
+            7,
+            8,
+            9
+          ],
+          "sha256": "084da53f87c1c89300817bc5728b545b67d111b080b3046377930d938dc09314",
+          "source_id": "si"
+        }
+      ],
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "COc1ccc2cc(-c3cc(OC)c(I)c(OC)c3)oc2c1",
+      "canonical_smiles": "COc1ccc2cc(-c3cc(OC)c(I)c(OC)c3)oc2c1",
+      "depiction": "structures/S5.svg",
+      "exact_mass": 410.00150696,
+      "formal_benchmark_eligible": false,
+      "label": "S5",
+      "molecular_formula": "C17H15IO4",
+      "molecule_id": "mol-e3163703bdd5cf98079d59e4358b307b91f516a96ef389f106543e282fe0b89a",
+      "name": "SI compound S5",
+      "paper_label": "S5",
+      "preparation_boundary": "Literature model substrate",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: S5",
+          "pages": [
+            2
+          ],
+          "sha256": "6e0d4573235aea9ebb9014db50984f0476f53ca16168486e0d8eef0f83e7a6e6",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: S5",
+          "pages": [
+            8
+          ],
+          "sha256": "084da53f87c1c89300817bc5728b545b67d111b080b3046377930d938dc09314",
+          "source_id": "si"
+        }
+      ],
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "C=C(C)/C=C/c1c(OC)cc(-c2cc3ccc(OC)cc3o2)cc1OC",
+      "canonical_smiles": "C=C(C)/C=C/c1c(OC)cc(-c2cc3ccc(OC)cc3o2)cc1OC",
+      "depiction": "structures/S6.svg",
+      "exact_mass": 350.15180918399994,
+      "formal_benchmark_eligible": false,
+      "label": "S6",
+      "molecular_formula": "C22H22O4",
+      "molecule_id": "mol-408c444b2b8d4005667d029f61e916c8b88cd34c91895d677995f0315bb8269d",
+      "name": "SI compound S6",
+      "paper_label": "S6",
+      "preparation_boundary": "",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: S6",
+          "pages": [
+            2
+          ],
+          "sha256": "6e0d4573235aea9ebb9014db50984f0476f53ca16168486e0d8eef0f83e7a6e6",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: S6",
+          "pages": [
+            8
+          ],
+          "sha256": "084da53f87c1c89300817bc5728b545b67d111b080b3046377930d938dc09314",
+          "source_id": "si"
+        }
+      ],
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "C=CC(C)(C)O",
+      "canonical_smiles": "C=CC(C)(C)O",
+      "depiction": "structures/2-methylbut-3-en-2-ol.svg",
+      "exact_mass": 86.07316494,
+      "formal_benchmark_eligible": false,
+      "label": "2-methylbut-3-en-2-ol",
+      "molecular_formula": "C5H10O",
+      "molecule_id": "mol-8c7409b93c77726ae8be81170174bf8b9f840dd8209d6451b3ef8725c9b288f4",
+      "name": "SI compound 2-methylbut-3-en-2-ol",
+      "paper_label": "2-methylbut-3-en-2-ol",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: 2-methylbut-3-en-2-ol",
+          "pages": [
+            2
+          ],
+          "sha256": "6e0d4573235aea9ebb9014db50984f0476f53ca16168486e0d8eef0f83e7a6e6",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: 2-methylbut-3-en-2-ol",
+          "pages": [
+            8
+          ],
+          "sha256": "084da53f87c1c89300817bc5728b545b67d111b080b3046377930d938dc09314",
+          "source_id": "si"
+        }
+      ],
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "COCOc1ccc(C=O)c(O)c1",
+      "canonical_smiles": "COCOc1ccc(C=O)c(O)c1",
+      "depiction": "structures/15.svg",
+      "exact_mass": 182.0579088,
+      "formal_benchmark_eligible": false,
+      "label": "15",
+      "molecular_formula": "C9H10O4",
+      "molecule_id": "mol-ee7633e6211c2b97378ab1dd4271d03a4923e07445e2b42e88dce43538594bba",
+      "name": "SI compound 15",
+      "paper_label": "15",
+      "preparation_boundary": "Cited known aldehyde, no preparation reported locally.",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: 15",
+          "pages": [
+            3
+          ],
+          "sha256": "6e0d4573235aea9ebb9014db50984f0476f53ca16168486e0d8eef0f83e7a6e6",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: 15",
+          "pages": [
+            9
+          ],
+          "sha256": "084da53f87c1c89300817bc5728b545b67d111b080b3046377930d938dc09314",
+          "source_id": "si"
+        }
+      ],
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "COCOc1ccc(C(C)=O)c(O)c1",
+      "canonical_smiles": "COCOc1ccc(C(C)=O)c(O)c1",
+      "depiction": "structures/16.svg",
+      "exact_mass": 196.073558864,
+      "formal_benchmark_eligible": false,
+      "label": "16",
+      "molecular_formula": "C10H12O4",
+      "molecule_id": "mol-f6470bec70a37cc1cbeef921be2b04d8dc56e776c3f25fd3066faa7d2843bb24",
+      "name": "SI compound 16",
+      "paper_label": "16",
+      "preparation_boundary": "Cited known ketone, no preparation reported locally.",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: 16",
+          "pages": [
+            3
+          ],
+          "sha256": "6e0d4573235aea9ebb9014db50984f0476f53ca16168486e0d8eef0f83e7a6e6",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: 16",
+          "pages": [
+            9
+          ],
+          "sha256": "084da53f87c1c89300817bc5728b545b67d111b080b3046377930d938dc09314",
+          "source_id": "si"
+        }
+      ],
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "COCOc1ccc(/C=C/C(=O)c2ccc(OCOC)cc2O)c(O)c1",
+      "canonical_smiles": "COCOc1ccc(/C=C/C(=O)c2ccc(OCOC)cc2O)c(O)c1",
+      "depiction": "structures/8.svg",
+      "exact_mass": 360.12090298,
+      "formal_benchmark_eligible": false,
+      "label": "8",
+      "molecular_formula": "C19H20O7",
+      "molecule_id": "mol-06e4868448ed74163afa91c2008a897db29602f1c1e7f47ffcb8d2467c2b9430",
+      "name": "SI compound 8",
+      "paper_label": "8",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: 8",
+          "pages": [
+            3
+          ],
+          "sha256": "6e0d4573235aea9ebb9014db50984f0476f53ca16168486e0d8eef0f83e7a6e6",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: 8",
+          "pages": [
+            9,
+            10,
+            11
+          ],
+          "sha256": "084da53f87c1c89300817bc5728b545b67d111b080b3046377930d938dc09314",
+          "source_id": "si"
+        }
+      ],
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "COCOc1ccc(C(=O)/C=C/c2ccc(OCOC)cc2OC(C)=O)c(O)c1",
+      "canonical_smiles": "COCOc1ccc(C(=O)/C=C/c2ccc(OCOC)cc2OC(C)=O)c(O)c1",
+      "depiction": "structures/17.svg",
+      "exact_mass": 402.13146766399996,
+      "formal_benchmark_eligible": false,
+      "label": "17",
+      "molecular_formula": "C21H22O8",
+      "molecule_id": "mol-4a79928f970cf87466d4835adaf8202f48f5a6136e2d52d002cfc25d6f9999e6",
+      "name": "SI compound 17",
+      "paper_label": "17",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: 17",
+          "pages": [
+            3
+          ],
+          "sha256": "6e0d4573235aea9ebb9014db50984f0476f53ca16168486e0d8eef0f83e7a6e6",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: 17",
+          "pages": [
+            9,
+            10,
+            11
+          ],
+          "sha256": "084da53f87c1c89300817bc5728b545b67d111b080b3046377930d938dc09314",
+          "source_id": "si"
+        }
+      ],
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "COCOc1ccc(C(=O)[C@H]2[C@@H](c3c(OCOC)cc(-c4cc5ccc(OCOC)cc5o4)cc3OCOC)C=C(C)C[C@@H]2c2ccc(OCOC)cc2OC(C)=O)c(O)c1",
+      "canonical_smiles": "COCOc1ccc(C(=O)[C@H]2[C@@H](c3c(OCOC)cc(-c4cc5ccc(OCOC)cc5o4)cc3OCOC)C=C(C)C[C@@H]2c2ccc(OCOC)cc2OC(C)=O)c(O)c1",
+      "depiction": "structures/18.svg",
+      "exact_mass": 842.3149709,
+      "formal_benchmark_eligible": false,
+      "label": "18",
+      "molecular_formula": "C46H50O15",
+      "molecule_id": "mol-a052d8d3ceb7a9c6769fd467d15b8a600ac654d9369e81f998079d777a80fd6b",
+      "name": "SI compound 18",
+      "paper_label": "18",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: 18",
+          "pages": [
+            3
+          ],
+          "sha256": "6e0d4573235aea9ebb9014db50984f0476f53ca16168486e0d8eef0f83e7a6e6",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: 18",
+          "pages": [
+            11
+          ],
+          "sha256": "084da53f87c1c89300817bc5728b545b67d111b080b3046377930d938dc09314",
+          "source_id": "si"
+        }
+      ],
+      "stereo_note": "Racemic; wedges encode one representative enantiomer of the reported relative configuration.",
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "COCOc1ccc(C(=O)[C@@H]2[C@@H](c3ccc(OCOC)cc3OC(C)=O)CC(C)=C[C@H]2c2c(OCOC)cc(-c3cc4ccc(OCOC)cc4o3)cc2OCOC)c(O)c1",
+      "canonical_smiles": "COCOc1ccc(C(=O)[C@@H]2[C@@H](c3ccc(OCOC)cc3OC(C)=O)CC(C)=C[C@H]2c2c(OCOC)cc(-c3cc4ccc(OCOC)cc4o3)cc2OCOC)c(O)c1",
+      "depiction": "structures/19.svg",
+      "exact_mass": 842.3149709000002,
+      "formal_benchmark_eligible": false,
+      "label": "19",
+      "molecular_formula": "C46H50O15",
+      "molecule_id": "mol-c02bfff3409f3c42630f4427db675d6c7084ea377b4174d96d458e9873c7482d",
+      "name": "SI compound 19",
+      "paper_label": "19",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: 19",
+          "pages": [
+            3
+          ],
+          "sha256": "6e0d4573235aea9ebb9014db50984f0476f53ca16168486e0d8eef0f83e7a6e6",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: 19",
+          "pages": [
+            12
+          ],
+          "sha256": "084da53f87c1c89300817bc5728b545b67d111b080b3046377930d938dc09314",
+          "source_id": "si"
+        }
+      ],
+      "stereo_note": "Racemic; wedges encode one representative enantiomer of the reported relative configuration.",
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "COCOc1ccc(C(=O)[C@H]2[C@@H](c3c(OCOC)cc(-c4cc5ccc(OCOC)cc5o4)cc3OCOC)C=C(C)C[C@@H]2c2ccc(OCOC)cc2O)c(O)c1",
+      "canonical_smiles": "COCOc1ccc(C(=O)[C@H]2[C@@H](c3c(OCOC)cc(-c4cc5ccc(OCOC)cc5o4)cc3OCOC)C=C(C)C[C@@H]2c2ccc(OCOC)cc2O)c(O)c1",
+      "depiction": "structures/7.svg",
+      "exact_mass": 800.304406216,
+      "formal_benchmark_eligible": false,
+      "label": "7",
+      "molecular_formula": "C44H48O14",
+      "molecule_id": "mol-bcf9931b1715f546b956ce5ac640cafb039a952e66b6a6bb9bee8131e1e100d2",
+      "name": "SI compound 7",
+      "paper_label": "7",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: 7",
+          "pages": [
+            4
+          ],
+          "sha256": "6e0d4573235aea9ebb9014db50984f0476f53ca16168486e0d8eef0f83e7a6e6",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: 7",
+          "pages": [
+            18
+          ],
+          "sha256": "084da53f87c1c89300817bc5728b545b67d111b080b3046377930d938dc09314",
+          "source_id": "si"
+        }
+      ],
+      "stereo_note": "Racemic; wedges encode one representative enantiomer of the reported relative configuration.",
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "COCOc1ccc(C(=O)[C@@H]2[C@@H](c3ccc(OCOC)cc3O)CC(C)=C[C@H]2c2c(OCOC)cc(-c3cc4ccc(OCOC)cc4o3)cc2OCOC)c(O)c1",
+      "canonical_smiles": "COCOc1ccc(C(=O)[C@@H]2[C@@H](c3ccc(OCOC)cc3O)CC(C)=C[C@H]2c2c(OCOC)cc(-c3cc4ccc(OCOC)cc4o3)cc2OCOC)c(O)c1",
+      "depiction": "structures/S7.svg",
+      "exact_mass": 800.3044062160002,
+      "formal_benchmark_eligible": false,
+      "label": "S7",
+      "molecular_formula": "C44H48O14",
+      "molecule_id": "mol-b2ec9e6ac9f3ba34bf1c7a5d09f529735a4854b403042aa1ab444186331e9c1f",
+      "name": "SI compound S7",
+      "paper_label": "S7",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: S7",
+          "pages": [
+            4
+          ],
+          "sha256": "6e0d4573235aea9ebb9014db50984f0476f53ca16168486e0d8eef0f83e7a6e6",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: S7",
+          "pages": [
+            19
+          ],
+          "sha256": "084da53f87c1c89300817bc5728b545b67d111b080b3046377930d938dc09314",
+          "source_id": "si"
+        }
+      ],
+      "stereo_note": "Racemic; wedges encode one representative enantiomer of the reported relative configuration.",
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "CC1=C[C@@H](c2c(O)cc(-c3cc4ccc(O)cc4o3)cc2O)[C@H](C(=O)c2ccc(O)cc2O)[C@@H](c2ccc(O)cc2O)C1",
+      "canonical_smiles": "CC1=C[C@@H](c2c(O)cc(-c3cc4ccc(O)cc4o3)cc2O)[C@H](C(=O)c2ccc(O)cc2O)[C@@H](c2ccc(O)cc2O)C1",
+      "depiction": "structures/20.svg",
+      "exact_mass": 580.1733324759998,
+      "formal_benchmark_eligible": false,
+      "label": "20",
+      "molecular_formula": "C34H28O9",
+      "molecule_id": "mol-c97b723c85679a84f86f9e97f76b6691af83a949f802b9c9cc66d4caf75ea25d",
+      "name": "SI compound 20",
+      "paper_label": "20",
+      "review_status": "pending_independent_chemist_review",
+      "role": "target",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: 20",
+          "pages": [
+            3
+          ],
+          "sha256": "6e0d4573235aea9ebb9014db50984f0476f53ca16168486e0d8eef0f83e7a6e6",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: 20",
+          "pages": [
+            17
+          ],
+          "sha256": "084da53f87c1c89300817bc5728b545b67d111b080b3046377930d938dc09314",
+          "source_id": "si"
+        }
+      ],
+      "stereo_note": "Racemic; wedges encode one representative enantiomer of the reported relative configuration.",
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "CC1=C[C@@H]2c3c(O)cc(-c4cc5ccc(O)cc5o4)cc3O[C@]3(c4ccc(O)cc4O)Oc4cc(O)ccc4[C@@H](C1)[C@H]23",
+      "canonical_smiles": "CC1=C[C@@H]2c3c(O)cc(-c4cc5ccc(O)cc5o4)cc3O[C@]3(c4ccc(O)cc4O)Oc4cc(O)ccc4[C@@H](C1)[C@H]23",
+      "depiction": "structures/4.svg",
+      "exact_mass": 562.1627677919998,
+      "formal_benchmark_eligible": false,
+      "label": "4",
+      "molecular_formula": "C34H26O8",
+      "molecule_id": "mol-a1867e9c64de917e0cd37a4474a6b57896507f018cfd556cc8f04d6284d9c2f2",
+      "name": "SI compound 4",
+      "paper_label": "4",
+      "review_status": "pending_independent_chemist_review",
+      "role": "target",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: 4",
+          "pages": [
+            3
+          ],
+          "sha256": "6e0d4573235aea9ebb9014db50984f0476f53ca16168486e0d8eef0f83e7a6e6",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: 4",
+          "pages": [
+            13,
+            14
+          ],
+          "sha256": "084da53f87c1c89300817bc5728b545b67d111b080b3046377930d938dc09314",
+          "source_id": "si"
+        }
+      ],
+      "stereo_note": "Racemic relative configuration; single representative enantiomer.",
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "CC12C[C@H](c3ccc(O)cc3O)[C@@H](C(=O)c3ccc(O)cc3O)[C@H](C1)c1c(O)cc(-c3cc4ccc(O)cc4o3)cc1O2",
+      "canonical_smiles": "CC12C[C@H](c3ccc(O)cc3O)[C@@H](C(=O)c3ccc(O)cc3O)[C@H](C1)c1c(O)cc(-c3cc4ccc(O)cc4o3)cc1O2",
+      "depiction": "structures/5.svg",
+      "exact_mass": 580.1733324759999,
+      "formal_benchmark_eligible": false,
+      "label": "5",
+      "molecular_formula": "C34H28O9",
+      "molecule_id": "mol-62f7c4656a3e7367ba1cd692e9a6bb7a33d8b4c46c0fae84b9964d3b1ac3bc4c",
+      "name": "SI compound 5",
+      "paper_label": "5",
+      "review_status": "pending_independent_chemist_review",
+      "role": "target",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: 5",
+          "pages": [
+            3
+          ],
+          "sha256": "6e0d4573235aea9ebb9014db50984f0476f53ca16168486e0d8eef0f83e7a6e6",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: 5",
+          "pages": [
+            14,
+            15,
+            16
+          ],
+          "sha256": "084da53f87c1c89300817bc5728b545b67d111b080b3046377930d938dc09314",
+          "source_id": "si"
+        }
+      ],
+      "stereo_note": "Racemic. Three inherited relative centers represented; bridgehead C1 remains unassigned in SMILES pending independent assessment of bridged source perspective.",
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "COCOc1ccc(C(=O)C2C(c3c(OCOC)cc(-c4cc5ccc(OCOC)cc5o4)cc3OCOC)=CC3(C)C[C@H]2c2ccc(OCOC)cc2O3)c(O)c1",
+      "canonical_smiles": "COCOc1ccc(C(=O)C2C(c3c(OCOC)cc(-c4cc5ccc(OCOC)cc5o4)cc3OCOC)=CC3(C)C[C@H]2c2ccc(OCOC)cc2O3)c(O)c1",
+      "depiction": "structures/21.svg",
+      "exact_mass": 798.288756152,
+      "formal_benchmark_eligible": false,
+      "label": "21",
+      "molecular_formula": "C44H46O14",
+      "molecule_id": "mol-209e0b39099fd150598afc7c1b8bbe6fe2ab0f606ed8f03f454df9e2312cfa18",
+      "name": "SI compound 21",
+      "paper_label": "21",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: 21",
+          "pages": [
+            4
+          ],
+          "sha256": "6e0d4573235aea9ebb9014db50984f0476f53ca16168486e0d8eef0f83e7a6e6",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: 21",
+          "pages": [
+            20,
+            21,
+            22
+          ],
+          "sha256": "084da53f87c1c89300817bc5728b545b67d111b080b3046377930d938dc09314",
+          "source_id": "si"
+        }
+      ],
+      "stereo_note": "Racemic. C5 wedge is explicit; remaining bridged relative stereochemistry (C1/C4) is unresolved in SMILES and must be recovered by independent source review.",
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "CC12C=C(c3c(O)cc(-c4cc5ccc(O)cc5o4)cc3O)C(C(=O)c3ccc(O)cc3O)[C@@H](C1)c1ccc(O)cc1O2",
+      "canonical_smiles": "CC12C=C(c3c(O)cc(-c4cc5ccc(O)cc5o4)cc3O)C(C(=O)c3ccc(O)cc3O)[C@@H](C1)c1ccc(O)cc1O2",
+      "depiction": "structures/6.svg",
+      "exact_mass": 578.1576824119999,
+      "formal_benchmark_eligible": false,
+      "label": "6",
+      "molecular_formula": "C34H26O9",
+      "molecule_id": "mol-48dd4cc95cf932b68880bedf993d973bc2962cabbfec041ba38cfb3495ee450c",
+      "name": "SI compound 6",
+      "paper_label": "6",
+      "review_status": "pending_independent_chemist_review",
+      "role": "target",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: 6",
+          "pages": [
+            4
+          ],
+          "sha256": "6e0d4573235aea9ebb9014db50984f0476f53ca16168486e0d8eef0f83e7a6e6",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: 6",
+          "pages": [
+            23
+          ],
+          "sha256": "084da53f87c1c89300817bc5728b545b67d111b080b3046377930d938dc09314",
+          "source_id": "si"
+        }
+      ],
+      "stereo_note": "Racemic. C5 wedge is explicit; remaining bridged relative stereochemistry (C1/C4) is unresolved in SMILES and must be recovered by independent source review.",
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "COCOc1ccc(C(=O)c2cc(C)ccc2-c2c(OCOC)cc(-c3cc4ccc(OCOC)cc4o3)cc2OCOC)c(O)c1",
+      "canonical_smiles": "COCOc1ccc(C(=O)c2cc(C)ccc2-c2c(OCOC)cc(-c3cc4ccc(OCOC)cc4o3)cc2OCOC)c(O)c1",
+      "depiction": "structures/S8.svg",
+      "exact_mass": 644.225761972,
+      "formal_benchmark_eligible": false,
+      "label": "S8",
+      "molecular_formula": "C36H36O11",
+      "molecule_id": "mol-1ddfcdf0b5d4b4d82c1dd83fea69aa9ff6148b40151a3d438d86104b76d7d77f",
+      "name": "SI compound S8",
+      "paper_label": "S8",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: S8",
+          "pages": [
+            4
+          ],
+          "sha256": "6e0d4573235aea9ebb9014db50984f0476f53ca16168486e0d8eef0f83e7a6e6",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: S8",
+          "pages": [
+            20,
+            21
+          ],
+          "sha256": "084da53f87c1c89300817bc5728b545b67d111b080b3046377930d938dc09314",
+          "source_id": "si"
+        }
+      ],
+      "structure_basis": "source_drawing_transcription"
+    }
+  ],
+  "observations": [
+    {
+      "observation": "Chiral preparative HPLC of 10 mg racemate gave (-)-6 4.28 mg (53 min; rotation -156.0) and (+)-6 4.37 mg (67 min; rotation +158.8); SI page 24. Absolute graph assignments of these fractions not inferred.",
+      "subject": "6"
+    }
+  ],
+  "paper_id": "paper-94a995685012cf20",
+  "participants": [],
+  "reactions": [
+    {
+      "admission_authority": false,
+      "category": "forward_synthesis",
+      "event_id": "A01",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "product_labels": [
+        "S2"
+      ],
+      "reactant_labels": [
+        "S1"
+      ],
+      "reagents": [
+        "MOMCl",
+        "DIPEA"
+      ],
+      "reported_yields": [
+        {
+          "from_label": "S1",
+          "percent": 74,
+          "product_label": "S2",
+          "scope": "Combined two isolated fractions, 53% plus 21%"
+        }
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "acetone",
+        "DCM"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: A01",
+          "pages": [
+            2
+          ],
+          "sha256": "6e0d4573235aea9ebb9014db50984f0476f53ca16168486e0d8eef0f83e7a6e6",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: A01",
+          "pages": [
+            3
+          ],
+          "sha256": "084da53f87c1c89300817bc5728b545b67d111b080b3046377930d938dc09314",
+          "source_id": "si"
+        }
+      ],
+      "step_ids": [
+        "A01.1"
+      ],
+      "substrate_product_smiles": "COC(=O)c1cc(O)c(I)c(O)c1>>COCOc1cc(C(=O)OC)cc(OCOC)c1I",
+      "yield_scope": "Combined two isolated fractions, 53% plus 21%"
+    },
+    {
+      "admission_authority": false,
+      "category": "forward_synthesis",
+      "event_id": "A02",
+      "experimental_stage_count": 2,
+      "formal_benchmark_eligible": false,
+      "operation_stages": [
+        {
+          "operation": "ester reduction"
+        },
+        {
+          "operation": "alcohol oxidation"
+        }
+      ],
+      "product_labels": [
+        "S3"
+      ],
+      "reactant_labels": [
+        "S2"
+      ],
+      "reagents": [
+        "DIBAL-H",
+        "PDC"
+      ],
+      "reported_yields": [
+        {
+          "from_label": "S2",
+          "percent": 91,
+          "product_label": "S3",
+          "scope": "Two-step yield"
+        }
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "DCM"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: A02",
+          "pages": [
+            2
+          ],
+          "sha256": "6e0d4573235aea9ebb9014db50984f0476f53ca16168486e0d8eef0f83e7a6e6",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: A02",
+          "pages": [
+            3,
+            4
+          ],
+          "sha256": "084da53f87c1c89300817bc5728b545b67d111b080b3046377930d938dc09314",
+          "source_id": "si"
+        }
+      ],
+      "step_ids": [
+        "A02.1"
+      ],
+      "substrate_product_smiles": "COCOc1cc(C(=O)OC)cc(OCOC)c1I>>COCOc1cc(C=O)cc(OCOC)c1I",
+      "yield_scope": "Two-step yield"
+    },
+    {
+      "admission_authority": false,
+      "category": "forward_synthesis",
+      "event_id": "A03",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "product_labels": [
+        "12"
+      ],
+      "reactant_labels": [
+        "S3"
+      ],
+      "reagents": [
+        "Bestmann-Ohira reagent",
+        "K2CO3"
+      ],
+      "reported_yields": [
+        {
+          "from_label": "S3",
+          "percent": 88,
+          "product_label": "12",
+          "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+        }
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "MeOH"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: A03",
+          "pages": [
+            2
+          ],
+          "sha256": "6e0d4573235aea9ebb9014db50984f0476f53ca16168486e0d8eef0f83e7a6e6",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: A03",
+          "pages": [
+            4
+          ],
+          "sha256": "084da53f87c1c89300817bc5728b545b67d111b080b3046377930d938dc09314",
+          "source_id": "si"
+        }
+      ],
+      "step_ids": [
+        "A03.1"
+      ],
+      "substrate_product_smiles": "COCOc1cc(C=O)cc(OCOC)c1I>>C#Cc1cc(OCOC)c(I)c(OCOC)c1"
+    },
+    {
+      "admission_authority": false,
+      "category": "forward_synthesis",
+      "event_id": "B01",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "product_labels": [
+        "S4"
+      ],
+      "reactant_labels": [
+        "10"
+      ],
+      "reagents": [
+        "I2",
+        "silver trifluoroacetate"
+      ],
+      "reported_yields": [
+        {
+          "from_label": "10",
+          "percent": 58,
+          "product_label": "S4",
+          "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+        }
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "CHCl3"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: B01",
+          "pages": [
+            2
+          ],
+          "sha256": "6e0d4573235aea9ebb9014db50984f0476f53ca16168486e0d8eef0f83e7a6e6",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: B01",
+          "pages": [
+            5
+          ],
+          "sha256": "084da53f87c1c89300817bc5728b545b67d111b080b3046377930d938dc09314",
+          "source_id": "si"
+        }
+      ],
+      "step_ids": [
+        "B01.1"
+      ],
+      "substrate_product_smiles": "COCOc1cccc(O)c1>>COCOc1ccc(I)c(O)c1"
+    },
+    {
+      "admission_authority": false,
+      "category": "forward_synthesis",
+      "event_id": "B02",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "product_labels": [
+        "11"
+      ],
+      "reactant_labels": [
+        "S4"
+      ],
+      "reagents": [
+        "Ac2O",
+        "Et3N"
+      ],
+      "reported_yields": [
+        {
+          "from_label": "S4",
+          "percent": 99,
+          "product_label": "11",
+          "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+        }
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "Et2O"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: B02",
+          "pages": [
+            2
+          ],
+          "sha256": "6e0d4573235aea9ebb9014db50984f0476f53ca16168486e0d8eef0f83e7a6e6",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: B02",
+          "pages": [
+            5,
+            6
+          ],
+          "sha256": "084da53f87c1c89300817bc5728b545b67d111b080b3046377930d938dc09314",
+          "source_id": "si"
+        }
+      ],
+      "step_ids": [
+        "B02.1"
+      ],
+      "substrate_product_smiles": "COCOc1ccc(I)c(O)c1>>COCOc1ccc(I)c(OC(C)=O)c1"
+    },
+    {
+      "admission_authority": false,
+      "category": "forward_synthesis",
+      "event_id": "C01",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "product_labels": [
+        "13"
+      ],
+      "reactant_labels": [
+        "11",
+        "12"
+      ],
+      "reagents": [
+        "Pd(PPh3)4",
+        "CuI",
+        "Cs2CO3"
+      ],
+      "reported_yields": [
+        {
+          "from_label": "11",
+          "percent": 85,
+          "product_label": "13",
+          "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+        }
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "DMF"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: C01",
+          "pages": [
+            2
+          ],
+          "sha256": "6e0d4573235aea9ebb9014db50984f0476f53ca16168486e0d8eef0f83e7a6e6",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: C01",
+          "pages": [
+            6
+          ],
+          "sha256": "084da53f87c1c89300817bc5728b545b67d111b080b3046377930d938dc09314",
+          "source_id": "si"
+        }
+      ],
+      "step_ids": [
+        "C01.1"
+      ],
+      "substrate_product_smiles": "C#Cc1cc(OCOC)c(I)c(OCOC)c1.COCOc1ccc(I)c(OC(C)=O)c1>>COCOc1ccc(C#Cc2cc(OCOC)c(I)c(OCOC)c2)c(OC(C)=O)c1"
+    },
+    {
+      "admission_authority": false,
+      "category": "forward_synthesis",
+      "event_id": "C02",
+      "experimental_stage_count": 2,
+      "formal_benchmark_eligible": false,
+      "operation_stages": [
+        {
+          "operation": "deacetylation"
+        },
+        {
+          "operation": "benzofuran cyclization"
+        }
+      ],
+      "product_labels": [
+        "14"
+      ],
+      "reactant_labels": [
+        "13"
+      ],
+      "reagents": [
+        "K2CO3",
+        "TBAF trihydrate"
+      ],
+      "reported_yields": [
+        {
+          "from_label": "13",
+          "percent": 75,
+          "product_label": "14",
+          "scope": "Two-step yield"
+        }
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "MeOH",
+        "THF"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: C02",
+          "pages": [
+            2
+          ],
+          "sha256": "6e0d4573235aea9ebb9014db50984f0476f53ca16168486e0d8eef0f83e7a6e6",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: C02",
+          "pages": [
+            7
+          ],
+          "sha256": "084da53f87c1c89300817bc5728b545b67d111b080b3046377930d938dc09314",
+          "source_id": "si"
+        }
+      ],
+      "step_ids": [
+        "C02.1"
+      ],
+      "substrate_product_smiles": "COCOc1ccc(C#Cc2cc(OCOC)c(I)c(OCOC)c2)c(OC(C)=O)c1>>COCOc1ccc2cc(-c3cc(OCOC)c(I)c(OCOC)c3)oc2c1",
+      "yield_scope": "Two-step yield"
+    },
+    {
+      "admission_authority": false,
+      "category": "forward_synthesis",
+      "event_id": "C03",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "product_labels": [
+        "9"
+      ],
+      "reactant_labels": [
+        "14",
+        "2-methylbut-3-en-2-ol"
+      ],
+      "reagents": [
+        "Pd2(dba)3",
+        "tri(o-tolyl)phosphine",
+        "DIPEA"
+      ],
+      "reported_yields": [
+        {
+          "from_label": "14",
+          "percent": 72,
+          "product_label": "9",
+          "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+        }
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "DMF"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: C03",
+          "pages": [
+            2
+          ],
+          "sha256": "6e0d4573235aea9ebb9014db50984f0476f53ca16168486e0d8eef0f83e7a6e6",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: C03",
+          "pages": [
+            8,
+            9
+          ],
+          "sha256": "084da53f87c1c89300817bc5728b545b67d111b080b3046377930d938dc09314",
+          "source_id": "si"
+        }
+      ],
+      "step_ids": [
+        "C03.1"
+      ],
+      "substrate_product_smiles": "C=CC(C)(C)O.COCOc1ccc2cc(-c3cc(OCOC)c(I)c(OCOC)c3)oc2c1>>C=C(C)/C=C/c1c(OCOC)cc(-c2cc3ccc(OCOC)cc3o2)cc1OCOC"
+    },
+    {
+      "admission_authority": false,
+      "category": "forward_synthesis",
+      "event_id": "M01",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "product_labels": [
+        "S6"
+      ],
+      "reactant_labels": [
+        "S5",
+        "2-methylbut-3-en-2-ol"
+      ],
+      "reagents": [
+        "Pd(OAc)2",
+        "tri(o-tolyl)phosphine",
+        "DIPEA"
+      ],
+      "reported_yields": [
+        {
+          "from_label": "S5",
+          "percent": 43,
+          "product_label": "S6",
+          "scope": "Independent model optimization experiment"
+        }
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "DMF"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: M01",
+          "pages": [
+            2
+          ],
+          "sha256": "6e0d4573235aea9ebb9014db50984f0476f53ca16168486e0d8eef0f83e7a6e6",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: M01",
+          "pages": [
+            8
+          ],
+          "sha256": "084da53f87c1c89300817bc5728b545b67d111b080b3046377930d938dc09314",
+          "source_id": "si"
+        }
+      ],
+      "step_ids": [
+        "M01.1"
+      ],
+      "substrate_product_smiles": "C=CC(C)(C)O.COc1ccc2cc(-c3cc(OC)c(I)c(OC)c3)oc2c1>>C=C(C)/C=C/c1c(OC)cc(-c2cc3ccc(OC)cc3o2)cc1OC",
+      "yield_scope": "Independent model optimization experiment"
+    },
+    {
+      "admission_authority": false,
+      "category": "forward_synthesis",
+      "event_id": "M02",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "product_labels": [
+        "S6"
+      ],
+      "reactant_labels": [
+        "S5",
+        "2-methylbut-3-en-2-ol"
+      ],
+      "reagents": [
+        "Pd2(dba)3",
+        "tri(o-tolyl)phosphine",
+        "Et3N"
+      ],
+      "reported_yields": [
+        {
+          "from_label": "S5",
+          "percent": 23,
+          "product_label": "S6",
+          "scope": "Independent model optimization experiment"
+        }
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "DMF"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: M02",
+          "pages": [
+            2
+          ],
+          "sha256": "6e0d4573235aea9ebb9014db50984f0476f53ca16168486e0d8eef0f83e7a6e6",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: M02",
+          "pages": [
+            8
+          ],
+          "sha256": "084da53f87c1c89300817bc5728b545b67d111b080b3046377930d938dc09314",
+          "source_id": "si"
+        }
+      ],
+      "step_ids": [
+        "M02.1"
+      ],
+      "substrate_product_smiles": "C=CC(C)(C)O.COc1ccc2cc(-c3cc(OC)c(I)c(OC)c3)oc2c1>>C=C(C)/C=C/c1c(OC)cc(-c2cc3ccc(OC)cc3o2)cc1OC",
+      "yield_scope": "Independent model optimization experiment"
+    },
+    {
+      "admission_authority": false,
+      "category": "forward_synthesis",
+      "event_id": "M03",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "product_labels": [
+        "S6"
+      ],
+      "reactant_labels": [
+        "S5",
+        "2-methylbut-3-en-2-ol"
+      ],
+      "reagents": [
+        "Pd2(dba)3",
+        "tri(o-tolyl)phosphine",
+        "DIPEA"
+      ],
+      "reported_yields": [
+        {
+          "from_label": "S5",
+          "percent": 62,
+          "product_label": "S6",
+          "scope": "Independent model optimization experiment"
+        }
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "DMF"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: M03",
+          "pages": [
+            2
+          ],
+          "sha256": "6e0d4573235aea9ebb9014db50984f0476f53ca16168486e0d8eef0f83e7a6e6",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: M03",
+          "pages": [
+            8
+          ],
+          "sha256": "084da53f87c1c89300817bc5728b545b67d111b080b3046377930d938dc09314",
+          "source_id": "si"
+        }
+      ],
+      "step_ids": [
+        "M03.1"
+      ],
+      "substrate_product_smiles": "C=CC(C)(C)O.COc1ccc2cc(-c3cc(OC)c(I)c(OC)c3)oc2c1>>C=C(C)/C=C/c1c(OC)cc(-c2cc3ccc(OC)cc3o2)cc1OC",
+      "yield_scope": "Independent model optimization experiment"
+    },
+    {
+      "admission_authority": false,
+      "category": "forward_synthesis",
+      "event_id": "D01",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "product_labels": [
+        "8"
+      ],
+      "reactant_labels": [
+        "15",
+        "16"
+      ],
+      "reagents": [
+        "KOH"
+      ],
+      "reported_yields": [
+        {
+          "from_label": "15",
+          "percent": 82,
+          "product_label": "8",
+          "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+        }
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "EtOH",
+        "water"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: D01",
+          "pages": [
+            3
+          ],
+          "sha256": "6e0d4573235aea9ebb9014db50984f0476f53ca16168486e0d8eef0f83e7a6e6",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: D01",
+          "pages": [
+            9
+          ],
+          "sha256": "084da53f87c1c89300817bc5728b545b67d111b080b3046377930d938dc09314",
+          "source_id": "si"
+        }
+      ],
+      "step_ids": [
+        "D01.1"
+      ],
+      "substrate_product_smiles": "COCOc1ccc(C(C)=O)c(O)c1.COCOc1ccc(C=O)c(O)c1>>COCOc1ccc(/C=C/C(=O)c2ccc(OCOC)cc2O)c(O)c1"
+    },
+    {
+      "admission_authority": false,
+      "category": "forward_synthesis",
+      "event_id": "D02",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "product_labels": [
+        "17"
+      ],
+      "reactant_labels": [
+        "8"
+      ],
+      "reagents": [
+        "Ac2O",
+        "pyridine"
+      ],
+      "reported_yields": [
+        {
+          "from_label": "8",
+          "percent": 77,
+          "product_label": "17",
+          "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+        }
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "DCM"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: D02",
+          "pages": [
+            3
+          ],
+          "sha256": "6e0d4573235aea9ebb9014db50984f0476f53ca16168486e0d8eef0f83e7a6e6",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: D02",
+          "pages": [
+            10
+          ],
+          "sha256": "084da53f87c1c89300817bc5728b545b67d111b080b3046377930d938dc09314",
+          "source_id": "si"
+        }
+      ],
+      "step_ids": [
+        "D02.1"
+      ],
+      "substrate_product_smiles": "COCOc1ccc(/C=C/C(=O)c2ccc(OCOC)cc2O)c(O)c1>>COCOc1ccc(C(=O)/C=C/c2ccc(OCOC)cc2OC(C)=O)c(O)c1"
+    },
+    {
+      "admission_authority": false,
+      "category": "forward_synthesis",
+      "event_id": "D03",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "product_labels": [
+        "18",
+        "19"
+      ],
+      "reactant_labels": [
+        "9",
+        "17"
+      ],
+      "reagents": [],
+      "reported_yields": [
+        {
+          "from_label": "9",
+          "percent": 33,
+          "product_label": "18",
+          "scope": "Separately isolated endo/exo fractions, total 60%; racemic"
+        },
+        {
+          "from_label": "9",
+          "percent": 27,
+          "product_label": "19",
+          "scope": "Separately isolated endo/exo fractions, total 60%; racemic"
+        }
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "toluene"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: D03",
+          "pages": [
+            3
+          ],
+          "sha256": "6e0d4573235aea9ebb9014db50984f0476f53ca16168486e0d8eef0f83e7a6e6",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: D03",
+          "pages": [
+            11,
+            12
+          ],
+          "sha256": "084da53f87c1c89300817bc5728b545b67d111b080b3046377930d938dc09314",
+          "source_id": "si"
+        }
+      ],
+      "step_ids": [
+        "D03.1"
+      ],
+      "substrate_product_smiles": "C=C(C)/C=C/c1c(OCOC)cc(-c2cc3ccc(OCOC)cc3o2)cc1OCOC.COCOc1ccc(C(=O)/C=C/c2ccc(OCOC)cc2OC(C)=O)c(O)c1>>COCOc1ccc(C(=O)[C@@H]2[C@@H](c3ccc(OCOC)cc3OC(C)=O)CC(C)=C[C@H]2c2c(OCOC)cc(-c3cc4ccc(OCOC)cc4o3)cc2OCOC)c(O)c1.COCOc1ccc(C(=O)[C@H]2[C@@H](c3c(OCOC)cc(-c4cc5ccc(OCOC)cc5o4)cc3OCOC)C=C(C)C[C@@H]2c2ccc(OCOC)cc2OC(C)=O)c(O)c1",
+      "yield_scope": "Separately isolated endo/exo fractions, total 60%; racemic"
+    },
+    {
+      "admission_authority": false,
+      "category": "forward_synthesis",
+      "event_id": "E01",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "product_labels": [
+        "4",
+        "5"
+      ],
+      "reactant_labels": [
+        "18"
+      ],
+      "reagents": [
+        "H2SO4"
+      ],
+      "reported_yields": [
+        {
+          "from_label": "18",
+          "percent": 47,
+          "product_label": "4",
+          "scope": "4 isolated 47%; 5 trace detected, not isolated"
+        }
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "EtOH"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: E01",
+          "pages": [
+            3
+          ],
+          "sha256": "6e0d4573235aea9ebb9014db50984f0476f53ca16168486e0d8eef0f83e7a6e6",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: E01",
+          "pages": [
+            13
+          ],
+          "sha256": "084da53f87c1c89300817bc5728b545b67d111b080b3046377930d938dc09314",
+          "source_id": "si"
+        }
+      ],
+      "step_ids": [
+        "E01.1"
+      ],
+      "substrate_product_smiles": "COCOc1ccc(C(=O)[C@H]2[C@@H](c3c(OCOC)cc(-c4cc5ccc(OCOC)cc5o4)cc3OCOC)C=C(C)C[C@@H]2c2ccc(OCOC)cc2OC(C)=O)c(O)c1>>CC12C[C@H](c3ccc(O)cc3O)[C@@H](C(=O)c3ccc(O)cc3O)[C@H](C1)c1c(O)cc(-c3cc4ccc(O)cc4o3)cc1O2.CC1=C[C@@H]2c3c(O)cc(-c4cc5ccc(O)cc5o4)cc3O[C@]3(c4ccc(O)cc4O)Oc4cc(O)ccc4[C@@H](C1)[C@H]23",
+      "yield_scope": "4 isolated 47%; 5 trace detected, not isolated"
+    },
+    {
+      "admission_authority": false,
+      "category": "forward_synthesis",
+      "event_id": "E02",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "product_labels": [
+        "4",
+        "5"
+      ],
+      "reactant_labels": [
+        "18"
+      ],
+      "reagents": [
+        "HCl"
+      ],
+      "reported_yields": [
+        {
+          "from_label": "18",
+          "percent": 17,
+          "product_label": "4",
+          "scope": "Separately HPLC purified products"
+        },
+        {
+          "from_label": "18",
+          "percent": 29,
+          "product_label": "5",
+          "scope": "Separately HPLC purified products"
+        }
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "MeOH"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: E02",
+          "pages": [
+            3
+          ],
+          "sha256": "6e0d4573235aea9ebb9014db50984f0476f53ca16168486e0d8eef0f83e7a6e6",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: E02",
+          "pages": [
+            14,
+            15,
+            16
+          ],
+          "sha256": "084da53f87c1c89300817bc5728b545b67d111b080b3046377930d938dc09314",
+          "source_id": "si"
+        }
+      ],
+      "step_ids": [
+        "E02.1"
+      ],
+      "substrate_product_smiles": "COCOc1ccc(C(=O)[C@H]2[C@@H](c3c(OCOC)cc(-c4cc5ccc(OCOC)cc5o4)cc3OCOC)C=C(C)C[C@@H]2c2ccc(OCOC)cc2OC(C)=O)c(O)c1>>CC12C[C@H](c3ccc(O)cc3O)[C@@H](C(=O)c3ccc(O)cc3O)[C@H](C1)c1c(O)cc(-c3cc4ccc(O)cc4o3)cc1O2.CC1=C[C@@H]2c3c(O)cc(-c4cc5ccc(O)cc5o4)cc3O[C@]3(c4ccc(O)cc4O)Oc4cc(O)ccc4[C@@H](C1)[C@H]23",
+      "yield_scope": "Separately HPLC purified products"
+    },
+    {
+      "admission_authority": false,
+      "category": "forward_synthesis",
+      "event_id": "E03",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "product_labels": [
+        "20"
+      ],
+      "reactant_labels": [
+        "19"
+      ],
+      "reagents": [
+        "HCl"
+      ],
+      "reported_yields": [
+        {
+          "from_label": "19",
+          "percent": 16,
+          "product_label": "20",
+          "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+        }
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "MeOH"
+      ],
+      "source_conflict": "Main scheme instead H2SO4/EtOH; SI experimental conditions retained",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: E03",
+          "pages": [
+            3
+          ],
+          "sha256": "6e0d4573235aea9ebb9014db50984f0476f53ca16168486e0d8eef0f83e7a6e6",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: E03",
+          "pages": [
+            17
+          ],
+          "sha256": "084da53f87c1c89300817bc5728b545b67d111b080b3046377930d938dc09314",
+          "source_id": "si"
+        }
+      ],
+      "step_ids": [
+        "E03.1"
+      ],
+      "substrate_product_smiles": "COCOc1ccc(C(=O)[C@@H]2[C@@H](c3ccc(OCOC)cc3OC(C)=O)CC(C)=C[C@H]2c2c(OCOC)cc(-c3cc4ccc(OCOC)cc4o3)cc2OCOC)c(O)c1>>CC1=C[C@@H](c2c(O)cc(-c3cc4ccc(O)cc4o3)cc2O)[C@H](C(=O)c2ccc(O)cc2O)[C@@H](c2ccc(O)cc2O)C1"
+    },
+    {
+      "admission_authority": false,
+      "category": "forward_synthesis",
+      "event_id": "F01",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "product_labels": [
+        "7"
+      ],
+      "reactant_labels": [
+        "18"
+      ],
+      "reagents": [
+        "K2CO3"
+      ],
+      "reported_yields": [
+        {
+          "from_label": "18",
+          "percent": 94,
+          "product_label": "7",
+          "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+        }
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "MeOH"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: F01",
+          "pages": [
+            4
+          ],
+          "sha256": "6e0d4573235aea9ebb9014db50984f0476f53ca16168486e0d8eef0f83e7a6e6",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: F01",
+          "pages": [
+            18
+          ],
+          "sha256": "084da53f87c1c89300817bc5728b545b67d111b080b3046377930d938dc09314",
+          "source_id": "si"
+        }
+      ],
+      "step_ids": [
+        "F01.1"
+      ],
+      "substrate_product_smiles": "COCOc1ccc(C(=O)[C@H]2[C@@H](c3c(OCOC)cc(-c4cc5ccc(OCOC)cc5o4)cc3OCOC)C=C(C)C[C@@H]2c2ccc(OCOC)cc2OC(C)=O)c(O)c1>>COCOc1ccc(C(=O)[C@H]2[C@@H](c3c(OCOC)cc(-c4cc5ccc(OCOC)cc5o4)cc3OCOC)C=C(C)C[C@@H]2c2ccc(OCOC)cc2O)c(O)c1"
+    },
+    {
+      "admission_authority": false,
+      "category": "forward_synthesis",
+      "event_id": "F02",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "product_labels": [
+        "S7"
+      ],
+      "reactant_labels": [
+        "19"
+      ],
+      "reagents": [
+        "K2CO3"
+      ],
+      "reported_yields": [
+        {
+          "from_label": "19",
+          "percent": 90,
+          "product_label": "S7",
+          "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+        }
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "MeOH"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: F02",
+          "pages": [
+            4
+          ],
+          "sha256": "6e0d4573235aea9ebb9014db50984f0476f53ca16168486e0d8eef0f83e7a6e6",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: F02",
+          "pages": [
+            19
+          ],
+          "sha256": "084da53f87c1c89300817bc5728b545b67d111b080b3046377930d938dc09314",
+          "source_id": "si"
+        }
+      ],
+      "step_ids": [
+        "F02.1"
+      ],
+      "substrate_product_smiles": "COCOc1ccc(C(=O)[C@@H]2[C@@H](c3ccc(OCOC)cc3OC(C)=O)CC(C)=C[C@H]2c2c(OCOC)cc(-c3cc4ccc(OCOC)cc4o3)cc2OCOC)c(O)c1>>COCOc1ccc(C(=O)[C@@H]2[C@@H](c3ccc(OCOC)cc3O)CC(C)=C[C@H]2c2c(OCOC)cc(-c3cc4ccc(OCOC)cc4o3)cc2OCOC)c(O)c1"
+    },
+    {
+      "admission_authority": false,
+      "category": "forward_synthesis",
+      "event_id": "F03",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "product_labels": [
+        "21"
+      ],
+      "reactant_labels": [
+        "7"
+      ],
+      "reagents": [
+        "Pd(OAc)2",
+        "pyridine",
+        "O2"
+      ],
+      "reported_yields": [
+        {
+          "from_label": "7",
+          "percent": 23,
+          "product_label": "21",
+          "scope": "No Na2CO3 experiment; distinct from Pd(TFA)2 case"
+        }
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "toluene"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: F03",
+          "pages": [
+            4
+          ],
+          "sha256": "6e0d4573235aea9ebb9014db50984f0476f53ca16168486e0d8eef0f83e7a6e6",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: F03",
+          "pages": [
+            20
+          ],
+          "sha256": "084da53f87c1c89300817bc5728b545b67d111b080b3046377930d938dc09314",
+          "source_id": "si"
+        }
+      ],
+      "step_ids": [
+        "F03.1"
+      ],
+      "substrate_product_smiles": "COCOc1ccc(C(=O)[C@H]2[C@@H](c3c(OCOC)cc(-c4cc5ccc(OCOC)cc5o4)cc3OCOC)C=C(C)C[C@@H]2c2ccc(OCOC)cc2O)c(O)c1>>COCOc1ccc(C(=O)C2C(c3c(OCOC)cc(-c4cc5ccc(OCOC)cc5o4)cc3OCOC)=CC3(C)C[C@H]2c2ccc(OCOC)cc2O3)c(O)c1",
+      "yield_scope": "No Na2CO3 experiment; distinct from Pd(TFA)2 case"
+    },
+    {
+      "admission_authority": false,
+      "category": "forward_synthesis",
+      "event_id": "F04",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "product_labels": [
+        "21",
+        "S8"
+      ],
+      "reactant_labels": [
+        "7"
+      ],
+      "reagents": [
+        "Pd(TFA)2",
+        "Na2CO3",
+        "pyridine",
+        "O2"
+      ],
+      "reported_yields": [
+        {
+          "from_label": "7",
+          "percent": 22,
+          "product_label": "21",
+          "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+        },
+        {
+          "from_label": "7",
+          "percent": 20,
+          "product_label": "S8",
+          "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+        }
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "toluene"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: F04",
+          "pages": [
+            4
+          ],
+          "sha256": "6e0d4573235aea9ebb9014db50984f0476f53ca16168486e0d8eef0f83e7a6e6",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: F04",
+          "pages": [
+            20,
+            21
+          ],
+          "sha256": "084da53f87c1c89300817bc5728b545b67d111b080b3046377930d938dc09314",
+          "source_id": "si"
+        }
+      ],
+      "step_ids": [
+        "F04.1"
+      ],
+      "substrate_product_smiles": "COCOc1ccc(C(=O)[C@H]2[C@@H](c3c(OCOC)cc(-c4cc5ccc(OCOC)cc5o4)cc3OCOC)C=C(C)C[C@@H]2c2ccc(OCOC)cc2O)c(O)c1>>COCOc1ccc(C(=O)C2C(c3c(OCOC)cc(-c4cc5ccc(OCOC)cc5o4)cc3OCOC)=CC3(C)C[C@H]2c2ccc(OCOC)cc2O3)c(O)c1.COCOc1ccc(C(=O)c2cc(C)ccc2-c2c(OCOC)cc(-c3cc4ccc(OCOC)cc4o3)cc2OCOC)c(O)c1"
+    },
+    {
+      "admission_authority": false,
+      "category": "forward_synthesis",
+      "event_id": "F05",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "product_labels": [
+        "21"
+      ],
+      "reactant_labels": [
+        "7"
+      ],
+      "reagents": [
+        "DDQ"
+      ],
+      "reported_yields": [
+        {
+          "from_label": "7",
+          "percent": 49,
+          "product_label": "21",
+          "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+        }
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "DCM"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: F05",
+          "pages": [
+            4
+          ],
+          "sha256": "6e0d4573235aea9ebb9014db50984f0476f53ca16168486e0d8eef0f83e7a6e6",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: F05",
+          "pages": [
+            22
+          ],
+          "sha256": "084da53f87c1c89300817bc5728b545b67d111b080b3046377930d938dc09314",
+          "source_id": "si"
+        }
+      ],
+      "step_ids": [
+        "F05.1"
+      ],
+      "substrate_product_smiles": "COCOc1ccc(C(=O)[C@H]2[C@@H](c3c(OCOC)cc(-c4cc5ccc(OCOC)cc5o4)cc3OCOC)C=C(C)C[C@@H]2c2ccc(OCOC)cc2O)c(O)c1>>COCOc1ccc(C(=O)C2C(c3c(OCOC)cc(-c4cc5ccc(OCOC)cc5o4)cc3OCOC)=CC3(C)C[C@H]2c2ccc(OCOC)cc2O3)c(O)c1"
+    },
+    {
+      "admission_authority": false,
+      "category": "forward_synthesis",
+      "event_id": "F06",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "product_labels": [
+        "21"
+      ],
+      "reactant_labels": [
+        "S7"
+      ],
+      "reagents": [
+        "DDQ"
+      ],
+      "reported_yields": [
+        {
+          "from_label": "S7",
+          "percent": 10,
+          "product_label": "21",
+          "scope": "10% isolated from S7; main 9% over deacetylation plus oxidation"
+        }
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "DCM"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: F06",
+          "pages": [
+            4
+          ],
+          "sha256": "6e0d4573235aea9ebb9014db50984f0476f53ca16168486e0d8eef0f83e7a6e6",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: F06",
+          "pages": [
+            22
+          ],
+          "sha256": "084da53f87c1c89300817bc5728b545b67d111b080b3046377930d938dc09314",
+          "source_id": "si"
+        }
+      ],
+      "step_ids": [
+        "F06.1"
+      ],
+      "substrate_product_smiles": "COCOc1ccc(C(=O)[C@@H]2[C@@H](c3ccc(OCOC)cc3O)CC(C)=C[C@H]2c2c(OCOC)cc(-c3cc4ccc(OCOC)cc4o3)cc2OCOC)c(O)c1>>COCOc1ccc(C(=O)C2C(c3c(OCOC)cc(-c4cc5ccc(OCOC)cc5o4)cc3OCOC)=CC3(C)C[C@H]2c2ccc(OCOC)cc2O3)c(O)c1",
+      "yield_scope": "10% isolated from S7; main 9% over deacetylation plus oxidation"
+    },
+    {
+      "admission_authority": false,
+      "category": "forward_synthesis",
+      "event_id": "F07",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "product_labels": [
+        "6"
+      ],
+      "reactant_labels": [
+        "21"
+      ],
+      "reagents": [
+        "HCl"
+      ],
+      "reported_yields": [
+        {
+          "from_label": "21",
+          "percent": 53,
+          "product_label": "6",
+          "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+        }
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "MeOH"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: F07",
+          "pages": [
+            4
+          ],
+          "sha256": "6e0d4573235aea9ebb9014db50984f0476f53ca16168486e0d8eef0f83e7a6e6",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: F07",
+          "pages": [
+            23
+          ],
+          "sha256": "084da53f87c1c89300817bc5728b545b67d111b080b3046377930d938dc09314",
+          "source_id": "si"
+        }
+      ],
+      "step_ids": [
+        "F07.1"
+      ],
+      "substrate_product_smiles": "COCOc1ccc(C(=O)C2C(c3c(OCOC)cc(-c4cc5ccc(OCOC)cc5o4)cc3OCOC)=CC3(C)C[C@H]2c2ccc(OCOC)cc2O3)c(O)c1>>CC12C=C(c3c(O)cc(-c4cc5ccc(O)cc5o4)cc3O)C(C(=O)c3ccc(O)cc3O)[C@@H](C1)c1ccc(O)cc1O2"
+    }
+  ],
+  "report_heading": "Bioinspired Total Synthesis of Mulberrofurans G and J, Inethermulberrofuran C, and Mongolicin C from a Common Intermediate. — source-bound synthesis network",
+  "report_note": "Main routes and SI preparations S1-S8, including model Heck controls and oxidative side product. Racemic source structures are representative relative stereochemistry, not enantiopure assignments. Chiral separation of 6 is an analytical resolution observation; absolute assignments of separated fractions are not inferred from rotation sign. Facts compiled deterministically; independent review pending.",
+  "routes": [
+    {
+      "admission_authority": false,
+      "formal_benchmark_eligible": false,
+      "from_commercial_starting_materials_complete": false,
+      "full_article_route_coverage": true,
+      "molecule_smiles_sequence": [
+        "COC(=O)c1cc(O)c(I)c(O)c1",
+        "COCOc1cc(C(=O)OC)cc(OCOC)c1I",
+        "COCOc1cc(C=O)cc(OCOC)c1I",
+        "C#Cc1cc(OCOC)c(I)c(OCOC)c1",
+        "COCOc1cccc(O)c1",
+        "COCOc1ccc(I)c(O)c1",
+        "COCOc1ccc(I)c(OC(C)=O)c1",
+        "COCOc1ccc(C#Cc2cc(OCOC)c(I)c(OCOC)c2)c(OC(C)=O)c1",
+        "COCOc1ccc2cc(-c3cc(OCOC)c(I)c(OCOC)c3)oc2c1",
+        "C=CC(C)(C)O",
+        "C=C(C)/C=C/c1c(OCOC)cc(-c2cc3ccc(OCOC)cc3o2)cc1OCOC",
+        "COCOc1ccc(C=O)c(O)c1",
+        "COCOc1ccc(C(C)=O)c(O)c1",
+        "COCOc1ccc(/C=C/C(=O)c2ccc(OCOC)cc2O)c(O)c1",
+        "COCOc1ccc(C(=O)/C=C/c2ccc(OCOC)cc2OC(C)=O)c(O)c1",
+        "COCOc1ccc(C(=O)[C@H]2[C@@H](c3c(OCOC)cc(-c4cc5ccc(OCOC)cc5o4)cc3OCOC)C=C(C)C[C@@H]2c2ccc(OCOC)cc2OC(C)=O)c(O)c1",
+        "COCOc1ccc(C(=O)[C@@H]2[C@@H](c3ccc(OCOC)cc3OC(C)=O)CC(C)=C[C@H]2c2c(OCOC)cc(-c3cc4ccc(OCOC)cc4o3)cc2OCOC)c(O)c1",
+        "CC1=C[C@@H]2c3c(O)cc(-c4cc5ccc(O)cc5o4)cc3O[C@]3(c4ccc(O)cc4O)Oc4cc(O)ccc4[C@@H](C1)[C@H]23",
+        "CC12C[C@H](c3ccc(O)cc3O)[C@@H](C(=O)c3ccc(O)cc3O)[C@H](C1)c1c(O)cc(-c3cc4ccc(O)cc4o3)cc1O2"
+      ],
+      "ordered_event_ids": [
+        "A01",
+        "A02",
+        "A03",
+        "B01",
+        "B02",
+        "C01",
+        "C02",
+        "C03",
+        "D01",
+        "D02",
+        "D03",
+        "E01"
+      ],
+      "ordered_molecule_labels": [
+        "S1",
+        "S2",
+        "S3",
+        "12",
+        "10",
+        "S4",
+        "11",
+        "13",
+        "14",
+        "2-methylbut-3-en-2-ol",
+        "9",
+        "15",
+        "16",
+        "8",
+        "17",
+        "18",
+        "19",
+        "4",
+        "5"
+      ],
+      "ordered_step_ids": [
+        "A01.1",
+        "A02.1",
+        "A03.1",
+        "B01.1",
+        "B02.1",
+        "C01.1",
+        "C02.1",
+        "C03.1",
+        "D01.1",
+        "D02.1",
+        "D03.1",
+        "E01.1"
+      ],
+      "route_id": "mulberrofuran G sulfate conditions",
+      "route_type": "source_bound_successful_synthesis",
+      "split_group": "10.1021/acs.orglett.6c00418",
+      "start_label": "S1",
+      "start_labels": [
+        "S1",
+        "10",
+        "2-methylbut-3-en-2-ol",
+        "15",
+        "16"
+      ],
+      "step_reaction_smiles_sequence": [
+        "COC(=O)c1cc(O)c(I)c(O)c1>>COCOc1cc(C(=O)OC)cc(OCOC)c1I",
+        "COCOc1cc(C(=O)OC)cc(OCOC)c1I>>COCOc1cc(C=O)cc(OCOC)c1I",
+        "COCOc1cc(C=O)cc(OCOC)c1I>>C#Cc1cc(OCOC)c(I)c(OCOC)c1",
+        "COCOc1cccc(O)c1>>COCOc1ccc(I)c(O)c1",
+        "COCOc1ccc(I)c(O)c1>>COCOc1ccc(I)c(OC(C)=O)c1",
+        "C#Cc1cc(OCOC)c(I)c(OCOC)c1.COCOc1ccc(I)c(OC(C)=O)c1>>COCOc1ccc(C#Cc2cc(OCOC)c(I)c(OCOC)c2)c(OC(C)=O)c1",
+        "COCOc1ccc(C#Cc2cc(OCOC)c(I)c(OCOC)c2)c(OC(C)=O)c1>>COCOc1ccc2cc(-c3cc(OCOC)c(I)c(OCOC)c3)oc2c1",
+        "C=CC(C)(C)O.COCOc1ccc2cc(-c3cc(OCOC)c(I)c(OCOC)c3)oc2c1>>C=C(C)/C=C/c1c(OCOC)cc(-c2cc3ccc(OCOC)cc3o2)cc1OCOC",
+        "COCOc1ccc(C(C)=O)c(O)c1.COCOc1ccc(C=O)c(O)c1>>COCOc1ccc(/C=C/C(=O)c2ccc(OCOC)cc2O)c(O)c1",
+        "COCOc1ccc(/C=C/C(=O)c2ccc(OCOC)cc2O)c(O)c1>>COCOc1ccc(C(=O)/C=C/c2ccc(OCOC)cc2OC(C)=O)c(O)c1",
+        "C=C(C)/C=C/c1c(OCOC)cc(-c2cc3ccc(OCOC)cc3o2)cc1OCOC.COCOc1ccc(C(=O)/C=C/c2ccc(OCOC)cc2OC(C)=O)c(O)c1>>COCOc1ccc(C(=O)[C@@H]2[C@@H](c3ccc(OCOC)cc3OC(C)=O)CC(C)=C[C@H]2c2c(OCOC)cc(-c3cc4ccc(OCOC)cc4o3)cc2OCOC)c(O)c1.COCOc1ccc(C(=O)[C@H]2[C@@H](c3c(OCOC)cc(-c4cc5ccc(OCOC)cc5o4)cc3OCOC)C=C(C)C[C@@H]2c2ccc(OCOC)cc2OC(C)=O)c(O)c1",
+        "COCOc1ccc(C(=O)[C@H]2[C@@H](c3c(OCOC)cc(-c4cc5ccc(OCOC)cc5o4)cc3OCOC)C=C(C)C[C@@H]2c2ccc(OCOC)cc2OC(C)=O)c(O)c1>>CC12C[C@H](c3ccc(O)cc3O)[C@@H](C(=O)c3ccc(O)cc3O)[C@H](C1)c1c(O)cc(-c3cc4ccc(O)cc4o3)cc1O2.CC1=C[C@@H]2c3c(O)cc(-c4cc5ccc(O)cc5o4)cc3O[C@]3(c4ccc(O)cc4O)Oc4cc(O)ccc4[C@@H](C1)[C@H]23"
+      ],
+      "target_label": "4"
+    },
+    {
+      "admission_authority": false,
+      "formal_benchmark_eligible": false,
+      "from_commercial_starting_materials_complete": false,
+      "full_article_route_coverage": true,
+      "molecule_smiles_sequence": [
+        "COC(=O)c1cc(O)c(I)c(O)c1",
+        "COCOc1cc(C(=O)OC)cc(OCOC)c1I",
+        "COCOc1cc(C=O)cc(OCOC)c1I",
+        "C#Cc1cc(OCOC)c(I)c(OCOC)c1",
+        "COCOc1cccc(O)c1",
+        "COCOc1ccc(I)c(O)c1",
+        "COCOc1ccc(I)c(OC(C)=O)c1",
+        "COCOc1ccc(C#Cc2cc(OCOC)c(I)c(OCOC)c2)c(OC(C)=O)c1",
+        "COCOc1ccc2cc(-c3cc(OCOC)c(I)c(OCOC)c3)oc2c1",
+        "C=CC(C)(C)O",
+        "C=C(C)/C=C/c1c(OCOC)cc(-c2cc3ccc(OCOC)cc3o2)cc1OCOC",
+        "COCOc1ccc(C=O)c(O)c1",
+        "COCOc1ccc(C(C)=O)c(O)c1",
+        "COCOc1ccc(/C=C/C(=O)c2ccc(OCOC)cc2O)c(O)c1",
+        "COCOc1ccc(C(=O)/C=C/c2ccc(OCOC)cc2OC(C)=O)c(O)c1",
+        "COCOc1ccc(C(=O)[C@H]2[C@@H](c3c(OCOC)cc(-c4cc5ccc(OCOC)cc5o4)cc3OCOC)C=C(C)C[C@@H]2c2ccc(OCOC)cc2OC(C)=O)c(O)c1",
+        "COCOc1ccc(C(=O)[C@@H]2[C@@H](c3ccc(OCOC)cc3OC(C)=O)CC(C)=C[C@H]2c2c(OCOC)cc(-c3cc4ccc(OCOC)cc4o3)cc2OCOC)c(O)c1",
+        "CC1=C[C@@H]2c3c(O)cc(-c4cc5ccc(O)cc5o4)cc3O[C@]3(c4ccc(O)cc4O)Oc4cc(O)ccc4[C@@H](C1)[C@H]23",
+        "CC12C[C@H](c3ccc(O)cc3O)[C@@H](C(=O)c3ccc(O)cc3O)[C@H](C1)c1c(O)cc(-c3cc4ccc(O)cc4o3)cc1O2"
+      ],
+      "ordered_event_ids": [
+        "A01",
+        "A02",
+        "A03",
+        "B01",
+        "B02",
+        "C01",
+        "C02",
+        "C03",
+        "D01",
+        "D02",
+        "D03",
+        "E02"
+      ],
+      "ordered_molecule_labels": [
+        "S1",
+        "S2",
+        "S3",
+        "12",
+        "10",
+        "S4",
+        "11",
+        "13",
+        "14",
+        "2-methylbut-3-en-2-ol",
+        "9",
+        "15",
+        "16",
+        "8",
+        "17",
+        "18",
+        "19",
+        "4",
+        "5"
+      ],
+      "ordered_step_ids": [
+        "A01.1",
+        "A02.1",
+        "A03.1",
+        "B01.1",
+        "B02.1",
+        "C01.1",
+        "C02.1",
+        "C03.1",
+        "D01.1",
+        "D02.1",
+        "D03.1",
+        "E02.1"
+      ],
+      "route_id": "mulberrofuran G chloride conditions",
+      "route_type": "source_bound_successful_synthesis",
+      "split_group": "10.1021/acs.orglett.6c00418",
+      "start_label": "S1",
+      "start_labels": [
+        "S1",
+        "10",
+        "2-methylbut-3-en-2-ol",
+        "15",
+        "16"
+      ],
+      "step_reaction_smiles_sequence": [
+        "COC(=O)c1cc(O)c(I)c(O)c1>>COCOc1cc(C(=O)OC)cc(OCOC)c1I",
+        "COCOc1cc(C(=O)OC)cc(OCOC)c1I>>COCOc1cc(C=O)cc(OCOC)c1I",
+        "COCOc1cc(C=O)cc(OCOC)c1I>>C#Cc1cc(OCOC)c(I)c(OCOC)c1",
+        "COCOc1cccc(O)c1>>COCOc1ccc(I)c(O)c1",
+        "COCOc1ccc(I)c(O)c1>>COCOc1ccc(I)c(OC(C)=O)c1",
+        "C#Cc1cc(OCOC)c(I)c(OCOC)c1.COCOc1ccc(I)c(OC(C)=O)c1>>COCOc1ccc(C#Cc2cc(OCOC)c(I)c(OCOC)c2)c(OC(C)=O)c1",
+        "COCOc1ccc(C#Cc2cc(OCOC)c(I)c(OCOC)c2)c(OC(C)=O)c1>>COCOc1ccc2cc(-c3cc(OCOC)c(I)c(OCOC)c3)oc2c1",
+        "C=CC(C)(C)O.COCOc1ccc2cc(-c3cc(OCOC)c(I)c(OCOC)c3)oc2c1>>C=C(C)/C=C/c1c(OCOC)cc(-c2cc3ccc(OCOC)cc3o2)cc1OCOC",
+        "COCOc1ccc(C(C)=O)c(O)c1.COCOc1ccc(C=O)c(O)c1>>COCOc1ccc(/C=C/C(=O)c2ccc(OCOC)cc2O)c(O)c1",
+        "COCOc1ccc(/C=C/C(=O)c2ccc(OCOC)cc2O)c(O)c1>>COCOc1ccc(C(=O)/C=C/c2ccc(OCOC)cc2OC(C)=O)c(O)c1",
+        "C=C(C)/C=C/c1c(OCOC)cc(-c2cc3ccc(OCOC)cc3o2)cc1OCOC.COCOc1ccc(C(=O)/C=C/c2ccc(OCOC)cc2OC(C)=O)c(O)c1>>COCOc1ccc(C(=O)[C@@H]2[C@@H](c3ccc(OCOC)cc3OC(C)=O)CC(C)=C[C@H]2c2c(OCOC)cc(-c3cc4ccc(OCOC)cc4o3)cc2OCOC)c(O)c1.COCOc1ccc(C(=O)[C@H]2[C@@H](c3c(OCOC)cc(-c4cc5ccc(OCOC)cc5o4)cc3OCOC)C=C(C)C[C@@H]2c2ccc(OCOC)cc2OC(C)=O)c(O)c1",
+        "COCOc1ccc(C(=O)[C@H]2[C@@H](c3c(OCOC)cc(-c4cc5ccc(OCOC)cc5o4)cc3OCOC)C=C(C)C[C@@H]2c2ccc(OCOC)cc2OC(C)=O)c(O)c1>>CC12C[C@H](c3ccc(O)cc3O)[C@@H](C(=O)c3ccc(O)cc3O)[C@H](C1)c1c(O)cc(-c3cc4ccc(O)cc4o3)cc1O2.CC1=C[C@@H]2c3c(O)cc(-c4cc5ccc(O)cc5o4)cc3O[C@]3(c4ccc(O)cc4O)Oc4cc(O)ccc4[C@@H](C1)[C@H]23"
+      ],
+      "target_label": "4"
+    },
+    {
+      "admission_authority": false,
+      "formal_benchmark_eligible": false,
+      "from_commercial_starting_materials_complete": false,
+      "full_article_route_coverage": true,
+      "molecule_smiles_sequence": [
+        "COC(=O)c1cc(O)c(I)c(O)c1",
+        "COCOc1cc(C(=O)OC)cc(OCOC)c1I",
+        "COCOc1cc(C=O)cc(OCOC)c1I",
+        "C#Cc1cc(OCOC)c(I)c(OCOC)c1",
+        "COCOc1cccc(O)c1",
+        "COCOc1ccc(I)c(O)c1",
+        "COCOc1ccc(I)c(OC(C)=O)c1",
+        "COCOc1ccc(C#Cc2cc(OCOC)c(I)c(OCOC)c2)c(OC(C)=O)c1",
+        "COCOc1ccc2cc(-c3cc(OCOC)c(I)c(OCOC)c3)oc2c1",
+        "C=CC(C)(C)O",
+        "C=C(C)/C=C/c1c(OCOC)cc(-c2cc3ccc(OCOC)cc3o2)cc1OCOC",
+        "COCOc1ccc(C=O)c(O)c1",
+        "COCOc1ccc(C(C)=O)c(O)c1",
+        "COCOc1ccc(/C=C/C(=O)c2ccc(OCOC)cc2O)c(O)c1",
+        "COCOc1ccc(C(=O)/C=C/c2ccc(OCOC)cc2OC(C)=O)c(O)c1",
+        "COCOc1ccc(C(=O)[C@H]2[C@@H](c3c(OCOC)cc(-c4cc5ccc(OCOC)cc5o4)cc3OCOC)C=C(C)C[C@@H]2c2ccc(OCOC)cc2OC(C)=O)c(O)c1",
+        "COCOc1ccc(C(=O)[C@@H]2[C@@H](c3ccc(OCOC)cc3OC(C)=O)CC(C)=C[C@H]2c2c(OCOC)cc(-c3cc4ccc(OCOC)cc4o3)cc2OCOC)c(O)c1",
+        "CC1=C[C@@H]2c3c(O)cc(-c4cc5ccc(O)cc5o4)cc3O[C@]3(c4ccc(O)cc4O)Oc4cc(O)ccc4[C@@H](C1)[C@H]23",
+        "CC12C[C@H](c3ccc(O)cc3O)[C@@H](C(=O)c3ccc(O)cc3O)[C@H](C1)c1c(O)cc(-c3cc4ccc(O)cc4o3)cc1O2"
+      ],
+      "ordered_event_ids": [
+        "A01",
+        "A02",
+        "A03",
+        "B01",
+        "B02",
+        "C01",
+        "C02",
+        "C03",
+        "D01",
+        "D02",
+        "D03",
+        "E02"
+      ],
+      "ordered_molecule_labels": [
+        "S1",
+        "S2",
+        "S3",
+        "12",
+        "10",
+        "S4",
+        "11",
+        "13",
+        "14",
+        "2-methylbut-3-en-2-ol",
+        "9",
+        "15",
+        "16",
+        "8",
+        "17",
+        "18",
+        "19",
+        "4",
+        "5"
+      ],
+      "ordered_step_ids": [
+        "A01.1",
+        "A02.1",
+        "A03.1",
+        "B01.1",
+        "B02.1",
+        "C01.1",
+        "C02.1",
+        "C03.1",
+        "D01.1",
+        "D02.1",
+        "D03.1",
+        "E02.1"
+      ],
+      "route_id": "inethermulberrofuran C",
+      "route_type": "source_bound_successful_synthesis",
+      "split_group": "10.1021/acs.orglett.6c00418",
+      "start_label": "S1",
+      "start_labels": [
+        "S1",
+        "10",
+        "2-methylbut-3-en-2-ol",
+        "15",
+        "16"
+      ],
+      "step_reaction_smiles_sequence": [
+        "COC(=O)c1cc(O)c(I)c(O)c1>>COCOc1cc(C(=O)OC)cc(OCOC)c1I",
+        "COCOc1cc(C(=O)OC)cc(OCOC)c1I>>COCOc1cc(C=O)cc(OCOC)c1I",
+        "COCOc1cc(C=O)cc(OCOC)c1I>>C#Cc1cc(OCOC)c(I)c(OCOC)c1",
+        "COCOc1cccc(O)c1>>COCOc1ccc(I)c(O)c1",
+        "COCOc1ccc(I)c(O)c1>>COCOc1ccc(I)c(OC(C)=O)c1",
+        "C#Cc1cc(OCOC)c(I)c(OCOC)c1.COCOc1ccc(I)c(OC(C)=O)c1>>COCOc1ccc(C#Cc2cc(OCOC)c(I)c(OCOC)c2)c(OC(C)=O)c1",
+        "COCOc1ccc(C#Cc2cc(OCOC)c(I)c(OCOC)c2)c(OC(C)=O)c1>>COCOc1ccc2cc(-c3cc(OCOC)c(I)c(OCOC)c3)oc2c1",
+        "C=CC(C)(C)O.COCOc1ccc2cc(-c3cc(OCOC)c(I)c(OCOC)c3)oc2c1>>C=C(C)/C=C/c1c(OCOC)cc(-c2cc3ccc(OCOC)cc3o2)cc1OCOC",
+        "COCOc1ccc(C(C)=O)c(O)c1.COCOc1ccc(C=O)c(O)c1>>COCOc1ccc(/C=C/C(=O)c2ccc(OCOC)cc2O)c(O)c1",
+        "COCOc1ccc(/C=C/C(=O)c2ccc(OCOC)cc2O)c(O)c1>>COCOc1ccc(C(=O)/C=C/c2ccc(OCOC)cc2OC(C)=O)c(O)c1",
+        "C=C(C)/C=C/c1c(OCOC)cc(-c2cc3ccc(OCOC)cc3o2)cc1OCOC.COCOc1ccc(C(=O)/C=C/c2ccc(OCOC)cc2OC(C)=O)c(O)c1>>COCOc1ccc(C(=O)[C@@H]2[C@@H](c3ccc(OCOC)cc3OC(C)=O)CC(C)=C[C@H]2c2c(OCOC)cc(-c3cc4ccc(OCOC)cc4o3)cc2OCOC)c(O)c1.COCOc1ccc(C(=O)[C@H]2[C@@H](c3c(OCOC)cc(-c4cc5ccc(OCOC)cc5o4)cc3OCOC)C=C(C)C[C@@H]2c2ccc(OCOC)cc2OC(C)=O)c(O)c1",
+        "COCOc1ccc(C(=O)[C@H]2[C@@H](c3c(OCOC)cc(-c4cc5ccc(OCOC)cc5o4)cc3OCOC)C=C(C)C[C@@H]2c2ccc(OCOC)cc2OC(C)=O)c(O)c1>>CC12C[C@H](c3ccc(O)cc3O)[C@@H](C(=O)c3ccc(O)cc3O)[C@H](C1)c1c(O)cc(-c3cc4ccc(O)cc4o3)cc1O2.CC1=C[C@@H]2c3c(O)cc(-c4cc5ccc(O)cc5o4)cc3O[C@]3(c4ccc(O)cc4O)Oc4cc(O)ccc4[C@@H](C1)[C@H]23"
+      ],
+      "target_label": "5"
+    },
+    {
+      "admission_authority": false,
+      "formal_benchmark_eligible": false,
+      "from_commercial_starting_materials_complete": false,
+      "full_article_route_coverage": true,
+      "molecule_smiles_sequence": [
+        "COC(=O)c1cc(O)c(I)c(O)c1",
+        "COCOc1cc(C(=O)OC)cc(OCOC)c1I",
+        "COCOc1cc(C=O)cc(OCOC)c1I",
+        "C#Cc1cc(OCOC)c(I)c(OCOC)c1",
+        "COCOc1cccc(O)c1",
+        "COCOc1ccc(I)c(O)c1",
+        "COCOc1ccc(I)c(OC(C)=O)c1",
+        "COCOc1ccc(C#Cc2cc(OCOC)c(I)c(OCOC)c2)c(OC(C)=O)c1",
+        "COCOc1ccc2cc(-c3cc(OCOC)c(I)c(OCOC)c3)oc2c1",
+        "C=CC(C)(C)O",
+        "C=C(C)/C=C/c1c(OCOC)cc(-c2cc3ccc(OCOC)cc3o2)cc1OCOC",
+        "COCOc1ccc(C=O)c(O)c1",
+        "COCOc1ccc(C(C)=O)c(O)c1",
+        "COCOc1ccc(/C=C/C(=O)c2ccc(OCOC)cc2O)c(O)c1",
+        "COCOc1ccc(C(=O)/C=C/c2ccc(OCOC)cc2OC(C)=O)c(O)c1",
+        "COCOc1ccc(C(=O)[C@H]2[C@@H](c3c(OCOC)cc(-c4cc5ccc(OCOC)cc5o4)cc3OCOC)C=C(C)C[C@@H]2c2ccc(OCOC)cc2OC(C)=O)c(O)c1",
+        "COCOc1ccc(C(=O)[C@@H]2[C@@H](c3ccc(OCOC)cc3OC(C)=O)CC(C)=C[C@H]2c2c(OCOC)cc(-c3cc4ccc(OCOC)cc4o3)cc2OCOC)c(O)c1",
+        "CC1=C[C@@H](c2c(O)cc(-c3cc4ccc(O)cc4o3)cc2O)[C@H](C(=O)c2ccc(O)cc2O)[C@@H](c2ccc(O)cc2O)C1"
+      ],
+      "ordered_event_ids": [
+        "A01",
+        "A02",
+        "A03",
+        "B01",
+        "B02",
+        "C01",
+        "C02",
+        "C03",
+        "D01",
+        "D02",
+        "D03",
+        "E03"
+      ],
+      "ordered_molecule_labels": [
+        "S1",
+        "S2",
+        "S3",
+        "12",
+        "10",
+        "S4",
+        "11",
+        "13",
+        "14",
+        "2-methylbut-3-en-2-ol",
+        "9",
+        "15",
+        "16",
+        "8",
+        "17",
+        "18",
+        "19",
+        "20"
+      ],
+      "ordered_step_ids": [
+        "A01.1",
+        "A02.1",
+        "A03.1",
+        "B01.1",
+        "B02.1",
+        "C01.1",
+        "C02.1",
+        "C03.1",
+        "D01.1",
+        "D02.1",
+        "D03.1",
+        "E03.1"
+      ],
+      "route_id": "mulberrofuran J",
+      "route_type": "source_bound_successful_synthesis",
+      "split_group": "10.1021/acs.orglett.6c00418",
+      "start_label": "S1",
+      "start_labels": [
+        "S1",
+        "10",
+        "2-methylbut-3-en-2-ol",
+        "15",
+        "16"
+      ],
+      "step_reaction_smiles_sequence": [
+        "COC(=O)c1cc(O)c(I)c(O)c1>>COCOc1cc(C(=O)OC)cc(OCOC)c1I",
+        "COCOc1cc(C(=O)OC)cc(OCOC)c1I>>COCOc1cc(C=O)cc(OCOC)c1I",
+        "COCOc1cc(C=O)cc(OCOC)c1I>>C#Cc1cc(OCOC)c(I)c(OCOC)c1",
+        "COCOc1cccc(O)c1>>COCOc1ccc(I)c(O)c1",
+        "COCOc1ccc(I)c(O)c1>>COCOc1ccc(I)c(OC(C)=O)c1",
+        "C#Cc1cc(OCOC)c(I)c(OCOC)c1.COCOc1ccc(I)c(OC(C)=O)c1>>COCOc1ccc(C#Cc2cc(OCOC)c(I)c(OCOC)c2)c(OC(C)=O)c1",
+        "COCOc1ccc(C#Cc2cc(OCOC)c(I)c(OCOC)c2)c(OC(C)=O)c1>>COCOc1ccc2cc(-c3cc(OCOC)c(I)c(OCOC)c3)oc2c1",
+        "C=CC(C)(C)O.COCOc1ccc2cc(-c3cc(OCOC)c(I)c(OCOC)c3)oc2c1>>C=C(C)/C=C/c1c(OCOC)cc(-c2cc3ccc(OCOC)cc3o2)cc1OCOC",
+        "COCOc1ccc(C(C)=O)c(O)c1.COCOc1ccc(C=O)c(O)c1>>COCOc1ccc(/C=C/C(=O)c2ccc(OCOC)cc2O)c(O)c1",
+        "COCOc1ccc(/C=C/C(=O)c2ccc(OCOC)cc2O)c(O)c1>>COCOc1ccc(C(=O)/C=C/c2ccc(OCOC)cc2OC(C)=O)c(O)c1",
+        "C=C(C)/C=C/c1c(OCOC)cc(-c2cc3ccc(OCOC)cc3o2)cc1OCOC.COCOc1ccc(C(=O)/C=C/c2ccc(OCOC)cc2OC(C)=O)c(O)c1>>COCOc1ccc(C(=O)[C@@H]2[C@@H](c3ccc(OCOC)cc3OC(C)=O)CC(C)=C[C@H]2c2c(OCOC)cc(-c3cc4ccc(OCOC)cc4o3)cc2OCOC)c(O)c1.COCOc1ccc(C(=O)[C@H]2[C@@H](c3c(OCOC)cc(-c4cc5ccc(OCOC)cc5o4)cc3OCOC)C=C(C)C[C@@H]2c2ccc(OCOC)cc2OC(C)=O)c(O)c1",
+        "COCOc1ccc(C(=O)[C@@H]2[C@@H](c3ccc(OCOC)cc3OC(C)=O)CC(C)=C[C@H]2c2c(OCOC)cc(-c3cc4ccc(OCOC)cc4o3)cc2OCOC)c(O)c1>>CC1=C[C@@H](c2c(O)cc(-c3cc4ccc(O)cc4o3)cc2O)[C@H](C(=O)c2ccc(O)cc2O)[C@@H](c2ccc(O)cc2O)C1"
+      ],
+      "target_label": "20"
+    },
+    {
+      "admission_authority": false,
+      "formal_benchmark_eligible": false,
+      "from_commercial_starting_materials_complete": false,
+      "full_article_route_coverage": true,
+      "molecule_smiles_sequence": [
+        "COC(=O)c1cc(O)c(I)c(O)c1",
+        "COCOc1cc(C(=O)OC)cc(OCOC)c1I",
+        "COCOc1cc(C=O)cc(OCOC)c1I",
+        "C#Cc1cc(OCOC)c(I)c(OCOC)c1",
+        "COCOc1cccc(O)c1",
+        "COCOc1ccc(I)c(O)c1",
+        "COCOc1ccc(I)c(OC(C)=O)c1",
+        "COCOc1ccc(C#Cc2cc(OCOC)c(I)c(OCOC)c2)c(OC(C)=O)c1",
+        "COCOc1ccc2cc(-c3cc(OCOC)c(I)c(OCOC)c3)oc2c1",
+        "C=CC(C)(C)O",
+        "C=C(C)/C=C/c1c(OCOC)cc(-c2cc3ccc(OCOC)cc3o2)cc1OCOC",
+        "COCOc1ccc(C=O)c(O)c1",
+        "COCOc1ccc(C(C)=O)c(O)c1",
+        "COCOc1ccc(/C=C/C(=O)c2ccc(OCOC)cc2O)c(O)c1",
+        "COCOc1ccc(C(=O)/C=C/c2ccc(OCOC)cc2OC(C)=O)c(O)c1",
+        "COCOc1ccc(C(=O)[C@H]2[C@@H](c3c(OCOC)cc(-c4cc5ccc(OCOC)cc5o4)cc3OCOC)C=C(C)C[C@@H]2c2ccc(OCOC)cc2OC(C)=O)c(O)c1",
+        "COCOc1ccc(C(=O)[C@@H]2[C@@H](c3ccc(OCOC)cc3OC(C)=O)CC(C)=C[C@H]2c2c(OCOC)cc(-c3cc4ccc(OCOC)cc4o3)cc2OCOC)c(O)c1",
+        "COCOc1ccc(C(=O)[C@H]2[C@@H](c3c(OCOC)cc(-c4cc5ccc(OCOC)cc5o4)cc3OCOC)C=C(C)C[C@@H]2c2ccc(OCOC)cc2O)c(O)c1",
+        "COCOc1ccc(C(=O)C2C(c3c(OCOC)cc(-c4cc5ccc(OCOC)cc5o4)cc3OCOC)=CC3(C)C[C@H]2c2ccc(OCOC)cc2O3)c(O)c1",
+        "CC12C=C(c3c(O)cc(-c4cc5ccc(O)cc5o4)cc3O)C(C(=O)c3ccc(O)cc3O)[C@@H](C1)c1ccc(O)cc1O2"
+      ],
+      "ordered_event_ids": [
+        "A01",
+        "A02",
+        "A03",
+        "B01",
+        "B02",
+        "C01",
+        "C02",
+        "C03",
+        "D01",
+        "D02",
+        "D03",
+        "F01",
+        "F05",
+        "F07"
+      ],
+      "ordered_molecule_labels": [
+        "S1",
+        "S2",
+        "S3",
+        "12",
+        "10",
+        "S4",
+        "11",
+        "13",
+        "14",
+        "2-methylbut-3-en-2-ol",
+        "9",
+        "15",
+        "16",
+        "8",
+        "17",
+        "18",
+        "19",
+        "7",
+        "21",
+        "6"
+      ],
+      "ordered_step_ids": [
+        "A01.1",
+        "A02.1",
+        "A03.1",
+        "B01.1",
+        "B02.1",
+        "C01.1",
+        "C02.1",
+        "C03.1",
+        "D01.1",
+        "D02.1",
+        "D03.1",
+        "F01.1",
+        "F05.1",
+        "F07.1"
+      ],
+      "route_id": "mongolicin C endo DDQ",
+      "route_type": "source_bound_successful_synthesis",
+      "split_group": "10.1021/acs.orglett.6c00418",
+      "start_label": "S1",
+      "start_labels": [
+        "S1",
+        "10",
+        "2-methylbut-3-en-2-ol",
+        "15",
+        "16"
+      ],
+      "step_reaction_smiles_sequence": [
+        "COC(=O)c1cc(O)c(I)c(O)c1>>COCOc1cc(C(=O)OC)cc(OCOC)c1I",
+        "COCOc1cc(C(=O)OC)cc(OCOC)c1I>>COCOc1cc(C=O)cc(OCOC)c1I",
+        "COCOc1cc(C=O)cc(OCOC)c1I>>C#Cc1cc(OCOC)c(I)c(OCOC)c1",
+        "COCOc1cccc(O)c1>>COCOc1ccc(I)c(O)c1",
+        "COCOc1ccc(I)c(O)c1>>COCOc1ccc(I)c(OC(C)=O)c1",
+        "C#Cc1cc(OCOC)c(I)c(OCOC)c1.COCOc1ccc(I)c(OC(C)=O)c1>>COCOc1ccc(C#Cc2cc(OCOC)c(I)c(OCOC)c2)c(OC(C)=O)c1",
+        "COCOc1ccc(C#Cc2cc(OCOC)c(I)c(OCOC)c2)c(OC(C)=O)c1>>COCOc1ccc2cc(-c3cc(OCOC)c(I)c(OCOC)c3)oc2c1",
+        "C=CC(C)(C)O.COCOc1ccc2cc(-c3cc(OCOC)c(I)c(OCOC)c3)oc2c1>>C=C(C)/C=C/c1c(OCOC)cc(-c2cc3ccc(OCOC)cc3o2)cc1OCOC",
+        "COCOc1ccc(C(C)=O)c(O)c1.COCOc1ccc(C=O)c(O)c1>>COCOc1ccc(/C=C/C(=O)c2ccc(OCOC)cc2O)c(O)c1",
+        "COCOc1ccc(/C=C/C(=O)c2ccc(OCOC)cc2O)c(O)c1>>COCOc1ccc(C(=O)/C=C/c2ccc(OCOC)cc2OC(C)=O)c(O)c1",
+        "C=C(C)/C=C/c1c(OCOC)cc(-c2cc3ccc(OCOC)cc3o2)cc1OCOC.COCOc1ccc(C(=O)/C=C/c2ccc(OCOC)cc2OC(C)=O)c(O)c1>>COCOc1ccc(C(=O)[C@@H]2[C@@H](c3ccc(OCOC)cc3OC(C)=O)CC(C)=C[C@H]2c2c(OCOC)cc(-c3cc4ccc(OCOC)cc4o3)cc2OCOC)c(O)c1.COCOc1ccc(C(=O)[C@H]2[C@@H](c3c(OCOC)cc(-c4cc5ccc(OCOC)cc5o4)cc3OCOC)C=C(C)C[C@@H]2c2ccc(OCOC)cc2OC(C)=O)c(O)c1",
+        "COCOc1ccc(C(=O)[C@H]2[C@@H](c3c(OCOC)cc(-c4cc5ccc(OCOC)cc5o4)cc3OCOC)C=C(C)C[C@@H]2c2ccc(OCOC)cc2OC(C)=O)c(O)c1>>COCOc1ccc(C(=O)[C@H]2[C@@H](c3c(OCOC)cc(-c4cc5ccc(OCOC)cc5o4)cc3OCOC)C=C(C)C[C@@H]2c2ccc(OCOC)cc2O)c(O)c1",
+        "COCOc1ccc(C(=O)[C@H]2[C@@H](c3c(OCOC)cc(-c4cc5ccc(OCOC)cc5o4)cc3OCOC)C=C(C)C[C@@H]2c2ccc(OCOC)cc2O)c(O)c1>>COCOc1ccc(C(=O)C2C(c3c(OCOC)cc(-c4cc5ccc(OCOC)cc5o4)cc3OCOC)=CC3(C)C[C@H]2c2ccc(OCOC)cc2O3)c(O)c1",
+        "COCOc1ccc(C(=O)C2C(c3c(OCOC)cc(-c4cc5ccc(OCOC)cc5o4)cc3OCOC)=CC3(C)C[C@H]2c2ccc(OCOC)cc2O3)c(O)c1>>CC12C=C(c3c(O)cc(-c4cc5ccc(O)cc5o4)cc3O)C(C(=O)c3ccc(O)cc3O)[C@@H](C1)c1ccc(O)cc1O2"
+      ],
+      "target_label": "6"
+    },
+    {
+      "admission_authority": false,
+      "formal_benchmark_eligible": false,
+      "from_commercial_starting_materials_complete": false,
+      "full_article_route_coverage": true,
+      "molecule_smiles_sequence": [
+        "COC(=O)c1cc(O)c(I)c(O)c1",
+        "COCOc1cc(C(=O)OC)cc(OCOC)c1I",
+        "COCOc1cc(C=O)cc(OCOC)c1I",
+        "C#Cc1cc(OCOC)c(I)c(OCOC)c1",
+        "COCOc1cccc(O)c1",
+        "COCOc1ccc(I)c(O)c1",
+        "COCOc1ccc(I)c(OC(C)=O)c1",
+        "COCOc1ccc(C#Cc2cc(OCOC)c(I)c(OCOC)c2)c(OC(C)=O)c1",
+        "COCOc1ccc2cc(-c3cc(OCOC)c(I)c(OCOC)c3)oc2c1",
+        "C=CC(C)(C)O",
+        "C=C(C)/C=C/c1c(OCOC)cc(-c2cc3ccc(OCOC)cc3o2)cc1OCOC",
+        "COCOc1ccc(C=O)c(O)c1",
+        "COCOc1ccc(C(C)=O)c(O)c1",
+        "COCOc1ccc(/C=C/C(=O)c2ccc(OCOC)cc2O)c(O)c1",
+        "COCOc1ccc(C(=O)/C=C/c2ccc(OCOC)cc2OC(C)=O)c(O)c1",
+        "COCOc1ccc(C(=O)[C@H]2[C@@H](c3c(OCOC)cc(-c4cc5ccc(OCOC)cc5o4)cc3OCOC)C=C(C)C[C@@H]2c2ccc(OCOC)cc2OC(C)=O)c(O)c1",
+        "COCOc1ccc(C(=O)[C@@H]2[C@@H](c3ccc(OCOC)cc3OC(C)=O)CC(C)=C[C@H]2c2c(OCOC)cc(-c3cc4ccc(OCOC)cc4o3)cc2OCOC)c(O)c1",
+        "COCOc1ccc(C(=O)[C@H]2[C@@H](c3c(OCOC)cc(-c4cc5ccc(OCOC)cc5o4)cc3OCOC)C=C(C)C[C@@H]2c2ccc(OCOC)cc2O)c(O)c1",
+        "COCOc1ccc(C(=O)C2C(c3c(OCOC)cc(-c4cc5ccc(OCOC)cc5o4)cc3OCOC)=CC3(C)C[C@H]2c2ccc(OCOC)cc2O3)c(O)c1",
+        "CC12C=C(c3c(O)cc(-c4cc5ccc(O)cc5o4)cc3O)C(C(=O)c3ccc(O)cc3O)[C@@H](C1)c1ccc(O)cc1O2"
+      ],
+      "ordered_event_ids": [
+        "A01",
+        "A02",
+        "A03",
+        "B01",
+        "B02",
+        "C01",
+        "C02",
+        "C03",
+        "D01",
+        "D02",
+        "D03",
+        "F01",
+        "F03",
+        "F07"
+      ],
+      "ordered_molecule_labels": [
+        "S1",
+        "S2",
+        "S3",
+        "12",
+        "10",
+        "S4",
+        "11",
+        "13",
+        "14",
+        "2-methylbut-3-en-2-ol",
+        "9",
+        "15",
+        "16",
+        "8",
+        "17",
+        "18",
+        "19",
+        "7",
+        "21",
+        "6"
+      ],
+      "ordered_step_ids": [
+        "A01.1",
+        "A02.1",
+        "A03.1",
+        "B01.1",
+        "B02.1",
+        "C01.1",
+        "C02.1",
+        "C03.1",
+        "D01.1",
+        "D02.1",
+        "D03.1",
+        "F01.1",
+        "F03.1",
+        "F07.1"
+      ],
+      "route_id": "mongolicin C endo Pd acetate",
+      "route_type": "source_bound_successful_synthesis",
+      "split_group": "10.1021/acs.orglett.6c00418",
+      "start_label": "S1",
+      "start_labels": [
+        "S1",
+        "10",
+        "2-methylbut-3-en-2-ol",
+        "15",
+        "16"
+      ],
+      "step_reaction_smiles_sequence": [
+        "COC(=O)c1cc(O)c(I)c(O)c1>>COCOc1cc(C(=O)OC)cc(OCOC)c1I",
+        "COCOc1cc(C(=O)OC)cc(OCOC)c1I>>COCOc1cc(C=O)cc(OCOC)c1I",
+        "COCOc1cc(C=O)cc(OCOC)c1I>>C#Cc1cc(OCOC)c(I)c(OCOC)c1",
+        "COCOc1cccc(O)c1>>COCOc1ccc(I)c(O)c1",
+        "COCOc1ccc(I)c(O)c1>>COCOc1ccc(I)c(OC(C)=O)c1",
+        "C#Cc1cc(OCOC)c(I)c(OCOC)c1.COCOc1ccc(I)c(OC(C)=O)c1>>COCOc1ccc(C#Cc2cc(OCOC)c(I)c(OCOC)c2)c(OC(C)=O)c1",
+        "COCOc1ccc(C#Cc2cc(OCOC)c(I)c(OCOC)c2)c(OC(C)=O)c1>>COCOc1ccc2cc(-c3cc(OCOC)c(I)c(OCOC)c3)oc2c1",
+        "C=CC(C)(C)O.COCOc1ccc2cc(-c3cc(OCOC)c(I)c(OCOC)c3)oc2c1>>C=C(C)/C=C/c1c(OCOC)cc(-c2cc3ccc(OCOC)cc3o2)cc1OCOC",
+        "COCOc1ccc(C(C)=O)c(O)c1.COCOc1ccc(C=O)c(O)c1>>COCOc1ccc(/C=C/C(=O)c2ccc(OCOC)cc2O)c(O)c1",
+        "COCOc1ccc(/C=C/C(=O)c2ccc(OCOC)cc2O)c(O)c1>>COCOc1ccc(C(=O)/C=C/c2ccc(OCOC)cc2OC(C)=O)c(O)c1",
+        "C=C(C)/C=C/c1c(OCOC)cc(-c2cc3ccc(OCOC)cc3o2)cc1OCOC.COCOc1ccc(C(=O)/C=C/c2ccc(OCOC)cc2OC(C)=O)c(O)c1>>COCOc1ccc(C(=O)[C@@H]2[C@@H](c3ccc(OCOC)cc3OC(C)=O)CC(C)=C[C@H]2c2c(OCOC)cc(-c3cc4ccc(OCOC)cc4o3)cc2OCOC)c(O)c1.COCOc1ccc(C(=O)[C@H]2[C@@H](c3c(OCOC)cc(-c4cc5ccc(OCOC)cc5o4)cc3OCOC)C=C(C)C[C@@H]2c2ccc(OCOC)cc2OC(C)=O)c(O)c1",
+        "COCOc1ccc(C(=O)[C@H]2[C@@H](c3c(OCOC)cc(-c4cc5ccc(OCOC)cc5o4)cc3OCOC)C=C(C)C[C@@H]2c2ccc(OCOC)cc2OC(C)=O)c(O)c1>>COCOc1ccc(C(=O)[C@H]2[C@@H](c3c(OCOC)cc(-c4cc5ccc(OCOC)cc5o4)cc3OCOC)C=C(C)C[C@@H]2c2ccc(OCOC)cc2O)c(O)c1",
+        "COCOc1ccc(C(=O)[C@H]2[C@@H](c3c(OCOC)cc(-c4cc5ccc(OCOC)cc5o4)cc3OCOC)C=C(C)C[C@@H]2c2ccc(OCOC)cc2O)c(O)c1>>COCOc1ccc(C(=O)C2C(c3c(OCOC)cc(-c4cc5ccc(OCOC)cc5o4)cc3OCOC)=CC3(C)C[C@H]2c2ccc(OCOC)cc2O3)c(O)c1",
+        "COCOc1ccc(C(=O)C2C(c3c(OCOC)cc(-c4cc5ccc(OCOC)cc5o4)cc3OCOC)=CC3(C)C[C@H]2c2ccc(OCOC)cc2O3)c(O)c1>>CC12C=C(c3c(O)cc(-c4cc5ccc(O)cc5o4)cc3O)C(C(=O)c3ccc(O)cc3O)[C@@H](C1)c1ccc(O)cc1O2"
+      ],
+      "target_label": "6"
+    },
+    {
+      "admission_authority": false,
+      "formal_benchmark_eligible": false,
+      "from_commercial_starting_materials_complete": false,
+      "full_article_route_coverage": true,
+      "molecule_smiles_sequence": [
+        "COC(=O)c1cc(O)c(I)c(O)c1",
+        "COCOc1cc(C(=O)OC)cc(OCOC)c1I",
+        "COCOc1cc(C=O)cc(OCOC)c1I",
+        "C#Cc1cc(OCOC)c(I)c(OCOC)c1",
+        "COCOc1cccc(O)c1",
+        "COCOc1ccc(I)c(O)c1",
+        "COCOc1ccc(I)c(OC(C)=O)c1",
+        "COCOc1ccc(C#Cc2cc(OCOC)c(I)c(OCOC)c2)c(OC(C)=O)c1",
+        "COCOc1ccc2cc(-c3cc(OCOC)c(I)c(OCOC)c3)oc2c1",
+        "C=CC(C)(C)O",
+        "C=C(C)/C=C/c1c(OCOC)cc(-c2cc3ccc(OCOC)cc3o2)cc1OCOC",
+        "COCOc1ccc(C=O)c(O)c1",
+        "COCOc1ccc(C(C)=O)c(O)c1",
+        "COCOc1ccc(/C=C/C(=O)c2ccc(OCOC)cc2O)c(O)c1",
+        "COCOc1ccc(C(=O)/C=C/c2ccc(OCOC)cc2OC(C)=O)c(O)c1",
+        "COCOc1ccc(C(=O)[C@H]2[C@@H](c3c(OCOC)cc(-c4cc5ccc(OCOC)cc5o4)cc3OCOC)C=C(C)C[C@@H]2c2ccc(OCOC)cc2OC(C)=O)c(O)c1",
+        "COCOc1ccc(C(=O)[C@@H]2[C@@H](c3ccc(OCOC)cc3OC(C)=O)CC(C)=C[C@H]2c2c(OCOC)cc(-c3cc4ccc(OCOC)cc4o3)cc2OCOC)c(O)c1",
+        "COCOc1ccc(C(=O)[C@H]2[C@@H](c3c(OCOC)cc(-c4cc5ccc(OCOC)cc5o4)cc3OCOC)C=C(C)C[C@@H]2c2ccc(OCOC)cc2O)c(O)c1",
+        "COCOc1ccc(C(=O)C2C(c3c(OCOC)cc(-c4cc5ccc(OCOC)cc5o4)cc3OCOC)=CC3(C)C[C@H]2c2ccc(OCOC)cc2O3)c(O)c1",
+        "COCOc1ccc(C(=O)c2cc(C)ccc2-c2c(OCOC)cc(-c3cc4ccc(OCOC)cc4o3)cc2OCOC)c(O)c1",
+        "CC12C=C(c3c(O)cc(-c4cc5ccc(O)cc5o4)cc3O)C(C(=O)c3ccc(O)cc3O)[C@@H](C1)c1ccc(O)cc1O2"
+      ],
+      "ordered_event_ids": [
+        "A01",
+        "A02",
+        "A03",
+        "B01",
+        "B02",
+        "C01",
+        "C02",
+        "C03",
+        "D01",
+        "D02",
+        "D03",
+        "F01",
+        "F04",
+        "F07"
+      ],
+      "ordered_molecule_labels": [
+        "S1",
+        "S2",
+        "S3",
+        "12",
+        "10",
+        "S4",
+        "11",
+        "13",
+        "14",
+        "2-methylbut-3-en-2-ol",
+        "9",
+        "15",
+        "16",
+        "8",
+        "17",
+        "18",
+        "19",
+        "7",
+        "21",
+        "S8",
+        "6"
+      ],
+      "ordered_step_ids": [
+        "A01.1",
+        "A02.1",
+        "A03.1",
+        "B01.1",
+        "B02.1",
+        "C01.1",
+        "C02.1",
+        "C03.1",
+        "D01.1",
+        "D02.1",
+        "D03.1",
+        "F01.1",
+        "F04.1",
+        "F07.1"
+      ],
+      "route_id": "mongolicin C endo Pd TFA",
+      "route_type": "source_bound_successful_synthesis",
+      "split_group": "10.1021/acs.orglett.6c00418",
+      "start_label": "S1",
+      "start_labels": [
+        "S1",
+        "10",
+        "2-methylbut-3-en-2-ol",
+        "15",
+        "16"
+      ],
+      "step_reaction_smiles_sequence": [
+        "COC(=O)c1cc(O)c(I)c(O)c1>>COCOc1cc(C(=O)OC)cc(OCOC)c1I",
+        "COCOc1cc(C(=O)OC)cc(OCOC)c1I>>COCOc1cc(C=O)cc(OCOC)c1I",
+        "COCOc1cc(C=O)cc(OCOC)c1I>>C#Cc1cc(OCOC)c(I)c(OCOC)c1",
+        "COCOc1cccc(O)c1>>COCOc1ccc(I)c(O)c1",
+        "COCOc1ccc(I)c(O)c1>>COCOc1ccc(I)c(OC(C)=O)c1",
+        "C#Cc1cc(OCOC)c(I)c(OCOC)c1.COCOc1ccc(I)c(OC(C)=O)c1>>COCOc1ccc(C#Cc2cc(OCOC)c(I)c(OCOC)c2)c(OC(C)=O)c1",
+        "COCOc1ccc(C#Cc2cc(OCOC)c(I)c(OCOC)c2)c(OC(C)=O)c1>>COCOc1ccc2cc(-c3cc(OCOC)c(I)c(OCOC)c3)oc2c1",
+        "C=CC(C)(C)O.COCOc1ccc2cc(-c3cc(OCOC)c(I)c(OCOC)c3)oc2c1>>C=C(C)/C=C/c1c(OCOC)cc(-c2cc3ccc(OCOC)cc3o2)cc1OCOC",
+        "COCOc1ccc(C(C)=O)c(O)c1.COCOc1ccc(C=O)c(O)c1>>COCOc1ccc(/C=C/C(=O)c2ccc(OCOC)cc2O)c(O)c1",
+        "COCOc1ccc(/C=C/C(=O)c2ccc(OCOC)cc2O)c(O)c1>>COCOc1ccc(C(=O)/C=C/c2ccc(OCOC)cc2OC(C)=O)c(O)c1",
+        "C=C(C)/C=C/c1c(OCOC)cc(-c2cc3ccc(OCOC)cc3o2)cc1OCOC.COCOc1ccc(C(=O)/C=C/c2ccc(OCOC)cc2OC(C)=O)c(O)c1>>COCOc1ccc(C(=O)[C@@H]2[C@@H](c3ccc(OCOC)cc3OC(C)=O)CC(C)=C[C@H]2c2c(OCOC)cc(-c3cc4ccc(OCOC)cc4o3)cc2OCOC)c(O)c1.COCOc1ccc(C(=O)[C@H]2[C@@H](c3c(OCOC)cc(-c4cc5ccc(OCOC)cc5o4)cc3OCOC)C=C(C)C[C@@H]2c2ccc(OCOC)cc2OC(C)=O)c(O)c1",
+        "COCOc1ccc(C(=O)[C@H]2[C@@H](c3c(OCOC)cc(-c4cc5ccc(OCOC)cc5o4)cc3OCOC)C=C(C)C[C@@H]2c2ccc(OCOC)cc2OC(C)=O)c(O)c1>>COCOc1ccc(C(=O)[C@H]2[C@@H](c3c(OCOC)cc(-c4cc5ccc(OCOC)cc5o4)cc3OCOC)C=C(C)C[C@@H]2c2ccc(OCOC)cc2O)c(O)c1",
+        "COCOc1ccc(C(=O)[C@H]2[C@@H](c3c(OCOC)cc(-c4cc5ccc(OCOC)cc5o4)cc3OCOC)C=C(C)C[C@@H]2c2ccc(OCOC)cc2O)c(O)c1>>COCOc1ccc(C(=O)C2C(c3c(OCOC)cc(-c4cc5ccc(OCOC)cc5o4)cc3OCOC)=CC3(C)C[C@H]2c2ccc(OCOC)cc2O3)c(O)c1.COCOc1ccc(C(=O)c2cc(C)ccc2-c2c(OCOC)cc(-c3cc4ccc(OCOC)cc4o3)cc2OCOC)c(O)c1",
+        "COCOc1ccc(C(=O)C2C(c3c(OCOC)cc(-c4cc5ccc(OCOC)cc5o4)cc3OCOC)=CC3(C)C[C@H]2c2ccc(OCOC)cc2O3)c(O)c1>>CC12C=C(c3c(O)cc(-c4cc5ccc(O)cc5o4)cc3O)C(C(=O)c3ccc(O)cc3O)[C@@H](C1)c1ccc(O)cc1O2"
+      ],
+      "target_label": "6"
+    },
+    {
+      "admission_authority": false,
+      "formal_benchmark_eligible": false,
+      "from_commercial_starting_materials_complete": false,
+      "full_article_route_coverage": true,
+      "molecule_smiles_sequence": [
+        "COC(=O)c1cc(O)c(I)c(O)c1",
+        "COCOc1cc(C(=O)OC)cc(OCOC)c1I",
+        "COCOc1cc(C=O)cc(OCOC)c1I",
+        "C#Cc1cc(OCOC)c(I)c(OCOC)c1",
+        "COCOc1cccc(O)c1",
+        "COCOc1ccc(I)c(O)c1",
+        "COCOc1ccc(I)c(OC(C)=O)c1",
+        "COCOc1ccc(C#Cc2cc(OCOC)c(I)c(OCOC)c2)c(OC(C)=O)c1",
+        "COCOc1ccc2cc(-c3cc(OCOC)c(I)c(OCOC)c3)oc2c1",
+        "C=CC(C)(C)O",
+        "C=C(C)/C=C/c1c(OCOC)cc(-c2cc3ccc(OCOC)cc3o2)cc1OCOC",
+        "COCOc1ccc(C=O)c(O)c1",
+        "COCOc1ccc(C(C)=O)c(O)c1",
+        "COCOc1ccc(/C=C/C(=O)c2ccc(OCOC)cc2O)c(O)c1",
+        "COCOc1ccc(C(=O)/C=C/c2ccc(OCOC)cc2OC(C)=O)c(O)c1",
+        "COCOc1ccc(C(=O)[C@H]2[C@@H](c3c(OCOC)cc(-c4cc5ccc(OCOC)cc5o4)cc3OCOC)C=C(C)C[C@@H]2c2ccc(OCOC)cc2OC(C)=O)c(O)c1",
+        "COCOc1ccc(C(=O)[C@@H]2[C@@H](c3ccc(OCOC)cc3OC(C)=O)CC(C)=C[C@H]2c2c(OCOC)cc(-c3cc4ccc(OCOC)cc4o3)cc2OCOC)c(O)c1",
+        "COCOc1ccc(C(=O)[C@@H]2[C@@H](c3ccc(OCOC)cc3O)CC(C)=C[C@H]2c2c(OCOC)cc(-c3cc4ccc(OCOC)cc4o3)cc2OCOC)c(O)c1",
+        "COCOc1ccc(C(=O)C2C(c3c(OCOC)cc(-c4cc5ccc(OCOC)cc5o4)cc3OCOC)=CC3(C)C[C@H]2c2ccc(OCOC)cc2O3)c(O)c1",
+        "CC12C=C(c3c(O)cc(-c4cc5ccc(O)cc5o4)cc3O)C(C(=O)c3ccc(O)cc3O)[C@@H](C1)c1ccc(O)cc1O2"
+      ],
+      "ordered_event_ids": [
+        "A01",
+        "A02",
+        "A03",
+        "B01",
+        "B02",
+        "C01",
+        "C02",
+        "C03",
+        "D01",
+        "D02",
+        "D03",
+        "F02",
+        "F06",
+        "F07"
+      ],
+      "ordered_molecule_labels": [
+        "S1",
+        "S2",
+        "S3",
+        "12",
+        "10",
+        "S4",
+        "11",
+        "13",
+        "14",
+        "2-methylbut-3-en-2-ol",
+        "9",
+        "15",
+        "16",
+        "8",
+        "17",
+        "18",
+        "19",
+        "S7",
+        "21",
+        "6"
+      ],
+      "ordered_step_ids": [
+        "A01.1",
+        "A02.1",
+        "A03.1",
+        "B01.1",
+        "B02.1",
+        "C01.1",
+        "C02.1",
+        "C03.1",
+        "D01.1",
+        "D02.1",
+        "D03.1",
+        "F02.1",
+        "F06.1",
+        "F07.1"
+      ],
+      "route_id": "mongolicin C exo DDQ",
+      "route_type": "source_bound_successful_synthesis",
+      "split_group": "10.1021/acs.orglett.6c00418",
+      "start_label": "S1",
+      "start_labels": [
+        "S1",
+        "10",
+        "2-methylbut-3-en-2-ol",
+        "15",
+        "16"
+      ],
+      "step_reaction_smiles_sequence": [
+        "COC(=O)c1cc(O)c(I)c(O)c1>>COCOc1cc(C(=O)OC)cc(OCOC)c1I",
+        "COCOc1cc(C(=O)OC)cc(OCOC)c1I>>COCOc1cc(C=O)cc(OCOC)c1I",
+        "COCOc1cc(C=O)cc(OCOC)c1I>>C#Cc1cc(OCOC)c(I)c(OCOC)c1",
+        "COCOc1cccc(O)c1>>COCOc1ccc(I)c(O)c1",
+        "COCOc1ccc(I)c(O)c1>>COCOc1ccc(I)c(OC(C)=O)c1",
+        "C#Cc1cc(OCOC)c(I)c(OCOC)c1.COCOc1ccc(I)c(OC(C)=O)c1>>COCOc1ccc(C#Cc2cc(OCOC)c(I)c(OCOC)c2)c(OC(C)=O)c1",
+        "COCOc1ccc(C#Cc2cc(OCOC)c(I)c(OCOC)c2)c(OC(C)=O)c1>>COCOc1ccc2cc(-c3cc(OCOC)c(I)c(OCOC)c3)oc2c1",
+        "C=CC(C)(C)O.COCOc1ccc2cc(-c3cc(OCOC)c(I)c(OCOC)c3)oc2c1>>C=C(C)/C=C/c1c(OCOC)cc(-c2cc3ccc(OCOC)cc3o2)cc1OCOC",
+        "COCOc1ccc(C(C)=O)c(O)c1.COCOc1ccc(C=O)c(O)c1>>COCOc1ccc(/C=C/C(=O)c2ccc(OCOC)cc2O)c(O)c1",
+        "COCOc1ccc(/C=C/C(=O)c2ccc(OCOC)cc2O)c(O)c1>>COCOc1ccc(C(=O)/C=C/c2ccc(OCOC)cc2OC(C)=O)c(O)c1",
+        "C=C(C)/C=C/c1c(OCOC)cc(-c2cc3ccc(OCOC)cc3o2)cc1OCOC.COCOc1ccc(C(=O)/C=C/c2ccc(OCOC)cc2OC(C)=O)c(O)c1>>COCOc1ccc(C(=O)[C@@H]2[C@@H](c3ccc(OCOC)cc3OC(C)=O)CC(C)=C[C@H]2c2c(OCOC)cc(-c3cc4ccc(OCOC)cc4o3)cc2OCOC)c(O)c1.COCOc1ccc(C(=O)[C@H]2[C@@H](c3c(OCOC)cc(-c4cc5ccc(OCOC)cc5o4)cc3OCOC)C=C(C)C[C@@H]2c2ccc(OCOC)cc2OC(C)=O)c(O)c1",
+        "COCOc1ccc(C(=O)[C@@H]2[C@@H](c3ccc(OCOC)cc3OC(C)=O)CC(C)=C[C@H]2c2c(OCOC)cc(-c3cc4ccc(OCOC)cc4o3)cc2OCOC)c(O)c1>>COCOc1ccc(C(=O)[C@@H]2[C@@H](c3ccc(OCOC)cc3O)CC(C)=C[C@H]2c2c(OCOC)cc(-c3cc4ccc(OCOC)cc4o3)cc2OCOC)c(O)c1",
+        "COCOc1ccc(C(=O)[C@@H]2[C@@H](c3ccc(OCOC)cc3O)CC(C)=C[C@H]2c2c(OCOC)cc(-c3cc4ccc(OCOC)cc4o3)cc2OCOC)c(O)c1>>COCOc1ccc(C(=O)C2C(c3c(OCOC)cc(-c4cc5ccc(OCOC)cc5o4)cc3OCOC)=CC3(C)C[C@H]2c2ccc(OCOC)cc2O3)c(O)c1",
+        "COCOc1ccc(C(=O)C2C(c3c(OCOC)cc(-c4cc5ccc(OCOC)cc5o4)cc3OCOC)=CC3(C)C[C@H]2c2ccc(OCOC)cc2O3)c(O)c1>>CC12C=C(c3c(O)cc(-c4cc5ccc(O)cc5o4)cc3O)C(C(=O)c3ccc(O)cc3O)[C@@H](C1)c1ccc(O)cc1O2"
+      ],
+      "target_label": "6"
+    },
+    {
+      "admission_authority": false,
+      "formal_benchmark_eligible": false,
+      "from_commercial_starting_materials_complete": false,
+      "full_article_route_coverage": true,
+      "molecule_smiles_sequence": [
+        "COC(=O)c1cc(O)c(I)c(O)c1",
+        "COCOc1cc(C(=O)OC)cc(OCOC)c1I",
+        "COCOc1cc(C=O)cc(OCOC)c1I",
+        "C#Cc1cc(OCOC)c(I)c(OCOC)c1",
+        "COCOc1cccc(O)c1",
+        "COCOc1ccc(I)c(O)c1",
+        "COCOc1ccc(I)c(OC(C)=O)c1",
+        "COCOc1ccc(C#Cc2cc(OCOC)c(I)c(OCOC)c2)c(OC(C)=O)c1",
+        "COCOc1ccc2cc(-c3cc(OCOC)c(I)c(OCOC)c3)oc2c1",
+        "C=CC(C)(C)O",
+        "C=C(C)/C=C/c1c(OCOC)cc(-c2cc3ccc(OCOC)cc3o2)cc1OCOC",
+        "COCOc1ccc(C=O)c(O)c1",
+        "COCOc1ccc(C(C)=O)c(O)c1",
+        "COCOc1ccc(/C=C/C(=O)c2ccc(OCOC)cc2O)c(O)c1",
+        "COCOc1ccc(C(=O)/C=C/c2ccc(OCOC)cc2OC(C)=O)c(O)c1",
+        "COCOc1ccc(C(=O)[C@H]2[C@@H](c3c(OCOC)cc(-c4cc5ccc(OCOC)cc5o4)cc3OCOC)C=C(C)C[C@@H]2c2ccc(OCOC)cc2OC(C)=O)c(O)c1",
+        "COCOc1ccc(C(=O)[C@@H]2[C@@H](c3ccc(OCOC)cc3OC(C)=O)CC(C)=C[C@H]2c2c(OCOC)cc(-c3cc4ccc(OCOC)cc4o3)cc2OCOC)c(O)c1",
+        "COCOc1ccc(C(=O)[C@H]2[C@@H](c3c(OCOC)cc(-c4cc5ccc(OCOC)cc5o4)cc3OCOC)C=C(C)C[C@@H]2c2ccc(OCOC)cc2O)c(O)c1",
+        "COCOc1ccc(C(=O)C2C(c3c(OCOC)cc(-c4cc5ccc(OCOC)cc5o4)cc3OCOC)=CC3(C)C[C@H]2c2ccc(OCOC)cc2O3)c(O)c1",
+        "COCOc1ccc(C(=O)c2cc(C)ccc2-c2c(OCOC)cc(-c3cc4ccc(OCOC)cc4o3)cc2OCOC)c(O)c1"
+      ],
+      "ordered_event_ids": [
+        "A01",
+        "A02",
+        "A03",
+        "B01",
+        "B02",
+        "C01",
+        "C02",
+        "C03",
+        "D01",
+        "D02",
+        "D03",
+        "F01",
+        "F04"
+      ],
+      "ordered_molecule_labels": [
+        "S1",
+        "S2",
+        "S3",
+        "12",
+        "10",
+        "S4",
+        "11",
+        "13",
+        "14",
+        "2-methylbut-3-en-2-ol",
+        "9",
+        "15",
+        "16",
+        "8",
+        "17",
+        "18",
+        "19",
+        "7",
+        "21",
+        "S8"
+      ],
+      "ordered_step_ids": [
+        "A01.1",
+        "A02.1",
+        "A03.1",
+        "B01.1",
+        "B02.1",
+        "C01.1",
+        "C02.1",
+        "C03.1",
+        "D01.1",
+        "D02.1",
+        "D03.1",
+        "F01.1",
+        "F04.1"
+      ],
+      "route_id": "aromatization side product",
+      "route_type": "source_bound_control_branch",
+      "split_group": "10.1021/acs.orglett.6c00418",
+      "start_label": "S1",
+      "start_labels": [
+        "S1",
+        "10",
+        "2-methylbut-3-en-2-ol",
+        "15",
+        "16"
+      ],
+      "step_reaction_smiles_sequence": [
+        "COC(=O)c1cc(O)c(I)c(O)c1>>COCOc1cc(C(=O)OC)cc(OCOC)c1I",
+        "COCOc1cc(C(=O)OC)cc(OCOC)c1I>>COCOc1cc(C=O)cc(OCOC)c1I",
+        "COCOc1cc(C=O)cc(OCOC)c1I>>C#Cc1cc(OCOC)c(I)c(OCOC)c1",
+        "COCOc1cccc(O)c1>>COCOc1ccc(I)c(O)c1",
+        "COCOc1ccc(I)c(O)c1>>COCOc1ccc(I)c(OC(C)=O)c1",
+        "C#Cc1cc(OCOC)c(I)c(OCOC)c1.COCOc1ccc(I)c(OC(C)=O)c1>>COCOc1ccc(C#Cc2cc(OCOC)c(I)c(OCOC)c2)c(OC(C)=O)c1",
+        "COCOc1ccc(C#Cc2cc(OCOC)c(I)c(OCOC)c2)c(OC(C)=O)c1>>COCOc1ccc2cc(-c3cc(OCOC)c(I)c(OCOC)c3)oc2c1",
+        "C=CC(C)(C)O.COCOc1ccc2cc(-c3cc(OCOC)c(I)c(OCOC)c3)oc2c1>>C=C(C)/C=C/c1c(OCOC)cc(-c2cc3ccc(OCOC)cc3o2)cc1OCOC",
+        "COCOc1ccc(C(C)=O)c(O)c1.COCOc1ccc(C=O)c(O)c1>>COCOc1ccc(/C=C/C(=O)c2ccc(OCOC)cc2O)c(O)c1",
+        "COCOc1ccc(/C=C/C(=O)c2ccc(OCOC)cc2O)c(O)c1>>COCOc1ccc(C(=O)/C=C/c2ccc(OCOC)cc2OC(C)=O)c(O)c1",
+        "C=C(C)/C=C/c1c(OCOC)cc(-c2cc3ccc(OCOC)cc3o2)cc1OCOC.COCOc1ccc(C(=O)/C=C/c2ccc(OCOC)cc2OC(C)=O)c(O)c1>>COCOc1ccc(C(=O)[C@@H]2[C@@H](c3ccc(OCOC)cc3OC(C)=O)CC(C)=C[C@H]2c2c(OCOC)cc(-c3cc4ccc(OCOC)cc4o3)cc2OCOC)c(O)c1.COCOc1ccc(C(=O)[C@H]2[C@@H](c3c(OCOC)cc(-c4cc5ccc(OCOC)cc5o4)cc3OCOC)C=C(C)C[C@@H]2c2ccc(OCOC)cc2OC(C)=O)c(O)c1",
+        "COCOc1ccc(C(=O)[C@H]2[C@@H](c3c(OCOC)cc(-c4cc5ccc(OCOC)cc5o4)cc3OCOC)C=C(C)C[C@@H]2c2ccc(OCOC)cc2OC(C)=O)c(O)c1>>COCOc1ccc(C(=O)[C@H]2[C@@H](c3c(OCOC)cc(-c4cc5ccc(OCOC)cc5o4)cc3OCOC)C=C(C)C[C@@H]2c2ccc(OCOC)cc2O)c(O)c1",
+        "COCOc1ccc(C(=O)[C@H]2[C@@H](c3c(OCOC)cc(-c4cc5ccc(OCOC)cc5o4)cc3OCOC)C=C(C)C[C@@H]2c2ccc(OCOC)cc2O)c(O)c1>>COCOc1ccc(C(=O)C2C(c3c(OCOC)cc(-c4cc5ccc(OCOC)cc5o4)cc3OCOC)=CC3(C)C[C@H]2c2ccc(OCOC)cc2O3)c(O)c1.COCOc1ccc(C(=O)c2cc(C)ccc2-c2c(OCOC)cc(-c3cc4ccc(OCOC)cc4o3)cc2OCOC)c(O)c1"
+      ],
+      "target_label": "S8"
+    },
+    {
+      "admission_authority": false,
+      "formal_benchmark_eligible": false,
+      "from_commercial_starting_materials_complete": false,
+      "full_article_route_coverage": true,
+      "molecule_smiles_sequence": [
+        "COc1ccc2cc(-c3cc(OC)c(I)c(OC)c3)oc2c1",
+        "C=CC(C)(C)O",
+        "C=C(C)/C=C/c1c(OC)cc(-c2cc3ccc(OC)cc3o2)cc1OC"
+      ],
+      "ordered_event_ids": [
+        "M03"
+      ],
+      "ordered_molecule_labels": [
+        "S5",
+        "2-methylbut-3-en-2-ol",
+        "S6"
+      ],
+      "ordered_step_ids": [
+        "M03.1"
+      ],
+      "route_id": "model Heck",
+      "route_type": "source_bound_control_branch",
+      "split_group": "10.1021/acs.orglett.6c00418",
+      "start_label": "S5",
+      "start_labels": [
+        "S5",
+        "2-methylbut-3-en-2-ol"
+      ],
+      "step_reaction_smiles_sequence": [
+        "C=CC(C)(C)O.COc1ccc2cc(-c3cc(OC)c(I)c(OC)c3)oc2c1>>C=C(C)/C=C/c1c(OC)cc(-c2cc3ccc(OC)cc3o2)cc1OC"
+      ],
+      "target_label": "S6"
+    }
+  ],
+  "schema_version": "syninsight.route-extraction.v1",
+  "software": {
+    "rdkit": "2026.03.6"
+  },
+  "sources": [
+    {
+      "format": "pdf",
+      "page_count": 6,
+      "path": "papers/paper-94a995685012cf20/article/main.pdf",
+      "redistribute_source": false,
+      "role": "main_article",
+      "sha256": "6e0d4573235aea9ebb9014db50984f0476f53ca16168486e0d8eef0f83e7a6e6",
+      "source_id": "article"
+    },
+    {
+      "format": "pdf",
+      "page_count": 89,
+      "path": "papers/paper-94a995685012cf20/supporting_information/si-001.pdf",
+      "redistribute_source": false,
+      "role": "supporting_information",
+      "sha256": "084da53f87c1c89300817bc5728b545b67d111b080b3046377930d938dc09314",
+      "source_id": "si"
+    }
+  ],
+  "steps": [
+    {
+      "admission_authority": false,
+      "agents": [
+        "MOMCl",
+        "DIPEA"
+      ],
+      "event_id": "A01",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+      "product_labels": [
+        "S2"
+      ],
+      "product_specific_yields": [
+        {
+          "from_label": "S1",
+          "percent": 74,
+          "product_label": "S2",
+          "scope": "Combined two isolated fractions, 53% plus 21%"
+        }
+      ],
+      "reactant_labels": [
+        "S1"
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "acetone",
+        "DCM"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: A01",
+          "pages": [
+            2
+          ],
+          "sha256": "6e0d4573235aea9ebb9014db50984f0476f53ca16168486e0d8eef0f83e7a6e6",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: A01",
+          "pages": [
+            3
+          ],
+          "sha256": "084da53f87c1c89300817bc5728b545b67d111b080b3046377930d938dc09314",
+          "source_id": "si"
+        }
+      ],
+      "step_id": "A01.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "COC(=O)c1cc(O)c(I)c(O)c1>>COCOc1cc(C(=O)OC)cc(OCOC)c1I",
+      "yield_percent": 74
+    },
+    {
+      "admission_authority": false,
+      "agents": [
+        "DIBAL-H",
+        "PDC"
+      ],
+      "event_id": "A02",
+      "experimental_stage_count": 2,
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+      "operation_stages": [
+        {
+          "operation": "ester reduction"
+        },
+        {
+          "operation": "alcohol oxidation"
+        }
+      ],
+      "product_labels": [
+        "S3"
+      ],
+      "product_specific_yields": [
+        {
+          "from_label": "S2",
+          "percent": 91,
+          "product_label": "S3",
+          "scope": "Two-step yield"
+        }
+      ],
+      "reactant_labels": [
+        "S2"
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "DCM"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: A02",
+          "pages": [
+            2
+          ],
+          "sha256": "6e0d4573235aea9ebb9014db50984f0476f53ca16168486e0d8eef0f83e7a6e6",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: A02",
+          "pages": [
+            3,
+            4
+          ],
+          "sha256": "084da53f87c1c89300817bc5728b545b67d111b080b3046377930d938dc09314",
+          "source_id": "si"
+        }
+      ],
+      "step_id": "A02.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "COCOc1cc(C(=O)OC)cc(OCOC)c1I>>COCOc1cc(C=O)cc(OCOC)c1I",
+      "yield_percent": 91
+    },
+    {
+      "admission_authority": false,
+      "agents": [
+        "Bestmann-Ohira reagent",
+        "K2CO3"
+      ],
+      "event_id": "A03",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+      "product_labels": [
+        "12"
+      ],
+      "product_specific_yields": [
+        {
+          "from_label": "S3",
+          "percent": 88,
+          "product_label": "12",
+          "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+        }
+      ],
+      "reactant_labels": [
+        "S3"
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "MeOH"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: A03",
+          "pages": [
+            2
+          ],
+          "sha256": "6e0d4573235aea9ebb9014db50984f0476f53ca16168486e0d8eef0f83e7a6e6",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: A03",
+          "pages": [
+            4
+          ],
+          "sha256": "084da53f87c1c89300817bc5728b545b67d111b080b3046377930d938dc09314",
+          "source_id": "si"
+        }
+      ],
+      "step_id": "A03.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "COCOc1cc(C=O)cc(OCOC)c1I>>C#Cc1cc(OCOC)c(I)c(OCOC)c1",
+      "yield_percent": 88
+    },
+    {
+      "admission_authority": false,
+      "agents": [
+        "I2",
+        "silver trifluoroacetate"
+      ],
+      "event_id": "B01",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+      "product_labels": [
+        "S4"
+      ],
+      "product_specific_yields": [
+        {
+          "from_label": "10",
+          "percent": 58,
+          "product_label": "S4",
+          "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+        }
+      ],
+      "reactant_labels": [
+        "10"
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "CHCl3"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: B01",
+          "pages": [
+            2
+          ],
+          "sha256": "6e0d4573235aea9ebb9014db50984f0476f53ca16168486e0d8eef0f83e7a6e6",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: B01",
+          "pages": [
+            5
+          ],
+          "sha256": "084da53f87c1c89300817bc5728b545b67d111b080b3046377930d938dc09314",
+          "source_id": "si"
+        }
+      ],
+      "step_id": "B01.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "COCOc1cccc(O)c1>>COCOc1ccc(I)c(O)c1",
+      "yield_percent": 58
+    },
+    {
+      "admission_authority": false,
+      "agents": [
+        "Ac2O",
+        "Et3N"
+      ],
+      "event_id": "B02",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+      "product_labels": [
+        "11"
+      ],
+      "product_specific_yields": [
+        {
+          "from_label": "S4",
+          "percent": 99,
+          "product_label": "11",
+          "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+        }
+      ],
+      "reactant_labels": [
+        "S4"
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "Et2O"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: B02",
+          "pages": [
+            2
+          ],
+          "sha256": "6e0d4573235aea9ebb9014db50984f0476f53ca16168486e0d8eef0f83e7a6e6",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: B02",
+          "pages": [
+            5,
+            6
+          ],
+          "sha256": "084da53f87c1c89300817bc5728b545b67d111b080b3046377930d938dc09314",
+          "source_id": "si"
+        }
+      ],
+      "step_id": "B02.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "COCOc1ccc(I)c(O)c1>>COCOc1ccc(I)c(OC(C)=O)c1",
+      "yield_percent": 99
+    },
+    {
+      "admission_authority": false,
+      "agents": [
+        "Pd(PPh3)4",
+        "CuI",
+        "Cs2CO3"
+      ],
+      "event_id": "C01",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+      "product_labels": [
+        "13"
+      ],
+      "product_specific_yields": [
+        {
+          "from_label": "11",
+          "percent": 85,
+          "product_label": "13",
+          "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+        }
+      ],
+      "reactant_labels": [
+        "11",
+        "12"
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "DMF"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: C01",
+          "pages": [
+            2
+          ],
+          "sha256": "6e0d4573235aea9ebb9014db50984f0476f53ca16168486e0d8eef0f83e7a6e6",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: C01",
+          "pages": [
+            6
+          ],
+          "sha256": "084da53f87c1c89300817bc5728b545b67d111b080b3046377930d938dc09314",
+          "source_id": "si"
+        }
+      ],
+      "step_id": "C01.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "C#Cc1cc(OCOC)c(I)c(OCOC)c1.COCOc1ccc(I)c(OC(C)=O)c1>>COCOc1ccc(C#Cc2cc(OCOC)c(I)c(OCOC)c2)c(OC(C)=O)c1",
+      "yield_percent": 85
+    },
+    {
+      "admission_authority": false,
+      "agents": [
+        "K2CO3",
+        "TBAF trihydrate"
+      ],
+      "event_id": "C02",
+      "experimental_stage_count": 2,
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+      "operation_stages": [
+        {
+          "operation": "deacetylation"
+        },
+        {
+          "operation": "benzofuran cyclization"
+        }
+      ],
+      "product_labels": [
+        "14"
+      ],
+      "product_specific_yields": [
+        {
+          "from_label": "13",
+          "percent": 75,
+          "product_label": "14",
+          "scope": "Two-step yield"
+        }
+      ],
+      "reactant_labels": [
+        "13"
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "MeOH",
+        "THF"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: C02",
+          "pages": [
+            2
+          ],
+          "sha256": "6e0d4573235aea9ebb9014db50984f0476f53ca16168486e0d8eef0f83e7a6e6",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: C02",
+          "pages": [
+            7
+          ],
+          "sha256": "084da53f87c1c89300817bc5728b545b67d111b080b3046377930d938dc09314",
+          "source_id": "si"
+        }
+      ],
+      "step_id": "C02.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "COCOc1ccc(C#Cc2cc(OCOC)c(I)c(OCOC)c2)c(OC(C)=O)c1>>COCOc1ccc2cc(-c3cc(OCOC)c(I)c(OCOC)c3)oc2c1",
+      "yield_percent": 75
+    },
+    {
+      "admission_authority": false,
+      "agents": [
+        "Pd2(dba)3",
+        "tri(o-tolyl)phosphine",
+        "DIPEA"
+      ],
+      "event_id": "C03",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+      "product_labels": [
+        "9"
+      ],
+      "product_specific_yields": [
+        {
+          "from_label": "14",
+          "percent": 72,
+          "product_label": "9",
+          "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+        }
+      ],
+      "reactant_labels": [
+        "14",
+        "2-methylbut-3-en-2-ol"
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "DMF"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: C03",
+          "pages": [
+            2
+          ],
+          "sha256": "6e0d4573235aea9ebb9014db50984f0476f53ca16168486e0d8eef0f83e7a6e6",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: C03",
+          "pages": [
+            8,
+            9
+          ],
+          "sha256": "084da53f87c1c89300817bc5728b545b67d111b080b3046377930d938dc09314",
+          "source_id": "si"
+        }
+      ],
+      "step_id": "C03.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "C=CC(C)(C)O.COCOc1ccc2cc(-c3cc(OCOC)c(I)c(OCOC)c3)oc2c1>>C=C(C)/C=C/c1c(OCOC)cc(-c2cc3ccc(OCOC)cc3o2)cc1OCOC",
+      "yield_percent": 72
+    },
+    {
+      "admission_authority": false,
+      "agents": [
+        "Pd(OAc)2",
+        "tri(o-tolyl)phosphine",
+        "DIPEA"
+      ],
+      "event_id": "M01",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+      "product_labels": [
+        "S6"
+      ],
+      "product_specific_yields": [
+        {
+          "from_label": "S5",
+          "percent": 43,
+          "product_label": "S6",
+          "scope": "Independent model optimization experiment"
+        }
+      ],
+      "reactant_labels": [
+        "S5",
+        "2-methylbut-3-en-2-ol"
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "DMF"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: M01",
+          "pages": [
+            2
+          ],
+          "sha256": "6e0d4573235aea9ebb9014db50984f0476f53ca16168486e0d8eef0f83e7a6e6",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: M01",
+          "pages": [
+            8
+          ],
+          "sha256": "084da53f87c1c89300817bc5728b545b67d111b080b3046377930d938dc09314",
+          "source_id": "si"
+        }
+      ],
+      "step_id": "M01.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "C=CC(C)(C)O.COc1ccc2cc(-c3cc(OC)c(I)c(OC)c3)oc2c1>>C=C(C)/C=C/c1c(OC)cc(-c2cc3ccc(OC)cc3o2)cc1OC",
+      "yield_percent": 43
+    },
+    {
+      "admission_authority": false,
+      "agents": [
+        "Pd2(dba)3",
+        "tri(o-tolyl)phosphine",
+        "Et3N"
+      ],
+      "event_id": "M02",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+      "product_labels": [
+        "S6"
+      ],
+      "product_specific_yields": [
+        {
+          "from_label": "S5",
+          "percent": 23,
+          "product_label": "S6",
+          "scope": "Independent model optimization experiment"
+        }
+      ],
+      "reactant_labels": [
+        "S5",
+        "2-methylbut-3-en-2-ol"
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "DMF"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: M02",
+          "pages": [
+            2
+          ],
+          "sha256": "6e0d4573235aea9ebb9014db50984f0476f53ca16168486e0d8eef0f83e7a6e6",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: M02",
+          "pages": [
+            8
+          ],
+          "sha256": "084da53f87c1c89300817bc5728b545b67d111b080b3046377930d938dc09314",
+          "source_id": "si"
+        }
+      ],
+      "step_id": "M02.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "C=CC(C)(C)O.COc1ccc2cc(-c3cc(OC)c(I)c(OC)c3)oc2c1>>C=C(C)/C=C/c1c(OC)cc(-c2cc3ccc(OC)cc3o2)cc1OC",
+      "yield_percent": 23
+    },
+    {
+      "admission_authority": false,
+      "agents": [
+        "Pd2(dba)3",
+        "tri(o-tolyl)phosphine",
+        "DIPEA"
+      ],
+      "event_id": "M03",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+      "product_labels": [
+        "S6"
+      ],
+      "product_specific_yields": [
+        {
+          "from_label": "S5",
+          "percent": 62,
+          "product_label": "S6",
+          "scope": "Independent model optimization experiment"
+        }
+      ],
+      "reactant_labels": [
+        "S5",
+        "2-methylbut-3-en-2-ol"
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "DMF"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: M03",
+          "pages": [
+            2
+          ],
+          "sha256": "6e0d4573235aea9ebb9014db50984f0476f53ca16168486e0d8eef0f83e7a6e6",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: M03",
+          "pages": [
+            8
+          ],
+          "sha256": "084da53f87c1c89300817bc5728b545b67d111b080b3046377930d938dc09314",
+          "source_id": "si"
+        }
+      ],
+      "step_id": "M03.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "C=CC(C)(C)O.COc1ccc2cc(-c3cc(OC)c(I)c(OC)c3)oc2c1>>C=C(C)/C=C/c1c(OC)cc(-c2cc3ccc(OC)cc3o2)cc1OC",
+      "yield_percent": 62
+    },
+    {
+      "admission_authority": false,
+      "agents": [
+        "KOH"
+      ],
+      "event_id": "D01",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+      "product_labels": [
+        "8"
+      ],
+      "product_specific_yields": [
+        {
+          "from_label": "15",
+          "percent": 82,
+          "product_label": "8",
+          "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+        }
+      ],
+      "reactant_labels": [
+        "15",
+        "16"
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "EtOH",
+        "water"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: D01",
+          "pages": [
+            3
+          ],
+          "sha256": "6e0d4573235aea9ebb9014db50984f0476f53ca16168486e0d8eef0f83e7a6e6",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: D01",
+          "pages": [
+            9
+          ],
+          "sha256": "084da53f87c1c89300817bc5728b545b67d111b080b3046377930d938dc09314",
+          "source_id": "si"
+        }
+      ],
+      "step_id": "D01.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "COCOc1ccc(C(C)=O)c(O)c1.COCOc1ccc(C=O)c(O)c1>>COCOc1ccc(/C=C/C(=O)c2ccc(OCOC)cc2O)c(O)c1",
+      "yield_percent": 82
+    },
+    {
+      "admission_authority": false,
+      "agents": [
+        "Ac2O",
+        "pyridine"
+      ],
+      "event_id": "D02",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+      "product_labels": [
+        "17"
+      ],
+      "product_specific_yields": [
+        {
+          "from_label": "8",
+          "percent": 77,
+          "product_label": "17",
+          "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+        }
+      ],
+      "reactant_labels": [
+        "8"
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "DCM"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: D02",
+          "pages": [
+            3
+          ],
+          "sha256": "6e0d4573235aea9ebb9014db50984f0476f53ca16168486e0d8eef0f83e7a6e6",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: D02",
+          "pages": [
+            10
+          ],
+          "sha256": "084da53f87c1c89300817bc5728b545b67d111b080b3046377930d938dc09314",
+          "source_id": "si"
+        }
+      ],
+      "step_id": "D02.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "COCOc1ccc(/C=C/C(=O)c2ccc(OCOC)cc2O)c(O)c1>>COCOc1ccc(C(=O)/C=C/c2ccc(OCOC)cc2OC(C)=O)c(O)c1",
+      "yield_percent": 77
+    },
+    {
+      "admission_authority": false,
+      "agents": [],
+      "event_id": "D03",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+      "product_labels": [
+        "18",
+        "19"
+      ],
+      "product_specific_yields": [
+        {
+          "from_label": "9",
+          "percent": 33,
+          "product_label": "18",
+          "scope": "Separately isolated endo/exo fractions, total 60%; racemic"
+        },
+        {
+          "from_label": "9",
+          "percent": 27,
+          "product_label": "19",
+          "scope": "Separately isolated endo/exo fractions, total 60%; racemic"
+        }
+      ],
+      "reactant_labels": [
+        "9",
+        "17"
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "toluene"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: D03",
+          "pages": [
+            3
+          ],
+          "sha256": "6e0d4573235aea9ebb9014db50984f0476f53ca16168486e0d8eef0f83e7a6e6",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: D03",
+          "pages": [
+            11,
+            12
+          ],
+          "sha256": "084da53f87c1c89300817bc5728b545b67d111b080b3046377930d938dc09314",
+          "source_id": "si"
+        }
+      ],
+      "step_id": "D03.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "C=C(C)/C=C/c1c(OCOC)cc(-c2cc3ccc(OCOC)cc3o2)cc1OCOC.COCOc1ccc(C(=O)/C=C/c2ccc(OCOC)cc2OC(C)=O)c(O)c1>>COCOc1ccc(C(=O)[C@@H]2[C@@H](c3ccc(OCOC)cc3OC(C)=O)CC(C)=C[C@H]2c2c(OCOC)cc(-c3cc4ccc(OCOC)cc4o3)cc2OCOC)c(O)c1.COCOc1ccc(C(=O)[C@H]2[C@@H](c3c(OCOC)cc(-c4cc5ccc(OCOC)cc5o4)cc3OCOC)C=C(C)C[C@@H]2c2ccc(OCOC)cc2OC(C)=O)c(O)c1",
+      "yield_percent": null
+    },
+    {
+      "admission_authority": false,
+      "agents": [
+        "H2SO4"
+      ],
+      "event_id": "E01",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+      "product_labels": [
+        "4",
+        "5"
+      ],
+      "product_specific_yields": [
+        {
+          "from_label": "18",
+          "percent": 47,
+          "product_label": "4",
+          "scope": "4 isolated 47%; 5 trace detected, not isolated"
+        }
+      ],
+      "reactant_labels": [
+        "18"
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "EtOH"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: E01",
+          "pages": [
+            3
+          ],
+          "sha256": "6e0d4573235aea9ebb9014db50984f0476f53ca16168486e0d8eef0f83e7a6e6",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: E01",
+          "pages": [
+            13
+          ],
+          "sha256": "084da53f87c1c89300817bc5728b545b67d111b080b3046377930d938dc09314",
+          "source_id": "si"
+        }
+      ],
+      "step_id": "E01.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "COCOc1ccc(C(=O)[C@H]2[C@@H](c3c(OCOC)cc(-c4cc5ccc(OCOC)cc5o4)cc3OCOC)C=C(C)C[C@@H]2c2ccc(OCOC)cc2OC(C)=O)c(O)c1>>CC12C[C@H](c3ccc(O)cc3O)[C@@H](C(=O)c3ccc(O)cc3O)[C@H](C1)c1c(O)cc(-c3cc4ccc(O)cc4o3)cc1O2.CC1=C[C@@H]2c3c(O)cc(-c4cc5ccc(O)cc5o4)cc3O[C@]3(c4ccc(O)cc4O)Oc4cc(O)ccc4[C@@H](C1)[C@H]23",
+      "yield_percent": 47
+    },
+    {
+      "admission_authority": false,
+      "agents": [
+        "HCl"
+      ],
+      "event_id": "E02",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+      "product_labels": [
+        "4",
+        "5"
+      ],
+      "product_specific_yields": [
+        {
+          "from_label": "18",
+          "percent": 17,
+          "product_label": "4",
+          "scope": "Separately HPLC purified products"
+        },
+        {
+          "from_label": "18",
+          "percent": 29,
+          "product_label": "5",
+          "scope": "Separately HPLC purified products"
+        }
+      ],
+      "reactant_labels": [
+        "18"
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "MeOH"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: E02",
+          "pages": [
+            3
+          ],
+          "sha256": "6e0d4573235aea9ebb9014db50984f0476f53ca16168486e0d8eef0f83e7a6e6",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: E02",
+          "pages": [
+            14,
+            15,
+            16
+          ],
+          "sha256": "084da53f87c1c89300817bc5728b545b67d111b080b3046377930d938dc09314",
+          "source_id": "si"
+        }
+      ],
+      "step_id": "E02.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "COCOc1ccc(C(=O)[C@H]2[C@@H](c3c(OCOC)cc(-c4cc5ccc(OCOC)cc5o4)cc3OCOC)C=C(C)C[C@@H]2c2ccc(OCOC)cc2OC(C)=O)c(O)c1>>CC12C[C@H](c3ccc(O)cc3O)[C@@H](C(=O)c3ccc(O)cc3O)[C@H](C1)c1c(O)cc(-c3cc4ccc(O)cc4o3)cc1O2.CC1=C[C@@H]2c3c(O)cc(-c4cc5ccc(O)cc5o4)cc3O[C@]3(c4ccc(O)cc4O)Oc4cc(O)ccc4[C@@H](C1)[C@H]23",
+      "yield_percent": null
+    },
+    {
+      "admission_authority": false,
+      "agents": [
+        "HCl"
+      ],
+      "event_id": "E03",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+      "product_labels": [
+        "20"
+      ],
+      "product_specific_yields": [
+        {
+          "from_label": "19",
+          "percent": 16,
+          "product_label": "20",
+          "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+        }
+      ],
+      "reactant_labels": [
+        "19"
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "MeOH"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: E03",
+          "pages": [
+            3
+          ],
+          "sha256": "6e0d4573235aea9ebb9014db50984f0476f53ca16168486e0d8eef0f83e7a6e6",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: E03",
+          "pages": [
+            17
+          ],
+          "sha256": "084da53f87c1c89300817bc5728b545b67d111b080b3046377930d938dc09314",
+          "source_id": "si"
+        }
+      ],
+      "step_id": "E03.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "COCOc1ccc(C(=O)[C@@H]2[C@@H](c3ccc(OCOC)cc3OC(C)=O)CC(C)=C[C@H]2c2c(OCOC)cc(-c3cc4ccc(OCOC)cc4o3)cc2OCOC)c(O)c1>>CC1=C[C@@H](c2c(O)cc(-c3cc4ccc(O)cc4o3)cc2O)[C@H](C(=O)c2ccc(O)cc2O)[C@@H](c2ccc(O)cc2O)C1",
+      "yield_percent": 16
+    },
+    {
+      "admission_authority": false,
+      "agents": [
+        "K2CO3"
+      ],
+      "event_id": "F01",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+      "product_labels": [
+        "7"
+      ],
+      "product_specific_yields": [
+        {
+          "from_label": "18",
+          "percent": 94,
+          "product_label": "7",
+          "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+        }
+      ],
+      "reactant_labels": [
+        "18"
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "MeOH"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: F01",
+          "pages": [
+            4
+          ],
+          "sha256": "6e0d4573235aea9ebb9014db50984f0476f53ca16168486e0d8eef0f83e7a6e6",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: F01",
+          "pages": [
+            18
+          ],
+          "sha256": "084da53f87c1c89300817bc5728b545b67d111b080b3046377930d938dc09314",
+          "source_id": "si"
+        }
+      ],
+      "step_id": "F01.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "COCOc1ccc(C(=O)[C@H]2[C@@H](c3c(OCOC)cc(-c4cc5ccc(OCOC)cc5o4)cc3OCOC)C=C(C)C[C@@H]2c2ccc(OCOC)cc2OC(C)=O)c(O)c1>>COCOc1ccc(C(=O)[C@H]2[C@@H](c3c(OCOC)cc(-c4cc5ccc(OCOC)cc5o4)cc3OCOC)C=C(C)C[C@@H]2c2ccc(OCOC)cc2O)c(O)c1",
+      "yield_percent": 94
+    },
+    {
+      "admission_authority": false,
+      "agents": [
+        "K2CO3"
+      ],
+      "event_id": "F02",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+      "product_labels": [
+        "S7"
+      ],
+      "product_specific_yields": [
+        {
+          "from_label": "19",
+          "percent": 90,
+          "product_label": "S7",
+          "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+        }
+      ],
+      "reactant_labels": [
+        "19"
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "MeOH"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: F02",
+          "pages": [
+            4
+          ],
+          "sha256": "6e0d4573235aea9ebb9014db50984f0476f53ca16168486e0d8eef0f83e7a6e6",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: F02",
+          "pages": [
+            19
+          ],
+          "sha256": "084da53f87c1c89300817bc5728b545b67d111b080b3046377930d938dc09314",
+          "source_id": "si"
+        }
+      ],
+      "step_id": "F02.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "COCOc1ccc(C(=O)[C@@H]2[C@@H](c3ccc(OCOC)cc3OC(C)=O)CC(C)=C[C@H]2c2c(OCOC)cc(-c3cc4ccc(OCOC)cc4o3)cc2OCOC)c(O)c1>>COCOc1ccc(C(=O)[C@@H]2[C@@H](c3ccc(OCOC)cc3O)CC(C)=C[C@H]2c2c(OCOC)cc(-c3cc4ccc(OCOC)cc4o3)cc2OCOC)c(O)c1",
+      "yield_percent": 90
+    },
+    {
+      "admission_authority": false,
+      "agents": [
+        "Pd(OAc)2",
+        "pyridine",
+        "O2"
+      ],
+      "event_id": "F03",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+      "product_labels": [
+        "21"
+      ],
+      "product_specific_yields": [
+        {
+          "from_label": "7",
+          "percent": 23,
+          "product_label": "21",
+          "scope": "No Na2CO3 experiment; distinct from Pd(TFA)2 case"
+        }
+      ],
+      "reactant_labels": [
+        "7"
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "toluene"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: F03",
+          "pages": [
+            4
+          ],
+          "sha256": "6e0d4573235aea9ebb9014db50984f0476f53ca16168486e0d8eef0f83e7a6e6",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: F03",
+          "pages": [
+            20
+          ],
+          "sha256": "084da53f87c1c89300817bc5728b545b67d111b080b3046377930d938dc09314",
+          "source_id": "si"
+        }
+      ],
+      "step_id": "F03.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "COCOc1ccc(C(=O)[C@H]2[C@@H](c3c(OCOC)cc(-c4cc5ccc(OCOC)cc5o4)cc3OCOC)C=C(C)C[C@@H]2c2ccc(OCOC)cc2O)c(O)c1>>COCOc1ccc(C(=O)C2C(c3c(OCOC)cc(-c4cc5ccc(OCOC)cc5o4)cc3OCOC)=CC3(C)C[C@H]2c2ccc(OCOC)cc2O3)c(O)c1",
+      "yield_percent": 23
+    },
+    {
+      "admission_authority": false,
+      "agents": [
+        "Pd(TFA)2",
+        "Na2CO3",
+        "pyridine",
+        "O2"
+      ],
+      "event_id": "F04",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+      "product_labels": [
+        "21",
+        "S8"
+      ],
+      "product_specific_yields": [
+        {
+          "from_label": "7",
+          "percent": 22,
+          "product_label": "21",
+          "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+        },
+        {
+          "from_label": "7",
+          "percent": 20,
+          "product_label": "S8",
+          "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+        }
+      ],
+      "reactant_labels": [
+        "7"
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "toluene"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: F04",
+          "pages": [
+            4
+          ],
+          "sha256": "6e0d4573235aea9ebb9014db50984f0476f53ca16168486e0d8eef0f83e7a6e6",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: F04",
+          "pages": [
+            20,
+            21
+          ],
+          "sha256": "084da53f87c1c89300817bc5728b545b67d111b080b3046377930d938dc09314",
+          "source_id": "si"
+        }
+      ],
+      "step_id": "F04.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "COCOc1ccc(C(=O)[C@H]2[C@@H](c3c(OCOC)cc(-c4cc5ccc(OCOC)cc5o4)cc3OCOC)C=C(C)C[C@@H]2c2ccc(OCOC)cc2O)c(O)c1>>COCOc1ccc(C(=O)C2C(c3c(OCOC)cc(-c4cc5ccc(OCOC)cc5o4)cc3OCOC)=CC3(C)C[C@H]2c2ccc(OCOC)cc2O3)c(O)c1.COCOc1ccc(C(=O)c2cc(C)ccc2-c2c(OCOC)cc(-c3cc4ccc(OCOC)cc4o3)cc2OCOC)c(O)c1",
+      "yield_percent": null
+    },
+    {
+      "admission_authority": false,
+      "agents": [
+        "DDQ"
+      ],
+      "event_id": "F05",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+      "product_labels": [
+        "21"
+      ],
+      "product_specific_yields": [
+        {
+          "from_label": "7",
+          "percent": 49,
+          "product_label": "21",
+          "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+        }
+      ],
+      "reactant_labels": [
+        "7"
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "DCM"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: F05",
+          "pages": [
+            4
+          ],
+          "sha256": "6e0d4573235aea9ebb9014db50984f0476f53ca16168486e0d8eef0f83e7a6e6",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: F05",
+          "pages": [
+            22
+          ],
+          "sha256": "084da53f87c1c89300817bc5728b545b67d111b080b3046377930d938dc09314",
+          "source_id": "si"
+        }
+      ],
+      "step_id": "F05.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "COCOc1ccc(C(=O)[C@H]2[C@@H](c3c(OCOC)cc(-c4cc5ccc(OCOC)cc5o4)cc3OCOC)C=C(C)C[C@@H]2c2ccc(OCOC)cc2O)c(O)c1>>COCOc1ccc(C(=O)C2C(c3c(OCOC)cc(-c4cc5ccc(OCOC)cc5o4)cc3OCOC)=CC3(C)C[C@H]2c2ccc(OCOC)cc2O3)c(O)c1",
+      "yield_percent": 49
+    },
+    {
+      "admission_authority": false,
+      "agents": [
+        "DDQ"
+      ],
+      "event_id": "F06",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+      "product_labels": [
+        "21"
+      ],
+      "product_specific_yields": [
+        {
+          "from_label": "S7",
+          "percent": 10,
+          "product_label": "21",
+          "scope": "10% isolated from S7; main 9% over deacetylation plus oxidation"
+        }
+      ],
+      "reactant_labels": [
+        "S7"
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "DCM"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: F06",
+          "pages": [
+            4
+          ],
+          "sha256": "6e0d4573235aea9ebb9014db50984f0476f53ca16168486e0d8eef0f83e7a6e6",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: F06",
+          "pages": [
+            22
+          ],
+          "sha256": "084da53f87c1c89300817bc5728b545b67d111b080b3046377930d938dc09314",
+          "source_id": "si"
+        }
+      ],
+      "step_id": "F06.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "COCOc1ccc(C(=O)[C@@H]2[C@@H](c3ccc(OCOC)cc3O)CC(C)=C[C@H]2c2c(OCOC)cc(-c3cc4ccc(OCOC)cc4o3)cc2OCOC)c(O)c1>>COCOc1ccc(C(=O)C2C(c3c(OCOC)cc(-c4cc5ccc(OCOC)cc5o4)cc3OCOC)=CC3(C)C[C@H]2c2ccc(OCOC)cc2O3)c(O)c1",
+      "yield_percent": 10
+    },
+    {
+      "admission_authority": false,
+      "agents": [
+        "HCl"
+      ],
+      "event_id": "F07",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+      "product_labels": [
+        "6"
+      ],
+      "product_specific_yields": [
+        {
+          "from_label": "21",
+          "percent": 53,
+          "product_label": "6",
+          "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+        }
+      ],
+      "reactant_labels": [
+        "21"
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "MeOH"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: F07",
+          "pages": [
+            4
+          ],
+          "sha256": "6e0d4573235aea9ebb9014db50984f0476f53ca16168486e0d8eef0f83e7a6e6",
+          "source_id": "article"
+        },
+        {
+          "locator": "Compound drawing and associated NMR spectrum: F07",
+          "pages": [
+            23
+          ],
+          "sha256": "084da53f87c1c89300817bc5728b545b67d111b080b3046377930d938dc09314",
+          "source_id": "si"
+        }
+      ],
+      "step_id": "F07.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "COCOc1ccc(C(=O)C2C(c3c(OCOC)cc(-c4cc5ccc(OCOC)cc5o4)cc3OCOC)=CC3(C)C[C@H]2c2ccc(OCOC)cc2O3)c(O)c1>>CC12C=C(c3c(O)cc(-c4cc5ccc(O)cc5o4)cc3O)C(C(=O)c3ccc(O)cc3O)[C@@H](C1)c1ccc(O)cc1O2",
+      "yield_percent": 53
+    }
+  ],
+  "title": "Bioinspired Total Synthesis of Mulberrofurans G and J, Inethermulberrofuran C, and Mongolicin C from a Common Intermediate.",
+  "unresolved_events": [
+    {
+      "eligible_for_route_smiles_sequence": false,
+      "id": "upstream-boundaries",
+      "reason": "Preparations of known 10/S1/S5/15/16 are cited, not reproduced.",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: unresolved transformation",
+          "pages": [
+            2,
+            3
+          ],
+          "sha256": "6e0d4573235aea9ebb9014db50984f0476f53ca16168486e0d8eef0f83e7a6e6",
+          "source_id": "article"
+        }
+      ]
+    }
+  ]
+}

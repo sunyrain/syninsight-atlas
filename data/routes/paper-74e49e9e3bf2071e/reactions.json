@@ -1,0 +1,326 @@
+[
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E01",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "18"
+    ],
+    "reactant_labels": [
+      "17",
+      "phosphonoacetate"
+    ],
+    "reagents": [
+      "LiCl",
+      "DBU"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "17",
+        "percent": 88,
+        "product_label": "18",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "MeCN"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E01",
+        "pages": [
+          2
+        ],
+        "sha256": "7840a33208ffb4418ac2b0618634e2add81b250a89af87ad26dc3474d135f245",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "E01.1"
+    ],
+    "substrate_product_smiles": "CCOC(=O)CP(=O)(OCC)OCC.O=Cc1cn(S(=O)(=O)c2ccccc2[N+](=O)[O-])c2ccccc12>>CCOC(=O)/C=C/c1cn(S(=O)(=O)c2ccccc2[N+](=O)[O-])c2ccccc12",
+    "temperature": "0 C"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E02",
+    "experimental_stage_count": 2,
+    "formal_benchmark_eligible": false,
+    "operation_stages": [
+      "Ester reduction",
+      "Silylation"
+    ],
+    "product_labels": [
+      "13"
+    ],
+    "reactant_labels": [
+      "18"
+    ],
+    "reagents": [
+      "DIBAL-H",
+      "TBSCl",
+      "imidazole"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "18",
+        "percent": 94,
+        "product_label": "13",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "DCM"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E02",
+        "pages": [
+          2
+        ],
+        "sha256": "7840a33208ffb4418ac2b0618634e2add81b250a89af87ad26dc3474d135f245",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "E02.1"
+    ],
+    "substrate_product_smiles": "CCOC(=O)/C=C/c1cn(S(=O)(=O)c2ccccc2[N+](=O)[O-])c2ccccc12>>CC(C)(C)[Si](C)(C)OC/C=C/c1cn(S(=O)(=O)c2ccccc2[N+](=O)[O-])c2ccccc12",
+    "temperature": "0 C then 23 C"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E03",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "15"
+    ],
+    "reactant_labels": [
+      "13",
+      "19"
+    ],
+    "reagents": [
+      "PIDA"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "13",
+        "percent": 94,
+        "product_label": "15",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "DCM"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E03",
+        "pages": [
+          2
+        ],
+        "sha256": "7840a33208ffb4418ac2b0618634e2add81b250a89af87ad26dc3474d135f245",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "E03.1"
+    ],
+    "substrate_product_smiles": "CC(C)(C)OC(=O)N[C@@H](Cc1ccccc1)C(=O)NO.CC(C)(C)[Si](C)(C)OC/C=C/c1cn(S(=O)(=O)c2ccccc2[N+](=O)[O-])c2ccccc12>>CC(C)(C)OC(=O)N[C@@H](Cc1ccccc1)C(=O)N1O[C@@H]2C(=C[C@H]1CO[Si](C)(C)C(C)(C)C)c1ccccc1N2S(=O)(=O)c1ccccc1[N+](=O)[O-]",
+    "temperature": "0 C to -20 C"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E04",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "16"
+    ],
+    "reactant_labels": [
+      "15"
+    ],
+    "reagents": [
+      "Mn(dpm)3",
+      "NaBH4",
+      "O2",
+      "3A molecular sieves"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "15",
+        "percent": 80,
+        "product_label": "16",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "DCM",
+      "EtOH"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E04",
+        "pages": [
+          3
+        ],
+        "sha256": "7840a33208ffb4418ac2b0618634e2add81b250a89af87ad26dc3474d135f245",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "E04.1"
+    ],
+    "substrate_product_smiles": "CC(C)(C)OC(=O)N[C@@H](Cc1ccccc1)C(=O)N1O[C@@H]2C(=C[C@H]1CO[Si](C)(C)C(C)(C)C)c1ccccc1N2S(=O)(=O)c1ccccc1[N+](=O)[O-]>>CC(C)(C)OC(=O)N[C@@H](Cc1ccccc1)C(=O)N1O[C@H]2N(S(=O)(=O)c3ccccc3[N+](=O)[O-])c3ccccc3[C@@]2(O)C[C@H]1CO[Si](C)(C)C(C)(C)C",
+    "temperature": "-78 C to 23 C"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E05",
+    "experimental_stage_count": 2,
+    "formal_benchmark_eligible": false,
+    "operation_stages": [
+      "Desilylation and Jones oxidation",
+      "Boc removal and hydrochloride formation"
+    ],
+    "product_labels": [
+      "20"
+    ],
+    "reactant_labels": [
+      "16"
+    ],
+    "reagents": [
+      "CrO3",
+      "H2SO4",
+      "HCl"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "16",
+        "percent": 75,
+        "product_label": "20",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "water",
+      "acetone",
+      "ether",
+      "DCM"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E05",
+        "pages": [
+          3
+        ],
+        "sha256": "7840a33208ffb4418ac2b0618634e2add81b250a89af87ad26dc3474d135f245",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "E05.1"
+    ],
+    "substrate_product_smiles": "CC(C)(C)OC(=O)N[C@@H](Cc1ccccc1)C(=O)N1O[C@H]2N(S(=O)(=O)c3ccccc3[N+](=O)[O-])c3ccccc3[C@@]2(O)C[C@H]1CO[Si](C)(C)C(C)(C)C>>[Cl-].[NH3+][C@@H](Cc1ccccc1)C(=O)N1O[C@H]2N(S(=O)(=O)c3ccccc3[N+](=O)[O-])c3ccccc3[C@]2(O)C[C@H]1C(=O)O",
+    "temperature": "0 C then 23 C"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E06",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "21"
+    ],
+    "reactant_labels": [
+      "20"
+    ],
+    "reagents": [
+      "EEDQ"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "20",
+        "percent": 59,
+        "product_label": "21",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "EtOH"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E06",
+        "pages": [
+          3
+        ],
+        "sha256": "7840a33208ffb4418ac2b0618634e2add81b250a89af87ad26dc3474d135f245",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "E06.1"
+    ],
+    "substrate_product_smiles": "[Cl-].[NH3+][C@@H](Cc1ccccc1)C(=O)N1O[C@H]2N(S(=O)(=O)c3ccccc3[N+](=O)[O-])c3ccccc3[C@]2(O)C[C@H]1C(=O)O>>O=C1N[C@@H](Cc2ccccc2)C(=O)N2O[C@H]3N(S(=O)(=O)c4ccccc4[N+](=O)[O-])c4ccccc4[C@@]3(O)C[C@@H]12",
+    "temperature": "23 C"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E07",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "1"
+    ],
+    "reactant_labels": [
+      "21"
+    ],
+    "reagents": [
+      "PhSH",
+      "Cs2CO3"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "21",
+        "percent": 75,
+        "product_label": "1",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "MeCN"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E07",
+        "pages": [
+          3
+        ],
+        "sha256": "7840a33208ffb4418ac2b0618634e2add81b250a89af87ad26dc3474d135f245",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "E07.1"
+    ],
+    "substrate_product_smiles": "O=C1N[C@@H](Cc2ccccc2)C(=O)N2O[C@H]3N(S(=O)(=O)c4ccccc4[N+](=O)[O-])c4ccccc4[C@@]3(O)C[C@@H]12>>O=C1N[C@@H](Cc2ccccc2)C(=O)N2O[C@H]3Nc4ccccc4[C@]3(O)C[C@@H]12",
+    "temperature": "23 C"
+  }
+]

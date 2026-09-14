@@ -1,0 +1,769 @@
+[
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E01",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "S1"
+    ],
+    "reactant_labels": [
+      "phloroglucinol",
+      "methanol"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "phloroglucinol",
+        "percent": 50,
+        "product_label": "S1",
+        "scope": "isolated event yield"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source endpoints plus incorporating partners; not atom-balanced; no unreported intermediates invented",
+    "source_references": [
+      {
+        "locator": "SI numbered preparation/drawing: E01 forward preparation",
+        "pages": [
+          11
+        ],
+        "sha256": "a6ffe5e992e896da765adbe931c05789fef9282a9c836565dcde757a6c1edf24",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E01.1"
+    ],
+    "substrate_product_smiles": "CO.Oc1cc(O)cc(O)c1>>COc1cc(O)cc(O)c1"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E02",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "S2",
+      "S3"
+    ],
+    "reactant_labels": [
+      "S1"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "S1",
+        "percent": 36,
+        "product_label": "S2",
+        "scope": "isolated event yield"
+      },
+      {
+        "from_label": "S1",
+        "percent": 36,
+        "product_label": "S3",
+        "scope": "isolated event yield"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source endpoints plus incorporating partners; not atom-balanced; no unreported intermediates invented",
+    "source_references": [
+      {
+        "locator": "SI numbered preparation/drawing: E02 forward preparation",
+        "pages": [
+          11,
+          12
+        ],
+        "sha256": "a6ffe5e992e896da765adbe931c05789fef9282a9c836565dcde757a6c1edf24",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E02.1"
+    ],
+    "substrate_product_smiles": "COc1cc(O)cc(O)c1>>COc1cc(O)c(Br)c(O)c1.COc1cc(O)cc(O)c1Br"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E03",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "30"
+    ],
+    "reactant_labels": [
+      "S2",
+      "MOMCl"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "S2",
+        "percent": 71,
+        "product_label": "30",
+        "scope": "isolated event yield"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source endpoints plus incorporating partners; not atom-balanced; no unreported intermediates invented",
+    "source_references": [
+      {
+        "locator": "SI numbered preparation/drawing: E03 forward preparation",
+        "pages": [
+          12,
+          13
+        ],
+        "sha256": "a6ffe5e992e896da765adbe931c05789fef9282a9c836565dcde757a6c1edf24",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E03.1"
+    ],
+    "substrate_product_smiles": "COCCl.COc1cc(O)c(Br)c(O)c1>>COCOc1cc(OC)cc(OCOC)c1Br"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E04",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "31"
+    ],
+    "reactant_labels": [
+      "S3",
+      "MOMCl"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "S3",
+        "percent": 89,
+        "product_label": "31",
+        "scope": "isolated event yield"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source endpoints plus incorporating partners; not atom-balanced; no unreported intermediates invented",
+    "source_references": [
+      {
+        "locator": "SI numbered preparation/drawing: E04 forward preparation",
+        "pages": [
+          12,
+          13
+        ],
+        "sha256": "a6ffe5e992e896da765adbe931c05789fef9282a9c836565dcde757a6c1edf24",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E04.1"
+    ],
+    "substrate_product_smiles": "COCCl.COc1cc(O)cc(O)c1Br>>COCOc1cc(OC)c(Br)c(OCOC)c1"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E05",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "S4"
+    ],
+    "reactant_labels": [
+      "phloroglucinol",
+      "MOMCl"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "phloroglucinol",
+        "percent": 65,
+        "product_label": "S4",
+        "scope": "isolated event yield"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source endpoints plus incorporating partners; not atom-balanced; no unreported intermediates invented",
+    "source_references": [
+      {
+        "locator": "SI numbered preparation/drawing: E05 forward preparation",
+        "pages": [
+          12,
+          13
+        ],
+        "sha256": "a6ffe5e992e896da765adbe931c05789fef9282a9c836565dcde757a6c1edf24",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E05.1"
+    ],
+    "substrate_product_smiles": "COCCl.Oc1cc(O)cc(O)c1>>COCOc1cc(OCOC)cc(OCOC)c1"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E06",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "32"
+    ],
+    "reactant_labels": [
+      "S4"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "S4",
+        "percent": 84,
+        "product_label": "32",
+        "scope": "isolated event yield"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source endpoints plus incorporating partners; not atom-balanced; no unreported intermediates invented",
+    "source_references": [
+      {
+        "locator": "SI numbered preparation/drawing: E06 forward preparation",
+        "pages": [
+          12,
+          13
+        ],
+        "sha256": "a6ffe5e992e896da765adbe931c05789fef9282a9c836565dcde757a6c1edf24",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E06.1"
+    ],
+    "substrate_product_smiles": "COCOc1cc(OCOC)cc(OCOC)c1>>COCOc1cc(OCOC)c(Br)c(OCOC)c1"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E07",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "11"
+    ],
+    "reactant_labels": [
+      "9",
+      "10"
+    ],
+    "reported_product_dr": "95:5",
+    "reported_product_ee_percent": 83,
+    "reported_product_rr": ">95:5",
+    "reported_yields": [
+      {
+        "from_label": "9",
+        "percent": 92,
+        "product_label": "11",
+        "scope": "isolated event yield"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source endpoints plus incorporating partners; not atom-balanced; no unreported intermediates invented",
+    "source_references": [
+      {
+        "locator": "SI numbered preparation/drawing: E07 forward preparation",
+        "pages": [
+          14
+        ],
+        "sha256": "a6ffe5e992e896da765adbe931c05789fef9282a9c836565dcde757a6c1edf24",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E07.1"
+    ],
+    "substrate_product_smiles": "C=C/C(C)=C/CCOC(C)=O.COc1ccc(C(=O)/C=C/c2ccc(OC(C)(C)C)cc2)cc1>>COc1ccc(C(=O)[C@H]2CC=C(C)[C@H](CCOC(C)=O)[C@@H]2c2ccc(OC(C)(C)C)cc2)cc1"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E08",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "14"
+    ],
+    "reactant_labels": [
+      "11"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "11",
+        "percent": 81,
+        "product_label": "14",
+        "scope": "81% isolated 14 over three steps from 11; individual stage yields absent"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source endpoints plus incorporating partners; not atom-balanced; no unreported intermediates invented",
+    "source_references": [
+      {
+        "locator": "SI numbered preparation/drawing: E08 forward preparation",
+        "pages": [
+          15,
+          16,
+          17
+        ],
+        "sha256": "a6ffe5e992e896da765adbe931c05789fef9282a9c836565dcde757a6c1edf24",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E08.1",
+      "E08.2",
+      "E08.3"
+    ],
+    "substrate_product_smiles": "COc1ccc(C(=O)[C@H]2CC=C(C)[C@H](CCOC(C)=O)[C@@H]2c2ccc(OC(C)(C)C)cc2)cc1>>COc1ccc(C(=O)[C@H]2CC=C(C)[C@H](CCOC(C)=O)[C@@H]2c2ccccc2)cc1"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E09",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "16"
+    ],
+    "reactant_labels": [
+      "14"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "14",
+        "percent": 98,
+        "product_label": "16",
+        "scope": "98% isolated 16 over two steps from 14"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source endpoints plus incorporating partners; not atom-balanced; no unreported intermediates invented",
+    "source_references": [
+      {
+        "locator": "SI numbered preparation/drawing: E09 forward preparation",
+        "pages": [
+          17,
+          18
+        ],
+        "sha256": "a6ffe5e992e896da765adbe931c05789fef9282a9c836565dcde757a6c1edf24",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E09.1",
+      "E09.2"
+    ],
+    "substrate_product_smiles": "COc1ccc(C(=O)[C@H]2CC=C(C)[C@H](CCOC(C)=O)[C@@H]2c2ccccc2)cc1>>COc1ccc(C(=O)[C@H]2CC=C(C)[C@H](CC=O)[C@@H]2c2ccccc2)cc1"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E10",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "17"
+    ],
+    "reactant_labels": [
+      "16",
+      "S7"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "16",
+        "percent": 81,
+        "product_label": "17",
+        "scope": "isolated event yield"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source endpoints plus incorporating partners; not atom-balanced; no unreported intermediates invented",
+    "source_references": [
+      {
+        "locator": "SI numbered preparation/drawing: E10 forward preparation",
+        "pages": [
+          20
+        ],
+        "sha256": "a6ffe5e992e896da765adbe931c05789fef9282a9c836565dcde757a6c1edf24",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E10.1"
+    ],
+    "substrate_product_smiles": "CC(C)S(=O)(=O)c1nnnn1-c1ccccc1.COc1ccc(C(=O)[C@H]2CC=C(C)[C@H](CC=O)[C@@H]2c2ccccc2)cc1>>COc1ccc(C(=O)[C@H]2CC=C(C)[C@H](CC=C(C)C)[C@@H]2c2ccccc2)cc1"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E11",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "27",
+      "26"
+    ],
+    "reactant_labels": [
+      "17",
+      "hydroxylamine",
+      "Boc2O"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "17",
+        "percent": 64,
+        "product_label": "27",
+        "scope": "64% isolated 27 over three steps from 17; 26 is a crude byproduct removed during purification, no isolated yield"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source endpoints plus incorporating partners; not atom-balanced; no unreported intermediates invented",
+    "source_references": [
+      {
+        "locator": "SI numbered preparation/drawing: E11 forward preparation",
+        "pages": [
+          21,
+          22
+        ],
+        "sha256": "a6ffe5e992e896da765adbe931c05789fef9282a9c836565dcde757a6c1edf24",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E11.1",
+      "E11.2",
+      "E11.3"
+    ],
+    "substrate_product_smiles": "CC(C)(C)OC(=O)OC(=O)OC(C)(C)C.COc1ccc(C(=O)[C@H]2CC=C(C)[C@H](CC=C(C)C)[C@@H]2c2ccccc2)cc1.NO>>COc1ccc(C(=O)N[C@H]2CC=C(C)[C@H](CC=C(C)C)[C@@H]2c2ccccc2)cc1.COc1ccc(N(C(=O)OC(C)(C)C)C(=O)[C@H]2CC=C(C)[C@H](CC=C(C)C)[C@@H]2c2ccccc2)cc1"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E12",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "1"
+    ],
+    "reactant_labels": [
+      "27",
+      "methanol"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "27",
+        "percent": 68,
+        "product_label": "1",
+        "scope": "isolated event yield"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source endpoints plus incorporating partners; not atom-balanced; no unreported intermediates invented",
+    "source_references": [
+      {
+        "locator": "SI numbered preparation/drawing: E12 forward preparation",
+        "pages": [
+          22
+        ],
+        "sha256": "a6ffe5e992e896da765adbe931c05789fef9282a9c836565dcde757a6c1edf24",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E12.1"
+    ],
+    "substrate_product_smiles": "CO.COc1ccc(N(C(=O)OC(C)(C)C)C(=O)[C@H]2CC=C(C)[C@H](CC=C(C)C)[C@@H]2c2ccccc2)cc1>>COC(=O)[C@H]1CC=C(C)[C@H](CC=C(C)C)[C@@H]1c1ccccc1"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E13",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "29"
+    ],
+    "reactant_labels": [
+      "27"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "27",
+        "percent": 74,
+        "product_label": "29",
+        "scope": "74% isolated 29 over two steps from 27"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source endpoints plus incorporating partners; not atom-balanced; no unreported intermediates invented",
+    "source_references": [
+      {
+        "locator": "SI numbered preparation/drawing: E13 forward preparation",
+        "pages": [
+          23
+        ],
+        "sha256": "a6ffe5e992e896da765adbe931c05789fef9282a9c836565dcde757a6c1edf24",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E13.1",
+      "E13.2"
+    ],
+    "substrate_product_smiles": "COc1ccc(N(C(=O)OC(C)(C)C)C(=O)[C@H]2CC=C(C)[C@H](CC=C(C)C)[C@@H]2c2ccccc2)cc1>>CC(C)=CC[C@H]1C(C)=CC[C@H](C=O)[C@H]1c1ccccc1"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E14",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "S9"
+    ],
+    "reactant_labels": [
+      "29",
+      "30"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "29",
+        "percent": 65,
+        "product_label": "S9",
+        "scope": "65% isolated S9 over source two-step addition/oxidation sequence; aryllithium formation recorded as an internal operation"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source endpoints plus incorporating partners; not atom-balanced; no unreported intermediates invented",
+    "source_references": [
+      {
+        "locator": "SI numbered preparation/drawing: E14 forward preparation",
+        "pages": [
+          24
+        ],
+        "sha256": "a6ffe5e992e896da765adbe931c05789fef9282a9c836565dcde757a6c1edf24",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E14.1",
+      "E14.2",
+      "E14.3"
+    ],
+    "substrate_product_smiles": "CC(C)=CC[C@H]1C(C)=CC[C@H](C=O)[C@H]1c1ccccc1.COCOc1cc(OC)cc(OCOC)c1Br>>COCOc1cc(OC)cc(OCOC)c1C(=O)[C@H]1CC=C(C)[C@H](CC=C(C)C)[C@@H]1c1ccccc1"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E15",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "2"
+    ],
+    "reactant_labels": [
+      "S9"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "S9",
+        "percent": 83,
+        "product_label": "2",
+        "scope": "isolated event yield"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source endpoints plus incorporating partners; not atom-balanced; no unreported intermediates invented",
+    "source_references": [
+      {
+        "locator": "SI numbered preparation/drawing: E15 forward preparation",
+        "pages": [
+          25
+        ],
+        "sha256": "a6ffe5e992e896da765adbe931c05789fef9282a9c836565dcde757a6c1edf24",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E15.1"
+    ],
+    "substrate_product_smiles": "COCOc1cc(OC)cc(OCOC)c1C(=O)[C@H]1CC=C(C)[C@H](CC=C(C)C)[C@@H]1c1ccccc1>>COc1cc(O)c(C(=O)[C@H]2CC=C(C)[C@H](CC=C(C)C)[C@@H]2c2ccccc2)c(O)c1"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E16",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "S11"
+    ],
+    "reactant_labels": [
+      "29",
+      "31"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "29",
+        "percent": 90,
+        "product_label": "S11",
+        "scope": "90% isolated S11 over source two-step addition/oxidation sequence; aryllithium formation recorded as an internal operation"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source endpoints plus incorporating partners; not atom-balanced; no unreported intermediates invented",
+    "source_references": [
+      {
+        "locator": "SI numbered preparation/drawing: E16 forward preparation",
+        "pages": [
+          26
+        ],
+        "sha256": "a6ffe5e992e896da765adbe931c05789fef9282a9c836565dcde757a6c1edf24",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E16.1",
+      "E16.2",
+      "E16.3"
+    ],
+    "substrate_product_smiles": "CC(C)=CC[C@H]1C(C)=CC[C@H](C=O)[C@H]1c1ccccc1.COCOc1cc(OC)c(Br)c(OCOC)c1>>COCOc1cc(OC)c(C(=O)[C@H]2CC=C(C)[C@H](CC=C(C)C)[C@@H]2c2ccccc2)c(OCOC)c1"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E17",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "3"
+    ],
+    "reactant_labels": [
+      "S11"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "S11",
+        "percent": 87,
+        "product_label": "3",
+        "scope": "isolated event yield"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source endpoints plus incorporating partners; not atom-balanced; no unreported intermediates invented",
+    "source_references": [
+      {
+        "locator": "SI numbered preparation/drawing: E17 forward preparation",
+        "pages": [
+          27
+        ],
+        "sha256": "a6ffe5e992e896da765adbe931c05789fef9282a9c836565dcde757a6c1edf24",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E17.1"
+    ],
+    "substrate_product_smiles": "COCOc1cc(OC)c(C(=O)[C@H]2CC=C(C)[C@H](CC=C(C)C)[C@@H]2c2ccccc2)c(OCOC)c1>>COc1cc(O)cc(O)c1C(=O)[C@H]1CC=C(C)[C@H](CC=C(C)C)[C@@H]1c1ccccc1"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E18",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "S13"
+    ],
+    "reactant_labels": [
+      "29",
+      "32"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "29",
+        "percent": 85,
+        "product_label": "S13",
+        "scope": "85% isolated S13 over source two-step addition/oxidation sequence; aryllithium formation recorded as an internal operation"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source endpoints plus incorporating partners; not atom-balanced; no unreported intermediates invented",
+    "source_references": [
+      {
+        "locator": "SI numbered preparation/drawing: E18 forward preparation",
+        "pages": [
+          28
+        ],
+        "sha256": "a6ffe5e992e896da765adbe931c05789fef9282a9c836565dcde757a6c1edf24",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E18.1",
+      "E18.2",
+      "E18.3"
+    ],
+    "substrate_product_smiles": "CC(C)=CC[C@H]1C(C)=CC[C@H](C=O)[C@H]1c1ccccc1.COCOc1cc(OCOC)c(Br)c(OCOC)c1>>COCOc1cc(OCOC)c(C(=O)[C@H]2CC=C(C)[C@H](CC=C(C)C)[C@@H]2c2ccccc2)c(OCOC)c1"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E19",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "4"
+    ],
+    "reactant_labels": [
+      "S13"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "S13",
+        "percent": 83,
+        "product_label": "4",
+        "scope": "isolated event yield"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source endpoints plus incorporating partners; not atom-balanced; no unreported intermediates invented",
+    "source_references": [
+      {
+        "locator": "SI numbered preparation/drawing: E19 forward preparation",
+        "pages": [
+          29
+        ],
+        "sha256": "a6ffe5e992e896da765adbe931c05789fef9282a9c836565dcde757a6c1edf24",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E19.1"
+    ],
+    "substrate_product_smiles": "COCOc1cc(OCOC)c(C(=O)[C@H]2CC=C(C)[C@H](CC=C(C)C)[C@@H]2c2ccccc2)c(OCOC)c1>>CC(C)=CC[C@H]1C(C)=CC[C@H](C(=O)c2c(O)cc(O)cc2O)[C@H]1c1ccccc1"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E20",
+    "formal_benchmark_eligible": false,
+    "not_connected_to_enriched_target_routes": true,
+    "product_labels": [
+      "rac-16"
+    ],
+    "reactant_labels": [
+      "rac-14"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "rac-14",
+        "percent": 89,
+        "product_label": "rac-16",
+        "scope": "89% isolated rac-16 over two steps; racemic control, not the enriched main route"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "sample_type": "racemate",
+    "smiles_scope": "Source endpoints plus incorporating partners; not atom-balanced; no unreported intermediates invented",
+    "source_references": [
+      {
+        "locator": "SI numbered preparation/drawing: E20 forward preparation",
+        "pages": [
+          19
+        ],
+        "sha256": "a6ffe5e992e896da765adbe931c05789fef9282a9c836565dcde757a6c1edf24",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E20.1",
+      "E20.2"
+    ],
+    "substrate_product_smiles": "COc1ccc(C(=O)[C@H]2CC=C(C)[C@H](CCOC(C)=O)[C@@H]2c2ccccc2)cc1>>COc1ccc(C(=O)[C@H]2CC=C(C)[C@H](CC=O)[C@@H]2c2ccccc2)cc1"
+  }
+]

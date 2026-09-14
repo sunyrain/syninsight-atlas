@@ -1,0 +1,1112 @@
+{
+  "admission_authority": false,
+  "all_internal_experimental_stage_structures_reported": false,
+  "available_si_preparation_network_covered": true,
+  "conditions_fully_standardized": false,
+  "coverage_definition": "All six arrows of available SI Scheme 2 only; preparation of 10 absent",
+  "doi": "10.1080/10286020.2026.2695175",
+  "extraction_method": "native_CDX_source_bound_structures_and_arrow_text",
+  "formal_benchmark_eligible": false,
+  "full_article_route_coverage": false,
+  "hrms_checks": [],
+  "issues": [
+    {
+      "detail": "Preparation of starting intermediate 10 and the main article are absent. This six-event segment is not a complete route from commercial starting materials.",
+      "id": "upstream-missing",
+      "severity": "source_missing",
+      "subject": "10"
+    },
+    {
+      "detail": "Available binary Word SI contains Scheme 2 and spectra; detailed textual preparations, solvent identities for some arrows and isolated-yield basis are absent. No missing conditions are inferred.",
+      "id": "si-scope",
+      "severity": "source_incompleteness",
+      "subject": "conditions"
+    },
+    {
+      "detail": "Arrow 3 states sequential copper-mediated transformation then methyl chloroformate. The internal intermediate is not drawn and is not assigned a SMILES.",
+      "id": "internal-stage",
+      "severity": "representation_boundary",
+      "subject": "E03"
+    },
+    {
+      "detail": "Source-native stereobonds are preserved; neither source absolute configurations nor spectroscopic identity are independently certified.",
+      "id": "independent-review",
+      "severity": "review_pending",
+      "subject": "stereochemistry"
+    }
+  ],
+  "molecules": [
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "COc1ccc(CN(C(=O)CC/C=N/[S@@](=O)C(C)(C)C)c2ccccc2I)cc1",
+      "canonical_smiles": "COc1ccc(CN(C(=O)CC/C=N/[S@@](=O)C(C)(C)C)c2ccccc2I)cc1",
+      "depiction": "structures/10.svg",
+      "exact_mass": 526.078711724,
+      "formal_benchmark_eligible": false,
+      "label": "10",
+      "molecular_formula": "C22H27IN2O3S",
+      "molecule_id": "mol-51a03da344690b4f136aebf17daf87ec2f4b7f408b6d4c9be3d86d8853a60eb3",
+      "name": "Scheme 2 compound 10",
+      "native_fragment_object_id": 64765,
+      "native_label_text_object_id": 91758,
+      "paper_label": "10",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "cdx_sha256": "475e1c2b0c7b5f771850548e555e211a280f42d862c7e9a4811776a0a351d91f",
+          "locator": "SI Scheme 2; ObjectPool/_1842192144/CONTENTS; native object 64765; structure 10",
+          "locator_kind": "binary_word_cdx_object",
+          "native_object_id": 64765,
+          "ole_stream": "ObjectPool/_1842192144/CONTENTS",
+          "pages": [],
+          "sha256": "33462ea58955b1b1ea7cfdc70b04ef5bbdc568e52a3d736b4b7caa875cbf270d",
+          "source_id": "si"
+        },
+        {
+          "cdx_sha256": "475e1c2b0c7b5f771850548e555e211a280f42d862c7e9a4811776a0a351d91f",
+          "locator": "SI Scheme 2; ObjectPool/_1842192144/CONTENTS; native object 91758; compound label",
+          "locator_kind": "binary_word_cdx_object",
+          "native_object_id": 91758,
+          "ole_stream": "ObjectPool/_1842192144/CONTENTS",
+          "pages": [],
+          "sha256": "33462ea58955b1b1ea7cfdc70b04ef5bbdc568e52a3d736b4b7caa875cbf270d",
+          "source_id": "si"
+        }
+      ],
+      "stereo_status": "Native source stereobonds retained; absolute stereochemical assignment awaits independent review",
+      "structure_basis": "source_drawing_transcription",
+      "structure_method": "native_CDX_bound_to_Scheme_2_labels"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "COc1ccc(CN(C(=O)CCCN[S@@](=O)C(C)(C)C)c2ccccc2I)cc1",
+      "canonical_smiles": "COc1ccc(CN(C(=O)CCCN[S@@](=O)C(C)(C)C)c2ccccc2I)cc1",
+      "depiction": "structures/11.svg",
+      "exact_mass": 528.094361788,
+      "formal_benchmark_eligible": false,
+      "label": "11",
+      "molecular_formula": "C22H29IN2O3S",
+      "molecule_id": "mol-4043be8944faea2eef194834b53777a7bb450d444167a04ea801d2412f47e87a",
+      "name": "Scheme 2 compound 11",
+      "native_fragment_object_id": 88053,
+      "native_label_text_object_id": 78118,
+      "paper_label": "11",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "cdx_sha256": "475e1c2b0c7b5f771850548e555e211a280f42d862c7e9a4811776a0a351d91f",
+          "locator": "SI Scheme 2; ObjectPool/_1842192144/CONTENTS; native object 88053; structure 11",
+          "locator_kind": "binary_word_cdx_object",
+          "native_object_id": 88053,
+          "ole_stream": "ObjectPool/_1842192144/CONTENTS",
+          "pages": [],
+          "sha256": "33462ea58955b1b1ea7cfdc70b04ef5bbdc568e52a3d736b4b7caa875cbf270d",
+          "source_id": "si"
+        },
+        {
+          "cdx_sha256": "475e1c2b0c7b5f771850548e555e211a280f42d862c7e9a4811776a0a351d91f",
+          "locator": "SI Scheme 2; ObjectPool/_1842192144/CONTENTS; native object 78118; compound label",
+          "locator_kind": "binary_word_cdx_object",
+          "native_object_id": 78118,
+          "ole_stream": "ObjectPool/_1842192144/CONTENTS",
+          "pages": [],
+          "sha256": "33462ea58955b1b1ea7cfdc70b04ef5bbdc568e52a3d736b4b7caa875cbf270d",
+          "source_id": "si"
+        }
+      ],
+      "stereo_status": "Native source stereobonds retained; absolute stereochemical assignment awaits independent review",
+      "structure_basis": "source_drawing_transcription",
+      "structure_method": "native_CDX_bound_to_Scheme_2_labels"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "COc1ccc(CN(C(=O)CCCN(C)[S@@](=O)C(C)(C)C)c2ccccc2I)cc1",
+      "canonical_smiles": "COc1ccc(CN(C(=O)CCCN(C)[S@@](=O)C(C)(C)C)c2ccccc2I)cc1",
+      "depiction": "structures/12.svg",
+      "exact_mass": 542.110011852,
+      "formal_benchmark_eligible": false,
+      "label": "12",
+      "molecular_formula": "C23H31IN2O3S",
+      "molecule_id": "mol-2a489d37c5e84a3dcab63147444ce1113af0b51dfff8b76ea856e78583f70e67",
+      "name": "Scheme 2 compound 12",
+      "native_fragment_object_id": 72835,
+      "native_label_text_object_id": 78119,
+      "paper_label": "12",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "cdx_sha256": "475e1c2b0c7b5f771850548e555e211a280f42d862c7e9a4811776a0a351d91f",
+          "locator": "SI Scheme 2; ObjectPool/_1842192144/CONTENTS; native object 72835; structure 12",
+          "locator_kind": "binary_word_cdx_object",
+          "native_object_id": 72835,
+          "ole_stream": "ObjectPool/_1842192144/CONTENTS",
+          "pages": [],
+          "sha256": "33462ea58955b1b1ea7cfdc70b04ef5bbdc568e52a3d736b4b7caa875cbf270d",
+          "source_id": "si"
+        },
+        {
+          "cdx_sha256": "475e1c2b0c7b5f771850548e555e211a280f42d862c7e9a4811776a0a351d91f",
+          "locator": "SI Scheme 2; ObjectPool/_1842192144/CONTENTS; native object 78119; compound label",
+          "locator_kind": "binary_word_cdx_object",
+          "native_object_id": 78119,
+          "ole_stream": "ObjectPool/_1842192144/CONTENTS",
+          "pages": [],
+          "sha256": "33462ea58955b1b1ea7cfdc70b04ef5bbdc568e52a3d736b4b7caa875cbf270d",
+          "source_id": "si"
+        }
+      ],
+      "stereo_status": "Native source stereobonds retained; absolute stereochemical assignment awaits independent review",
+      "structure_basis": "source_drawing_transcription",
+      "structure_method": "native_CDX_bound_to_Scheme_2_labels"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "COC(=O)[C@@]1(CCN(C)[S@@](=O)C(C)(C)C)C(=O)N(Cc2ccc(OC)cc2)c2ccccc21",
+      "canonical_smiles": "COC(=O)[C@@]1(CCN(C)[S@@](=O)C(C)(C)C)C(=O)N(Cc2ccc(OC)cc2)c2ccccc21",
+      "depiction": "structures/13.svg",
+      "exact_mass": 472.20319312399994,
+      "formal_benchmark_eligible": false,
+      "label": "13",
+      "molecular_formula": "C25H32N2O5S",
+      "molecule_id": "mol-58cd26003508b240903160f424b976d79a25dc189a5d2318d34768de0a199bd5",
+      "name": "Scheme 2 compound 13",
+      "native_fragment_object_id": 94916,
+      "native_label_text_object_id": 88196,
+      "paper_label": "13",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "cdx_sha256": "475e1c2b0c7b5f771850548e555e211a280f42d862c7e9a4811776a0a351d91f",
+          "locator": "SI Scheme 2; ObjectPool/_1842192144/CONTENTS; native object 94916; structure 13",
+          "locator_kind": "binary_word_cdx_object",
+          "native_object_id": 94916,
+          "ole_stream": "ObjectPool/_1842192144/CONTENTS",
+          "pages": [],
+          "sha256": "33462ea58955b1b1ea7cfdc70b04ef5bbdc568e52a3d736b4b7caa875cbf270d",
+          "source_id": "si"
+        },
+        {
+          "cdx_sha256": "475e1c2b0c7b5f771850548e555e211a280f42d862c7e9a4811776a0a351d91f",
+          "locator": "SI Scheme 2; ObjectPool/_1842192144/CONTENTS; native object 88196; compound label",
+          "locator_kind": "binary_word_cdx_object",
+          "native_object_id": 88196,
+          "ole_stream": "ObjectPool/_1842192144/CONTENTS",
+          "pages": [],
+          "sha256": "33462ea58955b1b1ea7cfdc70b04ef5bbdc568e52a3d736b4b7caa875cbf270d",
+          "source_id": "si"
+        }
+      ],
+      "stereo_status": "Native source stereobonds retained; absolute stereochemical assignment awaits independent review",
+      "structure_basis": "source_drawing_transcription",
+      "structure_method": "native_CDX_bound_to_Scheme_2_labels"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "COc1ccc(CN2C(=O)[C@@]3(CCN(C)C3=O)c3ccccc32)cc1",
+      "canonical_smiles": "COc1ccc(CN2C(=O)[C@@]3(CCN(C)C3=O)c3ccccc32)cc1",
+      "depiction": "structures/14.svg",
+      "exact_mass": 336.1473925,
+      "formal_benchmark_eligible": false,
+      "label": "14",
+      "molecular_formula": "C20H20N2O3",
+      "molecule_id": "mol-d4b14b864fbea5b71eb11d536c855ff8acc3062b52f32ba47b30a58ba9299765",
+      "name": "Scheme 2 compound 14",
+      "native_fragment_object_id": 94448,
+      "native_label_text_object_id": 94516,
+      "paper_label": "14",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "cdx_sha256": "475e1c2b0c7b5f771850548e555e211a280f42d862c7e9a4811776a0a351d91f",
+          "locator": "SI Scheme 2; ObjectPool/_1842192144/CONTENTS; native object 94448; structure 14",
+          "locator_kind": "binary_word_cdx_object",
+          "native_object_id": 94448,
+          "ole_stream": "ObjectPool/_1842192144/CONTENTS",
+          "pages": [],
+          "sha256": "33462ea58955b1b1ea7cfdc70b04ef5bbdc568e52a3d736b4b7caa875cbf270d",
+          "source_id": "si"
+        },
+        {
+          "cdx_sha256": "475e1c2b0c7b5f771850548e555e211a280f42d862c7e9a4811776a0a351d91f",
+          "locator": "SI Scheme 2; ObjectPool/_1842192144/CONTENTS; native object 94516; compound label",
+          "locator_kind": "binary_word_cdx_object",
+          "native_object_id": 94516,
+          "ole_stream": "ObjectPool/_1842192144/CONTENTS",
+          "pages": [],
+          "sha256": "33462ea58955b1b1ea7cfdc70b04ef5bbdc568e52a3d736b4b7caa875cbf270d",
+          "source_id": "si"
+        }
+      ],
+      "stereo_status": "Native source stereobonds retained; absolute stereochemical assignment awaits independent review",
+      "structure_basis": "source_drawing_transcription",
+      "structure_method": "native_CDX_bound_to_Scheme_2_labels"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "CN1CC[C@@]2(C(=O)Nc3ccccc32)C1=O",
+      "canonical_smiles": "CN1CC[C@@]2(C(=O)Nc3ccccc32)C1=O",
+      "depiction": "structures/15.svg",
+      "exact_mass": 216.089877624,
+      "formal_benchmark_eligible": false,
+      "label": "15",
+      "molecular_formula": "C12H12N2O2",
+      "molecule_id": "mol-a4509482f322fc2f6d1964fcbff1cd663f084ffacd4688f84438b3903cb0f3d5",
+      "name": "Scheme 2 compound 15",
+      "native_fragment_object_id": 95221,
+      "native_label_text_object_id": 95289,
+      "paper_label": "15",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "cdx_sha256": "475e1c2b0c7b5f771850548e555e211a280f42d862c7e9a4811776a0a351d91f",
+          "locator": "SI Scheme 2; ObjectPool/_1842192144/CONTENTS; native object 95221; structure 15",
+          "locator_kind": "binary_word_cdx_object",
+          "native_object_id": 95221,
+          "ole_stream": "ObjectPool/_1842192144/CONTENTS",
+          "pages": [],
+          "sha256": "33462ea58955b1b1ea7cfdc70b04ef5bbdc568e52a3d736b4b7caa875cbf270d",
+          "source_id": "si"
+        },
+        {
+          "cdx_sha256": "475e1c2b0c7b5f771850548e555e211a280f42d862c7e9a4811776a0a351d91f",
+          "locator": "SI Scheme 2; ObjectPool/_1842192144/CONTENTS; native object 95289; compound label",
+          "locator_kind": "binary_word_cdx_object",
+          "native_object_id": 95289,
+          "ole_stream": "ObjectPool/_1842192144/CONTENTS",
+          "pages": [],
+          "sha256": "33462ea58955b1b1ea7cfdc70b04ef5bbdc568e52a3d736b4b7caa875cbf270d",
+          "source_id": "si"
+        }
+      ],
+      "stereo_status": "Native source stereobonds retained; absolute stereochemical assignment awaits independent review",
+      "structure_basis": "source_drawing_transcription",
+      "structure_method": "native_CDX_bound_to_Scheme_2_labels"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "CN1CC[C@]2(C1)C(=O)Nc1ccccc12",
+      "canonical_smiles": "CN1CC[C@]2(C1)C(=O)Nc1ccccc12",
+      "depiction": "structures/1.svg",
+      "exact_mass": 202.110613068,
+      "formal_benchmark_eligible": false,
+      "label": "1",
+      "molecular_formula": "C12H14N2O",
+      "molecule_id": "mol-2d4b457d12bea07c38f762036832af24c915c915eb1fef6ed61abdfc98b9379f",
+      "name": "Coerulescine",
+      "native_fragment_object_id": 95294,
+      "native_label_text_object_id": 95337,
+      "paper_label": "1",
+      "review_status": "pending_independent_chemist_review",
+      "role": "target",
+      "source_references": [
+        {
+          "cdx_sha256": "475e1c2b0c7b5f771850548e555e211a280f42d862c7e9a4811776a0a351d91f",
+          "locator": "SI Scheme 2; ObjectPool/_1842192144/CONTENTS; native object 95294; structure 1",
+          "locator_kind": "binary_word_cdx_object",
+          "native_object_id": 95294,
+          "ole_stream": "ObjectPool/_1842192144/CONTENTS",
+          "pages": [],
+          "sha256": "33462ea58955b1b1ea7cfdc70b04ef5bbdc568e52a3d736b4b7caa875cbf270d",
+          "source_id": "si"
+        },
+        {
+          "cdx_sha256": "475e1c2b0c7b5f771850548e555e211a280f42d862c7e9a4811776a0a351d91f",
+          "locator": "SI Scheme 2; ObjectPool/_1842192144/CONTENTS; native object 95337; compound label",
+          "locator_kind": "binary_word_cdx_object",
+          "native_object_id": 95337,
+          "ole_stream": "ObjectPool/_1842192144/CONTENTS",
+          "pages": [],
+          "sha256": "33462ea58955b1b1ea7cfdc70b04ef5bbdc568e52a3d736b4b7caa875cbf270d",
+          "source_id": "si"
+        }
+      ],
+      "stereo_status": "Native source stereobonds retained; absolute stereochemical assignment awaits independent review",
+      "structure_basis": "source_drawing_transcription",
+      "structure_method": "native_CDX_bound_to_Scheme_2_labels"
+    }
+  ],
+  "paper_id": "paper-17346d5cc784e311",
+  "participants": [],
+  "reactions": [
+    {
+      "admission_authority": false,
+      "category": "forward_synthesis",
+      "event_id": "E01",
+      "formal_benchmark_eligible": false,
+      "product_labels": [
+        "11"
+      ],
+      "reactant_labels": [
+        "10"
+      ],
+      "reported_yields": [
+        {
+          "from_label": "10",
+          "percent": 93,
+          "product_label": "11",
+          "scope": "SI Scheme 2 arrow; isolation basis not specified"
+        }
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "smiles_scope": "Source native endpoints; named agents stored separately; not atom-balanced",
+      "source_references": [
+        {
+          "cdx_sha256": "475e1c2b0c7b5f771850548e555e211a280f42d862c7e9a4811776a0a351d91f",
+          "locator": "SI Scheme 2; ObjectPool/_1842192144/CONTENTS; native object 97681; explicit native reaction endpoints",
+          "locator_kind": "binary_word_cdx_object",
+          "native_object_id": 97681,
+          "ole_stream": "ObjectPool/_1842192144/CONTENTS",
+          "pages": [],
+          "sha256": "33462ea58955b1b1ea7cfdc70b04ef5bbdc568e52a3d736b4b7caa875cbf270d",
+          "source_id": "si"
+        },
+        {
+          "cdx_sha256": "475e1c2b0c7b5f771850548e555e211a280f42d862c7e9a4811776a0a351d91f",
+          "locator": "SI Scheme 2; ObjectPool/_1842192144/CONTENTS; native object 64827; arrow conditions",
+          "locator_kind": "binary_word_cdx_object",
+          "native_object_id": 64827,
+          "ole_stream": "ObjectPool/_1842192144/CONTENTS",
+          "pages": [],
+          "sha256": "33462ea58955b1b1ea7cfdc70b04ef5bbdc568e52a3d736b4b7caa875cbf270d",
+          "source_id": "si"
+        },
+        {
+          "cdx_sha256": "475e1c2b0c7b5f771850548e555e211a280f42d862c7e9a4811776a0a351d91f",
+          "locator": "SI Scheme 2; ObjectPool/_1842192144/CONTENTS; native object 91339; arrow yield",
+          "locator_kind": "binary_word_cdx_object",
+          "native_object_id": 91339,
+          "ole_stream": "ObjectPool/_1842192144/CONTENTS",
+          "pages": [],
+          "sha256": "33462ea58955b1b1ea7cfdc70b04ef5bbdc568e52a3d736b4b7caa875cbf270d",
+          "source_id": "si"
+        }
+      ],
+      "step_ids": [
+        "E01.1"
+      ],
+      "substrate_product_smiles": "COc1ccc(CN(C(=O)CC/C=N/[S@@](=O)C(C)(C)C)c2ccccc2I)cc1>>COc1ccc(CN(C(=O)CCCN[S@@](=O)C(C)(C)C)c2ccccc2I)cc1"
+    },
+    {
+      "admission_authority": false,
+      "category": "forward_synthesis",
+      "event_id": "E02",
+      "formal_benchmark_eligible": false,
+      "product_labels": [
+        "12"
+      ],
+      "reactant_labels": [
+        "11"
+      ],
+      "reported_yields": [
+        {
+          "from_label": "11",
+          "percent": 96,
+          "product_label": "12",
+          "scope": "SI Scheme 2 arrow; isolation basis not specified"
+        }
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "smiles_scope": "Source native endpoints; named agents stored separately; not atom-balanced",
+      "source_references": [
+        {
+          "cdx_sha256": "475e1c2b0c7b5f771850548e555e211a280f42d862c7e9a4811776a0a351d91f",
+          "locator": "SI Scheme 2; ObjectPool/_1842192144/CONTENTS; native object 97682; explicit native reaction endpoints",
+          "locator_kind": "binary_word_cdx_object",
+          "native_object_id": 97682,
+          "ole_stream": "ObjectPool/_1842192144/CONTENTS",
+          "pages": [],
+          "sha256": "33462ea58955b1b1ea7cfdc70b04ef5bbdc568e52a3d736b4b7caa875cbf270d",
+          "source_id": "si"
+        },
+        {
+          "cdx_sha256": "475e1c2b0c7b5f771850548e555e211a280f42d862c7e9a4811776a0a351d91f",
+          "locator": "SI Scheme 2; ObjectPool/_1842192144/CONTENTS; native object 77565; arrow conditions",
+          "locator_kind": "binary_word_cdx_object",
+          "native_object_id": 77565,
+          "ole_stream": "ObjectPool/_1842192144/CONTENTS",
+          "pages": [],
+          "sha256": "33462ea58955b1b1ea7cfdc70b04ef5bbdc568e52a3d736b4b7caa875cbf270d",
+          "source_id": "si"
+        },
+        {
+          "cdx_sha256": "475e1c2b0c7b5f771850548e555e211a280f42d862c7e9a4811776a0a351d91f",
+          "locator": "SI Scheme 2; ObjectPool/_1842192144/CONTENTS; native object 96268; arrow yield",
+          "locator_kind": "binary_word_cdx_object",
+          "native_object_id": 96268,
+          "ole_stream": "ObjectPool/_1842192144/CONTENTS",
+          "pages": [],
+          "sha256": "33462ea58955b1b1ea7cfdc70b04ef5bbdc568e52a3d736b4b7caa875cbf270d",
+          "source_id": "si"
+        }
+      ],
+      "step_ids": [
+        "E02.1"
+      ],
+      "substrate_product_smiles": "COc1ccc(CN(C(=O)CCCN[S@@](=O)C(C)(C)C)c2ccccc2I)cc1>>COc1ccc(CN(C(=O)CCCN(C)[S@@](=O)C(C)(C)C)c2ccccc2I)cc1"
+    },
+    {
+      "admission_authority": false,
+      "category": "forward_synthesis",
+      "event_id": "E03",
+      "formal_benchmark_eligible": false,
+      "product_labels": [
+        "13"
+      ],
+      "reactant_labels": [
+        "12"
+      ],
+      "reported_yields": [
+        {
+          "from_label": "12",
+          "percent": 87,
+          "product_label": "13",
+          "scope": "SI Scheme 2 arrow; isolation basis not specified"
+        }
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "smiles_scope": "Source native endpoints; named agents stored separately; not atom-balanced",
+      "source_references": [
+        {
+          "cdx_sha256": "475e1c2b0c7b5f771850548e555e211a280f42d862c7e9a4811776a0a351d91f",
+          "locator": "SI Scheme 2; ObjectPool/_1842192144/CONTENTS; native object 97683; explicit native reaction endpoints",
+          "locator_kind": "binary_word_cdx_object",
+          "native_object_id": 97683,
+          "ole_stream": "ObjectPool/_1842192144/CONTENTS",
+          "pages": [],
+          "sha256": "33462ea58955b1b1ea7cfdc70b04ef5bbdc568e52a3d736b4b7caa875cbf270d",
+          "source_id": "si"
+        },
+        {
+          "cdx_sha256": "475e1c2b0c7b5f771850548e555e211a280f42d862c7e9a4811776a0a351d91f",
+          "locator": "SI Scheme 2; ObjectPool/_1842192144/CONTENTS; native object 87922; arrow conditions",
+          "locator_kind": "binary_word_cdx_object",
+          "native_object_id": 87922,
+          "ole_stream": "ObjectPool/_1842192144/CONTENTS",
+          "pages": [],
+          "sha256": "33462ea58955b1b1ea7cfdc70b04ef5bbdc568e52a3d736b4b7caa875cbf270d",
+          "source_id": "si"
+        },
+        {
+          "cdx_sha256": "475e1c2b0c7b5f771850548e555e211a280f42d862c7e9a4811776a0a351d91f",
+          "locator": "SI Scheme 2; ObjectPool/_1842192144/CONTENTS; native object 89685; arrow yield",
+          "locator_kind": "binary_word_cdx_object",
+          "native_object_id": 89685,
+          "ole_stream": "ObjectPool/_1842192144/CONTENTS",
+          "pages": [],
+          "sha256": "33462ea58955b1b1ea7cfdc70b04ef5bbdc568e52a3d736b4b7caa875cbf270d",
+          "source_id": "si"
+        }
+      ],
+      "step_ids": [
+        "E03.1"
+      ],
+      "substrate_product_smiles": "COc1ccc(CN(C(=O)CCCN(C)[S@@](=O)C(C)(C)C)c2ccccc2I)cc1>>COC(=O)[C@@]1(CCN(C)[S@@](=O)C(C)(C)C)C(=O)N(Cc2ccc(OC)cc2)c2ccccc21"
+    },
+    {
+      "admission_authority": false,
+      "category": "forward_synthesis",
+      "event_id": "E04",
+      "formal_benchmark_eligible": false,
+      "product_labels": [
+        "14"
+      ],
+      "reactant_labels": [
+        "13"
+      ],
+      "reported_yields": [
+        {
+          "from_label": "13",
+          "percent": 85,
+          "product_label": "14",
+          "scope": "SI Scheme 2 arrow; isolation basis not specified"
+        }
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "smiles_scope": "Source native endpoints; named agents stored separately; not atom-balanced",
+      "source_references": [
+        {
+          "cdx_sha256": "475e1c2b0c7b5f771850548e555e211a280f42d862c7e9a4811776a0a351d91f",
+          "locator": "SI Scheme 2; ObjectPool/_1842192144/CONTENTS; native object 97684; explicit native reaction endpoints",
+          "locator_kind": "binary_word_cdx_object",
+          "native_object_id": 97684,
+          "ole_stream": "ObjectPool/_1842192144/CONTENTS",
+          "pages": [],
+          "sha256": "33462ea58955b1b1ea7cfdc70b04ef5bbdc568e52a3d736b4b7caa875cbf270d",
+          "source_id": "si"
+        },
+        {
+          "cdx_sha256": "475e1c2b0c7b5f771850548e555e211a280f42d862c7e9a4811776a0a351d91f",
+          "locator": "SI Scheme 2; ObjectPool/_1842192144/CONTENTS; native object 91438; arrow conditions",
+          "locator_kind": "binary_word_cdx_object",
+          "native_object_id": 91438,
+          "ole_stream": "ObjectPool/_1842192144/CONTENTS",
+          "pages": [],
+          "sha256": "33462ea58955b1b1ea7cfdc70b04ef5bbdc568e52a3d736b4b7caa875cbf270d",
+          "source_id": "si"
+        },
+        {
+          "cdx_sha256": "475e1c2b0c7b5f771850548e555e211a280f42d862c7e9a4811776a0a351d91f",
+          "locator": "SI Scheme 2; ObjectPool/_1842192144/CONTENTS; native object 91439; arrow yield",
+          "locator_kind": "binary_word_cdx_object",
+          "native_object_id": 91439,
+          "ole_stream": "ObjectPool/_1842192144/CONTENTS",
+          "pages": [],
+          "sha256": "33462ea58955b1b1ea7cfdc70b04ef5bbdc568e52a3d736b4b7caa875cbf270d",
+          "source_id": "si"
+        }
+      ],
+      "step_ids": [
+        "E04.1"
+      ],
+      "substrate_product_smiles": "COC(=O)[C@@]1(CCN(C)[S@@](=O)C(C)(C)C)C(=O)N(Cc2ccc(OC)cc2)c2ccccc21>>COc1ccc(CN2C(=O)[C@@]3(CCN(C)C3=O)c3ccccc32)cc1"
+    },
+    {
+      "admission_authority": false,
+      "category": "forward_synthesis",
+      "event_id": "E05",
+      "formal_benchmark_eligible": false,
+      "product_labels": [
+        "15"
+      ],
+      "reactant_labels": [
+        "14"
+      ],
+      "reported_yields": [
+        {
+          "from_label": "14",
+          "percent": 76,
+          "product_label": "15",
+          "scope": "SI Scheme 2 arrow; isolation basis not specified"
+        }
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "smiles_scope": "Source native endpoints; named agents stored separately; not atom-balanced",
+      "source_references": [
+        {
+          "cdx_sha256": "475e1c2b0c7b5f771850548e555e211a280f42d862c7e9a4811776a0a351d91f",
+          "locator": "SI Scheme 2; ObjectPool/_1842192144/CONTENTS; native object 97685; explicit native reaction endpoints",
+          "locator_kind": "binary_word_cdx_object",
+          "native_object_id": 97685,
+          "ole_stream": "ObjectPool/_1842192144/CONTENTS",
+          "pages": [],
+          "sha256": "33462ea58955b1b1ea7cfdc70b04ef5bbdc568e52a3d736b4b7caa875cbf270d",
+          "source_id": "si"
+        },
+        {
+          "cdx_sha256": "475e1c2b0c7b5f771850548e555e211a280f42d862c7e9a4811776a0a351d91f",
+          "locator": "SI Scheme 2; ObjectPool/_1842192144/CONTENTS; native object 91545; arrow conditions",
+          "locator_kind": "binary_word_cdx_object",
+          "native_object_id": 91545,
+          "ole_stream": "ObjectPool/_1842192144/CONTENTS",
+          "pages": [],
+          "sha256": "33462ea58955b1b1ea7cfdc70b04ef5bbdc568e52a3d736b4b7caa875cbf270d",
+          "source_id": "si"
+        },
+        {
+          "cdx_sha256": "475e1c2b0c7b5f771850548e555e211a280f42d862c7e9a4811776a0a351d91f",
+          "locator": "SI Scheme 2; ObjectPool/_1842192144/CONTENTS; native object 96275; arrow yield",
+          "locator_kind": "binary_word_cdx_object",
+          "native_object_id": 96275,
+          "ole_stream": "ObjectPool/_1842192144/CONTENTS",
+          "pages": [],
+          "sha256": "33462ea58955b1b1ea7cfdc70b04ef5bbdc568e52a3d736b4b7caa875cbf270d",
+          "source_id": "si"
+        }
+      ],
+      "step_ids": [
+        "E05.1"
+      ],
+      "substrate_product_smiles": "COc1ccc(CN2C(=O)[C@@]3(CCN(C)C3=O)c3ccccc32)cc1>>CN1CC[C@@]2(C(=O)Nc3ccccc32)C1=O"
+    },
+    {
+      "admission_authority": false,
+      "category": "forward_synthesis",
+      "event_id": "E06",
+      "formal_benchmark_eligible": false,
+      "product_labels": [
+        "1"
+      ],
+      "reactant_labels": [
+        "15"
+      ],
+      "reported_yields": [
+        {
+          "from_label": "15",
+          "percent": 42,
+          "product_label": "1",
+          "scope": "SI Scheme 2 arrow; isolation basis not specified"
+        }
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "smiles_scope": "Source native endpoints; named agents stored separately; not atom-balanced",
+      "source_references": [
+        {
+          "cdx_sha256": "475e1c2b0c7b5f771850548e555e211a280f42d862c7e9a4811776a0a351d91f",
+          "locator": "SI Scheme 2; ObjectPool/_1842192144/CONTENTS; native object 97686; explicit native reaction endpoints",
+          "locator_kind": "binary_word_cdx_object",
+          "native_object_id": 97686,
+          "ole_stream": "ObjectPool/_1842192144/CONTENTS",
+          "pages": [],
+          "sha256": "33462ea58955b1b1ea7cfdc70b04ef5bbdc568e52a3d736b4b7caa875cbf270d",
+          "source_id": "si"
+        },
+        {
+          "cdx_sha256": "475e1c2b0c7b5f771850548e555e211a280f42d862c7e9a4811776a0a351d91f",
+          "locator": "SI Scheme 2; ObjectPool/_1842192144/CONTENTS; native object 96321; arrow conditions",
+          "locator_kind": "binary_word_cdx_object",
+          "native_object_id": 96321,
+          "ole_stream": "ObjectPool/_1842192144/CONTENTS",
+          "pages": [],
+          "sha256": "33462ea58955b1b1ea7cfdc70b04ef5bbdc568e52a3d736b4b7caa875cbf270d",
+          "source_id": "si"
+        },
+        {
+          "cdx_sha256": "475e1c2b0c7b5f771850548e555e211a280f42d862c7e9a4811776a0a351d91f",
+          "locator": "SI Scheme 2; ObjectPool/_1842192144/CONTENTS; native object 96321; arrow yield",
+          "locator_kind": "binary_word_cdx_object",
+          "native_object_id": 96321,
+          "ole_stream": "ObjectPool/_1842192144/CONTENTS",
+          "pages": [],
+          "sha256": "33462ea58955b1b1ea7cfdc70b04ef5bbdc568e52a3d736b4b7caa875cbf270d",
+          "source_id": "si"
+        }
+      ],
+      "step_ids": [
+        "E06.1"
+      ],
+      "substrate_product_smiles": "CN1CC[C@@]2(C(=O)Nc3ccccc32)C1=O>>CN1CC[C@]2(C1)C(=O)Nc1ccccc12"
+    }
+  ],
+  "report_heading": "Coerulescine：SI Scheme 2 的六步路线片段",
+  "report_note": "7 个分子、6 个反应事件，覆盖现有 SI 的 10→11→12→13→14→15→1。已补入图式中的试剂、溶剂和产率；前体 10 的制备及正文缺失，不能计为全文全路线完成。待独立专家复核。",
+  "routes": [
+    {
+      "admission_authority": false,
+      "coverage_scope": "All six native arrows in available SI Scheme 2, from 10 to 1; upstream preparation absent",
+      "formal_benchmark_eligible": false,
+      "from_commercial_starting_materials_complete": false,
+      "full_article_route_coverage": false,
+      "molecule_smiles_sequence": [
+        "COc1ccc(CN(C(=O)CC/C=N/[S@@](=O)C(C)(C)C)c2ccccc2I)cc1",
+        "COc1ccc(CN(C(=O)CCCN[S@@](=O)C(C)(C)C)c2ccccc2I)cc1",
+        "COc1ccc(CN(C(=O)CCCN(C)[S@@](=O)C(C)(C)C)c2ccccc2I)cc1",
+        "COC(=O)[C@@]1(CCN(C)[S@@](=O)C(C)(C)C)C(=O)N(Cc2ccc(OC)cc2)c2ccccc21",
+        "COc1ccc(CN2C(=O)[C@@]3(CCN(C)C3=O)c3ccccc32)cc1",
+        "CN1CC[C@@]2(C(=O)Nc3ccccc32)C1=O",
+        "CN1CC[C@]2(C1)C(=O)Nc1ccccc12"
+      ],
+      "ordered_event_ids": [
+        "E01",
+        "E02",
+        "E03",
+        "E04",
+        "E05",
+        "E06"
+      ],
+      "ordered_molecule_labels": [
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "1"
+      ],
+      "ordered_step_ids": [
+        "E01.1",
+        "E02.1",
+        "E03.1",
+        "E04.1",
+        "E05.1",
+        "E06.1"
+      ],
+      "route_id": "coerulescine-from-10",
+      "route_type": "reported_total_synthesis_segment",
+      "split_group": "10.1080/10286020.2026.2695175",
+      "start_label": "10",
+      "start_labels": [
+        "10"
+      ],
+      "step_reaction_smiles_sequence": [
+        "COc1ccc(CN(C(=O)CC/C=N/[S@@](=O)C(C)(C)C)c2ccccc2I)cc1>>COc1ccc(CN(C(=O)CCCN[S@@](=O)C(C)(C)C)c2ccccc2I)cc1",
+        "COc1ccc(CN(C(=O)CCCN[S@@](=O)C(C)(C)C)c2ccccc2I)cc1>>COc1ccc(CN(C(=O)CCCN(C)[S@@](=O)C(C)(C)C)c2ccccc2I)cc1",
+        "COc1ccc(CN(C(=O)CCCN(C)[S@@](=O)C(C)(C)C)c2ccccc2I)cc1>>COC(=O)[C@@]1(CCN(C)[S@@](=O)C(C)(C)C)C(=O)N(Cc2ccc(OC)cc2)c2ccccc21",
+        "COC(=O)[C@@]1(CCN(C)[S@@](=O)C(C)(C)C)C(=O)N(Cc2ccc(OC)cc2)c2ccccc21>>COc1ccc(CN2C(=O)[C@@]3(CCN(C)C3=O)c3ccccc32)cc1",
+        "COc1ccc(CN2C(=O)[C@@]3(CCN(C)C3=O)c3ccccc32)cc1>>CN1CC[C@@]2(C(=O)Nc3ccccc32)C1=O",
+        "CN1CC[C@@]2(C(=O)Nc3ccccc32)C1=O>>CN1CC[C@]2(C1)C(=O)Nc1ccccc12"
+      ],
+      "target_label": "1"
+    }
+  ],
+  "schema_version": "syninsight.route-extraction.v1",
+  "software": {
+    "native_cdx_support": true,
+    "rdkit": "2026.03.6"
+  },
+  "sources": [
+    {
+      "format": "doc",
+      "page_count": null,
+      "path": "papers/paper-17346d5cc784e311/supporting_information/si-001.doc",
+      "redistribute_source": false,
+      "role": "supporting_information",
+      "sha256": "33462ea58955b1b1ea7cfdc70b04ef5bbdc568e52a3d736b4b7caa875cbf270d",
+      "source_id": "si"
+    }
+  ],
+  "steps": [
+    {
+      "admission_authority": false,
+      "agents": [
+        "sodium borohydride"
+      ],
+      "event_id": "E01",
+      "experimental_stage_count": null,
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source arrow; sequential stages retained together where no internal structure is drawn",
+      "product_labels": [
+        "11"
+      ],
+      "reactant_labels": [
+        "10"
+      ],
+      "solvent_reporting_status": "reported",
+      "solvents": [
+        "methanol"
+      ],
+      "source_references": [
+        {
+          "cdx_sha256": "475e1c2b0c7b5f771850548e555e211a280f42d862c7e9a4811776a0a351d91f",
+          "locator": "SI Scheme 2; ObjectPool/_1842192144/CONTENTS; native object 97681; explicit native reaction endpoints",
+          "locator_kind": "binary_word_cdx_object",
+          "native_object_id": 97681,
+          "ole_stream": "ObjectPool/_1842192144/CONTENTS",
+          "pages": [],
+          "sha256": "33462ea58955b1b1ea7cfdc70b04ef5bbdc568e52a3d736b4b7caa875cbf270d",
+          "source_id": "si"
+        },
+        {
+          "cdx_sha256": "475e1c2b0c7b5f771850548e555e211a280f42d862c7e9a4811776a0a351d91f",
+          "locator": "SI Scheme 2; ObjectPool/_1842192144/CONTENTS; native object 64827; arrow conditions",
+          "locator_kind": "binary_word_cdx_object",
+          "native_object_id": 64827,
+          "ole_stream": "ObjectPool/_1842192144/CONTENTS",
+          "pages": [],
+          "sha256": "33462ea58955b1b1ea7cfdc70b04ef5bbdc568e52a3d736b4b7caa875cbf270d",
+          "source_id": "si"
+        },
+        {
+          "cdx_sha256": "475e1c2b0c7b5f771850548e555e211a280f42d862c7e9a4811776a0a351d91f",
+          "locator": "SI Scheme 2; ObjectPool/_1842192144/CONTENTS; native object 91339; arrow yield",
+          "locator_kind": "binary_word_cdx_object",
+          "native_object_id": 91339,
+          "ole_stream": "ObjectPool/_1842192144/CONTENTS",
+          "pages": [],
+          "sha256": "33462ea58955b1b1ea7cfdc70b04ef5bbdc568e52a3d736b4b7caa875cbf270d",
+          "source_id": "si"
+        }
+      ],
+      "step_id": "E01.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "COc1ccc(CN(C(=O)CC/C=N/[S@@](=O)C(C)(C)C)c2ccccc2I)cc1>>COc1ccc(CN(C(=O)CCCN[S@@](=O)C(C)(C)C)c2ccccc2I)cc1",
+      "unreported_internal_structure": false,
+      "yield_percent": 93
+    },
+    {
+      "admission_authority": false,
+      "agents": [
+        "methyl iodide",
+        "sodium hydride"
+      ],
+      "event_id": "E02",
+      "experimental_stage_count": null,
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source arrow; sequential stages retained together where no internal structure is drawn",
+      "product_labels": [
+        "12"
+      ],
+      "reactant_labels": [
+        "11"
+      ],
+      "solvent_reporting_status": "not_reported_in_available_scheme",
+      "solvents": [],
+      "source_references": [
+        {
+          "cdx_sha256": "475e1c2b0c7b5f771850548e555e211a280f42d862c7e9a4811776a0a351d91f",
+          "locator": "SI Scheme 2; ObjectPool/_1842192144/CONTENTS; native object 97682; explicit native reaction endpoints",
+          "locator_kind": "binary_word_cdx_object",
+          "native_object_id": 97682,
+          "ole_stream": "ObjectPool/_1842192144/CONTENTS",
+          "pages": [],
+          "sha256": "33462ea58955b1b1ea7cfdc70b04ef5bbdc568e52a3d736b4b7caa875cbf270d",
+          "source_id": "si"
+        },
+        {
+          "cdx_sha256": "475e1c2b0c7b5f771850548e555e211a280f42d862c7e9a4811776a0a351d91f",
+          "locator": "SI Scheme 2; ObjectPool/_1842192144/CONTENTS; native object 77565; arrow conditions",
+          "locator_kind": "binary_word_cdx_object",
+          "native_object_id": 77565,
+          "ole_stream": "ObjectPool/_1842192144/CONTENTS",
+          "pages": [],
+          "sha256": "33462ea58955b1b1ea7cfdc70b04ef5bbdc568e52a3d736b4b7caa875cbf270d",
+          "source_id": "si"
+        },
+        {
+          "cdx_sha256": "475e1c2b0c7b5f771850548e555e211a280f42d862c7e9a4811776a0a351d91f",
+          "locator": "SI Scheme 2; ObjectPool/_1842192144/CONTENTS; native object 96268; arrow yield",
+          "locator_kind": "binary_word_cdx_object",
+          "native_object_id": 96268,
+          "ole_stream": "ObjectPool/_1842192144/CONTENTS",
+          "pages": [],
+          "sha256": "33462ea58955b1b1ea7cfdc70b04ef5bbdc568e52a3d736b4b7caa875cbf270d",
+          "source_id": "si"
+        }
+      ],
+      "step_id": "E02.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "COc1ccc(CN(C(=O)CCCN[S@@](=O)C(C)(C)C)c2ccccc2I)cc1>>COc1ccc(CN(C(=O)CCCN(C)[S@@](=O)C(C)(C)C)c2ccccc2I)cc1",
+      "unreported_internal_structure": false,
+      "yield_percent": 96
+    },
+    {
+      "admission_authority": false,
+      "agents": [
+        "copper(I) iodide",
+        "lithium bis(trimethylsilyl)amide",
+        "methyl chloroformate"
+      ],
+      "event_id": "E03",
+      "experimental_stage_count": 2,
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source arrow; sequential stages retained together where no internal structure is drawn",
+      "product_labels": [
+        "13"
+      ],
+      "reactant_labels": [
+        "12"
+      ],
+      "solvent_reporting_status": "not_reported_in_available_scheme",
+      "solvents": [],
+      "source_references": [
+        {
+          "cdx_sha256": "475e1c2b0c7b5f771850548e555e211a280f42d862c7e9a4811776a0a351d91f",
+          "locator": "SI Scheme 2; ObjectPool/_1842192144/CONTENTS; native object 97683; explicit native reaction endpoints",
+          "locator_kind": "binary_word_cdx_object",
+          "native_object_id": 97683,
+          "ole_stream": "ObjectPool/_1842192144/CONTENTS",
+          "pages": [],
+          "sha256": "33462ea58955b1b1ea7cfdc70b04ef5bbdc568e52a3d736b4b7caa875cbf270d",
+          "source_id": "si"
+        },
+        {
+          "cdx_sha256": "475e1c2b0c7b5f771850548e555e211a280f42d862c7e9a4811776a0a351d91f",
+          "locator": "SI Scheme 2; ObjectPool/_1842192144/CONTENTS; native object 87922; arrow conditions",
+          "locator_kind": "binary_word_cdx_object",
+          "native_object_id": 87922,
+          "ole_stream": "ObjectPool/_1842192144/CONTENTS",
+          "pages": [],
+          "sha256": "33462ea58955b1b1ea7cfdc70b04ef5bbdc568e52a3d736b4b7caa875cbf270d",
+          "source_id": "si"
+        },
+        {
+          "cdx_sha256": "475e1c2b0c7b5f771850548e555e211a280f42d862c7e9a4811776a0a351d91f",
+          "locator": "SI Scheme 2; ObjectPool/_1842192144/CONTENTS; native object 89685; arrow yield",
+          "locator_kind": "binary_word_cdx_object",
+          "native_object_id": 89685,
+          "ole_stream": "ObjectPool/_1842192144/CONTENTS",
+          "pages": [],
+          "sha256": "33462ea58955b1b1ea7cfdc70b04ef5bbdc568e52a3d736b4b7caa875cbf270d",
+          "source_id": "si"
+        }
+      ],
+      "step_id": "E03.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "COc1ccc(CN(C(=O)CCCN(C)[S@@](=O)C(C)(C)C)c2ccccc2I)cc1>>COC(=O)[C@@]1(CCN(C)[S@@](=O)C(C)(C)C)C(=O)N(Cc2ccc(OC)cc2)c2ccccc21",
+      "unreported_internal_structure": true,
+      "yield_percent": 87
+    },
+    {
+      "admission_authority": false,
+      "agents": [
+        "hydrogen chloride"
+      ],
+      "event_id": "E04",
+      "experimental_stage_count": null,
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source arrow; sequential stages retained together where no internal structure is drawn",
+      "product_labels": [
+        "14"
+      ],
+      "reactant_labels": [
+        "13"
+      ],
+      "solvent_reporting_status": "reported",
+      "solvents": [
+        "methanol"
+      ],
+      "source_references": [
+        {
+          "cdx_sha256": "475e1c2b0c7b5f771850548e555e211a280f42d862c7e9a4811776a0a351d91f",
+          "locator": "SI Scheme 2; ObjectPool/_1842192144/CONTENTS; native object 97684; explicit native reaction endpoints",
+          "locator_kind": "binary_word_cdx_object",
+          "native_object_id": 97684,
+          "ole_stream": "ObjectPool/_1842192144/CONTENTS",
+          "pages": [],
+          "sha256": "33462ea58955b1b1ea7cfdc70b04ef5bbdc568e52a3d736b4b7caa875cbf270d",
+          "source_id": "si"
+        },
+        {
+          "cdx_sha256": "475e1c2b0c7b5f771850548e555e211a280f42d862c7e9a4811776a0a351d91f",
+          "locator": "SI Scheme 2; ObjectPool/_1842192144/CONTENTS; native object 91438; arrow conditions",
+          "locator_kind": "binary_word_cdx_object",
+          "native_object_id": 91438,
+          "ole_stream": "ObjectPool/_1842192144/CONTENTS",
+          "pages": [],
+          "sha256": "33462ea58955b1b1ea7cfdc70b04ef5bbdc568e52a3d736b4b7caa875cbf270d",
+          "source_id": "si"
+        },
+        {
+          "cdx_sha256": "475e1c2b0c7b5f771850548e555e211a280f42d862c7e9a4811776a0a351d91f",
+          "locator": "SI Scheme 2; ObjectPool/_1842192144/CONTENTS; native object 91439; arrow yield",
+          "locator_kind": "binary_word_cdx_object",
+          "native_object_id": 91439,
+          "ole_stream": "ObjectPool/_1842192144/CONTENTS",
+          "pages": [],
+          "sha256": "33462ea58955b1b1ea7cfdc70b04ef5bbdc568e52a3d736b4b7caa875cbf270d",
+          "source_id": "si"
+        }
+      ],
+      "step_id": "E04.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "COC(=O)[C@@]1(CCN(C)[S@@](=O)C(C)(C)C)C(=O)N(Cc2ccc(OC)cc2)c2ccccc21>>COc1ccc(CN2C(=O)[C@@]3(CCN(C)C3=O)c3ccccc32)cc1",
+      "unreported_internal_structure": false,
+      "yield_percent": 85
+    },
+    {
+      "admission_authority": false,
+      "agents": [
+        "triflic acid"
+      ],
+      "event_id": "E05",
+      "experimental_stage_count": null,
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source arrow; sequential stages retained together where no internal structure is drawn",
+      "product_labels": [
+        "15"
+      ],
+      "reactant_labels": [
+        "14"
+      ],
+      "solvent_reporting_status": "reported",
+      "solvents": [
+        "dichloromethane"
+      ],
+      "source_references": [
+        {
+          "cdx_sha256": "475e1c2b0c7b5f771850548e555e211a280f42d862c7e9a4811776a0a351d91f",
+          "locator": "SI Scheme 2; ObjectPool/_1842192144/CONTENTS; native object 97685; explicit native reaction endpoints",
+          "locator_kind": "binary_word_cdx_object",
+          "native_object_id": 97685,
+          "ole_stream": "ObjectPool/_1842192144/CONTENTS",
+          "pages": [],
+          "sha256": "33462ea58955b1b1ea7cfdc70b04ef5bbdc568e52a3d736b4b7caa875cbf270d",
+          "source_id": "si"
+        },
+        {
+          "cdx_sha256": "475e1c2b0c7b5f771850548e555e211a280f42d862c7e9a4811776a0a351d91f",
+          "locator": "SI Scheme 2; ObjectPool/_1842192144/CONTENTS; native object 91545; arrow conditions",
+          "locator_kind": "binary_word_cdx_object",
+          "native_object_id": 91545,
+          "ole_stream": "ObjectPool/_1842192144/CONTENTS",
+          "pages": [],
+          "sha256": "33462ea58955b1b1ea7cfdc70b04ef5bbdc568e52a3d736b4b7caa875cbf270d",
+          "source_id": "si"
+        },
+        {
+          "cdx_sha256": "475e1c2b0c7b5f771850548e555e211a280f42d862c7e9a4811776a0a351d91f",
+          "locator": "SI Scheme 2; ObjectPool/_1842192144/CONTENTS; native object 96275; arrow yield",
+          "locator_kind": "binary_word_cdx_object",
+          "native_object_id": 96275,
+          "ole_stream": "ObjectPool/_1842192144/CONTENTS",
+          "pages": [],
+          "sha256": "33462ea58955b1b1ea7cfdc70b04ef5bbdc568e52a3d736b4b7caa875cbf270d",
+          "source_id": "si"
+        }
+      ],
+      "step_id": "E05.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "COc1ccc(CN2C(=O)[C@@]3(CCN(C)C3=O)c3ccccc32)cc1>>CN1CC[C@@]2(C(=O)Nc3ccccc32)C1=O",
+      "unreported_internal_structure": false,
+      "yield_percent": 76
+    },
+    {
+      "admission_authority": false,
+      "agents": [
+        "n-butyllithium",
+        "lithium aluminium hydride"
+      ],
+      "event_id": "E06",
+      "experimental_stage_count": null,
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source arrow; sequential stages retained together where no internal structure is drawn",
+      "product_labels": [
+        "1"
+      ],
+      "reactant_labels": [
+        "15"
+      ],
+      "solvent_reporting_status": "not_reported_in_available_scheme",
+      "solvents": [],
+      "source_references": [
+        {
+          "cdx_sha256": "475e1c2b0c7b5f771850548e555e211a280f42d862c7e9a4811776a0a351d91f",
+          "locator": "SI Scheme 2; ObjectPool/_1842192144/CONTENTS; native object 97686; explicit native reaction endpoints",
+          "locator_kind": "binary_word_cdx_object",
+          "native_object_id": 97686,
+          "ole_stream": "ObjectPool/_1842192144/CONTENTS",
+          "pages": [],
+          "sha256": "33462ea58955b1b1ea7cfdc70b04ef5bbdc568e52a3d736b4b7caa875cbf270d",
+          "source_id": "si"
+        },
+        {
+          "cdx_sha256": "475e1c2b0c7b5f771850548e555e211a280f42d862c7e9a4811776a0a351d91f",
+          "locator": "SI Scheme 2; ObjectPool/_1842192144/CONTENTS; native object 96321; arrow conditions",
+          "locator_kind": "binary_word_cdx_object",
+          "native_object_id": 96321,
+          "ole_stream": "ObjectPool/_1842192144/CONTENTS",
+          "pages": [],
+          "sha256": "33462ea58955b1b1ea7cfdc70b04ef5bbdc568e52a3d736b4b7caa875cbf270d",
+          "source_id": "si"
+        },
+        {
+          "cdx_sha256": "475e1c2b0c7b5f771850548e555e211a280f42d862c7e9a4811776a0a351d91f",
+          "locator": "SI Scheme 2; ObjectPool/_1842192144/CONTENTS; native object 96321; arrow yield",
+          "locator_kind": "binary_word_cdx_object",
+          "native_object_id": 96321,
+          "ole_stream": "ObjectPool/_1842192144/CONTENTS",
+          "pages": [],
+          "sha256": "33462ea58955b1b1ea7cfdc70b04ef5bbdc568e52a3d736b4b7caa875cbf270d",
+          "source_id": "si"
+        }
+      ],
+      "step_id": "E06.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "CN1CC[C@@]2(C(=O)Nc3ccccc32)C1=O>>CN1CC[C@]2(C1)C(=O)Nc1ccccc12",
+      "unreported_internal_structure": false,
+      "yield_percent": 42
+    }
+  ],
+  "title": "Concise total synthesis of coerulescine by Cu(I)-catalyzed tandem reaction."
+}

@@ -1,0 +1,821 @@
+[
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E01",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "9"
+    ],
+    "reactant_labels": [
+      "7",
+      "8"
+    ],
+    "reagents": [
+      "LiHMDS"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "7",
+        "percent": 81,
+        "product_label": "9",
+        "scope": "Source-reported yield; source conflict notes take precedence."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: E01",
+        "pages": [
+          3
+        ],
+        "sha256": "8ce7f43bdb2189dc3af79841d4dac5902aa076da0acca8f0ff24f4ea593b3d47",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E01.1"
+    ],
+    "substrate_product_smiles": "CC(=O)CCc1ccc(O[Si](C(C)C)(C(C)C)C(C)C)cc1.O=C1Nc2ccccc2C1=O>>CC(C)[Si](Oc1ccc(CCC(=O)CC2(O)C(=O)Nc3ccccc32)cc1)(C(C)C)C(C)C",
+    "temperature": "-78 to 0 deg C",
+    "time": "18 h",
+    "yield_scope": "Source-reported yield; source conflict notes take precedence."
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E02",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "S1"
+    ],
+    "reactant_labels": [
+      "9"
+    ],
+    "reagents": [
+      "TMSOTf",
+      "Et3N"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "9",
+        "percent": 76,
+        "product_label": "S1",
+        "scope": "Source-reported yield; source conflict notes take precedence."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "dichloromethane"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: E02",
+        "pages": [
+          3,
+          4
+        ],
+        "sha256": "8ce7f43bdb2189dc3af79841d4dac5902aa076da0acca8f0ff24f4ea593b3d47",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E02.1"
+    ],
+    "substrate_product_smiles": "CC(C)[Si](Oc1ccc(CCC(=O)CC2(O)C(=O)Nc3ccccc32)cc1)(C(C)C)C(C)C>>CC(C)[Si](Oc1ccc(CCC(=O)CC2(O[Si](C)(C)C)C(=O)Nc3ccccc32)cc1)(C(C)C)C(C)C",
+    "time": "5 days",
+    "yield_scope": "Source-reported yield; source conflict notes take precedence."
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E03",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "10"
+    ],
+    "reactant_labels": [
+      "S1"
+    ],
+    "reagents": [
+      "Boc2O",
+      "DMAP"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "S1",
+        "percent": 95,
+        "product_label": "10",
+        "scope": "Source-reported yield; source conflict notes take precedence."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "acetonitrile"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: E03",
+        "pages": [
+          4
+        ],
+        "sha256": "8ce7f43bdb2189dc3af79841d4dac5902aa076da0acca8f0ff24f4ea593b3d47",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E03.1"
+    ],
+    "substrate_product_smiles": "CC(C)[Si](Oc1ccc(CCC(=O)CC2(O[Si](C)(C)C)C(=O)Nc3ccccc32)cc1)(C(C)C)C(C)C>>CC(C)[Si](Oc1ccc(CCC(=O)CC2(O[Si](C)(C)C)C(=O)N(C(=O)OC(C)(C)C)c3ccccc32)cc1)(C(C)C)C(C)C",
+    "temperature": "0 deg C",
+    "time": "3 h",
+    "yield_scope": "Source-reported yield; source conflict notes take precedence."
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E04",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "11"
+    ],
+    "reactant_labels": [
+      "10"
+    ],
+    "reagents": [
+      "LDA",
+      "HMPA",
+      "TBSCl"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "10",
+        "percent": 85,
+        "product_label": "11",
+        "scope": "Source-reported yield; source conflict notes take precedence."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: E04",
+        "pages": [
+          4
+        ],
+        "sha256": "8ce7f43bdb2189dc3af79841d4dac5902aa076da0acca8f0ff24f4ea593b3d47",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E04.1"
+    ],
+    "substrate_product_smiles": "CC(C)[Si](Oc1ccc(CCC(=O)CC2(O[Si](C)(C)C)C(=O)N(C(=O)OC(C)(C)C)c3ccccc32)cc1)(C(C)C)C(C)C>>CC(C)[Si](Oc1ccc(C/C=C(/CC2(O[Si](C)(C)C)C(=O)N(C(=O)OC(C)(C)C)c3ccccc32)O[Si](C)(C)C(C)(C)C)cc1)(C(C)C)C(C)C",
+    "temperature": "-78 deg C",
+    "yield_scope": "Source-reported yield; source conflict notes take precedence."
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E05",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "6"
+    ],
+    "reactant_labels": [
+      "11"
+    ],
+    "reagents": [
+      "NaBH4"
+    ],
+    "reported_yields": [],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "THF",
+      "2,2,2-trifluoroethanol"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: E05",
+        "pages": [
+          5
+        ],
+        "sha256": "8ce7f43bdb2189dc3af79841d4dac5902aa076da0acca8f0ff24f4ea593b3d47",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E05.1"
+    ],
+    "substrate_product_smiles": "CC(C)[Si](Oc1ccc(C/C=C(/CC2(O[Si](C)(C)C)C(=O)N(C(=O)OC(C)(C)C)c3ccccc32)O[Si](C)(C)C(C)(C)C)cc1)(C(C)C)C(C)C>>CC(C)[Si](Oc1ccc(C/C=C(/CC2(O[Si](C)(C)C)c3ccccc3N(C(=O)OC(C)(C)C)C2O)O[Si](C)(C)C(C)(C)C)cc1)(C(C)C)C(C)C",
+    "temperature": "0 deg C",
+    "time": "18 h",
+    "yield_scope": "Crude aminal taken onward; no separate isolated yield."
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E06",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "4"
+    ],
+    "reactant_labels": [
+      "6"
+    ],
+    "reagents": [
+      "BF3.OEt2",
+      "MS5A"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "11",
+        "percent": 40,
+        "product_label": "4",
+        "scope": "40% combined over reduction and cyclization from 11."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "toluene"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: E06",
+        "pages": [
+          5
+        ],
+        "sha256": "8ce7f43bdb2189dc3af79841d4dac5902aa076da0acca8f0ff24f4ea593b3d47",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E06.1"
+    ],
+    "substrate_product_smiles": "CC(C)[Si](Oc1ccc(C/C=C(/CC2(O[Si](C)(C)C)c3ccccc3N(C(=O)OC(C)(C)C)C2O)O[Si](C)(C)C(C)(C)C)cc1)(C(C)C)C(C)C>>CC(C)[Si](Oc1ccc(CC2C(=O)Cc3c2n(C(=O)OC(C)(C)C)c2ccccc32)cc1)(C(C)C)C(C)C",
+    "temperature": "0 deg C",
+    "time": "3 min",
+    "yield_from_label": "11",
+    "yield_scope": "40% combined over reduction and cyclization from 11."
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E07",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "12"
+    ],
+    "product_relationship": "Unassigned diastereomeric mixture, two principal signals 74:26; up to six possible stereoisomers.",
+    "reactant_labels": [
+      "4"
+    ],
+    "reactant_stoichiometry": {
+      "4": 2
+    },
+    "reagents": [
+      "LiHMDS",
+      "FeCl3"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "4",
+        "percent": 86,
+        "product_label": "12",
+        "scope": "Source-reported yield; source conflict notes take precedence."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: E07",
+        "pages": [
+          5,
+          6
+        ],
+        "sha256": "8ce7f43bdb2189dc3af79841d4dac5902aa076da0acca8f0ff24f4ea593b3d47",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E07.1"
+    ],
+    "substrate_product_smiles": "CC(C)[Si](Oc1ccc(CC2C(=O)Cc3c2n(C(=O)OC(C)(C)C)c2ccccc32)cc1)(C(C)C)C(C)C>>CC(C)[Si](Oc1ccc(CC2C(=O)C(C3C(=O)C(Cc4ccc(O[Si](C(C)C)(C(C)C)C(C)C)cc4)c4c3c3ccccc3n4C(=O)OC(C)(C)C)c3c2n(C(=O)OC(C)(C)C)c2ccccc32)cc1)(C(C)C)C(C)C",
+    "temperature": "-78 deg C",
+    "yield_scope": "Source-reported yield; source conflict notes take precedence."
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E08",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "13",
+      "14"
+    ],
+    "reactant_labels": [
+      "12"
+    ],
+    "reagents": [
+      "Cu powder",
+      "silica gel"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "12",
+        "percent": 44,
+        "product_label": "13",
+        "scope": "Source-reported yield; source conflict notes take precedence."
+      },
+      {
+        "from_label": "12",
+        "percent": 20,
+        "product_label": "14",
+        "scope": "Source-reported yield; source conflict notes take precedence."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: E08",
+        "pages": [
+          6,
+          7
+        ],
+        "sha256": "8ce7f43bdb2189dc3af79841d4dac5902aa076da0acca8f0ff24f4ea593b3d47",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E08.1"
+    ],
+    "substrate_product_smiles": "CC(C)[Si](Oc1ccc(CC2C(=O)C(C3C(=O)C(Cc4ccc(O[Si](C(C)C)(C(C)C)C(C)C)cc4)c4c3c3ccccc3n4C(=O)OC(C)(C)C)c3c2n(C(=O)OC(C)(C)C)c2ccccc32)cc1)(C(C)C)C(C)C>>CC(C)[Si](Oc1ccc(CC2C(=O)C(C3C(=O)C(Cc4ccc(O[Si](C(C)C)(C(C)C)C(C)C)cc4)c4[nH]c5ccccc5c43)c3c2[nH]c2ccccc32)cc1)(C(C)C)C(C)C.CC(C)[Si](Oc1ccc(CC2C(=O)C(C3C(=O)C(Cc4ccc(O[Si](C(C)C)(C(C)C)C(C)C)cc4)c4c3c3ccccc3n4C(=O)OC(C)(C)C)c3c2[nH]c2ccccc32)cc1)(C(C)C)C(C)C",
+    "temperature": "155 deg C",
+    "time": "18 h",
+    "yield_scope": "Source-reported yield; source conflict notes take precedence."
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E09",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "13"
+    ],
+    "reactant_labels": [
+      "14"
+    ],
+    "reagents": [
+      "Cu powder",
+      "silica gel"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "14",
+        "percent": 68,
+        "product_label": "13",
+        "scope": "Source-reported yield; source conflict notes take precedence."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: E09",
+        "pages": [
+          7
+        ],
+        "sha256": "8ce7f43bdb2189dc3af79841d4dac5902aa076da0acca8f0ff24f4ea593b3d47",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E09.1"
+    ],
+    "substrate_product_smiles": "CC(C)[Si](Oc1ccc(CC2C(=O)C(C3C(=O)C(Cc4ccc(O[Si](C(C)C)(C(C)C)C(C)C)cc4)c4c3c3ccccc3n4C(=O)OC(C)(C)C)c3c2[nH]c2ccccc32)cc1)(C(C)C)C(C)C>>CC(C)[Si](Oc1ccc(CC2C(=O)C(C3C(=O)C(Cc4ccc(O[Si](C(C)C)(C(C)C)C(C)C)cc4)c4[nH]c5ccccc5c43)c3c2[nH]c2ccccc32)cc1)(C(C)C)C(C)C",
+    "temperature": "155 deg C",
+    "time": "18 h",
+    "yield_scope": "Source-reported yield; source conflict notes take precedence."
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E10",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "15"
+    ],
+    "product_relationship": "83:17 unassigned diastereomeric mixture; E sidechain alkenes.",
+    "reactant_labels": [
+      "13"
+    ],
+    "reagents": [
+      "t-BuOCl"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "13",
+        "percent": 87,
+        "product_label": "15",
+        "scope": "Source-reported yield; source conflict notes take precedence."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "dichloromethane"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: E10",
+        "pages": [
+          7,
+          8
+        ],
+        "sha256": "8ce7f43bdb2189dc3af79841d4dac5902aa076da0acca8f0ff24f4ea593b3d47",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E10.1"
+    ],
+    "substrate_product_smiles": "CC(C)[Si](Oc1ccc(CC2C(=O)C(C3C(=O)C(Cc4ccc(O[Si](C(C)C)(C(C)C)C(C)C)cc4)c4[nH]c5ccccc5c43)c3c2[nH]c2ccccc32)cc1)(C(C)C)C(C)C>>CC(C)[Si](Oc1ccc(C=C2C(=O)C(C3C(=O)C(=Cc4ccc(O[Si](C(C)C)(C(C)C)C(C)C)cc4)c4[nH]c5ccccc5c43)c3c2[nH]c2ccccc32)cc1)(C(C)C)C(C)C",
+    "temperature": "0 deg C",
+    "time": "3 h",
+    "yield_scope": "Source-reported yield; source conflict notes take precedence."
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E11",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "16"
+    ],
+    "reactant_labels": [
+      "15"
+    ],
+    "reagents": [
+      "DDQ"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "15",
+        "percent": 72,
+        "product_label": "16",
+        "scope": "Source-reported yield; source conflict notes take precedence."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "dichloromethane"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: E11",
+        "pages": [
+          8
+        ],
+        "sha256": "8ce7f43bdb2189dc3af79841d4dac5902aa076da0acca8f0ff24f4ea593b3d47",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E11.1"
+    ],
+    "substrate_product_smiles": "CC(C)[Si](Oc1ccc(C=C2C(=O)C(C3C(=O)C(=Cc4ccc(O[Si](C(C)C)(C(C)C)C(C)C)cc4)c4[nH]c5ccccc5c43)c3c2[nH]c2ccccc32)cc1)(C(C)C)C(C)C>>CC(C)[Si](Oc1ccc(C=C2C(=O)C(C3=C4C(=Nc5ccccc54)C(=Cc4ccc(O[Si](C(C)C)(C(C)C)C(C)C)cc4)C3=O)=C3C2=Nc2ccccc23)cc1)(C(C)C)C(C)C",
+    "temperature": "0 deg C",
+    "time": "30 min",
+    "yield_scope": "Source-reported yield; source conflict notes take precedence."
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E12",
+    "experimental_stage_count": 2,
+    "formal_benchmark_eligible": false,
+    "operation_stages": [
+      "sidechain oxidation",
+      "core oxidation"
+    ],
+    "product_labels": [
+      "16"
+    ],
+    "reactant_labels": [
+      "13"
+    ],
+    "reagents": [
+      "t-BuOCl",
+      "DDQ"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "13",
+        "percent": 70,
+        "product_label": "16",
+        "scope": "Source-reported yield; source conflict notes take precedence."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "dichloromethane"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: E12",
+        "pages": [
+          8
+        ],
+        "sha256": "8ce7f43bdb2189dc3af79841d4dac5902aa076da0acca8f0ff24f4ea593b3d47",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E12.1"
+    ],
+    "substrate_product_smiles": "CC(C)[Si](Oc1ccc(CC2C(=O)C(C3C(=O)C(Cc4ccc(O[Si](C(C)C)(C(C)C)C(C)C)cc4)c4[nH]c5ccccc5c43)c3c2[nH]c2ccccc32)cc1)(C(C)C)C(C)C>>CC(C)[Si](Oc1ccc(C=C2C(=O)C(C3=C4C(=Nc5ccccc54)C(=Cc4ccc(O[Si](C(C)C)(C(C)C)C(C)C)cc4)C3=O)=C3C2=Nc2ccccc23)cc1)(C(C)C)C(C)C",
+    "yield_scope": "Source-reported yield; source conflict notes take precedence."
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E13",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "1"
+    ],
+    "reactant_labels": [
+      "16"
+    ],
+    "reagents": [
+      "CsF",
+      "AcOH"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "16",
+        "percent": 88,
+        "product_label": "1",
+        "scope": "Source-reported yield; source conflict notes take precedence."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: E13",
+        "pages": [
+          9
+        ],
+        "sha256": "8ce7f43bdb2189dc3af79841d4dac5902aa076da0acca8f0ff24f4ea593b3d47",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E13.1"
+    ],
+    "substrate_product_smiles": "CC(C)[Si](Oc1ccc(C=C2C(=O)C(C3=C4C(=Nc5ccccc54)C(=Cc4ccc(O[Si](C(C)C)(C(C)C)C(C)C)cc4)C3=O)=C3C2=Nc2ccccc23)cc1)(C(C)C)C(C)C>>O=C1C(=Cc2ccc(O)cc2)C2=Nc3ccccc3C2=C1C1=C2C(=Nc3ccccc32)C(=Cc2ccc(O)cc2)C1=O",
+    "temperature": "0 deg C",
+    "time": "18 h",
+    "yield_scope": "Source-reported yield; source conflict notes take precedence."
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E14",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "17"
+    ],
+    "reactant_labels": [
+      "16"
+    ],
+    "reagents": [
+      "ascorbic acid"
+    ],
+    "reported_yields": [],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: E14",
+        "pages": [
+          9
+        ],
+        "sha256": "8ce7f43bdb2189dc3af79841d4dac5902aa076da0acca8f0ff24f4ea593b3d47",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E14.1"
+    ],
+    "substrate_product_smiles": "CC(C)[Si](Oc1ccc(C=C2C(=O)C(C3=C4C(=Nc5ccccc54)C(=Cc4ccc(O[Si](C(C)C)(C(C)C)C(C)C)cc4)C3=O)=C3C2=Nc2ccccc23)cc1)(C(C)C)C(C)C>>CC(C)[Si](Oc1ccc(C=C2C(=O)C(=C3C(=O)C(=Cc4ccc(O[Si](C(C)C)(C(C)C)C(C)C)cc4)c4[nH]c5ccccc5c43)c3c2[nH]c2ccccc32)cc1)(C(C)C)C(C)C",
+    "time": "30 min",
+    "yield_scope": "Crude material in SI; main scheme labels quantitative."
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E15",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "2"
+    ],
+    "reactant_labels": [
+      "17"
+    ],
+    "reagents": [
+      "CsF",
+      "AcOH"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "17",
+        "percent": 76,
+        "product_label": "2",
+        "scope": "Source-reported yield; source conflict notes take precedence."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: E15",
+        "pages": [
+          10
+        ],
+        "sha256": "8ce7f43bdb2189dc3af79841d4dac5902aa076da0acca8f0ff24f4ea593b3d47",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E15.1"
+    ],
+    "substrate_product_smiles": "CC(C)[Si](Oc1ccc(C=C2C(=O)C(=C3C(=O)C(=Cc4ccc(O[Si](C(C)C)(C(C)C)C(C)C)cc4)c4[nH]c5ccccc5c43)c3c2[nH]c2ccccc32)cc1)(C(C)C)C(C)C>>O=C1C(=Cc2ccc(O)cc2)c2[nH]c3ccccc3c2C1=C1C(=O)C(=Cc2ccc(O)cc2)c2[nH]c3ccccc3c21",
+    "temperature": "0 deg C",
+    "time": "18 h",
+    "yield_scope": "Source-reported yield; source conflict notes take precedence."
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E16",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "16"
+    ],
+    "reactant_labels": [
+      "17"
+    ],
+    "reagents": [
+      "DDQ"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "17",
+        "percent": 87,
+        "product_label": "16",
+        "scope": "Source-reported yield; source conflict notes take precedence."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "dichloromethane"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: E16",
+        "pages": [
+          8
+        ],
+        "sha256": "8ce7f43bdb2189dc3af79841d4dac5902aa076da0acca8f0ff24f4ea593b3d47",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E16.1"
+    ],
+    "substrate_product_smiles": "CC(C)[Si](Oc1ccc(C=C2C(=O)C(=C3C(=O)C(=Cc4ccc(O[Si](C(C)C)(C(C)C)C(C)C)cc4)c4[nH]c5ccccc5c43)c3c2[nH]c2ccccc32)cc1)(C(C)C)C(C)C>>CC(C)[Si](Oc1ccc(C=C2C(=O)C(C3=C4C(=Nc5ccccc54)C(=Cc4ccc(O[Si](C(C)C)(C(C)C)C(C)C)cc4)C3=O)=C3C2=Nc2ccccc23)cc1)(C(C)C)C(C)C",
+    "temperature": "0 deg C",
+    "time": "30 min",
+    "yield_scope": "Source-reported yield; source conflict notes take precedence."
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E17",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "1"
+    ],
+    "reactant_labels": [
+      "2"
+    ],
+    "reagents": [
+      "NaIO4"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "2",
+        "percent": 100,
+        "product_label": "1",
+        "scope": "Source-reported yield; source conflict notes take precedence."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "THF",
+      "water"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: E17",
+        "pages": [
+          9
+        ],
+        "sha256": "8ce7f43bdb2189dc3af79841d4dac5902aa076da0acca8f0ff24f4ea593b3d47",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E17.1"
+    ],
+    "substrate_product_smiles": "O=C1C(=Cc2ccc(O)cc2)c2[nH]c3ccccc3c2C1=C1C(=O)C(=Cc2ccc(O)cc2)c2[nH]c3ccccc3c21>>O=C1C(=Cc2ccc(O)cc2)C2=Nc3ccccc3C2=C1C1=C2C(=Nc3ccccc32)C(=Cc2ccc(O)cc2)C1=O",
+    "time": "6 h",
+    "yield_scope": "Source-reported yield; source conflict notes take precedence."
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E18",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "2"
+    ],
+    "reactant_labels": [
+      "1"
+    ],
+    "reagents": [
+      "ascorbic acid"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "1",
+        "percent": 75,
+        "product_label": "2",
+        "scope": "Source-reported yield; source conflict notes take precedence."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: E18",
+        "pages": [
+          10
+        ],
+        "sha256": "8ce7f43bdb2189dc3af79841d4dac5902aa076da0acca8f0ff24f4ea593b3d47",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E18.1"
+    ],
+    "substrate_product_smiles": "O=C1C(=Cc2ccc(O)cc2)C2=Nc3ccccc3C2=C1C1=C2C(=Nc3ccccc32)C(=Cc2ccc(O)cc2)C1=O>>O=C1C(=Cc2ccc(O)cc2)c2[nH]c3ccccc3c2C1=C1C(=O)C(=Cc2ccc(O)cc2)c2[nH]c3ccccc3c21",
+    "time": "1 h",
+    "yield_scope": "Source-reported yield; source conflict notes take precedence."
+  }
+]

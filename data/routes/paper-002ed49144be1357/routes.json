@@ -1,0 +1,1192 @@
+[
+  {
+    "admission_authority": false,
+    "formal_benchmark_eligible": false,
+    "from_commercial_starting_materials_complete": false,
+    "full_article_route_coverage": true,
+    "molecule_smiles_sequence": [
+      "C=CCC[C@]1(C)CC2(CC[C@H]1C(=C)C)OCCO2",
+      "C=CCC[C@]1(C)CC2(CC[C@H]1C(=C)CO)OCCO2",
+      "C[C@]12CCC=C(CO)[C@@H]1CCC1(C2)OCCO1",
+      "C[C@]12CCC[C@H](CO)[C@@H]1CCC1(C2)OCCO1",
+      "Cc1ccc(S(=O)(=O)OC[C@H]2CCC[C@]3(C)CC4(CC[C@@H]23)OCCO4)cc1",
+      "C=C1CCC[C@]2(C)CC3(CC[C@@H]12)OCCO3",
+      "C=C1CCC[C@]2(C)CC(=O)CC[C@@H]12",
+      "COC(=O)C(C)=O",
+      "C=C1CCC[C@]2(C)C=C3OC(=O)C(C)=C3C[C@@H]12"
+    ],
+    "ordered_event_ids": [
+      "E01",
+      "E02",
+      "E03",
+      "E04",
+      "E05",
+      "E06",
+      "E07"
+    ],
+    "ordered_molecule_labels": [
+      "32",
+      "23",
+      "33",
+      "34",
+      "22",
+      "30",
+      "18",
+      "methyl pyruvate",
+      "2"
+    ],
+    "ordered_step_ids": [
+      "E01.1",
+      "E02.1",
+      "E03.1",
+      "E04.1",
+      "E05.1",
+      "E06.1",
+      "E07.1"
+    ],
+    "route_id": "ATL-I",
+    "route_type": "source_bound_successful_synthesis",
+    "split_group": "10.1021/acs.joc.6c00826",
+    "start_label": "32",
+    "start_labels": [
+      "32",
+      "methyl pyruvate"
+    ],
+    "step_reaction_smiles_sequence": [
+      "C=CCC[C@]1(C)CC2(CC[C@H]1C(=C)C)OCCO2>>C=CCC[C@]1(C)CC2(CC[C@H]1C(=C)CO)OCCO2",
+      "C=CCC[C@]1(C)CC2(CC[C@H]1C(=C)CO)OCCO2>>C[C@]12CCC=C(CO)[C@@H]1CCC1(C2)OCCO1",
+      "C[C@]12CCC=C(CO)[C@@H]1CCC1(C2)OCCO1>>C[C@]12CCC[C@H](CO)[C@@H]1CCC1(C2)OCCO1",
+      "C[C@]12CCC[C@H](CO)[C@@H]1CCC1(C2)OCCO1>>Cc1ccc(S(=O)(=O)OC[C@H]2CCC[C@]3(C)CC4(CC[C@@H]23)OCCO4)cc1",
+      "Cc1ccc(S(=O)(=O)OC[C@H]2CCC[C@]3(C)CC4(CC[C@@H]23)OCCO4)cc1>>C=C1CCC[C@]2(C)CC3(CC[C@@H]12)OCCO3",
+      "C=C1CCC[C@]2(C)CC3(CC[C@@H]12)OCCO3>>C=C1CCC[C@]2(C)CC(=O)CC[C@@H]12",
+      "C=C1CCC[C@]2(C)CC(=O)CC[C@@H]12.COC(=O)C(C)=O>>C=C1CCC[C@]2(C)C=C3OC(=O)C(C)=C3C[C@@H]12"
+    ],
+    "target_label": "2"
+  },
+  {
+    "admission_authority": false,
+    "formal_benchmark_eligible": false,
+    "from_commercial_starting_materials_complete": false,
+    "full_article_route_coverage": true,
+    "molecule_smiles_sequence": [
+      "C=CCC[C@]1(C)CC2(CC[C@H]1C(=C)C)OCCO2",
+      "C=CCC[C@]1(C)CC2(CC[C@H]1C(=C)CO)OCCO2",
+      "C[C@]12CCC=C(CO)[C@@H]1CCC1(C2)OCCO1",
+      "C[C@]12CCC[C@H](CO)[C@@H]1CCC1(C2)OCCO1",
+      "Cc1ccc(S(=O)(=O)OC[C@H]2CCC[C@]3(C)CC4(CC[C@@H]23)OCCO4)cc1",
+      "C=C1CCC[C@]2(C)CC3(CC[C@@H]12)OCCO3",
+      "C=C1CCC[C@]2(C)CC(=O)CC[C@@H]12",
+      "COCC(=O)COC",
+      "C=C1CCC[C@]2(C)C[C@@H]3OC(=O)C(C)=C3C[C@@H]12"
+    ],
+    "ordered_event_ids": [
+      "E01",
+      "E02",
+      "E03",
+      "E04",
+      "E05",
+      "E06",
+      "E08"
+    ],
+    "ordered_molecule_labels": [
+      "32",
+      "23",
+      "33",
+      "34",
+      "22",
+      "30",
+      "18",
+      "dimethoxyacetone",
+      "3"
+    ],
+    "ordered_step_ids": [
+      "E01.1",
+      "E02.1",
+      "E03.1",
+      "E04.1",
+      "E05.1",
+      "E06.1",
+      "E08.1"
+    ],
+    "route_id": "ATL-II",
+    "route_type": "source_bound_successful_synthesis",
+    "split_group": "10.1021/acs.joc.6c00826",
+    "start_label": "32",
+    "start_labels": [
+      "32",
+      "dimethoxyacetone"
+    ],
+    "step_reaction_smiles_sequence": [
+      "C=CCC[C@]1(C)CC2(CC[C@H]1C(=C)C)OCCO2>>C=CCC[C@]1(C)CC2(CC[C@H]1C(=C)CO)OCCO2",
+      "C=CCC[C@]1(C)CC2(CC[C@H]1C(=C)CO)OCCO2>>C[C@]12CCC=C(CO)[C@@H]1CCC1(C2)OCCO1",
+      "C[C@]12CCC=C(CO)[C@@H]1CCC1(C2)OCCO1>>C[C@]12CCC[C@H](CO)[C@@H]1CCC1(C2)OCCO1",
+      "C[C@]12CCC[C@H](CO)[C@@H]1CCC1(C2)OCCO1>>Cc1ccc(S(=O)(=O)OC[C@H]2CCC[C@]3(C)CC4(CC[C@@H]23)OCCO4)cc1",
+      "Cc1ccc(S(=O)(=O)OC[C@H]2CCC[C@]3(C)CC4(CC[C@@H]23)OCCO4)cc1>>C=C1CCC[C@]2(C)CC3(CC[C@@H]12)OCCO3",
+      "C=C1CCC[C@]2(C)CC3(CC[C@@H]12)OCCO3>>C=C1CCC[C@]2(C)CC(=O)CC[C@@H]12",
+      "C=C1CCC[C@]2(C)CC(=O)CC[C@@H]12.COCC(=O)COC>>C=C1CCC[C@]2(C)C[C@@H]3OC(=O)C(C)=C3C[C@@H]12"
+    ],
+    "target_label": "3"
+  },
+  {
+    "admission_authority": false,
+    "formal_benchmark_eligible": false,
+    "from_commercial_starting_materials_complete": false,
+    "full_article_route_coverage": true,
+    "molecule_smiles_sequence": [
+      "C=CCC[C@]1(C)CC2(CC[C@H]1C(=C)C)OCCO2",
+      "C=CCC[C@]1(C)CC2(CC[C@H]1C(=C)CO)OCCO2",
+      "C[C@]12CCC=C(CO)[C@@H]1CCC1(C2)OCCO1",
+      "C[C@]12CCC[C@H](CO)[C@@H]1CCC1(C2)OCCO1",
+      "Cc1ccc(S(=O)(=O)OC[C@H]2CCC[C@]3(C)CC4(CC[C@@H]23)OCCO4)cc1",
+      "C=C1CCC[C@]2(C)CC3(CC[C@@H]12)OCCO3",
+      "C=C1CCC[C@]2(C)CC(=O)CC[C@@H]12",
+      "COCC(=O)COC",
+      "C=C1CCC[C@]2(C)C[C@@H]3OC(=O)C(C)=C3C[C@@H]12",
+      "C=C1CCC[C@]2(C)Cc3occ(C)c3C[C@@H]12"
+    ],
+    "ordered_event_ids": [
+      "E01",
+      "E02",
+      "E03",
+      "E04",
+      "E05",
+      "E06",
+      "E08",
+      "E09"
+    ],
+    "ordered_molecule_labels": [
+      "32",
+      "23",
+      "33",
+      "34",
+      "22",
+      "30",
+      "18",
+      "dimethoxyacetone",
+      "3",
+      "1"
+    ],
+    "ordered_step_ids": [
+      "E01.1",
+      "E02.1",
+      "E03.1",
+      "E04.1",
+      "E05.1",
+      "E06.1",
+      "E08.1",
+      "E09.1"
+    ],
+    "route_id": "atractylon",
+    "route_type": "source_bound_successful_synthesis",
+    "split_group": "10.1021/acs.joc.6c00826",
+    "start_label": "32",
+    "start_labels": [
+      "32",
+      "dimethoxyacetone"
+    ],
+    "step_reaction_smiles_sequence": [
+      "C=CCC[C@]1(C)CC2(CC[C@H]1C(=C)C)OCCO2>>C=CCC[C@]1(C)CC2(CC[C@H]1C(=C)CO)OCCO2",
+      "C=CCC[C@]1(C)CC2(CC[C@H]1C(=C)CO)OCCO2>>C[C@]12CCC=C(CO)[C@@H]1CCC1(C2)OCCO1",
+      "C[C@]12CCC=C(CO)[C@@H]1CCC1(C2)OCCO1>>C[C@]12CCC[C@H](CO)[C@@H]1CCC1(C2)OCCO1",
+      "C[C@]12CCC[C@H](CO)[C@@H]1CCC1(C2)OCCO1>>Cc1ccc(S(=O)(=O)OC[C@H]2CCC[C@]3(C)CC4(CC[C@@H]23)OCCO4)cc1",
+      "Cc1ccc(S(=O)(=O)OC[C@H]2CCC[C@]3(C)CC4(CC[C@@H]23)OCCO4)cc1>>C=C1CCC[C@]2(C)CC3(CC[C@@H]12)OCCO3",
+      "C=C1CCC[C@]2(C)CC3(CC[C@@H]12)OCCO3>>C=C1CCC[C@]2(C)CC(=O)CC[C@@H]12",
+      "C=C1CCC[C@]2(C)CC(=O)CC[C@@H]12.COCC(=O)COC>>C=C1CCC[C@]2(C)C[C@@H]3OC(=O)C(C)=C3C[C@@H]12",
+      "C=C1CCC[C@]2(C)C[C@@H]3OC(=O)C(C)=C3C[C@@H]12>>C=C1CCC[C@]2(C)Cc3occ(C)c3C[C@@H]12"
+    ],
+    "target_label": "1"
+  },
+  {
+    "admission_authority": false,
+    "formal_benchmark_eligible": false,
+    "from_commercial_starting_materials_complete": false,
+    "full_article_route_coverage": true,
+    "molecule_smiles_sequence": [
+      "C=CCC[C@]1(C)CC2(CC[C@H]1C(=C)C)OCCO2",
+      "C=CCC[C@]1(C)CC2(CC[C@H]1C(=C)CO)OCCO2",
+      "C[C@]12CCC=C(CO)[C@@H]1CCC1(C2)OCCO1",
+      "C[C@]12CCC[C@H](CO)[C@@H]1CCC1(C2)OCCO1",
+      "Cc1ccc(S(=O)(=O)OC[C@H]2CCC[C@]3(C)CC4(CC[C@@H]23)OCCO4)cc1",
+      "C=C1CCC[C@]2(C)CC3(CC[C@@H]12)OCCO3",
+      "C=C1CCC[C@]2(C)CC(=O)CC[C@@H]12",
+      "COC(=O)C(C)=O",
+      "C=C1CCC[C@]2(C)C=C3OC(=O)C(C)=C3C[C@@H]12",
+      "O",
+      "C=C1CCC[C@]2(C)C[C@]3(O)OC(=O)C(C)=C3C[C@@H]12"
+    ],
+    "ordered_event_ids": [
+      "E01",
+      "E02",
+      "E03",
+      "E04",
+      "E05",
+      "E06",
+      "E07",
+      "D01"
+    ],
+    "ordered_molecule_labels": [
+      "32",
+      "23",
+      "33",
+      "34",
+      "22",
+      "30",
+      "18",
+      "methyl pyruvate",
+      "2",
+      "water",
+      "4"
+    ],
+    "ordered_step_ids": [
+      "E01.1",
+      "E02.1",
+      "E03.1",
+      "E04.1",
+      "E05.1",
+      "E06.1",
+      "E07.1",
+      "D01.1"
+    ],
+    "route_id": "diversification 4",
+    "route_type": "source_bound_successful_synthesis",
+    "split_group": "10.1021/acs.joc.6c00826",
+    "start_label": "32",
+    "start_labels": [
+      "32",
+      "methyl pyruvate",
+      "water"
+    ],
+    "step_reaction_smiles_sequence": [
+      "C=CCC[C@]1(C)CC2(CC[C@H]1C(=C)C)OCCO2>>C=CCC[C@]1(C)CC2(CC[C@H]1C(=C)CO)OCCO2",
+      "C=CCC[C@]1(C)CC2(CC[C@H]1C(=C)CO)OCCO2>>C[C@]12CCC=C(CO)[C@@H]1CCC1(C2)OCCO1",
+      "C[C@]12CCC=C(CO)[C@@H]1CCC1(C2)OCCO1>>C[C@]12CCC[C@H](CO)[C@@H]1CCC1(C2)OCCO1",
+      "C[C@]12CCC[C@H](CO)[C@@H]1CCC1(C2)OCCO1>>Cc1ccc(S(=O)(=O)OC[C@H]2CCC[C@]3(C)CC4(CC[C@@H]23)OCCO4)cc1",
+      "Cc1ccc(S(=O)(=O)OC[C@H]2CCC[C@]3(C)CC4(CC[C@@H]23)OCCO4)cc1>>C=C1CCC[C@]2(C)CC3(CC[C@@H]12)OCCO3",
+      "C=C1CCC[C@]2(C)CC3(CC[C@@H]12)OCCO3>>C=C1CCC[C@]2(C)CC(=O)CC[C@@H]12",
+      "C=C1CCC[C@]2(C)CC(=O)CC[C@@H]12.COC(=O)C(C)=O>>C=C1CCC[C@]2(C)C=C3OC(=O)C(C)=C3C[C@@H]12",
+      "C=C1CCC[C@]2(C)C=C3OC(=O)C(C)=C3C[C@@H]12.O>>C=C1CCC[C@]2(C)C[C@]3(O)OC(=O)C(C)=C3C[C@@H]12"
+    ],
+    "target_label": "4"
+  },
+  {
+    "admission_authority": false,
+    "formal_benchmark_eligible": false,
+    "from_commercial_starting_materials_complete": false,
+    "full_article_route_coverage": true,
+    "molecule_smiles_sequence": [
+      "C=CCC[C@]1(C)CC2(CC[C@H]1C(=C)C)OCCO2",
+      "C=CCC[C@]1(C)CC2(CC[C@H]1C(=C)CO)OCCO2",
+      "C[C@]12CCC=C(CO)[C@@H]1CCC1(C2)OCCO1",
+      "C[C@]12CCC[C@H](CO)[C@@H]1CCC1(C2)OCCO1",
+      "Cc1ccc(S(=O)(=O)OC[C@H]2CCC[C@]3(C)CC4(CC[C@@H]23)OCCO4)cc1",
+      "C=C1CCC[C@]2(C)CC3(CC[C@@H]12)OCCO3",
+      "C=C1CCC[C@]2(C)CC(=O)CC[C@@H]12",
+      "COC(=O)C(C)=O",
+      "C=C1CCC[C@]2(C)C=C3OC(=O)C(C)=C3C[C@@H]12",
+      "CO",
+      "C=C1CCC[C@]2(C)C[C@]3(OC)OC(=O)C(C)=C3C[C@@H]12"
+    ],
+    "ordered_event_ids": [
+      "E01",
+      "E02",
+      "E03",
+      "E04",
+      "E05",
+      "E06",
+      "E07",
+      "D02"
+    ],
+    "ordered_molecule_labels": [
+      "32",
+      "23",
+      "33",
+      "34",
+      "22",
+      "30",
+      "18",
+      "methyl pyruvate",
+      "2",
+      "methanol",
+      "7"
+    ],
+    "ordered_step_ids": [
+      "E01.1",
+      "E02.1",
+      "E03.1",
+      "E04.1",
+      "E05.1",
+      "E06.1",
+      "E07.1",
+      "D02.1"
+    ],
+    "route_id": "diversification 7",
+    "route_type": "source_bound_successful_synthesis",
+    "split_group": "10.1021/acs.joc.6c00826",
+    "start_label": "32",
+    "start_labels": [
+      "32",
+      "methyl pyruvate",
+      "methanol"
+    ],
+    "step_reaction_smiles_sequence": [
+      "C=CCC[C@]1(C)CC2(CC[C@H]1C(=C)C)OCCO2>>C=CCC[C@]1(C)CC2(CC[C@H]1C(=C)CO)OCCO2",
+      "C=CCC[C@]1(C)CC2(CC[C@H]1C(=C)CO)OCCO2>>C[C@]12CCC=C(CO)[C@@H]1CCC1(C2)OCCO1",
+      "C[C@]12CCC=C(CO)[C@@H]1CCC1(C2)OCCO1>>C[C@]12CCC[C@H](CO)[C@@H]1CCC1(C2)OCCO1",
+      "C[C@]12CCC[C@H](CO)[C@@H]1CCC1(C2)OCCO1>>Cc1ccc(S(=O)(=O)OC[C@H]2CCC[C@]3(C)CC4(CC[C@@H]23)OCCO4)cc1",
+      "Cc1ccc(S(=O)(=O)OC[C@H]2CCC[C@]3(C)CC4(CC[C@@H]23)OCCO4)cc1>>C=C1CCC[C@]2(C)CC3(CC[C@@H]12)OCCO3",
+      "C=C1CCC[C@]2(C)CC3(CC[C@@H]12)OCCO3>>C=C1CCC[C@]2(C)CC(=O)CC[C@@H]12",
+      "C=C1CCC[C@]2(C)CC(=O)CC[C@@H]12.COC(=O)C(C)=O>>C=C1CCC[C@]2(C)C=C3OC(=O)C(C)=C3C[C@@H]12",
+      "C=C1CCC[C@]2(C)C=C3OC(=O)C(C)=C3C[C@@H]12.CO>>C=C1CCC[C@]2(C)C[C@]3(OC)OC(=O)C(C)=C3C[C@@H]12"
+    ],
+    "target_label": "7"
+  },
+  {
+    "admission_authority": false,
+    "formal_benchmark_eligible": false,
+    "from_commercial_starting_materials_complete": false,
+    "full_article_route_coverage": true,
+    "molecule_smiles_sequence": [
+      "C=CCC[C@]1(C)CC2(CC[C@H]1C(=C)C)OCCO2",
+      "C=CCC[C@]1(C)CC2(CC[C@H]1C(=C)CO)OCCO2",
+      "C[C@]12CCC=C(CO)[C@@H]1CCC1(C2)OCCO1",
+      "C[C@]12CCC[C@H](CO)[C@@H]1CCC1(C2)OCCO1",
+      "Cc1ccc(S(=O)(=O)OC[C@H]2CCC[C@]3(C)CC4(CC[C@@H]23)OCCO4)cc1",
+      "C=C1CCC[C@]2(C)CC3(CC[C@@H]12)OCCO3",
+      "C=C1CCC[C@]2(C)CC(=O)CC[C@@H]12",
+      "COC(=O)C(C)=O",
+      "C=C1CCC[C@]2(C)C=C3OC(=O)C(C)=C3C[C@@H]12",
+      "N",
+      "C=C1CCC[C@]2(C)C=C3NC(=O)C(C)=C3C[C@@H]12"
+    ],
+    "ordered_event_ids": [
+      "E01",
+      "E02",
+      "E03",
+      "E04",
+      "E05",
+      "E06",
+      "E07",
+      "D03"
+    ],
+    "ordered_molecule_labels": [
+      "32",
+      "23",
+      "33",
+      "34",
+      "22",
+      "30",
+      "18",
+      "methyl pyruvate",
+      "2",
+      "ammonia",
+      "8"
+    ],
+    "ordered_step_ids": [
+      "E01.1",
+      "E02.1",
+      "E03.1",
+      "E04.1",
+      "E05.1",
+      "E06.1",
+      "E07.1",
+      "D03.1"
+    ],
+    "route_id": "diversification 8",
+    "route_type": "source_bound_successful_synthesis",
+    "split_group": "10.1021/acs.joc.6c00826",
+    "start_label": "32",
+    "start_labels": [
+      "32",
+      "methyl pyruvate",
+      "ammonia"
+    ],
+    "step_reaction_smiles_sequence": [
+      "C=CCC[C@]1(C)CC2(CC[C@H]1C(=C)C)OCCO2>>C=CCC[C@]1(C)CC2(CC[C@H]1C(=C)CO)OCCO2",
+      "C=CCC[C@]1(C)CC2(CC[C@H]1C(=C)CO)OCCO2>>C[C@]12CCC=C(CO)[C@@H]1CCC1(C2)OCCO1",
+      "C[C@]12CCC=C(CO)[C@@H]1CCC1(C2)OCCO1>>C[C@]12CCC[C@H](CO)[C@@H]1CCC1(C2)OCCO1",
+      "C[C@]12CCC[C@H](CO)[C@@H]1CCC1(C2)OCCO1>>Cc1ccc(S(=O)(=O)OC[C@H]2CCC[C@]3(C)CC4(CC[C@@H]23)OCCO4)cc1",
+      "Cc1ccc(S(=O)(=O)OC[C@H]2CCC[C@]3(C)CC4(CC[C@@H]23)OCCO4)cc1>>C=C1CCC[C@]2(C)CC3(CC[C@@H]12)OCCO3",
+      "C=C1CCC[C@]2(C)CC3(CC[C@@H]12)OCCO3>>C=C1CCC[C@]2(C)CC(=O)CC[C@@H]12",
+      "C=C1CCC[C@]2(C)CC(=O)CC[C@@H]12.COC(=O)C(C)=O>>C=C1CCC[C@]2(C)C=C3OC(=O)C(C)=C3C[C@@H]12",
+      "C=C1CCC[C@]2(C)C=C3OC(=O)C(C)=C3C[C@@H]12.N>>C=C1CCC[C@]2(C)C=C3NC(=O)C(C)=C3C[C@@H]12"
+    ],
+    "target_label": "8"
+  },
+  {
+    "admission_authority": false,
+    "formal_benchmark_eligible": false,
+    "from_commercial_starting_materials_complete": false,
+    "full_article_route_coverage": true,
+    "molecule_smiles_sequence": [
+      "C=CCC[C@]1(C)CC2(CC[C@H]1C(=C)C)OCCO2",
+      "C=CCC[C@]1(C)CC2(CC[C@H]1C(=C)CO)OCCO2",
+      "C[C@]12CCC=C(CO)[C@@H]1CCC1(C2)OCCO1",
+      "C[C@]12CCC[C@H](CO)[C@@H]1CCC1(C2)OCCO1",
+      "Cc1ccc(S(=O)(=O)OC[C@H]2CCC[C@]3(C)CC4(CC[C@@H]23)OCCO4)cc1",
+      "C=C1CCC[C@]2(C)CC3(CC[C@@H]12)OCCO3",
+      "C=C1CCC[C@]2(C)CC(=O)CC[C@@H]12",
+      "COC(=O)C(C)=O",
+      "C=C1CCC[C@]2(C)C=C3OC(=O)C(C)=C3C[C@@H]12",
+      "N",
+      "C=C1CCC[C@]2(C)C=C3NC(=O)C(C)=C3C[C@@H]12",
+      "C=C1CCC[C@]2(C)C[C@]3(O)NC(=O)C(C)=C3C[C@@H]12"
+    ],
+    "ordered_event_ids": [
+      "E01",
+      "E02",
+      "E03",
+      "E04",
+      "E05",
+      "E06",
+      "E07",
+      "D04"
+    ],
+    "ordered_molecule_labels": [
+      "32",
+      "23",
+      "33",
+      "34",
+      "22",
+      "30",
+      "18",
+      "methyl pyruvate",
+      "2",
+      "ammonia",
+      "8",
+      "9"
+    ],
+    "ordered_step_ids": [
+      "E01.1",
+      "E02.1",
+      "E03.1",
+      "E04.1",
+      "E05.1",
+      "E06.1",
+      "E07.1",
+      "D04.1"
+    ],
+    "route_id": "diversification 9",
+    "route_type": "source_bound_successful_synthesis",
+    "split_group": "10.1021/acs.joc.6c00826",
+    "start_label": "32",
+    "start_labels": [
+      "32",
+      "methyl pyruvate",
+      "ammonia"
+    ],
+    "step_reaction_smiles_sequence": [
+      "C=CCC[C@]1(C)CC2(CC[C@H]1C(=C)C)OCCO2>>C=CCC[C@]1(C)CC2(CC[C@H]1C(=C)CO)OCCO2",
+      "C=CCC[C@]1(C)CC2(CC[C@H]1C(=C)CO)OCCO2>>C[C@]12CCC=C(CO)[C@@H]1CCC1(C2)OCCO1",
+      "C[C@]12CCC=C(CO)[C@@H]1CCC1(C2)OCCO1>>C[C@]12CCC[C@H](CO)[C@@H]1CCC1(C2)OCCO1",
+      "C[C@]12CCC[C@H](CO)[C@@H]1CCC1(C2)OCCO1>>Cc1ccc(S(=O)(=O)OC[C@H]2CCC[C@]3(C)CC4(CC[C@@H]23)OCCO4)cc1",
+      "Cc1ccc(S(=O)(=O)OC[C@H]2CCC[C@]3(C)CC4(CC[C@@H]23)OCCO4)cc1>>C=C1CCC[C@]2(C)CC3(CC[C@@H]12)OCCO3",
+      "C=C1CCC[C@]2(C)CC3(CC[C@@H]12)OCCO3>>C=C1CCC[C@]2(C)CC(=O)CC[C@@H]12",
+      "C=C1CCC[C@]2(C)CC(=O)CC[C@@H]12.COC(=O)C(C)=O>>C=C1CCC[C@]2(C)C=C3OC(=O)C(C)=C3C[C@@H]12",
+      "C=C1CCC[C@]2(C)C=C3OC(=O)C(C)=C3C[C@@H]12.N>>C=C1CCC[C@]2(C)C=C3NC(=O)C(C)=C3C[C@@H]12.C=C1CCC[C@]2(C)C[C@]3(O)NC(=O)C(C)=C3C[C@@H]12"
+    ],
+    "target_label": "9"
+  },
+  {
+    "admission_authority": false,
+    "formal_benchmark_eligible": false,
+    "from_commercial_starting_materials_complete": false,
+    "full_article_route_coverage": true,
+    "molecule_smiles_sequence": [
+      "C=CCC[C@]1(C)CC2(CC[C@H]1C(=C)C)OCCO2",
+      "C=CCC[C@]1(C)CC2(CC[C@H]1C(=C)CO)OCCO2",
+      "C[C@]12CCC=C(CO)[C@@H]1CCC1(C2)OCCO1",
+      "C[C@]12CCC[C@H](CO)[C@@H]1CCC1(C2)OCCO1",
+      "Cc1ccc(S(=O)(=O)OC[C@H]2CCC[C@]3(C)CC4(CC[C@@H]23)OCCO4)cc1",
+      "C=C1CCC[C@]2(C)CC3(CC[C@@H]12)OCCO3",
+      "C=C1CCC[C@]2(C)CC(=O)CC[C@@H]12",
+      "COC(=O)C(C)=O",
+      "C=C1CCC[C@]2(C)C=C3OC(=O)C(C)=C3C[C@@H]12",
+      "CCN",
+      "C=C1CCC[C@]2(C)C=C3C(=C(C)C(=O)N3CC)C[C@@H]12"
+    ],
+    "ordered_event_ids": [
+      "E01",
+      "E02",
+      "E03",
+      "E04",
+      "E05",
+      "E06",
+      "E07",
+      "D05"
+    ],
+    "ordered_molecule_labels": [
+      "32",
+      "23",
+      "33",
+      "34",
+      "22",
+      "30",
+      "18",
+      "methyl pyruvate",
+      "2",
+      "ethylamine",
+      "10"
+    ],
+    "ordered_step_ids": [
+      "E01.1",
+      "E02.1",
+      "E03.1",
+      "E04.1",
+      "E05.1",
+      "E06.1",
+      "E07.1",
+      "D05.1"
+    ],
+    "route_id": "diversification 10",
+    "route_type": "source_bound_successful_synthesis",
+    "split_group": "10.1021/acs.joc.6c00826",
+    "start_label": "32",
+    "start_labels": [
+      "32",
+      "methyl pyruvate",
+      "ethylamine"
+    ],
+    "step_reaction_smiles_sequence": [
+      "C=CCC[C@]1(C)CC2(CC[C@H]1C(=C)C)OCCO2>>C=CCC[C@]1(C)CC2(CC[C@H]1C(=C)CO)OCCO2",
+      "C=CCC[C@]1(C)CC2(CC[C@H]1C(=C)CO)OCCO2>>C[C@]12CCC=C(CO)[C@@H]1CCC1(C2)OCCO1",
+      "C[C@]12CCC=C(CO)[C@@H]1CCC1(C2)OCCO1>>C[C@]12CCC[C@H](CO)[C@@H]1CCC1(C2)OCCO1",
+      "C[C@]12CCC[C@H](CO)[C@@H]1CCC1(C2)OCCO1>>Cc1ccc(S(=O)(=O)OC[C@H]2CCC[C@]3(C)CC4(CC[C@@H]23)OCCO4)cc1",
+      "Cc1ccc(S(=O)(=O)OC[C@H]2CCC[C@]3(C)CC4(CC[C@@H]23)OCCO4)cc1>>C=C1CCC[C@]2(C)CC3(CC[C@@H]12)OCCO3",
+      "C=C1CCC[C@]2(C)CC3(CC[C@@H]12)OCCO3>>C=C1CCC[C@]2(C)CC(=O)CC[C@@H]12",
+      "C=C1CCC[C@]2(C)CC(=O)CC[C@@H]12.COC(=O)C(C)=O>>C=C1CCC[C@]2(C)C=C3OC(=O)C(C)=C3C[C@@H]12",
+      "C=C1CCC[C@]2(C)C=C3OC(=O)C(C)=C3C[C@@H]12.CCN>>C=C1CCC[C@]2(C)C=C3C(=C(C)C(=O)N3CC)C[C@@H]12"
+    ],
+    "target_label": "10"
+  },
+  {
+    "admission_authority": false,
+    "formal_benchmark_eligible": false,
+    "from_commercial_starting_materials_complete": false,
+    "full_article_route_coverage": true,
+    "molecule_smiles_sequence": [
+      "C=CCC[C@]1(C)CC2(CC[C@H]1C(=C)C)OCCO2",
+      "C=CCC[C@]1(C)CC2(CC[C@H]1C(=C)CO)OCCO2",
+      "C[C@]12CCC=C(CO)[C@@H]1CCC1(C2)OCCO1",
+      "C[C@]12CCC[C@H](CO)[C@@H]1CCC1(C2)OCCO1",
+      "Cc1ccc(S(=O)(=O)OC[C@H]2CCC[C@]3(C)CC4(CC[C@@H]23)OCCO4)cc1",
+      "C=C1CCC[C@]2(C)CC3(CC[C@@H]12)OCCO3",
+      "C=C1CCC[C@]2(C)CC(=O)CC[C@@H]12",
+      "COC(=O)C(C)=O",
+      "C=C1CCC[C@]2(C)C=C3OC(=O)C(C)=C3C[C@@H]12",
+      "NCCO",
+      "C=C1CCC[C@]2(C)C=C3C(=C(C)C(=O)N3CCO)C[C@@H]12"
+    ],
+    "ordered_event_ids": [
+      "E01",
+      "E02",
+      "E03",
+      "E04",
+      "E05",
+      "E06",
+      "E07",
+      "D06"
+    ],
+    "ordered_molecule_labels": [
+      "32",
+      "23",
+      "33",
+      "34",
+      "22",
+      "30",
+      "18",
+      "methyl pyruvate",
+      "2",
+      "ethanolamine",
+      "11"
+    ],
+    "ordered_step_ids": [
+      "E01.1",
+      "E02.1",
+      "E03.1",
+      "E04.1",
+      "E05.1",
+      "E06.1",
+      "E07.1",
+      "D06.1"
+    ],
+    "route_id": "diversification 11",
+    "route_type": "source_bound_successful_synthesis",
+    "split_group": "10.1021/acs.joc.6c00826",
+    "start_label": "32",
+    "start_labels": [
+      "32",
+      "methyl pyruvate",
+      "ethanolamine"
+    ],
+    "step_reaction_smiles_sequence": [
+      "C=CCC[C@]1(C)CC2(CC[C@H]1C(=C)C)OCCO2>>C=CCC[C@]1(C)CC2(CC[C@H]1C(=C)CO)OCCO2",
+      "C=CCC[C@]1(C)CC2(CC[C@H]1C(=C)CO)OCCO2>>C[C@]12CCC=C(CO)[C@@H]1CCC1(C2)OCCO1",
+      "C[C@]12CCC=C(CO)[C@@H]1CCC1(C2)OCCO1>>C[C@]12CCC[C@H](CO)[C@@H]1CCC1(C2)OCCO1",
+      "C[C@]12CCC[C@H](CO)[C@@H]1CCC1(C2)OCCO1>>Cc1ccc(S(=O)(=O)OC[C@H]2CCC[C@]3(C)CC4(CC[C@@H]23)OCCO4)cc1",
+      "Cc1ccc(S(=O)(=O)OC[C@H]2CCC[C@]3(C)CC4(CC[C@@H]23)OCCO4)cc1>>C=C1CCC[C@]2(C)CC3(CC[C@@H]12)OCCO3",
+      "C=C1CCC[C@]2(C)CC3(CC[C@@H]12)OCCO3>>C=C1CCC[C@]2(C)CC(=O)CC[C@@H]12",
+      "C=C1CCC[C@]2(C)CC(=O)CC[C@@H]12.COC(=O)C(C)=O>>C=C1CCC[C@]2(C)C=C3OC(=O)C(C)=C3C[C@@H]12",
+      "C=C1CCC[C@]2(C)C=C3OC(=O)C(C)=C3C[C@@H]12.NCCO>>C=C1CCC[C@]2(C)C=C3C(=C(C)C(=O)N3CCO)C[C@@H]12"
+    ],
+    "target_label": "11"
+  },
+  {
+    "admission_authority": false,
+    "formal_benchmark_eligible": false,
+    "from_commercial_starting_materials_complete": false,
+    "full_article_route_coverage": true,
+    "molecule_smiles_sequence": [
+      "C=CCC[C@]1(C)CC2(CC[C@H]1C(=C)C)OCCO2",
+      "C=CCC[C@]1(C)CC2(CC[C@H]1C(=C)CO)OCCO2",
+      "C[C@]12CCC=C(CO)[C@@H]1CCC1(C2)OCCO1",
+      "C[C@]12CCC[C@H](CO)[C@@H]1CCC1(C2)OCCO1",
+      "Cc1ccc(S(=O)(=O)OC[C@H]2CCC[C@]3(C)CC4(CC[C@@H]23)OCCO4)cc1",
+      "C=C1CCC[C@]2(C)CC3(CC[C@@H]12)OCCO3",
+      "C=C1CCC[C@]2(C)CC(=O)CC[C@@H]12",
+      "COC(=O)C(C)=O",
+      "C=C1CCC[C@]2(C)C=C3OC(=O)C(C)=C3C[C@@H]12",
+      "NCCCC(=O)O",
+      "C=C1CCC[C@]2(C)C=C3C(=C(C)C(=O)N3CCCC(=O)O)C[C@@H]12"
+    ],
+    "ordered_event_ids": [
+      "E01",
+      "E02",
+      "E03",
+      "E04",
+      "E05",
+      "E06",
+      "E07",
+      "D07"
+    ],
+    "ordered_molecule_labels": [
+      "32",
+      "23",
+      "33",
+      "34",
+      "22",
+      "30",
+      "18",
+      "methyl pyruvate",
+      "2",
+      "GABA",
+      "12"
+    ],
+    "ordered_step_ids": [
+      "E01.1",
+      "E02.1",
+      "E03.1",
+      "E04.1",
+      "E05.1",
+      "E06.1",
+      "E07.1",
+      "D07.1"
+    ],
+    "route_id": "diversification 12",
+    "route_type": "source_bound_successful_synthesis",
+    "split_group": "10.1021/acs.joc.6c00826",
+    "start_label": "32",
+    "start_labels": [
+      "32",
+      "methyl pyruvate",
+      "GABA"
+    ],
+    "step_reaction_smiles_sequence": [
+      "C=CCC[C@]1(C)CC2(CC[C@H]1C(=C)C)OCCO2>>C=CCC[C@]1(C)CC2(CC[C@H]1C(=C)CO)OCCO2",
+      "C=CCC[C@]1(C)CC2(CC[C@H]1C(=C)CO)OCCO2>>C[C@]12CCC=C(CO)[C@@H]1CCC1(C2)OCCO1",
+      "C[C@]12CCC=C(CO)[C@@H]1CCC1(C2)OCCO1>>C[C@]12CCC[C@H](CO)[C@@H]1CCC1(C2)OCCO1",
+      "C[C@]12CCC[C@H](CO)[C@@H]1CCC1(C2)OCCO1>>Cc1ccc(S(=O)(=O)OC[C@H]2CCC[C@]3(C)CC4(CC[C@@H]23)OCCO4)cc1",
+      "Cc1ccc(S(=O)(=O)OC[C@H]2CCC[C@]3(C)CC4(CC[C@@H]23)OCCO4)cc1>>C=C1CCC[C@]2(C)CC3(CC[C@@H]12)OCCO3",
+      "C=C1CCC[C@]2(C)CC3(CC[C@@H]12)OCCO3>>C=C1CCC[C@]2(C)CC(=O)CC[C@@H]12",
+      "C=C1CCC[C@]2(C)CC(=O)CC[C@@H]12.COC(=O)C(C)=O>>C=C1CCC[C@]2(C)C=C3OC(=O)C(C)=C3C[C@@H]12",
+      "C=C1CCC[C@]2(C)C=C3OC(=O)C(C)=C3C[C@@H]12.NCCCC(=O)O>>C=C1CCC[C@]2(C)C=C3C(=C(C)C(=O)N3CCCC(=O)O)C[C@@H]12"
+    ],
+    "target_label": "12"
+  },
+  {
+    "admission_authority": false,
+    "formal_benchmark_eligible": false,
+    "from_commercial_starting_materials_complete": false,
+    "full_article_route_coverage": true,
+    "molecule_smiles_sequence": [
+      "C=CCC[C@]1(C)CC2(CC[C@H]1C(=C)C)OCCO2",
+      "C=CCC[C@]1(C)CC2(CC[C@H]1C(=C)CO)OCCO2",
+      "C[C@]12CCC=C(CO)[C@@H]1CCC1(C2)OCCO1",
+      "C[C@]12CCC[C@H](CO)[C@@H]1CCC1(C2)OCCO1",
+      "Cc1ccc(S(=O)(=O)OC[C@H]2CCC[C@]3(C)CC4(CC[C@@H]23)OCCO4)cc1",
+      "C=C1CCC[C@]2(C)CC3(CC[C@@H]12)OCCO3",
+      "C=C1CCC[C@]2(C)CC(=O)CC[C@@H]12",
+      "COC(=O)C(C)=O",
+      "C=C1CCC[C@]2(C)C=C3OC(=O)C(C)=C3C[C@@H]12",
+      "NCCc1ccccc1",
+      "C=C1CCC[C@]2(C)C=C3C(=C(C)C(=O)N3CCc3ccccc3)C[C@@H]12"
+    ],
+    "ordered_event_ids": [
+      "E01",
+      "E02",
+      "E03",
+      "E04",
+      "E05",
+      "E06",
+      "E07",
+      "D08"
+    ],
+    "ordered_molecule_labels": [
+      "32",
+      "23",
+      "33",
+      "34",
+      "22",
+      "30",
+      "18",
+      "methyl pyruvate",
+      "2",
+      "phenethylamine",
+      "13"
+    ],
+    "ordered_step_ids": [
+      "E01.1",
+      "E02.1",
+      "E03.1",
+      "E04.1",
+      "E05.1",
+      "E06.1",
+      "E07.1",
+      "D08.1"
+    ],
+    "route_id": "diversification 13",
+    "route_type": "source_bound_successful_synthesis",
+    "split_group": "10.1021/acs.joc.6c00826",
+    "start_label": "32",
+    "start_labels": [
+      "32",
+      "methyl pyruvate",
+      "phenethylamine"
+    ],
+    "step_reaction_smiles_sequence": [
+      "C=CCC[C@]1(C)CC2(CC[C@H]1C(=C)C)OCCO2>>C=CCC[C@]1(C)CC2(CC[C@H]1C(=C)CO)OCCO2",
+      "C=CCC[C@]1(C)CC2(CC[C@H]1C(=C)CO)OCCO2>>C[C@]12CCC=C(CO)[C@@H]1CCC1(C2)OCCO1",
+      "C[C@]12CCC=C(CO)[C@@H]1CCC1(C2)OCCO1>>C[C@]12CCC[C@H](CO)[C@@H]1CCC1(C2)OCCO1",
+      "C[C@]12CCC[C@H](CO)[C@@H]1CCC1(C2)OCCO1>>Cc1ccc(S(=O)(=O)OC[C@H]2CCC[C@]3(C)CC4(CC[C@@H]23)OCCO4)cc1",
+      "Cc1ccc(S(=O)(=O)OC[C@H]2CCC[C@]3(C)CC4(CC[C@@H]23)OCCO4)cc1>>C=C1CCC[C@]2(C)CC3(CC[C@@H]12)OCCO3",
+      "C=C1CCC[C@]2(C)CC3(CC[C@@H]12)OCCO3>>C=C1CCC[C@]2(C)CC(=O)CC[C@@H]12",
+      "C=C1CCC[C@]2(C)CC(=O)CC[C@@H]12.COC(=O)C(C)=O>>C=C1CCC[C@]2(C)C=C3OC(=O)C(C)=C3C[C@@H]12",
+      "C=C1CCC[C@]2(C)C=C3OC(=O)C(C)=C3C[C@@H]12.NCCc1ccccc1>>C=C1CCC[C@]2(C)C=C3C(=C(C)C(=O)N3CCc3ccccc3)C[C@@H]12"
+    ],
+    "target_label": "13"
+  },
+  {
+    "admission_authority": false,
+    "formal_benchmark_eligible": false,
+    "from_commercial_starting_materials_complete": false,
+    "full_article_route_coverage": true,
+    "molecule_smiles_sequence": [
+      "C=CCC[C@]1(C)CC2(CC[C@H]1C(=C)C)OCCO2",
+      "C=CCC[C@]1(C)CC2(CC[C@H]1C(=C)CO)OCCO2",
+      "C[C@]12CCC=C(CO)[C@@H]1CCC1(C2)OCCO1",
+      "C[C@]12CCC[C@H](CO)[C@@H]1CCC1(C2)OCCO1",
+      "Cc1ccc(S(=O)(=O)OC[C@H]2CCC[C@]3(C)CC4(CC[C@@H]23)OCCO4)cc1",
+      "C=C1CCC[C@]2(C)CC3(CC[C@@H]12)OCCO3",
+      "C=C1CCC[C@]2(C)CC(=O)CC[C@@H]12",
+      "COC(=O)C(C)=O",
+      "C=C1CCC[C@]2(C)C=C3OC(=O)C(C)=C3C[C@@H]12",
+      "NCCc1ccc(O)cc1",
+      "C=C1CCC[C@]2(C)C=C3C(=C(C)C(=O)N3CCc3ccc(O)cc3)C[C@@H]12"
+    ],
+    "ordered_event_ids": [
+      "E01",
+      "E02",
+      "E03",
+      "E04",
+      "E05",
+      "E06",
+      "E07",
+      "D09"
+    ],
+    "ordered_molecule_labels": [
+      "32",
+      "23",
+      "33",
+      "34",
+      "22",
+      "30",
+      "18",
+      "methyl pyruvate",
+      "2",
+      "tyramine",
+      "14"
+    ],
+    "ordered_step_ids": [
+      "E01.1",
+      "E02.1",
+      "E03.1",
+      "E04.1",
+      "E05.1",
+      "E06.1",
+      "E07.1",
+      "D09.1"
+    ],
+    "route_id": "diversification 14",
+    "route_type": "source_bound_successful_synthesis",
+    "split_group": "10.1021/acs.joc.6c00826",
+    "start_label": "32",
+    "start_labels": [
+      "32",
+      "methyl pyruvate",
+      "tyramine"
+    ],
+    "step_reaction_smiles_sequence": [
+      "C=CCC[C@]1(C)CC2(CC[C@H]1C(=C)C)OCCO2>>C=CCC[C@]1(C)CC2(CC[C@H]1C(=C)CO)OCCO2",
+      "C=CCC[C@]1(C)CC2(CC[C@H]1C(=C)CO)OCCO2>>C[C@]12CCC=C(CO)[C@@H]1CCC1(C2)OCCO1",
+      "C[C@]12CCC=C(CO)[C@@H]1CCC1(C2)OCCO1>>C[C@]12CCC[C@H](CO)[C@@H]1CCC1(C2)OCCO1",
+      "C[C@]12CCC[C@H](CO)[C@@H]1CCC1(C2)OCCO1>>Cc1ccc(S(=O)(=O)OC[C@H]2CCC[C@]3(C)CC4(CC[C@@H]23)OCCO4)cc1",
+      "Cc1ccc(S(=O)(=O)OC[C@H]2CCC[C@]3(C)CC4(CC[C@@H]23)OCCO4)cc1>>C=C1CCC[C@]2(C)CC3(CC[C@@H]12)OCCO3",
+      "C=C1CCC[C@]2(C)CC3(CC[C@@H]12)OCCO3>>C=C1CCC[C@]2(C)CC(=O)CC[C@@H]12",
+      "C=C1CCC[C@]2(C)CC(=O)CC[C@@H]12.COC(=O)C(C)=O>>C=C1CCC[C@]2(C)C=C3OC(=O)C(C)=C3C[C@@H]12",
+      "C=C1CCC[C@]2(C)C=C3OC(=O)C(C)=C3C[C@@H]12.NCCc1ccc(O)cc1>>C=C1CCC[C@]2(C)C=C3C(=C(C)C(=O)N3CCc3ccc(O)cc3)C[C@@H]12"
+    ],
+    "target_label": "14"
+  },
+  {
+    "admission_authority": false,
+    "formal_benchmark_eligible": false,
+    "from_commercial_starting_materials_complete": false,
+    "full_article_route_coverage": true,
+    "molecule_smiles_sequence": [
+      "C=CCC[C@]1(C)CC2(CC[C@H]1C(=C)C)OCCO2",
+      "C=CCC[C@]1(C)CC2(CC[C@H]1C(=C)CO)OCCO2",
+      "C[C@]12CCC=C(CO)[C@@H]1CCC1(C2)OCCO1",
+      "C[C@]12CCC[C@H](CO)[C@@H]1CCC1(C2)OCCO1",
+      "Cc1ccc(S(=O)(=O)OC[C@H]2CCC[C@]3(C)CC4(CC[C@@H]23)OCCO4)cc1",
+      "C=C1CCC[C@]2(C)CC3(CC[C@@H]12)OCCO3",
+      "C=C1CCC[C@]2(C)CC(=O)CC[C@@H]12",
+      "COC(=O)C(C)=O",
+      "C=C1CCC[C@]2(C)C=C3OC(=O)C(C)=C3C[C@@H]12",
+      "NCCc1c[nH]c2ccccc12",
+      "C=C1CCC[C@]2(C)C=C3C(=C(C)C(=O)N3CCc3c[nH]c4ccccc34)C[C@@H]12"
+    ],
+    "ordered_event_ids": [
+      "E01",
+      "E02",
+      "E03",
+      "E04",
+      "E05",
+      "E06",
+      "E07",
+      "D10"
+    ],
+    "ordered_molecule_labels": [
+      "32",
+      "23",
+      "33",
+      "34",
+      "22",
+      "30",
+      "18",
+      "methyl pyruvate",
+      "2",
+      "tryptamine",
+      "15"
+    ],
+    "ordered_step_ids": [
+      "E01.1",
+      "E02.1",
+      "E03.1",
+      "E04.1",
+      "E05.1",
+      "E06.1",
+      "E07.1",
+      "D10.1"
+    ],
+    "route_id": "diversification 15",
+    "route_type": "source_bound_successful_synthesis",
+    "split_group": "10.1021/acs.joc.6c00826",
+    "start_label": "32",
+    "start_labels": [
+      "32",
+      "methyl pyruvate",
+      "tryptamine"
+    ],
+    "step_reaction_smiles_sequence": [
+      "C=CCC[C@]1(C)CC2(CC[C@H]1C(=C)C)OCCO2>>C=CCC[C@]1(C)CC2(CC[C@H]1C(=C)CO)OCCO2",
+      "C=CCC[C@]1(C)CC2(CC[C@H]1C(=C)CO)OCCO2>>C[C@]12CCC=C(CO)[C@@H]1CCC1(C2)OCCO1",
+      "C[C@]12CCC=C(CO)[C@@H]1CCC1(C2)OCCO1>>C[C@]12CCC[C@H](CO)[C@@H]1CCC1(C2)OCCO1",
+      "C[C@]12CCC[C@H](CO)[C@@H]1CCC1(C2)OCCO1>>Cc1ccc(S(=O)(=O)OC[C@H]2CCC[C@]3(C)CC4(CC[C@@H]23)OCCO4)cc1",
+      "Cc1ccc(S(=O)(=O)OC[C@H]2CCC[C@]3(C)CC4(CC[C@@H]23)OCCO4)cc1>>C=C1CCC[C@]2(C)CC3(CC[C@@H]12)OCCO3",
+      "C=C1CCC[C@]2(C)CC3(CC[C@@H]12)OCCO3>>C=C1CCC[C@]2(C)CC(=O)CC[C@@H]12",
+      "C=C1CCC[C@]2(C)CC(=O)CC[C@@H]12.COC(=O)C(C)=O>>C=C1CCC[C@]2(C)C=C3OC(=O)C(C)=C3C[C@@H]12",
+      "C=C1CCC[C@]2(C)C=C3OC(=O)C(C)=C3C[C@@H]12.NCCc1c[nH]c2ccccc12>>C=C1CCC[C@]2(C)C=C3C(=C(C)C(=O)N3CCc3c[nH]c4ccccc34)C[C@@H]12"
+    ],
+    "target_label": "15"
+  },
+  {
+    "admission_authority": false,
+    "formal_benchmark_eligible": false,
+    "from_commercial_starting_materials_complete": false,
+    "full_article_route_coverage": true,
+    "molecule_smiles_sequence": [
+      "C=CCC[C@]1(C)CC2(CC[C@H]1C(=C)C)OCCO2",
+      "C=CCC[C@]1(C)CC2(CC[C@H]1C(=C)CO)OCCO2",
+      "C[C@]12CCC=C(CO)[C@@H]1CCC1(C2)OCCO1",
+      "C[C@]12CCC[C@H](CO)[C@@H]1CCC1(C2)OCCO1",
+      "Cc1ccc(S(=O)(=O)OC[C@H]2CCC[C@]3(C)CC4(CC[C@@H]23)OCCO4)cc1",
+      "C=C1CCC[C@]2(C)CC3(CC[C@@H]12)OCCO3",
+      "C=C1CCC[C@]2(C)CC(=O)CC[C@@H]12",
+      "COC(=O)C(C)=O",
+      "C=C1CCC[C@]2(C)C=C3OC(=O)C(C)=C3C[C@@H]12",
+      "C=C1CCC[C@@]2(C)[C@H]1CC1=C(C)C(=O)O[C@@]13[C@H]2[C@H]1[C@@]2(C)CCCC(=C)[C@@H]2CC2=C(C)C(=O)O[C@]213"
+    ],
+    "ordered_event_ids": [
+      "E01",
+      "E02",
+      "E03",
+      "E04",
+      "E05",
+      "E06",
+      "E07",
+      "D13"
+    ],
+    "ordered_molecule_labels": [
+      "32",
+      "23",
+      "33",
+      "34",
+      "22",
+      "30",
+      "18",
+      "methyl pyruvate",
+      "2",
+      "16"
+    ],
+    "ordered_step_ids": [
+      "E01.1",
+      "E02.1",
+      "E03.1",
+      "E04.1",
+      "E05.1",
+      "E06.1",
+      "E07.1",
+      "D13.1"
+    ],
+    "route_id": "diversification 16",
+    "route_type": "source_bound_successful_synthesis",
+    "split_group": "10.1021/acs.joc.6c00826",
+    "start_label": "32",
+    "start_labels": [
+      "32",
+      "methyl pyruvate"
+    ],
+    "step_reaction_smiles_sequence": [
+      "C=CCC[C@]1(C)CC2(CC[C@H]1C(=C)C)OCCO2>>C=CCC[C@]1(C)CC2(CC[C@H]1C(=C)CO)OCCO2",
+      "C=CCC[C@]1(C)CC2(CC[C@H]1C(=C)CO)OCCO2>>C[C@]12CCC=C(CO)[C@@H]1CCC1(C2)OCCO1",
+      "C[C@]12CCC=C(CO)[C@@H]1CCC1(C2)OCCO1>>C[C@]12CCC[C@H](CO)[C@@H]1CCC1(C2)OCCO1",
+      "C[C@]12CCC[C@H](CO)[C@@H]1CCC1(C2)OCCO1>>Cc1ccc(S(=O)(=O)OC[C@H]2CCC[C@]3(C)CC4(CC[C@@H]23)OCCO4)cc1",
+      "Cc1ccc(S(=O)(=O)OC[C@H]2CCC[C@]3(C)CC4(CC[C@@H]23)OCCO4)cc1>>C=C1CCC[C@]2(C)CC3(CC[C@@H]12)OCCO3",
+      "C=C1CCC[C@]2(C)CC3(CC[C@@H]12)OCCO3>>C=C1CCC[C@]2(C)CC(=O)CC[C@@H]12",
+      "C=C1CCC[C@]2(C)CC(=O)CC[C@@H]12.COC(=O)C(C)=O>>C=C1CCC[C@]2(C)C=C3OC(=O)C(C)=C3C[C@@H]12",
+      "C=C1CCC[C@]2(C)C=C3OC(=O)C(C)=C3C[C@@H]12>>C=C1CCC[C@@]2(C)[C@H]1CC1=C(C)C(=O)O[C@@]13[C@H]2[C@H]1[C@@]2(C)CCCC(=C)[C@@H]2CC2=C(C)C(=O)O[C@]213"
+    ],
+    "target_label": "16"
+  },
+  {
+    "admission_authority": false,
+    "formal_benchmark_eligible": false,
+    "from_commercial_starting_materials_complete": false,
+    "full_article_route_coverage": true,
+    "molecule_smiles_sequence": [
+      "C=CCC[C@]1(C)CC2(CC[C@H]1C(=C)C)OCCO2",
+      "C=CCC[C@]1(C)CC2(CC[C@H]1C(=C)CO)OCCO2",
+      "C[C@]12CCC=C(CO)[C@@H]1CCC1(C2)OCCO1",
+      "C[C@]12CCC[C@H](CO)[C@@H]1CCC1(C2)OCCO1",
+      "Cc1ccc(S(=O)(=O)OC[C@H]2CCC[C@]3(C)CC4(CC[C@@H]23)OCCO4)cc1",
+      "C=C1CCC[C@]2(C)CC3(CC[C@@H]12)OCCO3",
+      "C=C1CCC[C@]2(C)CC(=O)CC[C@@H]12",
+      "COCC(=O)COC",
+      "C=C1CCC[C@]2(C)C[C@@H]3OC(=O)C(C)=C3C[C@@H]12",
+      "CC1=C2C[C@@H]3[C@](C)(CCC[C@]3(O)CO)C[C@@H]2OC1=O"
+    ],
+    "ordered_event_ids": [
+      "E01",
+      "E02",
+      "E03",
+      "E04",
+      "E05",
+      "E06",
+      "E08",
+      "D11"
+    ],
+    "ordered_molecule_labels": [
+      "32",
+      "23",
+      "33",
+      "34",
+      "22",
+      "30",
+      "18",
+      "dimethoxyacetone",
+      "3",
+      "5"
+    ],
+    "ordered_step_ids": [
+      "E01.1",
+      "E02.1",
+      "E03.1",
+      "E04.1",
+      "E05.1",
+      "E06.1",
+      "E08.1",
+      "D11.1"
+    ],
+    "route_id": "ATL-IV",
+    "route_type": "source_bound_successful_synthesis",
+    "split_group": "10.1021/acs.joc.6c00826",
+    "start_label": "32",
+    "start_labels": [
+      "32",
+      "dimethoxyacetone"
+    ],
+    "step_reaction_smiles_sequence": [
+      "C=CCC[C@]1(C)CC2(CC[C@H]1C(=C)C)OCCO2>>C=CCC[C@]1(C)CC2(CC[C@H]1C(=C)CO)OCCO2",
+      "C=CCC[C@]1(C)CC2(CC[C@H]1C(=C)CO)OCCO2>>C[C@]12CCC=C(CO)[C@@H]1CCC1(C2)OCCO1",
+      "C[C@]12CCC=C(CO)[C@@H]1CCC1(C2)OCCO1>>C[C@]12CCC[C@H](CO)[C@@H]1CCC1(C2)OCCO1",
+      "C[C@]12CCC[C@H](CO)[C@@H]1CCC1(C2)OCCO1>>Cc1ccc(S(=O)(=O)OC[C@H]2CCC[C@]3(C)CC4(CC[C@@H]23)OCCO4)cc1",
+      "Cc1ccc(S(=O)(=O)OC[C@H]2CCC[C@]3(C)CC4(CC[C@@H]23)OCCO4)cc1>>C=C1CCC[C@]2(C)CC3(CC[C@@H]12)OCCO3",
+      "C=C1CCC[C@]2(C)CC3(CC[C@@H]12)OCCO3>>C=C1CCC[C@]2(C)CC(=O)CC[C@@H]12",
+      "C=C1CCC[C@]2(C)CC(=O)CC[C@@H]12.COCC(=O)COC>>C=C1CCC[C@]2(C)C[C@@H]3OC(=O)C(C)=C3C[C@@H]12",
+      "C=C1CCC[C@]2(C)C[C@@H]3OC(=O)C(C)=C3C[C@@H]12>>CC1=C2C[C@@H]3[C@](C)(CCC[C@]3(O)CO)C[C@@H]2OC1=O"
+    ],
+    "target_label": "5"
+  },
+  {
+    "admission_authority": false,
+    "formal_benchmark_eligible": false,
+    "from_commercial_starting_materials_complete": false,
+    "full_article_route_coverage": true,
+    "molecule_smiles_sequence": [
+      "C=CCC[C@]1(C)CC2(CC[C@H]1C(=C)C)OCCO2",
+      "C=CCC[C@]1(C)CC2(CC[C@H]1C(=C)CO)OCCO2",
+      "C[C@]12CCC=C(CO)[C@@H]1CCC1(C2)OCCO1",
+      "C[C@]12CCC[C@H](CO)[C@@H]1CCC1(C2)OCCO1",
+      "Cc1ccc(S(=O)(=O)OC[C@H]2CCC[C@]3(C)CC4(CC[C@@H]23)OCCO4)cc1",
+      "C=C1CCC[C@]2(C)CC3(CC[C@@H]12)OCCO3",
+      "C=C1CCC[C@]2(C)CC(=O)CC[C@@H]12",
+      "COC(=O)C(C)=O",
+      "C=C1CCC[C@]2(C)C=C3OC(=O)C(C)=C3C[C@@H]12",
+      "O",
+      "C=C1CCC[C@]2(C)C[C@]3(O)OC(=O)C(C)=C3C[C@@H]12",
+      "C=C1[C@H](O)CC[C@]2(C)C[C@]3(O)OC(=O)C(C)=C3C[C@@H]12"
+    ],
+    "ordered_event_ids": [
+      "E01",
+      "E02",
+      "E03",
+      "E04",
+      "E05",
+      "E06",
+      "E07",
+      "D01",
+      "D12"
+    ],
+    "ordered_molecule_labels": [
+      "32",
+      "23",
+      "33",
+      "34",
+      "22",
+      "30",
+      "18",
+      "methyl pyruvate",
+      "2",
+      "water",
+      "4",
+      "6"
+    ],
+    "ordered_step_ids": [
+      "E01.1",
+      "E02.1",
+      "E03.1",
+      "E04.1",
+      "E05.1",
+      "E06.1",
+      "E07.1",
+      "D01.1",
+      "D12.1"
+    ],
+    "route_id": "3-hydroxy ATL-III",
+    "route_type": "source_bound_successful_synthesis",
+    "split_group": "10.1021/acs.joc.6c00826",
+    "start_label": "32",
+    "start_labels": [
+      "32",
+      "methyl pyruvate",
+      "water"
+    ],
+    "step_reaction_smiles_sequence": [
+      "C=CCC[C@]1(C)CC2(CC[C@H]1C(=C)C)OCCO2>>C=CCC[C@]1(C)CC2(CC[C@H]1C(=C)CO)OCCO2",
+      "C=CCC[C@]1(C)CC2(CC[C@H]1C(=C)CO)OCCO2>>C[C@]12CCC=C(CO)[C@@H]1CCC1(C2)OCCO1",
+      "C[C@]12CCC=C(CO)[C@@H]1CCC1(C2)OCCO1>>C[C@]12CCC[C@H](CO)[C@@H]1CCC1(C2)OCCO1",
+      "C[C@]12CCC[C@H](CO)[C@@H]1CCC1(C2)OCCO1>>Cc1ccc(S(=O)(=O)OC[C@H]2CCC[C@]3(C)CC4(CC[C@@H]23)OCCO4)cc1",
+      "Cc1ccc(S(=O)(=O)OC[C@H]2CCC[C@]3(C)CC4(CC[C@@H]23)OCCO4)cc1>>C=C1CCC[C@]2(C)CC3(CC[C@@H]12)OCCO3",
+      "C=C1CCC[C@]2(C)CC3(CC[C@@H]12)OCCO3>>C=C1CCC[C@]2(C)CC(=O)CC[C@@H]12",
+      "C=C1CCC[C@]2(C)CC(=O)CC[C@@H]12.COC(=O)C(C)=O>>C=C1CCC[C@]2(C)C=C3OC(=O)C(C)=C3C[C@@H]12",
+      "C=C1CCC[C@]2(C)C=C3OC(=O)C(C)=C3C[C@@H]12.O>>C=C1CCC[C@]2(C)C[C@]3(O)OC(=O)C(C)=C3C[C@@H]12",
+      "C=C1CCC[C@]2(C)C[C@]3(O)OC(=O)C(C)=C3C[C@@H]12>>C=C1[C@H](O)CC[C@]2(C)C[C@]3(O)OC(=O)C(C)=C3C[C@@H]12"
+    ],
+    "target_label": "6"
+  },
+  {
+    "admission_authority": false,
+    "formal_benchmark_eligible": false,
+    "from_commercial_starting_materials_complete": false,
+    "full_article_route_coverage": true,
+    "molecule_smiles_sequence": [
+      "C=C[C@]1(C)CC2(CC[C@H]1C(=C)C)OCCO2",
+      "C=C[C@]1(C)CC2(CC[C@H]1C(C)=O)OCCO2",
+      "C=C[CH2][Mg][Br]",
+      "C=CCC(C)(O)[C@@H]1CCC2(C[C@@]1(C)C=C)OCCO2",
+      "CC1(O)CC=C[C@]2(C)CC3(CC[C@@H]12)OCCO3",
+      "CC1(O)CCC[C@]2(C)CC3(CC[C@@H]12)OCCO3",
+      "C=C1CCC[C@]2(C)CC3(CC[C@@H]12)OCCO3",
+      "CC1=CCC[C@]2(C)CC3(CC[C@@H]12)OCCO3"
+    ],
+    "ordered_event_ids": [
+      "A01",
+      "A02",
+      "A03",
+      "A04",
+      "A05C"
+    ],
+    "ordered_molecule_labels": [
+      "27",
+      "28",
+      "allylMgBr",
+      "20",
+      "29",
+      "19",
+      "30",
+      "31"
+    ],
+    "ordered_step_ids": [
+      "A01.1",
+      "A02.1",
+      "A03.1",
+      "A04.1",
+      "A05C.1"
+    ],
+    "route_id": "initial dehydration mixture",
+    "route_type": "source_bound_control_branch",
+    "split_group": "10.1021/acs.joc.6c00826",
+    "start_label": "27",
+    "start_labels": [
+      "27",
+      "allylMgBr"
+    ],
+    "step_reaction_smiles_sequence": [
+      "C=C[C@]1(C)CC2(CC[C@H]1C(=C)C)OCCO2>>C=C[C@]1(C)CC2(CC[C@H]1C(C)=O)OCCO2",
+      "C=C[C@]1(C)CC2(CC[C@H]1C(C)=O)OCCO2.C=C[CH2][Mg][Br]>>C=CCC(C)(O)[C@@H]1CCC2(C[C@@]1(C)C=C)OCCO2",
+      "C=CCC(C)(O)[C@@H]1CCC2(C[C@@]1(C)C=C)OCCO2>>CC1(O)CC=C[C@]2(C)CC3(CC[C@@H]12)OCCO3",
+      "CC1(O)CC=C[C@]2(C)CC3(CC[C@@H]12)OCCO3>>CC1(O)CCC[C@]2(C)CC3(CC[C@@H]12)OCCO3",
+      "CC1(O)CCC[C@]2(C)CC3(CC[C@@H]12)OCCO3>>C=C1CCC[C@]2(C)CC3(CC[C@@H]12)OCCO3.CC1=CCC[C@]2(C)CC3(CC[C@@H]12)OCCO3"
+    ],
+    "target_label": "31"
+  }
+]

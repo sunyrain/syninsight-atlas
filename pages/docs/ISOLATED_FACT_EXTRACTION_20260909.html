@@ -1,0 +1,103 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>独立证据包与事实配置：两篇提取实测 | SynInsight Atlas</title><link rel="stylesheet" href="../../assets/report.css"><link rel="icon" href="../../assets/favicon.svg"></head><body class="publication-page"><a class="skip-link" href="#document">Skip to content</a><nav class="publication-nav" aria-label="Atlas navigation"><a class="brand" href="../../index.html">SI · SynInsight Atlas</a><div><a href="../../index.html#atlas">Papers & routes</a><a href="../../index.html#dataset">Reaction dataset</a></div></nav><div class="document-meta">Reference document · <a href="../../docs/ISOLATED_FACT_EXTRACTION_20260909.md" download>Download original file</a></div><main id="document" class="document-content"><h1 id="_1">独立证据包与事实配置：两篇提取实测</h1>
+<p>本轮完成两篇此前没有案例路线数据的文章，已统一进入 <a download="" href="../../data/atlas.sqlite">SQLite 数据库</a>。分子使用 canonical isomeric SMILES，仍为来源绑定、待独立化学复核的候选提取。</p>
+<div aria-label="Scrollable data table" class="table-scroll" tabindex="0"><table>
+<thead>
+<tr>
+<th>文章</th>
+<th style="text-align: right;">分子记录</th>
+<th style="text-align: right;">制备事件</th>
+<th style="text-align: right;">路线</th>
+<th style="text-align: right;">来源 HRMS 检查</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../data/routes/paper-4cc43638c809d619/report.html">Acaulone B</a></td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">3</td>
+</tr>
+<tr>
+<td><a href="../data/routes/paper-6f84dc000b1334a0/report.html">Triplinone F / 11-epi-Triplinone F</a></td>
+<td style="text-align: right;">46</td>
+<td style="text-align: right;">40</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">30</td>
+</tr>
+<tr>
+<td>合计</td>
+<td style="text-align: right;">53</td>
+<td style="text-align: right;">45</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">33</td>
+</tr>
+</tbody>
+</table></div>
+<p>Acaulone B 从本篇画出的已知大环底物 4 开始，不外推引用文献的上游合成；副产物 9 的新立体中心未被擅自补全。Triplinone F 包括 SI 中的苹果酸起始步骤、双片段汇聚、回收异构体的构型翻转、两条 C11 构型路线和用于表征的缩醛支线。控制化合物 9a/9b 的新苄叉缩醛中心仍待核对，明确保留为未指定。</p>
+<h2 id="1">1. 每篇独立的证据包</h2>
+<p><code>scripts/fact_case.py packet</code> 为一个 <code>paper_id</code> 生成一个私有证据窗口，路径为 <code>.local/evidence-packages/&lt;paper_id&gt;/active.json</code>。窗口仅包含该篇标题、一个来源及其 SHA、请求的有限页原文、已确认事实和待解问题。程序不把其他文章的内容或全库数据放入窗口。</p>
+<ul>
+<li>默认反馈只有页码、字符数、重复页标记和私有文件路径；显式 <code>--show</code> 才输出所需原文。</li>
+<li>原文窗口默认上限为 12,000 字符；超限返回错误，要求缩小页码范围。</li>
+<li>页面内容哈希去重，默认不重复输出已经读过且未变化的页；复核使用 <code>--repeat</code>。</li>
+<li>修改压缩规则后重用本地原始页文本，缓存图片存在时不重新打开 PDF。</li>
+<li>完整论文、完整光谱和原始长日志留在私有目录。本次没有下载新的来源。</li>
+<li><code>data/facts/sources/</code> 保存由程序锁定的来源指纹。来源字节、文章身份或来源清单改变时，事实编译会停止，避免把旧结论静默绑定到新来源。</li>
+</ul>
+<p>这实现了<strong>新增检索内容的逐篇隔离</strong>。本轮仍在原来的长会话中运行，已有会话历史仍进入模型上下文和缓存输入统计；证据包本身不会清空历史。真正衡量独立短上下文的效果，需要在分别启动的新模型会话中复现实验。本轮不宣称已经进行了这种会话隔离测试。</p>
+<h2 id="2">2. 模型写事实，程序生成完整数据</h2>
+<p>本轮唯一需要人工/模型整理的化学输入是：</p>
+<ul>
+<li><a href="../../reader.html?file=data%2Ffacts%2Fpaper-4cc43638c809d619.json">Acaulone B 事实配置</a></li>
+<li><a href="../../reader.html?file=data%2Ffacts%2Fpaper-6f84dc000b1334a0.json">Triplinone F 事实配置</a></li>
+</ul>
+<p>配置记录分子连接、原图楔线或明确 R/S、来源页码、反应两端、收率口径、条件、目标路径以及未解决问题。重复结构片段和立体化学图形模板可以复用。模板只展开显式记录的连接事实，不推断反应产物。</p>
+<p>通用程序 <code>scripts/fact_case.py</code> 自动完成：</p>
+<ol>
+<li>检查文章身份和固定来源哈希。</li>
+<li>展开事实模板；必要时由缓存的本地 OPSIN 解析来源系统命名。</li>
+<li>根据原图坐标和实/虚楔线生成四面体构型；<strong>先去掉临时原子编号，再核对 CIP R/S</strong>，防止编号参与 RDKit 排序。</li>
+<li>canonical SMILES、分子式、HRMS、模式及路线拓扑检查。</li>
+<li>生成完整 JSON、CSV、SDF、SVG 和 HTML。</li>
+<li>批处理自动发现 <code>data/facts/paper-*.json</code>，不需要新增逐篇适配器代码或手工维护注册表。</li>
+<li>无变化时跳过案例；集中入库一次，数据库无变化时跳过重建。</li>
+</ol>
+<p>常规反馈只返回计数、缓存状态、来源冲突标识和错误。生成的完整配置与过程日志保存在 <code>.local/</code>，完整数据保存到 <code>data/routes/</code>，无需作为模型输入重复返回。</p>
+<h2 id="_2">检查结果</h2>
+<p><a href="../../reader.html?file=data%2Fextraction%2Fisolated-two-paper-validation-20260909.json">本轮验证记录</a>保存了案例数量、生成文件体积、数据库检查和缓存复跑结果。</p>
+<ul>
+<li>新流程及相关回归检查 18 项通过；后续涉及批处理和计量的 18 项检查也通过，两组测试有重叠，不相加当作独立测试数。</li>
+<li>33 条来源 HRMS 分子式核对通过；来源数值精度和未指定立体化学仍需独立复核。</li>
+<li>全库 39 篇 <a href="../../reader.html?file=data%2Fextraction%2Fcase_audit.json">案例审计</a>通过，37 篇沿用原审计缓存。</li>
+<li>SQLite 完整性及外键检查通过；累计 1,120 条文章内分子记录、727 个事件、840 个操作组、209 条路线。</li>
+<li>两篇复跑均为 <code>unchanged</code>，数据库也为 <code>unchanged</code>。</li>
+</ul>
+<h2 id="token">Token 记录及解释</h2>
+<p><a href="../../reader.html?file=data%2Fextraction%2Fisolated-two-papers-20260909-token-usage.json">实测 token JSON</a>读取本轮本地 <code>token_usage_record</code> 数字记录，按响应 ID 去重，只统计选定 turn；不导出消息、思考内容或其他会话数据。此次使用独立 run ID，没有覆盖之前的两篇实验记录。</p>
+<p>记录分为共享选择/计量设置、Acaulone 证据和事实、Triplinone 证据和事实、共享验证/入库/报告四个阶段。阶段按实际记录时间归类，跨工具边界会有少量归属偏差，不能视为两个隔离模型调用的精确成本。</p>
+<ul>
+<li><code>input_tokens</code>：包括缓存命中的输入。</li>
+<li><code>cached_input_tokens</code>：输入的子集，不能重复相加。</li>
+<li><code>uncached_input_tokens</code>：输入减缓存输入。</li>
+<li><code>output_tokens</code>：输出；<code>reasoning_output_tokens</code> 是其子集，不能重复相加。</li>
+<li><code>total_tokens</code>：输入加输出，不是账单价格。</li>
+</ul>
+<p>计量从本轮第一条 usage 记录开始，包括工作流改造、来源核验、事实整理、程序修正、验证和回复，而非只统计论文阅读。后台监听器在本轮结束、最后的 usage 记录稳定后自动把 <code>measurement_finalized</code> 标记为 true，因此能补入最终回复的用量。结束前给出的数字均为当时快照，不冒充最终总量。</p>
+<p>本轮长会话缓存输入仍然占显著比例；不能仅凭审阅文件变小就宣称整轮 token 按相同比例降低，也不能将两篇合计除二后的数字视作所有文章的普遍成本。</p>
+<h2 id="_3">调用示例</h2>
+<pre><code class="language-powershell"># 按需加载同一篇的有限证据，不显示全文时只返回摘要
+.venv/Scripts/python.exe scripts/fact_case.py packet --paper paper-4cc43638c809d619 --source si --pages 3 4 --show
+
+# 首次来源锁定；已有绑定不会自动替换
+.venv/Scripts/python.exe scripts/fact_case.py bind --paper paper-4cc43638c809d619
+
+# 编辑该篇事实 JSON 后，由程序生成所有输出
+.venv/Scripts/python.exe scripts/fact_case.py build --paper paper-4cc43638c809d619
+
+# 两篇集中增量入库
+.venv/Scripts/python.exe scripts/batch_extract_atlas.py --paper paper-4cc43638c809d619 --paper paper-6f84dc000b1334a0
+
+# 本轮计量快照，保留此前实验文件
+.venv/Scripts/python.exe scripts/measure_extraction_tokens.py snapshot --run-id isolated-two-papers-20260909
+</code></pre></main><footer class="publication-footer"><a href="../../index.html">Return to Atlas</a><span>Candidate curation · Data CC BY 4.0 · Code MIT</span></footer><script src="../../assets/publication.js" defer></script></body></html>

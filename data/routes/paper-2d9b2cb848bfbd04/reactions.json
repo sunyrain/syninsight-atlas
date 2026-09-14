@@ -1,0 +1,1682 @@
+[
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "A01",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "9"
+    ],
+    "reactant_labels": [
+      "8"
+    ],
+    "reagents": [
+      "TBSCl",
+      "imidazole"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "8",
+        "percent": 90,
+        "product_label": "9",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "DCM"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: A01",
+        "pages": [
+          2,
+          6
+        ],
+        "sha256": "c706656d4286c247094735b09a44c0ac37d5994fadbba9b426d37b2007c86073",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "A01.1"
+    ],
+    "substrate_product_smiles": "OCCCCO>>CC(C)(C)[Si](C)(C)OCCCCO"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "A02",
+    "experimental_stage_count": 2,
+    "formal_benchmark_eligible": false,
+    "operation_stages": [
+      {
+        "operation": "Swern oxidation"
+      },
+      {
+        "operation": "modified Knoevenagel condensation"
+      }
+    ],
+    "product_labels": [
+      "11"
+    ],
+    "reactant_labels": [
+      "9",
+      "10"
+    ],
+    "reagents": [
+      "oxalyl chloride",
+      "DMSO",
+      "Et3N"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "9",
+        "percent": 77,
+        "product_label": "11",
+        "scope": "Two-operation sequence"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "DCM",
+      "toluene"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: A02",
+        "pages": [
+          2,
+          6
+        ],
+        "sha256": "c706656d4286c247094735b09a44c0ac37d5994fadbba9b426d37b2007c86073",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "A02.1"
+    ],
+    "substrate_product_smiles": "CC(C)(C)[Si](C)(C)OCCCCO.CCOC(=O)CC(=O)O>>CCOC(=O)C/C=C/CCO[Si](C)(C)C(C)(C)C",
+    "yield_scope": "Two-operation sequence"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "A03",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "12"
+    ],
+    "reactant_labels": [
+      "11"
+    ],
+    "reagents": [
+      "AD-mix beta",
+      "(DHQD)2PHAL",
+      "methanesulfonamide"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "11",
+        "percent": 78,
+        "product_label": "12",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "tBuOH",
+      "water"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: A03",
+        "pages": [
+          2,
+          7
+        ],
+        "sha256": "c706656d4286c247094735b09a44c0ac37d5994fadbba9b426d37b2007c86073",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "A03.1"
+    ],
+    "substrate_product_smiles": "CCOC(=O)C/C=C/CCO[Si](C)(C)C(C)(C)C>>CC(C)(C)[Si](C)(C)OCC[C@H]1OC(=O)C[C@H]1O"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "A04",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "7"
+    ],
+    "reactant_labels": [
+      "12"
+    ],
+    "reagents": [
+      "TBSCl",
+      "imidazole"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "12",
+        "percent": 90,
+        "product_label": "7",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "DCM"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: A04",
+        "pages": [
+          2,
+          7
+        ],
+        "sha256": "c706656d4286c247094735b09a44c0ac37d5994fadbba9b426d37b2007c86073",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "A04.1"
+    ],
+    "substrate_product_smiles": "CC(C)(C)[Si](C)(C)OCC[C@H]1OC(=O)C[C@H]1O>>CC(C)(C)[Si](C)(C)OCC[C@H]1OC(=O)C[C@H]1O[Si](C)(C)C(C)(C)C"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "F01",
+    "experimental_stage_count": 3,
+    "formal_benchmark_eligible": false,
+    "operation_stages": [
+      {
+        "operation": "alkyne silylation and workup"
+      },
+      {
+        "operation": "alcohol bromination"
+      },
+      {
+        "operation": "phosphonium salt formation"
+      }
+    ],
+    "product_labels": [
+      "13"
+    ],
+    "reactant_labels": [
+      "propargyl alcohol"
+    ],
+    "reagents": [
+      "n-BuLi",
+      "TMSCl",
+      "HCl",
+      "PBr3",
+      "PPh3"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "propargyl alcohol",
+        "percent": 45,
+        "product_label": "13",
+        "scope": "45% over three operations; crude intermediates not separately drawn"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "THF",
+      "DCM",
+      "benzene"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: F01",
+        "pages": [
+          7
+        ],
+        "sha256": "c706656d4286c247094735b09a44c0ac37d5994fadbba9b426d37b2007c86073",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "F01.1"
+    ],
+    "substrate_product_smiles": "C#CCO>>C[Si](C)(C)C#CC[P+](c1ccccc1)(c1ccccc1)c1ccccc1.[Br-]",
+    "yield_scope": "45% over three operations; crude intermediates not separately drawn"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "A05",
+    "experimental_stage_count": 2,
+    "formal_benchmark_eligible": false,
+    "operation_stages": [
+      {
+        "operation": "lactone reduction"
+      },
+      {
+        "operation": "Wittig olefination"
+      }
+    ],
+    "product_labels": [
+      "14a",
+      "14b"
+    ],
+    "reactant_labels": [
+      "7",
+      "13"
+    ],
+    "reagents": [
+      "DIBAL-H",
+      "n-BuLi"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "7",
+        "percent": 52,
+        "product_label": "14a",
+        "scope": "Separated E/Z products, each over two operations"
+      },
+      {
+        "from_label": "7",
+        "percent": 14,
+        "product_label": "14b",
+        "scope": "Separated E/Z products, each over two operations"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "DCM",
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: A05",
+        "pages": [
+          3,
+          7,
+          8
+        ],
+        "sha256": "c706656d4286c247094735b09a44c0ac37d5994fadbba9b426d37b2007c86073",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "A05.1"
+    ],
+    "substrate_product_smiles": "CC(C)(C)[Si](C)(C)OCC[C@H]1OC(=O)C[C@H]1O[Si](C)(C)C(C)(C)C.C[Si](C)(C)C#CC[P+](c1ccccc1)(c1ccccc1)c1ccccc1.[Br-]>>CC(C)(C)[Si](C)(C)OCC[C@@H](O)[C@@H](C/C=C/C#C[Si](C)(C)C)O[Si](C)(C)C(C)(C)C.CC(C)(C)[Si](C)(C)OCC[C@@H](O)[C@@H](C/C=C\\C#C[Si](C)(C)C)O[Si](C)(C)C(C)(C)C",
+    "yield_scope": "Separated E/Z products, each over two operations"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "A06",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "6a"
+    ],
+    "reactant_labels": [
+      "14a"
+    ],
+    "reagents": [
+      "K2CO3"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "14a",
+        "percent": 93,
+        "product_label": "6a",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "MeOH"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: A06",
+        "pages": [
+          3,
+          8
+        ],
+        "sha256": "c706656d4286c247094735b09a44c0ac37d5994fadbba9b426d37b2007c86073",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "A06.1"
+    ],
+    "substrate_product_smiles": "CC(C)(C)[Si](C)(C)OCC[C@@H](O)[C@@H](C/C=C/C#C[Si](C)(C)C)O[Si](C)(C)C(C)(C)C>>C#C/C=C/C[C@@H](O[Si](C)(C)C(C)(C)C)[C@H](O)CCO[Si](C)(C)C(C)(C)C"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "A07",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "6b"
+    ],
+    "reactant_labels": [
+      "14b"
+    ],
+    "reagents": [
+      "K2CO3"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "14b",
+        "percent": 92,
+        "product_label": "6b",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "MeOH"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: A07",
+        "pages": [
+          3,
+          8
+        ],
+        "sha256": "c706656d4286c247094735b09a44c0ac37d5994fadbba9b426d37b2007c86073",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "A07.1"
+    ],
+    "substrate_product_smiles": "CC(C)(C)[Si](C)(C)OCC[C@@H](O)[C@@H](C/C=C\\C#C[Si](C)(C)C)O[Si](C)(C)C(C)(C)C>>C#C/C=C\\C[C@@H](O[Si](C)(C)C(C)(C)C)[C@H](O)CCO[Si](C)(C)C(C)(C)C"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "combined_yield_percent": 20,
+    "diastereomeric_ratio": "1:1",
+    "event_id": "B01",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "5a",
+      "5a'"
+    ],
+    "reactant_labels": [
+      "6a"
+    ],
+    "reagents": [
+      "NBS"
+    ],
+    "reported_yields": [],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "DCM"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: B01",
+        "pages": [
+          3,
+          8
+        ],
+        "sha256": "c706656d4286c247094735b09a44c0ac37d5994fadbba9b426d37b2007c86073",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "B01.1"
+    ],
+    "substrate_product_smiles": "C#C/C=C/C[C@@H](O[Si](C)(C)C(C)(C)C)[C@H](O)CCO[Si](C)(C)C(C)(C)C>>CC(C)(C)[Si](C)(C)OCC[C@H]1O[C@@H](C=C=CBr)C[C@H]1O[Si](C)(C)C(C)(C)C.CC(C)(C)[Si](C)(C)OCC[C@H]1O[C@@H](C=C=CBr)C[C@H]1O[Si](C)(C)C(C)(C)C",
+    "yield_scope": "20% inseparable combined mixture; 5a:5a prime = 1:1"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "combined_yield_percent": 65,
+    "diastereomeric_ratio": "1:2.6",
+    "event_id": "B02",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "5a",
+      "5a'"
+    ],
+    "reactant_labels": [
+      "6a"
+    ],
+    "reagents": [
+      "TBCD"
+    ],
+    "reported_yields": [],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "DCM"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: B02",
+        "pages": [
+          3,
+          8
+        ],
+        "sha256": "c706656d4286c247094735b09a44c0ac37d5994fadbba9b426d37b2007c86073",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "B02.1"
+    ],
+    "substrate_product_smiles": "C#C/C=C/C[C@@H](O[Si](C)(C)C(C)(C)C)[C@H](O)CCO[Si](C)(C)C(C)(C)C>>CC(C)(C)[Si](C)(C)OCC[C@H]1O[C@@H](C=C=CBr)C[C@H]1O[Si](C)(C)C(C)(C)C.CC(C)(C)[Si](C)(C)OCC[C@H]1O[C@@H](C=C=CBr)C[C@H]1O[Si](C)(C)C(C)(C)C",
+    "yield_scope": "65% inseparable combined mixture; 5a:5a prime = 1:2.6"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "combined_yield_percent": 38,
+    "diastereomeric_ratio": "1.3:1",
+    "event_id": "B03",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "5a",
+      "5a'"
+    ],
+    "reactant_labels": [
+      "6a"
+    ],
+    "reagents": [
+      "TBCD"
+    ],
+    "reported_yields": [],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "cyclohexane"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: B03",
+        "pages": [
+          3,
+          8
+        ],
+        "sha256": "c706656d4286c247094735b09a44c0ac37d5994fadbba9b426d37b2007c86073",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "B03.1"
+    ],
+    "substrate_product_smiles": "C#C/C=C/C[C@@H](O[Si](C)(C)C(C)(C)C)[C@H](O)CCO[Si](C)(C)C(C)(C)C>>CC(C)(C)[Si](C)(C)OCC[C@H]1O[C@@H](C=C=CBr)C[C@H]1O[Si](C)(C)C(C)(C)C.CC(C)(C)[Si](C)(C)OCC[C@H]1O[C@@H](C=C=CBr)C[C@H]1O[Si](C)(C)C(C)(C)C",
+    "yield_scope": "38% inseparable combined mixture; 5a:5a prime = 1.3:1"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "combined_yield_percent": 55,
+    "diastereomeric_ratio": "2.8:1",
+    "event_id": "B04",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "5a",
+      "5a'"
+    ],
+    "reactant_labels": [
+      "6a"
+    ],
+    "reagents": [
+      "TBCD"
+    ],
+    "reported_yields": [],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "benzene"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: B04",
+        "pages": [
+          3,
+          8
+        ],
+        "sha256": "c706656d4286c247094735b09a44c0ac37d5994fadbba9b426d37b2007c86073",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "B04.1"
+    ],
+    "substrate_product_smiles": "C#C/C=C/C[C@@H](O[Si](C)(C)C(C)(C)C)[C@H](O)CCO[Si](C)(C)C(C)(C)C>>CC(C)(C)[Si](C)(C)OCC[C@H]1O[C@@H](C=C=CBr)C[C@H]1O[Si](C)(C)C(C)(C)C.CC(C)(C)[Si](C)(C)OCC[C@H]1O[C@@H](C=C=CBr)C[C@H]1O[Si](C)(C)C(C)(C)C",
+    "yield_scope": "55% inseparable combined mixture; 5a:5a prime = 2.8:1"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "combined_yield_percent": 68,
+    "diastereomeric_ratio": "3.3:1",
+    "event_id": "B05",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "5a",
+      "5a'"
+    ],
+    "reactant_labels": [
+      "6a"
+    ],
+    "reagents": [
+      "TBCD"
+    ],
+    "reported_yields": [],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "toluene"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: B05",
+        "pages": [
+          3,
+          8
+        ],
+        "sha256": "c706656d4286c247094735b09a44c0ac37d5994fadbba9b426d37b2007c86073",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "B05.1"
+    ],
+    "substrate_product_smiles": "C#C/C=C/C[C@@H](O[Si](C)(C)C(C)(C)C)[C@H](O)CCO[Si](C)(C)C(C)(C)C>>CC(C)(C)[Si](C)(C)OCC[C@H]1O[C@@H](C=C=CBr)C[C@H]1O[Si](C)(C)C(C)(C)C.CC(C)(C)[Si](C)(C)OCC[C@H]1O[C@@H](C=C=CBr)C[C@H]1O[Si](C)(C)C(C)(C)C",
+    "yield_scope": "68% inseparable combined mixture; 5a:5a prime = 3.3:1"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "B06",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "15a",
+      "15b"
+    ],
+    "reactant_labels": [
+      "5a",
+      "5a'"
+    ],
+    "reagents": [
+      "TBAF"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "5a",
+        "percent": 65,
+        "product_label": "15a",
+        "scope": "Separated product yields based on combined 5a/5a prime feed, not pure individual precursors"
+      },
+      {
+        "from_label": "5a",
+        "percent": 21,
+        "product_label": "15b",
+        "scope": "Separated product yields based on combined 5a/5a prime feed, not pure individual precursors"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: B06",
+        "pages": [
+          3,
+          8,
+          9
+        ],
+        "sha256": "c706656d4286c247094735b09a44c0ac37d5994fadbba9b426d37b2007c86073",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "B06.1"
+    ],
+    "substrate_product_smiles": "CC(C)(C)[Si](C)(C)OCC[C@H]1O[C@@H](C=C=CBr)C[C@H]1O[Si](C)(C)C(C)(C)C.CC(C)(C)[Si](C)(C)OCC[C@H]1O[C@@H](C=C=CBr)C[C@H]1O[Si](C)(C)C(C)(C)C>>OCC[C@H]1O[C@@H](C=C=CBr)C[C@H]1O.OCC[C@H]1O[C@@H](C=C=CBr)C[C@H]1O",
+    "yield_scope": "Separated product yields based on combined 5a/5a prime feed, not pure individual precursors"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "F02",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "hex-3-enyl phosphonium bromide"
+    ],
+    "reactant_labels": [
+      "(E)-1-bromohex-3-ene"
+    ],
+    "reagents": [
+      "PPh3"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "(E)-1-bromohex-3-ene",
+        "percent": 72,
+        "product_label": "hex-3-enyl phosphonium bromide",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "benzene"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: F02",
+        "pages": [
+          9
+        ],
+        "sha256": "c706656d4286c247094735b09a44c0ac37d5994fadbba9b426d37b2007c86073",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "F02.1"
+    ],
+    "substrate_product_smiles": "CC/C=C/CCBr>>CC/C=C/CC[P+](c1ccccc1)(c1ccccc1)c1ccccc1.[Br-]"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "B07",
+    "experimental_stage_count": 2,
+    "formal_benchmark_eligible": false,
+    "operation_stages": [
+      {
+        "operation": "selective primary alcohol oxidation"
+      },
+      {
+        "operation": "Wittig olefination"
+      }
+    ],
+    "product_labels": [
+      "16a"
+    ],
+    "reactant_labels": [
+      "15a",
+      "hex-3-enyl phosphonium bromide"
+    ],
+    "reagents": [
+      "Dess-Martin periodinane",
+      "NaHMDS"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "15a",
+        "percent": 72,
+        "product_label": "16a",
+        "scope": "Two-operation sequence"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "DCM",
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: B07",
+        "pages": [
+          4,
+          9
+        ],
+        "sha256": "c706656d4286c247094735b09a44c0ac37d5994fadbba9b426d37b2007c86073",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "B07.1"
+    ],
+    "substrate_product_smiles": "CC/C=C/CC[P+](c1ccccc1)(c1ccccc1)c1ccccc1.OCC[C@H]1O[C@@H](C=C=CBr)C[C@H]1O.[Br-]>>CC/C=C/C/C=C\\C[C@H]1O[C@@H](C=C=CBr)C[C@H]1O",
+    "yield_scope": "Two-operation sequence"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "B08",
+    "experimental_stage_count": 2,
+    "formal_benchmark_eligible": false,
+    "operation_stages": [
+      {
+        "operation": "selective primary alcohol oxidation"
+      },
+      {
+        "operation": "Wittig olefination"
+      }
+    ],
+    "product_labels": [
+      "16b"
+    ],
+    "reactant_labels": [
+      "15b",
+      "hex-3-enyl phosphonium bromide"
+    ],
+    "reagents": [
+      "Dess-Martin periodinane",
+      "NaHMDS"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "15b",
+        "percent": 70,
+        "product_label": "16b",
+        "scope": "Two-operation sequence"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "DCM",
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: B08",
+        "pages": [
+          4,
+          9
+        ],
+        "sha256": "c706656d4286c247094735b09a44c0ac37d5994fadbba9b426d37b2007c86073",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "B08.1"
+    ],
+    "substrate_product_smiles": "CC/C=C/CC[P+](c1ccccc1)(c1ccccc1)c1ccccc1.OCC[C@H]1O[C@@H](C=C=CBr)C[C@H]1O.[Br-]>>CC/C=C/C/C=C\\C[C@H]1O[C@@H](C=C=CBr)C[C@H]1O",
+    "yield_scope": "Two-operation sequence"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "B09",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "2a"
+    ],
+    "reactant_labels": [
+      "16a"
+    ],
+    "reagents": [
+      "Ac2O",
+      "pyridine"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "16a",
+        "percent": 80,
+        "product_label": "2a",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "DCM"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: B09",
+        "pages": [
+          9
+        ],
+        "sha256": "c706656d4286c247094735b09a44c0ac37d5994fadbba9b426d37b2007c86073",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "B09.1"
+    ],
+    "substrate_product_smiles": "CC/C=C/C/C=C\\C[C@H]1O[C@@H](C=C=CBr)C[C@H]1O>>CC/C=C/C/C=C\\C[C@H]1O[C@@H](C=C=CBr)C[C@H]1OC(C)=O"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "B10",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "2a'"
+    ],
+    "reactant_labels": [
+      "16b"
+    ],
+    "reagents": [
+      "Ac2O",
+      "pyridine"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "16b",
+        "percent": 82,
+        "product_label": "2a'",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "DCM"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: B10",
+        "pages": [
+          9
+        ],
+        "sha256": "c706656d4286c247094735b09a44c0ac37d5994fadbba9b426d37b2007c86073",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "B10.1"
+    ],
+    "substrate_product_smiles": "CC/C=C/C/C=C\\C[C@H]1O[C@@H](C=C=CBr)C[C@H]1O>>CC/C=C/C/C=C\\C[C@H]1O[C@@H](C=C=CBr)C[C@H]1OC(C)=O"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "C15",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "2b"
+    ],
+    "reactant_labels": [
+      "27a"
+    ],
+    "reagents": [
+      "Ac2O",
+      "pyridine"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "27a",
+        "percent": 88,
+        "product_label": "2b",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "DCM"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: C15",
+        "pages": [
+          12
+        ],
+        "sha256": "c706656d4286c247094735b09a44c0ac37d5994fadbba9b426d37b2007c86073",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "C15.1"
+    ],
+    "substrate_product_smiles": "CC/C=C/C/C=C\\C[C@H]1O[C@H](C=C=CBr)C[C@H]1O>>CC/C=C/C/C=C\\C[C@H]1O[C@H](C=C=CBr)C[C@H]1OC(C)=O"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "C16",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "2b'"
+    ],
+    "reactant_labels": [
+      "27b"
+    ],
+    "reagents": [
+      "Ac2O",
+      "pyridine"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "27b",
+        "percent": 84,
+        "product_label": "2b'",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "DCM"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: C16",
+        "pages": [
+          12
+        ],
+        "sha256": "c706656d4286c247094735b09a44c0ac37d5994fadbba9b426d37b2007c86073",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "C16.1"
+    ],
+    "substrate_product_smiles": "CC/C=C/C/C=C\\C[C@H]1O[C@H](C=C=CBr)C[C@H]1O>>CC/C=C/C/C=C\\C[C@H]1O[C@H](C=C=CBr)C[C@H]1OC(C)=O"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "C01",
+    "experimental_stage_count": 2,
+    "formal_benchmark_eligible": false,
+    "operation_stages": [
+      {
+        "operation": "lactone reduction"
+      },
+      {
+        "operation": "Wittig olefination"
+      }
+    ],
+    "product_labels": [
+      "17"
+    ],
+    "reactant_labels": [
+      "12",
+      "ethyl triphenylphosphoranylidene acetate"
+    ],
+    "reagents": [
+      "DIBAL-H"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "12",
+        "percent": 70,
+        "product_label": "17",
+        "scope": "Two-operation sequence"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "DCM",
+      "benzene"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: C01",
+        "pages": [
+          4,
+          9
+        ],
+        "sha256": "c706656d4286c247094735b09a44c0ac37d5994fadbba9b426d37b2007c86073",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "C01.1"
+    ],
+    "substrate_product_smiles": "CC(C)(C)[Si](C)(C)OCC[C@H]1OC(=O)C[C@H]1O.CCOC(=O)C=P(c1ccccc1)(c1ccccc1)c1ccccc1>>CCOC(=O)/C=C/C[C@@H](O)[C@H](O)CCO[Si](C)(C)C(C)(C)C",
+    "yield_scope": "Two-operation sequence"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "C02",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "18"
+    ],
+    "reactant_labels": [
+      "17"
+    ],
+    "reagents": [
+      "DIBAL-H"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "17",
+        "percent": 86,
+        "product_label": "18",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "DCM"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: C02",
+        "pages": [
+          4,
+          10
+        ],
+        "sha256": "c706656d4286c247094735b09a44c0ac37d5994fadbba9b426d37b2007c86073",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "C02.1"
+    ],
+    "substrate_product_smiles": "CCOC(=O)/C=C/C[C@@H](O)[C@H](O)CCO[Si](C)(C)C(C)(C)C>>CC(C)(C)[Si](C)(C)OCC[C@@H](O)[C@H](O)C/C=C/CO"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "C03",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "19"
+    ],
+    "reactant_labels": [
+      "18"
+    ],
+    "reagents": [
+      "AcCl",
+      "2,3,5-collidine"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "18",
+        "percent": 88,
+        "product_label": "19",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "DCM"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: C03",
+        "pages": [
+          4,
+          10
+        ],
+        "sha256": "c706656d4286c247094735b09a44c0ac37d5994fadbba9b426d37b2007c86073",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "C03.1"
+    ],
+    "substrate_product_smiles": "CC(C)(C)[Si](C)(C)OCC[C@@H](O)[C@H](O)C/C=C/CO>>CC(=O)OC/C=C/C[C@@H](O)[C@H](O)CCO[Si](C)(C)C(C)(C)C"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "C04",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "20"
+    ],
+    "reactant_labels": [
+      "19"
+    ],
+    "reagents": [
+      "Pd(OAc)2",
+      "PPh3",
+      "pyridine"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "19",
+        "percent": 92,
+        "product_label": "20",
+        "scope": "trans:cis 11:1 mixture; target graph describes major trans member"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: C04",
+        "pages": [
+          4,
+          10
+        ],
+        "sha256": "c706656d4286c247094735b09a44c0ac37d5994fadbba9b426d37b2007c86073",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "C04.1"
+    ],
+    "substrate_product_smiles": "CC(=O)OC/C=C/C[C@@H](O)[C@H](O)CCO[Si](C)(C)C(C)(C)C>>C=C[C@@H]1C[C@@H](O)[C@@H](CCO[Si](C)(C)C(C)(C)C)O1",
+    "yield_scope": "trans:cis 11:1 mixture; target graph describes major trans member"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "C05",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "21"
+    ],
+    "reactant_labels": [
+      "20"
+    ],
+    "reagents": [
+      "TBSCl",
+      "imidazole"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "20",
+        "percent": 92,
+        "product_label": "21",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "DCM"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: C05",
+        "pages": [
+          5,
+          10
+        ],
+        "sha256": "c706656d4286c247094735b09a44c0ac37d5994fadbba9b426d37b2007c86073",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "C05.1"
+    ],
+    "substrate_product_smiles": "C=C[C@@H]1C[C@@H](O)[C@@H](CCO[Si](C)(C)C(C)(C)C)O1>>C=C[C@@H]1C[C@@H](O[Si](C)(C)C(C)(C)C)[C@@H](CCO[Si](C)(C)C(C)(C)C)O1"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "C06",
+    "experimental_stage_count": 2,
+    "formal_benchmark_eligible": false,
+    "operation_stages": [
+      {
+        "operation": "oxidative alkene cleavage"
+      },
+      {
+        "operation": "ethynyl Grignard addition"
+      }
+    ],
+    "product_labels": [
+      "22"
+    ],
+    "reactant_labels": [
+      "21",
+      "ethynylmagnesium bromide"
+    ],
+    "reagents": [
+      "OsO4",
+      "NaIO4",
+      "2,6-lutidine"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "21",
+        "percent": 85,
+        "product_label": "22",
+        "scope": "Two-operation yield, propargyl diastereomers 1.2:1"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "dioxane",
+      "water",
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: C06",
+        "pages": [
+          5,
+          10
+        ],
+        "sha256": "c706656d4286c247094735b09a44c0ac37d5994fadbba9b426d37b2007c86073",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "C06.1"
+    ],
+    "substrate_product_smiles": "C#[C][Mg][Br].C=C[C@@H]1C[C@@H](O[Si](C)(C)C(C)(C)C)[C@@H](CCO[Si](C)(C)C(C)(C)C)O1>>C#CC(O)[C@@H]1C[C@@H](O[Si](C)(C)C(C)(C)C)[C@@H](CCO[Si](C)(C)C(C)(C)C)O1",
+    "yield_scope": "Two-operation yield, propargyl diastereomers 1.2:1"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "C07",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "23"
+    ],
+    "reactant_labels": [
+      "22"
+    ],
+    "reagents": [
+      "2,4,6-triisopropylbenzenesulfonyl chloride",
+      "DMAP"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "22",
+        "percent": 94,
+        "product_label": "23",
+        "scope": "Combined diastereomeric mixture"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "DCM"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: C07",
+        "pages": [
+          5
+        ],
+        "sha256": "c706656d4286c247094735b09a44c0ac37d5994fadbba9b426d37b2007c86073",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "C07.1"
+    ],
+    "substrate_product_smiles": "C#CC(O)[C@@H]1C[C@@H](O[Si](C)(C)C(C)(C)C)[C@@H](CCO[Si](C)(C)C(C)(C)C)O1>>C#CC(OS(=O)(=O)c1c(C(C)C)cc(C(C)C)cc1C(C)C)[C@@H]1C[C@@H](O[Si](C)(C)C(C)(C)C)[C@@H](CCO[Si](C)(C)C(C)(C)C)O1",
+    "yield_scope": "Combined diastereomeric mixture"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "C11",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "23a"
+    ],
+    "reactant_labels": [
+      "22a"
+    ],
+    "reagents": [
+      "2,4,6-triisopropylbenzenesulfonyl chloride",
+      "DMAP"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "22a",
+        "percent": 94,
+        "product_label": "23a",
+        "scope": "Combined diastereomeric mixture"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "DCM"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: C11",
+        "pages": [
+          5,
+          11
+        ],
+        "sha256": "c706656d4286c247094735b09a44c0ac37d5994fadbba9b426d37b2007c86073",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "C11.1"
+    ],
+    "substrate_product_smiles": "C#CC(O)[C@@H]1C[C@@H](O[Si](C)(C)C(C)(C)C)[C@@H](CCO[Si](C)(C)C(C)(C)C)O1>>C#CC(OS(=O)(=O)c1c(C(C)C)cc(C(C)C)cc1C(C)C)[C@@H]1C[C@@H](O[Si](C)(C)C(C)(C)C)[C@@H](CCO[Si](C)(C)C(C)(C)C)O1",
+    "yield_scope": "Combined diastereomeric mixture"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "C08",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "24"
+    ],
+    "reactant_labels": [
+      "23"
+    ],
+    "reagents": [
+      "LiBr",
+      "CuBr"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "23",
+        "percent": 88,
+        "product_label": "24",
+        "scope": "Combined axial diastereomers"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: C08",
+        "pages": [
+          5
+        ],
+        "sha256": "c706656d4286c247094735b09a44c0ac37d5994fadbba9b426d37b2007c86073",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "C08.1"
+    ],
+    "substrate_product_smiles": "C#CC(OS(=O)(=O)c1c(C(C)C)cc(C(C)C)cc1C(C)C)[C@@H]1C[C@@H](O[Si](C)(C)C(C)(C)C)[C@@H](CCO[Si](C)(C)C(C)(C)C)O1>>CC(C)(C)[Si](C)(C)OCC[C@H]1O[C@H](C=C=CBr)C[C@H]1O[Si](C)(C)C(C)(C)C",
+    "yield_scope": "Combined axial diastereomers"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "C12",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "24a"
+    ],
+    "reactant_labels": [
+      "23a"
+    ],
+    "reagents": [
+      "LiBr",
+      "CuBr"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "23a",
+        "percent": 88,
+        "product_label": "24a",
+        "scope": "Combined axial diastereomers"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: C12",
+        "pages": [
+          5,
+          11
+        ],
+        "sha256": "c706656d4286c247094735b09a44c0ac37d5994fadbba9b426d37b2007c86073",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "C12.1"
+    ],
+    "substrate_product_smiles": "C#CC(OS(=O)(=O)c1c(C(C)C)cc(C(C)C)cc1C(C)C)[C@@H]1C[C@@H](O[Si](C)(C)C(C)(C)C)[C@@H](CCO[Si](C)(C)C(C)(C)C)O1>>CC(C)(C)[Si](C)(C)OCC[C@H]1O[C@H](C=C=CBr)C[C@H]1O[Si](C)(C)C(C)(C)C",
+    "yield_scope": "Combined axial diastereomers"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "C09",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "25"
+    ],
+    "reactant_labels": [
+      "24"
+    ],
+    "reagents": [
+      "TBAF"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "24",
+        "percent": 90,
+        "product_label": "25",
+        "scope": "Combined axial diastereomers"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: C09",
+        "pages": [
+          5
+        ],
+        "sha256": "c706656d4286c247094735b09a44c0ac37d5994fadbba9b426d37b2007c86073",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "C09.1"
+    ],
+    "substrate_product_smiles": "CC(C)(C)[Si](C)(C)OCC[C@H]1O[C@H](C=C=CBr)C[C@H]1O[Si](C)(C)C(C)(C)C>>OCC[C@H]1O[C@H](C=C=CBr)C[C@H]1O",
+    "yield_scope": "Combined axial diastereomers"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "C13",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "25a"
+    ],
+    "reactant_labels": [
+      "24a"
+    ],
+    "reagents": [
+      "TBAF"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "24a",
+        "percent": 91,
+        "product_label": "25a",
+        "scope": "Combined axial diastereomers"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: C13",
+        "pages": [
+          5,
+          11
+        ],
+        "sha256": "c706656d4286c247094735b09a44c0ac37d5994fadbba9b426d37b2007c86073",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "C13.1"
+    ],
+    "substrate_product_smiles": "CC(C)(C)[Si](C)(C)OCC[C@H]1O[C@H](C=C=CBr)C[C@H]1O[Si](C)(C)C(C)(C)C>>OCC[C@H]1O[C@H](C=C=CBr)C[C@H]1O",
+    "yield_scope": "Combined axial diastereomers"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "C10",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "26"
+    ],
+    "reactant_labels": [
+      "22"
+    ],
+    "reagents": [
+      "Dess-Martin periodinane"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "22",
+        "percent": 93,
+        "product_label": "26",
+        "scope": "Experimental section 93%; Scheme 7 reports 94%"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "DCM"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: C10",
+        "pages": [
+          5,
+          11
+        ],
+        "sha256": "c706656d4286c247094735b09a44c0ac37d5994fadbba9b426d37b2007c86073",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "C10.1"
+    ],
+    "substrate_product_smiles": "C#CC(O)[C@@H]1C[C@@H](O[Si](C)(C)C(C)(C)C)[C@@H](CCO[Si](C)(C)C(C)(C)C)O1>>C#CC(=O)[C@@H]1C[C@@H](O[Si](C)(C)C(C)(C)C)[C@@H](CCO[Si](C)(C)C(C)(C)C)O1",
+    "yield_scope": "Experimental section 93%; Scheme 7 reports 94%"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "C10R",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "22a"
+    ],
+    "reactant_labels": [
+      "26"
+    ],
+    "reagents": [
+      "Red-Al"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "26",
+        "percent": 98,
+        "product_label": "22a",
+        "scope": "5:1 inseparable diastereomers"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: C10R",
+        "pages": [
+          5,
+          11
+        ],
+        "sha256": "c706656d4286c247094735b09a44c0ac37d5994fadbba9b426d37b2007c86073",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "C10R.1"
+    ],
+    "substrate_product_smiles": "C#CC(=O)[C@@H]1C[C@@H](O[Si](C)(C)C(C)(C)C)[C@@H](CCO[Si](C)(C)C(C)(C)C)O1>>C#CC(O)[C@@H]1C[C@@H](O[Si](C)(C)C(C)(C)C)[C@@H](CCO[Si](C)(C)C(C)(C)C)O1",
+    "yield_scope": "5:1 inseparable diastereomers"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "C14",
+    "experimental_stage_count": 2,
+    "formal_benchmark_eligible": false,
+    "operation_stages": [
+      {
+        "operation": "primary alcohol oxidation"
+      },
+      {
+        "operation": "Wittig olefination"
+      }
+    ],
+    "product_labels": [
+      "27a",
+      "27b"
+    ],
+    "reactant_labels": [
+      "25a",
+      "hex-3-enyl phosphonium iodide"
+    ],
+    "reagents": [
+      "Dess-Martin periodinane",
+      "NaHMDS"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "25a",
+        "percent": 74,
+        "product_label": "27a",
+        "scope": "Separated axial diastereomers, two-operation yields"
+      },
+      {
+        "from_label": "25a",
+        "percent": 11,
+        "product_label": "27b",
+        "scope": "Separated axial diastereomers, two-operation yields"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "DCM",
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: C14",
+        "pages": [
+          6,
+          11,
+          12
+        ],
+        "sha256": "c706656d4286c247094735b09a44c0ac37d5994fadbba9b426d37b2007c86073",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "C14.1"
+    ],
+    "substrate_product_smiles": "CC/C=C/CC[P+](c1ccccc1)(c1ccccc1)c1ccccc1.OCC[C@H]1O[C@H](C=C=CBr)C[C@H]1O.[I-]>>CC/C=C/C/C=C\\C[C@H]1O[C@H](C=C=CBr)C[C@H]1O.CC/C=C/C/C=C\\C[C@H]1O[C@H](C=C=CBr)C[C@H]1O",
+    "yield_scope": "Separated axial diastereomers, two-operation yields"
+  }
+]

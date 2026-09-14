@@ -1,0 +1,780 @@
+[
+  {
+    "admission_authority": false,
+    "formal_benchmark_eligible": false,
+    "from_commercial_starting_materials_complete": false,
+    "full_article_route_coverage": true,
+    "molecule_smiles_sequence": [
+      "COC1(OC)C2(Cl)CC(CCBr)C1(Cl)C(=O)C2=O",
+      "COC(=O)C1(Cl)CC(CCBr)C(Cl)=C(OC)C1=O",
+      "COC(=O)C1(Cl)C(=O)C(OC)=C(Cl)CC1CCBr",
+      "COC(=O)c1cc(CCBr)c(Cl)c(OC)c1OCc1ccccc1",
+      "COC(=O)c1c(CCBr)cc(Cl)c(OC)c1OCc1ccccc1",
+      "COc1c(Cl)c(CCBr)cc(C=O)c1OCc1ccccc1",
+      "COc1c(Cl)c(CCBr)cc(O)c1OCc1ccccc1",
+      "C=Cc1cc(OC)c(OCc2ccccc2)c(OC)c1Cl",
+      "C=Cc1cc(OC)c(OCc2ccccc2)c(OC)c1",
+      "COc1cc(C2CO2)cc(OC)c1OCc1ccccc1",
+      "COc1cc(Br)ccc1OCc1ccccc1",
+      "COc1cc(CC(O)c2cc(OC)c(OCc3ccccc3)c(OC)c2)ccc1OCc1ccccc1",
+      "COc1cc(CC(O)c2cc(OC)c(O)c(OC)c2)ccc1O"
+    ],
+    "ordered_event_ids": [
+      "E01",
+      "E02",
+      "E06",
+      "E07",
+      "E08",
+      "E09",
+      "E10",
+      "E11",
+      "E12"
+    ],
+    "ordered_molecule_labels": [
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "aryl-bromide",
+      "20",
+      "1"
+    ],
+    "ordered_step_ids": [
+      "E01.1",
+      "E02.1",
+      "E06.1",
+      "E07.1",
+      "E08.1",
+      "E09.1",
+      "E10.1",
+      "E11.1",
+      "E12.1"
+    ],
+    "route_id": "nobilin_bibenzyls-1",
+    "route_type": "source_bound_successful_synthesis",
+    "split_group": "10.1021/acsomega.6c01624",
+    "start_label": "5",
+    "start_labels": [
+      "5",
+      "aryl-bromide"
+    ],
+    "step_reaction_smiles_sequence": [
+      "COC1(OC)C2(Cl)CC(CCBr)C1(Cl)C(=O)C2=O>>COC(=O)C1(Cl)C(=O)C(OC)=C(Cl)CC1CCBr.COC(=O)C1(Cl)CC(CCBr)C(Cl)=C(OC)C1=O",
+      "COC(=O)C1(Cl)C(=O)C(OC)=C(Cl)CC1CCBr.COC(=O)C1(Cl)CC(CCBr)C(Cl)=C(OC)C1=O>>COC(=O)c1c(CCBr)cc(Cl)c(OC)c1OCc1ccccc1.COC(=O)c1cc(CCBr)c(Cl)c(OC)c1OCc1ccccc1",
+      "COC(=O)c1cc(CCBr)c(Cl)c(OC)c1OCc1ccccc1>>COc1c(Cl)c(CCBr)cc(C=O)c1OCc1ccccc1",
+      "COc1c(Cl)c(CCBr)cc(C=O)c1OCc1ccccc1>>COc1c(Cl)c(CCBr)cc(O)c1OCc1ccccc1",
+      "COc1c(Cl)c(CCBr)cc(O)c1OCc1ccccc1>>C=Cc1cc(OC)c(OCc2ccccc2)c(OC)c1Cl",
+      "C=Cc1cc(OC)c(OCc2ccccc2)c(OC)c1Cl>>C=Cc1cc(OC)c(OCc2ccccc2)c(OC)c1",
+      "C=Cc1cc(OC)c(OCc2ccccc2)c(OC)c1>>COc1cc(C2CO2)cc(OC)c1OCc1ccccc1",
+      "COc1cc(Br)ccc1OCc1ccccc1.COc1cc(C2CO2)cc(OC)c1OCc1ccccc1>>COc1cc(CC(O)c2cc(OC)c(OCc3ccccc3)c(OC)c2)ccc1OCc1ccccc1",
+      "COc1cc(CC(O)c2cc(OC)c(OCc3ccccc3)c(OC)c2)ccc1OCc1ccccc1>>COc1cc(CC(O)c2cc(OC)c(O)c(OC)c2)ccc1O"
+    ],
+    "target_label": "1"
+  },
+  {
+    "admission_authority": false,
+    "formal_benchmark_eligible": false,
+    "from_commercial_starting_materials_complete": false,
+    "full_article_route_coverage": true,
+    "molecule_smiles_sequence": [
+      "COC1(OC)C2(Cl)CC(CCBr)C1(Cl)C(=O)C2=O",
+      "COC(=O)C1(Cl)CC(CCBr)C(Cl)=C(OC)C1=O",
+      "COC(=O)C1(Cl)C(=O)C(OC)=C(Cl)CC1CCBr",
+      "COC(=O)c1cc(CCBr)c(Cl)c(OC)c1OCc1ccccc1",
+      "COC(=O)c1c(CCBr)cc(Cl)c(OC)c1OCc1ccccc1",
+      "COc1c(Cl)c(CCBr)cc(C=O)c1OCc1ccccc1",
+      "COc1c(Cl)c(CCBr)cc(O)c1OCc1ccccc1",
+      "C=Cc1cc(OC)c(OCc2ccccc2)c(OC)c1Cl",
+      "C=Cc1cc(OC)c(OCc2ccccc2)c(OC)c1",
+      "COc1cc(C2CO2)cc(OC)c1OCc1ccccc1",
+      "COc1cc(Br)ccc1OCc1ccccc1",
+      "COc1cc(CC(O)c2cc(OC)c(OCc3ccccc3)c(OC)c2)ccc1OCc1ccccc1",
+      "COc1cc(CCc2cc(OC)c(O)c(OC)c2)ccc1O"
+    ],
+    "ordered_event_ids": [
+      "E01",
+      "E02",
+      "E06",
+      "E07",
+      "E08",
+      "E09",
+      "E10",
+      "E11",
+      "E13"
+    ],
+    "ordered_molecule_labels": [
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "aryl-bromide",
+      "20",
+      "3"
+    ],
+    "ordered_step_ids": [
+      "E01.1",
+      "E02.1",
+      "E06.1",
+      "E07.1",
+      "E08.1",
+      "E09.1",
+      "E10.1",
+      "E11.1",
+      "E13.1"
+    ],
+    "route_id": "nobilin_bibenzyls-3",
+    "route_type": "source_bound_successful_synthesis",
+    "split_group": "10.1021/acsomega.6c01624",
+    "start_label": "5",
+    "start_labels": [
+      "5",
+      "aryl-bromide"
+    ],
+    "step_reaction_smiles_sequence": [
+      "COC1(OC)C2(Cl)CC(CCBr)C1(Cl)C(=O)C2=O>>COC(=O)C1(Cl)C(=O)C(OC)=C(Cl)CC1CCBr.COC(=O)C1(Cl)CC(CCBr)C(Cl)=C(OC)C1=O",
+      "COC(=O)C1(Cl)C(=O)C(OC)=C(Cl)CC1CCBr.COC(=O)C1(Cl)CC(CCBr)C(Cl)=C(OC)C1=O>>COC(=O)c1c(CCBr)cc(Cl)c(OC)c1OCc1ccccc1.COC(=O)c1cc(CCBr)c(Cl)c(OC)c1OCc1ccccc1",
+      "COC(=O)c1cc(CCBr)c(Cl)c(OC)c1OCc1ccccc1>>COc1c(Cl)c(CCBr)cc(C=O)c1OCc1ccccc1",
+      "COc1c(Cl)c(CCBr)cc(C=O)c1OCc1ccccc1>>COc1c(Cl)c(CCBr)cc(O)c1OCc1ccccc1",
+      "COc1c(Cl)c(CCBr)cc(O)c1OCc1ccccc1>>C=Cc1cc(OC)c(OCc2ccccc2)c(OC)c1Cl",
+      "C=Cc1cc(OC)c(OCc2ccccc2)c(OC)c1Cl>>C=Cc1cc(OC)c(OCc2ccccc2)c(OC)c1",
+      "C=Cc1cc(OC)c(OCc2ccccc2)c(OC)c1>>COc1cc(C2CO2)cc(OC)c1OCc1ccccc1",
+      "COc1cc(Br)ccc1OCc1ccccc1.COc1cc(C2CO2)cc(OC)c1OCc1ccccc1>>COc1cc(CC(O)c2cc(OC)c(OCc3ccccc3)c(OC)c2)ccc1OCc1ccccc1",
+      "COc1cc(CC(O)c2cc(OC)c(OCc3ccccc3)c(OC)c2)ccc1OCc1ccccc1>>COc1cc(CCc2cc(OC)c(O)c(OC)c2)ccc1O"
+    ],
+    "target_label": "3"
+  },
+  {
+    "admission_authority": false,
+    "formal_benchmark_eligible": false,
+    "from_commercial_starting_materials_complete": false,
+    "full_article_route_coverage": true,
+    "molecule_smiles_sequence": [
+      "COC1(OC)C2(Cl)CC(CCBr)C1(Cl)C(=O)C2=O",
+      "COC(=O)C1(Cl)CC(CCBr)C(Cl)=C(OC)C1=O",
+      "COC(=O)C1(Cl)C(=O)C(OC)=C(Cl)CC1CCBr",
+      "COC(=O)c1cc(CCBr)c(Cl)c(OC)c1OCc1ccccc1",
+      "COC(=O)c1c(CCBr)cc(Cl)c(OC)c1OCc1ccccc1",
+      "COc1c(Cl)c(CCBr)cc(C=O)c1OCc1ccccc1",
+      "COc1c(Cl)c(CCBr)cc(O)c1OCc1ccccc1",
+      "C=Cc1cc(OC)c(OCc2ccccc2)c(OC)c1Cl",
+      "C=Cc1cc(OC)c(OCc2ccccc2)c(OC)c1",
+      "COc1cc(C2CO2)cc(OC)c1OCc1ccccc1",
+      "COc1cc(Br)ccc1OCc1ccccc1",
+      "COc1cc(CC(O)c2cc(OC)c(OCc3ccccc3)c(OC)c2)ccc1OCc1ccccc1",
+      "COc1cc(CC(OC(C)=O)c2cc(OC)c(OCc3ccccc3)c(OC)c2)ccc1OCc1ccccc1"
+    ],
+    "ordered_event_ids": [
+      "E01",
+      "E02",
+      "E06",
+      "E07",
+      "E08",
+      "E09",
+      "E10",
+      "E11",
+      "E14"
+    ],
+    "ordered_molecule_labels": [
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "aryl-bromide",
+      "20",
+      "21"
+    ],
+    "ordered_step_ids": [
+      "E01.1",
+      "E02.1",
+      "E06.1",
+      "E07.1",
+      "E08.1",
+      "E09.1",
+      "E10.1",
+      "E11.1",
+      "E14.1"
+    ],
+    "route_id": "nobilin_bibenzyls-21",
+    "route_type": "source_bound_control_branch",
+    "split_group": "10.1021/acsomega.6c01624",
+    "start_label": "5",
+    "start_labels": [
+      "5",
+      "aryl-bromide"
+    ],
+    "step_reaction_smiles_sequence": [
+      "COC1(OC)C2(Cl)CC(CCBr)C1(Cl)C(=O)C2=O>>COC(=O)C1(Cl)C(=O)C(OC)=C(Cl)CC1CCBr.COC(=O)C1(Cl)CC(CCBr)C(Cl)=C(OC)C1=O",
+      "COC(=O)C1(Cl)C(=O)C(OC)=C(Cl)CC1CCBr.COC(=O)C1(Cl)CC(CCBr)C(Cl)=C(OC)C1=O>>COC(=O)c1c(CCBr)cc(Cl)c(OC)c1OCc1ccccc1.COC(=O)c1cc(CCBr)c(Cl)c(OC)c1OCc1ccccc1",
+      "COC(=O)c1cc(CCBr)c(Cl)c(OC)c1OCc1ccccc1>>COc1c(Cl)c(CCBr)cc(C=O)c1OCc1ccccc1",
+      "COc1c(Cl)c(CCBr)cc(C=O)c1OCc1ccccc1>>COc1c(Cl)c(CCBr)cc(O)c1OCc1ccccc1",
+      "COc1c(Cl)c(CCBr)cc(O)c1OCc1ccccc1>>C=Cc1cc(OC)c(OCc2ccccc2)c(OC)c1Cl",
+      "C=Cc1cc(OC)c(OCc2ccccc2)c(OC)c1Cl>>C=Cc1cc(OC)c(OCc2ccccc2)c(OC)c1",
+      "C=Cc1cc(OC)c(OCc2ccccc2)c(OC)c1>>COc1cc(C2CO2)cc(OC)c1OCc1ccccc1",
+      "COc1cc(Br)ccc1OCc1ccccc1.COc1cc(C2CO2)cc(OC)c1OCc1ccccc1>>COc1cc(CC(O)c2cc(OC)c(OCc3ccccc3)c(OC)c2)ccc1OCc1ccccc1",
+      "COc1cc(CC(O)c2cc(OC)c(OCc3ccccc3)c(OC)c2)ccc1OCc1ccccc1>>COc1cc(CC(OC(C)=O)c2cc(OC)c(OCc3ccccc3)c(OC)c2)ccc1OCc1ccccc1"
+    ],
+    "target_label": "21"
+  },
+  {
+    "admission_authority": false,
+    "formal_benchmark_eligible": false,
+    "from_commercial_starting_materials_complete": false,
+    "full_article_route_coverage": true,
+    "molecule_smiles_sequence": [
+      "COC1(OC)C2(Cl)CC(CCBr)C1(Cl)C(=O)C2=O",
+      "COC(=O)C1(Cl)CC(CCBr)C(Cl)=C(OC)C1=O",
+      "COC(=O)C1(Cl)C(=O)C(OC)=C(Cl)CC1CCBr",
+      "COC(=O)c1cc(CCBr)c(Cl)c(OC)c1OCc1ccccc1",
+      "COC(=O)c1c(CCBr)cc(Cl)c(OC)c1OCc1ccccc1",
+      "COc1c(Cl)c(CCBr)cc(C=O)c1OCc1ccccc1",
+      "COc1c(Cl)c(CCBr)cc(O)c1OCc1ccccc1",
+      "C=Cc1cc(OC)c(OCc2ccccc2)c(OC)c1Cl",
+      "C=Cc1cc(OC)c(OCc2ccccc2)c(OC)c1",
+      "COc1cc(C2CO2)cc(OC)c1OCc1ccccc1",
+      "COc1cc(Br)ccc1OCc1ccccc1",
+      "COc1cc(CC(O)c2cc(OC)c(OCc3ccccc3)c(OC)c2)ccc1OCc1ccccc1",
+      "COc1cc(CC(OC(=O)c2ccccc2)c2cc(OC)c(OCc3ccccc3)c(OC)c2)ccc1OCc1ccccc1"
+    ],
+    "ordered_event_ids": [
+      "E01",
+      "E02",
+      "E06",
+      "E07",
+      "E08",
+      "E09",
+      "E10",
+      "E11",
+      "E15"
+    ],
+    "ordered_molecule_labels": [
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "aryl-bromide",
+      "20",
+      "22"
+    ],
+    "ordered_step_ids": [
+      "E01.1",
+      "E02.1",
+      "E06.1",
+      "E07.1",
+      "E08.1",
+      "E09.1",
+      "E10.1",
+      "E11.1",
+      "E15.1"
+    ],
+    "route_id": "nobilin_bibenzyls-22",
+    "route_type": "source_bound_control_branch",
+    "split_group": "10.1021/acsomega.6c01624",
+    "start_label": "5",
+    "start_labels": [
+      "5",
+      "aryl-bromide"
+    ],
+    "step_reaction_smiles_sequence": [
+      "COC1(OC)C2(Cl)CC(CCBr)C1(Cl)C(=O)C2=O>>COC(=O)C1(Cl)C(=O)C(OC)=C(Cl)CC1CCBr.COC(=O)C1(Cl)CC(CCBr)C(Cl)=C(OC)C1=O",
+      "COC(=O)C1(Cl)C(=O)C(OC)=C(Cl)CC1CCBr.COC(=O)C1(Cl)CC(CCBr)C(Cl)=C(OC)C1=O>>COC(=O)c1c(CCBr)cc(Cl)c(OC)c1OCc1ccccc1.COC(=O)c1cc(CCBr)c(Cl)c(OC)c1OCc1ccccc1",
+      "COC(=O)c1cc(CCBr)c(Cl)c(OC)c1OCc1ccccc1>>COc1c(Cl)c(CCBr)cc(C=O)c1OCc1ccccc1",
+      "COc1c(Cl)c(CCBr)cc(C=O)c1OCc1ccccc1>>COc1c(Cl)c(CCBr)cc(O)c1OCc1ccccc1",
+      "COc1c(Cl)c(CCBr)cc(O)c1OCc1ccccc1>>C=Cc1cc(OC)c(OCc2ccccc2)c(OC)c1Cl",
+      "C=Cc1cc(OC)c(OCc2ccccc2)c(OC)c1Cl>>C=Cc1cc(OC)c(OCc2ccccc2)c(OC)c1",
+      "C=Cc1cc(OC)c(OCc2ccccc2)c(OC)c1>>COc1cc(C2CO2)cc(OC)c1OCc1ccccc1",
+      "COc1cc(Br)ccc1OCc1ccccc1.COc1cc(C2CO2)cc(OC)c1OCc1ccccc1>>COc1cc(CC(O)c2cc(OC)c(OCc3ccccc3)c(OC)c2)ccc1OCc1ccccc1",
+      "COc1cc(CC(O)c2cc(OC)c(OCc3ccccc3)c(OC)c2)ccc1OCc1ccccc1>>COc1cc(CC(OC(=O)c2ccccc2)c2cc(OC)c(OCc3ccccc3)c(OC)c2)ccc1OCc1ccccc1"
+    ],
+    "target_label": "22"
+  },
+  {
+    "admission_authority": false,
+    "formal_benchmark_eligible": false,
+    "from_commercial_starting_materials_complete": false,
+    "full_article_route_coverage": true,
+    "molecule_smiles_sequence": [
+      "COC1(OC)C2(Cl)CC(CCBr)C1(Cl)C(=O)C2=O",
+      "COC(=O)C1(Cl)CC(CCBr)C(Cl)=C(OC)C1=O",
+      "COC(=O)C1(Cl)C(=O)C(OC)=C(Cl)CC1CCBr",
+      "COC(=O)c1cc(CCBr)c(Cl)c(OC)c1OCc1ccccc1",
+      "COC(=O)c1c(CCBr)cc(Cl)c(OC)c1OCc1ccccc1",
+      "COc1c(Cl)c(CCBr)cc(C=O)c1OCc1ccccc1",
+      "COc1c(Cl)c(CCBr)cc(O)c1OCc1ccccc1",
+      "C=Cc1cc(OC)c(OCc2ccccc2)c(OC)c1Cl",
+      "C=Cc1cc(OC)c(OCc2ccccc2)c(OC)c1",
+      "C=Cc1cc(OC)c(OC)c(OC)c1",
+      "COc1cc(C2CO2)cc(OC)c1OC",
+      "COc1cc(Br)ccc1OCc1ccccc1",
+      "COc1cc(CC(O)c2cc(OC)c(OC)c(OC)c2)ccc1OCc1ccccc1",
+      "COc1cc(CC(O)c2cc(OC)c(OC)c(OC)c2)ccc1O"
+    ],
+    "ordered_event_ids": [
+      "E01",
+      "E02",
+      "E06",
+      "E07",
+      "E08",
+      "E09",
+      "E16",
+      "E17",
+      "E18",
+      "E19"
+    ],
+    "ordered_molecule_labels": [
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "15",
+      "16",
+      "17",
+      "18",
+      "23",
+      "24",
+      "aryl-bromide",
+      "25",
+      "2"
+    ],
+    "ordered_step_ids": [
+      "E01.1",
+      "E02.1",
+      "E06.1",
+      "E07.1",
+      "E08.1",
+      "E09.1",
+      "E16.1",
+      "E17.1",
+      "E18.1",
+      "E19.1"
+    ],
+    "route_id": "nobilin_bibenzyls-2",
+    "route_type": "source_bound_successful_synthesis",
+    "split_group": "10.1021/acsomega.6c01624",
+    "start_label": "5",
+    "start_labels": [
+      "5",
+      "aryl-bromide"
+    ],
+    "step_reaction_smiles_sequence": [
+      "COC1(OC)C2(Cl)CC(CCBr)C1(Cl)C(=O)C2=O>>COC(=O)C1(Cl)C(=O)C(OC)=C(Cl)CC1CCBr.COC(=O)C1(Cl)CC(CCBr)C(Cl)=C(OC)C1=O",
+      "COC(=O)C1(Cl)C(=O)C(OC)=C(Cl)CC1CCBr.COC(=O)C1(Cl)CC(CCBr)C(Cl)=C(OC)C1=O>>COC(=O)c1c(CCBr)cc(Cl)c(OC)c1OCc1ccccc1.COC(=O)c1cc(CCBr)c(Cl)c(OC)c1OCc1ccccc1",
+      "COC(=O)c1cc(CCBr)c(Cl)c(OC)c1OCc1ccccc1>>COc1c(Cl)c(CCBr)cc(C=O)c1OCc1ccccc1",
+      "COc1c(Cl)c(CCBr)cc(C=O)c1OCc1ccccc1>>COc1c(Cl)c(CCBr)cc(O)c1OCc1ccccc1",
+      "COc1c(Cl)c(CCBr)cc(O)c1OCc1ccccc1>>C=Cc1cc(OC)c(OCc2ccccc2)c(OC)c1Cl",
+      "C=Cc1cc(OC)c(OCc2ccccc2)c(OC)c1Cl>>C=Cc1cc(OC)c(OCc2ccccc2)c(OC)c1",
+      "C=Cc1cc(OC)c(OCc2ccccc2)c(OC)c1>>C=Cc1cc(OC)c(OC)c(OC)c1",
+      "C=Cc1cc(OC)c(OC)c(OC)c1>>COc1cc(C2CO2)cc(OC)c1OC",
+      "COc1cc(Br)ccc1OCc1ccccc1.COc1cc(C2CO2)cc(OC)c1OC>>COc1cc(CC(O)c2cc(OC)c(OC)c(OC)c2)ccc1OCc1ccccc1",
+      "COc1cc(CC(O)c2cc(OC)c(OC)c(OC)c2)ccc1OCc1ccccc1>>COc1cc(CC(O)c2cc(OC)c(OC)c(OC)c2)ccc1O"
+    ],
+    "target_label": "2"
+  },
+  {
+    "admission_authority": false,
+    "formal_benchmark_eligible": false,
+    "from_commercial_starting_materials_complete": false,
+    "full_article_route_coverage": true,
+    "molecule_smiles_sequence": [
+      "COC1(OC)C2(Cl)CC(CCBr)C1(Cl)C(=O)C2=O",
+      "COC(=O)C1(Cl)CC(CCBr)C(Cl)=C(OC)C1=O",
+      "COC(=O)C1(Cl)C(=O)C(OC)=C(Cl)CC1CCBr",
+      "COC(=O)c1cc(CCBr)c(Cl)c(OC)c1OCc1ccccc1",
+      "COC(=O)c1c(CCBr)cc(Cl)c(OC)c1OCc1ccccc1",
+      "COc1c(Cl)c(CCBr)cc(C=O)c1OCc1ccccc1",
+      "COc1c(Cl)c(CCBr)cc(O)c1OCc1ccccc1",
+      "C=Cc1cc(OC)c(OCc2ccccc2)c(OC)c1Cl",
+      "C=Cc1cc(OC)c(OCc2ccccc2)c(OC)c1",
+      "C=Cc1cc(OC)c(OC)c(OC)c1",
+      "COc1cc(C2CO2)cc(OC)c1OC",
+      "COc1cc(Br)ccc1OCc1ccccc1",
+      "COc1cc(CC(O)c2cc(OC)c(OC)c(OC)c2)ccc1OCc1ccccc1",
+      "COc1cc(CCc2cc(OC)c(OC)c(OC)c2)ccc1O"
+    ],
+    "ordered_event_ids": [
+      "E01",
+      "E02",
+      "E06",
+      "E07",
+      "E08",
+      "E09",
+      "E16",
+      "E17",
+      "E18",
+      "E20"
+    ],
+    "ordered_molecule_labels": [
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "15",
+      "16",
+      "17",
+      "18",
+      "23",
+      "24",
+      "aryl-bromide",
+      "25",
+      "4"
+    ],
+    "ordered_step_ids": [
+      "E01.1",
+      "E02.1",
+      "E06.1",
+      "E07.1",
+      "E08.1",
+      "E09.1",
+      "E16.1",
+      "E17.1",
+      "E18.1",
+      "E20.1"
+    ],
+    "route_id": "nobilin_bibenzyls-4",
+    "route_type": "source_bound_successful_synthesis",
+    "split_group": "10.1021/acsomega.6c01624",
+    "start_label": "5",
+    "start_labels": [
+      "5",
+      "aryl-bromide"
+    ],
+    "step_reaction_smiles_sequence": [
+      "COC1(OC)C2(Cl)CC(CCBr)C1(Cl)C(=O)C2=O>>COC(=O)C1(Cl)C(=O)C(OC)=C(Cl)CC1CCBr.COC(=O)C1(Cl)CC(CCBr)C(Cl)=C(OC)C1=O",
+      "COC(=O)C1(Cl)C(=O)C(OC)=C(Cl)CC1CCBr.COC(=O)C1(Cl)CC(CCBr)C(Cl)=C(OC)C1=O>>COC(=O)c1c(CCBr)cc(Cl)c(OC)c1OCc1ccccc1.COC(=O)c1cc(CCBr)c(Cl)c(OC)c1OCc1ccccc1",
+      "COC(=O)c1cc(CCBr)c(Cl)c(OC)c1OCc1ccccc1>>COc1c(Cl)c(CCBr)cc(C=O)c1OCc1ccccc1",
+      "COc1c(Cl)c(CCBr)cc(C=O)c1OCc1ccccc1>>COc1c(Cl)c(CCBr)cc(O)c1OCc1ccccc1",
+      "COc1c(Cl)c(CCBr)cc(O)c1OCc1ccccc1>>C=Cc1cc(OC)c(OCc2ccccc2)c(OC)c1Cl",
+      "C=Cc1cc(OC)c(OCc2ccccc2)c(OC)c1Cl>>C=Cc1cc(OC)c(OCc2ccccc2)c(OC)c1",
+      "C=Cc1cc(OC)c(OCc2ccccc2)c(OC)c1>>C=Cc1cc(OC)c(OC)c(OC)c1",
+      "C=Cc1cc(OC)c(OC)c(OC)c1>>COc1cc(C2CO2)cc(OC)c1OC",
+      "COc1cc(Br)ccc1OCc1ccccc1.COc1cc(C2CO2)cc(OC)c1OC>>COc1cc(CC(O)c2cc(OC)c(OC)c(OC)c2)ccc1OCc1ccccc1",
+      "COc1cc(CC(O)c2cc(OC)c(OC)c(OC)c2)ccc1OCc1ccccc1>>COc1cc(CCc2cc(OC)c(OC)c(OC)c2)ccc1O"
+    ],
+    "target_label": "4"
+  },
+  {
+    "admission_authority": false,
+    "formal_benchmark_eligible": false,
+    "from_commercial_starting_materials_complete": false,
+    "full_article_route_coverage": true,
+    "molecule_smiles_sequence": [
+      "COC1(OC)C2(Cl)CC(CCBr)C1(Cl)C(=O)C2=O",
+      "COC(=O)C1(Cl)CC(CCBr)C(Cl)=C(OC)C1=O",
+      "COC(=O)C1(Cl)C(=O)C(OC)=C(Cl)CC1CCBr",
+      "COC(=O)c1cc(CCBr)c(Cl)c(OC)c1OCc1ccccc1",
+      "COC(=O)c1c(CCBr)cc(Cl)c(OC)c1OCc1ccccc1",
+      "COc1c(Cl)c(CCBr)cc(C=O)c1OCc1ccccc1",
+      "COc1c(Cl)c(CCBr)cc(O)c1OCc1ccccc1",
+      "C=Cc1cc(OC)c(OCc2ccccc2)c(OC)c1Cl",
+      "C=Cc1cc(OC)c(OCc2ccccc2)c(OC)c1",
+      "C=Cc1cc(OC)c(OC)c(OC)c1",
+      "COc1cc(C2CO2)cc(OC)c1OC",
+      "COc1cc(Br)ccc1OCc1ccccc1",
+      "COc1cc(CC(O)c2cc(OC)c(OC)c(OC)c2)ccc1OCc1ccccc1",
+      "COc1cc(CC(OC(C)=O)c2cc(OC)c(OC)c(OC)c2)ccc1OCc1ccccc1"
+    ],
+    "ordered_event_ids": [
+      "E01",
+      "E02",
+      "E06",
+      "E07",
+      "E08",
+      "E09",
+      "E16",
+      "E17",
+      "E18",
+      "E21"
+    ],
+    "ordered_molecule_labels": [
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "15",
+      "16",
+      "17",
+      "18",
+      "23",
+      "24",
+      "aryl-bromide",
+      "25",
+      "26"
+    ],
+    "ordered_step_ids": [
+      "E01.1",
+      "E02.1",
+      "E06.1",
+      "E07.1",
+      "E08.1",
+      "E09.1",
+      "E16.1",
+      "E17.1",
+      "E18.1",
+      "E21.1"
+    ],
+    "route_id": "nobilin_bibenzyls-26",
+    "route_type": "source_bound_control_branch",
+    "split_group": "10.1021/acsomega.6c01624",
+    "start_label": "5",
+    "start_labels": [
+      "5",
+      "aryl-bromide"
+    ],
+    "step_reaction_smiles_sequence": [
+      "COC1(OC)C2(Cl)CC(CCBr)C1(Cl)C(=O)C2=O>>COC(=O)C1(Cl)C(=O)C(OC)=C(Cl)CC1CCBr.COC(=O)C1(Cl)CC(CCBr)C(Cl)=C(OC)C1=O",
+      "COC(=O)C1(Cl)C(=O)C(OC)=C(Cl)CC1CCBr.COC(=O)C1(Cl)CC(CCBr)C(Cl)=C(OC)C1=O>>COC(=O)c1c(CCBr)cc(Cl)c(OC)c1OCc1ccccc1.COC(=O)c1cc(CCBr)c(Cl)c(OC)c1OCc1ccccc1",
+      "COC(=O)c1cc(CCBr)c(Cl)c(OC)c1OCc1ccccc1>>COc1c(Cl)c(CCBr)cc(C=O)c1OCc1ccccc1",
+      "COc1c(Cl)c(CCBr)cc(C=O)c1OCc1ccccc1>>COc1c(Cl)c(CCBr)cc(O)c1OCc1ccccc1",
+      "COc1c(Cl)c(CCBr)cc(O)c1OCc1ccccc1>>C=Cc1cc(OC)c(OCc2ccccc2)c(OC)c1Cl",
+      "C=Cc1cc(OC)c(OCc2ccccc2)c(OC)c1Cl>>C=Cc1cc(OC)c(OCc2ccccc2)c(OC)c1",
+      "C=Cc1cc(OC)c(OCc2ccccc2)c(OC)c1>>C=Cc1cc(OC)c(OC)c(OC)c1",
+      "C=Cc1cc(OC)c(OC)c(OC)c1>>COc1cc(C2CO2)cc(OC)c1OC",
+      "COc1cc(Br)ccc1OCc1ccccc1.COc1cc(C2CO2)cc(OC)c1OC>>COc1cc(CC(O)c2cc(OC)c(OC)c(OC)c2)ccc1OCc1ccccc1",
+      "COc1cc(CC(O)c2cc(OC)c(OC)c(OC)c2)ccc1OCc1ccccc1>>COc1cc(CC(OC(C)=O)c2cc(OC)c(OC)c(OC)c2)ccc1OCc1ccccc1"
+    ],
+    "target_label": "26"
+  },
+  {
+    "admission_authority": false,
+    "formal_benchmark_eligible": false,
+    "from_commercial_starting_materials_complete": false,
+    "full_article_route_coverage": true,
+    "molecule_smiles_sequence": [
+      "COC1(OC)C2(Cl)CC(CCBr)C1(Cl)C(=O)C2=O",
+      "COC(=O)C1(Cl)CC(CCBr)C(Cl)=C(OC)C1=O",
+      "COC(=O)C1(Cl)C(=O)C(OC)=C(Cl)CC1CCBr",
+      "COC(=O)c1cc(CCBr)c(Cl)c(OC)c1OCc1ccccc1",
+      "COC(=O)c1c(CCBr)cc(Cl)c(OC)c1OCc1ccccc1",
+      "C=Cc1cc(C(=O)OC)c(OCc2ccccc2)c(OC)c1Cl",
+      "C=Cc1cc(C=O)c(OCc2ccccc2)c(OC)c1Cl",
+      "COC(=O)c1cc(C2CO2)c(Cl)c(OC)c1OCc1ccccc1",
+      "COCC(O)c1cc(C(=O)OC)c(OCc2ccccc2)c(OC)c1Cl",
+      "COC(=O)c1cc(C(CO)OC)c(Cl)c(OC)c1OCc1ccccc1"
+    ],
+    "ordered_event_ids": [
+      "E01",
+      "E02",
+      "E03",
+      "E04",
+      "E05"
+    ],
+    "ordered_molecule_labels": [
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14"
+    ],
+    "ordered_step_ids": [
+      "E01.1",
+      "E02.1",
+      "E03.1",
+      "E04.1",
+      "E05.1"
+    ],
+    "route_id": "nobilin_bibenzyls-12",
+    "route_type": "source_bound_control_branch",
+    "split_group": "10.1021/acsomega.6c01624",
+    "start_label": "5",
+    "start_labels": [
+      "5"
+    ],
+    "step_reaction_smiles_sequence": [
+      "COC1(OC)C2(Cl)CC(CCBr)C1(Cl)C(=O)C2=O>>COC(=O)C1(Cl)C(=O)C(OC)=C(Cl)CC1CCBr.COC(=O)C1(Cl)CC(CCBr)C(Cl)=C(OC)C1=O",
+      "COC(=O)C1(Cl)C(=O)C(OC)=C(Cl)CC1CCBr.COC(=O)C1(Cl)CC(CCBr)C(Cl)=C(OC)C1=O>>COC(=O)c1c(CCBr)cc(Cl)c(OC)c1OCc1ccccc1.COC(=O)c1cc(CCBr)c(Cl)c(OC)c1OCc1ccccc1",
+      "COC(=O)c1cc(CCBr)c(Cl)c(OC)c1OCc1ccccc1>>C=Cc1cc(C(=O)OC)c(OCc2ccccc2)c(OC)c1Cl",
+      "C=Cc1cc(C(=O)OC)c(OCc2ccccc2)c(OC)c1Cl>>C=Cc1cc(C=O)c(OCc2ccccc2)c(OC)c1Cl",
+      "C=Cc1cc(C=O)c(OCc2ccccc2)c(OC)c1Cl>>COC(=O)c1cc(C(CO)OC)c(Cl)c(OC)c1OCc1ccccc1.COC(=O)c1cc(C2CO2)c(Cl)c(OC)c1OCc1ccccc1.COCC(O)c1cc(C(=O)OC)c(OCc2ccccc2)c(OC)c1Cl"
+    ],
+    "target_label": "12"
+  },
+  {
+    "admission_authority": false,
+    "formal_benchmark_eligible": false,
+    "from_commercial_starting_materials_complete": false,
+    "full_article_route_coverage": true,
+    "molecule_smiles_sequence": [
+      "COC1(OC)C2(Cl)CC(CCBr)C1(Cl)C(=O)C2=O",
+      "COC(=O)C1(Cl)CC(CCBr)C(Cl)=C(OC)C1=O",
+      "COC(=O)C1(Cl)C(=O)C(OC)=C(Cl)CC1CCBr",
+      "COC(=O)c1cc(CCBr)c(Cl)c(OC)c1OCc1ccccc1",
+      "COC(=O)c1c(CCBr)cc(Cl)c(OC)c1OCc1ccccc1",
+      "C=Cc1cc(C(=O)OC)c(OCc2ccccc2)c(OC)c1Cl",
+      "C=Cc1cc(C=O)c(OCc2ccccc2)c(OC)c1Cl",
+      "COC(=O)c1cc(C2CO2)c(Cl)c(OC)c1OCc1ccccc1",
+      "COCC(O)c1cc(C(=O)OC)c(OCc2ccccc2)c(OC)c1Cl",
+      "COC(=O)c1cc(C(CO)OC)c(Cl)c(OC)c1OCc1ccccc1"
+    ],
+    "ordered_event_ids": [
+      "E01",
+      "E02",
+      "E03",
+      "E04",
+      "E05"
+    ],
+    "ordered_molecule_labels": [
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14"
+    ],
+    "ordered_step_ids": [
+      "E01.1",
+      "E02.1",
+      "E03.1",
+      "E04.1",
+      "E05.1"
+    ],
+    "route_id": "nobilin_bibenzyls-13",
+    "route_type": "source_bound_control_branch",
+    "split_group": "10.1021/acsomega.6c01624",
+    "start_label": "5",
+    "start_labels": [
+      "5"
+    ],
+    "step_reaction_smiles_sequence": [
+      "COC1(OC)C2(Cl)CC(CCBr)C1(Cl)C(=O)C2=O>>COC(=O)C1(Cl)C(=O)C(OC)=C(Cl)CC1CCBr.COC(=O)C1(Cl)CC(CCBr)C(Cl)=C(OC)C1=O",
+      "COC(=O)C1(Cl)C(=O)C(OC)=C(Cl)CC1CCBr.COC(=O)C1(Cl)CC(CCBr)C(Cl)=C(OC)C1=O>>COC(=O)c1c(CCBr)cc(Cl)c(OC)c1OCc1ccccc1.COC(=O)c1cc(CCBr)c(Cl)c(OC)c1OCc1ccccc1",
+      "COC(=O)c1cc(CCBr)c(Cl)c(OC)c1OCc1ccccc1>>C=Cc1cc(C(=O)OC)c(OCc2ccccc2)c(OC)c1Cl",
+      "C=Cc1cc(C(=O)OC)c(OCc2ccccc2)c(OC)c1Cl>>C=Cc1cc(C=O)c(OCc2ccccc2)c(OC)c1Cl",
+      "C=Cc1cc(C=O)c(OCc2ccccc2)c(OC)c1Cl>>COC(=O)c1cc(C(CO)OC)c(Cl)c(OC)c1OCc1ccccc1.COC(=O)c1cc(C2CO2)c(Cl)c(OC)c1OCc1ccccc1.COCC(O)c1cc(C(=O)OC)c(OCc2ccccc2)c(OC)c1Cl"
+    ],
+    "target_label": "13"
+  },
+  {
+    "admission_authority": false,
+    "formal_benchmark_eligible": false,
+    "from_commercial_starting_materials_complete": false,
+    "full_article_route_coverage": true,
+    "molecule_smiles_sequence": [
+      "COC1(OC)C2(Cl)CC(CCBr)C1(Cl)C(=O)C2=O",
+      "COC(=O)C1(Cl)CC(CCBr)C(Cl)=C(OC)C1=O",
+      "COC(=O)C1(Cl)C(=O)C(OC)=C(Cl)CC1CCBr",
+      "COC(=O)c1cc(CCBr)c(Cl)c(OC)c1OCc1ccccc1",
+      "COC(=O)c1c(CCBr)cc(Cl)c(OC)c1OCc1ccccc1",
+      "C=Cc1cc(C(=O)OC)c(OCc2ccccc2)c(OC)c1Cl",
+      "C=Cc1cc(C=O)c(OCc2ccccc2)c(OC)c1Cl",
+      "COC(=O)c1cc(C2CO2)c(Cl)c(OC)c1OCc1ccccc1",
+      "COCC(O)c1cc(C(=O)OC)c(OCc2ccccc2)c(OC)c1Cl",
+      "COC(=O)c1cc(C(CO)OC)c(Cl)c(OC)c1OCc1ccccc1"
+    ],
+    "ordered_event_ids": [
+      "E01",
+      "E02",
+      "E03",
+      "E04",
+      "E05"
+    ],
+    "ordered_molecule_labels": [
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14"
+    ],
+    "ordered_step_ids": [
+      "E01.1",
+      "E02.1",
+      "E03.1",
+      "E04.1",
+      "E05.1"
+    ],
+    "route_id": "nobilin_bibenzyls-14",
+    "route_type": "source_bound_control_branch",
+    "split_group": "10.1021/acsomega.6c01624",
+    "start_label": "5",
+    "start_labels": [
+      "5"
+    ],
+    "step_reaction_smiles_sequence": [
+      "COC1(OC)C2(Cl)CC(CCBr)C1(Cl)C(=O)C2=O>>COC(=O)C1(Cl)C(=O)C(OC)=C(Cl)CC1CCBr.COC(=O)C1(Cl)CC(CCBr)C(Cl)=C(OC)C1=O",
+      "COC(=O)C1(Cl)C(=O)C(OC)=C(Cl)CC1CCBr.COC(=O)C1(Cl)CC(CCBr)C(Cl)=C(OC)C1=O>>COC(=O)c1c(CCBr)cc(Cl)c(OC)c1OCc1ccccc1.COC(=O)c1cc(CCBr)c(Cl)c(OC)c1OCc1ccccc1",
+      "COC(=O)c1cc(CCBr)c(Cl)c(OC)c1OCc1ccccc1>>C=Cc1cc(C(=O)OC)c(OCc2ccccc2)c(OC)c1Cl",
+      "C=Cc1cc(C(=O)OC)c(OCc2ccccc2)c(OC)c1Cl>>C=Cc1cc(C=O)c(OCc2ccccc2)c(OC)c1Cl",
+      "C=Cc1cc(C=O)c(OCc2ccccc2)c(OC)c1Cl>>COC(=O)c1cc(C(CO)OC)c(Cl)c(OC)c1OCc1ccccc1.COC(=O)c1cc(C2CO2)c(Cl)c(OC)c1OCc1ccccc1.COCC(O)c1cc(C(=O)OC)c(OCc2ccccc2)c(OC)c1Cl"
+    ],
+    "target_label": "14"
+  },
+  {
+    "admission_authority": false,
+    "formal_benchmark_eligible": false,
+    "from_commercial_starting_materials_complete": false,
+    "full_article_route_coverage": true,
+    "molecule_smiles_sequence": [
+      "COC1(OC)C2(Cl)CC(CCBr)C1(Cl)C(=O)C2=O",
+      "COC(=O)C1(Cl)CC(CCBr)C(Cl)=C(OC)C1=O",
+      "COC(=O)C1(Cl)C(=O)C(OC)=C(Cl)CC1CCBr",
+      "COC(=O)c1cc(CCBr)c(Cl)c(OC)c1OCc1ccccc1",
+      "COC(=O)c1c(CCBr)cc(Cl)c(OC)c1OCc1ccccc1"
+    ],
+    "ordered_event_ids": [
+      "E01",
+      "E02"
+    ],
+    "ordered_molecule_labels": [
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "ordered_step_ids": [
+      "E01.1",
+      "E02.1"
+    ],
+    "route_id": "nobilin_bibenzyls-9",
+    "route_type": "source_bound_control_branch",
+    "split_group": "10.1021/acsomega.6c01624",
+    "start_label": "5",
+    "start_labels": [
+      "5"
+    ],
+    "step_reaction_smiles_sequence": [
+      "COC1(OC)C2(Cl)CC(CCBr)C1(Cl)C(=O)C2=O>>COC(=O)C1(Cl)C(=O)C(OC)=C(Cl)CC1CCBr.COC(=O)C1(Cl)CC(CCBr)C(Cl)=C(OC)C1=O",
+      "COC(=O)C1(Cl)C(=O)C(OC)=C(Cl)CC1CCBr.COC(=O)C1(Cl)CC(CCBr)C(Cl)=C(OC)C1=O>>COC(=O)c1c(CCBr)cc(Cl)c(OC)c1OCc1ccccc1.COC(=O)c1cc(CCBr)c(Cl)c(OC)c1OCc1ccccc1"
+    ],
+    "target_label": "9"
+  }
+]

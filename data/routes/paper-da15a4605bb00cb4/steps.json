@@ -1,0 +1,515 @@
+[
+  {
+    "admission_authority": false,
+    "agents": [
+      "PhLi"
+    ],
+    "event_id": "E01",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "6a",
+      "6b"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "8",
+        "percent": 29,
+        "product_label": "6a",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      },
+      {
+        "from_label": "8",
+        "percent": 48,
+        "product_label": "6b",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "reactant_labels": [
+      "8",
+      "phenyllithium"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "THF",
+      "diethyl ether"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: E01",
+        "pages": [
+          3
+        ],
+        "sha256": "74a8567b4dd8733a7f25704fbd2dd7511069b5857346336f34560b7576783f5c",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E01.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "CO[C@H]1O[C@@H](CI)[C@@H](O)[C@@H]2OC(C)(OC)C(C)(OC)O[C@@H]12.[Li][c]1ccccc1>>C=C[C@H](O)[C@@H]1OC(C)(OC)C(C)(OC)O[C@H]1[C@@H](O)c1ccccc1.C=C[C@H](O)[C@@H]1OC(C)(OC)C(C)(OC)O[C@H]1[C@H](O)c1ccccc1",
+    "temperature": "0 C to room temperature",
+    "time": "2 h",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "Grubbs second generation catalyst"
+    ],
+    "event_id": "E02",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "7a"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "6a",
+        "percent": 75,
+        "product_label": "7a",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "reactant_labels": [
+      "6a",
+      "methyl-acrylate"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "toluene"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: E02",
+        "pages": [
+          4
+        ],
+        "sha256": "74a8567b4dd8733a7f25704fbd2dd7511069b5857346336f34560b7576783f5c",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E02.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "C=CC(=O)OC.C=C[C@H](O)[C@@H]1OC(C)(OC)C(C)(OC)O[C@H]1[C@@H](O)c1ccccc1>>COC(=O)/C=C/[C@H](O)[C@@H]1OC(C)(OC)C(C)(OC)O[C@H]1[C@@H](O)c1ccccc1",
+    "temperature": "70 C",
+    "time": "4 h",
+    "yield_percent": 75
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "50% aqueous TFA"
+    ],
+    "event_id": "E03",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "ent-1"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "6a",
+        "percent": 43,
+        "product_label": "ent-1",
+        "scope": "43% overall one-pot from 6a; not yield from isolated 7a."
+      }
+    ],
+    "reactant_labels": [
+      "7a"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "toluene",
+      "water"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: E03",
+        "pages": [
+          4
+        ],
+        "sha256": "74a8567b4dd8733a7f25704fbd2dd7511069b5857346336f34560b7576783f5c",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E03.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "COC(=O)/C=C/[C@H](O)[C@@H]1OC(C)(OC)C(C)(OC)O[C@H]1[C@@H](O)c1ccccc1>>O=C1C[C@H]2O[C@@H]([C@H](O)c3ccccc3)[C@@H](O)[C@@H]2O1",
+    "temperature": "70 C",
+    "time": "6 h",
+    "yield_percent": 43
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "Grubbs second generation catalyst"
+    ],
+    "event_id": "E04",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "7b"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "6b",
+        "percent": 78,
+        "product_label": "7b",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "reactant_labels": [
+      "6b",
+      "methyl-acrylate"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "toluene"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: E04",
+        "pages": [
+          5
+        ],
+        "sha256": "74a8567b4dd8733a7f25704fbd2dd7511069b5857346336f34560b7576783f5c",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E04.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "C=CC(=O)OC.C=C[C@H](O)[C@@H]1OC(C)(OC)C(C)(OC)O[C@H]1[C@H](O)c1ccccc1>>COC(=O)/C=C/[C@H](O)[C@@H]1OC(C)(OC)C(C)(OC)O[C@H]1[C@H](O)c1ccccc1",
+    "temperature": "70 C",
+    "time": "4 h",
+    "yield_percent": 78
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "50% aqueous TFA"
+    ],
+    "event_id": "E05",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "ent-3"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "7b",
+        "percent": 79,
+        "product_label": "ent-3",
+        "scope": "Scheme yield from 7b; procedure additionally reports 47% one-pot from 6b."
+      }
+    ],
+    "reactant_labels": [
+      "7b"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: E05",
+        "pages": [
+          5
+        ],
+        "sha256": "74a8567b4dd8733a7f25704fbd2dd7511069b5857346336f34560b7576783f5c",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E05.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "COC(=O)/C=C/[C@H](O)[C@@H]1OC(C)(OC)C(C)(OC)O[C@H]1[C@H](O)c1ccccc1>>O=C1C[C@H]2O[C@@H]([C@@H](O)c3ccccc3)[C@@H](O)[C@@H]2O1",
+    "temperature": "70 C",
+    "yield_percent": 79
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "DCC",
+      "DMAP"
+    ],
+    "event_id": "E06",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "ent-4",
+      "ent-5"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "ent-1",
+        "percent": 45,
+        "product_label": "ent-4",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      },
+      {
+        "from_label": "ent-1",
+        "percent": 39,
+        "product_label": "ent-5",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "reactant_labels": [
+      "ent-1",
+      "cinnamic-acid"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "DCM"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: E06",
+        "pages": [
+          4,
+          5
+        ],
+        "sha256": "74a8567b4dd8733a7f25704fbd2dd7511069b5857346336f34560b7576783f5c",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E06.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "O=C(O)/C=C/c1ccccc1.O=C1C[C@H]2O[C@@H]([C@H](O)c3ccccc3)[C@@H](O)[C@@H]2O1>>O=C(/C=C/c1ccccc1)O[C@@H](c1ccccc1)[C@@H]1O[C@@H]2CC(=O)O[C@H]2[C@@H]1O.O=C(/C=C/c1ccccc1)O[C@@H]1[C@H]([C@H](O)c2ccccc2)O[C@@H]2CC(=O)O[C@@H]12",
+    "temperature": "room temperature",
+    "time": "2 h",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "NaH"
+    ],
+    "event_id": "E07",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "11"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "7b",
+        "percent": 78,
+        "product_label": "11",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "reactant_labels": [
+      "7b"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: E07",
+        "pages": [
+          6
+        ],
+        "sha256": "74a8567b4dd8733a7f25704fbd2dd7511069b5857346336f34560b7576783f5c",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E07.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "COC(=O)/C=C/[C@H](O)[C@@H]1OC(C)(OC)C(C)(OC)O[C@H]1[C@H](O)c1ccccc1>>COC(=O)C[C@@H]1O[C@H](c2ccccc2)[C@@H]2OC(C)(OC)C(C)(OC)O[C@H]2[C@@H]1O",
+    "temperature": "0 C",
+    "time": "45 min",
+    "yield_percent": 78
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "PTSA"
+    ],
+    "event_id": "E08",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "ent-2"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "11",
+        "percent": 87,
+        "product_label": "ent-2",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "reactant_labels": [
+      "11"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "benzene"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: E08",
+        "pages": [
+          6
+        ],
+        "sha256": "74a8567b4dd8733a7f25704fbd2dd7511069b5857346336f34560b7576783f5c",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E08.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "COC(=O)C[C@@H]1O[C@H](c2ccccc2)[C@@H]2OC(C)(OC)C(C)(OC)O[C@H]2[C@@H]1O>>O=C1C[C@@H]2O[C@@H](c3ccccc3)[C@H](O1)[C@@H](O)[C@@H]2O",
+    "temperature": "reflux",
+    "time": "overnight",
+    "yield_percent": 87
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "trimethyl orthoformate",
+      "CSA"
+    ],
+    "event_id": "E00a",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "10",
+      "10a"
+    ],
+    "product_specific_yields": [],
+    "reactant_labels": [
+      "9",
+      "butanedione"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "methanol"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: E00a",
+        "pages": [
+          2
+        ],
+        "sha256": "74a8567b4dd8733a7f25704fbd2dd7511069b5857346336f34560b7576783f5c",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E00a.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "CC(=O)C(C)=O.CO[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O>>CO[C@H]1O[C@@H](CO)[C@@H](O)[C@@H]2OC(C)(OC)C(C)(OC)O[C@@H]12.CO[C@H]1O[C@H](CO)[C@H]2OC(C)(OC)C(C)(OC)O[C@@H]2[C@H]1O",
+    "temperature": "reflux",
+    "time": "90 min",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "I2",
+      "PPh3",
+      "imidazole"
+    ],
+    "event_id": "E00b",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "8"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "9",
+        "percent": 46,
+        "product_label": "8",
+        "scope": "46% for two steps from 9"
+      }
+    ],
+    "reactant_labels": [
+      "10"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: E00b",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "74a8567b4dd8733a7f25704fbd2dd7511069b5857346336f34560b7576783f5c",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E00b.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "CO[C@H]1O[C@@H](CO)[C@@H](O)[C@@H]2OC(C)(OC)C(C)(OC)O[C@@H]12>>CO[C@H]1O[C@@H](CI)[C@@H](O)[C@@H]2OC(C)(OC)C(C)(OC)O[C@@H]12",
+    "temperature": "0 C to room temperature",
+    "time": "3 h",
+    "yield_percent": 46
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "I2",
+      "PPh3",
+      "imidazole"
+    ],
+    "event_id": "E00c",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "8a"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "9",
+        "percent": 45,
+        "product_label": "8a",
+        "scope": "45% in SI scheme; initial crude regioisomer mixture used directly."
+      }
+    ],
+    "reactant_labels": [
+      "10a"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "SI drawing/procedure: E00c",
+        "pages": [
+          2
+        ],
+        "sha256": "74a8567b4dd8733a7f25704fbd2dd7511069b5857346336f34560b7576783f5c",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E00c.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "CO[C@H]1O[C@H](CO)[C@H]2OC(C)(OC)C(C)(OC)O[C@@H]2[C@H]1O>>CO[C@H]1O[C@H](CI)[C@H]2OC(C)(OC)C(C)(OC)O[C@@H]2[C@H]1O",
+    "yield_percent": 45
+  }
+]

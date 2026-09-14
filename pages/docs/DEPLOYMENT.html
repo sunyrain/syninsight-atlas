@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/><title>更新现有 GitHub 仓库与部署 | SynInsight Atlas</title><link href="../../assets/report.css" rel="stylesheet"/><link href="../../assets/favicon.svg" rel="icon"/></head><body class="publication-page"><a class="skip-link" href="#document">Skip to content</a><nav aria-label="Atlas navigation" class="publication-nav"><a class="brand" href="../../index.html">SI · SynInsight Atlas</a><div><a href="../../index.html#atlas">Papers &amp; routes</a><a href="../../index.html#dataset">Reaction dataset</a></div></nav><div class="document-meta">Reference document · <a download="" href="../../docs/DEPLOYMENT.md">Download original file</a></div><main class="document-content" id="document"><h1 id="github">更新现有 GitHub 仓库与部署</h1>
+<p>目标仓库：https://github.com/sunyrain/syninsight-atlas</p>
+<p>此上传包按现有仓库的根目录布局组织。不要新建仓库，不要在已有仓库中重新运行 <code>git init</code>，也不要将 ZIP 文件本身当作网页内容上传。</p>
+<h2 id="_1">更新步骤</h2>
+<ol>
+<li>用 GitHub Desktop 打开或克隆 <code>sunyrain/syninsight-atlas</code>，先同步远程最新状态。</li>
+<li>将增量 ZIP 解压到该仓库根目录，让 <code>index.html</code> 与已有 <code>data/</code>、<code>assets/</code>、<code>scripts/</code> 同级。ZIP 内没有外层目录。合并目录并覆盖同名更新文件，不要删除其他已有文件。</li>
+<li>查看变更清单并提交、Push。包中保留了原有导出脚本、发行校验器、测试、许可、引用信息及原始发现数据。</li>
+<li>GitHub Pages 使用仓库根目录作为发布源；若已有站点配置正常，可保持该配置。新配置时在 Settings → Pages 选择 Deploy from a branch、实际发布分支及 /(root)。仓库没有提交 Pages workflow；本包没有擅自添加部署工作流。</li>
+</ol>
+<p>既有站点：https://sunyrain.github.io/syninsight-atlas/</p>
+<p>对已有本地仓库，复制文件后可执行：</p>
+<pre><code class="language-sh">git status --short
+git diff --stat
+python scripts/validate_release.py
+python scripts/validate_web.py
+git add .
+git commit -m "Add desktop reaction dataset and connected pathway viewer"
+git push
+</code></pre>
+<p>约 41 MiB 的 <code>data/atlas.sqlite</code> 超过网页上传的 25 MiB 单文件限制，推荐 GitHub Desktop 或 Git 推送。包内文件均小于 100 MiB。</p>
+<h2 id="_2">本地预览与构建</h2>
+<p>已生成的页面直接使用 <code>python -m http.server 8765</code> 预览。需要重建时安装 <code>requirements-web.txt</code> 并执行 <code>python scripts/build_web.py</code>；运行测试则安装 <code>requirements-test.txt</code> 后执行 <code>python -m pytest tests/test_release.py tests/test_web.py</code>。</p>
+<p><code>export_from_autoplanner.py</code> 保留原仓库用途，需要原始上游工作区；它不是网站更新所必需的步骤，不应为刷新网页而重新导出原始发现快照。</p>
+<h2 id="_3">文件校验</h2>
+<p><code>CHECKSUMS.sha256</code> 保留原有文件范围，按 Git 中原始数据的实际字节修复换行符造成的哈希偏差，验证原始发现快照；新增数据由其自身校验与网站校验覆盖。增量 ZIP 的 SHA-256、变更清单与本次验证报告放在 ZIP 旁边，避免把机器特定上传说明或临时审核产物混入仓库。</p>
+<p>官方参考：
+- https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
+- https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository</p></main><footer class="publication-footer"><a href="../../index.html">Return to Atlas</a><span>Candidate curation · Data CC BY 4.0 · Code MIT</span></footer><script defer="" src="../../assets/publication.js"></script></body></html>

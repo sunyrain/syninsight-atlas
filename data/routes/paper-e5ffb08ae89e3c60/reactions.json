@@ -1,0 +1,1657 @@
+[
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E01",
+    "experimental_stage_count": 2,
+    "formal_benchmark_eligible": false,
+    "operation_stages": [
+      "MOM protection 80 C",
+      "Hydrolysis of MOM ester 80 C"
+    ],
+    "product_labels": [
+      "22"
+    ],
+    "reactant_labels": [
+      "hydroxybutyric-acid"
+    ],
+    "reagents": [
+      "MOMCl",
+      "DIPEA",
+      "LiOH"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "hydroxybutyric-acid",
+        "percent": 92,
+        "product_label": "22",
+        "scope": "Source-reported yield; source conflict notes take precedence."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "dioxane",
+      "water"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E01",
+        "pages": [
+          3,
+          7
+        ],
+        "sha256": "6eb180ce3033426991955ce9f99f00def9450e9896b3d3aa30f5b2fa2167e391",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "E01.1"
+    ],
+    "substrate_product_smiles": "CC[C@H](O)C(=O)O>>CC[C@H](OCOC)C(=O)O",
+    "yield_scope": "Source-reported yield; source conflict notes take precedence."
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E02",
+    "experimental_stage_count": 2,
+    "formal_benchmark_eligible": false,
+    "operation_stages": [
+      "Acid activation",
+      "Condensation and decarboxylation"
+    ],
+    "product_labels": [
+      "24"
+    ],
+    "reactant_labels": [
+      "22",
+      "23"
+    ],
+    "reagents": [
+      "CDI",
+      "MgCl2",
+      "Et3N"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "22",
+        "percent": 85,
+        "product_label": "24",
+        "scope": "Source-reported yield; source conflict notes take precedence."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "acetonitrile"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E02",
+        "pages": [
+          3,
+          7
+        ],
+        "sha256": "6eb180ce3033426991955ce9f99f00def9450e9896b3d3aa30f5b2fa2167e391",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "E02.1"
+    ],
+    "substrate_product_smiles": "CCOC(=O)CC(=O)[O-].CC[C@H](OCOC)C(=O)O.[K+]>>CCOC(=O)CC(=O)[C@H](CC)OCOC",
+    "yield_scope": "Source-reported yield; source conflict notes take precedence."
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E03",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "20"
+    ],
+    "reactant_labels": [
+      "24"
+    ],
+    "reagents": [
+      "LiOTf",
+      "Tf2O",
+      "DIPEA"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "24",
+        "percent": 84,
+        "product_label": "20",
+        "scope": "Z-selective enol triflate"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "dichloromethane"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E03",
+        "pages": [
+          3,
+          8
+        ],
+        "sha256": "6eb180ce3033426991955ce9f99f00def9450e9896b3d3aa30f5b2fa2167e391",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "E03.1"
+    ],
+    "substrate_product_smiles": "CCOC(=O)CC(=O)[C@H](CC)OCOC>>CCOC(=O)/C=C(\\OS(=O)(=O)C(F)(F)F)[C@H](CC)OCOC",
+    "temperature": "room temperature",
+    "yield_scope": "Z-selective enol triflate"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E04",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "25a"
+    ],
+    "reactant_labels": [
+      "trimethoxybenzene",
+      "butanoyl-chloride"
+    ],
+    "reagents": [
+      "AlCl3"
+    ],
+    "reported_yields": [],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "dichloromethane"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E04",
+        "pages": [
+          3,
+          8
+        ],
+        "sha256": "6eb180ce3033426991955ce9f99f00def9450e9896b3d3aa30f5b2fa2167e391",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "E04.1"
+    ],
+    "substrate_product_smiles": "CCCC(=O)Cl.COc1cc(OC)cc(OC)c1>>CCCC(=O)c1c(OC)cc(OC)cc1OC",
+    "yield_scope": "Source-reported yield; source conflict notes take precedence."
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E05",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "25b"
+    ],
+    "reactant_labels": [
+      "25a"
+    ],
+    "reagents": [
+      "N,N-dimethylaniline",
+      "AlCl3"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "trimethoxybenzene",
+        "percent": 89,
+        "product_label": "25b",
+        "scope": "89% over acylation and demethylation"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "dichloromethane"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E05",
+        "pages": [
+          3,
+          8
+        ],
+        "sha256": "6eb180ce3033426991955ce9f99f00def9450e9896b3d3aa30f5b2fa2167e391",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "E05.1"
+    ],
+    "substrate_product_smiles": "CCCC(=O)c1c(OC)cc(OC)cc1OC>>CCCC(=O)c1c(O)cc(OC)cc1OC",
+    "yield_from_label": "trimethoxybenzene",
+    "yield_scope": "89% over acylation and demethylation"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E06",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "26a"
+    ],
+    "reactant_labels": [
+      "25b"
+    ],
+    "reagents": [
+      "bromodimethylsulfonium bromide"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "25b",
+        "percent": 79,
+        "product_label": "26a",
+        "scope": "Source-reported yield; source conflict notes take precedence."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "dichloromethane"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E06",
+        "pages": [
+          3,
+          8
+        ],
+        "sha256": "6eb180ce3033426991955ce9f99f00def9450e9896b3d3aa30f5b2fa2167e391",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "E06.1"
+    ],
+    "substrate_product_smiles": "CCCC(=O)c1c(O)cc(OC)cc1OC>>CCCC(=O)c1c(OC)cc(OC)c(Br)c1O",
+    "yield_scope": "Source-reported yield; source conflict notes take precedence."
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E07",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "26b"
+    ],
+    "reactant_labels": [
+      "25b"
+    ],
+    "reagents": [
+      "NIS"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "25b",
+        "percent": 98,
+        "product_label": "26b",
+        "scope": "Source-reported yield; source conflict notes take precedence."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "dichloromethane"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E07",
+        "pages": [
+          3,
+          8
+        ],
+        "sha256": "6eb180ce3033426991955ce9f99f00def9450e9896b3d3aa30f5b2fa2167e391",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "E07.1"
+    ],
+    "substrate_product_smiles": "CCCC(=O)c1c(O)cc(OC)cc1OC>>CCCC(=O)c1c(OC)cc(OC)c(I)c1O",
+    "yield_scope": "Source-reported yield; source conflict notes take precedence."
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E08",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "27a"
+    ],
+    "reactant_labels": [
+      "26a"
+    ],
+    "reagents": [
+      "MOMCl",
+      "DIPEA"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "26a",
+        "percent": 99,
+        "product_label": "27a",
+        "scope": "Source-reported yield; source conflict notes take precedence."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "dichloromethane"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E08",
+        "pages": [
+          3,
+          8
+        ],
+        "sha256": "6eb180ce3033426991955ce9f99f00def9450e9896b3d3aa30f5b2fa2167e391",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "E08.1"
+    ],
+    "substrate_product_smiles": "CCCC(=O)c1c(OC)cc(OC)c(Br)c1O>>CCCC(=O)c1c(OC)cc(OC)c(Br)c1OCOC",
+    "yield_scope": "Source-reported yield; source conflict notes take precedence."
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E09",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "27b"
+    ],
+    "reactant_labels": [
+      "26b"
+    ],
+    "reagents": [
+      "MOMCl",
+      "DIPEA"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "26b",
+        "percent": 97,
+        "product_label": "27b",
+        "scope": "Source-reported yield; source conflict notes take precedence."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "dichloromethane"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E09",
+        "pages": [
+          3,
+          8,
+          9
+        ],
+        "sha256": "6eb180ce3033426991955ce9f99f00def9450e9896b3d3aa30f5b2fa2167e391",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "E09.1"
+    ],
+    "substrate_product_smiles": "CCCC(=O)c1c(OC)cc(OC)c(I)c1O>>CCCC(=O)c1c(OC)cc(OC)c(I)c1OCOC",
+    "yield_scope": "Source-reported yield; source conflict notes take precedence."
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E10",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "21",
+      "28"
+    ],
+    "reactant_labels": [
+      "27b"
+    ],
+    "reagents": [
+      "B2pin2",
+      "PdCl2(dppf)",
+      "Cs2CO3"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "27b",
+        "percent": 79,
+        "product_label": "21",
+        "scope": "Source-reported yield; source conflict notes take precedence."
+      },
+      {
+        "from_label": "27b",
+        "percent": 15,
+        "product_label": "28",
+        "scope": "Source-reported yield; source conflict notes take precedence."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "DMF",
+      "water"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E10",
+        "pages": [
+          4,
+          9
+        ],
+        "sha256": "6eb180ce3033426991955ce9f99f00def9450e9896b3d3aa30f5b2fa2167e391",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "E10.1"
+    ],
+    "substrate_product_smiles": "CCCC(=O)c1c(OC)cc(OC)c(I)c1OCOC>>CCCC(=O)c1c(OC)cc(OC)c(B2OC(C)(C)C(C)(C)O2)c1OCOC.CCCC(=O)c1c(OC)cc(OC)cc1OCOC",
+    "temperature": "40 C",
+    "time": "40 min",
+    "yield_scope": "Source-reported yield; source conflict notes take precedence."
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E11",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "21",
+      "28"
+    ],
+    "reactant_labels": [
+      "27a"
+    ],
+    "reagents": [
+      "B2pin2",
+      "Pd(OAc)2",
+      "P(DMPMP)3",
+      "Cs2CO3"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "27a",
+        "percent": 13,
+        "product_label": "21",
+        "scope": "Source-reported yield; source conflict notes take precedence."
+      },
+      {
+        "from_label": "27a",
+        "percent": 50,
+        "product_label": "28",
+        "scope": "Source-reported yield; source conflict notes take precedence."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "ethyl acetate"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E11",
+        "pages": [
+          4
+        ],
+        "sha256": "6eb180ce3033426991955ce9f99f00def9450e9896b3d3aa30f5b2fa2167e391",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "E11.1"
+    ],
+    "substrate_product_smiles": "CCCC(=O)c1c(OC)cc(OC)c(Br)c1OCOC>>CCCC(=O)c1c(OC)cc(OC)c(B2OC(C)(C)C(C)(C)O2)c1OCOC.CCCC(=O)c1c(OC)cc(OC)cc1OCOC",
+    "temperature": "100 C",
+    "time": "24 h",
+    "yield_scope": "Source-reported yield; source conflict notes take precedence."
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E12",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "25b"
+    ],
+    "reactant_labels": [
+      "28"
+    ],
+    "reagents": [
+      "concentrated HCl"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "28",
+        "percent": 97,
+        "product_label": "25b",
+        "scope": "Source-reported yield; source conflict notes take precedence."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "methanol"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E12",
+        "pages": [
+          4,
+          9
+        ],
+        "sha256": "6eb180ce3033426991955ce9f99f00def9450e9896b3d3aa30f5b2fa2167e391",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "E12.1"
+    ],
+    "substrate_product_smiles": "CCCC(=O)c1c(OC)cc(OC)cc1OCOC>>CCCC(=O)c1c(O)cc(OC)cc1OC",
+    "temperature": "reflux",
+    "yield_scope": "Source-reported yield; source conflict notes take precedence."
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E13",
+    "experimental_stage_count": 2,
+    "formal_benchmark_eligible": false,
+    "operation_stages": [
+      "Suzuki coupling at reflux",
+      "Acidic lactonization and MOM cleavage at reflux"
+    ],
+    "product_labels": [
+      "29"
+    ],
+    "reactant_labels": [
+      "20",
+      "21"
+    ],
+    "reagents": [
+      "Pd(PPh3)4",
+      "NaHCO3",
+      "concentrated HCl"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "20",
+        "percent": 75,
+        "product_label": "29",
+        "scope": "Source-reported yield; source conflict notes take precedence."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "1,2-dimethoxyethane",
+      "ethanol"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E13",
+        "pages": [
+          4
+        ],
+        "sha256": "6eb180ce3033426991955ce9f99f00def9450e9896b3d3aa30f5b2fa2167e391",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "E13.1"
+    ],
+    "substrate_product_smiles": "CCCC(=O)c1c(OC)cc(OC)c(B2OC(C)(C)C(C)(C)O2)c1OCOC.CCOC(=O)/C=C(\\OS(=O)(=O)C(F)(F)F)[C@H](CC)OCOC>>CCCC(=O)c1c(OC)cc(OC)c2c([C@@H](O)CC)cc(=O)oc12",
+    "yield_scope": "Source-reported yield; source conflict notes take precedence."
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E14",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "30"
+    ],
+    "reactant_labels": [
+      "29"
+    ],
+    "reagents": [
+      "MOMCl",
+      "DIPEA"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "29",
+        "percent": 93,
+        "product_label": "30",
+        "scope": "Source-reported yield; source conflict notes take precedence."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "dichloromethane"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E14",
+        "pages": [
+          4
+        ],
+        "sha256": "6eb180ce3033426991955ce9f99f00def9450e9896b3d3aa30f5b2fa2167e391",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "E14.1"
+    ],
+    "substrate_product_smiles": "CCCC(=O)c1c(OC)cc(OC)c2c([C@@H](O)CC)cc(=O)oc12>>CCCC(=O)c1c(OC)cc(OC)c2c([C@H](CC)OCOC)cc(=O)oc12",
+    "temperature": "reflux",
+    "yield_scope": "Source-reported yield; source conflict notes take precedence."
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E15",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "31a"
+    ],
+    "reactant_labels": [
+      "30"
+    ],
+    "reagents": [
+      "NIS"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "30",
+        "percent": 89,
+        "product_label": "31a",
+        "scope": "Source-reported yield; source conflict notes take precedence."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "HFIP"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E15",
+        "pages": [
+          4
+        ],
+        "sha256": "6eb180ce3033426991955ce9f99f00def9450e9896b3d3aa30f5b2fa2167e391",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "E15.1"
+    ],
+    "substrate_product_smiles": "CCCC(=O)c1c(OC)cc(OC)c2c([C@H](CC)OCOC)cc(=O)oc12>>CC[C@H](OCOC)c1cc(=O)oc2c(I)c(OC)cc(OC)c12",
+    "temperature": "room temperature",
+    "yield_scope": "Source-reported yield; source conflict notes take precedence."
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E16",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "31b"
+    ],
+    "reactant_labels": [
+      "30"
+    ],
+    "reagents": [
+      "NBS",
+      "PhSSPh"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "30",
+        "percent": 67,
+        "product_label": "31b",
+        "scope": "Source-reported yield; source conflict notes take precedence."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "dichloromethane"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E16",
+        "pages": [
+          4
+        ],
+        "sha256": "6eb180ce3033426991955ce9f99f00def9450e9896b3d3aa30f5b2fa2167e391",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "E16.1"
+    ],
+    "substrate_product_smiles": "CCCC(=O)c1c(OC)cc(OC)c2c([C@H](CC)OCOC)cc(=O)oc12>>CC[C@H](OCOC)c1cc(=O)oc2c(Br)c(OC)cc(OC)c12",
+    "temperature": "room temperature",
+    "yield_scope": "Source-reported yield; source conflict notes take precedence."
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E17",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "32"
+    ],
+    "reactant_labels": [
+      "29"
+    ],
+    "reagents": [
+      "BCl3"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "29",
+        "percent": 97,
+        "product_label": "32",
+        "scope": "Source-reported yield; source conflict notes take precedence."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "dichloromethane"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E17",
+        "pages": [
+          4
+        ],
+        "sha256": "6eb180ce3033426991955ce9f99f00def9450e9896b3d3aa30f5b2fa2167e391",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "E17.1"
+    ],
+    "substrate_product_smiles": "CCCC(=O)c1c(OC)cc(OC)c2c([C@@H](O)CC)cc(=O)oc12>>CCCC(=O)c1c(O)cc(OC)c2c([C@@H](O)CC)cc(=O)oc12",
+    "temperature": "0 C",
+    "yield_scope": "Source-reported yield; source conflict notes take precedence."
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E18",
+    "experimental_stage_count": 2,
+    "formal_benchmark_eligible": false,
+    "operation_stages": [
+      "Twofold MOM protection 80 C",
+      "Selective phenolic MOM cleavage 0 C"
+    ],
+    "product_labels": [
+      "33"
+    ],
+    "reactant_labels": [
+      "32"
+    ],
+    "reagents": [
+      "MOMCl",
+      "DIPEA",
+      "TFA"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "32",
+        "percent": 94,
+        "product_label": "33",
+        "scope": "Source-reported yield; source conflict notes take precedence."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "DME",
+      "dichloromethane"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E18",
+        "pages": [
+          4
+        ],
+        "sha256": "6eb180ce3033426991955ce9f99f00def9450e9896b3d3aa30f5b2fa2167e391",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "E18.1"
+    ],
+    "substrate_product_smiles": "CCCC(=O)c1c(O)cc(OC)c2c([C@@H](O)CC)cc(=O)oc12>>CCCC(=O)c1c(O)cc(OC)c2c([C@H](CC)OCOC)cc(=O)oc12",
+    "yield_scope": "Source-reported yield; source conflict notes take precedence."
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E19",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "34a"
+    ],
+    "reactant_labels": [
+      "33"
+    ],
+    "reagents": [
+      "Oxone",
+      "NH4Br"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "33",
+        "percent": 90,
+        "product_label": "34a",
+        "scope": "Source-reported yield; source conflict notes take precedence."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "methanol",
+      "water",
+      "chloroform"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E19",
+        "pages": [
+          4
+        ],
+        "sha256": "6eb180ce3033426991955ce9f99f00def9450e9896b3d3aa30f5b2fa2167e391",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "E19.1"
+    ],
+    "substrate_product_smiles": "CCCC(=O)c1c(O)cc(OC)c2c([C@H](CC)OCOC)cc(=O)oc12>>CCCC(=O)c1c(O)c(Br)c(OC)c2c([C@H](CC)OCOC)cc(=O)oc12",
+    "temperature": "0 C",
+    "yield_scope": "Source-reported yield; source conflict notes take precedence."
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E20",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "34a",
+      "34b"
+    ],
+    "reactant_labels": [
+      "33"
+    ],
+    "reagents": [
+      "NBS"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "33",
+        "percent": 26,
+        "product_label": "34a",
+        "scope": "Screening experiment also recovered starting 33, 27%; distinct dibrominated side product retained."
+      },
+      {
+        "from_label": "33",
+        "percent": 22,
+        "product_label": "34b",
+        "scope": "Screening experiment also recovered starting 33, 27%; distinct dibrominated side product retained."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E20",
+        "pages": [
+          4
+        ],
+        "sha256": "6eb180ce3033426991955ce9f99f00def9450e9896b3d3aa30f5b2fa2167e391",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "E20.1"
+    ],
+    "substrate_product_smiles": "CCCC(=O)c1c(O)cc(OC)c2c([C@H](CC)OCOC)cc(=O)oc12>>CCCC(=O)c1c(O)c(Br)c(OC)c2c([C@H](CC)OCOC)c(Br)c(=O)oc12.CCCC(=O)c1c(O)c(Br)c(OC)c2c([C@H](CC)OCOC)cc(=O)oc12",
+    "yield_scope": "Screening experiment also recovered starting 33, 27%; distinct dibrominated side product retained."
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E21",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "35"
+    ],
+    "reactant_labels": [
+      "34a"
+    ],
+    "reagents": [
+      "MeI",
+      "K2CO3"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "33",
+        "percent": 85,
+        "product_label": "35",
+        "scope": "85% reported from 33 over bromination and methylation; not an independent 34a conversion yield."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "DMF"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E21",
+        "pages": [
+          4
+        ],
+        "sha256": "6eb180ce3033426991955ce9f99f00def9450e9896b3d3aa30f5b2fa2167e391",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "E21.1"
+    ],
+    "substrate_product_smiles": "CCCC(=O)c1c(O)c(Br)c(OC)c2c([C@H](CC)OCOC)cc(=O)oc12>>CCCC(=O)c1c(OC)c(Br)c(OC)c2c([C@H](CC)OCOC)cc(=O)oc12",
+    "temperature": "60 C",
+    "yield_from_label": "33",
+    "yield_scope": "85% reported from 33 over bromination and methylation; not an independent 34a conversion yield."
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E22",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "36",
+      "30"
+    ],
+    "reactant_labels": [
+      "35",
+      "geranyl-stannane"
+    ],
+    "reagents": [
+      "Pd(PPh3)4",
+      "CsF"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "35",
+        "percent": 18,
+        "product_label": "36",
+        "scope": "Source-reported yield; source conflict notes take precedence."
+      },
+      {
+        "from_label": "35",
+        "percent": 52,
+        "product_label": "30",
+        "scope": "Source-reported yield; source conflict notes take precedence."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "toluene"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E22",
+        "pages": [
+          4
+        ],
+        "sha256": "6eb180ce3033426991955ce9f99f00def9450e9896b3d3aa30f5b2fa2167e391",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "E22.1"
+    ],
+    "substrate_product_smiles": "CCCC(=O)c1c(OC)c(Br)c(OC)c2c([C@H](CC)OCOC)cc(=O)oc12.CCC[CH2][Sn]([CH2]/C=C(\\C)CCC=C(C)C)([CH2]CCC)[CH2]CCC>>CCCC(=O)c1c(OC)c(C/C=C(\\C)CCC=C(C)C)c(OC)c2c([C@H](CC)OCOC)cc(=O)oc12.CCCC(=O)c1c(OC)cc(OC)c2c([C@H](CC)OCOC)cc(=O)oc12",
+    "temperature": "100 C",
+    "yield_scope": "Source-reported yield; source conflict notes take precedence."
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E23",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "37"
+    ],
+    "reactant_labels": [
+      "29"
+    ],
+    "reagents": [
+      "pivalic anhydride",
+      "DMAP"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "29",
+        "percent": 82,
+        "product_label": "37",
+        "scope": "Source-reported yield; source conflict notes take precedence."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "pyridine"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E23",
+        "pages": [
+          5
+        ],
+        "sha256": "6eb180ce3033426991955ce9f99f00def9450e9896b3d3aa30f5b2fa2167e391",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "E23.1"
+    ],
+    "substrate_product_smiles": "CCCC(=O)c1c(OC)cc(OC)c2c([C@@H](O)CC)cc(=O)oc12>>CCCC(=O)c1c(OC)cc(OC)c2c([C@H](CC)OC(=O)C(C)(C)C)cc(=O)oc12",
+    "temperature": "80 C",
+    "yield_scope": "Source-reported yield; source conflict notes take precedence."
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E24",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "38"
+    ],
+    "reactant_labels": [
+      "37"
+    ],
+    "reagents": [
+      "N,N-dimethylaniline",
+      "AlCl3"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "37",
+        "percent": 87,
+        "product_label": "38",
+        "scope": "Source-reported yield; source conflict notes take precedence."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "1,2-dichloroethane"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E24",
+        "pages": [
+          5
+        ],
+        "sha256": "6eb180ce3033426991955ce9f99f00def9450e9896b3d3aa30f5b2fa2167e391",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "E24.1"
+    ],
+    "substrate_product_smiles": "CCCC(=O)c1c(OC)cc(OC)c2c([C@H](CC)OC(=O)C(C)(C)C)cc(=O)oc12>>CCCC(=O)c1c(O)cc(OC)c2c([C@H](CC)OC(=O)C(C)(C)C)cc(=O)oc12",
+    "temperature": "reflux",
+    "yield_scope": "Source-reported yield; source conflict notes take precedence."
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E25",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "39"
+    ],
+    "reactant_labels": [
+      "38",
+      "geranyl-bromide"
+    ],
+    "reagents": [
+      "K2CO3"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "38",
+        "percent": 97,
+        "product_label": "39",
+        "scope": "Source-reported yield; source conflict notes take precedence."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "acetone"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E25",
+        "pages": [
+          5
+        ],
+        "sha256": "6eb180ce3033426991955ce9f99f00def9450e9896b3d3aa30f5b2fa2167e391",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "E25.1"
+    ],
+    "substrate_product_smiles": "CC(C)=CCC/C(C)=C/CBr.CCCC(=O)c1c(O)cc(OC)c2c([C@H](CC)OC(=O)C(C)(C)C)cc(=O)oc12>>CCCC(=O)c1c(OC/C=C(\\C)CCC=C(C)C)cc(OC)c2c([C@H](CC)OC(=O)C(C)(C)C)cc(=O)oc12",
+    "temperature": "reflux",
+    "yield_scope": "Source-reported yield; source conflict notes take precedence."
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E26",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "40",
+      "38"
+    ],
+    "reactant_labels": [
+      "39"
+    ],
+    "reagents": [
+      "MS13X"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "39",
+        "percent": 18,
+        "product_label": "40",
+        "scope": "Source-reported yield; source conflict notes take precedence."
+      },
+      {
+        "from_label": "39",
+        "percent": 67,
+        "product_label": "38",
+        "scope": "Source-reported yield; source conflict notes take precedence."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "toluene"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E26",
+        "pages": [
+          5
+        ],
+        "sha256": "6eb180ce3033426991955ce9f99f00def9450e9896b3d3aa30f5b2fa2167e391",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "E26.1"
+    ],
+    "substrate_product_smiles": "CCCC(=O)c1c(OC/C=C(\\C)CCC=C(C)C)cc(OC)c2c([C@H](CC)OC(=O)C(C)(C)C)cc(=O)oc12>>CCCC(=O)c1c(O)c(C/C=C(\\C)CCC=C(C)C)c(OC)c2c([C@H](CC)OC(=O)C(C)(C)C)cc(=O)oc12.CCCC(=O)c1c(O)cc(OC)c2c([C@H](CC)OC(=O)C(C)(C)C)cc(=O)oc12",
+    "temperature": "reflux",
+    "yield_scope": "Source-reported yield; source conflict notes take precedence."
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E27",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "41"
+    ],
+    "reactant_labels": [
+      "32"
+    ],
+    "reagents": [
+      "pyridine.HCl"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "32",
+        "percent": 51,
+        "product_label": "41",
+        "scope": "51% isolated; 94% based on recovered starting material"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E27",
+        "pages": [
+          5
+        ],
+        "sha256": "6eb180ce3033426991955ce9f99f00def9450e9896b3d3aa30f5b2fa2167e391",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "E27.1"
+    ],
+    "substrate_product_smiles": "CCCC(=O)c1c(O)cc(OC)c2c([C@@H](O)CC)cc(=O)oc12>>CCCC(=O)c1c(O)cc(O)c2c([C@@H](O)CC)cc(=O)oc12",
+    "temperature": "160 C",
+    "yield_scope": "51% isolated; 94% based on recovered starting material"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E28",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "42a"
+    ],
+    "reactant_labels": [
+      "41"
+    ],
+    "reagents": [
+      "SEMCl",
+      "Na2CO3"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "41",
+        "percent": 90,
+        "product_label": "42a",
+        "scope": "Source-reported yield; source conflict notes take precedence."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "acetone"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E28",
+        "pages": [
+          5
+        ],
+        "sha256": "6eb180ce3033426991955ce9f99f00def9450e9896b3d3aa30f5b2fa2167e391",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "E28.1"
+    ],
+    "substrate_product_smiles": "CCCC(=O)c1c(O)cc(O)c2c([C@@H](O)CC)cc(=O)oc12>>CCCC(=O)c1c(O)cc(OCOCC[Si](C)(C)C)c2c([C@@H](O)CC)cc(=O)oc12",
+    "temperature": "0 C",
+    "time": "4 h",
+    "yield_scope": "Source-reported yield; source conflict notes take precedence."
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E29",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "42a",
+      "42b"
+    ],
+    "reactant_labels": [
+      "41"
+    ],
+    "reagents": [
+      "SEMCl",
+      "K2CO3"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "41",
+        "percent": 68,
+        "product_label": "42a",
+        "scope": "Source-reported yield; source conflict notes take precedence."
+      },
+      {
+        "from_label": "41",
+        "percent": 30,
+        "product_label": "42b",
+        "scope": "Source-reported yield; source conflict notes take precedence."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "acetone"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E29",
+        "pages": [
+          5
+        ],
+        "sha256": "6eb180ce3033426991955ce9f99f00def9450e9896b3d3aa30f5b2fa2167e391",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "E29.1"
+    ],
+    "substrate_product_smiles": "CCCC(=O)c1c(O)cc(O)c2c([C@@H](O)CC)cc(=O)oc12>>CCCC(=O)c1c(O)cc(OCOCC[Si](C)(C)C)c2c([C@@H](O)CC)cc(=O)oc12.CCCC(=O)c1c(OCOCC[Si](C)(C)C)cc(OCOCC[Si](C)(C)C)c2c([C@@H](O)CC)cc(=O)oc12",
+    "temperature": "0 C",
+    "time": "4 h",
+    "yield_scope": "Source-reported yield; source conflict notes take precedence."
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E30",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "43"
+    ],
+    "reactant_labels": [
+      "42a",
+      "geranyl-bromide"
+    ],
+    "reagents": [
+      "K2CO3"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "42a",
+        "percent": 93,
+        "product_label": "43",
+        "scope": "Source-reported yield; source conflict notes take precedence."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "acetone"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E30",
+        "pages": [
+          5
+        ],
+        "sha256": "6eb180ce3033426991955ce9f99f00def9450e9896b3d3aa30f5b2fa2167e391",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "E30.1"
+    ],
+    "substrate_product_smiles": "CC(C)=CCC/C(C)=C/CBr.CCCC(=O)c1c(O)cc(OCOCC[Si](C)(C)C)c2c([C@@H](O)CC)cc(=O)oc12>>CCCC(=O)c1c(OC/C=C(\\C)CCC=C(C)C)cc(OCOCC[Si](C)(C)C)c2c([C@@H](O)CC)cc(=O)oc12",
+    "temperature": "60 C",
+    "yield_scope": "Source-reported yield; source conflict notes take precedence."
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E31",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "44"
+    ],
+    "reactant_labels": [
+      "43"
+    ],
+    "reagents": [
+      "TBAF"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "43",
+        "percent": 79,
+        "product_label": "44",
+        "scope": "Source-reported yield; source conflict notes take precedence."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "HMPA"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E31",
+        "pages": [
+          5
+        ],
+        "sha256": "6eb180ce3033426991955ce9f99f00def9450e9896b3d3aa30f5b2fa2167e391",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "E31.1"
+    ],
+    "substrate_product_smiles": "CCCC(=O)c1c(OC/C=C(\\C)CCC=C(C)C)cc(OCOCC[Si](C)(C)C)c2c([C@@H](O)CC)cc(=O)oc12>>CCCC(=O)c1c(OC/C=C(\\C)CCC=C(C)C)cc(O)c2c([C@@H](O)CC)cc(=O)oc12",
+    "temperature": "room temperature",
+    "yield_scope": "Source-reported yield; source conflict notes take precedence."
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E32",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "1",
+      "41"
+    ],
+    "reactant_labels": [
+      "44"
+    ],
+    "reagents": [
+      "montmorillonite K10"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "44",
+        "percent": 18,
+        "product_label": "1",
+        "scope": "Source-reported yield; source conflict notes take precedence."
+      },
+      {
+        "from_label": "44",
+        "percent": 74,
+        "product_label": "41",
+        "scope": "Source-reported yield; source conflict notes take precedence."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "toluene"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E32",
+        "pages": [
+          5,
+          13
+        ],
+        "sha256": "6eb180ce3033426991955ce9f99f00def9450e9896b3d3aa30f5b2fa2167e391",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "E32.1"
+    ],
+    "substrate_product_smiles": "CCCC(=O)c1c(OC/C=C(\\C)CCC=C(C)C)cc(O)c2c([C@@H](O)CC)cc(=O)oc12>>CCCC(=O)c1c(O)c(C/C=C(\\C)CCC=C(C)C)c(O)c2c([C@@H](O)CC)cc(=O)oc12.CCCC(=O)c1c(O)cc(O)c2c([C@@H](O)CC)cc(=O)oc12",
+    "temperature": "room temperature",
+    "time": "1 h",
+    "yield_scope": "Source-reported yield; source conflict notes take precedence."
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E33",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "45"
+    ],
+    "reactant_labels": [
+      "43"
+    ],
+    "reagents": [
+      "Ac2O",
+      "DMAP"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "43",
+        "percent": 87,
+        "product_label": "45",
+        "scope": "Source-reported yield; source conflict notes take precedence."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "pyridine"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E33",
+        "pages": [
+          5
+        ],
+        "sha256": "6eb180ce3033426991955ce9f99f00def9450e9896b3d3aa30f5b2fa2167e391",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "E33.1"
+    ],
+    "substrate_product_smiles": "CCCC(=O)c1c(OC/C=C(\\C)CCC=C(C)C)cc(OCOCC[Si](C)(C)C)c2c([C@@H](O)CC)cc(=O)oc12>>CCCC(=O)c1c(OC/C=C(\\C)CCC=C(C)C)cc(OCOCC[Si](C)(C)C)c2c([C@H](CC)OC(C)=O)cc(=O)oc12",
+    "temperature": "0 C",
+    "yield_scope": "Source-reported yield; source conflict notes take precedence."
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E34",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "46"
+    ],
+    "reactant_labels": [
+      "45"
+    ],
+    "reagents": [
+      "TBAF"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "45",
+        "percent": 82,
+        "product_label": "46",
+        "scope": "Source-reported yield; source conflict notes take precedence."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "HMPA"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E34",
+        "pages": [
+          5,
+          14
+        ],
+        "sha256": "6eb180ce3033426991955ce9f99f00def9450e9896b3d3aa30f5b2fa2167e391",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "E34.1"
+    ],
+    "substrate_product_smiles": "CCCC(=O)c1c(OC/C=C(\\C)CCC=C(C)C)cc(OCOCC[Si](C)(C)C)c2c([C@H](CC)OC(C)=O)cc(=O)oc12>>CCCC(=O)c1c(OC/C=C(\\C)CCC=C(C)C)cc(O)c2c([C@H](CC)OC(C)=O)cc(=O)oc12",
+    "temperature": "room temperature",
+    "time": "16 h",
+    "yield_scope": "Source-reported yield; source conflict notes take precedence."
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E35",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "2",
+      "47"
+    ],
+    "reactant_labels": [
+      "46"
+    ],
+    "reagents": [
+      "montmorillonite K10"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "46",
+        "percent": 16,
+        "product_label": "2",
+        "scope": "Source-reported yield; source conflict notes take precedence."
+      },
+      {
+        "from_label": "46",
+        "percent": 70,
+        "product_label": "47",
+        "scope": "Source-reported yield; source conflict notes take precedence."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "toluene"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E35",
+        "pages": [
+          5,
+          14,
+          15
+        ],
+        "sha256": "6eb180ce3033426991955ce9f99f00def9450e9896b3d3aa30f5b2fa2167e391",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "E35.1"
+    ],
+    "substrate_product_smiles": "CCCC(=O)c1c(OC/C=C(\\C)CCC=C(C)C)cc(O)c2c([C@H](CC)OC(C)=O)cc(=O)oc12>>CCCC(=O)c1c(O)c(C/C=C(\\C)CCC=C(C)C)c(O)c2c([C@H](CC)OC(C)=O)cc(=O)oc12.CCCC(=O)c1c(O)cc(O)c2c([C@H](CC)OC(C)=O)cc(=O)oc12",
+    "temperature": "room temperature",
+    "time": "1 h",
+    "yield_scope": "Source-reported yield; source conflict notes take precedence."
+  }
+]

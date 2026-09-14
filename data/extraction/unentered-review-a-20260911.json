@@ -1,0 +1,530 @@
+{
+  "batch_id": "unentered-review-a-20260911",
+  "status": "review_complete_no_new_extraction",
+  "review_date": "2026-09-11",
+  "papers": [
+    {
+      "paper_id": "paper-d95eaa522fb28fc5",
+      "doi": "10.1002/anie.3945602",
+      "title": "Enantioselective Total Synthesis of (+)-Dracocephalone A, (+)-Dracocequinone A, and (-)-Dracocequinone B by Oxabridge Construction With Oxygen.",
+      "disposition": "source_missing_local",
+      "risk_status": "no_exclusion_established_from_reviewed_abstract",
+      "risk_limit": "Limited abstract screening is not a finding of zero risk. Full article/SI risk review remains necessary.",
+      "source_sufficient": false,
+      "artifacts": [],
+      "extraction_performed": false,
+      "prior_acquisition": {
+        "cache": "data/extraction/source_acquisition.json",
+        "status": "no_public_fulltext_or_si_acquired",
+        "attempts": [
+          {
+            "byte_size": 4737,
+            "content_type": "application/json;charset=UTF-8",
+            "exact_doi_match_count": 1,
+            "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1002%2Fanie.3945602%22&format=json&resultType=core&pageSize=25",
+            "http_status": 200,
+            "kind": "europepmc_exact_doi_lookup",
+            "response_sha256": "0880ae5da0c7d8b74a058ed1d9c9cab22b6f48a4538dfcb937b1220d5d5acf15",
+            "status": "fetched",
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1002%2Fanie.3945602%22&format=json&resultType=core&pageSize=25"
+          },
+          {
+            "byte_size": 12542,
+            "content_type": "application/json",
+            "final_url": "https://api.crossref.org/works/10.1002%2Fanie.3945602",
+            "http_status": 200,
+            "kind": "crossref_publisher_links",
+            "response_sha256": "256b5901c3fb7da0b9c51e8bcc803e2b539271cd2db9021319c1b7d67b39bc1d",
+            "status": "fetched",
+            "url": "https://api.crossref.org/works/10.1002%2Fanie.3945602"
+          },
+          {
+            "final_url": "https://onlinelibrary.wiley.com/doi/10.1002/anie.3945602",
+            "http_status": 403,
+            "kind": "publisher_public_landing",
+            "reason": "access_denied_or_paywall_not_bypassed",
+            "status": "http_error",
+            "url": "https://onlinelibrary.wiley.com/doi/10.1002/anie.3945602"
+          },
+          {
+            "final_url": "https://onlinelibrary.wiley.com/doi/10.1002/anie.3945602",
+            "http_status": 403,
+            "kind": "publisher_public_landing",
+            "reason": "access_denied_or_paywall_not_bypassed",
+            "status": "http_error",
+            "url": "https://doi.org/10.1002/anie.3945602"
+          }
+        ]
+      },
+      "search_queries": [
+        "\"10.1002/anie.3945602\"",
+        "\"Dracocephalone\" \"3945602\" filetype:pdf",
+        "\"Dracocephalone\" \"Dracocequinone\" \"3945602\" manuscript"
+      ],
+      "evidence": [
+        {
+          "url": "https://hgxy.usc.edu.cn/info/1084/8618.htm",
+          "kind": "author_institution_news_reviewed",
+          "finding": "Authors describe three targets and antiparasitic activity. This news item has illustrations but no complete original article or experimental SI; no PDF attachment observed."
+        },
+        {
+          "url": "https://onlinelibrary.wiley.com/doi/10.1002/anie.3945602",
+          "kind": "publisher_search_index",
+          "finding": "Bibliographic/abstract content indexed; previous direct HTTP403 preserved without retry."
+        }
+      ],
+      "full_article_route_coverage": false,
+      "available_si_preparation_network_covered": false
+    },
+    {
+      "paper_id": "paper-da140e48c4c6f2bc",
+      "doi": "10.1021/acs.orglett.6c02436",
+      "title": "Total Syntheses and Structural Revision of Menominins A and B",
+      "disposition": "excluded_risk",
+      "risk_status": "conservative_user_scope_cytotoxic_exclusion",
+      "risk_limit": "Limited abstract screening is not a finding of zero risk. Full article/SI risk review remains necessary.",
+      "source_sufficient": false,
+      "artifacts": [],
+      "extraction_performed": false,
+      "prior_acquisition": {
+        "cache": "data/extraction/source_acquisition.json",
+        "status": "no_public_fulltext_or_si_acquired",
+        "attempts": [
+          {
+            "byte_size": 5082,
+            "content_type": "application/json;charset=UTF-8",
+            "exact_doi_match_count": 1,
+            "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1021%2Facs.orglett.6c02436%22&format=json&resultType=core&pageSize=25",
+            "http_status": 200,
+            "kind": "europepmc_exact_doi_lookup",
+            "response_sha256": "c789e6d1883b67b766ffb1d78f3db663fe558b035f9f38f4c43f5f80af3d43dc",
+            "status": "fetched",
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1021%2Facs.orglett.6c02436%22&format=json&resultType=core&pageSize=25"
+          },
+          {
+            "byte_size": 15491,
+            "content_type": "application/json",
+            "final_url": "https://api.crossref.org/works/10.1021%2Facs.orglett.6c02436",
+            "http_status": 200,
+            "kind": "crossref_publisher_links",
+            "response_sha256": "bb7cf12ed877070490beb3c6f62f6cf2f0f7448dd5e034df239301ffd2b7d43a",
+            "status": "fetched",
+            "url": "https://api.crossref.org/works/10.1021%2Facs.orglett.6c02436"
+          },
+          {
+            "final_url": "https://pubs.acs.org/orlef7/article/28/35/10901/5277029/Total-Syntheses-and-Structural-Revision-of",
+            "http_status": 403,
+            "kind": "publisher_public_landing",
+            "reason": "access_denied_or_paywall_not_bypassed",
+            "status": "http_error",
+            "url": "https://pubs.acs.org/orlef7/article/28/35/10901/5277029/Total-Syntheses-and-Structural-Revision-of"
+          },
+          {
+            "final_url": "https://pubs.acs.org/orlef7/article/28/35/10901/5277029/Total-Syntheses-and-Structural-Revision-of",
+            "http_status": 403,
+            "kind": "publisher_public_landing",
+            "reason": "access_denied_or_paywall_not_bypassed",
+            "status": "http_error",
+            "url": "https://doi.org/10.1021/acs.orglett.6c02436"
+          },
+          {
+            "byte_size": 0,
+            "content_type": "text/html; charset=UTF-8",
+            "final_url": "https://acs.figshare.com/doi/suppl/10.1021/acs.orglett.6c02436",
+            "http_status": 202,
+            "kind": "publisher_public_landing",
+            "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "status": "fetched",
+            "url": "https://acs.figshare.com/doi/suppl/10.1021/acs.orglett.6c02436"
+          }
+        ]
+      },
+      "search_queries": [
+        "\"10.1021/acs.orglett.6c02436\"",
+        "\"Menominin\" natural product",
+        "\"Menominin A and B\" \"2.4\"",
+        "\"Total Syntheses and Structural Revision of Menominins\" supporting figshare"
+      ],
+      "evidence": [
+        {
+          "url": "https://pubs.acs.org/orlef7/article/doi/10.1021/acs.orglett.6c02436/5277029/Total-Syntheses-and-Structural-Revision-of",
+          "kind": "publisher_search_index",
+          "finding": "Abstract identifies revised Menominins A/B. Page says available to purchase; SI described but currently no access. Prior ACS403 and zero-byte Figshare202 were not retried; no SI acquired."
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39977243",
+          "kind": "primary_isolation_abstract_search_index",
+          "finding": "Original natural Menominin A/B show OVCAR3 antiproliferative IC50 3.1 and 2.4 micromolar, respectively; DOI10.1021/acs.jnatprod.4c01445."
+        },
+        {
+          "url": "https://pubs.acs.org/doi/10.1021/acs.jnatprod.4c01445",
+          "kind": "primary_isolation_abstract_search_index",
+          "finding": "Independently indexed publisher abstract reports the same target-specific OVCAR3 IC50 values."
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11952978/",
+          "kind": "access_check",
+          "finding": "Direct open displayed Checking your browser/reCAPTCHA; stopped without retry or bypass."
+        }
+      ],
+      "full_article_route_coverage": false,
+      "available_si_preparation_network_covered": false,
+      "reason": "Target-specific low-micromolar antiproliferative activity supports existing conservative user-scope filter; not a claim of high human systemic toxicity.",
+      "risk_values": {
+        "endpoint": "OVCAR3 antiproliferation",
+        "Menominin_A_IC50_uM": 3.1,
+        "Menominin_B_IC50_uM": 2.4
+      }
+    },
+    {
+      "paper_id": "paper-c5902842347862d8",
+      "doi": "10.1016/j.fitote.2026.107410",
+      "title": "Total synthesis and anti-inflammatory evaluation of two prenylated coumestans.",
+      "disposition": "source_missing_local",
+      "risk_status": "no_exclusion_established_from_reviewed_abstract",
+      "risk_limit": "Limited abstract screening is not a finding of zero risk. Full article/SI risk review remains necessary.",
+      "source_sufficient": false,
+      "artifacts": [],
+      "extraction_performed": false,
+      "prior_acquisition": {
+        "cache": "data/extraction/source_acquisition.json",
+        "status": "no_public_fulltext_or_si_acquired",
+        "attempts": [
+          {
+            "byte_size": 6873,
+            "content_type": "application/json;charset=UTF-8",
+            "exact_doi_match_count": 1,
+            "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2Fj.fitote.2026.107410%22&format=json&resultType=core&pageSize=25",
+            "http_status": 200,
+            "kind": "europepmc_exact_doi_lookup",
+            "response_sha256": "06794c40aa52b95c67bc45ee5c2857248d7da645efacf543abee6509c1e35f34",
+            "status": "fetched",
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2Fj.fitote.2026.107410%22&format=json&resultType=core&pageSize=25"
+          },
+          {
+            "byte_size": 19152,
+            "content_type": "application/json",
+            "final_url": "https://api.crossref.org/works/10.1016%2Fj.fitote.2026.107410",
+            "http_status": 200,
+            "kind": "crossref_publisher_links",
+            "response_sha256": "df86d852bb753050d7305f5335fb869e45e0df6cfcad4f1c7c95a762fa627291",
+            "status": "fetched",
+            "url": "https://api.crossref.org/works/10.1016%2Fj.fitote.2026.107410"
+          },
+          {
+            "access_restriction_detected": false,
+            "byte_size": 2692,
+            "content_type": "text/html;charset=UTF-8",
+            "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S0367326X26003291",
+            "http_status": 200,
+            "kind": "publisher_public_landing",
+            "reason": "No verified full article body saved; landing/abstract/access-check content is not a source artifact.",
+            "response_sha256": "d447d3e4d8135401119562f7b54da5920d5150f291981608eac14a68cbde4914",
+            "status": "landing_metadata_only",
+            "url": "https://linkinghub.elsevier.com/retrieve/pii/S0367326X26003291"
+          },
+          {
+            "access_restriction_detected": false,
+            "byte_size": 2692,
+            "content_type": "text/html;charset=UTF-8",
+            "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S0367326X26003291",
+            "http_status": 200,
+            "kind": "publisher_public_landing",
+            "reason": "No verified full article body saved; landing/abstract/access-check content is not a source artifact.",
+            "response_sha256": "d447d3e4d8135401119562f7b54da5920d5150f291981608eac14a68cbde4914",
+            "status": "landing_metadata_only",
+            "url": "https://doi.org/10.1016/j.fitote.2026.107410"
+          }
+        ]
+      },
+      "search_queries": [
+        "\"10.1016/j.fitote.2026.107410\"",
+        "\"Total synthesis and anti-inflammatory evaluation of two prenylated coumestans\" pdf"
+      ],
+      "evidence": [
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42486284/",
+          "kind": "primary_current_abstract_search_index",
+          "finding": "Glytabastan B, phaseol and regioisomer study reports anti-inflammatory effects without apparent cytotoxicity under tested conditions; insufficient for full safety classification."
+        },
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S0367326X26003291",
+          "kind": "new_source_attempt",
+          "finding": "Web open returned Internal Error; no body, PDF or SI acquired. No retry."
+        }
+      ],
+      "full_article_route_coverage": false,
+      "available_si_preparation_network_covered": false
+    },
+    {
+      "paper_id": "paper-34f1fefb6aee38b3",
+      "doi": "10.1016/j.tet.2026.135395",
+      "title": "Total synthesis of (±)-cimifugin and anti-inflammatory evaluation of its ester derivatives",
+      "disposition": "source_missing_local",
+      "risk_status": "no_exclusion_established_from_reviewed_abstract",
+      "risk_limit": "Limited abstract screening is not a finding of zero risk. Full article/SI risk review remains necessary.",
+      "source_sufficient": false,
+      "artifacts": [],
+      "extraction_performed": false,
+      "prior_acquisition": {
+        "cache": "data/extraction/source_acquisition.json",
+        "status": "no_public_fulltext_or_si_acquired",
+        "attempts": [
+          {
+            "byte_size": 196,
+            "content_type": "application/json;charset=UTF-8",
+            "exact_doi_match_count": 0,
+            "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2Fj.tet.2026.135395%22&format=json&resultType=core&pageSize=25",
+            "http_status": 200,
+            "kind": "europepmc_exact_doi_lookup",
+            "response_sha256": "701999fc0defd48163d4daeff3a3b7e3ef429995c376442a9eeb36c9909de66f",
+            "status": "fetched",
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2Fj.tet.2026.135395%22&format=json&resultType=core&pageSize=25"
+          },
+          {
+            "byte_size": 16313,
+            "content_type": "application/json",
+            "final_url": "https://api.crossref.org/works/10.1016%2Fj.tet.2026.135395",
+            "http_status": 200,
+            "kind": "crossref_publisher_links",
+            "response_sha256": "e800fb82729ed3e70d549287a911939414aeb9127ab1880e7a6298453e565bc1",
+            "status": "fetched",
+            "url": "https://api.crossref.org/works/10.1016%2Fj.tet.2026.135395"
+          },
+          {
+            "access_restriction_detected": false,
+            "byte_size": 2712,
+            "content_type": "text/html;charset=UTF-8",
+            "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S0040402026002656",
+            "http_status": 200,
+            "kind": "publisher_public_landing",
+            "reason": "No verified full article body saved; landing/abstract/access-check content is not a source artifact.",
+            "response_sha256": "1f749fd5b4ed276b32767e5b95e931b33e6869dfd7b5da39bba780db1a8c438d",
+            "status": "landing_metadata_only",
+            "url": "https://linkinghub.elsevier.com/retrieve/pii/S0040402026002656"
+          },
+          {
+            "access_restriction_detected": false,
+            "byte_size": 2712,
+            "content_type": "text/html;charset=UTF-8",
+            "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S0040402026002656",
+            "http_status": 200,
+            "kind": "publisher_public_landing",
+            "reason": "No verified full article body saved; landing/abstract/access-check content is not a source artifact.",
+            "response_sha256": "1f749fd5b4ed276b32767e5b95e931b33e6869dfd7b5da39bba780db1a8c438d",
+            "status": "landing_metadata_only",
+            "url": "https://doi.org/10.1016/j.tet.2026.135395"
+          }
+        ]
+      },
+      "search_queries": [
+        "\"10.1016/j.tet.2026.135395\"",
+        "\"cimifugin\" \"135395\" pdf manuscript"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0040402026002656",
+          "kind": "publisher_abstract_and_new_source_attempt",
+          "finding": "Indexed abstract describes cimifugin and fifteen esters with NO inhibition. Direct open HTTP403; stopped. Abstract alone lacks complete molecular route/evidence."
+        },
+        {
+          "url": "https://www.researchgate.net/publication/408466221_Total_Synthesis_of_-Cimifugin_and_Anti-inflammatory_Evaluation_of_Its_Ester_Derivatives",
+          "kind": "source_availability_search_index",
+          "finding": "Search index explicitly says no full-text available / request full-text; no request sent."
+        }
+      ],
+      "full_article_route_coverage": false,
+      "available_si_preparation_network_covered": false
+    },
+    {
+      "paper_id": "paper-3f299d64e1d92146",
+      "doi": "10.1016/j.bioorg.2026.110182",
+      "title": "Total synthesis of (±)-Glabridin with molecular docking and biological evaluation.",
+      "disposition": "source_missing_local",
+      "risk_status": "no_exclusion_established_from_reviewed_abstract",
+      "risk_limit": "Limited abstract screening is not a finding of zero risk. Full article/SI risk review remains necessary.",
+      "source_sufficient": false,
+      "artifacts": [],
+      "extraction_performed": false,
+      "prior_acquisition": {
+        "cache": "data/extraction/source_acquisition.json",
+        "status": "no_public_fulltext_or_si_acquired",
+        "attempts": [
+          {
+            "byte_size": 7766,
+            "content_type": "application/json;charset=UTF-8",
+            "exact_doi_match_count": 1,
+            "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2Fj.bioorg.2026.110182%22&format=json&resultType=core&pageSize=25",
+            "http_status": 200,
+            "kind": "europepmc_exact_doi_lookup",
+            "response_sha256": "314cf735001f17eede15549da534ba9a50f980f7bbc61ea9ad3e627580c2282b",
+            "status": "fetched",
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2Fj.bioorg.2026.110182%22&format=json&resultType=core&pageSize=25"
+          },
+          {
+            "byte_size": 20165,
+            "content_type": "application/json",
+            "final_url": "https://api.crossref.org/works/10.1016%2Fj.bioorg.2026.110182",
+            "http_status": 200,
+            "kind": "crossref_publisher_links",
+            "response_sha256": "9f00d05fb6afe814e2adb514fb26a8b1a417270b64d832f96b9d5742a1999050",
+            "status": "fetched",
+            "url": "https://api.crossref.org/works/10.1016%2Fj.bioorg.2026.110182"
+          },
+          {
+            "access_restriction_detected": false,
+            "byte_size": 2703,
+            "content_type": "text/html;charset=UTF-8",
+            "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S0045206826007182",
+            "http_status": 200,
+            "kind": "publisher_public_landing",
+            "reason": "No verified full article body saved; landing/abstract/access-check content is not a source artifact.",
+            "response_sha256": "c2a86456a3a16fea06a91fa203269cdc72f76924c877e9ed99d29b0131f6326e",
+            "status": "landing_metadata_only",
+            "url": "https://linkinghub.elsevier.com/retrieve/pii/S0045206826007182"
+          },
+          {
+            "access_restriction_detected": false,
+            "byte_size": 2703,
+            "content_type": "text/html;charset=UTF-8",
+            "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S0045206826007182",
+            "http_status": 200,
+            "kind": "publisher_public_landing",
+            "reason": "No verified full article body saved; landing/abstract/access-check content is not a source artifact.",
+            "response_sha256": "c2a86456a3a16fea06a91fa203269cdc72f76924c877e9ed99d29b0131f6326e",
+            "status": "landing_metadata_only",
+            "url": "https://doi.org/10.1016/j.bioorg.2026.110182"
+          }
+        ]
+      },
+      "search_queries": [
+        "\"10.1016/j.bioorg.2026.110182\"",
+        "\"glabridin\" \"110182\" pdf manuscript"
+      ],
+      "evidence": [
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42365673/",
+          "kind": "primary_current_abstract_search_index",
+          "finding": "Abstract reports no cytotoxicity until 62.5 micromolar in tested conditions; generic cytotoxic keyword does not establish low-micromolar/high-toxicity exclusion."
+        },
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S0045206826007182",
+          "kind": "new_source_attempt",
+          "finding": "Web open returned Internal Error; no PDF or SI acquired. No retry."
+        },
+        {
+          "url": "https://www.researchgate.net/publication/408149721_Total_synthesis_of_-Glabridin_with_molecular_docking_and_biological_evaluation",
+          "kind": "source_availability_search_index",
+          "finding": "No full-text available; author request option only, no request sent."
+        }
+      ],
+      "full_article_route_coverage": false,
+      "available_si_preparation_network_covered": false
+    },
+    {
+      "paper_id": "paper-e57a1b30085693f6",
+      "doi": "10.1016/j.tet.2026.135328",
+      "title": "Total synthesis of (±)-8-methoxybicolosin C",
+      "disposition": "source_missing_local",
+      "risk_status": "target_antiproliferative_flag_needs_quantitative_review",
+      "risk_limit": "Do not clear for detailed extraction until target-specific risk is reviewed; current metadata does not establish high systemic toxicity or a low-micromolar IC50.",
+      "source_sufficient": false,
+      "artifacts": [],
+      "extraction_performed": false,
+      "prior_acquisition": {
+        "cache": "data/extraction/source_acquisition.json",
+        "status": "no_public_fulltext_or_si_acquired",
+        "attempts": [
+          {
+            "byte_size": 196,
+            "content_type": "application/json;charset=UTF-8",
+            "exact_doi_match_count": 0,
+            "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2Fj.tet.2026.135328%22&format=json&resultType=core&pageSize=25",
+            "http_status": 200,
+            "kind": "europepmc_exact_doi_lookup",
+            "response_sha256": "829ea20fb39cc1fce90a3d7a29193f37d8f695b6d553b8f4c1fee083d440d88c",
+            "status": "fetched",
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2Fj.tet.2026.135328%22&format=json&resultType=core&pageSize=25"
+          },
+          {
+            "byte_size": 9658,
+            "content_type": "application/json",
+            "final_url": "https://api.crossref.org/works/10.1016%2Fj.tet.2026.135328",
+            "http_status": 200,
+            "kind": "crossref_publisher_links",
+            "response_sha256": "5fec9283af525322140765836e64dc5ecc82fb64d5deb5eba8a59e3df8538a14",
+            "status": "fetched",
+            "url": "https://api.crossref.org/works/10.1016%2Fj.tet.2026.135328"
+          },
+          {
+            "access_restriction_detected": false,
+            "byte_size": 2665,
+            "content_type": "text/html;charset=UTF-8",
+            "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S0040402026001985",
+            "http_status": 200,
+            "kind": "publisher_public_landing",
+            "reason": "No verified full article body saved; landing/abstract/access-check content is not a source artifact.",
+            "response_sha256": "067c5551c0b3a98e5f1f849d272909e3e561deace346217e79e8220f79a766d7",
+            "status": "landing_metadata_only",
+            "url": "https://linkinghub.elsevier.com/retrieve/pii/S0040402026001985"
+          },
+          {
+            "access_restriction_detected": false,
+            "byte_size": 2665,
+            "content_type": "text/html;charset=UTF-8",
+            "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S0040402026001985",
+            "http_status": 200,
+            "kind": "publisher_public_landing",
+            "reason": "No verified full article body saved; landing/abstract/access-check content is not a source artifact.",
+            "response_sha256": "067c5551c0b3a98e5f1f849d272909e3e561deace346217e79e8220f79a766d7",
+            "status": "landing_metadata_only",
+            "url": "https://doi.org/10.1016/j.tet.2026.135328"
+          }
+        ]
+      },
+      "search_queries": [
+        "\"10.1016/j.tet.2026.135328\"",
+        "\"8-methoxybicolosin C\" cytotoxic",
+        "\"8-methoxybicolosin C\" IC50",
+        "\"10.1021/acs.jnatprod.9b00567\""
+      ],
+      "evidence": [
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S0040402026001985",
+          "kind": "publisher_abstract_and_new_source_attempt",
+          "finding": "Indexed abstract describes nine-step synthesis from known iodochromone. Direct open HTTP403; stopped. No full original/SI acquired."
+        },
+        {
+          "url": "https://park.itc.u-tokyo.ac.jp/org-chem/",
+          "kind": "author_institution_directory_reviewed",
+          "finding": "Author lab lists exact title/DOI and links to ScienceDirect, without a local manuscript link in reviewed item."
+        },
+        {
+          "url": "https://www.jsbba.or.jp/MeetingofJSBBA/2025/MeetingofJSBBA2025.pdf",
+          "kind": "author_conference_abstract_search_index",
+          "finding": "Same synthetic authors abstract5B051 expressly identifies natural target antiproliferative activity against leukemia cells and cites JNP2019,82,3025-3032. Conference summary cannot replace 2026 complete experimental article."
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31675225/",
+          "kind": "primary_isolation_abstract_search_index",
+          "finding": "DOI10.1021/acs.jnatprod.9b00567 reports compounds1-9 antiproliferative against blood cancer cells; abstract does not map target name to a numerical IC50. No numerical target potency inferred."
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40825682/",
+          "kind": "primary_followup_abstract_search_index",
+          "finding": "Target-named 2025 study acknowledges earlier antiproliferation and investigates anti-inflammatory activity. Target-specific high-toxicity threshold not established."
+        }
+      ],
+      "full_article_route_coverage": false,
+      "available_si_preparation_network_covered": false
+    }
+  ],
+  "summary": {
+    "reviewed": 6,
+    "risk_excluded": 1,
+    "source_missing": 5,
+    "new_source_artifacts": 0,
+    "new_datasets": 0
+  },
+  "limitations": "Search/abstract review only. No accessible complete source packet obtained; no molecular facts invented. Previous access restrictions respected. Unknown hosts/mirrors were not used as lawful publisher sources."
+}

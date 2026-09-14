@@ -1,0 +1,81 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>SynInsight Atlas | SynInsight Atlas</title><link rel="stylesheet" href="../assets/report.css"><link rel="icon" href="../assets/favicon.svg"></head><body class="publication-page"><a class="skip-link" href="#document">Skip to content</a><nav class="publication-nav" aria-label="Atlas navigation"><a class="brand" href="../index.html">SI · SynInsight Atlas</a><div><a href="../index.html#atlas">Papers & routes</a><a href="../index.html#dataset">Reaction dataset</a></div></nav><div class="document-meta">Reference document · <a href="../README.md" download>Download original file</a></div><main id="document" class="document-content"><h1 id="syninsight-atlas">SynInsight Atlas</h1>
+<p><strong>An evidence-grounded benchmark of strategic reasoning in recent total synthesis.</strong></p>
+<p>SynInsight Atlas is a versioned data and browsing layer derived from the AutoPlanner
+recent-total-synthesis curation workspace. It separates four claims that are often
+collapsed in retrosynthesis benchmarks:</p>
+<ol>
+<li>a paper and target were discovered;</li>
+<li>a candidate molecular structure was transcribed and passes cheminformatics checks;</li>
+<li>route-defining evidence was located in the literature;</li>
+<li>independent chemists admitted the exact structure and route as benchmark truth.</li>
+</ol>
+<p>The hosted browser is available at
+<a href="https://sunyrain.github.io/syninsight-atlas/" rel="noopener noreferrer" target="_blank">https://sunyrain.github.io/syninsight-atlas/</a>.</p>
+<h2 id="current-release">Current release</h2>
+<p><code>v0.1.0-candidate.1</code> is a <strong>candidate curation release</strong>, not a finished benchmark:</p>
+<ul>
+<li>133 candidate papers;</li>
+<li>253 target slots;</li>
+<li>131 acquired source packages recorded in the private curation workspace;</li>
+<li>145 RDKit-valid structure candidates;</li>
+<li>242 targets with automatically located route-evidence leads;</li>
+<li>0 human-admitted structures, 0 human-admitted routes, and 0 runnable targets.</li>
+</ul>
+<p>Those zeroes are deliberate. Machine extraction, source availability, valid SMILES,
+and route connectivity do not grant literature-truth admission.</p>
+<h2 id="desktop-route-browser-update">Desktop route browser update</h2>
+<p>The original discovery snapshot remains intact. The desktop website adds a separate
+source-bound route dataset: <strong>6,555 step occurrences, 635 paths/branches, and 91
+source papers</strong>. These are candidate records pending independent chemical review;
+path occurrences must not be mistaken for unique experimental operations.</p>
+<ul>
+<li><code>data/database/SynInsight_ABSynth_Dataset.csv</code>: main nine-column reaction table.</li>
+<li><code>data/routes/</code>: curated candidate cases, structures and source locators.</li>
+<li><code>route.html</code> and <code>assets/route-overviews/</code>: connected vector pathways with desktop
+  pan/zoom, step navigation, highlighting and shareable step links.</li>
+<li><code>reader.html</code> and <code>pages/</code>: readable data/document views.</li>
+<li><code>scripts/build_web.py</code> and <code>scripts/validate_web.py</code>: website build and checks.</li>
+<li><code>tests/</code>: original release contract plus website integration checks.</li>
+</ul>
+<p>The site remains a static website served from the repository root with <code>.nojekyll</code>.
+See <a href="docs/DEPLOYMENT.html">deployment and update instructions</a> and the
+<a href="docs/REPOSITORY_UPDATE.html">repository integration notes</a>.</p>
+<p>To rebuild only the website (without re-exporting the original snapshot):</p>
+<pre><code class="language-sh">python -m pip install -r requirements-web.txt
+python scripts/build_web.py
+python scripts/validate_web.py
+python scripts/validate_release.py
+</code></pre>
+<h2 id="repository-contents">Repository contents</h2>
+<ul>
+<li><code>data/papers.json</code> and <code>data/papers.csv</code>: paper-level browser and analysis tables;</li>
+<li><code>data/targets.json</code> and <code>data/targets.csv</code>: target-, structure-, route-lead-, and
+  review-state records;</li>
+<li><code>data/release.json</code>: release provenance and redistribution boundary;</li>
+<li><code>data/schema.json</code>: machine-readable field contract;</li>
+<li><code>structures/</code>: SVG depictions derived from candidate SMILES;</li>
+<li><code>index.html</code> and <code>assets/</code>: dependency-free data browser;</li>
+<li><code>scripts/export_from_autoplanner.py</code>: deterministic snapshot exporter;</li>
+<li><code>docs/</code>: data dictionary, curation model, and release roadmap.</li>
+</ul>
+<h2 id="public-data-boundary">Public data boundary</h2>
+<p>This repository includes bibliographic metadata, candidate target identities,
+candidate isomeric SMILES, derived depictions, source locators/hashes, aggregate
+route-lead counts, and human-admission state. It excludes publisher PDFs, HTML/XML,
+supporting information, verbatim article passages, local cache paths, browser state,
+model logs, prompts, and private reviewer identities.</p>
+<p>DOI links direct users to the original publications. Access and reuse of article or
+supporting-information content remain governed by the publisher and source license.</p>
+<h2 id="rebuild-a-snapshot">Rebuild a snapshot</h2>
+<p>With AutoPlanner checked out as a sibling directory and RDKit available:</p>
+<pre><code class="language-powershell">python scripts/export_from_autoplanner.py
+</code></pre>
+<p>Preview locally through HTTP rather than opening <code>index.html</code> directly:</p>
+<pre><code class="language-powershell">python -m http.server 8765
+</code></pre>
+<p>Then open <code>http://localhost:8765/</code>.</p>
+<h2 id="citation-and-release-policy">Citation and release policy</h2>
+<p>Use the metadata in <code>CITATION.cff</code>. A DOI will be added after the first frozen,
+human-reviewed release is archived in a research-data repository. Candidate releases
+remain versioned and must not be cited as an experimentally validated reaction corpus.</p>
+<p>Data are released under CC BY 4.0; site and export code are released under MIT.</p></main><footer class="publication-footer"><a href="../index.html">Return to Atlas</a><span>Candidate curation · Data CC BY 4.0 · Code MIT</span></footer><script src="../assets/publication.js" defer></script></body></html>

@@ -1,0 +1,346 @@
+[
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E01",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "5R",
+      "5S"
+    ],
+    "product_relationship": "stereoisomer mixture, not independently isolated products",
+    "reactant_labels": [
+      "ketone",
+      "MeMgBr"
+    ],
+    "reactant_relationship": "coupling partners",
+    "reported_combined_yield_percent": 62,
+    "reported_product_ee_percent": 87,
+    "reported_product_ratio": null,
+    "reported_scale_variants": [
+      {
+        "ee_percent": 93,
+        "scale_mmol": 0.5,
+        "yield_percent": 52
+      },
+      {
+        "ee_percent": 93,
+        "scale_mmol": 1.12,
+        "yield_percent": 59
+      },
+      {
+        "ee_percent": 87,
+        "scale_mmol": 2.5,
+        "yield_percent": 62
+      }
+    ],
+    "reported_yield_text": "62% combined mixture yield",
+    "reported_yields": [],
+    "review_status": "pending_independent_chemist_review",
+    "sample_series": "R-enriched",
+    "selection_basis": "2.5 mmol example gives 87% ee, matching the explicitly reported starting material ee for E02",
+    "smiles_scope": "Molecular components present in source sample; not stoichiometry or atom-balanced reaction",
+    "source_references": [
+      {
+        "locator": "SI target-specific preparation/characterization; E01 R-enriched experiment",
+        "pages": [
+          15,
+          16
+        ],
+        "sha256": "b0b6621f8c247a6b3c96bfa893da2f6ead658d9ffc6ca2d2d17547b36bcc0f08",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E01.1"
+    ],
+    "substrate_product_smiles": "CC(C)=CCCC(=O)c1ccc(C)cc1.[Br-].[CH3-].[Mg+2]>>CC(C)=CCC[C@@](C)(O)c1ccc(C)cc1.CC(C)=CCC[C@](C)(O)c1ccc(C)cc1",
+    "yield_product_labels": [
+      "5R",
+      "5S"
+    ]
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E02",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "6R",
+      "6S"
+    ],
+    "product_relationship": "stereoisomer mixture, not independently isolated products",
+    "reactant_labels": [
+      "5R",
+      "5S"
+    ],
+    "reactant_relationship": "stereoisomer substrate mixture",
+    "reported_combined_yield_percent": 53,
+    "reported_product_ee_percent": 59,
+    "reported_product_ratio": null,
+    "reported_substrate_ee_percent": 87,
+    "reported_yield_text": "53% combined mixture yield",
+    "reported_yields": [],
+    "review_status": "pending_independent_chemist_review",
+    "sample_series": "R-enriched",
+    "smiles_scope": "Molecular components present in source sample; not stoichiometry or atom-balanced reaction",
+    "source_references": [
+      {
+        "locator": "SI target-specific preparation/characterization; E02 R-enriched experiment",
+        "pages": [
+          26,
+          27
+        ],
+        "sha256": "b0b6621f8c247a6b3c96bfa893da2f6ead658d9ffc6ca2d2d17547b36bcc0f08",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E02.1"
+    ],
+    "substrate_product_smiles": "CC(C)=CCC[C@@](C)(O)c1ccc(C)cc1.CC(C)=CCC[C@](C)(O)c1ccc(C)cc1>>CC(C)=CCC[C@@](C)(OO)c1ccc(C)cc1.CC(C)=CCC[C@](C)(OO)c1ccc(C)cc1",
+    "yield_product_labels": [
+      "6R",
+      "6S"
+    ]
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E03",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "7",
+      "ent-7",
+      "8",
+      "ent-8"
+    ],
+    "product_relationship": "stereoisomer mixture, not independently isolated products",
+    "reactant_labels": [
+      "6R",
+      "6S"
+    ],
+    "reactant_relationship": "stereoisomer substrate mixture",
+    "reported_combined_yield_percent": 27,
+    "reported_product_ee_percent": null,
+    "reported_product_ratio": "7-family:8-family = 1:1.4",
+    "reported_substrate_ee_percent": 59,
+    "reported_yield_text": "27% combined mixture yield",
+    "reported_yields": [],
+    "review_status": "pending_independent_chemist_review",
+    "sample_series": "scalemic",
+    "smiles_scope": "Molecular components present in source sample; not stoichiometry or atom-balanced reaction",
+    "source_references": [
+      {
+        "locator": "SI target-specific preparation/characterization; E03 scalemic experiment",
+        "pages": [
+          39,
+          40,
+          41
+        ],
+        "sha256": "b0b6621f8c247a6b3c96bfa893da2f6ead658d9ffc6ca2d2d17547b36bcc0f08",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E03.1"
+    ],
+    "substrate_product_smiles": "CC(C)=CCC[C@@](C)(OO)c1ccc(C)cc1.CC(C)=CCC[C@](C)(OO)c1ccc(C)cc1>>Cc1ccc([C@@]2(C)CC[C@@H](C(C)(C)OO)OO2)cc1.Cc1ccc([C@@]2(C)CC[C@H](C(C)(C)OO)OO2)cc1.Cc1ccc([C@]2(C)CC[C@@H](C(C)(C)OO)OO2)cc1.Cc1ccc([C@]2(C)CC[C@H](C(C)(C)OO)OO2)cc1",
+    "yield_product_labels": [
+      "7",
+      "ent-7",
+      "8",
+      "ent-8"
+    ]
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E04",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "1",
+      "ent-1",
+      "2",
+      "ent-2"
+    ],
+    "product_relationship": "stereoisomer mixture, not independently isolated products",
+    "reactant_labels": [
+      "7",
+      "ent-7",
+      "8",
+      "ent-8"
+    ],
+    "reactant_relationship": "stereoisomer substrate mixture",
+    "reported_combined_yield_percent": 75,
+    "reported_product_ee_percent": 59,
+    "reported_product_ratio": "1-family:2-family = 1:1.4",
+    "reported_substrate_ee_percent": 59,
+    "reported_yield_text": "75% combined mixture yield",
+    "reported_yields": [],
+    "review_status": "pending_independent_chemist_review",
+    "sample_series": "scalemic",
+    "smiles_scope": "Molecular components present in source sample; not stoichiometry or atom-balanced reaction",
+    "source_references": [
+      {
+        "locator": "SI target-specific preparation/characterization; E04 scalemic experiment",
+        "pages": [
+          43,
+          44
+        ],
+        "sha256": "b0b6621f8c247a6b3c96bfa893da2f6ead658d9ffc6ca2d2d17547b36bcc0f08",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E04.1"
+    ],
+    "substrate_product_smiles": "Cc1ccc([C@@]2(C)CC[C@@H](C(C)(C)OO)OO2)cc1.Cc1ccc([C@@]2(C)CC[C@H](C(C)(C)OO)OO2)cc1.Cc1ccc([C@]2(C)CC[C@@H](C(C)(C)OO)OO2)cc1.Cc1ccc([C@]2(C)CC[C@H](C(C)(C)OO)OO2)cc1>>Cc1ccc([C@@]2(C)CC[C@@H](C(C)(C)O)OO2)cc1.Cc1ccc([C@@]2(C)CC[C@H](C(C)(C)O)OO2)cc1.Cc1ccc([C@]2(C)CC[C@@H](C(C)(C)O)OO2)cc1.Cc1ccc([C@]2(C)CC[C@H](C(C)(C)O)OO2)cc1",
+    "yield_product_labels": [
+      "1",
+      "ent-1",
+      "2",
+      "ent-2"
+    ]
+  },
+  {
+    "admission_authority": false,
+    "category": "control_synthesis",
+    "event_id": "E05",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "7",
+      "ent-7",
+      "8",
+      "ent-8"
+    ],
+    "product_relationship": "stereoisomer mixture, not independently isolated products",
+    "reactant_labels": [
+      "6R",
+      "6S"
+    ],
+    "reactant_relationship": "stereoisomer substrate mixture",
+    "reported_combined_yield_percent": 40,
+    "reported_product_ee_percent": 0,
+    "reported_product_ratio": "7-family:8-family = 1:1.6",
+    "reported_yield_text": "40% combined mixture yield",
+    "reported_yields": [],
+    "review_status": "pending_independent_chemist_review",
+    "sample_series": "racemic",
+    "smiles_scope": "Molecular components present in source sample; not stoichiometry or atom-balanced reaction",
+    "source_references": [
+      {
+        "locator": "SI target-specific preparation/characterization; E05 racemic experiment",
+        "pages": [
+          39,
+          40,
+          41
+        ],
+        "sha256": "b0b6621f8c247a6b3c96bfa893da2f6ead658d9ffc6ca2d2d17547b36bcc0f08",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E05.1"
+    ],
+    "substrate_product_smiles": "CC(C)=CCC[C@@](C)(OO)c1ccc(C)cc1.CC(C)=CCC[C@](C)(OO)c1ccc(C)cc1>>Cc1ccc([C@@]2(C)CC[C@@H](C(C)(C)OO)OO2)cc1.Cc1ccc([C@@]2(C)CC[C@H](C(C)(C)OO)OO2)cc1.Cc1ccc([C@]2(C)CC[C@@H](C(C)(C)OO)OO2)cc1.Cc1ccc([C@]2(C)CC[C@H](C(C)(C)OO)OO2)cc1",
+    "yield_product_labels": [
+      "7",
+      "ent-7",
+      "8",
+      "ent-8"
+    ]
+  },
+  {
+    "admission_authority": false,
+    "category": "control_synthesis",
+    "event_id": "E06",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "1",
+      "ent-1",
+      "2",
+      "ent-2"
+    ],
+    "product_relationship": "stereoisomer mixture, not independently isolated products",
+    "reactant_labels": [
+      "7",
+      "ent-7",
+      "8",
+      "ent-8"
+    ],
+    "reactant_relationship": "stereoisomer substrate mixture",
+    "reported_combined_yield_percent": 80,
+    "reported_product_ee_percent": 0,
+    "reported_product_ratio": "1-family:2-family = 1:1.6",
+    "reported_yield_text": "80% combined mixture yield",
+    "reported_yields": [],
+    "review_status": "pending_independent_chemist_review",
+    "sample_series": "racemic",
+    "smiles_scope": "Molecular components present in source sample; not stoichiometry or atom-balanced reaction",
+    "source_references": [
+      {
+        "locator": "SI target-specific preparation/characterization; E06 racemic experiment",
+        "pages": [
+          43,
+          44
+        ],
+        "sha256": "b0b6621f8c247a6b3c96bfa893da2f6ead658d9ffc6ca2d2d17547b36bcc0f08",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E06.1"
+    ],
+    "substrate_product_smiles": "Cc1ccc([C@@]2(C)CC[C@@H](C(C)(C)OO)OO2)cc1.Cc1ccc([C@@]2(C)CC[C@H](C(C)(C)OO)OO2)cc1.Cc1ccc([C@]2(C)CC[C@@H](C(C)(C)OO)OO2)cc1.Cc1ccc([C@]2(C)CC[C@H](C(C)(C)OO)OO2)cc1>>Cc1ccc([C@@]2(C)CC[C@@H](C(C)(C)O)OO2)cc1.Cc1ccc([C@@]2(C)CC[C@H](C(C)(C)O)OO2)cc1.Cc1ccc([C@]2(C)CC[C@@H](C(C)(C)O)OO2)cc1.Cc1ccc([C@]2(C)CC[C@H](C(C)(C)O)OO2)cc1",
+    "yield_product_labels": [
+      "1",
+      "ent-1",
+      "2",
+      "ent-2"
+    ]
+  },
+  {
+    "admission_authority": false,
+    "category": "control_synthesis",
+    "event_id": "E07",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "5R",
+      "5S"
+    ],
+    "product_relationship": "stereoisomer mixture, not independently isolated products",
+    "reactant_labels": [
+      "acetophenone",
+      "prenylMgBr"
+    ],
+    "reactant_relationship": "coupling partners",
+    "reported_combined_yield_percent": 73,
+    "reported_product_ee_percent": 93,
+    "reported_product_ratio": null,
+    "reported_yield_text": "73% combined mixture yield",
+    "reported_yields": [],
+    "review_status": "pending_independent_chemist_review",
+    "sample_series": "S-enriched",
+    "smiles_scope": "Molecular components present in source sample; not stoichiometry or atom-balanced reaction",
+    "source_references": [
+      {
+        "locator": "SI target-specific preparation/characterization; E07 S-enriched experiment",
+        "pages": [
+          15,
+          16
+        ],
+        "sha256": "b0b6621f8c247a6b3c96bfa893da2f6ead658d9ffc6ca2d2d17547b36bcc0f08",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E07.1"
+    ],
+    "substrate_product_smiles": "CC(=O)c1ccc(C)cc1.[Br-].[CH2-]CC=C(C)C.[Mg+2]>>CC(C)=CCC[C@@](C)(O)c1ccc(C)cc1.CC(C)=CCC[C@](C)(O)c1ccc(C)cc1",
+    "yield_product_labels": [
+      "5R",
+      "5S"
+    ]
+  }
+]

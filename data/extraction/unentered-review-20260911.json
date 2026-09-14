@@ -1,0 +1,1780 @@
+{
+  "batch_id": "unentered-review-20260911",
+  "status": "review_complete_candidates_integrated",
+  "scope": "All44 unextracted papers; bibliographic metadata already exists in SQLite. Source-grounded candidates only; no proof-of-zero-risk claims.",
+  "database_before": {
+    "papers": 133,
+    "molecules": 2925,
+    "paper_compounds": 2829,
+    "reaction_events": 2156,
+    "operation_steps": 2269,
+    "routes": 617
+  },
+  "papers": [
+    {
+      "paper_id": "paper-d95eaa522fb28fc5",
+      "doi": "10.1002/anie.3945602",
+      "title": "Enantioselective Total Synthesis of (+)-Dracocephalone A, (+)-Dracocequinone A, and (-)-Dracocequinone B by Oxabridge Construction With Oxygen.",
+      "prior_status": "source_missing_local",
+      "prior_policy": null,
+      "disposition": "source_insufficient",
+      "current_review": {
+        "paper_id": "paper-d95eaa522fb28fc5",
+        "doi": "10.1002/anie.3945602",
+        "title": "Enantioselective Total Synthesis of (+)-Dracocephalone A, (+)-Dracocequinone A, and (-)-Dracocequinone B by Oxabridge Construction With Oxygen.",
+        "disposition": "source_missing_local",
+        "risk_status": "no_exclusion_established_from_reviewed_abstract",
+        "risk_limit": "Limited abstract screening is not a finding of zero risk. Full article/SI risk review remains necessary.",
+        "source_sufficient": false,
+        "artifacts": [],
+        "extraction_performed": false,
+        "prior_acquisition": {
+          "cache": "data/extraction/source_acquisition.json",
+          "status": "no_public_fulltext_or_si_acquired",
+          "attempts": [
+            {
+              "byte_size": 4737,
+              "content_type": "application/json;charset=UTF-8",
+              "exact_doi_match_count": 1,
+              "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1002%2Fanie.3945602%22&format=json&resultType=core&pageSize=25",
+              "http_status": 200,
+              "kind": "europepmc_exact_doi_lookup",
+              "response_sha256": "0880ae5da0c7d8b74a058ed1d9c9cab22b6f48a4538dfcb937b1220d5d5acf15",
+              "status": "fetched",
+              "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1002%2Fanie.3945602%22&format=json&resultType=core&pageSize=25"
+            },
+            {
+              "byte_size": 12542,
+              "content_type": "application/json",
+              "final_url": "https://api.crossref.org/works/10.1002%2Fanie.3945602",
+              "http_status": 200,
+              "kind": "crossref_publisher_links",
+              "response_sha256": "256b5901c3fb7da0b9c51e8bcc803e2b539271cd2db9021319c1b7d67b39bc1d",
+              "status": "fetched",
+              "url": "https://api.crossref.org/works/10.1002%2Fanie.3945602"
+            },
+            {
+              "final_url": "https://onlinelibrary.wiley.com/doi/10.1002/anie.3945602",
+              "http_status": 403,
+              "kind": "publisher_public_landing",
+              "reason": "access_denied_or_paywall_not_bypassed",
+              "status": "http_error",
+              "url": "https://onlinelibrary.wiley.com/doi/10.1002/anie.3945602"
+            },
+            {
+              "final_url": "https://onlinelibrary.wiley.com/doi/10.1002/anie.3945602",
+              "http_status": 403,
+              "kind": "publisher_public_landing",
+              "reason": "access_denied_or_paywall_not_bypassed",
+              "status": "http_error",
+              "url": "https://doi.org/10.1002/anie.3945602"
+            }
+          ]
+        },
+        "search_queries": [
+          "\"10.1002/anie.3945602\"",
+          "\"Dracocephalone\" \"3945602\" filetype:pdf",
+          "\"Dracocephalone\" \"Dracocequinone\" \"3945602\" manuscript"
+        ],
+        "evidence": [
+          {
+            "url": "https://hgxy.usc.edu.cn/info/1084/8618.htm",
+            "kind": "author_institution_news_reviewed",
+            "finding": "Authors describe three targets and antiparasitic activity. This news item has illustrations but no complete original article or experimental SI; no PDF attachment observed."
+          },
+          {
+            "url": "https://onlinelibrary.wiley.com/doi/10.1002/anie.3945602",
+            "kind": "publisher_search_index",
+            "finding": "Bibliographic/abstract content indexed; previous direct HTTP403 preserved without retry."
+          }
+        ],
+        "full_article_route_coverage": false,
+        "available_si_preparation_network_covered": false
+      },
+      "reason": "No sufficient full source acquired."
+    },
+    {
+      "paper_id": "paper-ca6c2f7ed809e360",
+      "doi": "10.1021/jacs.6c12963",
+      "title": "Concise Asymmetric Total Synthesis of (−)-Cribrostatin 4 via Development of a Rh-Catalyzed Asymmetric Hydrogenation of 2,5-Diketopiperazine-Derived Enamides",
+      "prior_status": "metadata_only",
+      "prior_policy": {
+        "reason": "Conservative user-scope exclusion consistent with existing low-micromolar cytotoxicity policy. Main article p1 explicitly identifies target notable cytotoxicity and cites primary biological reports at ref5 (p9). This is not a high systemic toxicity classification.",
+        "reference": "https://doi.org/10.1021/np990618q",
+        "batch_id": "last-thirty-20260910",
+        "disposition": "excluded",
+        "review_evidence": {
+          "paper_id": "paper-ca6c2f7ed809e360",
+          "doi": "10.1021/jacs.6c12963",
+          "reason": "Conservative user-scope exclusion consistent with existing low-micromolar cytotoxicity policy. Main article p1 explicitly identifies target notable cytotoxicity and cites primary biological reports at ref5 (p9). This is not a high systemic toxicity classification.",
+          "evidence": {
+            "source": "article",
+            "pages": [
+              1,
+              9
+            ],
+            "sha256": "a5e39fe72456051f20bfb8024cf868dd8c2c358291e48751fc508ea14d271e8f",
+            "primary_reference": "https://doi.org/10.1021/np990618q",
+            "numeric_context": {
+              "target": "natural cribrostatin 4 (renieramycin H)",
+              "reported_mean_panel_GI50_micromolar": 5.01,
+              "endpoint": "in vitro cancer-cell growth inhibition, not systemic toxicity",
+              "original_reference": "Pettit et al. J Nat Prod. 2000;63:793-798. DOI10.1021/np990618q",
+              "original_full_text_directly_reviewed": false,
+              "retrieved_source_chain": "Yokoya et al., Chemistry of renieramycins Part11, Tetrahedron67(2011)9185-9192,p9189 explicitly attributes value to natural cribrostatin4 and cites original work; retrieved search excerpt, full PDF retrieval failed.",
+              "supporting_source": "https://electronicsandbooks.com/edt/manual/Magazine/T/Tetrahedron/2011%20%2867%29/47%2B/9185.pdf",
+              "caution": "ASU technology summary conflicts by assigning5.01 to cribrostatin5; do not use it as target-specific numeric authority. Exclusion primarily rests on reviewed current articlep1 notable cytotoxicity/ref5."
+            }
+          }
+        }
+      },
+      "disposition": "risk_excluded",
+      "reason": "Conservative user-scope exclusion consistent with existing low-micromolar cytotoxicity policy. Main article p1 explicitly identifies target notable cytotoxicity and cites primary biological reports at ref5 (p9). This is not a high systemic toxicity classification.",
+      "review_method": "Existing source-specific or established toxic-family exclusion reviewed and retained; no contrary evidence established. No operational source acquisition attempted for already excluded targets.",
+      "evidence_reused": true
+    },
+    {
+      "paper_id": "paper-3df8930a1ab61020",
+      "doi": "10.1021/acs.orglett.6c02629",
+      "title": "Enantioselective Total Synthesis of (−)-Verarine via Late-Stage Bond Ablation",
+      "prior_status": "metadata_only",
+      "prior_policy": {
+        "reason": "Toxic Veratrum alkaloid family: detailed synthesis excluded from this batch.",
+        "reference": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4728534/"
+      },
+      "disposition": "risk_excluded",
+      "reason": "Toxic Veratrum alkaloid family: detailed synthesis excluded from this batch.",
+      "review_method": "Existing source-specific or established toxic-family exclusion reviewed and retained; no contrary evidence established. No operational source acquisition attempted for already excluded targets.",
+      "evidence_reused": true
+    },
+    {
+      "paper_id": "paper-da140e48c4c6f2bc",
+      "doi": "10.1021/acs.orglett.6c02436",
+      "title": "Total Syntheses and Structural Revision of Menominins A and B",
+      "prior_status": "source_missing_local",
+      "prior_policy": null,
+      "disposition": "risk_excluded",
+      "current_review": {
+        "paper_id": "paper-da140e48c4c6f2bc",
+        "doi": "10.1021/acs.orglett.6c02436",
+        "title": "Total Syntheses and Structural Revision of Menominins A and B",
+        "disposition": "excluded_risk",
+        "risk_status": "conservative_user_scope_cytotoxic_exclusion",
+        "risk_limit": "Limited abstract screening is not a finding of zero risk. Full article/SI risk review remains necessary.",
+        "source_sufficient": false,
+        "artifacts": [],
+        "extraction_performed": false,
+        "prior_acquisition": {
+          "cache": "data/extraction/source_acquisition.json",
+          "status": "no_public_fulltext_or_si_acquired",
+          "attempts": [
+            {
+              "byte_size": 5082,
+              "content_type": "application/json;charset=UTF-8",
+              "exact_doi_match_count": 1,
+              "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1021%2Facs.orglett.6c02436%22&format=json&resultType=core&pageSize=25",
+              "http_status": 200,
+              "kind": "europepmc_exact_doi_lookup",
+              "response_sha256": "c789e6d1883b67b766ffb1d78f3db663fe558b035f9f38f4c43f5f80af3d43dc",
+              "status": "fetched",
+              "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1021%2Facs.orglett.6c02436%22&format=json&resultType=core&pageSize=25"
+            },
+            {
+              "byte_size": 15491,
+              "content_type": "application/json",
+              "final_url": "https://api.crossref.org/works/10.1021%2Facs.orglett.6c02436",
+              "http_status": 200,
+              "kind": "crossref_publisher_links",
+              "response_sha256": "bb7cf12ed877070490beb3c6f62f6cf2f0f7448dd5e034df239301ffd2b7d43a",
+              "status": "fetched",
+              "url": "https://api.crossref.org/works/10.1021%2Facs.orglett.6c02436"
+            },
+            {
+              "final_url": "https://pubs.acs.org/orlef7/article/28/35/10901/5277029/Total-Syntheses-and-Structural-Revision-of",
+              "http_status": 403,
+              "kind": "publisher_public_landing",
+              "reason": "access_denied_or_paywall_not_bypassed",
+              "status": "http_error",
+              "url": "https://pubs.acs.org/orlef7/article/28/35/10901/5277029/Total-Syntheses-and-Structural-Revision-of"
+            },
+            {
+              "final_url": "https://pubs.acs.org/orlef7/article/28/35/10901/5277029/Total-Syntheses-and-Structural-Revision-of",
+              "http_status": 403,
+              "kind": "publisher_public_landing",
+              "reason": "access_denied_or_paywall_not_bypassed",
+              "status": "http_error",
+              "url": "https://doi.org/10.1021/acs.orglett.6c02436"
+            },
+            {
+              "byte_size": 0,
+              "content_type": "text/html; charset=UTF-8",
+              "final_url": "https://acs.figshare.com/doi/suppl/10.1021/acs.orglett.6c02436",
+              "http_status": 202,
+              "kind": "publisher_public_landing",
+              "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "status": "fetched",
+              "url": "https://acs.figshare.com/doi/suppl/10.1021/acs.orglett.6c02436"
+            }
+          ]
+        },
+        "search_queries": [
+          "\"10.1021/acs.orglett.6c02436\"",
+          "\"Menominin\" natural product",
+          "\"Menominin A and B\" \"2.4\"",
+          "\"Total Syntheses and Structural Revision of Menominins\" supporting figshare"
+        ],
+        "evidence": [
+          {
+            "url": "https://pubs.acs.org/orlef7/article/doi/10.1021/acs.orglett.6c02436/5277029/Total-Syntheses-and-Structural-Revision-of",
+            "kind": "publisher_search_index",
+            "finding": "Abstract identifies revised Menominins A/B. Page says available to purchase; SI described but currently no access. Prior ACS403 and zero-byte Figshare202 were not retried; no SI acquired."
+          },
+          {
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39977243",
+            "kind": "primary_isolation_abstract_search_index",
+            "finding": "Original natural Menominin A/B show OVCAR3 antiproliferative IC50 3.1 and 2.4 micromolar, respectively; DOI10.1021/acs.jnatprod.4c01445."
+          },
+          {
+            "url": "https://pubs.acs.org/doi/10.1021/acs.jnatprod.4c01445",
+            "kind": "primary_isolation_abstract_search_index",
+            "finding": "Independently indexed publisher abstract reports the same target-specific OVCAR3 IC50 values."
+          },
+          {
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11952978/",
+            "kind": "access_check",
+            "finding": "Direct open displayed Checking your browser/reCAPTCHA; stopped without retry or bypass."
+          }
+        ],
+        "full_article_route_coverage": false,
+        "available_si_preparation_network_covered": false,
+        "reason": "Target-specific low-micromolar antiproliferative activity supports existing conservative user-scope filter; not a claim of high human systemic toxicity.",
+        "risk_values": {
+          "endpoint": "OVCAR3 antiproliferation",
+          "Menominin_A_IC50_uM": 3.1,
+          "Menominin_B_IC50_uM": 2.4
+        }
+      },
+      "reason": "Target-specific low-micromolar antiproliferative activity supports existing conservative user-scope filter; not a claim of high human systemic toxicity."
+    },
+    {
+      "paper_id": "paper-57d8aa1420b35be1",
+      "doi": "10.1021/acs.orglett.6c02081",
+      "title": "Total Synthesis of (+)-Psychotrimine and Formal Synthesis of (+)-Psychotetramine via Late-Stage Ni(II)-Photoredox N-Arylation",
+      "prior_status": "metadata_only",
+      "prior_policy": {
+        "reason": "Conservative user risk exclusion: primary biological evaluation reports psychotrimine NCI60 GI50 1.3-40 micromolar. Does not imply measured systemic toxicity. Current synthesis article p1 prints HT29 IC50 3.00 mg/mL; this value is not silently corrected or used as the exclusion basis.",
+        "reference": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2874090/",
+        "batch_id": "last-thirty-20260910",
+        "disposition": "excluded",
+        "review_evidence": {
+          "paper_id": "paper-57d8aa1420b35be1",
+          "status": "metadata_only",
+          "reason": "Conservative user risk exclusion: primary biological evaluation reports psychotrimine NCI60 GI50 1.3-40 micromolar. Does not imply measured systemic toxicity. Current synthesis article p1 prints HT29 IC50 3.00 mg/mL; this value is not silently corrected or used as the exclusion basis.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2874090/",
+          "source_pmid": "20426477",
+          "source_section": "Preliminary Biological Evaluation",
+          "article_sha256": "675ac018e288e7473fe9db934a3c0e51b73351ff99b2a33e3421c6c5024407ea",
+          "article_pages": [
+            1
+          ],
+          "doi": "10.1021/acs.orglett.6c02081"
+        }
+      },
+      "disposition": "risk_excluded",
+      "reason": "Conservative user risk exclusion: primary biological evaluation reports psychotrimine NCI60 GI50 1.3-40 micromolar. Does not imply measured systemic toxicity. Current synthesis article p1 prints HT29 IC50 3.00 mg/mL; this value is not silently corrected or used as the exclusion basis.",
+      "review_method": "Existing source-specific or established toxic-family exclusion reviewed and retained; no contrary evidence established. No operational source acquisition attempted for already excluded targets.",
+      "evidence_reused": true
+    },
+    {
+      "paper_id": "paper-3eb13c2b7b90af9e",
+      "doi": "10.1055/a-2927-3974",
+      "title": "Divergent Synthesis of (+)-Kuhistanicaol G and (+)-Ferutinin through the Common Intermediate Jaeschkeanadiol",
+      "prior_status": "metadata_only",
+      "prior_policy": {
+        "reason": "User-requested conservative exclusion: author institutional abstract highlights potent anticancer activity; localSI also corrupted. Bibliographic metadata only.",
+        "reference": "https://scholars.duke.edu/publication/1915271",
+        "reviewed_article_page": null,
+        "batch_id": "ten-papers-20260910"
+      },
+      "disposition": "risk_excluded",
+      "reason": "User-requested conservative exclusion: author institutional abstract highlights potent anticancer activity; localSI also corrupted. Bibliographic metadata only.",
+      "review_method": "Existing source-specific or established toxic-family exclusion reviewed and retained; no contrary evidence established. No operational source acquisition attempted for already excluded targets.",
+      "evidence_reused": true
+    },
+    {
+      "paper_id": "paper-50dd1a6127e1c1cf",
+      "doi": "10.1055/a-2927-4044",
+      "title": "Total Synthesis of Triplinones A and O",
+      "prior_status": "pending_structure_transcription",
+      "prior_policy": null,
+      "disposition": "source_insufficient",
+      "current_review": {
+        "paper_id": "paper-50dd1a6127e1c1cf",
+        "doi": "10.1055/a-2927-4044",
+        "title": "Total Synthesis of Triplinones A and O",
+        "disposition": "source_insufficient",
+        "reason": "Local57-page SI is characterization/spectra; forward event evidence is insufficient. Current publisher access restricted; author profile offers request-only full text. No usable author manuscript located.",
+        "source_sufficient": false,
+        "extraction_performed": false,
+        "risk_status": "no_new_exclusion_established_not_zero_risk",
+        "evidence": [
+          {
+            "url": "https://www.thieme-connect.com/products/ejournals/abstract/10.1055/a-2927-4044",
+            "finding": "Publisher access check returned restricted access; no full article obtained."
+          },
+          {
+            "url": "https://www.researchgate.net/publication/412247126_Total_Synthesis_of_Triplinones_A_and_O",
+            "finding": "Indexed author profile contains bibliographic metadata and request-only availability; no request sent."
+          }
+        ],
+        "search_method": "Exact DOI/title plus publisher and legitimate author/institutional availability review; previous failed acquisition cache retained, no login/paywall bypass.",
+        "full_article_route_coverage": false
+      },
+      "reason": "Local57-page SI is characterization/spectra; forward event evidence is insufficient. Current publisher access restricted; author profile offers request-only full text. No usable author manuscript located."
+    },
+    {
+      "paper_id": "paper-b3c58900ac7cc4ff",
+      "doi": "10.1021/acs.orglett.6c02560",
+      "title": "Total Synthesis of (±)-Caryopincaolide A.",
+      "prior_status": "metadata_only",
+      "prior_policy": {
+        "reason": "User-requested conservative exclusion: articlep1 explicitly reports cytotoxicity/apoptosis IC50 0.5-5.0micromolar. Bibliographic metadata only.",
+        "reference": "https://doi.org/10.1021/acs.orglett.6c02560",
+        "reviewed_article_page": 1,
+        "batch_id": "ten-papers-20260910"
+      },
+      "disposition": "risk_excluded",
+      "reason": "User-requested conservative exclusion: articlep1 explicitly reports cytotoxicity/apoptosis IC50 0.5-5.0micromolar. Bibliographic metadata only.",
+      "review_method": "Existing source-specific or established toxic-family exclusion reviewed and retained; no contrary evidence established. No operational source acquisition attempted for already excluded targets.",
+      "evidence_reused": true
+    },
+    {
+      "paper_id": "paper-7bbcfc3503beaac7",
+      "doi": "10.1021/jacs.6c10775",
+      "title": "Total Synthesis of (+)-CC-1065.",
+      "prior_status": "metadata_only",
+      "prior_policy": {
+        "reason": "Exceptionally potent toxic natural product: detailed synthesis excluded from this batch.",
+        "reference": "https://pubmed.ncbi.nlm.nih.gov/6698888/"
+      },
+      "disposition": "risk_excluded",
+      "reason": "Exceptionally potent toxic natural product: detailed synthesis excluded from this batch.",
+      "review_method": "Existing source-specific or established toxic-family exclusion reviewed and retained; no contrary evidence established. No operational source acquisition attempted for already excluded targets.",
+      "evidence_reused": true
+    },
+    {
+      "paper_id": "paper-0b9f99071be7f2fb",
+      "doi": "10.1021/jacs.6c13015",
+      "title": "Total Synthesis and Structural Confirmation of Curcusone I.",
+      "prior_status": "metadata_only",
+      "prior_policy": {
+        "reason": "User risk exclusion: authors explicitly warn that route-specific diazo intermediate 7 is potentially explosive; SI PDF p13. This is not a claim about toxicity of curcusone I.",
+        "reference": "https://doi.org/10.1021/jacs.6c13015",
+        "batch_id": "last-thirty-20260910",
+        "disposition": "excluded",
+        "review_evidence": {
+          "paper_id": "paper-0b9f99071be7f2fb",
+          "status": "metadata_only",
+          "reason": "User risk exclusion: authors explicitly warn that route-specific diazo intermediate 7 is potentially explosive; SI PDF p13. This is not a claim about toxicity of curcusone I.",
+          "source_sha256": "c8bc95fa2d1000796a409d7170418eb22994748dda851a465d75b9f6a59b8c18",
+          "pages": [
+            13
+          ],
+          "doi": "10.1021/jacs.6c13015",
+          "root_policy_confirmed": true
+        }
+      },
+      "disposition": "risk_excluded",
+      "reason": "User risk exclusion: authors explicitly warn that route-specific diazo intermediate 7 is potentially explosive; SI PDF p13. This is not a claim about toxicity of curcusone I.",
+      "review_method": "Existing source-specific or established toxic-family exclusion reviewed and retained; no contrary evidence established. No operational source acquisition attempted for already excluded targets.",
+      "evidence_reused": true
+    },
+    {
+      "paper_id": "paper-427261b826b14a75",
+      "doi": "10.1093/bbb/zbag117",
+      "title": "Efficient total synthesis of shancigusin C, first total synthesis of shancigusin D, and evaluation of their bioactivities.",
+      "prior_status": "pending_structure_transcription",
+      "prior_policy": null,
+      "disposition": "source_insufficient",
+      "current_review": {
+        "paper_id": "paper-427261b826b14a75",
+        "doi": "10.1093/bbb/zbag117",
+        "title": "Efficient total synthesis of shancigusin C, first total synthesis of shancigusin D, and evaluation of their bioactivities.",
+        "disposition": "source_insufficient",
+        "reason": "Local10-page SI contains spectra, not sufficient forward route evidence. Publisher explicitly says no access/subscribers only; corrected typeset article September1,2026.",
+        "source_sufficient": false,
+        "extraction_performed": false,
+        "risk_status": "no_new_exclusion_established_not_zero_risk",
+        "evidence": [
+          {
+            "url": "https://academic.oup.com/bbb/advance-article-abstract/doi/10.1093/bbb/zbag117/8741823",
+            "finding": "Publisher page identifies article and restricted access; no original article downloaded."
+          },
+          {
+            "url": "https://pubmed.ncbi.nlm.nih.gov/42500968/",
+            "finding": "Abstract activity endpoints are not sufficient to establish toxicity or zero risk."
+          }
+        ],
+        "search_method": "Exact DOI/title plus publisher and legitimate author/institutional availability review; previous failed acquisition cache retained, no login/paywall bypass.",
+        "full_article_route_coverage": false
+      },
+      "reason": "Local10-page SI contains spectra, not sufficient forward route evidence. Publisher explicitly says no access/subscribers only; corrected typeset article September1,2026."
+    },
+    {
+      "paper_id": "paper-c5902842347862d8",
+      "doi": "10.1016/j.fitote.2026.107410",
+      "title": "Total synthesis and anti-inflammatory evaluation of two prenylated coumestans.",
+      "prior_status": "source_missing_local",
+      "prior_policy": null,
+      "disposition": "source_insufficient",
+      "current_review": {
+        "paper_id": "paper-c5902842347862d8",
+        "doi": "10.1016/j.fitote.2026.107410",
+        "title": "Total synthesis and anti-inflammatory evaluation of two prenylated coumestans.",
+        "disposition": "source_missing_local",
+        "risk_status": "no_exclusion_established_from_reviewed_abstract",
+        "risk_limit": "Limited abstract screening is not a finding of zero risk. Full article/SI risk review remains necessary.",
+        "source_sufficient": false,
+        "artifacts": [],
+        "extraction_performed": false,
+        "prior_acquisition": {
+          "cache": "data/extraction/source_acquisition.json",
+          "status": "no_public_fulltext_or_si_acquired",
+          "attempts": [
+            {
+              "byte_size": 6873,
+              "content_type": "application/json;charset=UTF-8",
+              "exact_doi_match_count": 1,
+              "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2Fj.fitote.2026.107410%22&format=json&resultType=core&pageSize=25",
+              "http_status": 200,
+              "kind": "europepmc_exact_doi_lookup",
+              "response_sha256": "06794c40aa52b95c67bc45ee5c2857248d7da645efacf543abee6509c1e35f34",
+              "status": "fetched",
+              "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2Fj.fitote.2026.107410%22&format=json&resultType=core&pageSize=25"
+            },
+            {
+              "byte_size": 19152,
+              "content_type": "application/json",
+              "final_url": "https://api.crossref.org/works/10.1016%2Fj.fitote.2026.107410",
+              "http_status": 200,
+              "kind": "crossref_publisher_links",
+              "response_sha256": "df86d852bb753050d7305f5335fb869e45e0df6cfcad4f1c7c95a762fa627291",
+              "status": "fetched",
+              "url": "https://api.crossref.org/works/10.1016%2Fj.fitote.2026.107410"
+            },
+            {
+              "access_restriction_detected": false,
+              "byte_size": 2692,
+              "content_type": "text/html;charset=UTF-8",
+              "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S0367326X26003291",
+              "http_status": 200,
+              "kind": "publisher_public_landing",
+              "reason": "No verified full article body saved; landing/abstract/access-check content is not a source artifact.",
+              "response_sha256": "d447d3e4d8135401119562f7b54da5920d5150f291981608eac14a68cbde4914",
+              "status": "landing_metadata_only",
+              "url": "https://linkinghub.elsevier.com/retrieve/pii/S0367326X26003291"
+            },
+            {
+              "access_restriction_detected": false,
+              "byte_size": 2692,
+              "content_type": "text/html;charset=UTF-8",
+              "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S0367326X26003291",
+              "http_status": 200,
+              "kind": "publisher_public_landing",
+              "reason": "No verified full article body saved; landing/abstract/access-check content is not a source artifact.",
+              "response_sha256": "d447d3e4d8135401119562f7b54da5920d5150f291981608eac14a68cbde4914",
+              "status": "landing_metadata_only",
+              "url": "https://doi.org/10.1016/j.fitote.2026.107410"
+            }
+          ]
+        },
+        "search_queries": [
+          "\"10.1016/j.fitote.2026.107410\"",
+          "\"Total synthesis and anti-inflammatory evaluation of two prenylated coumestans\" pdf"
+        ],
+        "evidence": [
+          {
+            "url": "https://pubmed.ncbi.nlm.nih.gov/42486284/",
+            "kind": "primary_current_abstract_search_index",
+            "finding": "Glytabastan B, phaseol and regioisomer study reports anti-inflammatory effects without apparent cytotoxicity under tested conditions; insufficient for full safety classification."
+          },
+          {
+            "url": "https://www.sciencedirect.com/science/article/pii/S0367326X26003291",
+            "kind": "new_source_attempt",
+            "finding": "Web open returned Internal Error; no body, PDF or SI acquired. No retry."
+          }
+        ],
+        "full_article_route_coverage": false,
+        "available_si_preparation_network_covered": false
+      },
+      "reason": "No sufficient full source acquired."
+    },
+    {
+      "paper_id": "paper-e308745e497d7800",
+      "doi": "10.1055/a-2909-3334",
+      "title": "Enantioselective Total Synthesis of (−)-FR182877 and Evaluation of the Biological Activity of Its Pharmacophore",
+      "prior_status": "source_missing_local",
+      "prior_policy": null,
+      "disposition": "risk_excluded",
+      "current_review": {
+        "status": "risk_excluded",
+        "reason": "Target-specific cytotoxicity in primary research; conservative user risk exclusion, not an assertion of high acute toxicity.",
+        "risk_evidence": [
+          {
+            "url": "https://www.jstage.jst.go.jp/article/antibiotics1968/53/2/53_2_123/_pdf",
+            "locator": "PDF page 6, Cytotoxic Activity",
+            "finding": "FR182877 inhibits human tumor cell lines and mouse bone marrow cells; bone marrow IC50 600 ng/mL. The paper separately reports acute LD50 over 60 mg/kg, which does not support calling it highly acutely toxic.",
+            "source_kind": "primary_research"
+          }
+        ],
+        "source_conclusion": "Existing Thieme access-check/JavaScript response; no local synthesis article/SI. Risk evidence is a separate original biological study.",
+        "paper_id": "paper-e308745e497d7800",
+        "doi": "10.1055/a-2909-3334",
+        "title": "Enantioselective Total Synthesis of (−)-FR182877 and Evaluation of the Biological Activity of Its Pharmacophore",
+        "acquisition_cache_reviewed": "data/extraction/source_acquisition.json",
+        "local_source_artifacts": [],
+        "new_source_pdf_or_si_acquired": false,
+        "full_article_route_coverage": false,
+        "extraction_counts": {
+          "molecules": 0,
+          "events": 0,
+          "routes": 0
+        },
+        "search_urls": [
+          "https://doi.org/10.1055/a-2909-3334"
+        ],
+        "search_queries": [
+          "10.1055/a-2909-3334",
+          "FR182877 cytotoxicity original J Antibiotics"
+        ]
+      },
+      "reason": "Target-specific cytotoxicity in primary research; conservative user risk exclusion, not an assertion of high acute toxicity."
+    },
+    {
+      "paper_id": "paper-9be5e628c1703d5e",
+      "doi": "10.1002/ejoc.70684",
+      "title": "Concise Stereoselective Synthesis of (−)‐MK7607 and 1‐ Epi ‐(−)‐MK7607, and Preliminary Evaluation as Glycosidase Inhibitors",
+      "prior_status": "pending_structure_transcription",
+      "prior_policy": null,
+      "disposition": "source_insufficient",
+      "current_review": {
+        "paper_id": "paper-9be5e628c1703d5e",
+        "doi": "10.1002/ejoc.70684",
+        "title": "Concise Stereoselective Synthesis of (−)‐MK7607 and 1‐ Epi ‐(−)‐MK7607, and Preliminary Evaluation as Glycosidase Inhibitors",
+        "disposition": "source_insufficient",
+        "reason": "Local15-page SI is analytical, without sufficient forward network. Publisher inaccessible. Earlier2022 institutional poster is not the2026 article and cannot replace its missing steps.",
+        "source_sufficient": false,
+        "extraction_performed": false,
+        "risk_status": "no_new_exclusion_established_not_zero_risk",
+        "evidence": [
+          {
+            "url": "https://onlinelibrary.wiley.com/doi/10.1002/ejoc.70684",
+            "finding": "Current publisher open failed; no repeated access attempts."
+          },
+          {
+            "url": "https://www.colibri.udelar.edu.uy/jspui/handle/20.500.12008/36769",
+            "finding": "Institutional2022 poster contains overall conversion, not current full article/step network; not used for fabricated coverage."
+          }
+        ],
+        "search_method": "Exact DOI/title plus publisher and legitimate author/institutional availability review; previous failed acquisition cache retained, no login/paywall bypass.",
+        "full_article_route_coverage": false
+      },
+      "reason": "Local15-page SI is analytical, without sufficient forward network. Publisher inaccessible. Earlier2022 institutional poster is not the2026 article and cannot replace its missing steps."
+    },
+    {
+      "paper_id": "paper-58570bedfca3a108",
+      "doi": "10.1021/acs.joc.6c01053",
+      "title": "Asymmetric Total Synthesis of Naturally Occurring (-)-EBC-329 through an ( E )-Selective Cross-Metathesis Reaction.",
+      "prior_status": "metadata_only",
+      "prior_policy": {
+        "reason": "User-requested conservative exclusion: main articlep1 reports submicromolar leukemia-cell cytotoxicity. Bibliographic metadata only.",
+        "reference": "https://doi.org/10.1021/acs.joc.6c01053",
+        "reviewed_article_page": 1,
+        "batch_id": "twenty-papers-20260910"
+      },
+      "disposition": "risk_excluded",
+      "reason": "User-requested conservative exclusion: main articlep1 reports submicromolar leukemia-cell cytotoxicity. Bibliographic metadata only.",
+      "review_method": "Existing source-specific or established toxic-family exclusion reviewed and retained; no contrary evidence established. No operational source acquisition attempted for already excluded targets.",
+      "evidence_reused": true
+    },
+    {
+      "paper_id": "paper-34f1fefb6aee38b3",
+      "doi": "10.1016/j.tet.2026.135395",
+      "title": "Total synthesis of (±)-cimifugin and anti-inflammatory evaluation of its ester derivatives",
+      "prior_status": "source_missing_local",
+      "prior_policy": null,
+      "disposition": "source_insufficient",
+      "current_review": {
+        "paper_id": "paper-34f1fefb6aee38b3",
+        "doi": "10.1016/j.tet.2026.135395",
+        "title": "Total synthesis of (±)-cimifugin and anti-inflammatory evaluation of its ester derivatives",
+        "disposition": "source_missing_local",
+        "risk_status": "no_exclusion_established_from_reviewed_abstract",
+        "risk_limit": "Limited abstract screening is not a finding of zero risk. Full article/SI risk review remains necessary.",
+        "source_sufficient": false,
+        "artifacts": [],
+        "extraction_performed": false,
+        "prior_acquisition": {
+          "cache": "data/extraction/source_acquisition.json",
+          "status": "no_public_fulltext_or_si_acquired",
+          "attempts": [
+            {
+              "byte_size": 196,
+              "content_type": "application/json;charset=UTF-8",
+              "exact_doi_match_count": 0,
+              "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2Fj.tet.2026.135395%22&format=json&resultType=core&pageSize=25",
+              "http_status": 200,
+              "kind": "europepmc_exact_doi_lookup",
+              "response_sha256": "701999fc0defd48163d4daeff3a3b7e3ef429995c376442a9eeb36c9909de66f",
+              "status": "fetched",
+              "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2Fj.tet.2026.135395%22&format=json&resultType=core&pageSize=25"
+            },
+            {
+              "byte_size": 16313,
+              "content_type": "application/json",
+              "final_url": "https://api.crossref.org/works/10.1016%2Fj.tet.2026.135395",
+              "http_status": 200,
+              "kind": "crossref_publisher_links",
+              "response_sha256": "e800fb82729ed3e70d549287a911939414aeb9127ab1880e7a6298453e565bc1",
+              "status": "fetched",
+              "url": "https://api.crossref.org/works/10.1016%2Fj.tet.2026.135395"
+            },
+            {
+              "access_restriction_detected": false,
+              "byte_size": 2712,
+              "content_type": "text/html;charset=UTF-8",
+              "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S0040402026002656",
+              "http_status": 200,
+              "kind": "publisher_public_landing",
+              "reason": "No verified full article body saved; landing/abstract/access-check content is not a source artifact.",
+              "response_sha256": "1f749fd5b4ed276b32767e5b95e931b33e6869dfd7b5da39bba780db1a8c438d",
+              "status": "landing_metadata_only",
+              "url": "https://linkinghub.elsevier.com/retrieve/pii/S0040402026002656"
+            },
+            {
+              "access_restriction_detected": false,
+              "byte_size": 2712,
+              "content_type": "text/html;charset=UTF-8",
+              "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S0040402026002656",
+              "http_status": 200,
+              "kind": "publisher_public_landing",
+              "reason": "No verified full article body saved; landing/abstract/access-check content is not a source artifact.",
+              "response_sha256": "1f749fd5b4ed276b32767e5b95e931b33e6869dfd7b5da39bba780db1a8c438d",
+              "status": "landing_metadata_only",
+              "url": "https://doi.org/10.1016/j.tet.2026.135395"
+            }
+          ]
+        },
+        "search_queries": [
+          "\"10.1016/j.tet.2026.135395\"",
+          "\"cimifugin\" \"135395\" pdf manuscript"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0040402026002656",
+            "kind": "publisher_abstract_and_new_source_attempt",
+            "finding": "Indexed abstract describes cimifugin and fifteen esters with NO inhibition. Direct open HTTP403; stopped. Abstract alone lacks complete molecular route/evidence."
+          },
+          {
+            "url": "https://www.researchgate.net/publication/408466221_Total_Synthesis_of_-Cimifugin_and_Anti-inflammatory_Evaluation_of_Its_Ester_Derivatives",
+            "kind": "source_availability_search_index",
+            "finding": "Search index explicitly says no full-text available / request full-text; no request sent."
+          }
+        ],
+        "full_article_route_coverage": false,
+        "available_si_preparation_network_covered": false
+      },
+      "reason": "No sufficient full source acquired."
+    },
+    {
+      "paper_id": "paper-d56d30e3b9b84dbc",
+      "doi": "10.1021/acs.orglett.6c02545",
+      "title": "Directed Heterodimerization: Total Synthesis of (-)-Folicangine, (-)-Voafolidine, (-)-Isovoafolidine, and (-)-Tabernaesine B.",
+      "prior_status": "metadata_only",
+      "prior_policy": {
+        "reason": "Conservative user-scope exclusion consistent with existing low-micromolar cytotoxicity policy. Main p1 identifies voafolidine/isovoafolidine moderate cytotoxicity; cited primary isolation abstract reports active compounds IC50 2.5-9.8 micromolar. Not all targets are assigned this range; not a high systemic toxicity classification.",
+        "reference": "https://doi.org/10.1021/acs.jnatprod.9b00768",
+        "batch_id": "last-thirty-20260910",
+        "disposition": "excluded",
+        "review_evidence": {
+          "paper_id": "paper-d56d30e3b9b84dbc",
+          "doi": "10.1021/acs.orglett.6c02545",
+          "reason": "Conservative user-scope exclusion consistent with existing low-micromolar cytotoxicity policy. Main p1 identifies voafolidine/isovoafolidine moderate cytotoxicity; cited primary isolation abstract reports active compounds IC50 2.5-9.8 micromolar. Not all targets are assigned this range; not a high systemic toxicity classification.",
+          "evidence": {
+            "source": "article",
+            "pages": [
+              1,
+              5
+            ],
+            "sha256": "616f81605508adb6d7e2bcd442c7c168d11f41b15aa84c689df55ae692f5534d",
+            "primary_reference": "https://doi.org/10.1021/acs.jnatprod.9b00768",
+            "primary_abstract": "https://pubmed.ncbi.nlm.nih.gov/33112136/"
+          }
+        }
+      },
+      "disposition": "risk_excluded",
+      "reason": "Conservative user-scope exclusion consistent with existing low-micromolar cytotoxicity policy. Main p1 identifies voafolidine/isovoafolidine moderate cytotoxicity; cited primary isolation abstract reports active compounds IC50 2.5-9.8 micromolar. Not all targets are assigned this range; not a high systemic toxicity classification.",
+      "review_method": "Existing source-specific or established toxic-family exclusion reviewed and retained; no contrary evidence established. No operational source acquisition attempted for already excluded targets.",
+      "evidence_reused": true
+    },
+    {
+      "paper_id": "paper-96939387a0ca2d6e",
+      "doi": "10.1002/chem.71328",
+      "title": "Divergent Total Syntheses of Bisnicalaterine Alkaloids Enabled by a Stereocontrolled Geissoschizol Synthesis",
+      "prior_status": "metadata_only",
+      "prior_policy": {
+        "reason": "Parallel agent automatic safety review terminated extraction turn with dual-use content restriction. Detailed extraction not retried. This is not a toxicological classification.",
+        "reference": "https://doi.org/10.1002/chem.71328",
+        "batch_id": "last-thirty-20260910",
+        "disposition": "safety_review_blocked",
+        "review_evidence": {
+          "paper_id": "paper-96939387a0ca2d6e",
+          "reason": "Parallel agent automatic safety review terminated extraction turn with dual-use content restriction. Detailed extraction not retried. This is not a toxicological classification.",
+          "affected_task": "Ascidiathiazones and Bisnicalaterines continuation",
+          "extraction_completed": false
+        }
+      },
+      "disposition": "integrated_graph_candidate",
+      "name": "Bisnicalaterines B/C",
+      "scope": "chemical_graph_only",
+      "source_sufficient_for": "source-drawn chemical identities and directed network within explicitly recorded coverage",
+      "molecules": 38,
+      "reaction_events": 25,
+      "operation_steps": 25,
+      "routes": 9,
+      "coverage_note": "SI-only graph candidate. All reaction conditions, procedures, yields and experimental biological data excluded. Ordinary SMILES cannot distinguish source P/M helicity. Upstream stereochemical assignments remain explicitly pending. Three source-drawn connections G24/G25/G26 remain unresolved because named input5 has no verified structure; they are excluded from reaction SMILES and route sequences. Nine paths are evidence-supported fragments and do not bridge these gaps.",
+      "independent_chemical_review": false,
+      "unresolved_events": 3,
+      "source_hashes": [
+        "8dbab87089168466b121cb32bba920e93dc528477140af78806f3c80b276cb7f"
+      ],
+      "source_roles": [
+        "supporting_information"
+      ],
+      "full_article_route_coverage": false,
+      "available_si_preparation_network_covered": false,
+      "issues": [
+        {
+          "detail": "Identity and source-drawn connections only; no operational information. Original combined-task safety block remains historical and no global policy changed.",
+          "id": "restricted",
+          "severity": "representation_boundary",
+          "subject": "scope"
+        },
+        {
+          "detail": "P/M helix distinctions require source labels or dedicated axial representation and must not be collapsed by ordinary SMILES deduplication.",
+          "id": "helicity",
+          "severity": "representation_boundary",
+          "subject": "1/2/26/27/28/29"
+        },
+        {
+          "detail": "Early syn/anti and chiral center geometries remain unassigned; E/Z tags and hand-built tetrahedral graph require independent review.",
+          "id": "stereo",
+          "severity": "review_pending",
+          "subject": "upstream/alkenes"
+        },
+        {
+          "detail": "Eburnamine is source starting material; no unavailable upstream route invented.",
+          "id": "boundary",
+          "severity": "representation_boundary",
+          "subject": "5"
+        },
+        {
+          "detail": "Graph represents parent monocation identity; S2 additionally depicts protonated salts/counterions that are not expanded into operational events.",
+          "id": "salts",
+          "severity": "representation_boundary",
+          "subject": "1/2"
+        },
+        {
+          "detail": "Scheme shows 23 as input while adjacent prose calls material trans-product25; graph follows actual source drawing, retained as unresolved identity conflict.",
+          "id": "caption",
+          "severity": "source_conflict",
+          "subject": "S22"
+        },
+        {
+          "detail": "Drawn bracketed intermediates included with that provenance; no isolation claim.",
+          "id": "brackets",
+          "severity": "representation_boundary",
+          "subject": "13a/13b/22"
+        },
+        {
+          "detail": "Historical model compounds and mechanistic conformers are outside current target graph.",
+          "id": "historical",
+          "severity": "representation_boundary",
+          "subject": "S11/S17"
+        },
+        {
+          "detail": "Source-drawn trace structures retained; upper quaternary N stereochemistry unassigned.",
+          "id": "trace",
+          "severity": "representation_boundary",
+          "subject": "30/31"
+        },
+        {
+          "detail": "Three coupling connections remain unresolved because eburnamine5 has no verified structure. No reaction SMILES is generated for these connections; terminal paths start independently at drawn28/29.",
+          "id": "missing_named_input",
+          "severity": "representation_boundary",
+          "subject": "G24/G25/G26"
+        },
+        {
+          "detail": "Source-bound facts require independent chemist review.",
+          "id": "independent-review",
+          "severity": "review_pending",
+          "subject": "all"
+        }
+      ]
+    },
+    {
+      "paper_id": "paper-3f299d64e1d92146",
+      "doi": "10.1016/j.bioorg.2026.110182",
+      "title": "Total synthesis of (±)-Glabridin with molecular docking and biological evaluation.",
+      "prior_status": "source_missing_local",
+      "prior_policy": null,
+      "disposition": "source_insufficient",
+      "current_review": {
+        "paper_id": "paper-3f299d64e1d92146",
+        "doi": "10.1016/j.bioorg.2026.110182",
+        "title": "Total synthesis of (±)-Glabridin with molecular docking and biological evaluation.",
+        "disposition": "source_missing_local",
+        "risk_status": "no_exclusion_established_from_reviewed_abstract",
+        "risk_limit": "Limited abstract screening is not a finding of zero risk. Full article/SI risk review remains necessary.",
+        "source_sufficient": false,
+        "artifacts": [],
+        "extraction_performed": false,
+        "prior_acquisition": {
+          "cache": "data/extraction/source_acquisition.json",
+          "status": "no_public_fulltext_or_si_acquired",
+          "attempts": [
+            {
+              "byte_size": 7766,
+              "content_type": "application/json;charset=UTF-8",
+              "exact_doi_match_count": 1,
+              "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2Fj.bioorg.2026.110182%22&format=json&resultType=core&pageSize=25",
+              "http_status": 200,
+              "kind": "europepmc_exact_doi_lookup",
+              "response_sha256": "314cf735001f17eede15549da534ba9a50f980f7bbc61ea9ad3e627580c2282b",
+              "status": "fetched",
+              "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2Fj.bioorg.2026.110182%22&format=json&resultType=core&pageSize=25"
+            },
+            {
+              "byte_size": 20165,
+              "content_type": "application/json",
+              "final_url": "https://api.crossref.org/works/10.1016%2Fj.bioorg.2026.110182",
+              "http_status": 200,
+              "kind": "crossref_publisher_links",
+              "response_sha256": "9f00d05fb6afe814e2adb514fb26a8b1a417270b64d832f96b9d5742a1999050",
+              "status": "fetched",
+              "url": "https://api.crossref.org/works/10.1016%2Fj.bioorg.2026.110182"
+            },
+            {
+              "access_restriction_detected": false,
+              "byte_size": 2703,
+              "content_type": "text/html;charset=UTF-8",
+              "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S0045206826007182",
+              "http_status": 200,
+              "kind": "publisher_public_landing",
+              "reason": "No verified full article body saved; landing/abstract/access-check content is not a source artifact.",
+              "response_sha256": "c2a86456a3a16fea06a91fa203269cdc72f76924c877e9ed99d29b0131f6326e",
+              "status": "landing_metadata_only",
+              "url": "https://linkinghub.elsevier.com/retrieve/pii/S0045206826007182"
+            },
+            {
+              "access_restriction_detected": false,
+              "byte_size": 2703,
+              "content_type": "text/html;charset=UTF-8",
+              "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S0045206826007182",
+              "http_status": 200,
+              "kind": "publisher_public_landing",
+              "reason": "No verified full article body saved; landing/abstract/access-check content is not a source artifact.",
+              "response_sha256": "c2a86456a3a16fea06a91fa203269cdc72f76924c877e9ed99d29b0131f6326e",
+              "status": "landing_metadata_only",
+              "url": "https://doi.org/10.1016/j.bioorg.2026.110182"
+            }
+          ]
+        },
+        "search_queries": [
+          "\"10.1016/j.bioorg.2026.110182\"",
+          "\"glabridin\" \"110182\" pdf manuscript"
+        ],
+        "evidence": [
+          {
+            "url": "https://pubmed.ncbi.nlm.nih.gov/42365673/",
+            "kind": "primary_current_abstract_search_index",
+            "finding": "Abstract reports no cytotoxicity until 62.5 micromolar in tested conditions; generic cytotoxic keyword does not establish low-micromolar/high-toxicity exclusion."
+          },
+          {
+            "url": "https://www.sciencedirect.com/science/article/pii/S0045206826007182",
+            "kind": "new_source_attempt",
+            "finding": "Web open returned Internal Error; no PDF or SI acquired. No retry."
+          },
+          {
+            "url": "https://www.researchgate.net/publication/408149721_Total_synthesis_of_-Glabridin_with_molecular_docking_and_biological_evaluation",
+            "kind": "source_availability_search_index",
+            "finding": "No full-text available; author request option only, no request sent."
+          }
+        ],
+        "full_article_route_coverage": false,
+        "available_si_preparation_network_covered": false
+      },
+      "reason": "No sufficient full source acquired."
+    },
+    {
+      "paper_id": "paper-f8999f4cfd4d1386",
+      "doi": "10.1021/jacsau.6c00609",
+      "title": "Total Synthesis of Schisanlactone A and Ganodermalactone H via Selective Transformation of a Cycloheptatriene Intermediate.",
+      "prior_status": "metadata_only",
+      "prior_policy": {
+        "reason": "User-requested conservative risk exclusion: MT-4 cell cytotoxicity at 4.8 and 7.3 micromolar reported in main article p5.",
+        "reference": "https://doi.org/10.1021/jacsau.6c00609",
+        "reviewed_article_page": 5,
+        "batch_id": "twenty-papers-20260910"
+      },
+      "disposition": "risk_excluded",
+      "reason": "User-requested conservative risk exclusion: MT-4 cell cytotoxicity at 4.8 and 7.3 micromolar reported in main article p5.",
+      "review_method": "Existing source-specific or established toxic-family exclusion reviewed and retained; no contrary evidence established. No operational source acquisition attempted for already excluded targets.",
+      "evidence_reused": true
+    },
+    {
+      "paper_id": "paper-715f9106f76c8961",
+      "doi": "10.1021/acs.joc.6c00749",
+      "title": "Total Synthesis and Antimycobacterial Activity of Ascidiathiazones A and B and Analogues.",
+      "prior_status": "metadata_only",
+      "prior_policy": {
+        "reason": "Parallel agent automatic safety review terminated extraction turn with dual-use content restriction. Detailed extraction not retried. This is not a toxicological classification.",
+        "reference": "https://doi.org/10.1021/acs.joc.6c00749",
+        "batch_id": "last-thirty-20260910",
+        "disposition": "safety_review_blocked",
+        "review_evidence": {
+          "paper_id": "paper-715f9106f76c8961",
+          "reason": "Parallel agent automatic safety review terminated extraction turn with dual-use content restriction. Detailed extraction not retried. This is not a toxicological classification.",
+          "affected_task": "Ascidiathiazones and Bisnicalaterines continuation",
+          "extraction_completed": false
+        }
+      },
+      "disposition": "integrated_graph_candidate",
+      "name": "Ascidiathiazones A/B",
+      "scope": "chemical_graph_only",
+      "source_sufficient_for": "source-drawn chemical identities and directed network within explicitly recorded coverage",
+      "molecules": 20,
+      "reaction_events": 21,
+      "operation_steps": 21,
+      "routes": 9,
+      "coverage_note": "Chemical-structure-only transcription of main Schemes2-4: source compound identities and directed step connectivity. Experimental reagents, solvents, yields, temperatures, timing, and all microbiological methods are outside this restricted extraction. SI is NMR/crystallographic characterization, not an added preparative source.",
+      "independent_chemical_review": false,
+      "unresolved_events": 0,
+      "source_hashes": [
+        "785478d5dfb6070e70d6f0370fcf60dbb844abc8ae21e0ae6e695c8a538a41fc",
+        "ce20fe021644bf736971cc1ab833f6a88635b989a44b7762a8caa743cf435819"
+      ],
+      "source_roles": [
+        "main_article",
+        "supporting_information"
+      ],
+      "full_article_route_coverage": false,
+      "available_si_preparation_network_covered": false,
+      "issues": [
+        {
+          "detail": "Chemical structure/network dataset only. No reagents, solvents, yield values, temperatures, times, procedural stages, microbiological assays, or pathogen cultivation protocols are part of this extraction.",
+          "id": "restricted-scope",
+          "severity": "coverage_boundary",
+          "subject": "all"
+        },
+        {
+          "detail": "Perspective S=O marks in sulfoxide drawings have not been resolved to absolute sulfur configuration in this candidate. Sulfur stereochemistry is omitted, not certified absent from the source; no enantiopurity claim.",
+          "id": "sulfoxide-stereo",
+          "severity": "stereochemistry_scope",
+          "subject": "9/12/14/18"
+        },
+        {
+          "detail": "si-001.pdf is an11-page main article copy with different watermark. ActualSI is si-002.pdf (82 pages, NMR/crystallographic data); classification corrected without modifying source bytes.",
+          "id": "source-copy",
+          "severity": "source_classification",
+          "subject": "sources"
+        },
+        {
+          "detail": "Source-bound facts require independent chemist review.",
+          "id": "independent-review",
+          "severity": "review_pending",
+          "subject": "all"
+        }
+      ]
+    },
+    {
+      "paper_id": "paper-1a3402742c4b5110",
+      "doi": "10.1021/jacs.6c05648",
+      "title": "Total Synthesis of Nineteen-Carbon Picrotoxane Terpenoid Picrodendrin L.",
+      "prior_status": "metadata_only",
+      "prior_policy": {
+        "reason": "Potent picrotoxane family: detailed synthesis excluded from this batch.",
+        "reference": "https://pubmed.ncbi.nlm.nih.gov/42312948/"
+      },
+      "disposition": "risk_excluded",
+      "reason": "Potent picrotoxane family: detailed synthesis excluded from this batch.",
+      "review_method": "Existing source-specific or established toxic-family exclusion reviewed and retained; no contrary evidence established. No operational source acquisition attempted for already excluded targets.",
+      "evidence_reused": true
+    },
+    {
+      "paper_id": "paper-802e1955bc55766e",
+      "doi": "10.1021/jacs.6c04688",
+      "title": "Unified N -Sulfonylated Urea Catalyzed Enantioselective Dimerization, Arylation, and Amination of Tryptamines: Total Synthesis of Five Pyrroloindoline Alkaloids.",
+      "prior_status": "metadata_only",
+      "prior_policy": {
+        "reason": "Target set explicitly includes (+)-calycanthine. Primary pharmacology identifies calycanthine as a central convulsant acting through GABA release and GABA-A currents. Excluded per user target-risk filter.",
+        "reference": "https://pubmed.ncbi.nlm.nih.gov/12831783/",
+        "batch_id": "last-thirty-20260910",
+        "disposition": "excluded",
+        "review_evidence": {
+          "paper_id": "paper-802e1955bc55766e",
+          "reason": "Target set explicitly includes (+)-calycanthine. Primary pharmacology identifies calycanthine as a central convulsant acting through GABA release and GABA-A currents. Excluded per user target-risk filter.",
+          "evidence": {
+            "source": "article",
+            "pages": [
+              1
+            ],
+            "sha256": "a12f663bdf1d5b973c14ad6a0771334634f0668a75c881d1876a1913ebbc0639",
+            "doi": "10.1021/jacs.6c04688",
+            "primary_toxicology_doi": "10.1016/S0041-008X(03)00149-2",
+            "primary_url": "https://pubmed.ncbi.nlm.nih.gov/12831783/"
+          }
+        }
+      },
+      "disposition": "risk_excluded",
+      "reason": "Target set explicitly includes (+)-calycanthine. Primary pharmacology identifies calycanthine as a central convulsant acting through GABA release and GABA-A currents. Excluded per user target-risk filter.",
+      "review_method": "Existing source-specific or established toxic-family exclusion reviewed and retained; no contrary evidence established. No operational source acquisition attempted for already excluded targets.",
+      "evidence_reused": true
+    },
+    {
+      "paper_id": "paper-35bfcabee1d3351d",
+      "doi": "10.1016/j.ejmech.2026.119057",
+      "title": "Total synthesis, antibacterial activity, and mechanistic characterization of erycristagallin as a promising anti-MRSA lead.",
+      "prior_status": "source_missing_local",
+      "prior_policy": null,
+      "disposition": "risk_excluded",
+      "current_review": {
+        "status": "risk_excluded",
+        "reason": "Exact target erycristagallin has measured cytotoxicity in primary research.",
+        "risk_evidence": [
+          {
+            "url": "https://www.researchgate.net/profile/Apichart-Suksamrarn/publication/5760588_Biological_Activities_of_the_Chemical_Constituents_ofErythrina_stricta_andErythrina_subumbrans/links/0fcfd510a489e350b3000000/Biological-Activities-of-the-Chemical-Constituents-ofErythrina-stricta-andErythrina-subumbrans.pdf?origin=scientificContributions",
+            "locator": "PDF page 1 identifies compound 7; PDF page 3 / printed page 1400, Table I",
+            "finding": "Compound 7 is erycristagallin. Cytotoxic IC50 against KB, BC and NCI-H187 cells is 14.9, 12.5 and 2.6 ug/mL respectively. Biological Activities of the Chemical Constituents of Erythrina stricta and Erythrina subumbrans, Archives of Pharmacal Research 30(11), 2007. Author-hosted ResearchGate PDF read through web.",
+            "source_kind": "primary_research"
+          }
+        ],
+        "source_conclusion": "Current article landing abstract describes antibacterial synthesis; no local article/SI. Exact-target older primary assay supplies exclusion evidence.",
+        "paper_id": "paper-35bfcabee1d3351d",
+        "doi": "10.1016/j.ejmech.2026.119057",
+        "title": "Total synthesis, antibacterial activity, and mechanistic characterization of erycristagallin as a promising anti-MRSA lead.",
+        "acquisition_cache_reviewed": "data/extraction/source_acquisition.json",
+        "local_source_artifacts": [],
+        "new_source_pdf_or_si_acquired": false,
+        "full_article_route_coverage": false,
+        "extraction_counts": {
+          "molecules": 0,
+          "events": 0,
+          "routes": 0
+        },
+        "search_urls": [
+          "https://www.sciencedirect.com/science/article/abs/pii/S0223523426005027",
+          "https://pubmed.ncbi.nlm.nih.gov/42302661/"
+        ],
+        "search_queries": [
+          "10.1016/j.ejmech.2026.119057",
+          "erycristagallin cytotoxicity Erythrina stricta subumbrans"
+        ]
+      },
+      "reason": "Exact target erycristagallin has measured cytotoxicity in primary research."
+    },
+    {
+      "paper_id": "paper-e79ae9485d8724c3",
+      "doi": "10.1021/acs.orglett.6c02181",
+      "title": "Total Synthesis of (±)-Cephalotaxine-Type Alkaloids via a Semipinacol Rearrangement/Intramolecular Schmidt Sequence.",
+      "prior_status": "metadata_only",
+      "prior_policy": {
+        "reason": "Conservative user-requested process-risk exclusion: this synthesis SI p16 explicitly requires blast shield for all work with azides; detailed route processing stopped. Not a claim that cephalotaxine or demethylcephalotaxinone has high systemic toxicity.",
+        "reference": "https://doi.org/10.1021/acs.orglett.6c02181",
+        "batch_id": "last-thirty-20260910",
+        "disposition": "excluded",
+        "review_evidence": {
+          "paper_id": "paper-e79ae9485d8724c3",
+          "reason": "Conservative user-requested process-risk exclusion: this synthesis SI p16 explicitly requires blast shield for all work with azides; detailed route processing stopped. Not a claim that cephalotaxine or demethylcephalotaxinone has high systemic toxicity.",
+          "reference": "https://doi.org/10.1021/acs.orglett.6c02181",
+          "evidence": {
+            "source": "si",
+            "pages": [
+              16
+            ],
+            "sha256": "363e459758df6d4b551b8d16cebbbc30315ea889a7944debe1e27bb919dfe855",
+            "locator": "Notes before X-Ray Crystallographic Data",
+            "reviewed_visual": true
+          }
+        }
+      },
+      "disposition": "risk_excluded",
+      "reason": "Conservative user-requested process-risk exclusion: this synthesis SI p16 explicitly requires blast shield for all work with azides; detailed route processing stopped. Not a claim that cephalotaxine or demethylcephalotaxinone has high systemic toxicity.",
+      "review_method": "Existing source-specific or established toxic-family exclusion reviewed and retained; no contrary evidence established. No operational source acquisition attempted for already excluded targets.",
+      "evidence_reused": true
+    },
+    {
+      "paper_id": "paper-ccd0ca2fecb9b3cc",
+      "doi": "10.1021/acs.jnatprod.6c00456",
+      "title": "Total Synthesis and Structural Revision of (-)-Garvensintriol.",
+      "prior_status": "metadata_only",
+      "prior_policy": {
+        "reason": "User-requested conservative exclusion: articlep6 identifies revised target with reported potent cytotoxic3-deoxycardiobutanolide. Bibliographic metadata only.",
+        "reference": "https://doi.org/10.1021/acs.jnatprod.6c00456",
+        "reviewed_article_page": 6,
+        "batch_id": "ten-papers-20260910"
+      },
+      "disposition": "risk_excluded",
+      "reason": "User-requested conservative exclusion: articlep6 identifies revised target with reported potent cytotoxic3-deoxycardiobutanolide. Bibliographic metadata only.",
+      "review_method": "Existing source-specific or established toxic-family exclusion reviewed and retained; no contrary evidence established. No operational source acquisition attempted for already excluded targets.",
+      "evidence_reused": true
+    },
+    {
+      "paper_id": "paper-c9bff72dbb15cbb3",
+      "doi": "10.1021/jacs.5c21637",
+      "title": "Concise Total Synthesis of (+)-Shearilicine: A Machine Learning-Assisted Strategy for Ligand Optimization of an Enantioselective Palladium-Catalyzed α-Arylation.",
+      "prior_status": "metadata_only",
+      "prior_policy": {
+        "reason": "Conservative user risk filter: main article explicitly reports low-micromolar cytotoxicity, L5178Y IC50 3.6 uM and A2780 IC50 8.7 uM. This is an exclusion criterion, not a claim of proven high systemic human toxicity.",
+        "reference": "https://doi.org/10.1021/jacs.5c21637",
+        "batch_id": "last-thirty-20260910",
+        "disposition": "excluded",
+        "review_evidence": {
+          "paper_id": "paper-c9bff72dbb15cbb3",
+          "title": "Concise Total Synthesis of (+)-Shearilicine",
+          "reason": "Conservative user risk filter: main article explicitly reports low-micromolar cytotoxicity, L5178Y IC50 3.6 uM and A2780 IC50 8.7 uM. This is an exclusion criterion, not a claim of proven high systemic human toxicity.",
+          "evidence": {
+            "source": "article",
+            "pages": [
+              1
+            ],
+            "sha256": "47d7636a1f5b6f1e654be176a45cc7659470e52fbfc9994352705c91781c56c9",
+            "doi": "10.1021/jacs.5c21637",
+            "primary_isolation_doi": "10.1021/acs.jnatprod.8b00723"
+          }
+        }
+      },
+      "disposition": "risk_excluded",
+      "reason": "Conservative user risk filter: main article explicitly reports low-micromolar cytotoxicity, L5178Y IC50 3.6 uM and A2780 IC50 8.7 uM. This is an exclusion criterion, not a claim of proven high systemic human toxicity.",
+      "review_method": "Existing source-specific or established toxic-family exclusion reviewed and retained; no contrary evidence established. No operational source acquisition attempted for already excluded targets.",
+      "evidence_reused": true
+    },
+    {
+      "paper_id": "paper-16f354f78b1a7c42",
+      "doi": "10.1021/jacs.6c05047",
+      "title": "Biocatalytic Oxidative [3 + 2] Cycloaddition Enables Divergent Synthesis of (−)-α-Cyclopiazonic Acid and Derived Alkaloids",
+      "prior_status": "metadata_only",
+      "prior_policy": {
+        "reason": "Mycotoxin synthesis: bibliographic metadata only; no operational synthesis dataset.",
+        "reference": "https://pubmed.ncbi.nlm.nih.gov/3966246/"
+      },
+      "disposition": "risk_excluded",
+      "reason": "Mycotoxin synthesis: bibliographic metadata only; no operational synthesis dataset.",
+      "review_method": "Existing source-specific or established toxic-family exclusion reviewed and retained; no contrary evidence established. No operational source acquisition attempted for already excluded targets.",
+      "evidence_reused": true
+    },
+    {
+      "paper_id": "paper-0662d076d464d21f",
+      "doi": "10.1021/jacs.6c06760",
+      "title": "Biomimetic Synthesis of Seven Halenaquinone Meroterpenoids",
+      "prior_status": "metadata_only",
+      "prior_policy": {
+        "reason": "Multi-target paper reports several natural products with cytotoxic IC50 below 1 micromolar; orhalquinone mean about 0.8 micromolar across four colon cancer lines. Halenaquinone itself exceeds 50 micromolar; exclusion applies to the paper multi-target scope, not all family members.",
+        "reference": "https://doi.org/10.1021/jacs.6c06760",
+        "batch_id": "last-thirty-20260910",
+        "disposition": "excluded",
+        "review_evidence": {
+          "paper_id": "paper-0662d076d464d21f",
+          "reason": "Multi-target paper reports several natural products with cytotoxic IC50 below 1 micromolar; orhalquinone mean about 0.8 micromolar across four colon cancer lines. Halenaquinone itself exceeds 50 micromolar; exclusion applies to the paper multi-target scope, not all family members.",
+          "doi": "10.1021/jacs.6c06760",
+          "evidence": {
+            "source": "article",
+            "pages": [
+              1,
+              6
+            ],
+            "sha256": "010c1e3935f8ebde37104167fccb879831b04e893fc1f519ac5da5e388dff3f7"
+          }
+        }
+      },
+      "disposition": "risk_excluded",
+      "reason": "Multi-target paper reports several natural products with cytotoxic IC50 below 1 micromolar; orhalquinone mean about 0.8 micromolar across four colon cancer lines. Halenaquinone itself exceeds 50 micromolar; exclusion applies to the paper multi-target scope, not all family members.",
+      "review_method": "Existing source-specific or established toxic-family exclusion reviewed and retained; no contrary evidence established. No operational source acquisition attempted for already excluded targets.",
+      "evidence_reused": true
+    },
+    {
+      "paper_id": "paper-e57a1b30085693f6",
+      "doi": "10.1016/j.tet.2026.135328",
+      "title": "Total synthesis of (±)-8-methoxybicolosin C",
+      "prior_status": "source_missing_local",
+      "prior_policy": null,
+      "disposition": "risk_pending",
+      "current_review": {
+        "paper_id": "paper-e57a1b30085693f6",
+        "doi": "10.1016/j.tet.2026.135328",
+        "title": "Total synthesis of (±)-8-methoxybicolosin C",
+        "disposition": "source_missing_local",
+        "risk_status": "target_antiproliferative_flag_needs_quantitative_review",
+        "risk_limit": "Do not clear for detailed extraction until target-specific risk is reviewed; current metadata does not establish high systemic toxicity or a low-micromolar IC50.",
+        "source_sufficient": false,
+        "artifacts": [],
+        "extraction_performed": false,
+        "prior_acquisition": {
+          "cache": "data/extraction/source_acquisition.json",
+          "status": "no_public_fulltext_or_si_acquired",
+          "attempts": [
+            {
+              "byte_size": 196,
+              "content_type": "application/json;charset=UTF-8",
+              "exact_doi_match_count": 0,
+              "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2Fj.tet.2026.135328%22&format=json&resultType=core&pageSize=25",
+              "http_status": 200,
+              "kind": "europepmc_exact_doi_lookup",
+              "response_sha256": "829ea20fb39cc1fce90a3d7a29193f37d8f695b6d553b8f4c1fee083d440d88c",
+              "status": "fetched",
+              "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2Fj.tet.2026.135328%22&format=json&resultType=core&pageSize=25"
+            },
+            {
+              "byte_size": 9658,
+              "content_type": "application/json",
+              "final_url": "https://api.crossref.org/works/10.1016%2Fj.tet.2026.135328",
+              "http_status": 200,
+              "kind": "crossref_publisher_links",
+              "response_sha256": "5fec9283af525322140765836e64dc5ecc82fb64d5deb5eba8a59e3df8538a14",
+              "status": "fetched",
+              "url": "https://api.crossref.org/works/10.1016%2Fj.tet.2026.135328"
+            },
+            {
+              "access_restriction_detected": false,
+              "byte_size": 2665,
+              "content_type": "text/html;charset=UTF-8",
+              "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S0040402026001985",
+              "http_status": 200,
+              "kind": "publisher_public_landing",
+              "reason": "No verified full article body saved; landing/abstract/access-check content is not a source artifact.",
+              "response_sha256": "067c5551c0b3a98e5f1f849d272909e3e561deace346217e79e8220f79a766d7",
+              "status": "landing_metadata_only",
+              "url": "https://linkinghub.elsevier.com/retrieve/pii/S0040402026001985"
+            },
+            {
+              "access_restriction_detected": false,
+              "byte_size": 2665,
+              "content_type": "text/html;charset=UTF-8",
+              "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S0040402026001985",
+              "http_status": 200,
+              "kind": "publisher_public_landing",
+              "reason": "No verified full article body saved; landing/abstract/access-check content is not a source artifact.",
+              "response_sha256": "067c5551c0b3a98e5f1f849d272909e3e561deace346217e79e8220f79a766d7",
+              "status": "landing_metadata_only",
+              "url": "https://doi.org/10.1016/j.tet.2026.135328"
+            }
+          ]
+        },
+        "search_queries": [
+          "\"10.1016/j.tet.2026.135328\"",
+          "\"8-methoxybicolosin C\" cytotoxic",
+          "\"8-methoxybicolosin C\" IC50",
+          "\"10.1021/acs.jnatprod.9b00567\""
+        ],
+        "evidence": [
+          {
+            "url": "https://www.sciencedirect.com/science/article/pii/S0040402026001985",
+            "kind": "publisher_abstract_and_new_source_attempt",
+            "finding": "Indexed abstract describes nine-step synthesis from known iodochromone. Direct open HTTP403; stopped. No full original/SI acquired."
+          },
+          {
+            "url": "https://park.itc.u-tokyo.ac.jp/org-chem/",
+            "kind": "author_institution_directory_reviewed",
+            "finding": "Author lab lists exact title/DOI and links to ScienceDirect, without a local manuscript link in reviewed item."
+          },
+          {
+            "url": "https://www.jsbba.or.jp/MeetingofJSBBA/2025/MeetingofJSBBA2025.pdf",
+            "kind": "author_conference_abstract_search_index",
+            "finding": "Same synthetic authors abstract5B051 expressly identifies natural target antiproliferative activity against leukemia cells and cites JNP2019,82,3025-3032. Conference summary cannot replace 2026 complete experimental article."
+          },
+          {
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31675225/",
+            "kind": "primary_isolation_abstract_search_index",
+            "finding": "DOI10.1021/acs.jnatprod.9b00567 reports compounds1-9 antiproliferative against blood cancer cells; abstract does not map target name to a numerical IC50. No numerical target potency inferred."
+          },
+          {
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40825682/",
+            "kind": "primary_followup_abstract_search_index",
+            "finding": "Target-named 2025 study acknowledges earlier antiproliferation and investigates anti-inflammatory activity. Target-specific high-toxicity threshold not established."
+          }
+        ],
+        "full_article_route_coverage": false,
+        "available_si_preparation_network_covered": false
+      },
+      "reason": "No sufficient full source acquired."
+    },
+    {
+      "paper_id": "paper-ea35093e94671445",
+      "doi": "10.1055/a-2862-3959",
+      "title": "Development of a Concise Stereospecific Strategy for the Total Synthesis of Xestodecalactone A and (S)-Curvularin",
+      "prior_status": "source_missing_local",
+      "prior_policy": null,
+      "disposition": "risk_pending",
+      "current_review": {
+        "status": "risk_pending",
+        "reason": "Curvularin cytotoxicity is established, but exact correspondence of the tested material to current target (S)-curvularin was not independently confirmed. Retain pending; do not extrapolate to Xestodecalactone A.",
+        "risk_evidence": [
+          {
+            "url": "https://link.springer.com/article/10.1186/2193-1801-2-122",
+            "locator": "Abstract and cytotoxicity results, Table 1",
+            "finding": "The primary 2013 SpringerPlus study reports cytotoxicity of curvularin itself, separately from alpha,beta-dehydrocurvularin, in A549, HeLa, MDA-MB-231 and MCF-7. Curvularin is inactive against COLO205. The accessible text does not explicitly identify the S stereoisomer.",
+            "source_kind": "primary_research"
+          },
+          {
+            "url": "https://journals.sagepub.com/doi/pdf/10.1177/1934578X1501000735",
+            "locator": "PDF page 1 cytotoxicity paragraph; page 2 Curvularin (2)",
+            "finding": "2015 primary study reports curvularin (2) IC50 72.3 uM against MDA-MB-231, and optical rotation -46.7. It is obtained from the named 15S dehydro compound. This supports concern, but the structure drawing/stereochemical correspondence was not verified here.",
+            "source_kind": "primary_research"
+          }
+        ],
+        "source_conclusion": "Current synthesis source remains unavailable locally. Attempted Springer risk-study figure returned HTML, not a valid image; not accepted as source image. No exact stereochemical toxicity conclusion asserted.",
+        "paper_id": "paper-ea35093e94671445",
+        "doi": "10.1055/a-2862-3959",
+        "title": "Development of a Concise Stereospecific Strategy for the Total Synthesis of Xestodecalactone A and (S)-Curvularin",
+        "acquisition_cache_reviewed": "data/extraction/source_acquisition.json",
+        "local_source_artifacts": [],
+        "new_source_pdf_or_si_acquired": false,
+        "full_article_route_coverage": false,
+        "extraction_counts": {
+          "molecules": 0,
+          "events": 0,
+          "routes": 0
+        },
+        "search_urls": [
+          "https://doi.org/10.1055/a-2862-3959",
+          "https://www.researchgate.net/publication/404309881_Development_of_a_Concise_Stereospecific_Strategy_for_the_Total_Synthesis_of_Xestodecalactone_A_and_S-Curvularin"
+        ],
+        "search_queries": [
+          "10.1055/a-2862-3959",
+          "(S)-curvularin cytotoxicity primary",
+          "curvularin 2193-1801 rotation"
+        ]
+      },
+      "reason": "Curvularin cytotoxicity is established, but exact correspondence of the tested material to current target (S)-curvularin was not independently confirmed. Retain pending; do not extrapolate to Xestodecalactone A."
+    },
+    {
+      "paper_id": "paper-e5720ad30f145174",
+      "doi": "10.1002/anie.5101280",
+      "title": "Convergent Total Synthesis of 16β-Hydroxylpseudobufarenogin.",
+      "prior_status": "metadata_only",
+      "prior_policy": {
+        "reason": "Toad toxin family: detailed synthesis excluded from this batch.",
+        "reference": "https://pubchem.ncbi.nlm.nih.gov/compound/Pseudobufarenogin"
+      },
+      "disposition": "risk_excluded",
+      "reason": "Toad toxin family: detailed synthesis excluded from this batch.",
+      "review_method": "Existing source-specific or established toxic-family exclusion reviewed and retained; no contrary evidence established. No operational source acquisition attempted for already excluded targets.",
+      "evidence_reused": true
+    },
+    {
+      "paper_id": "paper-f30be710c4e097c3",
+      "doi": "10.1093/bbb/zbag055",
+      "title": "Concise synthesis of inonophenol A and B, phenolic metabolites from the cultivated edible mushroom Inonotus hispidus",
+      "prior_status": "pending_structure_transcription",
+      "prior_policy": null,
+      "disposition": "source_insufficient",
+      "current_review": {
+        "paper_id": "paper-f30be710c4e097c3",
+        "doi": "10.1093/bbb/zbag055",
+        "title": "Concise synthesis of inonophenol A and B, phenolic metabolites from the cultivated edible mushroom Inonotus hispidus",
+        "disposition": "source_insufficient",
+        "reason": "Local7-page SI contains NMR/names, without sufficient forward steps. Publisher article is4 pages860-863; no accessible full text found.",
+        "source_sufficient": false,
+        "extraction_performed": false,
+        "risk_status": "no_new_exclusion_established_not_zero_risk",
+        "evidence": [
+          {
+            "url": "https://academic.oup.com/bbb/article-abstract/90/7/860/8659312",
+            "finding": "Publisher access page, not original full text."
+          },
+          {
+            "url": "https://academic.oup.com/bbb/advance-article-pdf/doi/10.1093/bbb/zbag055/68116062/zbag055.pdf",
+            "finding": "Search-index PDF URL returned Get access HTML, not PDF; not registered as source."
+          },
+          {
+            "url": "https://dbs.nodai.ac.jp/html/100000863_en.html",
+            "finding": "Author institutional publication metadata only; no usable manuscript located."
+          }
+        ],
+        "search_method": "Exact DOI/title plus publisher and legitimate author/institutional availability review; previous failed acquisition cache retained, no login/paywall bypass.",
+        "full_article_route_coverage": false
+      },
+      "reason": "Local7-page SI contains NMR/names, without sufficient forward steps. Publisher article is4 pages860-863; no accessible full text found."
+    },
+    {
+      "paper_id": "paper-81b765e0f0c30805",
+      "doi": "10.1016/j.tet.2026.135292",
+      "title": "Stereoselective total synthesis of aigialomycin D",
+      "prior_status": "source_missing_local",
+      "prior_policy": null,
+      "disposition": "risk_excluded",
+      "current_review": {
+        "status": "risk_excluded",
+        "reason": "Current primary article explicitly reports target-specific cytotoxicity.",
+        "risk_evidence": [
+          {
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0040402026001626",
+            "locator": "Introduction, paragraph describing biological activity of aigialomycin D",
+            "finding": "The current primary synthesis paper reports cytotoxic IC50 3.0 and 18 ug/mL in KB and BC-1 cells. Units retained as ug/mL from the publisher text.",
+            "source_kind": "primary_research"
+          }
+        ],
+        "source_conclusion": "Publisher introduction available through search indexing; no local full article/SI. Sufficient target-specific risk metadata for conservative exclusion.",
+        "paper_id": "paper-81b765e0f0c30805",
+        "doi": "10.1016/j.tet.2026.135292",
+        "title": "Stereoselective total synthesis of aigialomycin D",
+        "acquisition_cache_reviewed": "data/extraction/source_acquisition.json",
+        "local_source_artifacts": [],
+        "new_source_pdf_or_si_acquired": false,
+        "full_article_route_coverage": false,
+        "extraction_counts": {
+          "molecules": 0,
+          "events": 0,
+          "routes": 0
+        },
+        "search_urls": [
+          "https://www.sciencedirect.com/science/article/abs/pii/S0040402026001626"
+        ],
+        "search_queries": [
+          "10.1016/j.tet.2026.135292",
+          "aigialomycin D cytotoxicity KB BC-1"
+        ]
+      },
+      "reason": "Current primary article explicitly reports target-specific cytotoxicity."
+    },
+    {
+      "paper_id": "paper-109387ec9e8fe2ca",
+      "doi": "10.1007/s11030-026-11542-1",
+      "title": "Total synthesis of pyridine-containing natural product Lycodine as well as its dimers and derivatives.",
+      "prior_status": "source_missing_local",
+      "prior_policy": null,
+      "disposition": "source_insufficient",
+      "current_review": {
+        "status": "scope_excluded_review",
+        "reason": "Publisher classifies this as Review, summarizing prior syntheses rather than a new experimental synthesis paper.",
+        "risk_evidence": [],
+        "scope_evidence": [
+          {
+            "url": "https://link.springer.com/article/10.1007/s11030-026-11542-1",
+            "locator": "Article type Review; publication date 12 April 2026; Abstract",
+            "finding": "The article reviews six research groups and lycodine dimers/derivatives. It is not a new experimental total synthesis report.",
+            "source_kind": "publisher_metadata"
+          }
+        ],
+        "source_conclusion": "Subscription preview available; classified outside new experimental extraction scope. This is not a toxicity exclusion.",
+        "paper_id": "paper-109387ec9e8fe2ca",
+        "doi": "10.1007/s11030-026-11542-1",
+        "title": "Total synthesis of pyridine-containing natural product Lycodine as well as its dimers and derivatives.",
+        "acquisition_cache_reviewed": "data/extraction/source_acquisition.json",
+        "local_source_artifacts": [],
+        "new_source_pdf_or_si_acquired": false,
+        "full_article_route_coverage": false,
+        "extraction_counts": {
+          "molecules": 0,
+          "events": 0,
+          "routes": 0
+        },
+        "search_urls": [
+          "https://link.springer.com/article/10.1007/s11030-026-11542-1",
+          "https://pubmed.ncbi.nlm.nih.gov/41966664/"
+        ],
+        "search_queries": [
+          "10.1007/s11030-026-11542-1"
+        ]
+      },
+      "reason": "This is a review article and only a subscription preview was obtained. No complete source-bound route available; review classification alone is not a blanket exclusion under the user collection scope.",
+      "root_scope_resolution": "Agent suggested review-only exclusion; root retains source-insufficient classification because the user did not categorically exclude synthesis reviews."
+    },
+    {
+      "paper_id": "paper-0eed3cdce7e1dffb",
+      "doi": "10.1021/jacs.6c00926",
+      "title": "Total Synthesis of Ussuriedine via a Late-Stage Stevens Rearrangement: Implications for Biosynthesis.",
+      "prior_status": "metadata_only",
+      "prior_policy": {
+        "reason": "Conservative user risk exclusion consistent with existing Veratrum-family policy; mainp1identifies Veratrum steroidal alkaloid. Not a compound-specific measured toxicity claim.",
+        "reference": "https://doi.org/10.1021/jacs.6c00926",
+        "reviewed_article_page": 1,
+        "batch_id": "twenty-papers-20260910"
+      },
+      "disposition": "risk_excluded",
+      "reason": "Conservative user risk exclusion consistent with existing Veratrum-family policy; mainp1identifies Veratrum steroidal alkaloid. Not a compound-specific measured toxicity claim.",
+      "review_method": "Existing source-specific or established toxic-family exclusion reviewed and retained; no contrary evidence established. No operational source acquisition attempted for already excluded targets.",
+      "evidence_reused": true
+    },
+    {
+      "paper_id": "paper-69176df93b22bc9b",
+      "doi": "10.5059/yukigoseikyokaishi.84.343",
+      "title": "Total Synthesis of the Broad-Spectrum Antibiotic Amycolamicin with a Unique Hybrid Ring Structure",
+      "prior_status": "source_missing_local",
+      "prior_policy": null,
+      "disposition": "source_insufficient",
+      "current_review": {
+        "paper_id": "paper-69176df93b22bc9b",
+        "doi": "10.5059/yukigoseikyokaishi.84.343",
+        "title": "Total Synthesis of the Broad-Spectrum Antibiotic Amycolamicin with a Unique Hybrid Ring Structure",
+        "disposition": "source_insufficient",
+        "reason": "Exact2026 review remains restricted access,12 pages343-354; publisher reports no supplementary material. Earlier2023 synthesis is a different paper and was not substituted.",
+        "source_sufficient": false,
+        "extraction_performed": false,
+        "risk_status": "no_new_exclusion_established_not_zero_risk",
+        "evidence": [
+          {
+            "url": "https://www.jstage.jst.go.jp/article/yukigoseikyokaishi/84/4/84_343/_article/-char/en",
+            "finding": "Publisher explicitly JOURNAL RESTRICTED ACCESS and Supplementary material(0). Previously observed PDF-login redirect not retried."
+          }
+        ],
+        "search_method": "Exact DOI/title plus publisher and legitimate author/institutional availability review; previous failed acquisition cache retained, no login/paywall bypass.",
+        "full_article_route_coverage": false
+      },
+      "reason": "Exact2026 review remains restricted access,12 pages343-354; publisher reports no supplementary material. Earlier2023 synthesis is a different paper and was not substituted."
+    },
+    {
+      "paper_id": "paper-5c63dd967a272b99",
+      "doi": "10.1016/j.fitote.2026.107205",
+      "title": "Total synthesis of Litcubanine A and comparative anti-inflammatory activity assessment of its derivatives.",
+      "prior_status": "source_missing_local",
+      "prior_policy": null,
+      "disposition": "risk_excluded",
+      "current_review": {
+        "status": "risk_excluded",
+        "reason": "Original primary study shows concentration-dependent target-specific cell proliferation inhibition and apoptosis. Conservative user exclusion; do not label generally high toxicity.",
+        "risk_evidence": [
+          {
+            "url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2021.685556/full",
+            "locator": "Results: Mechanism of Inhibition of LA Against NO Production In Vitro; Figure 3A/B",
+            "finding": "Litcubanine A below 10 uM showed no cytotoxicity in RAW264.7 cells; at 10 uM it inhibited proliferation and induced apoptosis. Novel Isoquinoline Alkaloid Litcubanine A - A Potential Anti-Inflammatory Candidate, 2021.",
+            "source_kind": "primary_research"
+          }
+        ],
+        "source_conclusion": "Current publisher abstract available; direct access returned 403, not retried. No local synthesis article/SI. Open original biological paper supplies exact-target risk evidence.",
+        "paper_id": "paper-5c63dd967a272b99",
+        "doi": "10.1016/j.fitote.2026.107205",
+        "title": "Total synthesis of Litcubanine A and comparative anti-inflammatory activity assessment of its derivatives.",
+        "acquisition_cache_reviewed": "data/extraction/source_acquisition.json",
+        "local_source_artifacts": [],
+        "new_source_pdf_or_si_acquired": false,
+        "full_article_route_coverage": false,
+        "extraction_counts": {
+          "molecules": 0,
+          "events": 0,
+          "routes": 0
+        },
+        "search_urls": [
+          "https://www.sciencedirect.com/science/article/pii/S0367326X26001243",
+          "https://pubmed.ncbi.nlm.nih.gov/41881084/"
+        ],
+        "search_queries": [
+          "10.1016/j.fitote.2026.107205",
+          "Litcubanine A cytotoxicity apoptosis"
+        ]
+      },
+      "reason": "Original primary study shows concentration-dependent target-specific cell proliferation inhibition and apoptosis. Conservative user exclusion; do not label generally high toxicity."
+    },
+    {
+      "paper_id": "paper-21f794fd715f38f9",
+      "doi": "10.1038/s41467-026-70735-2",
+      "title": "Concise synthesis of bufogargarizin B by a conformation-controlled skeletal reorganization approach",
+      "prior_status": "metadata_only",
+      "prior_policy": {
+        "reason": "Toad venom bufadienolide: detailed synthesis excluded from this batch.",
+        "reference": "https://www.nature.com/articles/s41467-026-70735-2"
+      },
+      "disposition": "risk_excluded",
+      "reason": "Toad venom bufadienolide: detailed synthesis excluded from this batch.",
+      "review_method": "Existing source-specific or established toxic-family exclusion reviewed and retained; no contrary evidence established. No operational source acquisition attempted for already excluded targets.",
+      "evidence_reused": true
+    },
+    {
+      "paper_id": "paper-a2dbfa39bd33e9f0",
+      "doi": "10.1080/00304948.2026.2636100",
+      "title": "Total Synthesis of Calothrixin B and a Novel Brominated Analog via C-H Activation and Heck Coupling",
+      "prior_status": "metadata_only",
+      "prior_policy": {
+        "reason": "User conservative risk exclusion: primary parent calothrixin B(CAB1) cell growth inhibition GI50 0.16 micromolar(MDA-MB231),0.26(MCF7),0.47(HeLa),0.65(HCT116), Table1. Compound-specific in-vitro evidence, not systemic toxicology.",
+        "reference": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6126808/",
+        "batch_id": "last-thirty-20260910",
+        "disposition": "excluded",
+        "review_evidence": {
+          "paper_id": "paper-a2dbfa39bd33e9f0",
+          "reason": "User conservative risk exclusion: primary parent calothrixin B(CAB1) cell growth inhibition GI50 0.16 micromolar(MDA-MB231),0.26(MCF7),0.47(HeLa),0.65(HCT116), Table1. Compound-specific in-vitro evidence, not systemic toxicology.",
+          "reference": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6126808/",
+          "evidence": {
+            "locator": "Table1 parent CAB1"
+          }
+        }
+      },
+      "disposition": "risk_excluded",
+      "reason": "User conservative risk exclusion: primary parent calothrixin B(CAB1) cell growth inhibition GI50 0.16 micromolar(MDA-MB231),0.26(MCF7),0.47(HeLa),0.65(HCT116), Table1. Compound-specific in-vitro evidence, not systemic toxicology.",
+      "review_method": "Existing source-specific or established toxic-family exclusion reviewed and retained; no contrary evidence established. No operational source acquisition attempted for already excluded targets.",
+      "evidence_reused": true
+    },
+    {
+      "paper_id": "paper-a078d08064d92edc",
+      "doi": "10.1016/j.tetlet.2026.156042",
+      "title": "Total synthesis and structure revision of (±)-chaetoxanthone D",
+      "prior_status": "source_missing_local",
+      "prior_policy": null,
+      "disposition": "source_insufficient",
+      "current_review": {
+        "status": "source_insufficient",
+        "reason": "No established target-specific risk found; current article and SI not legally obtained as complete local sources. Do not infer safety or import activity of chaetoxanthones A-C.",
+        "risk_evidence": [
+          {
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0040403926000845",
+            "locator": "Introduction",
+            "finding": "The current article says the 2015 report of chaetoxanthone D did not include bioactivity data. Activity discussed for A-C is not evidence for D.",
+            "source_kind": "primary_research"
+          }
+        ],
+        "source_conclusion": "Publisher snippets and author institutional publication list checked. Author page links only to DOI, no public full-text deposit. ResearchGate result requests full text. No complete article/SI or drawn preparative network available; no extraction generated.",
+        "paper_id": "paper-a078d08064d92edc",
+        "doi": "10.1016/j.tetlet.2026.156042",
+        "title": "Total synthesis and structure revision of (±)-chaetoxanthone D",
+        "acquisition_cache_reviewed": "data/extraction/source_acquisition.json",
+        "local_source_artifacts": [],
+        "new_source_pdf_or_si_acquired": false,
+        "full_article_route_coverage": false,
+        "extraction_counts": {
+          "molecules": 0,
+          "events": 0,
+          "routes": 0
+        },
+        "search_urls": [
+          "https://www.sciencedirect.com/science/article/abs/pii/S0040403926000845",
+          "https://www.lakeforest.edu/academics/faculty/gladen"
+        ],
+        "search_queries": [
+          "10.1016/j.tetlet.2026.156042",
+          "Total synthesis and structure revision chaetoxanthone D pdf",
+          "Paul T Gladen chaetoxanthone D"
+        ]
+      },
+      "reason": "No established target-specific risk found; current article and SI not legally obtained as complete local sources. Do not infer safety or import activity of chaetoxanthones A-C."
+    },
+    {
+      "paper_id": "paper-33961174824d586e",
+      "doi": "10.1002/anie.5526474",
+      "title": "Asymmetric Total Synthesis of (-)-Verrucarol.",
+      "prior_status": "metadata_only",
+      "prior_policy": {
+        "reason": "Trichothecene toxin precursor: bibliographic metadata only; no operational synthesis dataset.",
+        "reference": "https://pubmed.ncbi.nlm.nih.gov/41810558/"
+      },
+      "disposition": "risk_excluded",
+      "reason": "Trichothecene toxin precursor: bibliographic metadata only; no operational synthesis dataset.",
+      "review_method": "Existing source-specific or established toxic-family exclusion reviewed and retained; no contrary evidence established. No operational source acquisition attempted for already excluded targets.",
+      "evidence_reused": true
+    },
+    {
+      "paper_id": "paper-0676f93cf47b0d4b",
+      "doi": "10.1002/asia.70662",
+      "title": "Total Synthesis of Mansonone F and its Derivatives via Regioselective C-H Alkylation.",
+      "prior_status": "metadata_only",
+      "prior_policy": {
+        "reason": "User conservative risk exclusion: primary study reports mansonone F U937 cytotoxic IC50 3.0 micromolar after48h. Other tested cell lines13.3/30.5/29.4 micromolar; do not conflate with more potent mansonone E or claim systemic toxicity.",
+        "reference": "https://doi.org/10.1248/bpb.27.1025",
+        "batch_id": "last-thirty-20260910",
+        "disposition": "excluded",
+        "review_evidence": {
+          "paper_id": "paper-0676f93cf47b0d4b",
+          "reason": "User conservative risk exclusion: primary study reports mansonone F U937 cytotoxic IC50 3.0 micromolar after48h. Other tested cell lines13.3/30.5/29.4 micromolar; do not conflate with more potent mansonone E or claim systemic toxicity.",
+          "reference": "https://doi.org/10.1248/bpb.27.1025",
+          "evidence": {
+            "pages": [
+              2,
+              3
+            ],
+            "printed_pages": [
+              1026,
+              1027
+            ],
+            "sha256": "b57a3cd9ba6b301ba021cb0ab2762ca8a6c767f3ca316c4de15772202093146e",
+            "unit_verified_visually": "micromolar; PDF extraction misreads mu as m"
+          }
+        }
+      },
+      "disposition": "risk_excluded",
+      "reason": "User conservative risk exclusion: primary study reports mansonone F U937 cytotoxic IC50 3.0 micromolar after48h. Other tested cell lines13.3/30.5/29.4 micromolar; do not conflate with more potent mansonone E or claim systemic toxicity.",
+      "review_method": "Existing source-specific or established toxic-family exclusion reviewed and retained; no contrary evidence established. No operational source acquisition attempted for already excluded targets.",
+      "evidence_reused": true
+    },
+    {
+      "paper_id": "paper-970b7c35db8d8b3d",
+      "doi": "10.1021/jacsau.5c01709",
+      "title": "A Total Synthesis of (-)-Strychnine Using Photoredox Catalysis.",
+      "prior_status": "metadata_only",
+      "prior_policy": {
+        "reason": "Potent biotoxin: bibliographic metadata only; no operational synthesis dataset.",
+        "reference": "https://www.cdc.gov/niosh/ershdb/emergencyresponsecard_29750018.html"
+      },
+      "disposition": "risk_excluded",
+      "reason": "Potent biotoxin: bibliographic metadata only; no operational synthesis dataset.",
+      "review_method": "Existing source-specific or established toxic-family exclusion reviewed and retained; no contrary evidence established. No operational source acquisition attempted for already excluded targets.",
+      "evidence_reused": true
+    }
+  ],
+  "disposition_counts": {
+    "source_insufficient": 11,
+    "risk_excluded": 29,
+    "integrated_graph_candidate": 2,
+    "risk_pending": 2
+  },
+  "review_scope": {
+    "initial_unextracted_papers": 44,
+    "existing_risk_decisions_reviewed": 24,
+    "fresh_source_availability_reviews": 18,
+    "previous_task_blocks_reconsidered_under_narrowed_scope": 2,
+    "new_synthesis_source_pdfs_acquired": 0
+  },
+  "limitations": [
+    "No claim of zero risk; low/no cytotoxicity in a tested range is not general safety certification.",
+    "Two new candidates contain chemical structures/SMILES and directed step connections only; no experimental protocols or biological methods.",
+    "Prior automatic content-review history remains in policy scope_revisions; this is a materially narrowed extraction.",
+    "Review status and source absence are distinct from toxicological exclusion."
+  ],
+  "totals": {
+    "molecules": 58,
+    "reaction_events": 46,
+    "operation_steps": 46,
+    "routes": 18,
+    "unresolved_events": 3
+  },
+  "database_after": {
+    "papers": 133,
+    "molecules": 2975,
+    "paper_compounds": 2887,
+    "reaction_events": 2202,
+    "operation_steps": 2315,
+    "routes": 635
+  },
+  "database_delta": {
+    "papers": 0,
+    "molecules": 50,
+    "paper_compounds": 58,
+    "reaction_events": 46,
+    "operation_steps": 46,
+    "routes": 18
+  },
+  "validation": {
+    "cases_audited": 91,
+    "all_case_audit_passed": true,
+    "database_validation_passed": true,
+    "sdf_records_roundtripped": 58,
+    "restricted_scope_checks_passed": true,
+    "fact_case_tests_passed": 5,
+    "rdkit_version": "2026.03.6",
+    "independent_chemical_review": false,
+    "complete_stereo_training_admitted": 0
+  },
+  "current_database_statuses": {
+    "extracted_candidate_pending_review": 91,
+    "metadata_only": 31,
+    "pending_structure_transcription": 4,
+    "source_missing_local": 7
+  }
+}

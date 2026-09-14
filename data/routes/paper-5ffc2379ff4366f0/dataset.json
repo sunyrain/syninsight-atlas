@@ -1,0 +1,3099 @@
+{
+  "admission_authority": false,
+  "available_si_preparation_network_covered": false,
+  "conditions_fully_standardized": false,
+  "coverage_definition": "All displayed compounds in Schemes1-5, four fragment preparations, their union and both acetonide macrolactone products. Main manuscript only; unshown intermediates are operation stages and SI optimization is unavailable.",
+  "doi": "10.1021/jacs.5c22672",
+  "extraction_method": "source_drawing_checked_network_transcription",
+  "formal_benchmark_eligible": false,
+  "formula_checks": [],
+  "full_article_route_coverage": true,
+  "hrms_checks": [],
+  "issues": [
+    {
+      "detail": "No individual molecular nodes invented for compounds unshown between fragment endpoints; operations and their step-specific yields retained. SI unavailable, including optimization TableS3.",
+      "id": "coverage",
+      "severity": "coverage_gap",
+      "subject": "undrawn intermediates"
+    },
+    {
+      "detail": "5%isolated yield spans two deprotection steps fromABCD;91%is crude combined acetonide mixture and is not individual product yield.",
+      "id": "final-yield",
+      "severity": "source_conflict",
+      "subject": "iso-gladiolin-Me"
+    },
+    {
+      "detail": "Text mentions abandoned B(Epin) derivative, free hydroxy acid and TBAF ring-opening without displayed product structures; retained as unresolved, not invented.",
+      "id": "unmodeled-controls",
+      "severity": "coverage_gap",
+      "subject": "B(Epin)/ring-opening"
+    },
+    {
+      "detail": "Source-bound facts require independent chemist review.",
+      "id": "independent-review",
+      "severity": "review_pending",
+      "subject": "all"
+    }
+  ],
+  "molecules": [
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "CC(C)(C)[Si](C)(C)OCCCO",
+      "canonical_smiles": "CC(C)(C)[Si](C)(C)OCCCO",
+      "depiction": "structures/1.svg",
+      "exact_mass": 190.13890647399998,
+      "formal_benchmark_eligible": false,
+      "label": "1",
+      "molecular_formula": "C9H22O2Si",
+      "molecule_id": "mol-204081281a366cd212f52bbde14145af28fb436e2c685ce08aac7dca1661a4da",
+      "name": "SI compound 1",
+      "paper_label": "1",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: 1",
+          "pages": [
+            14
+          ],
+          "sha256": "11d46062844cd0e8bc8d38cccee2c69d89b0fc1432112f364758e1897fef34db",
+          "source_id": "article"
+        }
+      ],
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "C=CC[C@H](O)CCO[Si](C)(C)C(C)(C)C",
+      "canonical_smiles": "C=CC[C@H](O)CCO[Si](C)(C)C(C)(C)C",
+      "depiction": "structures/2.svg",
+      "exact_mass": 230.170206602,
+      "formal_benchmark_eligible": false,
+      "label": "2",
+      "molecular_formula": "C12H26O2Si",
+      "molecule_id": "mol-90ea6cbe05db257f151c9e1ae0db46c4bc2ce46d78994e99416e6af61ebde1b4",
+      "name": "SI compound 2",
+      "paper_label": "2",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: 2",
+          "pages": [
+            14
+          ],
+          "sha256": "11d46062844cd0e8bc8d38cccee2c69d89b0fc1432112f364758e1897fef34db",
+          "source_id": "article"
+        }
+      ],
+      "stereo_note": "94%ee major enantiomer; recycled catalyst trials91/90%ee.",
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "CO[C@@H](CCCC=O)CCO[Si](C)(C)C(C)(C)C",
+      "canonical_smiles": "CO[C@@H](CCCC=O)CCO[Si](C)(C)C(C)(C)C",
+      "depiction": "structures/A.svg",
+      "exact_mass": 274.19642135,
+      "formal_benchmark_eligible": false,
+      "label": "A",
+      "molecular_formula": "C14H30O3Si",
+      "molecule_id": "mol-58c1d4804c218cf75444c4fe4085f8efe34dbf0c532c7076194767bc8b1458c3",
+      "name": "SI compound A",
+      "paper_label": "A",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: A",
+          "pages": [
+            14
+          ],
+          "sha256": "11d46062844cd0e8bc8d38cccee2c69d89b0fc1432112f364758e1897fef34db",
+          "source_id": "article"
+        }
+      ],
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "CC(C)=CCC/C(C)=C/CO",
+      "canonical_smiles": "CC(C)=CCC/C(C)=C/CO",
+      "depiction": "structures/3.svg",
+      "exact_mass": 154.135765196,
+      "formal_benchmark_eligible": false,
+      "label": "3",
+      "molecular_formula": "C10H18O",
+      "molecule_id": "mol-b915af549f884274360fec912e074a189e23c53d0cdf62205cf5cfb76388ff49",
+      "name": "SI compound 3",
+      "paper_label": "3",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: 3",
+          "pages": [
+            14
+          ],
+          "sha256": "11d46062844cd0e8bc8d38cccee2c69d89b0fc1432112f364758e1897fef34db",
+          "source_id": "article"
+        }
+      ],
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "C=C[C@H](C)[C@H](O)/C=C(\\C)CCC=C(C)C",
+      "canonical_smiles": "C=C[C@H](C)[C@H](O)/C=C(\\C)CCC=C(C)C",
+      "depiction": "structures/4.svg",
+      "exact_mass": 208.182715388,
+      "formal_benchmark_eligible": false,
+      "label": "4",
+      "molecular_formula": "C14H24O",
+      "molecule_id": "mol-7b028d3a20045e0f85ac82e201ed2a34e6bdef2eda0ca0cc7018d3aa8aaa3cd1",
+      "name": "SI compound 4",
+      "paper_label": "4",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: 4",
+          "pages": [
+            14
+          ],
+          "sha256": "11d46062844cd0e8bc8d38cccee2c69d89b0fc1432112f364758e1897fef34db",
+          "source_id": "article"
+        }
+      ],
+      "stereo_note": "8:1dr,90%ee; source-drawn major diastereomer.",
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "CC(=O)[C@H](C)[C@@H](/C=C(\\C)CCC=C(C)C)O[Si](C)(C)C(C)(C)C",
+      "canonical_smiles": "CC(=O)[C@H](C)[C@@H](/C=C(\\C)CCC=C(C)C)O[Si](C)(C)C(C)(C)C",
+      "depiction": "structures/B.svg",
+      "exact_mass": 338.264106986,
+      "formal_benchmark_eligible": false,
+      "label": "B",
+      "molecular_formula": "C20H38O2Si",
+      "molecule_id": "mol-834a79129d95b1751f3efaeeac1424ee263614620124b1b0a053a367337a2827",
+      "name": "SI compound B",
+      "paper_label": "B",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: B",
+          "pages": [
+            14
+          ],
+          "sha256": "11d46062844cd0e8bc8d38cccee2c69d89b0fc1432112f364758e1897fef34db",
+          "source_id": "article"
+        }
+      ],
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "CC(C)=CCC[C@H](C)CCO",
+      "canonical_smiles": "CC(C)=CCC[C@H](C)CCO",
+      "depiction": "structures/5.svg",
+      "exact_mass": 156.15141526,
+      "formal_benchmark_eligible": false,
+      "label": "5",
+      "molecular_formula": "C10H20O",
+      "molecule_id": "mol-eed6de67a8e5e080e7946d412c7635cf96b0c64efe72e3b278e128dd620f5107",
+      "name": "SI compound 5",
+      "paper_label": "5",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: 5",
+          "pages": [
+            15
+          ],
+          "sha256": "11d46062844cd0e8bc8d38cccee2c69d89b0fc1432112f364758e1897fef34db",
+          "source_id": "article"
+        }
+      ],
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "COC(=O)CC[C@H](C)CCO",
+      "canonical_smiles": "COC(=O)CC[C@H](C)CCO",
+      "depiction": "structures/6.svg",
+      "exact_mass": 160.109944372,
+      "formal_benchmark_eligible": false,
+      "label": "6",
+      "molecular_formula": "C8H16O3",
+      "molecule_id": "mol-29281c6c12236199c68dd41bfbbd6ac176c834daceddb175ecd53680cf120d39",
+      "name": "SI compound 6",
+      "paper_label": "6",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: 6",
+          "pages": [
+            15
+          ],
+          "sha256": "11d46062844cd0e8bc8d38cccee2c69d89b0fc1432112f364758e1897fef34db",
+          "source_id": "article"
+        }
+      ],
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "C=CC[C@H](O)C[C@@H](C)CCC(=O)OC",
+      "canonical_smiles": "C=CC[C@H](O)C[C@@H](C)CCC(=O)OC",
+      "depiction": "structures/7.svg",
+      "exact_mass": 200.1412445,
+      "formal_benchmark_eligible": false,
+      "label": "7",
+      "molecular_formula": "C11H20O3",
+      "molecule_id": "mol-1aa86b31c3f70d17574cafdc82c4d55906459f1499878b543dbb5d0591148b6c",
+      "name": "SI compound 7",
+      "paper_label": "7",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: 7",
+          "pages": [
+            15
+          ],
+          "sha256": "11d46062844cd0e8bc8d38cccee2c69d89b0fc1432112f364758e1897fef34db",
+          "source_id": "article"
+        }
+      ],
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "COC(=O)CC[C@H](C)C[C@H](C/C=C/I)O[Si](C)(C)C(C)(C)C",
+      "canonical_smiles": "COC(=O)CC[C@H](C)C[C@H](C/C=C/I)O[Si](C)(C)C(C)(C)C",
+      "depiction": "structures/C.svg",
+      "exact_mass": 440.124369446,
+      "formal_benchmark_eligible": false,
+      "label": "C",
+      "molecular_formula": "C17H33IO3Si",
+      "molecule_id": "mol-dcb96fcb706ccc6f666ca3fcae174bf9813051e8fa18badb63e0403f06df98dc",
+      "name": "SI compound C",
+      "paper_label": "C",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: C",
+          "pages": [
+            15
+          ],
+          "sha256": "11d46062844cd0e8bc8d38cccee2c69d89b0fc1432112f364758e1897fef34db",
+          "source_id": "article"
+        }
+      ],
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "CCOC(=O)CCO",
+      "canonical_smiles": "CCOC(=O)CCO",
+      "depiction": "structures/8.svg",
+      "exact_mass": 118.06299418,
+      "formal_benchmark_eligible": false,
+      "label": "8",
+      "molecular_formula": "C5H10O3",
+      "molecule_id": "mol-81e2ae866a91a276e647bdf2c2cd2b98df4f147f1225ac146e5a2ba89e147d85",
+      "name": "SI compound 8",
+      "paper_label": "8",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: 8",
+          "pages": [
+            16
+          ],
+          "sha256": "11d46062844cd0e8bc8d38cccee2c69d89b0fc1432112f364758e1897fef34db",
+          "source_id": "article"
+        }
+      ],
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "C=C[C@H](C)[C@H](O)CC(=O)OCC",
+      "canonical_smiles": "C=C[C@H](C)[C@H](O)CC(=O)OCC",
+      "depiction": "structures/9.svg",
+      "exact_mass": 172.109944372,
+      "formal_benchmark_eligible": false,
+      "label": "9",
+      "molecular_formula": "C9H16O3",
+      "molecule_id": "mol-c76feb559cf8276ac4925fc5345ccfce75ffec575376611fb11ca8563b33219d",
+      "name": "SI compound 9",
+      "paper_label": "9",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: 9",
+          "pages": [
+            16
+          ],
+          "sha256": "11d46062844cd0e8bc8d38cccee2c69d89b0fc1432112f364758e1897fef34db",
+          "source_id": "article"
+        }
+      ],
+      "stereo_note": "5:1dr,92%ee,major stereoisomer.",
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "CCOC(=O)C[C@@H](OCc1ccc(OC)cc1)[C@@H](C)C(C)=O",
+      "canonical_smiles": "CCOC(=O)C[C@@H](OCc1ccc(OC)cc1)[C@@H](C)C(C)=O",
+      "depiction": "structures/10.svg",
+      "exact_mass": 308.162373868,
+      "formal_benchmark_eligible": false,
+      "label": "10",
+      "molecular_formula": "C17H24O5",
+      "molecule_id": "mol-b5646afcb7baf18581fe88be57da23ef6930af739441e3ea3da9f1182f219af1",
+      "name": "SI compound 10",
+      "paper_label": "10",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: 10",
+          "pages": [
+            16
+          ],
+          "sha256": "11d46062844cd0e8bc8d38cccee2c69d89b0fc1432112f364758e1897fef34db",
+          "source_id": "article"
+        }
+      ],
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "C=CC[C@H](C)C=O",
+      "canonical_smiles": "C=CC[C@H](C)C=O",
+      "depiction": "structures/S-2-methyl-4-pentenal.svg",
+      "exact_mass": 98.07316494,
+      "formal_benchmark_eligible": false,
+      "label": "S-2-methyl-4-pentenal",
+      "molecular_formula": "C6H10O",
+      "molecule_id": "mol-1d05d618d6482369ef3bf6978cc43dfcb7198df9d3778193e69744818ff23b16",
+      "name": "SI compound S-2-methyl-4-pentenal",
+      "paper_label": "S-2-methyl-4-pentenal",
+      "preparation_boundary": "Known aldehyde feed; synthesis cited.",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: S-2-methyl-4-pentenal",
+          "pages": [
+            16
+          ],
+          "sha256": "11d46062844cd0e8bc8d38cccee2c69d89b0fc1432112f364758e1897fef34db",
+          "source_id": "article"
+        }
+      ],
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "C=CC[C@H](C)[C@@H](O)CC(=O)[C@H](C)[C@@H](CC(=O)OCC)OCc1ccc(OC)cc1",
+      "canonical_smiles": "C=CC[C@H](C)[C@@H](O)CC(=O)[C@H](C)[C@@H](CC(=O)OCC)OCc1ccc(OC)cc1",
+      "depiction": "structures/11.svg",
+      "exact_mass": 406.23553880799994,
+      "formal_benchmark_eligible": false,
+      "label": "11",
+      "molecular_formula": "C23H34O6",
+      "molecule_id": "mol-878e7a79c4a95d45454a49f463f8e4f8eec8fa569d87880ba4febdb6c4ca4736",
+      "name": "SI compound 11",
+      "paper_label": "11",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: 11",
+          "pages": [
+            16
+          ],
+          "sha256": "11d46062844cd0e8bc8d38cccee2c69d89b0fc1432112f364758e1897fef34db",
+          "source_id": "article"
+        }
+      ],
+      "stereo_note": "10:1dr,major aldol product.",
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "C=CC[C@H](C)[C@@H]1C[C@H]([C@H](C)[C@H](O)CC(=O)OCC)OC(C)(C)O1",
+      "canonical_smiles": "C=CC[C@H](C)[C@@H]1C[C@H]([C@H](C)[C@H](O)CC(=O)OCC)OC(C)(C)O1",
+      "depiction": "structures/12.svg",
+      "exact_mass": 328.22497412399997,
+      "formal_benchmark_eligible": false,
+      "label": "12",
+      "molecular_formula": "C18H32O5",
+      "molecule_id": "mol-5abaf31c9d1ad0d192952bd51baa039aae1239b41077a488bc5f9e4858d63933",
+      "name": "SI compound 12",
+      "paper_label": "12",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: 12",
+          "pages": [
+            16
+          ],
+          "sha256": "11d46062844cd0e8bc8d38cccee2c69d89b0fc1432112f364758e1897fef34db",
+          "source_id": "article"
+        }
+      ],
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "C[C@@H]([C@H]1C[C@@H]([C@@H](C)C/C=C/B2OC(C)(C)C(C)(C)O2)OC(C)(C)O1)[C@@H](CC(=O)O)O[Si](C)(C)C(C)(C)C",
+      "canonical_smiles": "C[C@@H]([C@H]1C[C@@H]([C@@H](C)C/C=C/B2OC(C)(C)C(C)(C)O2)OC(C)(C)O1)[C@@H](CC(=O)O)O[Si](C)(C)C(C)(C)C",
+      "depiction": "structures/D.svg",
+      "exact_mass": 540.3653609659999,
+      "formal_benchmark_eligible": false,
+      "label": "D",
+      "molecular_formula": "C28H53BO7Si",
+      "molecule_id": "mol-f3abf6558021bc89076094c3d13d5f71a6451c5d7924807d6a4aeb938b8596c3",
+      "name": "SI compound D",
+      "paper_label": "D",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: D",
+          "pages": [
+            16
+          ],
+          "sha256": "11d46062844cd0e8bc8d38cccee2c69d89b0fc1432112f364758e1897fef34db",
+          "source_id": "article"
+        }
+      ],
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "CO[C@@H](CCC[C@@H](O)C[C@H](O)[C@H](C)[C@@H](/C=C(\\C)CCC=C(C)C)O[Si](C)(C)C(C)(C)C)CCO[Si](C)(C)C(C)(C)C",
+      "canonical_smiles": "CO[C@@H](CCC[C@@H](O)C[C@H](O)[C@H](C)[C@@H](/C=C(\\C)CCC=C(C)C)O[Si](C)(C)C(C)(C)C)CCO[Si](C)(C)C(C)(C)C",
+      "depiction": "structures/AB.svg",
+      "exact_mass": 614.4761784,
+      "formal_benchmark_eligible": false,
+      "label": "AB",
+      "molecular_formula": "C34H70O5Si2",
+      "molecule_id": "mol-cc6e737c828a0d9ae17a0de23bacc760f4c285181f5ede507b433fd6e892ad0c",
+      "name": "SI compound AB",
+      "paper_label": "AB",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: AB",
+          "pages": [
+            17
+          ],
+          "sha256": "11d46062844cd0e8bc8d38cccee2c69d89b0fc1432112f364758e1897fef34db",
+          "source_id": "article"
+        }
+      ],
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "CO[C@@H](CCC[C@H](C[C@H](O)[C@H](C)[C@@H](/C=C(\\C)CC/C=C/B1OC(C)(C)C(C)(C)O1)O[Si](C)(C)C(C)(C)C)O[Si](C)(C)C(C)(C)C)CCO[Si](C)(C)C(C)(C)C",
+      "canonical_smiles": "CO[C@@H](CCC[C@H](C[C@H](O)[C@H](C)[C@@H](/C=C(\\C)CC/C=C/B1OC(C)(C)C(C)(C)O1)O[Si](C)(C)C(C)(C)C)O[Si](C)(C)C(C)(C)C)CCO[Si](C)(C)C(C)(C)C",
+      "depiction": "structures/13.svg",
+      "exact_mass": 826.616565242,
+      "formal_benchmark_eligible": false,
+      "label": "13",
+      "molecular_formula": "C44H91BO7Si3",
+      "molecule_id": "mol-b38aa1cd79c33529965d861b4e834c9774f344c849e97a1fce47055a269528b7",
+      "name": "SI compound 13",
+      "paper_label": "13",
+      "preparation_status": "Crude vinyl boronate carried directly into Suzuki reaction.",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: 13",
+          "pages": [
+            17
+          ],
+          "sha256": "11d46062844cd0e8bc8d38cccee2c69d89b0fc1432112f364758e1897fef34db",
+          "source_id": "article"
+        }
+      ],
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "COC(=O)CC[C@H](C)C[C@H](C/C=C/C=C/CC/C(C)=C/[C@@H](O[Si](C)(C)C(C)(C)C)[C@@H](C)[C@@H](O)C[C@@H](CCC[C@@H](C/C=C\\I)OC)O[Si](C)(C)C(C)(C)C)O[Si](C)(C)C(C)(C)C",
+      "canonical_smiles": "COC(=O)CC[C@H](C)C[C@H](C/C=C/C=C/CC/C(C)=C/[C@@H](O[Si](C)(C)C(C)(C)C)[C@@H](C)[C@@H](O)C[C@@H](CCC[C@@H](C/C=C\\I)OC)O[Si](C)(C)C(C)(C)C)O[Si](C)(C)C(C)(C)C",
+      "depiction": "structures/ABC.svg",
+      "exact_mass": 1020.5586830340002,
+      "formal_benchmark_eligible": false,
+      "label": "ABC",
+      "molecular_formula": "C50H97IO7Si3",
+      "molecule_id": "mol-a0bfcecbb1b9639c0094085192f66e175a98abf3edbab1735f3691fcc2a839fc",
+      "name": "SI compound ABC",
+      "paper_label": "ABC",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: ABC",
+          "pages": [
+            17
+          ],
+          "sha256": "11d46062844cd0e8bc8d38cccee2c69d89b0fc1432112f364758e1897fef34db",
+          "source_id": "article"
+        }
+      ],
+      "stereo_note": "C12=C13 Z,>20:1Z:E; C28-C31 E,E.",
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "COC(=O)CC[C@H](C)C[C@H](C/C=C/C=C/CC/C(C)=C/[C@@H](O[Si](C)(C)C(C)(C)C)[C@@H](C)[C@@H]1C[C@H](O[Si](C)(C)C(C)(C)C)CCC[C@H](OC)C/C=C\\C=C\\C[C@H](C)[C@@H]2C[C@@H](OC(C)(C)O2)[C@H](C)[C@H](O[Si](C)(C)C(C)(C)C)CC(=O)O1)O[Si](C)(C)C(C)(C)C",
+      "canonical_smiles": "COC(=O)CC[C@H](C)C[C@H](C/C=C/C=C/CC/C(C)=C/[C@@H](O[Si](C)(C)C(C)(C)C)[C@@H](C)[C@@H]1C[C@H](O[Si](C)(C)C(C)(C)C)CCC[C@H](OC)C/C=C\\C=C\\C[C@H](C)[C@@H]2C[C@@H](OC(C)(C)O2)[C@H](C)[C@H](O[Si](C)(C)C(C)(C)C)CC(=O)O1)O[Si](C)(C)C(C)(C)C",
+      "depiction": "structures/ABCD.svg",
+      "exact_mass": 1288.9159712919998,
+      "formal_benchmark_eligible": false,
+      "label": "ABCD",
+      "molecular_formula": "C72H136O11Si4",
+      "molecule_id": "mol-94408b86b169b3c3a13a0432dafa436ade7be62a4152a8489f0da3f969629fa8",
+      "name": "SI compound ABCD",
+      "paper_label": "ABCD",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: ABCD",
+          "pages": [
+            18
+          ],
+          "sha256": "11d46062844cd0e8bc8d38cccee2c69d89b0fc1432112f364758e1897fef34db",
+          "source_id": "article"
+        }
+      ],
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "COC(=O)CC[C@H](C)C[C@@H](O)C/C=C/C=C/CC/C(C)=C/[C@@H](O)[C@@H](C)[C@@H]1C[C@H](O)CCC[C@H](OC)C/C=C\\C=C\\C[C@H](C)[C@@H]2C[C@@H](OC(C)(C)O2)[C@H](C)[C@H](O)CC(=O)O1",
+      "canonical_smiles": "COC(=O)CC[C@H](C)C[C@@H](O)C/C=C/C=C/CC/C(C)=C/[C@@H](O)[C@@H](C)[C@@H]1C[C@H](O)CCC[C@H](OC)C/C=C\\C=C\\C[C@H](C)[C@@H]2C[C@@H](OC(C)(C)O2)[C@H](C)[C@H](O)CC(=O)O1",
+      "depiction": "structures/acetonide-22-ring.svg",
+      "exact_mass": 832.5700633800001,
+      "formal_benchmark_eligible": false,
+      "label": "acetonide-22-ring",
+      "molecular_formula": "C48H80O11",
+      "molecule_id": "mol-12f47380d711469a02ad2462feeb789385aba54d55a2c85e8dad71d5fe9ccf9e",
+      "name": "SI compound acetonide-22-ring",
+      "paper_label": "acetonide-22-ring",
+      "preparation_status": "Inseparable crude mixture component;91%combined,ratio1:1.7.",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: acetonide-22-ring",
+          "pages": [
+            18
+          ],
+          "sha256": "11d46062844cd0e8bc8d38cccee2c69d89b0fc1432112f364758e1897fef34db",
+          "source_id": "article"
+        }
+      ],
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "COC(=O)CC[C@H](C)C[C@@H](O)C/C=C/C=C/CC/C(C)=C/[C@H]1OC(=O)C[C@@H](O)[C@@H](C)[C@H]2C[C@H](OC(C)(C)O2)[C@@H](C)C/C=C/C=C\\C[C@@H](OC)CCC[C@@H](O)C[C@H](O)[C@@H]1C",
+      "canonical_smiles": "COC(=O)CC[C@H](C)C[C@@H](O)C/C=C/C=C/CC/C(C)=C/[C@H]1OC(=O)C[C@@H](O)[C@@H](C)[C@H]2C[C@H](OC(C)(C)O2)[C@@H](C)C/C=C/C=C\\C[C@@H](OC)CCC[C@@H](O)C[C@H](O)[C@@H]1C",
+      "depiction": "structures/acetonide-24-ring.svg",
+      "exact_mass": 832.5700633799999,
+      "formal_benchmark_eligible": false,
+      "label": "acetonide-24-ring",
+      "molecular_formula": "C48H80O11",
+      "molecule_id": "mol-cd9f73aaf9bc8103c71e59764dd0fad78a57fe36afc86a0d197d885d8df42b41",
+      "name": "SI compound acetonide-24-ring",
+      "paper_label": "acetonide-24-ring",
+      "preparation_status": "Inseparable crude mixture major component;91%combined,ratio1:1.7.",
+      "review_status": "pending_independent_chemist_review",
+      "role": "route_compound",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: acetonide-24-ring",
+          "pages": [
+            18
+          ],
+          "sha256": "11d46062844cd0e8bc8d38cccee2c69d89b0fc1432112f364758e1897fef34db",
+          "source_id": "article"
+        }
+      ],
+      "structure_basis": "source_drawing_transcription"
+    },
+    {
+      "admission_authority": false,
+      "canonical_isomeric_smiles": "COC(=O)CC[C@H](C)C[C@@H](O)C/C=C/C=C/CC/C(C)=C/[C@H]1OC(=O)C[C@@H](O)[C@@H](C)[C@H](O)C[C@H](O)[C@@H](C)C/C=C/C=C\\C[C@@H](OC)CCC[C@@H](O)C[C@H](O)[C@@H]1C",
+      "canonical_smiles": "COC(=O)CC[C@H](C)C[C@@H](O)C/C=C/C=C/CC/C(C)=C/[C@H]1OC(=O)C[C@@H](O)[C@@H](C)[C@H](O)C[C@H](O)[C@@H](C)C/C=C/C=C\\C[C@@H](OC)CCC[C@@H](O)C[C@H](O)[C@@H]1C",
+      "depiction": "structures/iso-gladiolin-Me.svg",
+      "exact_mass": 792.5387632519999,
+      "formal_benchmark_eligible": false,
+      "label": "iso-gladiolin-Me",
+      "molecular_formula": "C45H76O11",
+      "molecule_id": "mol-3b6446dadd115fb336b8abe88529b809a3395cdda7f9ca902a059f6d6ea4b7c2",
+      "name": "SI compound iso-gladiolin-Me",
+      "paper_label": "iso-gladiolin-Me",
+      "review_status": "pending_independent_chemist_review",
+      "role": "target",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: iso-gladiolin-Me",
+          "pages": [
+            12,
+            18
+          ],
+          "sha256": "11d46062844cd0e8bc8d38cccee2c69d89b0fc1432112f364758e1897fef34db",
+          "source_id": "article"
+        }
+      ],
+      "structure_basis": "source_drawing_transcription"
+    }
+  ],
+  "observations": [
+    "Risk screen: primary gladiolin discovery study reports low ovarian-cell toxicity(IC50>100uM); no high-toxicity target signal found. No pathogen culture or biological production included. DOI10.1021/jacs.7b03382."
+  ],
+  "paper_id": "paper-5ffc2379ff4366f0",
+  "participants": [],
+  "reactions": [
+    {
+      "admission_authority": false,
+      "category": "forward_synthesis",
+      "event_id": "A01",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "product_labels": [
+        "2"
+      ],
+      "reactant_labels": [
+        "1"
+      ],
+      "reagents": [
+        "allyl acetate",
+        "(S)-Ir-SEGPHOS",
+        "3,4-dinitrobenzoic acid",
+        "K2CO3"
+      ],
+      "reported_yields": [
+        {
+          "from_label": "1",
+          "percent": 76,
+          "product_label": "2",
+          "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+        }
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "selectivity": "94%ee",
+      "solvents": [
+        "THF"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: A01",
+          "pages": [
+            14
+          ],
+          "sha256": "11d46062844cd0e8bc8d38cccee2c69d89b0fc1432112f364758e1897fef34db",
+          "source_id": "article"
+        }
+      ],
+      "step_ids": [
+        "A01.1"
+      ],
+      "substrate_product_smiles": "CC(C)(C)[Si](C)(C)OCCCO>>C=CC[C@H](O)CCO[Si](C)(C)C(C)(C)C"
+    },
+    {
+      "admission_authority": false,
+      "category": "forward_synthesis",
+      "event_id": "A01-recycle1",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "product_labels": [
+        "2"
+      ],
+      "reactant_labels": [
+        "1"
+      ],
+      "reagents": [
+        "recovered (S)-Ir-SEGPHOS",
+        "allyl acetate",
+        "3,4-dinitrobenzoic acid",
+        "K2CO3"
+      ],
+      "reported_yields": [
+        {
+          "from_label": "1",
+          "percent": 74,
+          "product_label": "2",
+          "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+        }
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "selectivity": "91%ee; catalyst recovery round1",
+      "solvents": [
+        "THF"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: A01-recycle1",
+          "pages": [
+            14
+          ],
+          "sha256": "11d46062844cd0e8bc8d38cccee2c69d89b0fc1432112f364758e1897fef34db",
+          "source_id": "article"
+        }
+      ],
+      "step_ids": [
+        "A01-recycle1.1"
+      ],
+      "substrate_product_smiles": "CC(C)(C)[Si](C)(C)OCCCO>>C=CC[C@H](O)CCO[Si](C)(C)C(C)(C)C"
+    },
+    {
+      "admission_authority": false,
+      "category": "forward_synthesis",
+      "event_id": "A01-recycle2",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "product_labels": [
+        "2"
+      ],
+      "reactant_labels": [
+        "1"
+      ],
+      "reagents": [
+        "recovered (S)-Ir-SEGPHOS",
+        "allyl acetate",
+        "3,4-dinitrobenzoic acid",
+        "K2CO3"
+      ],
+      "reported_yields": [
+        {
+          "from_label": "1",
+          "percent": 68,
+          "product_label": "2",
+          "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+        }
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "selectivity": "90%ee; catalyst recovery round2",
+      "solvents": [
+        "THF"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: A01-recycle2",
+          "pages": [
+            14
+          ],
+          "sha256": "11d46062844cd0e8bc8d38cccee2c69d89b0fc1432112f364758e1897fef34db",
+          "source_id": "article"
+        }
+      ],
+      "step_ids": [
+        "A01-recycle2.1"
+      ],
+      "substrate_product_smiles": "CC(C)(C)[Si](C)(C)OCCCO>>C=CC[C@H](O)CCO[Si](C)(C)C(C)(C)C"
+    },
+    {
+      "admission_authority": false,
+      "category": "forward_synthesis",
+      "event_id": "A02",
+      "experimental_stage_count": 2,
+      "formal_benchmark_eligible": false,
+      "operation_stages": [
+        {
+          "description": "O-methylation96%",
+          "stage": 1
+        },
+        {
+          "description": "Hydroformylation86%,>20:1linear:branched",
+          "stage": 2
+        }
+      ],
+      "product_labels": [
+        "A"
+      ],
+      "reactant_labels": [
+        "2"
+      ],
+      "reagents": [
+        "MeI",
+        "NaH",
+        "Rh(acac)(CO)2",
+        "BISBI",
+        "H2",
+        "CO"
+      ],
+      "reported_yields": [],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "THF",
+        "toluene"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: A02",
+          "pages": [
+            14
+          ],
+          "sha256": "11d46062844cd0e8bc8d38cccee2c69d89b0fc1432112f364758e1897fef34db",
+          "source_id": "article"
+        }
+      ],
+      "step_ids": [
+        "A02.1"
+      ],
+      "substrate_product_smiles": "C=CC[C@H](O)CCO[Si](C)(C)C(C)(C)C>>CO[C@@H](CCCC=O)CCO[Si](C)(C)C(C)(C)C",
+      "yield_scope": "Individual step yields; no combined yield reported"
+    },
+    {
+      "admission_authority": false,
+      "category": "forward_synthesis",
+      "event_id": "B01",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "product_labels": [
+        "4"
+      ],
+      "reactant_labels": [
+        "3"
+      ],
+      "reagents": [
+        "butadiene",
+        "RuHCl(CO)(PPh3)3",
+        "JOSIPHOS SL-J502-1",
+        "NaI"
+      ],
+      "reported_yields": [
+        {
+          "from_label": "3",
+          "percent": 90,
+          "product_label": "4",
+          "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+        }
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "selectivity": "8:1dr,90%ee",
+      "solvents": [
+        "MTBE"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: B01",
+          "pages": [
+            14
+          ],
+          "sha256": "11d46062844cd0e8bc8d38cccee2c69d89b0fc1432112f364758e1897fef34db",
+          "source_id": "article"
+        }
+      ],
+      "step_ids": [
+        "B01.1"
+      ],
+      "substrate_product_smiles": "CC(C)=CCC/C(C)=C/CO>>C=C[C@H](C)[C@H](O)/C=C(\\C)CCC=C(C)C"
+    },
+    {
+      "admission_authority": false,
+      "category": "forward_synthesis",
+      "event_id": "B02",
+      "experimental_stage_count": 2,
+      "formal_benchmark_eligible": false,
+      "operation_stages": [
+        {
+          "description": "TBS protection92%",
+          "stage": 1
+        },
+        {
+          "description": "Wacker oxidation65%,>20:1regioselectivity",
+          "stage": 2
+        }
+      ],
+      "product_labels": [
+        "B"
+      ],
+      "reactant_labels": [
+        "4"
+      ],
+      "reagents": [
+        "TBSCl",
+        "DMAP",
+        "imidazole",
+        "PdCl2",
+        "CuCl",
+        "O2"
+      ],
+      "reported_yields": [],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "DCM",
+        "DMF",
+        "pH7buffer"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: B02",
+          "pages": [
+            14
+          ],
+          "sha256": "11d46062844cd0e8bc8d38cccee2c69d89b0fc1432112f364758e1897fef34db",
+          "source_id": "article"
+        }
+      ],
+      "step_ids": [
+        "B02.1"
+      ],
+      "substrate_product_smiles": "C=C[C@H](C)[C@H](O)/C=C(\\C)CCC=C(C)C>>CC(=O)[C@H](C)[C@@H](/C=C(\\C)CCC=C(C)C)O[Si](C)(C)C(C)(C)C",
+      "yield_scope": "Individual step yields"
+    },
+    {
+      "admission_authority": false,
+      "category": "forward_synthesis",
+      "event_id": "C01",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "product_labels": [
+        "6"
+      ],
+      "reactant_labels": [
+        "5"
+      ],
+      "reagents": [
+        "O3",
+        "NaOH"
+      ],
+      "reported_yields": [
+        {
+          "from_label": "5",
+          "percent": 74,
+          "product_label": "6",
+          "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+        }
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "MeOH",
+        "DCM"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: C01",
+          "pages": [
+            15
+          ],
+          "sha256": "11d46062844cd0e8bc8d38cccee2c69d89b0fc1432112f364758e1897fef34db",
+          "source_id": "article"
+        }
+      ],
+      "step_ids": [
+        "C01.1"
+      ],
+      "substrate_product_smiles": "CC(C)=CCC[C@H](C)CCO>>COC(=O)CC[C@H](C)CCO"
+    },
+    {
+      "admission_authority": false,
+      "category": "forward_synthesis",
+      "event_id": "C02",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "product_labels": [
+        "7"
+      ],
+      "reactant_labels": [
+        "6"
+      ],
+      "reagents": [
+        "allyl acetate",
+        "(S)-Ir-SEGPHOS",
+        "3,4-dinitrobenzoic acid",
+        "Cs2CO3"
+      ],
+      "reported_yields": [
+        {
+          "from_label": "6",
+          "percent": 75,
+          "product_label": "7",
+          "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+        }
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "selectivity": ">20:1dr",
+      "solvents": [
+        "THF"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: C02",
+          "pages": [
+            15
+          ],
+          "sha256": "11d46062844cd0e8bc8d38cccee2c69d89b0fc1432112f364758e1897fef34db",
+          "source_id": "article"
+        }
+      ],
+      "step_ids": [
+        "C02.1"
+      ],
+      "substrate_product_smiles": "COC(=O)CC[C@H](C)CCO>>C=CC[C@H](O)C[C@@H](C)CCC(=O)OC"
+    },
+    {
+      "admission_authority": false,
+      "category": "forward_synthesis",
+      "event_id": "C03",
+      "experimental_stage_count": 3,
+      "formal_benchmark_eligible": false,
+      "operation_stages": [
+        {
+          "description": "TBS protection95%",
+          "stage": 1
+        },
+        {
+          "description": "Cross-metathesis70%",
+          "stage": 2
+        },
+        {
+          "description": "Iododeboronation70%",
+          "stage": 3
+        }
+      ],
+      "product_labels": [
+        "C"
+      ],
+      "reactant_labels": [
+        "7"
+      ],
+      "reagents": [
+        "TBSCl",
+        "DMAP",
+        "imidazole",
+        "HG-II",
+        "vinyl Bpin",
+        "ICl",
+        "NaOMe"
+      ],
+      "reported_yields": [],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "DCM",
+        "DCE",
+        "THF"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: C03",
+          "pages": [
+            15
+          ],
+          "sha256": "11d46062844cd0e8bc8d38cccee2c69d89b0fc1432112f364758e1897fef34db",
+          "source_id": "article"
+        }
+      ],
+      "step_ids": [
+        "C03.1"
+      ],
+      "substrate_product_smiles": "C=CC[C@H](O)C[C@@H](C)CCC(=O)OC>>COC(=O)CC[C@H](C)C[C@H](C/C=C/I)O[Si](C)(C)C(C)(C)C",
+      "yield_scope": "Individual step yields"
+    },
+    {
+      "admission_authority": false,
+      "category": "forward_synthesis",
+      "event_id": "D01",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "product_labels": [
+        "9"
+      ],
+      "reactant_labels": [
+        "8"
+      ],
+      "reagents": [
+        "butadiene",
+        "Ru(eta3-C3H5)(CO)3",
+        "JOSIPHOS SL-J502-1",
+        "TFE"
+      ],
+      "reported_yields": [
+        {
+          "from_label": "8",
+          "percent": 81,
+          "product_label": "9",
+          "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+        }
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "selectivity": "5:1dr,92%ee",
+      "solvents": [
+        "MTBE"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: D01",
+          "pages": [
+            16
+          ],
+          "sha256": "11d46062844cd0e8bc8d38cccee2c69d89b0fc1432112f364758e1897fef34db",
+          "source_id": "article"
+        }
+      ],
+      "step_ids": [
+        "D01.1"
+      ],
+      "substrate_product_smiles": "CCOC(=O)CCO>>C=C[C@H](C)[C@H](O)CC(=O)OCC"
+    },
+    {
+      "admission_authority": false,
+      "category": "forward_synthesis",
+      "event_id": "D02",
+      "experimental_stage_count": 2,
+      "formal_benchmark_eligible": false,
+      "operation_stages": [
+        {
+          "description": "PMB protection85%",
+          "stage": 1
+        },
+        {
+          "description": "Wacker oxidation95%",
+          "stage": 2
+        }
+      ],
+      "product_labels": [
+        "10"
+      ],
+      "reactant_labels": [
+        "9"
+      ],
+      "reagents": [
+        "PMB trichloroacetimidate",
+        "Sc(OTf)3",
+        "O2",
+        "PdCl2",
+        "CuCl"
+      ],
+      "reported_yields": [],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "toluene",
+        "DMF",
+        "water"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: D02",
+          "pages": [
+            16
+          ],
+          "sha256": "11d46062844cd0e8bc8d38cccee2c69d89b0fc1432112f364758e1897fef34db",
+          "source_id": "article"
+        }
+      ],
+      "step_ids": [
+        "D02.1"
+      ],
+      "substrate_product_smiles": "C=C[C@H](C)[C@H](O)CC(=O)OCC>>CCOC(=O)C[C@@H](OCc1ccc(OC)cc1)[C@@H](C)C(C)=O",
+      "yield_scope": "Individual step yields"
+    },
+    {
+      "admission_authority": false,
+      "category": "forward_synthesis",
+      "event_id": "D03",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "product_labels": [
+        "11"
+      ],
+      "reactant_labels": [
+        "10",
+        "S-2-methyl-4-pentenal"
+      ],
+      "reagents": [
+        "Cy2BCl",
+        "Et3N"
+      ],
+      "reported_yields": [
+        {
+          "from_label": "10",
+          "percent": 72,
+          "product_label": "11",
+          "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+        }
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "selectivity": "10:1dr",
+      "solvents": [
+        "Et2O"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: D03",
+          "pages": [
+            16
+          ],
+          "sha256": "11d46062844cd0e8bc8d38cccee2c69d89b0fc1432112f364758e1897fef34db",
+          "source_id": "article"
+        }
+      ],
+      "step_ids": [
+        "D03.1"
+      ],
+      "substrate_product_smiles": "C=CC[C@H](C)C=O.CCOC(=O)C[C@@H](OCc1ccc(OC)cc1)[C@@H](C)C(C)=O>>C=CC[C@H](C)[C@@H](O)CC(=O)[C@H](C)[C@@H](CC(=O)OCC)OCc1ccc(OC)cc1"
+    },
+    {
+      "admission_authority": false,
+      "category": "forward_synthesis",
+      "event_id": "D04",
+      "experimental_stage_count": 3,
+      "formal_benchmark_eligible": false,
+      "operation_stages": [
+        {
+          "description": "Hydroxy-directed reduction78%,12:1dr",
+          "stage": 1
+        },
+        {
+          "description": "Acetonide79%",
+          "stage": 2
+        },
+        {
+          "description": "PMB removal81%",
+          "stage": 3
+        }
+      ],
+      "product_labels": [
+        "12"
+      ],
+      "reactant_labels": [
+        "11"
+      ],
+      "reagents": [
+        "Et2B(OMe)",
+        "NaBH4",
+        "PPTS",
+        "2,2-dimethoxypropane",
+        "DDQ"
+      ],
+      "reported_yields": [],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "THF",
+        "MeOH",
+        "DCM",
+        "pH7buffer"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: D04",
+          "pages": [
+            16
+          ],
+          "sha256": "11d46062844cd0e8bc8d38cccee2c69d89b0fc1432112f364758e1897fef34db",
+          "source_id": "article"
+        }
+      ],
+      "step_ids": [
+        "D04.1"
+      ],
+      "substrate_product_smiles": "C=CC[C@H](C)[C@@H](O)CC(=O)[C@H](C)[C@@H](CC(=O)OCC)OCc1ccc(OC)cc1>>C=CC[C@H](C)[C@@H]1C[C@H]([C@H](C)[C@H](O)CC(=O)OCC)OC(C)(C)O1",
+      "yield_scope": "Individual step yields"
+    },
+    {
+      "admission_authority": false,
+      "category": "forward_synthesis",
+      "event_id": "D05",
+      "experimental_stage_count": 3,
+      "formal_benchmark_eligible": false,
+      "operation_stages": [
+        {
+          "description": "TBS protection92%",
+          "stage": 1
+        },
+        {
+          "description": "Saponification89%",
+          "stage": 2
+        },
+        {
+          "description": "Cross-metathesis79%",
+          "stage": 3
+        }
+      ],
+      "product_labels": [
+        "D"
+      ],
+      "reactant_labels": [
+        "12"
+      ],
+      "reagents": [
+        "TBSCl",
+        "DMAP",
+        "imidazole",
+        "LiOH.H2O",
+        "Grubbs-I",
+        "vinyl Bpin"
+      ],
+      "reported_yields": [],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "DMF",
+        "THF",
+        "MeOH",
+        "water",
+        "DCM"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: D05",
+          "pages": [
+            16
+          ],
+          "sha256": "11d46062844cd0e8bc8d38cccee2c69d89b0fc1432112f364758e1897fef34db",
+          "source_id": "article"
+        }
+      ],
+      "step_ids": [
+        "D05.1"
+      ],
+      "substrate_product_smiles": "C=CC[C@H](C)[C@@H]1C[C@H]([C@H](C)[C@H](O)CC(=O)OCC)OC(C)(C)O1>>C[C@@H]([C@H]1C[C@@H]([C@@H](C)C/C=C/B2OC(C)(C)C(C)(C)O2)OC(C)(C)O1)[C@@H](CC(=O)O)O[Si](C)(C)C(C)(C)C",
+      "yield_scope": "Individual step yields"
+    },
+    {
+      "admission_authority": false,
+      "category": "forward_synthesis",
+      "event_id": "U01",
+      "experimental_stage_count": 2,
+      "formal_benchmark_eligible": false,
+      "operation_stages": [
+        {
+          "description": "Boron-mediated aldol68%,>20:1dr",
+          "stage": 1
+        },
+        {
+          "description": "Ketone reduction82%",
+          "stage": 2
+        }
+      ],
+      "product_labels": [
+        "AB"
+      ],
+      "reactant_labels": [
+        "A",
+        "B"
+      ],
+      "reagents": [
+        "(+)-DIPCl",
+        "Et3N",
+        "Me4NBH(OAc)3"
+      ],
+      "reported_yields": [],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "Et2O",
+        "MeCN",
+        "THF",
+        "AcOH"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: U01",
+          "pages": [
+            17
+          ],
+          "sha256": "11d46062844cd0e8bc8d38cccee2c69d89b0fc1432112f364758e1897fef34db",
+          "source_id": "article"
+        }
+      ],
+      "step_ids": [
+        "U01.1"
+      ],
+      "substrate_product_smiles": "CC(=O)[C@H](C)[C@@H](/C=C(\\C)CCC=C(C)C)O[Si](C)(C)C(C)(C)C.CO[C@@H](CCCC=O)CCO[Si](C)(C)C(C)(C)C>>CO[C@@H](CCC[C@@H](O)C[C@H](O)[C@H](C)[C@@H](/C=C(\\C)CCC=C(C)C)O[Si](C)(C)C(C)(C)C)CCO[Si](C)(C)C(C)(C)C",
+      "yield_scope": "Individual step yields"
+    },
+    {
+      "admission_authority": false,
+      "category": "forward_synthesis",
+      "event_id": "U02",
+      "experimental_stage_count": 3,
+      "formal_benchmark_eligible": false,
+      "operation_stages": [
+        {
+          "description": "Selective C19 TBS protection76%BRSM",
+          "stage": 1
+        },
+        {
+          "description": "Ozonolysis76%",
+          "stage": 2
+        },
+        {
+          "description": "Boron-Wittig,crude,individual yield absent",
+          "stage": 3
+        }
+      ],
+      "product_labels": [
+        "13"
+      ],
+      "reactant_labels": [
+        "AB"
+      ],
+      "reagents": [
+        "TBSCl",
+        "imidazole",
+        "O3",
+        "pyridine",
+        "LiTMP",
+        "bis(pinacolboryl)methane"
+      ],
+      "reported_yields": [],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "DCM",
+        "THF"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: U02",
+          "pages": [
+            17
+          ],
+          "sha256": "11d46062844cd0e8bc8d38cccee2c69d89b0fc1432112f364758e1897fef34db",
+          "source_id": "article"
+        }
+      ],
+      "step_ids": [
+        "U02.1"
+      ],
+      "substrate_product_smiles": "CO[C@@H](CCC[C@@H](O)C[C@H](O)[C@H](C)[C@@H](/C=C(\\C)CCC=C(C)C)O[Si](C)(C)C(C)(C)C)CCO[Si](C)(C)C(C)(C)C>>CO[C@@H](CCC[C@H](C[C@H](O)[C@H](C)[C@@H](/C=C(\\C)CC/C=C/B1OC(C)(C)C(C)(C)O1)O[Si](C)(C)C(C)(C)C)O[Si](C)(C)C(C)(C)C)CCO[Si](C)(C)C(C)(C)C",
+      "yield_scope": "Boron-Wittig/Suzuki combined70%reported under next arrow"
+    },
+    {
+      "admission_authority": false,
+      "category": "forward_synthesis",
+      "event_id": "U03",
+      "experimental_stage_count": 4,
+      "formal_benchmark_eligible": false,
+      "operation_stages": [
+        {
+          "description": "Suzuki70%over2steps including preceding boron-Wittig",
+          "stage": 1
+        },
+        {
+          "description": "Primary TBS cleavage70%",
+          "stage": 2
+        },
+        {
+          "description": "Alcohol oxidation80%",
+          "stage": 3
+        },
+        {
+          "description": "Stork-Zhao-Wittig65%,>20:1Z:E",
+          "stage": 4
+        }
+      ],
+      "product_labels": [
+        "ABC"
+      ],
+      "reactant_labels": [
+        "13",
+        "C"
+      ],
+      "reagents": [
+        "Pd(dppf)Cl2",
+        "Ba(OH)2.8H2O",
+        "HF.pyridine",
+        "TEMPO",
+        "BAIB",
+        "[PPh3CH2I]I",
+        "NaHMDS"
+      ],
+      "reported_yields": [],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "DMF",
+        "THF",
+        "DCM",
+        "DMPU"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: U03",
+          "pages": [
+            17
+          ],
+          "sha256": "11d46062844cd0e8bc8d38cccee2c69d89b0fc1432112f364758e1897fef34db",
+          "source_id": "article"
+        }
+      ],
+      "step_ids": [
+        "U03.1"
+      ],
+      "substrate_product_smiles": "COC(=O)CC[C@H](C)C[C@H](C/C=C/I)O[Si](C)(C)C(C)(C)C.CO[C@@H](CCC[C@H](C[C@H](O)[C@H](C)[C@@H](/C=C(\\C)CC/C=C/B1OC(C)(C)C(C)(C)O1)O[Si](C)(C)C(C)(C)C)O[Si](C)(C)C(C)(C)C)CCO[Si](C)(C)C(C)(C)C>>COC(=O)CC[C@H](C)C[C@H](C/C=C/C=C/CC/C(C)=C/[C@@H](O[Si](C)(C)C(C)(C)C)[C@@H](C)[C@@H](O)C[C@@H](CCC[C@@H](C/C=C\\I)OC)O[Si](C)(C)C(C)(C)C)O[Si](C)(C)C(C)(C)C",
+      "yield_scope": "Individual stage yields except70%shared with preceding event final operation; not whole event yield"
+    },
+    {
+      "admission_authority": false,
+      "category": "forward_synthesis",
+      "event_id": "U04",
+      "experimental_stage_count": 2,
+      "formal_benchmark_eligible": false,
+      "operation_stages": [
+        {
+          "description": "Suzuki60%",
+          "stage": 1
+        },
+        {
+          "description": "Yamaguchi-Yonemitsu macrolactonization50%",
+          "stage": 2
+        }
+      ],
+      "product_labels": [
+        "ABCD"
+      ],
+      "reactant_labels": [
+        "ABC",
+        "D"
+      ],
+      "reagents": [
+        "Pd(dppf)Cl2",
+        "Cs2CO3",
+        "2,4,6-trichlorobenzoyl chloride",
+        "Et3N",
+        "DMAP"
+      ],
+      "reported_yields": [],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "water",
+        "DMF",
+        "THF",
+        "toluene"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: U04",
+          "pages": [
+            18
+          ],
+          "sha256": "11d46062844cd0e8bc8d38cccee2c69d89b0fc1432112f364758e1897fef34db",
+          "source_id": "article"
+        }
+      ],
+      "step_ids": [
+        "U04.1"
+      ],
+      "substrate_product_smiles": "COC(=O)CC[C@H](C)C[C@H](C/C=C/C=C/CC/C(C)=C/[C@@H](O[Si](C)(C)C(C)(C)C)[C@@H](C)[C@@H](O)C[C@@H](CCC[C@@H](C/C=C\\I)OC)O[Si](C)(C)C(C)(C)C)O[Si](C)(C)C(C)(C)C.C[C@@H]([C@H]1C[C@@H]([C@@H](C)C/C=C/B2OC(C)(C)C(C)(C)O2)OC(C)(C)O1)[C@@H](CC(=O)O)O[Si](C)(C)C(C)(C)C>>COC(=O)CC[C@H](C)C[C@H](C/C=C/C=C/CC/C(C)=C/[C@@H](O[Si](C)(C)C(C)(C)C)[C@@H](C)[C@@H]1C[C@H](O[Si](C)(C)C(C)(C)C)CCC[C@H](OC)C/C=C\\C=C\\C[C@H](C)[C@@H]2C[C@@H](OC(C)(C)O2)[C@H](C)[C@H](O[Si](C)(C)C(C)(C)C)CC(=O)O1)O[Si](C)(C)C(C)(C)C",
+      "yield_scope": "Individual step yields"
+    },
+    {
+      "admission_authority": false,
+      "category": "forward_synthesis",
+      "combined_yield_percent": 91,
+      "event_id": "U05",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "product_labels": [
+        "acetonide-22-ring",
+        "acetonide-24-ring"
+      ],
+      "reactant_labels": [
+        "ABCD"
+      ],
+      "reagents": [
+        "HF.pyridine"
+      ],
+      "reported_yields": [],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "pyridine",
+        "MeCN"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: U05",
+          "pages": [
+            18
+          ],
+          "sha256": "11d46062844cd0e8bc8d38cccee2c69d89b0fc1432112f364758e1897fef34db",
+          "source_id": "article"
+        }
+      ],
+      "step_ids": [
+        "U05.1"
+      ],
+      "substrate_product_smiles": "COC(=O)CC[C@H](C)C[C@H](C/C=C/C=C/CC/C(C)=C/[C@@H](O[Si](C)(C)C(C)(C)C)[C@@H](C)[C@@H]1C[C@H](O[Si](C)(C)C(C)(C)C)CCC[C@H](OC)C/C=C\\C=C\\C[C@H](C)[C@@H]2C[C@@H](OC(C)(C)O2)[C@H](C)[C@H](O[Si](C)(C)C(C)(C)C)CC(=O)O1)O[Si](C)(C)C(C)(C)C>>COC(=O)CC[C@H](C)C[C@@H](O)C/C=C/C=C/CC/C(C)=C/[C@@H](O)[C@@H](C)[C@@H]1C[C@H](O)CCC[C@H](OC)C/C=C\\C=C\\C[C@H](C)[C@@H]2C[C@@H](OC(C)(C)O2)[C@H](C)[C@H](O)CC(=O)O1.COC(=O)CC[C@H](C)C[C@@H](O)C/C=C/C=C/CC/C(C)=C/[C@H]1OC(=O)C[C@@H](O)[C@@H](C)[C@H]2C[C@H](OC(C)(C)O2)[C@@H](C)C/C=C/C=C\\C[C@@H](OC)CCC[C@@H](O)C[C@H](O)[C@@H]1C",
+      "yield_scope": "Crude inseparable22:24ring1:1.7mixture,notisolatedindividualyields"
+    },
+    {
+      "admission_authority": false,
+      "category": "forward_synthesis",
+      "event_id": "U06",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "product_labels": [
+        "iso-gladiolin-Me"
+      ],
+      "reactant_labels": [
+        "acetonide-22-ring",
+        "acetonide-24-ring"
+      ],
+      "reagents": [
+        "AcOH"
+      ],
+      "reported_yields": [],
+      "review_status": "pending_independent_chemist_review",
+      "selectivity": "Additional translactonization; preparative HPLC isolated major iso-gladiolin methyl ester",
+      "sequence_yield_percent": 5,
+      "solvents": [
+        "water"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: U06",
+          "pages": [
+            18
+          ],
+          "sha256": "11d46062844cd0e8bc8d38cccee2c69d89b0fc1432112f364758e1897fef34db",
+          "source_id": "article"
+        }
+      ],
+      "step_ids": [
+        "U06.1"
+      ],
+      "substrate_product_smiles": "COC(=O)CC[C@H](C)C[C@@H](O)C/C=C/C=C/CC/C(C)=C/[C@@H](O)[C@@H](C)[C@@H]1C[C@H](O)CCC[C@H](OC)C/C=C\\C=C\\C[C@H](C)[C@@H]2C[C@@H](OC(C)(C)O2)[C@H](C)[C@H](O)CC(=O)O1.COC(=O)CC[C@H](C)C[C@@H](O)C/C=C/C=C/CC/C(C)=C/[C@H]1OC(=O)C[C@@H](O)[C@@H](C)[C@H]2C[C@H](OC(C)(C)O2)[C@@H](C)C/C=C/C=C\\C[C@@H](OC)CCC[C@@H](O)C[C@H](O)[C@@H]1C>>COC(=O)CC[C@H](C)C[C@@H](O)C/C=C/C=C/CC/C(C)=C/[C@H]1OC(=O)C[C@@H](O)[C@@H](C)[C@H](O)C[C@H](O)[C@@H](C)C/C=C/C=C\\C[C@@H](OC)CCC[C@@H](O)C[C@H](O)[C@@H]1C",
+      "yield_scope": "5%isolated fromABCD over U05+U06; no single-step yield"
+    }
+  ],
+  "report_heading": "Total Synthesis of iso -Gladiolin Methyl Ester (Lagriene Methyl Ester) via Catalytic Asymmetric C-C Coupling of Alcohols. — source-bound synthesis network",
+  "report_note": "All displayed compounds in Schemes1-5, four fragment preparations, their union and both acetonide macrolactone products. Main manuscript only; unshown intermediates are operation stages and SI optimization is unavailable. Facts compiled deterministically; independent review pending.",
+  "routes": [
+    {
+      "admission_authority": false,
+      "formal_benchmark_eligible": false,
+      "from_commercial_starting_materials_complete": false,
+      "full_article_route_coverage": true,
+      "molecule_smiles_sequence": [
+        "CC(C)(C)[Si](C)(C)OCCCO",
+        "C=CC[C@H](O)CCO[Si](C)(C)C(C)(C)C",
+        "CO[C@@H](CCCC=O)CCO[Si](C)(C)C(C)(C)C",
+        "CC(C)=CCC/C(C)=C/CO",
+        "C=C[C@H](C)[C@H](O)/C=C(\\C)CCC=C(C)C",
+        "CC(=O)[C@H](C)[C@@H](/C=C(\\C)CCC=C(C)C)O[Si](C)(C)C(C)(C)C",
+        "CC(C)=CCC[C@H](C)CCO",
+        "COC(=O)CC[C@H](C)CCO",
+        "C=CC[C@H](O)C[C@@H](C)CCC(=O)OC",
+        "COC(=O)CC[C@H](C)C[C@H](C/C=C/I)O[Si](C)(C)C(C)(C)C",
+        "CCOC(=O)CCO",
+        "C=C[C@H](C)[C@H](O)CC(=O)OCC",
+        "CCOC(=O)C[C@@H](OCc1ccc(OC)cc1)[C@@H](C)C(C)=O",
+        "C=CC[C@H](C)C=O",
+        "C=CC[C@H](C)[C@@H](O)CC(=O)[C@H](C)[C@@H](CC(=O)OCC)OCc1ccc(OC)cc1",
+        "C=CC[C@H](C)[C@@H]1C[C@H]([C@H](C)[C@H](O)CC(=O)OCC)OC(C)(C)O1",
+        "C[C@@H]([C@H]1C[C@@H]([C@@H](C)C/C=C/B2OC(C)(C)C(C)(C)O2)OC(C)(C)O1)[C@@H](CC(=O)O)O[Si](C)(C)C(C)(C)C",
+        "CO[C@@H](CCC[C@@H](O)C[C@H](O)[C@H](C)[C@@H](/C=C(\\C)CCC=C(C)C)O[Si](C)(C)C(C)(C)C)CCO[Si](C)(C)C(C)(C)C",
+        "CO[C@@H](CCC[C@H](C[C@H](O)[C@H](C)[C@@H](/C=C(\\C)CC/C=C/B1OC(C)(C)C(C)(C)O1)O[Si](C)(C)C(C)(C)C)O[Si](C)(C)C(C)(C)C)CCO[Si](C)(C)C(C)(C)C",
+        "COC(=O)CC[C@H](C)C[C@H](C/C=C/C=C/CC/C(C)=C/[C@@H](O[Si](C)(C)C(C)(C)C)[C@@H](C)[C@@H](O)C[C@@H](CCC[C@@H](C/C=C\\I)OC)O[Si](C)(C)C(C)(C)C)O[Si](C)(C)C(C)(C)C",
+        "COC(=O)CC[C@H](C)C[C@H](C/C=C/C=C/CC/C(C)=C/[C@@H](O[Si](C)(C)C(C)(C)C)[C@@H](C)[C@@H]1C[C@H](O[Si](C)(C)C(C)(C)C)CCC[C@H](OC)C/C=C\\C=C\\C[C@H](C)[C@@H]2C[C@@H](OC(C)(C)O2)[C@H](C)[C@H](O[Si](C)(C)C(C)(C)C)CC(=O)O1)O[Si](C)(C)C(C)(C)C",
+        "COC(=O)CC[C@H](C)C[C@@H](O)C/C=C/C=C/CC/C(C)=C/[C@@H](O)[C@@H](C)[C@@H]1C[C@H](O)CCC[C@H](OC)C/C=C\\C=C\\C[C@H](C)[C@@H]2C[C@@H](OC(C)(C)O2)[C@H](C)[C@H](O)CC(=O)O1",
+        "COC(=O)CC[C@H](C)C[C@@H](O)C/C=C/C=C/CC/C(C)=C/[C@H]1OC(=O)C[C@@H](O)[C@@H](C)[C@H]2C[C@H](OC(C)(C)O2)[C@@H](C)C/C=C/C=C\\C[C@@H](OC)CCC[C@@H](O)C[C@H](O)[C@@H]1C",
+        "COC(=O)CC[C@H](C)C[C@@H](O)C/C=C/C=C/CC/C(C)=C/[C@H]1OC(=O)C[C@@H](O)[C@@H](C)[C@H](O)C[C@H](O)[C@@H](C)C/C=C/C=C\\C[C@@H](OC)CCC[C@@H](O)C[C@H](O)[C@@H]1C"
+      ],
+      "ordered_event_ids": [
+        "A01",
+        "A02",
+        "B01",
+        "B02",
+        "C01",
+        "C02",
+        "C03",
+        "D01",
+        "D02",
+        "D03",
+        "D04",
+        "D05",
+        "U01",
+        "U02",
+        "U03",
+        "U04",
+        "U05",
+        "U06"
+      ],
+      "ordered_molecule_labels": [
+        "1",
+        "2",
+        "A",
+        "3",
+        "4",
+        "B",
+        "5",
+        "6",
+        "7",
+        "C",
+        "8",
+        "9",
+        "10",
+        "S-2-methyl-4-pentenal",
+        "11",
+        "12",
+        "D",
+        "AB",
+        "13",
+        "ABC",
+        "ABCD",
+        "acetonide-22-ring",
+        "acetonide-24-ring",
+        "iso-gladiolin-Me"
+      ],
+      "ordered_step_ids": [
+        "A01.1",
+        "A02.1",
+        "B01.1",
+        "B02.1",
+        "C01.1",
+        "C02.1",
+        "C03.1",
+        "D01.1",
+        "D02.1",
+        "D03.1",
+        "D04.1",
+        "D05.1",
+        "U01.1",
+        "U02.1",
+        "U03.1",
+        "U04.1",
+        "U05.1",
+        "U06.1"
+      ],
+      "route_id": "iso-gladiolin methyl ester via four-fragment convergence",
+      "route_type": "source_bound_successful_synthesis",
+      "split_group": "10.1021/jacs.5c22672",
+      "start_label": "1",
+      "start_labels": [
+        "1",
+        "3",
+        "5",
+        "8",
+        "S-2-methyl-4-pentenal"
+      ],
+      "step_reaction_smiles_sequence": [
+        "CC(C)(C)[Si](C)(C)OCCCO>>C=CC[C@H](O)CCO[Si](C)(C)C(C)(C)C",
+        "C=CC[C@H](O)CCO[Si](C)(C)C(C)(C)C>>CO[C@@H](CCCC=O)CCO[Si](C)(C)C(C)(C)C",
+        "CC(C)=CCC/C(C)=C/CO>>C=C[C@H](C)[C@H](O)/C=C(\\C)CCC=C(C)C",
+        "C=C[C@H](C)[C@H](O)/C=C(\\C)CCC=C(C)C>>CC(=O)[C@H](C)[C@@H](/C=C(\\C)CCC=C(C)C)O[Si](C)(C)C(C)(C)C",
+        "CC(C)=CCC[C@H](C)CCO>>COC(=O)CC[C@H](C)CCO",
+        "COC(=O)CC[C@H](C)CCO>>C=CC[C@H](O)C[C@@H](C)CCC(=O)OC",
+        "C=CC[C@H](O)C[C@@H](C)CCC(=O)OC>>COC(=O)CC[C@H](C)C[C@H](C/C=C/I)O[Si](C)(C)C(C)(C)C",
+        "CCOC(=O)CCO>>C=C[C@H](C)[C@H](O)CC(=O)OCC",
+        "C=C[C@H](C)[C@H](O)CC(=O)OCC>>CCOC(=O)C[C@@H](OCc1ccc(OC)cc1)[C@@H](C)C(C)=O",
+        "C=CC[C@H](C)C=O.CCOC(=O)C[C@@H](OCc1ccc(OC)cc1)[C@@H](C)C(C)=O>>C=CC[C@H](C)[C@@H](O)CC(=O)[C@H](C)[C@@H](CC(=O)OCC)OCc1ccc(OC)cc1",
+        "C=CC[C@H](C)[C@@H](O)CC(=O)[C@H](C)[C@@H](CC(=O)OCC)OCc1ccc(OC)cc1>>C=CC[C@H](C)[C@@H]1C[C@H]([C@H](C)[C@H](O)CC(=O)OCC)OC(C)(C)O1",
+        "C=CC[C@H](C)[C@@H]1C[C@H]([C@H](C)[C@H](O)CC(=O)OCC)OC(C)(C)O1>>C[C@@H]([C@H]1C[C@@H]([C@@H](C)C/C=C/B2OC(C)(C)C(C)(C)O2)OC(C)(C)O1)[C@@H](CC(=O)O)O[Si](C)(C)C(C)(C)C",
+        "CC(=O)[C@H](C)[C@@H](/C=C(\\C)CCC=C(C)C)O[Si](C)(C)C(C)(C)C.CO[C@@H](CCCC=O)CCO[Si](C)(C)C(C)(C)C>>CO[C@@H](CCC[C@@H](O)C[C@H](O)[C@H](C)[C@@H](/C=C(\\C)CCC=C(C)C)O[Si](C)(C)C(C)(C)C)CCO[Si](C)(C)C(C)(C)C",
+        "CO[C@@H](CCC[C@@H](O)C[C@H](O)[C@H](C)[C@@H](/C=C(\\C)CCC=C(C)C)O[Si](C)(C)C(C)(C)C)CCO[Si](C)(C)C(C)(C)C>>CO[C@@H](CCC[C@H](C[C@H](O)[C@H](C)[C@@H](/C=C(\\C)CC/C=C/B1OC(C)(C)C(C)(C)O1)O[Si](C)(C)C(C)(C)C)O[Si](C)(C)C(C)(C)C)CCO[Si](C)(C)C(C)(C)C",
+        "COC(=O)CC[C@H](C)C[C@H](C/C=C/I)O[Si](C)(C)C(C)(C)C.CO[C@@H](CCC[C@H](C[C@H](O)[C@H](C)[C@@H](/C=C(\\C)CC/C=C/B1OC(C)(C)C(C)(C)O1)O[Si](C)(C)C(C)(C)C)O[Si](C)(C)C(C)(C)C)CCO[Si](C)(C)C(C)(C)C>>COC(=O)CC[C@H](C)C[C@H](C/C=C/C=C/CC/C(C)=C/[C@@H](O[Si](C)(C)C(C)(C)C)[C@@H](C)[C@@H](O)C[C@@H](CCC[C@@H](C/C=C\\I)OC)O[Si](C)(C)C(C)(C)C)O[Si](C)(C)C(C)(C)C",
+        "COC(=O)CC[C@H](C)C[C@H](C/C=C/C=C/CC/C(C)=C/[C@@H](O[Si](C)(C)C(C)(C)C)[C@@H](C)[C@@H](O)C[C@@H](CCC[C@@H](C/C=C\\I)OC)O[Si](C)(C)C(C)(C)C)O[Si](C)(C)C(C)(C)C.C[C@@H]([C@H]1C[C@@H]([C@@H](C)C/C=C/B2OC(C)(C)C(C)(C)O2)OC(C)(C)O1)[C@@H](CC(=O)O)O[Si](C)(C)C(C)(C)C>>COC(=O)CC[C@H](C)C[C@H](C/C=C/C=C/CC/C(C)=C/[C@@H](O[Si](C)(C)C(C)(C)C)[C@@H](C)[C@@H]1C[C@H](O[Si](C)(C)C(C)(C)C)CCC[C@H](OC)C/C=C\\C=C\\C[C@H](C)[C@@H]2C[C@@H](OC(C)(C)O2)[C@H](C)[C@H](O[Si](C)(C)C(C)(C)C)CC(=O)O1)O[Si](C)(C)C(C)(C)C",
+        "COC(=O)CC[C@H](C)C[C@H](C/C=C/C=C/CC/C(C)=C/[C@@H](O[Si](C)(C)C(C)(C)C)[C@@H](C)[C@@H]1C[C@H](O[Si](C)(C)C(C)(C)C)CCC[C@H](OC)C/C=C\\C=C\\C[C@H](C)[C@@H]2C[C@@H](OC(C)(C)O2)[C@H](C)[C@H](O[Si](C)(C)C(C)(C)C)CC(=O)O1)O[Si](C)(C)C(C)(C)C>>COC(=O)CC[C@H](C)C[C@@H](O)C/C=C/C=C/CC/C(C)=C/[C@@H](O)[C@@H](C)[C@@H]1C[C@H](O)CCC[C@H](OC)C/C=C\\C=C\\C[C@H](C)[C@@H]2C[C@@H](OC(C)(C)O2)[C@H](C)[C@H](O)CC(=O)O1.COC(=O)CC[C@H](C)C[C@@H](O)C/C=C/C=C/CC/C(C)=C/[C@H]1OC(=O)C[C@@H](O)[C@@H](C)[C@H]2C[C@H](OC(C)(C)O2)[C@@H](C)C/C=C/C=C\\C[C@@H](OC)CCC[C@@H](O)C[C@H](O)[C@@H]1C",
+        "COC(=O)CC[C@H](C)C[C@@H](O)C/C=C/C=C/CC/C(C)=C/[C@@H](O)[C@@H](C)[C@@H]1C[C@H](O)CCC[C@H](OC)C/C=C\\C=C\\C[C@H](C)[C@@H]2C[C@@H](OC(C)(C)O2)[C@H](C)[C@H](O)CC(=O)O1.COC(=O)CC[C@H](C)C[C@@H](O)C/C=C/C=C/CC/C(C)=C/[C@H]1OC(=O)C[C@@H](O)[C@@H](C)[C@H]2C[C@H](OC(C)(C)O2)[C@@H](C)C/C=C/C=C\\C[C@@H](OC)CCC[C@@H](O)C[C@H](O)[C@@H]1C>>COC(=O)CC[C@H](C)C[C@@H](O)C/C=C/C=C/CC/C(C)=C/[C@H]1OC(=O)C[C@@H](O)[C@@H](C)[C@H](O)C[C@H](O)[C@@H](C)C/C=C/C=C\\C[C@@H](OC)CCC[C@@H](O)C[C@H](O)[C@@H]1C"
+      ],
+      "target_label": "iso-gladiolin-Me"
+    },
+    {
+      "admission_authority": false,
+      "formal_benchmark_eligible": false,
+      "from_commercial_starting_materials_complete": false,
+      "full_article_route_coverage": true,
+      "molecule_smiles_sequence": [
+        "CC(C)(C)[Si](C)(C)OCCCO",
+        "C=CC[C@H](O)CCO[Si](C)(C)C(C)(C)C",
+        "CO[C@@H](CCCC=O)CCO[Si](C)(C)C(C)(C)C",
+        "CC(C)=CCC/C(C)=C/CO",
+        "C=C[C@H](C)[C@H](O)/C=C(\\C)CCC=C(C)C",
+        "CC(=O)[C@H](C)[C@@H](/C=C(\\C)CCC=C(C)C)O[Si](C)(C)C(C)(C)C",
+        "CC(C)=CCC[C@H](C)CCO",
+        "COC(=O)CC[C@H](C)CCO",
+        "C=CC[C@H](O)C[C@@H](C)CCC(=O)OC",
+        "COC(=O)CC[C@H](C)C[C@H](C/C=C/I)O[Si](C)(C)C(C)(C)C",
+        "CCOC(=O)CCO",
+        "C=C[C@H](C)[C@H](O)CC(=O)OCC",
+        "CCOC(=O)C[C@@H](OCc1ccc(OC)cc1)[C@@H](C)C(C)=O",
+        "C=CC[C@H](C)C=O",
+        "C=CC[C@H](C)[C@@H](O)CC(=O)[C@H](C)[C@@H](CC(=O)OCC)OCc1ccc(OC)cc1",
+        "C=CC[C@H](C)[C@@H]1C[C@H]([C@H](C)[C@H](O)CC(=O)OCC)OC(C)(C)O1",
+        "C[C@@H]([C@H]1C[C@@H]([C@@H](C)C/C=C/B2OC(C)(C)C(C)(C)O2)OC(C)(C)O1)[C@@H](CC(=O)O)O[Si](C)(C)C(C)(C)C",
+        "CO[C@@H](CCC[C@@H](O)C[C@H](O)[C@H](C)[C@@H](/C=C(\\C)CCC=C(C)C)O[Si](C)(C)C(C)(C)C)CCO[Si](C)(C)C(C)(C)C",
+        "CO[C@@H](CCC[C@H](C[C@H](O)[C@H](C)[C@@H](/C=C(\\C)CC/C=C/B1OC(C)(C)C(C)(C)O1)O[Si](C)(C)C(C)(C)C)O[Si](C)(C)C(C)(C)C)CCO[Si](C)(C)C(C)(C)C",
+        "COC(=O)CC[C@H](C)C[C@H](C/C=C/C=C/CC/C(C)=C/[C@@H](O[Si](C)(C)C(C)(C)C)[C@@H](C)[C@@H](O)C[C@@H](CCC[C@@H](C/C=C\\I)OC)O[Si](C)(C)C(C)(C)C)O[Si](C)(C)C(C)(C)C",
+        "COC(=O)CC[C@H](C)C[C@H](C/C=C/C=C/CC/C(C)=C/[C@@H](O[Si](C)(C)C(C)(C)C)[C@@H](C)[C@@H]1C[C@H](O[Si](C)(C)C(C)(C)C)CCC[C@H](OC)C/C=C\\C=C\\C[C@H](C)[C@@H]2C[C@@H](OC(C)(C)O2)[C@H](C)[C@H](O[Si](C)(C)C(C)(C)C)CC(=O)O1)O[Si](C)(C)C(C)(C)C",
+        "COC(=O)CC[C@H](C)C[C@@H](O)C/C=C/C=C/CC/C(C)=C/[C@@H](O)[C@@H](C)[C@@H]1C[C@H](O)CCC[C@H](OC)C/C=C\\C=C\\C[C@H](C)[C@@H]2C[C@@H](OC(C)(C)O2)[C@H](C)[C@H](O)CC(=O)O1",
+        "COC(=O)CC[C@H](C)C[C@@H](O)C/C=C/C=C/CC/C(C)=C/[C@H]1OC(=O)C[C@@H](O)[C@@H](C)[C@H]2C[C@H](OC(C)(C)O2)[C@@H](C)C/C=C/C=C\\C[C@@H](OC)CCC[C@@H](O)C[C@H](O)[C@@H]1C"
+      ],
+      "ordered_event_ids": [
+        "A01",
+        "A02",
+        "B01",
+        "B02",
+        "C01",
+        "C02",
+        "C03",
+        "D01",
+        "D02",
+        "D03",
+        "D04",
+        "D05",
+        "U01",
+        "U02",
+        "U03",
+        "U04",
+        "U05"
+      ],
+      "ordered_molecule_labels": [
+        "1",
+        "2",
+        "A",
+        "3",
+        "4",
+        "B",
+        "5",
+        "6",
+        "7",
+        "C",
+        "8",
+        "9",
+        "10",
+        "S-2-methyl-4-pentenal",
+        "11",
+        "12",
+        "D",
+        "AB",
+        "13",
+        "ABC",
+        "ABCD",
+        "acetonide-22-ring",
+        "acetonide-24-ring"
+      ],
+      "ordered_step_ids": [
+        "A01.1",
+        "A02.1",
+        "B01.1",
+        "B02.1",
+        "C01.1",
+        "C02.1",
+        "C03.1",
+        "D01.1",
+        "D02.1",
+        "D03.1",
+        "D04.1",
+        "D05.1",
+        "U01.1",
+        "U02.1",
+        "U03.1",
+        "U04.1",
+        "U05.1"
+      ],
+      "route_id": "acetonide-22-ring",
+      "route_type": "source_bound_control_branch",
+      "split_group": "10.1021/jacs.5c22672",
+      "start_label": "1",
+      "start_labels": [
+        "1",
+        "3",
+        "5",
+        "8",
+        "S-2-methyl-4-pentenal"
+      ],
+      "step_reaction_smiles_sequence": [
+        "CC(C)(C)[Si](C)(C)OCCCO>>C=CC[C@H](O)CCO[Si](C)(C)C(C)(C)C",
+        "C=CC[C@H](O)CCO[Si](C)(C)C(C)(C)C>>CO[C@@H](CCCC=O)CCO[Si](C)(C)C(C)(C)C",
+        "CC(C)=CCC/C(C)=C/CO>>C=C[C@H](C)[C@H](O)/C=C(\\C)CCC=C(C)C",
+        "C=C[C@H](C)[C@H](O)/C=C(\\C)CCC=C(C)C>>CC(=O)[C@H](C)[C@@H](/C=C(\\C)CCC=C(C)C)O[Si](C)(C)C(C)(C)C",
+        "CC(C)=CCC[C@H](C)CCO>>COC(=O)CC[C@H](C)CCO",
+        "COC(=O)CC[C@H](C)CCO>>C=CC[C@H](O)C[C@@H](C)CCC(=O)OC",
+        "C=CC[C@H](O)C[C@@H](C)CCC(=O)OC>>COC(=O)CC[C@H](C)C[C@H](C/C=C/I)O[Si](C)(C)C(C)(C)C",
+        "CCOC(=O)CCO>>C=C[C@H](C)[C@H](O)CC(=O)OCC",
+        "C=C[C@H](C)[C@H](O)CC(=O)OCC>>CCOC(=O)C[C@@H](OCc1ccc(OC)cc1)[C@@H](C)C(C)=O",
+        "C=CC[C@H](C)C=O.CCOC(=O)C[C@@H](OCc1ccc(OC)cc1)[C@@H](C)C(C)=O>>C=CC[C@H](C)[C@@H](O)CC(=O)[C@H](C)[C@@H](CC(=O)OCC)OCc1ccc(OC)cc1",
+        "C=CC[C@H](C)[C@@H](O)CC(=O)[C@H](C)[C@@H](CC(=O)OCC)OCc1ccc(OC)cc1>>C=CC[C@H](C)[C@@H]1C[C@H]([C@H](C)[C@H](O)CC(=O)OCC)OC(C)(C)O1",
+        "C=CC[C@H](C)[C@@H]1C[C@H]([C@H](C)[C@H](O)CC(=O)OCC)OC(C)(C)O1>>C[C@@H]([C@H]1C[C@@H]([C@@H](C)C/C=C/B2OC(C)(C)C(C)(C)O2)OC(C)(C)O1)[C@@H](CC(=O)O)O[Si](C)(C)C(C)(C)C",
+        "CC(=O)[C@H](C)[C@@H](/C=C(\\C)CCC=C(C)C)O[Si](C)(C)C(C)(C)C.CO[C@@H](CCCC=O)CCO[Si](C)(C)C(C)(C)C>>CO[C@@H](CCC[C@@H](O)C[C@H](O)[C@H](C)[C@@H](/C=C(\\C)CCC=C(C)C)O[Si](C)(C)C(C)(C)C)CCO[Si](C)(C)C(C)(C)C",
+        "CO[C@@H](CCC[C@@H](O)C[C@H](O)[C@H](C)[C@@H](/C=C(\\C)CCC=C(C)C)O[Si](C)(C)C(C)(C)C)CCO[Si](C)(C)C(C)(C)C>>CO[C@@H](CCC[C@H](C[C@H](O)[C@H](C)[C@@H](/C=C(\\C)CC/C=C/B1OC(C)(C)C(C)(C)O1)O[Si](C)(C)C(C)(C)C)O[Si](C)(C)C(C)(C)C)CCO[Si](C)(C)C(C)(C)C",
+        "COC(=O)CC[C@H](C)C[C@H](C/C=C/I)O[Si](C)(C)C(C)(C)C.CO[C@@H](CCC[C@H](C[C@H](O)[C@H](C)[C@@H](/C=C(\\C)CC/C=C/B1OC(C)(C)C(C)(C)O1)O[Si](C)(C)C(C)(C)C)O[Si](C)(C)C(C)(C)C)CCO[Si](C)(C)C(C)(C)C>>COC(=O)CC[C@H](C)C[C@H](C/C=C/C=C/CC/C(C)=C/[C@@H](O[Si](C)(C)C(C)(C)C)[C@@H](C)[C@@H](O)C[C@@H](CCC[C@@H](C/C=C\\I)OC)O[Si](C)(C)C(C)(C)C)O[Si](C)(C)C(C)(C)C",
+        "COC(=O)CC[C@H](C)C[C@H](C/C=C/C=C/CC/C(C)=C/[C@@H](O[Si](C)(C)C(C)(C)C)[C@@H](C)[C@@H](O)C[C@@H](CCC[C@@H](C/C=C\\I)OC)O[Si](C)(C)C(C)(C)C)O[Si](C)(C)C(C)(C)C.C[C@@H]([C@H]1C[C@@H]([C@@H](C)C/C=C/B2OC(C)(C)C(C)(C)O2)OC(C)(C)O1)[C@@H](CC(=O)O)O[Si](C)(C)C(C)(C)C>>COC(=O)CC[C@H](C)C[C@H](C/C=C/C=C/CC/C(C)=C/[C@@H](O[Si](C)(C)C(C)(C)C)[C@@H](C)[C@@H]1C[C@H](O[Si](C)(C)C(C)(C)C)CCC[C@H](OC)C/C=C\\C=C\\C[C@H](C)[C@@H]2C[C@@H](OC(C)(C)O2)[C@H](C)[C@H](O[Si](C)(C)C(C)(C)C)CC(=O)O1)O[Si](C)(C)C(C)(C)C",
+        "COC(=O)CC[C@H](C)C[C@H](C/C=C/C=C/CC/C(C)=C/[C@@H](O[Si](C)(C)C(C)(C)C)[C@@H](C)[C@@H]1C[C@H](O[Si](C)(C)C(C)(C)C)CCC[C@H](OC)C/C=C\\C=C\\C[C@H](C)[C@@H]2C[C@@H](OC(C)(C)O2)[C@H](C)[C@H](O[Si](C)(C)C(C)(C)C)CC(=O)O1)O[Si](C)(C)C(C)(C)C>>COC(=O)CC[C@H](C)C[C@@H](O)C/C=C/C=C/CC/C(C)=C/[C@@H](O)[C@@H](C)[C@@H]1C[C@H](O)CCC[C@H](OC)C/C=C\\C=C\\C[C@H](C)[C@@H]2C[C@@H](OC(C)(C)O2)[C@H](C)[C@H](O)CC(=O)O1.COC(=O)CC[C@H](C)C[C@@H](O)C/C=C/C=C/CC/C(C)=C/[C@H]1OC(=O)C[C@@H](O)[C@@H](C)[C@H]2C[C@H](OC(C)(C)O2)[C@@H](C)C/C=C/C=C\\C[C@@H](OC)CCC[C@@H](O)C[C@H](O)[C@@H]1C"
+      ],
+      "target_label": "acetonide-22-ring"
+    },
+    {
+      "admission_authority": false,
+      "formal_benchmark_eligible": false,
+      "from_commercial_starting_materials_complete": false,
+      "full_article_route_coverage": true,
+      "molecule_smiles_sequence": [
+        "CC(C)(C)[Si](C)(C)OCCCO",
+        "C=CC[C@H](O)CCO[Si](C)(C)C(C)(C)C",
+        "CO[C@@H](CCCC=O)CCO[Si](C)(C)C(C)(C)C",
+        "CC(C)=CCC/C(C)=C/CO",
+        "C=C[C@H](C)[C@H](O)/C=C(\\C)CCC=C(C)C",
+        "CC(=O)[C@H](C)[C@@H](/C=C(\\C)CCC=C(C)C)O[Si](C)(C)C(C)(C)C",
+        "CC(C)=CCC[C@H](C)CCO",
+        "COC(=O)CC[C@H](C)CCO",
+        "C=CC[C@H](O)C[C@@H](C)CCC(=O)OC",
+        "COC(=O)CC[C@H](C)C[C@H](C/C=C/I)O[Si](C)(C)C(C)(C)C",
+        "CCOC(=O)CCO",
+        "C=C[C@H](C)[C@H](O)CC(=O)OCC",
+        "CCOC(=O)C[C@@H](OCc1ccc(OC)cc1)[C@@H](C)C(C)=O",
+        "C=CC[C@H](C)C=O",
+        "C=CC[C@H](C)[C@@H](O)CC(=O)[C@H](C)[C@@H](CC(=O)OCC)OCc1ccc(OC)cc1",
+        "C=CC[C@H](C)[C@@H]1C[C@H]([C@H](C)[C@H](O)CC(=O)OCC)OC(C)(C)O1",
+        "C[C@@H]([C@H]1C[C@@H]([C@@H](C)C/C=C/B2OC(C)(C)C(C)(C)O2)OC(C)(C)O1)[C@@H](CC(=O)O)O[Si](C)(C)C(C)(C)C",
+        "CO[C@@H](CCC[C@@H](O)C[C@H](O)[C@H](C)[C@@H](/C=C(\\C)CCC=C(C)C)O[Si](C)(C)C(C)(C)C)CCO[Si](C)(C)C(C)(C)C",
+        "CO[C@@H](CCC[C@H](C[C@H](O)[C@H](C)[C@@H](/C=C(\\C)CC/C=C/B1OC(C)(C)C(C)(C)O1)O[Si](C)(C)C(C)(C)C)O[Si](C)(C)C(C)(C)C)CCO[Si](C)(C)C(C)(C)C",
+        "COC(=O)CC[C@H](C)C[C@H](C/C=C/C=C/CC/C(C)=C/[C@@H](O[Si](C)(C)C(C)(C)C)[C@@H](C)[C@@H](O)C[C@@H](CCC[C@@H](C/C=C\\I)OC)O[Si](C)(C)C(C)(C)C)O[Si](C)(C)C(C)(C)C",
+        "COC(=O)CC[C@H](C)C[C@H](C/C=C/C=C/CC/C(C)=C/[C@@H](O[Si](C)(C)C(C)(C)C)[C@@H](C)[C@@H]1C[C@H](O[Si](C)(C)C(C)(C)C)CCC[C@H](OC)C/C=C\\C=C\\C[C@H](C)[C@@H]2C[C@@H](OC(C)(C)O2)[C@H](C)[C@H](O[Si](C)(C)C(C)(C)C)CC(=O)O1)O[Si](C)(C)C(C)(C)C",
+        "COC(=O)CC[C@H](C)C[C@@H](O)C/C=C/C=C/CC/C(C)=C/[C@@H](O)[C@@H](C)[C@@H]1C[C@H](O)CCC[C@H](OC)C/C=C\\C=C\\C[C@H](C)[C@@H]2C[C@@H](OC(C)(C)O2)[C@H](C)[C@H](O)CC(=O)O1",
+        "COC(=O)CC[C@H](C)C[C@@H](O)C/C=C/C=C/CC/C(C)=C/[C@H]1OC(=O)C[C@@H](O)[C@@H](C)[C@H]2C[C@H](OC(C)(C)O2)[C@@H](C)C/C=C/C=C\\C[C@@H](OC)CCC[C@@H](O)C[C@H](O)[C@@H]1C"
+      ],
+      "ordered_event_ids": [
+        "A01",
+        "A02",
+        "B01",
+        "B02",
+        "C01",
+        "C02",
+        "C03",
+        "D01",
+        "D02",
+        "D03",
+        "D04",
+        "D05",
+        "U01",
+        "U02",
+        "U03",
+        "U04",
+        "U05"
+      ],
+      "ordered_molecule_labels": [
+        "1",
+        "2",
+        "A",
+        "3",
+        "4",
+        "B",
+        "5",
+        "6",
+        "7",
+        "C",
+        "8",
+        "9",
+        "10",
+        "S-2-methyl-4-pentenal",
+        "11",
+        "12",
+        "D",
+        "AB",
+        "13",
+        "ABC",
+        "ABCD",
+        "acetonide-22-ring",
+        "acetonide-24-ring"
+      ],
+      "ordered_step_ids": [
+        "A01.1",
+        "A02.1",
+        "B01.1",
+        "B02.1",
+        "C01.1",
+        "C02.1",
+        "C03.1",
+        "D01.1",
+        "D02.1",
+        "D03.1",
+        "D04.1",
+        "D05.1",
+        "U01.1",
+        "U02.1",
+        "U03.1",
+        "U04.1",
+        "U05.1"
+      ],
+      "route_id": "acetonide-24-ring",
+      "route_type": "source_bound_control_branch",
+      "split_group": "10.1021/jacs.5c22672",
+      "start_label": "1",
+      "start_labels": [
+        "1",
+        "3",
+        "5",
+        "8",
+        "S-2-methyl-4-pentenal"
+      ],
+      "step_reaction_smiles_sequence": [
+        "CC(C)(C)[Si](C)(C)OCCCO>>C=CC[C@H](O)CCO[Si](C)(C)C(C)(C)C",
+        "C=CC[C@H](O)CCO[Si](C)(C)C(C)(C)C>>CO[C@@H](CCCC=O)CCO[Si](C)(C)C(C)(C)C",
+        "CC(C)=CCC/C(C)=C/CO>>C=C[C@H](C)[C@H](O)/C=C(\\C)CCC=C(C)C",
+        "C=C[C@H](C)[C@H](O)/C=C(\\C)CCC=C(C)C>>CC(=O)[C@H](C)[C@@H](/C=C(\\C)CCC=C(C)C)O[Si](C)(C)C(C)(C)C",
+        "CC(C)=CCC[C@H](C)CCO>>COC(=O)CC[C@H](C)CCO",
+        "COC(=O)CC[C@H](C)CCO>>C=CC[C@H](O)C[C@@H](C)CCC(=O)OC",
+        "C=CC[C@H](O)C[C@@H](C)CCC(=O)OC>>COC(=O)CC[C@H](C)C[C@H](C/C=C/I)O[Si](C)(C)C(C)(C)C",
+        "CCOC(=O)CCO>>C=C[C@H](C)[C@H](O)CC(=O)OCC",
+        "C=C[C@H](C)[C@H](O)CC(=O)OCC>>CCOC(=O)C[C@@H](OCc1ccc(OC)cc1)[C@@H](C)C(C)=O",
+        "C=CC[C@H](C)C=O.CCOC(=O)C[C@@H](OCc1ccc(OC)cc1)[C@@H](C)C(C)=O>>C=CC[C@H](C)[C@@H](O)CC(=O)[C@H](C)[C@@H](CC(=O)OCC)OCc1ccc(OC)cc1",
+        "C=CC[C@H](C)[C@@H](O)CC(=O)[C@H](C)[C@@H](CC(=O)OCC)OCc1ccc(OC)cc1>>C=CC[C@H](C)[C@@H]1C[C@H]([C@H](C)[C@H](O)CC(=O)OCC)OC(C)(C)O1",
+        "C=CC[C@H](C)[C@@H]1C[C@H]([C@H](C)[C@H](O)CC(=O)OCC)OC(C)(C)O1>>C[C@@H]([C@H]1C[C@@H]([C@@H](C)C/C=C/B2OC(C)(C)C(C)(C)O2)OC(C)(C)O1)[C@@H](CC(=O)O)O[Si](C)(C)C(C)(C)C",
+        "CC(=O)[C@H](C)[C@@H](/C=C(\\C)CCC=C(C)C)O[Si](C)(C)C(C)(C)C.CO[C@@H](CCCC=O)CCO[Si](C)(C)C(C)(C)C>>CO[C@@H](CCC[C@@H](O)C[C@H](O)[C@H](C)[C@@H](/C=C(\\C)CCC=C(C)C)O[Si](C)(C)C(C)(C)C)CCO[Si](C)(C)C(C)(C)C",
+        "CO[C@@H](CCC[C@@H](O)C[C@H](O)[C@H](C)[C@@H](/C=C(\\C)CCC=C(C)C)O[Si](C)(C)C(C)(C)C)CCO[Si](C)(C)C(C)(C)C>>CO[C@@H](CCC[C@H](C[C@H](O)[C@H](C)[C@@H](/C=C(\\C)CC/C=C/B1OC(C)(C)C(C)(C)O1)O[Si](C)(C)C(C)(C)C)O[Si](C)(C)C(C)(C)C)CCO[Si](C)(C)C(C)(C)C",
+        "COC(=O)CC[C@H](C)C[C@H](C/C=C/I)O[Si](C)(C)C(C)(C)C.CO[C@@H](CCC[C@H](C[C@H](O)[C@H](C)[C@@H](/C=C(\\C)CC/C=C/B1OC(C)(C)C(C)(C)O1)O[Si](C)(C)C(C)(C)C)O[Si](C)(C)C(C)(C)C)CCO[Si](C)(C)C(C)(C)C>>COC(=O)CC[C@H](C)C[C@H](C/C=C/C=C/CC/C(C)=C/[C@@H](O[Si](C)(C)C(C)(C)C)[C@@H](C)[C@@H](O)C[C@@H](CCC[C@@H](C/C=C\\I)OC)O[Si](C)(C)C(C)(C)C)O[Si](C)(C)C(C)(C)C",
+        "COC(=O)CC[C@H](C)C[C@H](C/C=C/C=C/CC/C(C)=C/[C@@H](O[Si](C)(C)C(C)(C)C)[C@@H](C)[C@@H](O)C[C@@H](CCC[C@@H](C/C=C\\I)OC)O[Si](C)(C)C(C)(C)C)O[Si](C)(C)C(C)(C)C.C[C@@H]([C@H]1C[C@@H]([C@@H](C)C/C=C/B2OC(C)(C)C(C)(C)O2)OC(C)(C)O1)[C@@H](CC(=O)O)O[Si](C)(C)C(C)(C)C>>COC(=O)CC[C@H](C)C[C@H](C/C=C/C=C/CC/C(C)=C/[C@@H](O[Si](C)(C)C(C)(C)C)[C@@H](C)[C@@H]1C[C@H](O[Si](C)(C)C(C)(C)C)CCC[C@H](OC)C/C=C\\C=C\\C[C@H](C)[C@@H]2C[C@@H](OC(C)(C)O2)[C@H](C)[C@H](O[Si](C)(C)C(C)(C)C)CC(=O)O1)O[Si](C)(C)C(C)(C)C",
+        "COC(=O)CC[C@H](C)C[C@H](C/C=C/C=C/CC/C(C)=C/[C@@H](O[Si](C)(C)C(C)(C)C)[C@@H](C)[C@@H]1C[C@H](O[Si](C)(C)C(C)(C)C)CCC[C@H](OC)C/C=C\\C=C\\C[C@H](C)[C@@H]2C[C@@H](OC(C)(C)O2)[C@H](C)[C@H](O[Si](C)(C)C(C)(C)C)CC(=O)O1)O[Si](C)(C)C(C)(C)C>>COC(=O)CC[C@H](C)C[C@@H](O)C/C=C/C=C/CC/C(C)=C/[C@@H](O)[C@@H](C)[C@@H]1C[C@H](O)CCC[C@H](OC)C/C=C\\C=C\\C[C@H](C)[C@@H]2C[C@@H](OC(C)(C)O2)[C@H](C)[C@H](O)CC(=O)O1.COC(=O)CC[C@H](C)C[C@@H](O)C/C=C/C=C/CC/C(C)=C/[C@H]1OC(=O)C[C@@H](O)[C@@H](C)[C@H]2C[C@H](OC(C)(C)O2)[C@@H](C)C/C=C/C=C\\C[C@@H](OC)CCC[C@@H](O)C[C@H](O)[C@@H]1C"
+      ],
+      "target_label": "acetonide-24-ring"
+    }
+  ],
+  "schema_version": "syninsight.route-extraction.v1",
+  "software": {
+    "rdkit": "2026.03.6"
+  },
+  "sources": [
+    {
+      "format": "pdf",
+      "page_count": 18,
+      "path": "papers/paper-5ffc2379ff4366f0/article/main.pdf",
+      "redistribute_source": false,
+      "role": "main_article",
+      "sha256": "11d46062844cd0e8bc8d38cccee2c69d89b0fc1432112f364758e1897fef34db",
+      "source_id": "article"
+    }
+  ],
+  "steps": [
+    {
+      "admission_authority": false,
+      "agents": [
+        "allyl acetate",
+        "(S)-Ir-SEGPHOS",
+        "3,4-dinitrobenzoic acid",
+        "K2CO3"
+      ],
+      "event_id": "A01",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+      "product_labels": [
+        "2"
+      ],
+      "product_specific_yields": [
+        {
+          "from_label": "1",
+          "percent": 76,
+          "product_label": "2",
+          "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+        }
+      ],
+      "reactant_labels": [
+        "1"
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "THF"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: A01",
+          "pages": [
+            14
+          ],
+          "sha256": "11d46062844cd0e8bc8d38cccee2c69d89b0fc1432112f364758e1897fef34db",
+          "source_id": "article"
+        }
+      ],
+      "step_id": "A01.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "CC(C)(C)[Si](C)(C)OCCCO>>C=CC[C@H](O)CCO[Si](C)(C)C(C)(C)C",
+      "yield_percent": 76
+    },
+    {
+      "admission_authority": false,
+      "agents": [
+        "recovered (S)-Ir-SEGPHOS",
+        "allyl acetate",
+        "3,4-dinitrobenzoic acid",
+        "K2CO3"
+      ],
+      "event_id": "A01-recycle1",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+      "product_labels": [
+        "2"
+      ],
+      "product_specific_yields": [
+        {
+          "from_label": "1",
+          "percent": 74,
+          "product_label": "2",
+          "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+        }
+      ],
+      "reactant_labels": [
+        "1"
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "THF"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: A01-recycle1",
+          "pages": [
+            14
+          ],
+          "sha256": "11d46062844cd0e8bc8d38cccee2c69d89b0fc1432112f364758e1897fef34db",
+          "source_id": "article"
+        }
+      ],
+      "step_id": "A01-recycle1.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "CC(C)(C)[Si](C)(C)OCCCO>>C=CC[C@H](O)CCO[Si](C)(C)C(C)(C)C",
+      "yield_percent": 74
+    },
+    {
+      "admission_authority": false,
+      "agents": [
+        "recovered (S)-Ir-SEGPHOS",
+        "allyl acetate",
+        "3,4-dinitrobenzoic acid",
+        "K2CO3"
+      ],
+      "event_id": "A01-recycle2",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+      "product_labels": [
+        "2"
+      ],
+      "product_specific_yields": [
+        {
+          "from_label": "1",
+          "percent": 68,
+          "product_label": "2",
+          "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+        }
+      ],
+      "reactant_labels": [
+        "1"
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "THF"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: A01-recycle2",
+          "pages": [
+            14
+          ],
+          "sha256": "11d46062844cd0e8bc8d38cccee2c69d89b0fc1432112f364758e1897fef34db",
+          "source_id": "article"
+        }
+      ],
+      "step_id": "A01-recycle2.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "CC(C)(C)[Si](C)(C)OCCCO>>C=CC[C@H](O)CCO[Si](C)(C)C(C)(C)C",
+      "yield_percent": 68
+    },
+    {
+      "admission_authority": false,
+      "agents": [
+        "MeI",
+        "NaH",
+        "Rh(acac)(CO)2",
+        "BISBI",
+        "H2",
+        "CO"
+      ],
+      "event_id": "A02",
+      "experimental_stage_count": 2,
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+      "operation_stages": [
+        {
+          "description": "O-methylation96%",
+          "stage": 1
+        },
+        {
+          "description": "Hydroformylation86%,>20:1linear:branched",
+          "stage": 2
+        }
+      ],
+      "product_labels": [
+        "A"
+      ],
+      "product_specific_yields": [],
+      "reactant_labels": [
+        "2"
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "THF",
+        "toluene"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: A02",
+          "pages": [
+            14
+          ],
+          "sha256": "11d46062844cd0e8bc8d38cccee2c69d89b0fc1432112f364758e1897fef34db",
+          "source_id": "article"
+        }
+      ],
+      "step_id": "A02.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "C=CC[C@H](O)CCO[Si](C)(C)C(C)(C)C>>CO[C@@H](CCCC=O)CCO[Si](C)(C)C(C)(C)C",
+      "yield_percent": null
+    },
+    {
+      "admission_authority": false,
+      "agents": [
+        "butadiene",
+        "RuHCl(CO)(PPh3)3",
+        "JOSIPHOS SL-J502-1",
+        "NaI"
+      ],
+      "event_id": "B01",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+      "product_labels": [
+        "4"
+      ],
+      "product_specific_yields": [
+        {
+          "from_label": "3",
+          "percent": 90,
+          "product_label": "4",
+          "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+        }
+      ],
+      "reactant_labels": [
+        "3"
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "MTBE"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: B01",
+          "pages": [
+            14
+          ],
+          "sha256": "11d46062844cd0e8bc8d38cccee2c69d89b0fc1432112f364758e1897fef34db",
+          "source_id": "article"
+        }
+      ],
+      "step_id": "B01.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "CC(C)=CCC/C(C)=C/CO>>C=C[C@H](C)[C@H](O)/C=C(\\C)CCC=C(C)C",
+      "yield_percent": 90
+    },
+    {
+      "admission_authority": false,
+      "agents": [
+        "TBSCl",
+        "DMAP",
+        "imidazole",
+        "PdCl2",
+        "CuCl",
+        "O2"
+      ],
+      "event_id": "B02",
+      "experimental_stage_count": 2,
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+      "operation_stages": [
+        {
+          "description": "TBS protection92%",
+          "stage": 1
+        },
+        {
+          "description": "Wacker oxidation65%,>20:1regioselectivity",
+          "stage": 2
+        }
+      ],
+      "product_labels": [
+        "B"
+      ],
+      "product_specific_yields": [],
+      "reactant_labels": [
+        "4"
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "DCM",
+        "DMF",
+        "pH7buffer"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: B02",
+          "pages": [
+            14
+          ],
+          "sha256": "11d46062844cd0e8bc8d38cccee2c69d89b0fc1432112f364758e1897fef34db",
+          "source_id": "article"
+        }
+      ],
+      "step_id": "B02.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "C=C[C@H](C)[C@H](O)/C=C(\\C)CCC=C(C)C>>CC(=O)[C@H](C)[C@@H](/C=C(\\C)CCC=C(C)C)O[Si](C)(C)C(C)(C)C",
+      "yield_percent": null
+    },
+    {
+      "admission_authority": false,
+      "agents": [
+        "O3",
+        "NaOH"
+      ],
+      "event_id": "C01",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+      "product_labels": [
+        "6"
+      ],
+      "product_specific_yields": [
+        {
+          "from_label": "5",
+          "percent": 74,
+          "product_label": "6",
+          "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+        }
+      ],
+      "reactant_labels": [
+        "5"
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "MeOH",
+        "DCM"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: C01",
+          "pages": [
+            15
+          ],
+          "sha256": "11d46062844cd0e8bc8d38cccee2c69d89b0fc1432112f364758e1897fef34db",
+          "source_id": "article"
+        }
+      ],
+      "step_id": "C01.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "CC(C)=CCC[C@H](C)CCO>>COC(=O)CC[C@H](C)CCO",
+      "yield_percent": 74
+    },
+    {
+      "admission_authority": false,
+      "agents": [
+        "allyl acetate",
+        "(S)-Ir-SEGPHOS",
+        "3,4-dinitrobenzoic acid",
+        "Cs2CO3"
+      ],
+      "event_id": "C02",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+      "product_labels": [
+        "7"
+      ],
+      "product_specific_yields": [
+        {
+          "from_label": "6",
+          "percent": 75,
+          "product_label": "7",
+          "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+        }
+      ],
+      "reactant_labels": [
+        "6"
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "THF"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: C02",
+          "pages": [
+            15
+          ],
+          "sha256": "11d46062844cd0e8bc8d38cccee2c69d89b0fc1432112f364758e1897fef34db",
+          "source_id": "article"
+        }
+      ],
+      "step_id": "C02.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "COC(=O)CC[C@H](C)CCO>>C=CC[C@H](O)C[C@@H](C)CCC(=O)OC",
+      "yield_percent": 75
+    },
+    {
+      "admission_authority": false,
+      "agents": [
+        "TBSCl",
+        "DMAP",
+        "imidazole",
+        "HG-II",
+        "vinyl Bpin",
+        "ICl",
+        "NaOMe"
+      ],
+      "event_id": "C03",
+      "experimental_stage_count": 3,
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+      "operation_stages": [
+        {
+          "description": "TBS protection95%",
+          "stage": 1
+        },
+        {
+          "description": "Cross-metathesis70%",
+          "stage": 2
+        },
+        {
+          "description": "Iododeboronation70%",
+          "stage": 3
+        }
+      ],
+      "product_labels": [
+        "C"
+      ],
+      "product_specific_yields": [],
+      "reactant_labels": [
+        "7"
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "DCM",
+        "DCE",
+        "THF"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: C03",
+          "pages": [
+            15
+          ],
+          "sha256": "11d46062844cd0e8bc8d38cccee2c69d89b0fc1432112f364758e1897fef34db",
+          "source_id": "article"
+        }
+      ],
+      "step_id": "C03.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "C=CC[C@H](O)C[C@@H](C)CCC(=O)OC>>COC(=O)CC[C@H](C)C[C@H](C/C=C/I)O[Si](C)(C)C(C)(C)C",
+      "yield_percent": null
+    },
+    {
+      "admission_authority": false,
+      "agents": [
+        "butadiene",
+        "Ru(eta3-C3H5)(CO)3",
+        "JOSIPHOS SL-J502-1",
+        "TFE"
+      ],
+      "event_id": "D01",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+      "product_labels": [
+        "9"
+      ],
+      "product_specific_yields": [
+        {
+          "from_label": "8",
+          "percent": 81,
+          "product_label": "9",
+          "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+        }
+      ],
+      "reactant_labels": [
+        "8"
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "MTBE"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: D01",
+          "pages": [
+            16
+          ],
+          "sha256": "11d46062844cd0e8bc8d38cccee2c69d89b0fc1432112f364758e1897fef34db",
+          "source_id": "article"
+        }
+      ],
+      "step_id": "D01.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "CCOC(=O)CCO>>C=C[C@H](C)[C@H](O)CC(=O)OCC",
+      "yield_percent": 81
+    },
+    {
+      "admission_authority": false,
+      "agents": [
+        "PMB trichloroacetimidate",
+        "Sc(OTf)3",
+        "O2",
+        "PdCl2",
+        "CuCl"
+      ],
+      "event_id": "D02",
+      "experimental_stage_count": 2,
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+      "operation_stages": [
+        {
+          "description": "PMB protection85%",
+          "stage": 1
+        },
+        {
+          "description": "Wacker oxidation95%",
+          "stage": 2
+        }
+      ],
+      "product_labels": [
+        "10"
+      ],
+      "product_specific_yields": [],
+      "reactant_labels": [
+        "9"
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "toluene",
+        "DMF",
+        "water"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: D02",
+          "pages": [
+            16
+          ],
+          "sha256": "11d46062844cd0e8bc8d38cccee2c69d89b0fc1432112f364758e1897fef34db",
+          "source_id": "article"
+        }
+      ],
+      "step_id": "D02.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "C=C[C@H](C)[C@H](O)CC(=O)OCC>>CCOC(=O)C[C@@H](OCc1ccc(OC)cc1)[C@@H](C)C(C)=O",
+      "yield_percent": null
+    },
+    {
+      "admission_authority": false,
+      "agents": [
+        "Cy2BCl",
+        "Et3N"
+      ],
+      "event_id": "D03",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+      "product_labels": [
+        "11"
+      ],
+      "product_specific_yields": [
+        {
+          "from_label": "10",
+          "percent": 72,
+          "product_label": "11",
+          "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+        }
+      ],
+      "reactant_labels": [
+        "10",
+        "S-2-methyl-4-pentenal"
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "Et2O"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: D03",
+          "pages": [
+            16
+          ],
+          "sha256": "11d46062844cd0e8bc8d38cccee2c69d89b0fc1432112f364758e1897fef34db",
+          "source_id": "article"
+        }
+      ],
+      "step_id": "D03.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "C=CC[C@H](C)C=O.CCOC(=O)C[C@@H](OCc1ccc(OC)cc1)[C@@H](C)C(C)=O>>C=CC[C@H](C)[C@@H](O)CC(=O)[C@H](C)[C@@H](CC(=O)OCC)OCc1ccc(OC)cc1",
+      "yield_percent": 72
+    },
+    {
+      "admission_authority": false,
+      "agents": [
+        "Et2B(OMe)",
+        "NaBH4",
+        "PPTS",
+        "2,2-dimethoxypropane",
+        "DDQ"
+      ],
+      "event_id": "D04",
+      "experimental_stage_count": 3,
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+      "operation_stages": [
+        {
+          "description": "Hydroxy-directed reduction78%,12:1dr",
+          "stage": 1
+        },
+        {
+          "description": "Acetonide79%",
+          "stage": 2
+        },
+        {
+          "description": "PMB removal81%",
+          "stage": 3
+        }
+      ],
+      "product_labels": [
+        "12"
+      ],
+      "product_specific_yields": [],
+      "reactant_labels": [
+        "11"
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "THF",
+        "MeOH",
+        "DCM",
+        "pH7buffer"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: D04",
+          "pages": [
+            16
+          ],
+          "sha256": "11d46062844cd0e8bc8d38cccee2c69d89b0fc1432112f364758e1897fef34db",
+          "source_id": "article"
+        }
+      ],
+      "step_id": "D04.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "C=CC[C@H](C)[C@@H](O)CC(=O)[C@H](C)[C@@H](CC(=O)OCC)OCc1ccc(OC)cc1>>C=CC[C@H](C)[C@@H]1C[C@H]([C@H](C)[C@H](O)CC(=O)OCC)OC(C)(C)O1",
+      "yield_percent": null
+    },
+    {
+      "admission_authority": false,
+      "agents": [
+        "TBSCl",
+        "DMAP",
+        "imidazole",
+        "LiOH.H2O",
+        "Grubbs-I",
+        "vinyl Bpin"
+      ],
+      "event_id": "D05",
+      "experimental_stage_count": 3,
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+      "operation_stages": [
+        {
+          "description": "TBS protection92%",
+          "stage": 1
+        },
+        {
+          "description": "Saponification89%",
+          "stage": 2
+        },
+        {
+          "description": "Cross-metathesis79%",
+          "stage": 3
+        }
+      ],
+      "product_labels": [
+        "D"
+      ],
+      "product_specific_yields": [],
+      "reactant_labels": [
+        "12"
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "DMF",
+        "THF",
+        "MeOH",
+        "water",
+        "DCM"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: D05",
+          "pages": [
+            16
+          ],
+          "sha256": "11d46062844cd0e8bc8d38cccee2c69d89b0fc1432112f364758e1897fef34db",
+          "source_id": "article"
+        }
+      ],
+      "step_id": "D05.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "C=CC[C@H](C)[C@@H]1C[C@H]([C@H](C)[C@H](O)CC(=O)OCC)OC(C)(C)O1>>C[C@@H]([C@H]1C[C@@H]([C@@H](C)C/C=C/B2OC(C)(C)C(C)(C)O2)OC(C)(C)O1)[C@@H](CC(=O)O)O[Si](C)(C)C(C)(C)C",
+      "yield_percent": null
+    },
+    {
+      "admission_authority": false,
+      "agents": [
+        "(+)-DIPCl",
+        "Et3N",
+        "Me4NBH(OAc)3"
+      ],
+      "event_id": "U01",
+      "experimental_stage_count": 2,
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+      "operation_stages": [
+        {
+          "description": "Boron-mediated aldol68%,>20:1dr",
+          "stage": 1
+        },
+        {
+          "description": "Ketone reduction82%",
+          "stage": 2
+        }
+      ],
+      "product_labels": [
+        "AB"
+      ],
+      "product_specific_yields": [],
+      "reactant_labels": [
+        "A",
+        "B"
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "Et2O",
+        "MeCN",
+        "THF",
+        "AcOH"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: U01",
+          "pages": [
+            17
+          ],
+          "sha256": "11d46062844cd0e8bc8d38cccee2c69d89b0fc1432112f364758e1897fef34db",
+          "source_id": "article"
+        }
+      ],
+      "step_id": "U01.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "CC(=O)[C@H](C)[C@@H](/C=C(\\C)CCC=C(C)C)O[Si](C)(C)C(C)(C)C.CO[C@@H](CCCC=O)CCO[Si](C)(C)C(C)(C)C>>CO[C@@H](CCC[C@@H](O)C[C@H](O)[C@H](C)[C@@H](/C=C(\\C)CCC=C(C)C)O[Si](C)(C)C(C)(C)C)CCO[Si](C)(C)C(C)(C)C",
+      "yield_percent": null
+    },
+    {
+      "admission_authority": false,
+      "agents": [
+        "TBSCl",
+        "imidazole",
+        "O3",
+        "pyridine",
+        "LiTMP",
+        "bis(pinacolboryl)methane"
+      ],
+      "event_id": "U02",
+      "experimental_stage_count": 3,
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+      "operation_stages": [
+        {
+          "description": "Selective C19 TBS protection76%BRSM",
+          "stage": 1
+        },
+        {
+          "description": "Ozonolysis76%",
+          "stage": 2
+        },
+        {
+          "description": "Boron-Wittig,crude,individual yield absent",
+          "stage": 3
+        }
+      ],
+      "product_labels": [
+        "13"
+      ],
+      "product_specific_yields": [],
+      "reactant_labels": [
+        "AB"
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "DCM",
+        "THF"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: U02",
+          "pages": [
+            17
+          ],
+          "sha256": "11d46062844cd0e8bc8d38cccee2c69d89b0fc1432112f364758e1897fef34db",
+          "source_id": "article"
+        }
+      ],
+      "step_id": "U02.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "CO[C@@H](CCC[C@@H](O)C[C@H](O)[C@H](C)[C@@H](/C=C(\\C)CCC=C(C)C)O[Si](C)(C)C(C)(C)C)CCO[Si](C)(C)C(C)(C)C>>CO[C@@H](CCC[C@H](C[C@H](O)[C@H](C)[C@@H](/C=C(\\C)CC/C=C/B1OC(C)(C)C(C)(C)O1)O[Si](C)(C)C(C)(C)C)O[Si](C)(C)C(C)(C)C)CCO[Si](C)(C)C(C)(C)C",
+      "yield_percent": null
+    },
+    {
+      "admission_authority": false,
+      "agents": [
+        "Pd(dppf)Cl2",
+        "Ba(OH)2.8H2O",
+        "HF.pyridine",
+        "TEMPO",
+        "BAIB",
+        "[PPh3CH2I]I",
+        "NaHMDS"
+      ],
+      "event_id": "U03",
+      "experimental_stage_count": 4,
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+      "operation_stages": [
+        {
+          "description": "Suzuki70%over2steps including preceding boron-Wittig",
+          "stage": 1
+        },
+        {
+          "description": "Primary TBS cleavage70%",
+          "stage": 2
+        },
+        {
+          "description": "Alcohol oxidation80%",
+          "stage": 3
+        },
+        {
+          "description": "Stork-Zhao-Wittig65%,>20:1Z:E",
+          "stage": 4
+        }
+      ],
+      "product_labels": [
+        "ABC"
+      ],
+      "product_specific_yields": [],
+      "reactant_labels": [
+        "13",
+        "C"
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "DMF",
+        "THF",
+        "DCM",
+        "DMPU"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: U03",
+          "pages": [
+            17
+          ],
+          "sha256": "11d46062844cd0e8bc8d38cccee2c69d89b0fc1432112f364758e1897fef34db",
+          "source_id": "article"
+        }
+      ],
+      "step_id": "U03.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "COC(=O)CC[C@H](C)C[C@H](C/C=C/I)O[Si](C)(C)C(C)(C)C.CO[C@@H](CCC[C@H](C[C@H](O)[C@H](C)[C@@H](/C=C(\\C)CC/C=C/B1OC(C)(C)C(C)(C)O1)O[Si](C)(C)C(C)(C)C)O[Si](C)(C)C(C)(C)C)CCO[Si](C)(C)C(C)(C)C>>COC(=O)CC[C@H](C)C[C@H](C/C=C/C=C/CC/C(C)=C/[C@@H](O[Si](C)(C)C(C)(C)C)[C@@H](C)[C@@H](O)C[C@@H](CCC[C@@H](C/C=C\\I)OC)O[Si](C)(C)C(C)(C)C)O[Si](C)(C)C(C)(C)C",
+      "yield_percent": null
+    },
+    {
+      "admission_authority": false,
+      "agents": [
+        "Pd(dppf)Cl2",
+        "Cs2CO3",
+        "2,4,6-trichlorobenzoyl chloride",
+        "Et3N",
+        "DMAP"
+      ],
+      "event_id": "U04",
+      "experimental_stage_count": 2,
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+      "operation_stages": [
+        {
+          "description": "Suzuki60%",
+          "stage": 1
+        },
+        {
+          "description": "Yamaguchi-Yonemitsu macrolactonization50%",
+          "stage": 2
+        }
+      ],
+      "product_labels": [
+        "ABCD"
+      ],
+      "product_specific_yields": [],
+      "reactant_labels": [
+        "ABC",
+        "D"
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "water",
+        "DMF",
+        "THF",
+        "toluene"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: U04",
+          "pages": [
+            18
+          ],
+          "sha256": "11d46062844cd0e8bc8d38cccee2c69d89b0fc1432112f364758e1897fef34db",
+          "source_id": "article"
+        }
+      ],
+      "step_id": "U04.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "COC(=O)CC[C@H](C)C[C@H](C/C=C/C=C/CC/C(C)=C/[C@@H](O[Si](C)(C)C(C)(C)C)[C@@H](C)[C@@H](O)C[C@@H](CCC[C@@H](C/C=C\\I)OC)O[Si](C)(C)C(C)(C)C)O[Si](C)(C)C(C)(C)C.C[C@@H]([C@H]1C[C@@H]([C@@H](C)C/C=C/B2OC(C)(C)C(C)(C)O2)OC(C)(C)O1)[C@@H](CC(=O)O)O[Si](C)(C)C(C)(C)C>>COC(=O)CC[C@H](C)C[C@H](C/C=C/C=C/CC/C(C)=C/[C@@H](O[Si](C)(C)C(C)(C)C)[C@@H](C)[C@@H]1C[C@H](O[Si](C)(C)C(C)(C)C)CCC[C@H](OC)C/C=C\\C=C\\C[C@H](C)[C@@H]2C[C@@H](OC(C)(C)O2)[C@H](C)[C@H](O[Si](C)(C)C(C)(C)C)CC(=O)O1)O[Si](C)(C)C(C)(C)C",
+      "yield_percent": null
+    },
+    {
+      "admission_authority": false,
+      "agents": [
+        "HF.pyridine"
+      ],
+      "event_id": "U05",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+      "product_labels": [
+        "acetonide-22-ring",
+        "acetonide-24-ring"
+      ],
+      "product_specific_yields": [],
+      "reactant_labels": [
+        "ABCD"
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "pyridine",
+        "MeCN"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: U05",
+          "pages": [
+            18
+          ],
+          "sha256": "11d46062844cd0e8bc8d38cccee2c69d89b0fc1432112f364758e1897fef34db",
+          "source_id": "article"
+        }
+      ],
+      "step_id": "U05.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "COC(=O)CC[C@H](C)C[C@H](C/C=C/C=C/CC/C(C)=C/[C@@H](O[Si](C)(C)C(C)(C)C)[C@@H](C)[C@@H]1C[C@H](O[Si](C)(C)C(C)(C)C)CCC[C@H](OC)C/C=C\\C=C\\C[C@H](C)[C@@H]2C[C@@H](OC(C)(C)O2)[C@H](C)[C@H](O[Si](C)(C)C(C)(C)C)CC(=O)O1)O[Si](C)(C)C(C)(C)C>>COC(=O)CC[C@H](C)C[C@@H](O)C/C=C/C=C/CC/C(C)=C/[C@@H](O)[C@@H](C)[C@@H]1C[C@H](O)CCC[C@H](OC)C/C=C\\C=C\\C[C@H](C)[C@@H]2C[C@@H](OC(C)(C)O2)[C@H](C)[C@H](O)CC(=O)O1.COC(=O)CC[C@H](C)C[C@@H](O)C/C=C/C=C/CC/C(C)=C/[C@H]1OC(=O)C[C@@H](O)[C@@H](C)[C@H]2C[C@H](OC(C)(C)O2)[C@@H](C)C/C=C/C=C\\C[C@@H](OC)CCC[C@@H](O)C[C@H](O)[C@@H]1C",
+      "yield_percent": null
+    },
+    {
+      "admission_authority": false,
+      "agents": [
+        "AcOH"
+      ],
+      "event_id": "U06",
+      "experimental_stage_count": 1,
+      "formal_benchmark_eligible": false,
+      "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+      "product_labels": [
+        "iso-gladiolin-Me"
+      ],
+      "product_specific_yields": [],
+      "reactant_labels": [
+        "acetonide-22-ring",
+        "acetonide-24-ring"
+      ],
+      "review_status": "pending_independent_chemist_review",
+      "solvents": [
+        "water"
+      ],
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: U06",
+          "pages": [
+            18
+          ],
+          "sha256": "11d46062844cd0e8bc8d38cccee2c69d89b0fc1432112f364758e1897fef34db",
+          "source_id": "article"
+        }
+      ],
+      "step_id": "U06.1",
+      "step_index_within_event": 1,
+      "structure_basis": "source_drawing_transcription",
+      "substrate_product_smiles": "COC(=O)CC[C@H](C)C[C@@H](O)C/C=C/C=C/CC/C(C)=C/[C@@H](O)[C@@H](C)[C@@H]1C[C@H](O)CCC[C@H](OC)C/C=C\\C=C\\C[C@H](C)[C@@H]2C[C@@H](OC(C)(C)O2)[C@H](C)[C@H](O)CC(=O)O1.COC(=O)CC[C@H](C)C[C@@H](O)C/C=C/C=C/CC/C(C)=C/[C@H]1OC(=O)C[C@@H](O)[C@@H](C)[C@H]2C[C@H](OC(C)(C)O2)[C@@H](C)C/C=C/C=C\\C[C@@H](OC)CCC[C@@H](O)C[C@H](O)[C@@H]1C>>COC(=O)CC[C@H](C)C[C@@H](O)C/C=C/C=C/CC/C(C)=C/[C@H]1OC(=O)C[C@@H](O)[C@@H](C)[C@H](O)C[C@H](O)[C@@H](C)C/C=C/C=C\\C[C@@H](OC)CCC[C@@H](O)C[C@H](O)[C@@H]1C",
+      "yield_percent": null
+    }
+  ],
+  "title": "Total Synthesis of iso -Gladiolin Methyl Ester (Lagriene Methyl Ester) via Catalytic Asymmetric C-C Coupling of Alcohols.",
+  "unresolved_events": [
+    {
+      "description": "Abandoned B(Epin) derivative and failed lactonization/free hydroxy acid controls; no drawn isolated products.",
+      "eligible_for_route_smiles_sequence": false,
+      "label": "undrawn controls",
+      "source_references": [
+        {
+          "locator": "Main experimental section / scheme: unresolved transformation",
+          "pages": [
+            4,
+            5
+          ],
+          "sha256": "11d46062844cd0e8bc8d38cccee2c69d89b0fc1432112f364758e1897fef34db",
+          "source_id": "article"
+        }
+      ]
+    }
+  ]
+}

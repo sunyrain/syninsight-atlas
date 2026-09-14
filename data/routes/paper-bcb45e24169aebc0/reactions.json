@@ -1,0 +1,648 @@
+[
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E01",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "10"
+    ],
+    "reactant_labels": [
+      "13",
+      "benzyl-alcohol"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "13",
+        "percent": 10,
+        "product_label": "10",
+        "scope": "overall isolated yield for this preparation; not individual internal stage yields"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source-drawn preparation endpoints, not atom-balanced; relative stereo metadata must accompany isomeric SMILES",
+    "source_references": [
+      {
+        "locator": "SI PDF page = printed S-page: E01 preparation",
+        "pages": [
+          4
+        ],
+        "sha256": "245408e78c3307c52b62044c473e7f6e8274a17624267459ad85ba33616d32f0",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main Schemes 2A/3A source-drawn synthesis: E01 preparation",
+        "pages": [
+          3
+        ],
+        "sha256": "1a294ac56334e46d734ed97bc25135bcc43de3eeb536a9d2668226f76b1b1d3d",
+        "source_id": "main"
+      }
+    ],
+    "step_ids": [
+      "E01.1",
+      "E01.2"
+    ],
+    "substrate_product_smiles": "O=C(O)c1c[nH]c2ccccc12.OCc1ccccc1>>Nc1c[nH]c2ccccc12",
+    "unisolated_intermediate_labels": [
+      "14"
+    ]
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E02",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "10-prime"
+    ],
+    "reactant_labels": [
+      "13-prime",
+      "benzyl-alcohol"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "13-prime",
+        "percent": 57,
+        "product_label": "10-prime",
+        "scope": "overall isolated yield for this preparation; not individual internal stage yields"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source-drawn preparation endpoints, not atom-balanced; relative stereo metadata must accompany isomeric SMILES",
+    "source_references": [
+      {
+        "locator": "SI PDF page = printed S-page: E02 preparation",
+        "pages": [
+          4,
+          5
+        ],
+        "sha256": "245408e78c3307c52b62044c473e7f6e8274a17624267459ad85ba33616d32f0",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main Schemes 2A/3A source-drawn synthesis: E02 preparation",
+        "pages": [
+          3
+        ],
+        "sha256": "1a294ac56334e46d734ed97bc25135bcc43de3eeb536a9d2668226f76b1b1d3d",
+        "source_id": "main"
+      }
+    ],
+    "step_ids": [
+      "E02.1",
+      "E02.2"
+    ],
+    "substrate_product_smiles": "Cc1ccc(S(=O)(=O)n2cc(C(=O)O)c3ccccc32)cc1.OCc1ccccc1>>Cc1ccc(S(=O)(=O)n2cc(N)c3ccccc32)cc1",
+    "unisolated_intermediate_labels": [
+      "14-prime"
+    ]
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E03",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "S7"
+    ],
+    "reactant_labels": [
+      "butanediol",
+      "TIPSCl"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "butanediol",
+        "percent": 97,
+        "product_label": "S7",
+        "scope": "overall isolated yield for this preparation; not individual internal stage yields"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source-drawn preparation endpoints, not atom-balanced; relative stereo metadata must accompany isomeric SMILES",
+    "source_references": [
+      {
+        "locator": "SI PDF page = printed S-page: E03 preparation",
+        "pages": [
+          5
+        ],
+        "sha256": "245408e78c3307c52b62044c473e7f6e8274a17624267459ad85ba33616d32f0",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E03.1"
+    ],
+    "substrate_product_smiles": "CC(C)[Si](Cl)(C(C)C)C(C)C.OCCCCO>>CC(C)[Si](OCCCCO)(C(C)C)C(C)C",
+    "unisolated_intermediate_labels": []
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E04",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "11"
+    ],
+    "reactant_labels": [
+      "S7"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "S7",
+        "percent": 62,
+        "product_label": "11",
+        "scope": "overall isolated yield for this preparation; not individual internal stage yields"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source-drawn preparation endpoints, not atom-balanced; relative stereo metadata must accompany isomeric SMILES",
+    "source_references": [
+      {
+        "locator": "SI PDF page = printed S-page: E04 preparation",
+        "pages": [
+          5
+        ],
+        "sha256": "245408e78c3307c52b62044c473e7f6e8274a17624267459ad85ba33616d32f0",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E04.1"
+    ],
+    "substrate_product_smiles": "CC(C)[Si](OCCCCO)(C(C)C)C(C)C>>CC(C)[Si](OCCCC=O)(C(C)C)C(C)C",
+    "unisolated_intermediate_labels": []
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E05",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "12"
+    ],
+    "reactant_labels": [
+      "sinapic-acid",
+      "methanol",
+      "TIPSCl"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "sinapic-acid",
+        "percent": 89,
+        "product_label": "12",
+        "scope": "overall isolated yield for this preparation; not individual internal stage yields"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source-drawn preparation endpoints, not atom-balanced; relative stereo metadata must accompany isomeric SMILES",
+    "source_references": [
+      {
+        "locator": "SI PDF page = printed S-page: E05 preparation",
+        "pages": [
+          5,
+          6
+        ],
+        "sha256": "245408e78c3307c52b62044c473e7f6e8274a17624267459ad85ba33616d32f0",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E05.1",
+      "E05.2"
+    ],
+    "substrate_product_smiles": "CC(C)[Si](Cl)(C(C)C)C(C)C.CO.COc1cc(/C=C/C(=O)O)cc(OC)c1O>>COC(=O)/C=C/c1cc(OC)c(O[Si](C(C)C)(C(C)C)C(C)C)c(OC)c1",
+    "unisolated_intermediate_labels": [
+      "S4"
+    ]
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E06",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "16"
+    ],
+    "reactant_labels": [
+      "10-prime",
+      "11",
+      "12"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "10-prime",
+        "percent": 43,
+        "product_label": "16",
+        "scope": "overall isolated yield for this preparation; not individual internal stage yields"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source-drawn preparation endpoints, not atom-balanced; relative stereo metadata must accompany isomeric SMILES",
+    "source_references": [
+      {
+        "locator": "SI PDF page = printed S-page: E06 preparation",
+        "pages": [
+          6
+        ],
+        "sha256": "245408e78c3307c52b62044c473e7f6e8274a17624267459ad85ba33616d32f0",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main Schemes 2A/3A source-drawn synthesis: E06 preparation",
+        "pages": [
+          3
+        ],
+        "sha256": "1a294ac56334e46d734ed97bc25135bcc43de3eeb536a9d2668226f76b1b1d3d",
+        "source_id": "main"
+      }
+    ],
+    "step_ids": [
+      "E06.1",
+      "E06.2"
+    ],
+    "substrate_product_smiles": "CC(C)[Si](OCCCC=O)(C(C)C)C(C)C.COC(=O)/C=C/c1cc(OC)c(O[Si](C(C)C)(C(C)C)C(C)C)c(OC)c1.Cc1ccc(S(=O)(=O)n2cc(N)c3ccccc32)cc1>>COC(=O)[C@@H]1[C@@H](c2cc(OC)c(O[Si](C(C)C)(C(C)C)C(C)C)c(OC)c2)c2c(c3ccccc3n2S(=O)(=O)c2ccc(C)cc2)N[C@H]1CCCO",
+    "unisolated_intermediate_labels": [
+      "15"
+    ]
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E07",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "17"
+    ],
+    "reactant_labels": [
+      "16"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "16",
+        "percent": 52,
+        "product_label": "17",
+        "scope": "overall isolated yield for this preparation; not individual internal stage yields"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source-drawn preparation endpoints, not atom-balanced; relative stereo metadata must accompany isomeric SMILES",
+    "source_references": [
+      {
+        "locator": "SI PDF page = printed S-page: E07 preparation",
+        "pages": [
+          6
+        ],
+        "sha256": "245408e78c3307c52b62044c473e7f6e8274a17624267459ad85ba33616d32f0",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main Schemes 2A/3A source-drawn synthesis: E07 preparation",
+        "pages": [
+          3
+        ],
+        "sha256": "1a294ac56334e46d734ed97bc25135bcc43de3eeb536a9d2668226f76b1b1d3d",
+        "source_id": "main"
+      }
+    ],
+    "step_ids": [
+      "E07.1"
+    ],
+    "substrate_product_smiles": "COC(=O)[C@@H]1[C@@H](c2cc(OC)c(O[Si](C(C)C)(C(C)C)C(C)C)c(OC)c2)c2c(c3ccccc3n2S(=O)(=O)c2ccc(C)cc2)N[C@H]1CCCO>>COC(=O)[C@@H]1[C@@H](c2cc(OC)c(O[Si](C(C)C)(C(C)C)C(C)C)c(OC)c2)c2c(c3ccccc3n2S(=O)(=O)c2ccc(C)cc2)N2CCC[C@@H]12",
+    "unisolated_intermediate_labels": []
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E08",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "17"
+    ],
+    "reactant_labels": [
+      "10-prime",
+      "18",
+      "12"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "10-prime",
+        "percent": 71,
+        "product_label": "17",
+        "scope": "overall isolated yield for this preparation; not individual internal stage yields"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source-drawn preparation endpoints, not atom-balanced; relative stereo metadata must accompany isomeric SMILES",
+    "source_references": [
+      {
+        "locator": "SI PDF page = printed S-page: E08 preparation",
+        "pages": [
+          6,
+          7
+        ],
+        "sha256": "245408e78c3307c52b62044c473e7f6e8274a17624267459ad85ba33616d32f0",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main Schemes 2A/3A source-drawn synthesis: E08 preparation",
+        "pages": [
+          3
+        ],
+        "sha256": "1a294ac56334e46d734ed97bc25135bcc43de3eeb536a9d2668226f76b1b1d3d",
+        "source_id": "main"
+      }
+    ],
+    "step_ids": [
+      "E08.1",
+      "E08.2",
+      "E08.3"
+    ],
+    "substrate_product_smiles": "BrCCCC1OCCO1.COC(=O)/C=C/c1cc(OC)c(O[Si](C(C)C)(C(C)C)C(C)C)c(OC)c1.Cc1ccc(S(=O)(=O)n2cc(N)c3ccccc32)cc1>>COC(=O)[C@@H]1[C@@H](c2cc(OC)c(O[Si](C(C)C)(C(C)C)C(C)C)c(OC)c2)c2c(c3ccccc3n2S(=O)(=O)c2ccc(C)cc2)N2CCC[C@@H]12",
+    "unisolated_intermediate_labels": [
+      "19",
+      "20"
+    ]
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E09",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "21"
+    ],
+    "reactant_labels": [
+      "17"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "17",
+        "percent": 62,
+        "product_label": "21",
+        "scope": "overall isolated yield for this preparation; not individual internal stage yields"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source-drawn preparation endpoints, not atom-balanced; relative stereo metadata must accompany isomeric SMILES",
+    "source_references": [
+      {
+        "locator": "SI PDF page = printed S-page: E09 preparation",
+        "pages": [
+          7,
+          8
+        ],
+        "sha256": "245408e78c3307c52b62044c473e7f6e8274a17624267459ad85ba33616d32f0",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main Schemes 2A/3A source-drawn synthesis: E09 preparation",
+        "pages": [
+          3
+        ],
+        "sha256": "1a294ac56334e46d734ed97bc25135bcc43de3eeb536a9d2668226f76b1b1d3d",
+        "source_id": "main"
+      }
+    ],
+    "step_ids": [
+      "E09.1"
+    ],
+    "substrate_product_smiles": "COC(=O)[C@@H]1[C@@H](c2cc(OC)c(O[Si](C(C)C)(C(C)C)C(C)C)c(OC)c2)c2c(c3ccccc3n2S(=O)(=O)c2ccc(C)cc2)N2CCC[C@@H]12>>COC(=O)[C@@H]1[C@@H](c2cc(OC)c(O[Si](C(C)C)(C(C)C)C(C)C)c(OC)c2)[C@]2(C(=O)N(S(=O)(=O)c3ccc(C)cc3)c3ccccc32)N2CCC[C@@H]12",
+    "unisolated_intermediate_labels": []
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E10",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "21"
+    ],
+    "reactant_labels": [
+      "10-prime",
+      "18",
+      "12"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "10-prime",
+        "percent": 55,
+        "product_label": "21",
+        "scope": "overall isolated yield for this preparation; not individual internal stage yields"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source-drawn preparation endpoints, not atom-balanced; relative stereo metadata must accompany isomeric SMILES",
+    "source_references": [
+      {
+        "locator": "SI PDF page = printed S-page: E10 preparation",
+        "pages": [
+          7,
+          8
+        ],
+        "sha256": "245408e78c3307c52b62044c473e7f6e8274a17624267459ad85ba33616d32f0",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main Schemes 2A/3A source-drawn synthesis: E10 preparation",
+        "pages": [
+          4
+        ],
+        "sha256": "1a294ac56334e46d734ed97bc25135bcc43de3eeb536a9d2668226f76b1b1d3d",
+        "source_id": "main"
+      }
+    ],
+    "step_ids": [
+      "E10.1",
+      "E10.2",
+      "E10.3",
+      "E10.4"
+    ],
+    "substrate_product_smiles": "BrCCCC1OCCO1.COC(=O)/C=C/c1cc(OC)c(O[Si](C(C)C)(C(C)C)C(C)C)c(OC)c1.Cc1ccc(S(=O)(=O)n2cc(N)c3ccccc32)cc1>>COC(=O)[C@@H]1[C@@H](c2cc(OC)c(O[Si](C(C)C)(C(C)C)C(C)C)c(OC)c2)[C@]2(C(=O)N(S(=O)(=O)c3ccc(C)cc3)c3ccccc32)N2CCC[C@@H]12",
+    "unisolated_intermediate_labels": [
+      "19",
+      "20"
+    ]
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E11",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "22"
+    ],
+    "reactant_labels": [
+      "21"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "21",
+        "percent": 86,
+        "product_label": "22",
+        "scope": "overall isolated yield for this preparation; not individual internal stage yields"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source-drawn preparation endpoints, not atom-balanced; relative stereo metadata must accompany isomeric SMILES",
+    "source_references": [
+      {
+        "locator": "SI PDF page = printed S-page: E11 preparation",
+        "pages": [
+          8
+        ],
+        "sha256": "245408e78c3307c52b62044c473e7f6e8274a17624267459ad85ba33616d32f0",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main Schemes 2A/3A source-drawn synthesis: E11 preparation",
+        "pages": [
+          3
+        ],
+        "sha256": "1a294ac56334e46d734ed97bc25135bcc43de3eeb536a9d2668226f76b1b1d3d",
+        "source_id": "main"
+      }
+    ],
+    "step_ids": [
+      "E11.1"
+    ],
+    "substrate_product_smiles": "COC(=O)[C@@H]1[C@@H](c2cc(OC)c(O[Si](C(C)C)(C(C)C)C(C)C)c(OC)c2)[C@]2(C(=O)N(S(=O)(=O)c3ccc(C)cc3)c3ccccc32)N2CCC[C@@H]12>>COC(=O)[C@@H]1[C@@H](c2cc(OC)c(O)c(OC)c2)[C@]2(C(=O)N(S(=O)(=O)c3ccc(C)cc3)c3ccccc32)N2CCC[C@@H]12",
+    "unisolated_intermediate_labels": []
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E12",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "23"
+    ],
+    "reactant_labels": [
+      "21"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "21",
+        "percent": 79,
+        "product_label": "23",
+        "scope": "overall isolated yield for this preparation; not individual internal stage yields"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source-drawn preparation endpoints, not atom-balanced; relative stereo metadata must accompany isomeric SMILES",
+    "source_references": [
+      {
+        "locator": "SI PDF page = printed S-page: E12 preparation",
+        "pages": [
+          8
+        ],
+        "sha256": "245408e78c3307c52b62044c473e7f6e8274a17624267459ad85ba33616d32f0",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main Schemes 2A/3A source-drawn synthesis: E12 preparation",
+        "pages": [
+          4
+        ],
+        "sha256": "1a294ac56334e46d734ed97bc25135bcc43de3eeb536a9d2668226f76b1b1d3d",
+        "source_id": "main"
+      }
+    ],
+    "step_ids": [
+      "E12.1"
+    ],
+    "substrate_product_smiles": "COC(=O)[C@@H]1[C@@H](c2cc(OC)c(O[Si](C(C)C)(C(C)C)C(C)C)c(OC)c2)[C@]2(C(=O)N(S(=O)(=O)c3ccc(C)cc3)c3ccccc32)N2CCC[C@@H]12>>COC(=O)[C@@H]1[C@@H](c2cc(OC)c(O[Si](C(C)C)(C(C)C)C(C)C)c(OC)c2)[C@]2(C(=O)Nc3ccccc32)N2CCC[C@@H]12",
+    "unisolated_intermediate_labels": []
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E13",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "4"
+    ],
+    "reactant_labels": [
+      "23"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "23",
+        "percent": 87,
+        "product_label": "4",
+        "scope": "overall isolated yield for this preparation; not individual internal stage yields"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source-drawn preparation endpoints, not atom-balanced; relative stereo metadata must accompany isomeric SMILES",
+    "source_references": [
+      {
+        "locator": "SI PDF page = printed S-page: E13 preparation",
+        "pages": [
+          8,
+          9
+        ],
+        "sha256": "245408e78c3307c52b62044c473e7f6e8274a17624267459ad85ba33616d32f0",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main Schemes 2A/3A source-drawn synthesis: E13 preparation",
+        "pages": [
+          4
+        ],
+        "sha256": "1a294ac56334e46d734ed97bc25135bcc43de3eeb536a9d2668226f76b1b1d3d",
+        "source_id": "main"
+      }
+    ],
+    "step_ids": [
+      "E13.1"
+    ],
+    "substrate_product_smiles": "COC(=O)[C@@H]1[C@@H](c2cc(OC)c(O[Si](C(C)C)(C(C)C)C(C)C)c(OC)c2)[C@]2(C(=O)Nc3ccccc32)N2CCC[C@@H]12>>COC(=O)[C@@H]1[C@@H](c2cc(OC)c(O)c(OC)c2)[C@]2(C(=O)Nc3ccccc32)N2CCC[C@@H]12",
+    "unisolated_intermediate_labels": []
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E14",
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "6"
+    ],
+    "reactant_labels": [
+      "4"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "4",
+        "percent": 61,
+        "product_label": "6",
+        "scope": "overall isolated yield for this preparation; not individual internal stage yields"
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "smiles_scope": "Source-drawn preparation endpoints, not atom-balanced; relative stereo metadata must accompany isomeric SMILES",
+    "source_references": [
+      {
+        "locator": "SI PDF page = printed S-page: E14 preparation",
+        "pages": [
+          9
+        ],
+        "sha256": "245408e78c3307c52b62044c473e7f6e8274a17624267459ad85ba33616d32f0",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main Schemes 2A/3A source-drawn synthesis: E14 preparation",
+        "pages": [
+          4
+        ],
+        "sha256": "1a294ac56334e46d734ed97bc25135bcc43de3eeb536a9d2668226f76b1b1d3d",
+        "source_id": "main"
+      }
+    ],
+    "step_ids": [
+      "E14.1"
+    ],
+    "substrate_product_smiles": "COC(=O)[C@@H]1[C@@H](c2cc(OC)c(O)c(OC)c2)[C@]2(C(=O)Nc3ccccc32)N2CCC[C@@H]12>>COC(=O)[C@@H]1[C@@H](c2cc(OC)c(O)c(OC)c2)[C@@]2(ON3CCC[C@@H]13)C(=O)Nc1ccccc12",
+    "unisolated_intermediate_labels": []
+  }
+]

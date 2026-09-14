@@ -28,6 +28,34 @@ The hosted browser is available at
 Those zeroes are deliberate. Machine extraction, source availability, valid SMILES,
 and route connectivity do not grant literature-truth admission.
 
+## Desktop route browser update
+
+The original discovery snapshot remains intact. The desktop website adds a separate
+source-bound route dataset: **6,555 step occurrences, 635 paths/branches, and 91
+source papers**. These are candidate records pending independent chemical review;
+path occurrences must not be mistaken for unique experimental operations.
+
+- `data/database/SynInsight_ABSynth_Dataset.csv`: main nine-column reaction table.
+- `data/routes/`: curated candidate cases, structures and source locators.
+- `route.html` and `assets/route-overviews/`: connected vector pathways with desktop
+  pan/zoom, step navigation, highlighting and shareable step links.
+- `reader.html` and `pages/`: readable data/document views.
+- `scripts/build_web.py` and `scripts/validate_web.py`: website build and checks.
+- `tests/`: original release contract plus website integration checks.
+
+The site remains a static website served from the repository root with `.nojekyll`.
+See [deployment and update instructions](docs/DEPLOYMENT.md) and the
+[repository integration notes](docs/REPOSITORY_UPDATE.md).
+
+To rebuild only the website (without re-exporting the original snapshot):
+
+```sh
+python -m pip install -r requirements-web.txt
+python scripts/build_web.py
+python scripts/validate_web.py
+python scripts/validate_release.py
+```
+
 ## Repository contents
 
 - `data/papers.json` and `data/papers.csv`: paper-level browser and analysis tables;

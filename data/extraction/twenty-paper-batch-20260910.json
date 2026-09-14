@@ -1,0 +1,1201 @@
+{
+  "batch_id": "twenty-papers-20260910",
+  "paper_ids": [
+    "paper-fc94daed8713ef1e",
+    "paper-e8695c1d3895d8c6",
+    "paper-8736f8c2a9e952ac",
+    "paper-960f0a43f7299433",
+    "paper-fd21dcae86bb47e8",
+    "paper-002ed49144be1357",
+    "paper-2d9b2cb848bfbd04",
+    "paper-c68b92dcce0b5753",
+    "paper-94a995685012cf20",
+    "paper-561d3429850cabb7",
+    "paper-c4cb813fe92c2654",
+    "paper-d5b6a4cfeaa21ccf",
+    "paper-59ea1b0b856fb5d7",
+    "paper-2ecc227214f2cf77",
+    "paper-5ffc2379ff4366f0",
+    "paper-e1019ba02f1e20ab",
+    "paper-920358bb74cd4159",
+    "paper-53d2449f553459cc",
+    "paper-85e8c2686b8db79f",
+    "paper-7536ef37e89afbbd"
+  ],
+  "status": "integrated_candidate_pending_independent_review",
+  "selection": "Twenty unextracted local-source candidates; per-paper target-risk/source screening precedes transcription. Replacements must be logged.",
+  "detail_policy": "data/extraction/detail-policy.json",
+  "completed": [
+    {
+      "paper_id": "paper-fc94daed8713ef1e",
+      "name": "Venezuelaene A",
+      "title": "Asymmetric Total Synthesis of Venezuelaene A via TEMPO+BF4--Mediated Oxidative Nazarov Cyclization and Cascade Metathesis.",
+      "status": "integrated_candidate_pending_independent_review",
+      "molecules": 36,
+      "reaction_events": 29,
+      "operation_steps": 29,
+      "routes": 4,
+      "full_article_route_coverage": true,
+      "available_si_preparation_network_covered": true,
+      "source_roles": [
+        "main_article",
+        "supporting_information"
+      ],
+      "source_hashes": [
+        "214cb62a3fd959eab0f72c4fffe66bc7c24152aa22747093cec192ef757dfbb8",
+        "db9402f2fc5d20d153225ec1bcdd36f3bcbb16ea1a1a2c13d9a83ff526b2490c"
+      ],
+      "coverage_note": "正文＋SI；Nazarov／复分解路线及早期分支；未标明的醇与波浪键中心保留未指定。",
+      "unresolved_events": [],
+      "source_conflicts": [
+        {
+          "detail": "MainScheme4 prints56%two-step yield butSIp10 explicitly56%brsmwith55%24recovered. Keep BRSM qualifier; do not use56%as ordinary isolated route-yield factor.",
+          "id": "brsm",
+          "severity": "source_conflict",
+          "subject": "E14"
+        },
+        {
+          "detail": "Mainprose calls allylformate; schemes andSI specify allyl chloroformate, whose graph is used.",
+          "id": "reagent-name",
+          "severity": "source_conflict",
+          "subject": "E04/A01"
+        },
+        {
+          "detail": "SIp20 reports formulaC23H36O with [M+H-H2O]+ but gives311.2733, consistent with a different adduct expression; graph-derived neutralformula retained.",
+          "id": "HRMS18",
+          "severity": "source_conflict",
+          "subject": "18"
+        }
+      ],
+      "deterministic_audit_passed": true
+    },
+    {
+      "paper_id": "paper-e8695c1d3895d8c6",
+      "name": "Malbrancheamide B",
+      "title": "Total Synthesis of (+)-Malbrancheamide B Employing a Bioinspired Strategy.",
+      "status": "integrated_candidate_pending_independent_review",
+      "molecules": 15,
+      "reaction_events": 13,
+      "operation_steps": 13,
+      "routes": 4,
+      "full_article_route_coverage": true,
+      "available_si_preparation_network_covered": false,
+      "source_roles": [
+        "main_article"
+      ],
+      "source_hashes": [
+        "98084ca60dd155a499ea02cb6c235ba0125896118b54f1cba0ac4b7e34106573"
+      ],
+      "coverage_note": "仅正文；仿生环化、混合物及桥环副产物；23 的 SDF 立体信息已核对。",
+      "unresolved_events": [],
+      "source_conflicts": [],
+      "deterministic_audit_passed": true
+    },
+    {
+      "paper_id": "paper-8736f8c2a9e952ac",
+      "name": "Voratin C",
+      "title": "Total Synthesis of Voratin C: Formation of the [6,5]-Spiroketal Core through Acid-Mediated Epoxide Cascade Opening.",
+      "status": "integrated_candidate_pending_independent_review",
+      "molecules": 43,
+      "reaction_events": 31,
+      "operation_steps": 31,
+      "routes": 6,
+      "full_article_route_coverage": true,
+      "available_si_preparation_network_covered": true,
+      "source_roles": [
+        "main_article",
+        "supporting_information"
+      ],
+      "source_hashes": [
+        "b8b086bd01acf06c7c3c5f62d6843ac26d2a83630835c657b433cd3b5cb37d98",
+        "8ec0bbd4b71b6aa5c658dff76d2b9f9c973b758abf555209076a58aa5ffe173f"
+      ],
+      "coverage_note": "正文＋SI；环氧开环／螺缩酮；C17 名称与图示冲突待复核。",
+      "unresolved_events": [],
+      "source_conflicts": [
+        {
+          "detail": "SI headings assign conflicting stereodescriptors: C17 is called 2S in 25-28 despite the unchanged source drawing from R-24; The 29 heading also disagrees at C9 and C17; 30 agrees with the drawing-derived assignments. Drawing-derived graphs are authoritative here; independent review is required.",
+          "id": "nomenclature",
+          "severity": "source_conflict",
+          "subject": "25-30"
+        },
+        {
+          "detail": "Main/SI scheme reports E/Z 8:2 but SI prose names isolated E material. Encode drawn E with explicit mixture qualification; do not claim stereopure material.",
+          "id": "14-mixture",
+          "severity": "source_conflict",
+          "subject": "14"
+        },
+        {
+          "detail": "SI prose and scheme differ for multiple reaction times (16a,16,17,10,22,25,26,28,29/30); no standardized trusted time assigned.",
+          "id": "times",
+          "severity": "source_conflict",
+          "subject": "experimental conditions"
+        }
+      ],
+      "deterministic_audit_passed": true
+    },
+    {
+      "paper_id": "paper-960f0a43f7299433",
+      "name": "Isoplagiochin D",
+      "title": "Synthesis of Chiral Cyclophanes via Pd(II)-Catalyzed Atroposelective C-H Macrocyclization: Total Synthesis of Isoplagiochin D.",
+      "status": "integrated_candidate_pending_independent_review",
+      "molecules": 14,
+      "reaction_events": 10,
+      "operation_steps": 10,
+      "routes": 1,
+      "full_article_route_coverage": true,
+      "available_si_preparation_network_covered": false,
+      "source_roles": [
+        "main_article",
+        "supporting_information"
+      ],
+      "source_hashes": [
+        "3521c5ca07147c292b5aec182e9c92fee9f1ba8d64d6a3413d06ca550554fc5d",
+        "c4ff5ec3a8c8d71c932b6695fa1e28977c720592685bbf2e28c73c65efc4a892"
+      ],
+      "coverage_note": "正文＋SI；轴手性 M 与 ee 另存，普通四面体 SMILES 不完整表达轴手性。",
+      "unresolved_events": [],
+      "source_conflicts": [
+        {
+          "detail": "SI p57 prose calls product 9, while drawn scheme and subsequent use identify 5.",
+          "id": "typo5",
+          "severity": "source_conflict",
+          "subject": "5"
+        },
+        {
+          "detail": "SI p58 Pd(OAc)2 1.1 g/5 mmol conflicts with 10 mol% on 5 mmol substrate; do not normalize into a trusted loading.",
+          "id": "pdload",
+          "severity": "source_conflict",
+          "subject": "E07"
+        }
+      ],
+      "deterministic_audit_passed": true
+    },
+    {
+      "paper_id": "paper-fd21dcae86bb47e8",
+      "name": "Macrocephadiolide A",
+      "title": "Oxidation-Induced Scaffold Remodeling in Ainsliaea Disesquiterpenoids: Total Synthesis of Macrocephadiolide A.",
+      "status": "integrated_candidate_pending_independent_review",
+      "molecules": 13,
+      "reaction_events": 11,
+      "operation_steps": 11,
+      "routes": 8,
+      "full_article_route_coverage": true,
+      "available_si_preparation_network_covered": false,
+      "source_roles": [
+        "main_article"
+      ],
+      "source_hashes": [
+        "e184642c10dea6b6e004159a943541ae2ae542172dfaa17d5243eefba33e94e2"
+      ],
+      "coverage_note": "仅正文；氧化重排及分支；9／10 部分立体未指定，FeCl2／FeCl3 标注冲突。",
+      "unresolved_events": [
+        {
+          "description": "Cited preparation; operations not reported in current main text.",
+          "eligible_for_route_smiles_sequence": false,
+          "id": "upstream1to2",
+          "source_references": [
+            {
+              "locator": "Main experimental section / scheme: unresolved transformation",
+              "pages": [
+                2
+              ],
+              "sha256": "e184642c10dea6b6e004159a943541ae2ae542172dfaa17d5243eefba33e94e2",
+              "source_id": "article"
+            }
+          ]
+        },
+        {
+          "description": "5 or diketone-stage reduction toward6 unsuccessful; no product structure asserted.",
+          "eligible_for_route_smiles_sequence": false,
+          "id": "failed-reductions",
+          "source_references": [
+            {
+              "locator": "Main experimental section / scheme: unresolved transformation",
+              "pages": [
+                3
+              ],
+              "sha256": "e184642c10dea6b6e004159a943541ae2ae542172dfaa17d5243eefba33e94e2",
+              "source_id": "article"
+            }
+          ]
+        }
+      ],
+      "source_conflicts": [
+        {
+          "detail": "Abstract calls3 ainsliadimer A; introduction distinguishes3 congener from4. Historical4 not part of current productive route.",
+          "id": "M01",
+          "severity": "source_conflict",
+          "subject": "3/4"
+        },
+        {
+          "detail": "Prose direct peroxide11 conversion FeCl2 64%; scheme shows12->13 FeCl3 followed by FeCl2 arrows. Retain conflicting locators; do not allocate64% to individual arrows.",
+          "id": "M02",
+          "severity": "source_conflict",
+          "subject": "11->5"
+        },
+        {
+          "detail": "12 formation quantitative in prose versus89%scheme;8 from3 <25%prose versus25%scheme byproduct. Preserve reported scope and conflict.",
+          "id": "M03",
+          "severity": "source_conflict",
+          "subject": "12/8"
+        }
+      ],
+      "deterministic_audit_passed": true
+    },
+    {
+      "paper_id": "paper-002ed49144be1357",
+      "name": "Eudesmane 系列",
+      "title": "Collective Asymmetric Synthesis of Eudesmane-Type Sesquiterpenoids from (+)-Verbenone: Production of Atractylenolides, Lactam Analogs, and Dimeric Congeners",
+      "status": "integrated_candidate_pending_independent_review",
+      "molecules": 42,
+      "reaction_events": 29,
+      "operation_steps": 29,
+      "routes": 17,
+      "full_article_route_coverage": true,
+      "available_si_preparation_network_covered": true,
+      "source_roles": [
+        "main_article",
+        "supporting_information"
+      ],
+      "source_hashes": [
+        "c3349b346e5165585be78e9ac63e6730cd3849c64016a024eff8e1ae504f12e8",
+        "4644b7cbcbdd1f470b07553b8cbd0eb82efe3aa4093bf3b9e3f14392b623bc32"
+      ],
+      "coverage_note": "正文＋SI；多目标分支；形式合成端点及引用前体明确作为边界。",
+      "unresolved_events": [
+        {
+          "eligible_for_route_smiles_sequence": false,
+          "event_id": "literature-21-27",
+          "reason": "Known three-step preparation, individual steps not in this source",
+          "source_references": [
+            {
+              "locator": "Main experimental section / scheme: unresolved transformation",
+              "pages": [
+                3
+              ],
+              "sha256": "c3349b346e5165585be78e9ac63e6730cd3849c64016a024eff8e1ae504f12e8",
+              "source_id": "article"
+            }
+          ]
+        },
+        {
+          "eligible_for_route_smiles_sequence": false,
+          "event_id": "literature-21-32",
+          "reason": "Known three-step preparation, 66% combined; individual steps not in this source",
+          "source_references": [
+            {
+              "locator": "Main experimental section / scheme: unresolved transformation",
+              "pages": [
+                4
+              ],
+              "sha256": "c3349b346e5165585be78e9ac63e6730cd3849c64016a024eff8e1ae504f12e8",
+              "source_id": "article"
+            }
+          ]
+        },
+        {
+          "eligible_for_route_smiles_sequence": false,
+          "event_id": "formal-4-17-35",
+          "reason": "Formal synthesis cites two literature steps; not an experimental route in this article",
+          "source_references": [
+            {
+              "locator": "Main experimental section / scheme: unresolved transformation",
+              "pages": [
+                5,
+                6
+              ],
+              "sha256": "c3349b346e5165585be78e9ac63e6730cd3849c64016a024eff8e1ae504f12e8",
+              "source_id": "article"
+            }
+          ]
+        }
+      ],
+      "source_conflicts": [
+        {
+          "detail": "Martin sulfurane 30:31 ratio is 8:1 in main Scheme 2, approximately 8:1 in prose, but 5:1 in SI p8.",
+          "id": "ratio",
+          "severity": "source_conflict",
+          "subject": "A05C"
+        },
+        {
+          "detail": "Main E05 uses 60 C but SI uses 90 C. Main water addition D01 uses 50 C but SI describes room temperature. No silently reconciled condition.",
+          "id": "temperature",
+          "severity": "source_conflict",
+          "subject": "E05/D01"
+        }
+      ],
+      "deterministic_audit_passed": true
+    },
+    {
+      "paper_id": "paper-2d9b2cb848bfbd04",
+      "name": "Itomanallene B",
+      "title": "Total Synthesis and Absolute Structure Assignment of (+)-Itomanallene B.",
+      "status": "integrated_candidate_pending_independent_review",
+      "molecules": 43,
+      "reaction_events": 36,
+      "operation_steps": 36,
+      "routes": 6,
+      "full_article_route_coverage": true,
+      "available_si_preparation_network_covered": false,
+      "source_roles": [
+        "main_article",
+        "supporting_information"
+      ],
+      "source_hashes": [
+        "c706656d4286c247094735b09a44c0ac37d5994fadbba9b426d37b2007c86073",
+        "c57c76b1a5456e53859c11685f4862ea74965dbc0d604870fed7a82fcd2224d4"
+      ],
+      "coverage_note": "正文含实验，SI 为谱图；丙二烯轴手性另存，混合物中心未强行指定。",
+      "unresolved_events": [
+        {
+          "eligible_for_route_smiles_sequence": false,
+          "id": "iodide-upstream",
+          "reason": "No preparation of phosphonium iodide reported; distinct bromide feed preparation cannot be substituted.",
+          "source_references": [
+            {
+              "locator": "Main experimental section / scheme: unresolved transformation",
+              "pages": [
+                12
+              ],
+              "sha256": "c706656d4286c247094735b09a44c0ac37d5994fadbba9b426d37b2007c86073",
+              "source_id": "article"
+            }
+          ]
+        }
+      ],
+      "source_conflicts": [
+        {
+          "detail": "Scheme 7 gives 94%; experimental section gives 93%. Preserve experimental value and scheme discrepancy.",
+          "id": "yield26",
+          "severity": "source_conflict",
+          "subject": "C10"
+        },
+        {
+          "detail": "Scheme 6 reports 94%; narrative reports 93% for trisylation. Product is an inseparable mixture.",
+          "id": "yield23",
+          "severity": "source_conflict",
+          "subject": "C07"
+        },
+        {
+          "detail": "Experimental prose positive sign conflicts with negative heading/negative rotation. Do not infer absolute configuration from rotation alone.",
+          "id": "rotation2aprime",
+          "severity": "source_conflict",
+          "subject": "2a'"
+        }
+      ],
+      "deterministic_audit_passed": true
+    },
+    {
+      "paper_id": "paper-c68b92dcce0b5753",
+      "name": "Palhinines B/C",
+      "title": "Asymmetric Total Synthesis of C2-OH Lycopodium Alkaloids (-)-Palhinine B, (-)-Palhinine C, and (+)-Palhinine B Enabled by Stereocontrolled Diels-Alder Strategy.",
+      "status": "integrated_candidate_pending_independent_review",
+      "molecules": 47,
+      "reaction_events": 43,
+      "operation_steps": 43,
+      "routes": 6,
+      "full_article_route_coverage": true,
+      "available_si_preparation_network_covered": false,
+      "source_roles": [
+        "main_article"
+      ],
+      "source_hashes": [
+        "164e728edc844b85e599f7689b4cebab4c448aaadf0f466c63cfab2c313b6bae"
+      ],
+      "coverage_note": "仅正文；B／C 与对映系列；酪氨酸上游文献步骤作为边界。",
+      "unresolved_events": [
+        {
+          "eligible_for_route_smiles_sequence": false,
+          "id": "10-to-11",
+          "reason": "Referenced two-step upstream preparation; aggregate 69% for each enantiomer, no detailed operations in available source.",
+          "source_references": [
+            {
+              "locator": "Main experimental section / scheme: unresolved transformation",
+              "pages": [
+                2,
+                3
+              ],
+              "sha256": "164e728edc844b85e599f7689b4cebab4c448aaadf0f466c63cfab2c313b6bae",
+              "source_id": "article"
+            }
+          ]
+        }
+      ],
+      "source_conflicts": [
+        {
+          "detail": "Scheme 3 reports 36% (ent 41%) over three operations from 22; narrative reports 50% for cyclization. No individual 23-to-24 yield is asserted from scheme aggregate.",
+          "id": "24-yield",
+          "severity": "source_conflict",
+          "subject": "22/23/24"
+        },
+        {
+          "detail": "Narrative calls DMP product 25; Scheme 3 clearly assigns diketone 6 and subsequent deprotection/hemiaminal product 25.",
+          "id": "6-25-typo",
+          "severity": "source_conflict",
+          "subject": "6/25"
+        }
+      ],
+      "deterministic_audit_passed": true
+    },
+    {
+      "paper_id": "paper-94a995685012cf20",
+      "name": "Mulberrofurans 等",
+      "title": "Bioinspired Total Synthesis of Mulberrofurans G and J, Inethermulberrofuran C, and Mongolicin C from a Common Intermediate.",
+      "status": "integrated_candidate_pending_independent_review",
+      "molecules": 27,
+      "reaction_events": 24,
+      "operation_steps": 24,
+      "routes": 10,
+      "full_article_route_coverage": true,
+      "available_si_preparation_network_covered": true,
+      "source_roles": [
+        "main_article",
+        "supporting_information"
+      ],
+      "source_hashes": [
+        "6e0d4573235aea9ebb9014db50984f0476f53ca16168486e0d8eef0f83e7a6e6",
+        "084da53f87c1c89300817bc5728b545b67d111b080b3046377930d938dc09314"
+      ],
+      "coverage_note": "正文＋SI；共同中间体与四个目标；消旋与部分中心未定，不纳入完整立体训练真值。",
+      "unresolved_events": [
+        {
+          "eligible_for_route_smiles_sequence": false,
+          "id": "upstream-boundaries",
+          "reason": "Preparations of known 10/S1/S5/15/16 are cited, not reproduced.",
+          "source_references": [
+            {
+              "locator": "Main experimental section / scheme: unresolved transformation",
+              "pages": [
+                2,
+                3
+              ],
+              "sha256": "6e0d4573235aea9ebb9014db50984f0476f53ca16168486e0d8eef0f83e7a6e6",
+              "source_id": "article"
+            }
+          ]
+        }
+      ],
+      "source_conflicts": [
+        {
+          "detail": "SI S10 prose calls product 16; heading/scheme/formula identify acetate 17. SI S11 calls cycloaddition feed 8 but mass and scheme identify 17.",
+          "id": "17-label",
+          "severity": "source_conflict",
+          "subject": "17"
+        },
+        {
+          "detail": "Main Scheme 7 gives H2SO4/EtOH/60 C; SI S17 actual experiment gives HCl/MeOH/80 C. Both locators retained; SI conditions are used.",
+          "id": "20-conditions",
+          "severity": "source_conflict",
+          "subject": "19-to-20"
+        },
+        {
+          "detail": "SI gives 68.7 mg as 0.815 mmol; inconsistent with molecular mass, so no trusted reagent loading inferred.",
+          "id": "S7-amount",
+          "severity": "source_conflict",
+          "subject": "19-to-S7"
+        }
+      ],
+      "deterministic_audit_passed": true
+    },
+    {
+      "paper_id": "paper-561d3429850cabb7",
+      "name": "ent-Kaurane 系列",
+      "title": "Total Synthesis of ent ‐Kaurenoic Acid Diterpenoids Enabled by Distal Conformational Control in Photoredox Radical Polyene Cyclization",
+      "status": "integrated_candidate_pending_independent_review",
+      "molecules": 54,
+      "reaction_events": 51,
+      "operation_steps": 51,
+      "routes": 10,
+      "full_article_route_coverage": false,
+      "available_si_preparation_network_covered": true,
+      "source_roles": [
+        "supporting_information"
+      ],
+      "source_hashes": [
+        "db1cf21d054591711ba20834c83560a160d7a945517a819ab72bca013171e7c2"
+      ],
+      "coverage_note": "仅 SI；多目标 ent-kaurane 网络；部分羟基、环氧与混合物立体待补。",
+      "unresolved_events": [
+        {
+          "eligible_for_route_smiles_sequence": false,
+          "id": "upstream-S5-S7",
+          "reason": "No preparation before shown known starting compounds.",
+          "source_references": [
+            {
+              "locator": "SI drawing/procedure: unresolved transformation",
+              "pages": [
+                25
+              ],
+              "sha256": "db1cf21d054591711ba20834c83560a160d7a945517a819ab72bca013171e7c2",
+              "source_id": "si"
+            }
+          ]
+        }
+      ],
+      "source_conflicts": [
+        {
+          "detail": "No asymmetric reagent before S9-catalyzed step, yet S8 rotation and single-wedge depiction are supplied. S8 retained with unknown stereochemistry.",
+          "id": "S8-rotation",
+          "severity": "source_conflict",
+          "subject": "S8"
+        },
+        {
+          "detail": "Scheme writes er=89.6%, HPLC says 89.6:10.4; text calls (-)-15 while measured rotation listed +98.3. Use er ratio and source drawing, not sign-inferred absolute configuration.",
+          "id": "15-er-sign",
+          "severity": "source_conflict",
+          "subject": "15"
+        },
+        {
+          "detail": "SI p52 heading/prose erroneously call final hydrolysis an epoxide/compound4. Diagram, formula and characterization identify keto-diol acid5; no Na+ included in neutral acid recovered after acidic workup.",
+          "id": "5-heading",
+          "severity": "source_conflict",
+          "subject": "5"
+        },
+        {
+          "detail": "SI p52 labels [M+Na]+ for C21H33NaO5 at365.2323; formula/mass inconsistent. Neutral C21H32O5 topology from source is retained; no erroneous formula enforced.",
+          "id": "6-HRMS",
+          "severity": "source_conflict",
+          "subject": "6"
+        },
+        {
+          "detail": "p31 calls S18 feed16; p50 calls epoxide30 feed31. Diagrams resolve identifiers.",
+          "id": "source-typos",
+          "severity": "source_conflict",
+          "subject": "13/31"
+        },
+        {
+          "detail": "Scheme vs experimental temperatures/solvents differ: S8 alkylation60 vs50C, 15 cyclization MeCN50 vsDMSO40C, S2 displacement80 vs50C. Experimental conditions retained.",
+          "id": "conditions",
+          "severity": "source_conflict",
+          "subject": "S8/15/S2"
+        }
+      ],
+      "deterministic_audit_passed": true
+    },
+    {
+      "paper_id": "paper-c4cb813fe92c2654",
+      "name": "Papililone A",
+      "title": "Total Synthesis and Structural Revision of Tetracyclic Diterpenoid (±)-Papililone A and (-)-Papililone A.",
+      "status": "integrated_candidate_pending_independent_review",
+      "molecules": 59,
+      "reaction_events": 47,
+      "operation_steps": 47,
+      "routes": 12,
+      "full_article_route_coverage": false,
+      "available_si_preparation_network_covered": true,
+      "source_roles": [
+        "supporting_information"
+      ],
+      "source_hashes": [
+        "8fbe4159fc7b128ff62b4d4a0ced698f5e1ca633dfb5b17269e1ebdcb428df17"
+      ],
+      "coverage_note": "仅 SI；消旋／不对称路线及结构修订；提议结构与实得结构分开。",
+      "unresolved_events": [
+        {
+          "eligible_for_route_smiles_sequence": false,
+          "id": "minor-Michael",
+          "reason": "Crude NMR approximately 5% product consistent with 1 or 2; not isolated and configuration uncertain. Not a confirmed product event.",
+          "source_references": [
+            {
+              "locator": "SI drawing/procedure: unresolved transformation",
+              "pages": [
+                27,
+                28
+              ],
+              "sha256": "8fbe4159fc7b128ff62b4d4a0ced698f5e1ca633dfb5b17269e1ebdcb428df17",
+              "source_id": "si"
+            }
+          ],
+          "subject": "3 -> 1 or 2"
+        }
+      ],
+      "source_conflicts": [
+        {
+          "detail": "SI 34 prose calls derivative (+)-15, but structure, crystallographic caption and SI 36 identify (+)-7a.",
+          "id": "rotation-derivative",
+          "severity": "source_conflict",
+          "subject": "(+)-7a"
+        },
+        {
+          "detail": "SI 5 scheme 87%; SI 20 experimental isolated yield 86% retained.",
+          "id": "30-yield",
+          "severity": "source_conflict",
+          "subject": "30"
+        },
+        {
+          "detail": "SI 25 C26H44NaO3Si formula has nominal [M+Na]+ near455, but m/z499.2952 reported; graph-derived neutral formula retained.",
+          "id": "42-HRMS",
+          "severity": "source_conflict",
+          "subject": "42"
+        }
+      ],
+      "deterministic_audit_passed": true
+    },
+    {
+      "paper_id": "paper-d5b6a4cfeaa21ccf",
+      "name": "Breviones B/C/N",
+      "title": "Enantioselective Total Synthesis of Breviones Utilizing a Bio-Inspired Skeletal Editing Strategy.",
+      "status": "integrated_candidate_pending_independent_review",
+      "molecules": 60,
+      "reaction_events": 57,
+      "operation_steps": 57,
+      "routes": 11,
+      "full_article_route_coverage": false,
+      "available_si_preparation_network_covered": false,
+      "source_roles": [
+        "supporting_information"
+      ],
+      "source_hashes": [
+        "6075b3945ba6677a82bf51eee8abfe302badc6f24dd51ac29d7c727f7abfaba7"
+      ],
+      "coverage_note": "仅 SI、部分覆盖；B／C／N 主线与模型；失败环扩张、37 对照及部分立体待补。",
+      "unresolved_events": [
+        {
+          "eligible_for_route_smiles_sequence": false,
+          "id": "FigS1-unnumbered",
+          "reason": "Source shows unnumbered preparation and regioisomer mixtures; exact graph/stereo transcription pending. Not counted as full SI coverage.",
+          "source_references": [
+            {
+              "locator": "SI drawing/procedure: unresolved transformation",
+              "pages": [
+                26
+              ],
+              "sha256": "6075b3945ba6677a82bf51eee8abfe302badc6f24dd51ac29d7c727f7abfaba7",
+              "source_id": "si"
+            }
+          ],
+          "subject": "Unsuccessful ring-expansion network"
+        },
+        {
+          "eligible_for_route_smiles_sequence": false,
+          "id": "37-control",
+          "reason": "65% isolated five-membered-ring control needs separate connectivity transcription; not replaced by desired38.",
+          "source_references": [
+            {
+              "locator": "SI drawing/procedure: unresolved transformation",
+              "pages": [
+                27,
+                28,
+                79
+              ],
+              "sha256": "6075b3945ba6677a82bf51eee8abfe302badc6f24dd51ac29d7c727f7abfaba7",
+              "source_id": "si"
+            }
+          ],
+          "subject": "Photocyclization control37"
+        }
+      ],
+      "source_conflicts": [
+        {
+          "detail": "SI49 19a formula omits H2O relative to mass; SI66/67 oxygen-count error; SI70/71 B and N copy precursor C34H45O4 mass517.3312. Graph-derived target formulae retained.",
+          "id": "source-HRMS",
+          "severity": "source_conflict",
+          "subject": "19a/28/30/3/2"
+        },
+        {
+          "detail": "SI62 heading27 describes23; SI69 prose35/35prime describes31/31prime; SI83 feed46 is42.",
+          "id": "source-labels",
+          "severity": "source_conflict",
+          "subject": "23/31prime/42"
+        },
+        {
+          "detail": "SI27 gives35 75% vs SI76 78%;38 scheme46%beta/alpha8:1 versus isolated major38 41% SI78. Isolated experimental yields retained.",
+          "id": "source-yields",
+          "severity": "source_conflict",
+          "subject": "35/38"
+        },
+        {
+          "detail": "SI75 feed drawing retains HO while preceding oxidation, SI27 and HRMS indicate C3 ketone. Retain ketone graph and explicit conflict.",
+          "id": "33-drawing",
+          "severity": "source_conflict",
+          "subject": "33"
+        },
+        {
+          "detail": "SI21 table scheme mislabels pyran drawing17a; isolated17a SI47 is Michael adduct. Table optimization yields linked to experimental adduct with conflict retained.",
+          "id": "17a-table",
+          "severity": "source_conflict",
+          "subject": "17a"
+        },
+        {
+          "detail": "SI23 two-step scope yields differ from products of experimental general-procedure yields; preserve actual experimental events separately.",
+          "id": "scope-yields",
+          "severity": "source_conflict",
+          "subject": "13b-f"
+        },
+        {
+          "detail": "SI61 hashed hydroxyl gives22 C3R; SI62 epoxide face corresponds C3S. Stereoinversion retained.",
+          "id": "22-23-stereo",
+          "severity": "source_conflict",
+          "subject": "22/23"
+        }
+      ],
+      "deterministic_audit_passed": true
+    },
+    {
+      "paper_id": "paper-59ea1b0b856fb5d7",
+      "name": "Mangicol D",
+      "title": "Asymmetric Total Synthesis and Structure Revision of (+)-Mangicol D.",
+      "status": "integrated_candidate_pending_independent_review",
+      "molecules": 26,
+      "reaction_events": 17,
+      "operation_steps": 17,
+      "routes": 6,
+      "full_article_route_coverage": true,
+      "available_si_preparation_network_covered": false,
+      "source_roles": [
+        "main_article"
+      ],
+      "source_hashes": [
+        "34a0b3b0c8cadf979bc07953174b68ff651745e8c94060a2d1c66042d4373fc8"
+      ],
+      "coverage_note": "仅正文；骨架构建与结构修订；引用前体及部分多元醇构型仍有边界。",
+      "unresolved_events": [
+        {
+          "eligible_for_route_smiles_sequence": false,
+          "id": "other-control-products",
+          "reason": "Main text reports these outcomes, but structures/yields insufficient for individual complete records.",
+          "source_references": [
+            {
+              "locator": "Main experimental section / scheme: unresolved transformation",
+              "pages": [
+                2,
+                3
+              ],
+              "sha256": "34a0b3b0c8cadf979bc07953174b68ff651745e8c94060a2d1c66042d4373fc8",
+              "source_id": "article"
+            }
+          ],
+          "subject": "Unshown9epimer,unprotected23hydrogenationdiastereomers,andtetrasubstitutedalkene"
+        }
+      ],
+      "source_conflicts": [
+        {
+          "detail": "Scheme84%over2steps; footnote98%silylation and86%hydrogenation. Preserve84%sequence without inventing undrawn protected intermediate.",
+          "id": "yield-24",
+          "severity": "source_conflict",
+          "subject": "24"
+        },
+        {
+          "detail": "Scheme3.3:1 vs narrative3.1:1 trisubstituted/tetrasubstituted.71%scope not allocated to individual regioisomers.",
+          "id": "alkene-ratio",
+          "severity": "source_conflict",
+          "subject": "24-dehydration"
+        }
+      ],
+      "deterministic_audit_passed": true
+    },
+    {
+      "paper_id": "paper-2ecc227214f2cf77",
+      "name": "Strasseriolide A",
+      "title": "Total Synthesis of Antimalarial Macrolide Strasseriolide A by Ni/Zr-Mediated Reductive Ketone Coupling.",
+      "status": "integrated_candidate_pending_independent_review",
+      "molecules": 42,
+      "reaction_events": 37,
+      "operation_steps": 37,
+      "routes": 2,
+      "full_article_route_coverage": true,
+      "available_si_preparation_network_covered": false,
+      "source_roles": [
+        "main_article"
+      ],
+      "source_hashes": [
+        "df6cec01e4d82a94399643a1a38986ad3595999d796f800cf13b243a1346110a"
+      ],
+      "coverage_note": "仅正文；两片段汇合与大环化；仅整理 Strasseriolide A，B 排除。",
+      "unresolved_events": [],
+      "source_conflicts": [
+        {
+          "detail": "Retrosynthetic labels42/43 correspond to prepared49/46. Conclusion calls coupling feed43; experimental Scheme5 uses46.",
+          "id": "retrosynthesis-labels",
+          "severity": "source_conflict",
+          "subject": "42/43"
+        }
+      ],
+      "deterministic_audit_passed": true
+    },
+    {
+      "paper_id": "paper-5ffc2379ff4366f0",
+      "name": "iso-Gladiolin methyl ester",
+      "title": "Total Synthesis of iso -Gladiolin Methyl Ester (Lagriene Methyl Ester) via Catalytic Asymmetric C-C Coupling of Alcohols.",
+      "status": "integrated_candidate_pending_independent_review",
+      "molecules": 24,
+      "reaction_events": 20,
+      "operation_steps": 20,
+      "routes": 3,
+      "full_article_route_coverage": true,
+      "available_si_preparation_network_covered": false,
+      "source_roles": [
+        "main_article"
+      ],
+      "source_hashes": [
+        "11d46062844cd0e8bc8d38cccee2c69d89b0fc1432112f364758e1897fef34db"
+      ],
+      "coverage_note": "仅正文含实验；片段汇合、22／24 元环混合物；合并收率保留原范围。",
+      "unresolved_events": [
+        {
+          "description": "Abandoned B(Epin) derivative and failed lactonization/free hydroxy acid controls; no drawn isolated products.",
+          "eligible_for_route_smiles_sequence": false,
+          "label": "undrawn controls",
+          "source_references": [
+            {
+              "locator": "Main experimental section / scheme: unresolved transformation",
+              "pages": [
+                4,
+                5
+              ],
+              "sha256": "11d46062844cd0e8bc8d38cccee2c69d89b0fc1432112f364758e1897fef34db",
+              "source_id": "article"
+            }
+          ]
+        }
+      ],
+      "source_conflicts": [
+        {
+          "detail": "5%isolated yield spans two deprotection steps fromABCD;91%is crude combined acetonide mixture and is not individual product yield.",
+          "id": "final-yield",
+          "severity": "source_conflict",
+          "subject": "iso-gladiolin-Me"
+        }
+      ],
+      "deterministic_audit_passed": true
+    },
+    {
+      "paper_id": "paper-e1019ba02f1e20ab",
+      "name": "Schenck 级联四目标",
+      "title": "Bioinspired Schenck-ene/Hock/Aldol Cascade Reaction Enables Concise Synthesis of Natural Products Alstoscholarinoid A, Masterpenoid D, Leontogenin, and Marsformoxide B",
+      "status": "integrated_candidate_pending_independent_review",
+      "molecules": 46,
+      "reaction_events": 43,
+      "operation_steps": 43,
+      "routes": 20,
+      "full_article_route_coverage": true,
+      "available_si_preparation_network_covered": true,
+      "source_roles": [
+        "main_article",
+        "supporting_information"
+      ],
+      "source_hashes": [
+        "00fbe2030220be39a5ed0ec58c7e637232a42f462dde766fe467f0330720d3eb",
+        "e1e806653844c48a752775f11d24dec80de046ded44c8c6a122c34f79ea5dbff"
+      ],
+      "coverage_note": "正文＋SI；四个目标、失败前路与模型；假设机理中间体不计为实得产物。",
+      "unresolved_events": [
+        {
+          "description": "SI describes several unelucidated regioisomers,85%combined, then87%isomerization; represented in22->23operation stages.",
+          "eligible_for_route_smiles_sequence": false,
+          "label": "unknown dienes S3",
+          "source_references": [
+            {
+              "locator": "Main experimental section / scheme: unresolved transformation",
+              "pages": [
+                17
+              ],
+              "sha256": "00fbe2030220be39a5ed0ec58c7e637232a42f462dde766fe467f0330720d3eb",
+              "source_id": "article"
+            }
+          ]
+        },
+        {
+          "description": "Cis diol and osmate ester not assigned absoluteconfiguration or isolated; contained in14->8operation stages.",
+          "eligible_for_route_smiles_sequence": false,
+          "label": "undrawn diol",
+          "source_references": [
+            {
+              "locator": "Main experimental section / scheme: unresolved transformation",
+              "pages": [
+                9
+              ],
+              "sha256": "00fbe2030220be39a5ed0ec58c7e637232a42f462dde766fe467f0330720d3eb",
+              "source_id": "article"
+            }
+          ]
+        }
+      ],
+      "source_conflicts": [
+        {
+          "detail": "MainScheme2states54%over2steps; SI S16-S17reports1->24b94%and24b->2 54%. IndividualSIyieldsretained.",
+          "id": "masterpenoid-yield",
+          "severity": "source_conflict",
+          "subject": "2"
+        },
+        {
+          "detail": "SI formula omits N; measured424.3579 corresponds protonated C29H45NO.",
+          "id": "25a-HRMS",
+          "severity": "source_conflict",
+          "subject": "25a"
+        },
+        {
+          "detail": "SI calculated343.4188 incompatible with stated C19H28O4Na formula; theoretical monoisotopic343.1885, not used as structuralproof.",
+          "id": "32a-HRMS",
+          "severity": "source_conflict",
+          "subject": "32a"
+        },
+        {
+          "detail": "SI heading reverses24a-27a/24b-27b; leontogenin structure labeled30 under heading3. Graph assignments follow scheme and actual feed.",
+          "id": "SI-labels",
+          "severity": "source_conflict",
+          "subject": "3/24a-b"
+        },
+        {
+          "detail": "NMR optimization yields remain evidence-only; preparative69%route used. Source table calls Ru(bpy)2Cl2 vs main/procedureRu(bpy)3Cl2.",
+          "id": "scope-optimization",
+          "severity": "source_conflict",
+          "subject": "TablesS2S3"
+        }
+      ],
+      "deterministic_audit_passed": true
+    },
+    {
+      "paper_id": "paper-920358bb74cd4159",
+      "name": "Bacillosporin C",
+      "title": "Site‐Selective Oxidative Dimerization of Oxaphenalenone Scaffolds: Total Synthesis of (±)‐Bacillosporin C",
+      "status": "integrated_candidate_pending_independent_review",
+      "molecules": 33,
+      "reaction_events": 36,
+      "operation_steps": 36,
+      "routes": 17,
+      "full_article_route_coverage": false,
+      "available_si_preparation_network_covered": true,
+      "source_roles": [
+        "supporting_information"
+      ],
+      "source_hashes": [
+        "a0d1d069eb22bd74aef66984464ce8eeea182cad4d27623408a91f293486482f"
+      ],
+      "coverage_note": "仅 SI；上游、氧化二聚及具结构副产物；S7 图文不一致，消旋体为代表构型。",
+      "unresolved_events": [
+        {
+          "description": "Proposed transient cations and tautomers excluded.",
+          "eligible_for_route_smiles_sequence": false,
+          "label": "mechanistic intermediates",
+          "source_references": [
+            {
+              "locator": "SI drawing/procedure: unresolved transformation",
+              "pages": [
+                14,
+                24
+              ],
+              "sha256": "a0d1d069eb22bd74aef66984464ce8eeea182cad4d27623408a91f293486482f",
+              "source_id": "si"
+            }
+          ]
+        },
+        {
+          "description": "Substrategraph conflicts with S17anddecomposes; no productiveevent.",
+          "eligible_for_route_smiles_sequence": false,
+          "label": "S7electrolysis",
+          "source_references": [
+            {
+              "locator": "SI drawing/procedure: unresolved transformation",
+              "pages": [
+                31
+              ],
+              "sha256": "a0d1d069eb22bd74aef66984464ce8eeea182cad4d27623408a91f293486482f",
+              "source_id": "si"
+            }
+          ]
+        }
+      ],
+      "source_conflicts": [
+        {
+          "detail": "S17characterization C14H12O5 and scheme showonly4-OMe; S31electrolysis scheme additionallyshows7-OMe. Decomposition experiment not assigned a fabricated unique feed.",
+          "id": "S7-conflict",
+          "severity": "source_conflict",
+          "subject": "S7"
+        },
+        {
+          "detail": "S6 is a C8-CH2-C5linked sideproduct, not oxidative dimer2; no isolatedyieldlocated for S6.",
+          "id": "S6-identity",
+          "severity": "source_conflict",
+          "subject": "S6"
+        },
+        {
+          "detail": "S5headercalls2-methoxybutactualgraphfreephenols;540mgquantfrom2.09mmol differsfromformula249. S23product15 mass0.079mg inconsistentwith15%; textualyieldretained,arithmeticnotusedtosynthesizefacts.",
+          "id": "source-arithmetic",
+          "severity": "source_conflict",
+          "subject": "S5/S9/S10"
+        }
+      ],
+      "deterministic_audit_passed": true
+    },
+    {
+      "paper_id": "paper-53d2449f553459cc",
+      "name": "Stemocurtisine",
+      "title": "Total Synthesis of (±)-Stemocurtisine via Catalytic Carbonylation",
+      "status": "integrated_candidate_pending_independent_review",
+      "molecules": 43,
+      "reaction_events": 33,
+      "operation_steps": 33,
+      "routes": 12,
+      "full_article_route_coverage": true,
+      "available_si_preparation_network_covered": true,
+      "source_roles": [
+        "main_article",
+        "supporting_information"
+      ],
+      "source_hashes": [
+        "31ac8bba27f498bcf4378b5135c7f734f263151bb5d531bd3a362ab6bb9cfb6a",
+        "cbca8b7239f1db6149575dc765158ab5a5de06ce19a079a634a836f8b62b7f27"
+      ],
+      "coverage_note": "正文＋SI；消旋与早期富集系列；新生混合物／波浪键中心未指定。",
+      "unresolved_events": [],
+      "source_conflicts": [],
+      "deterministic_audit_passed": true
+    },
+    {
+      "paper_id": "paper-85e8c2686b8db79f",
+      "name": "Thelepogine",
+      "title": "Total Synthesis of the Diterpene Alkaloid Thelepogine through Enyne Hydroamination.",
+      "status": "integrated_candidate_pending_independent_review",
+      "molecules": 51,
+      "reaction_events": 40,
+      "operation_steps": 40,
+      "routes": 9,
+      "full_article_route_coverage": true,
+      "available_si_preparation_network_covered": true,
+      "source_roles": [
+        "main_article",
+        "supporting_information"
+      ],
+      "source_hashes": [
+        "fda2433512b90fea40befd3c82fca2bf04db686eaa9643f773e3164e50361096",
+        "45d733b492367cb25a3d246cbff1effc8db3b2d41b6b54f822d78205e32d8c2b"
+      ],
+      "coverage_note": "正文＋SI；全路线、控制实验和结晶衍生物；丙二烯、二茂铁及季铵立体表示有边界。",
+      "unresolved_events": [],
+      "source_conflicts": [
+        {
+          "detail": "SI50 expectedHRMScationnotfound; formula drawn graph preserved.",
+          "id": "source-13-HRMS",
+          "severity": "source_conflict",
+          "subject": "13"
+        },
+        {
+          "detail": "SI158 scheme labelsDIPEAand44%two steps; proseEt3Nand44%isolatedsingleprotection. Proseusedwithconflictflag.",
+          "id": "source-S13",
+          "severity": "source_conflict",
+          "subject": "S13"
+        },
+        {
+          "detail": "SI158/161expectedcarboncounts34/29conflictwith40/33fromformula; notusedtochangegraph.",
+          "id": "source-S13-carbon",
+          "severity": "source_conflict",
+          "subject": "S13/S14"
+        }
+      ],
+      "deterministic_audit_passed": true
+    },
+    {
+      "paper_id": "paper-7536ef37e89afbbd",
+      "name": "Dibehenoyl-feruloyl glyceride",
+      "title": "Synthesis of the Natural Product 1,3-Dibehenyl-2-ferulyl Glyceride (Aquilaria malaccensis) and Its Derivatives",
+      "status": "integrated_candidate_pending_independent_review",
+      "molecules": 27,
+      "reaction_events": 17,
+      "operation_steps": 17,
+      "routes": 11,
+      "full_article_route_coverage": false,
+      "available_si_preparation_network_covered": true,
+      "source_roles": [
+        "supporting_information"
+      ],
+      "source_hashes": [
+        "aa974e3700122bf9b080d2e7802f4c5b980ea6a31866fa3c064cb629887f4388"
+      ],
+      "coverage_note": "仅 SI；天然甘油脂与衍生物；保护芳酸的上游制备缺失，区域异构体收率为混合范围。",
+      "unresolved_events": [],
+      "source_conflicts": [
+        {
+          "detail": "DIAD omitted in abbreviated prose despite explicit similar-procedure reference to10b.10a isolated yield not given.",
+          "id": "I01",
+          "severity": "source_conflict",
+          "subject": "10a/10c"
+        },
+        {
+          "detail": "Reported71%total yield inconsistent with listed input scale and recovered fractions; retain as reported mixture yield, flagged.",
+          "id": "I02",
+          "severity": "source_conflict",
+          "subject": "7b"
+        },
+        {
+          "detail": "SI8 labels target m/z914 as[M+OH], whereas SI27 gives[M+H]. FormulaC57H100O8 has monoisotopic neutral mass912.742; source mixes average mass with nominal ion assignments.7a/7c [M-OH] annotations also inconsistent. Do not use these assignments as exact-mass validation.",
+          "id": "I03",
+          "severity": "source_conflict",
+          "subject": "1/7a/7c"
+        }
+      ],
+      "deterministic_audit_passed": true
+    }
+  ],
+  "selection_changes": [
+    {
+      "deferred": "paper-58570bedfca3a108",
+      "replacement": "paper-e8695c1d3895d8c6",
+      "reason": "Conservative user risk exclusion: main articlep1 reports EBC329 IC50 0.6micromolar in leukemia cells. Replacement remains subject to own source screening."
+    },
+    {
+      "deferred": "paper-f8999f4cfd4d1386",
+      "replacement": "paper-fd21dcae86bb47e8",
+      "reason": "Conservative user risk exclusion: main p5 reports MT-4 cell cytotoxicity at 4.8 and 7.3 micromolar; replacement requires own screening."
+    },
+    {
+      "deferred": "paper-0eed3cdce7e1dffb",
+      "replacement": "paper-7536ef37e89afbbd",
+      "reason": "Conservative user scope and existing detail-policy: mainp1identifies cevanine-typeVeratrum steroidal alkaloid. Glyceride replacement has local preparative SI."
+    }
+  ],
+  "database_before": {
+    "papers": 133,
+    "molecules": 1681,
+    "paper_compounds": 1475,
+    "reaction_events": 980,
+    "operation_steps": 1093,
+    "routes": 308
+  },
+  "totals": {
+    "molecules": 745,
+    "reaction_events": 624,
+    "operation_steps": 624,
+    "routes": 175
+  },
+  "database_after": {
+    "papers": 133,
+    "molecules": 2377,
+    "paper_compounds": 2220,
+    "reaction_events": 1604,
+    "operation_steps": 1717,
+    "routes": 483
+  },
+  "database_delta": {
+    "papers": 0,
+    "molecules": 696,
+    "paper_compounds": 745,
+    "reaction_events": 624,
+    "operation_steps": 624,
+    "routes": 175
+  },
+  "coverage_summary": {
+    "with_main_article": 15,
+    "si_only": 5,
+    "both_sources": 9,
+    "main_only": 6
+  },
+  "validation": {
+    "all_75_case_audit_passed": true,
+    "database_validation_passed": true,
+    "sdf_isomeric_smiles_roundtrips": 745,
+    "selected_cases": 20,
+    "regression_tests_passed": 12,
+    "rdkit_version": "2026.03.6",
+    "independent_chemical_review": false,
+    "complete_stereo_training_admitted": 0,
+    "stereo_gate": "twenty-paper-stereo-review-20260910.jsonl"
+  },
+  "limitations": [
+    "Five SI-only cases cannot assert full article coverage.",
+    "Brevione remains partial for failed/model branches and several stereocenters.",
+    "Main-text coverage excludes explicitly cited upstream preparations and does not assert complete stereochemical truth.",
+    "Unknown, racemic, axial/allene and coordination representations require source qualifiers; all records remain candidates."
+  ]
+}

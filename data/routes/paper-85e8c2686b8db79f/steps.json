@@ -1,0 +1,2053 @@
+[
+  {
+    "admission_authority": false,
+    "agents": [
+      "Fe(NO3)3.9H2O",
+      "TEMPO",
+      "NaCl",
+      "O2"
+    ],
+    "event_id": "A01",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "S1"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "pent-1-en-3-ol",
+        "percent": 78,
+        "product_label": "S1",
+        "scope": "qNMRpurity corrected product94%w/w"
+      }
+    ],
+    "reactant_labels": [
+      "pent-1-en-3-ol"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: A01",
+        "pages": [
+          3
+        ],
+        "sha256": "fda2433512b90fea40befd3c82fca2bf04db686eaa9643f773e3164e50361096",
+        "source_id": "article"
+      },
+      {
+        "locator": "Compound drawing and associated NMR spectrum: A01",
+        "pages": [
+          8
+        ],
+        "sha256": "45d733b492367cb25a3d246cbff1effc8db3b2d41b6b54f822d78205e32d8c2b",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "A01.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "C=CC(O)CC>>C=CC(=O)CC",
+    "yield_percent": 78
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "Et3N"
+    ],
+    "event_id": "A02",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "S2"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "S1",
+        "percent": 96,
+        "product_label": "S2",
+        "scope": "95%w/wqNMRpuritycorrected"
+      }
+    ],
+    "reactant_labels": [
+      "S1",
+      "2-methylcyclohexane-1,3-dione"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: A02",
+        "pages": [
+          3
+        ],
+        "sha256": "fda2433512b90fea40befd3c82fca2bf04db686eaa9643f773e3164e50361096",
+        "source_id": "article"
+      },
+      {
+        "locator": "Compound drawing and associated NMR spectrum: A02",
+        "pages": [
+          12
+        ],
+        "sha256": "45d733b492367cb25a3d246cbff1effc8db3b2d41b6b54f822d78205e32d8c2b",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "A02.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "C=CC(=O)CC.CC1C(=O)CCCC1=O>>CCC(=O)CCC1(C)C(=O)CCCC1=O",
+    "yield_percent": 96
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "D-phenylalanine",
+      "PPTS"
+    ],
+    "event_id": "A03",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "9"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "S2",
+        "percent": 54,
+        "product_label": "9",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "reactant_labels": [
+      "S2"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "DMSO"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: A03",
+        "pages": [
+          3
+        ],
+        "sha256": "fda2433512b90fea40befd3c82fca2bf04db686eaa9643f773e3164e50361096",
+        "source_id": "article"
+      },
+      {
+        "locator": "Compound drawing and associated NMR spectrum: A03",
+        "pages": [
+          16
+        ],
+        "sha256": "45d733b492367cb25a3d246cbff1effc8db3b2d41b6b54f822d78205e32d8c2b",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "A03.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "CCC(=O)CCC1(C)C(=O)CCCC1=O>>CC1=C2CCCC(=O)[C@]2(C)CCC1=O",
+    "yield_percent": 54
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "ethylene glycol",
+      "pTsOH.H2O"
+    ],
+    "event_id": "A04",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "S3",
+      "S3-diketal"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "9",
+        "percent": 95,
+        "product_label": "S3",
+        "scope": "CrudeS395%qNMR; diketalcontaminantyieldnotreported"
+      }
+    ],
+    "reactant_labels": [
+      "9"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "benzene"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: A04",
+        "pages": [
+          3
+        ],
+        "sha256": "fda2433512b90fea40befd3c82fca2bf04db686eaa9643f773e3164e50361096",
+        "source_id": "article"
+      },
+      {
+        "locator": "Compound drawing and associated NMR spectrum: A04",
+        "pages": [
+          24
+        ],
+        "sha256": "45d733b492367cb25a3d246cbff1effc8db3b2d41b6b54f822d78205e32d8c2b",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "A04.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "CC1=C2CCCC(=O)[C@]2(C)CCC1=O>>CC1=C2CCCC3(OCCO3)[C@]2(C)CCC12OCCO2.CC1=C2CCCC3(OCCO3)[C@]2(C)CCC1=O",
+    "yield_percent": 95
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "AlCl3"
+    ],
+    "event_id": "A05-feed",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "S4"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "propionyl-chloride",
+        "percent": 50,
+        "product_label": "S4",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "reactant_labels": [
+      "propionyl-chloride",
+      "ethylene"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "DCM"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: A05-feed",
+        "pages": [
+          3
+        ],
+        "sha256": "fda2433512b90fea40befd3c82fca2bf04db686eaa9643f773e3164e50361096",
+        "source_id": "article"
+      },
+      {
+        "locator": "Compound drawing and associated NMR spectrum: A05-feed",
+        "pages": [
+          21
+        ],
+        "sha256": "45d733b492367cb25a3d246cbff1effc8db3b2d41b6b54f822d78205e32d8c2b",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "A05-feed.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "C=C.CCC(=O)Cl>>CCC(=O)CCCl",
+    "yield_percent": 50
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "KOtBu"
+    ],
+    "event_id": "A05",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "S5"
+    ],
+    "product_specific_yields": [],
+    "reactant_labels": [
+      "S3",
+      "S4"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: A05",
+        "pages": [
+          3
+        ],
+        "sha256": "fda2433512b90fea40befd3c82fca2bf04db686eaa9643f773e3164e50361096",
+        "source_id": "article"
+      },
+      {
+        "locator": "Compound drawing and associated NMR spectrum: A05",
+        "pages": [
+          25
+        ],
+        "sha256": "45d733b492367cb25a3d246cbff1effc8db3b2d41b6b54f822d78205e32d8c2b",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "A05.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "CC1=C2CCCC3(OCCO3)[C@]2(C)CCC1=O.CCC(=O)CCCl>>CCC(=O)CC[C@@]1(C)C(=O)CC[C@]2(C)C1=CCCC21OCCO1",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "Mn(dpm)3",
+      "PhSiH3",
+      "tBuOOH"
+    ],
+    "event_id": "A06",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "S6"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "S5",
+        "percent": 87,
+        "product_label": "S6",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "reactant_labels": [
+      "S5"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "iPrOH"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: A06",
+        "pages": [
+          3
+        ],
+        "sha256": "fda2433512b90fea40befd3c82fca2bf04db686eaa9643f773e3164e50361096",
+        "source_id": "article"
+      },
+      {
+        "locator": "Compound drawing and associated NMR spectrum: A06",
+        "pages": [
+          32
+        ],
+        "sha256": "45d733b492367cb25a3d246cbff1effc8db3b2d41b6b54f822d78205e32d8c2b",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "A06.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "CCC(=O)CC[C@@]1(C)C(=O)CC[C@]2(C)C1=CCCC21OCCO1>>CCC(=O)CC[C@@]1(C)C(=O)CC[C@]2(C)[C@@H]1CCCC21OCCO1",
+    "yield_percent": 87
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "KOH"
+    ],
+    "event_id": "A07",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "10"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "S6",
+        "percent": 76,
+        "product_label": "10",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "reactant_labels": [
+      "S6"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "MeOH",
+      "water"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: A07",
+        "pages": [
+          3
+        ],
+        "sha256": "fda2433512b90fea40befd3c82fca2bf04db686eaa9643f773e3164e50361096",
+        "source_id": "article"
+      },
+      {
+        "locator": "Compound drawing and associated NMR spectrum: A07",
+        "pages": [
+          35
+        ],
+        "sha256": "45d733b492367cb25a3d246cbff1effc8db3b2d41b6b54f822d78205e32d8c2b",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "A07.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "CCC(=O)CC[C@@]1(C)C(=O)CC[C@]2(C)[C@@H]1CCCC21OCCO1>>CC1=C2CC[C@]3(C)[C@H](CCCC34OCCO4)[C@@]2(C)CCC1=O",
+    "yield_percent": 76
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "LiAlH4"
+    ],
+    "event_id": "B01",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "11",
+      "S7"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "10",
+        "percent": 94,
+        "product_label": "11",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      },
+      {
+        "from_label": "10",
+        "percent": 5,
+        "product_label": "S7",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "reactant_labels": [
+      "10"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "Et2O"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: B01",
+        "pages": [
+          3
+        ],
+        "sha256": "fda2433512b90fea40befd3c82fca2bf04db686eaa9643f773e3164e50361096",
+        "source_id": "article"
+      },
+      {
+        "locator": "Compound drawing and associated NMR spectrum: B01",
+        "pages": [
+          39
+        ],
+        "sha256": "45d733b492367cb25a3d246cbff1effc8db3b2d41b6b54f822d78205e32d8c2b",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "B01.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "CC1=C2CC[C@]3(C)[C@H](CCCC34OCCO4)[C@@]2(C)CCC1=O>>CC1=C2CC[C@]3(C)[C@H](CCCC34OCCO4)[C@@]2(C)CC[C@@H]1O.CC1=C2CC[C@]3(C)[C@H](CCCC34OCCO4)[C@@]2(C)CC[C@H]1O",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "LDA"
+    ],
+    "event_id": "B02-hydroxymethylation",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "tributylstannylmethanol"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "Bu3SnH",
+        "percent": 86,
+        "product_label": "tributylstannylmethanol",
+        "scope": "Crude product with unidentified impurities"
+      }
+    ],
+    "reactant_labels": [
+      "Bu3SnH",
+      "formaldehyde"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: B02-hydroxymethylation",
+        "pages": [
+          3
+        ],
+        "sha256": "fda2433512b90fea40befd3c82fca2bf04db686eaa9643f773e3164e50361096",
+        "source_id": "article"
+      },
+      {
+        "locator": "Compound drawing and associated NMR spectrum: B02-hydroxymethylation",
+        "pages": [
+          46
+        ],
+        "sha256": "45d733b492367cb25a3d246cbff1effc8db3b2d41b6b54f822d78205e32d8c2b",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "B02-hydroxymethylation.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "C=O.CCC[CH2][SnH]([CH2]CCC)[CH2]CCC>>CCC[CH2][Sn]([CH2]O)([CH2]CCC)[CH2]CCC",
+    "yield_percent": 86
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "NIS",
+      "PPh3"
+    ],
+    "event_id": "B02-feed",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "12"
+    ],
+    "product_specific_yields": [],
+    "reactant_labels": [
+      "tributylstannylmethanol"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: B02-feed",
+        "pages": [
+          3
+        ],
+        "sha256": "fda2433512b90fea40befd3c82fca2bf04db686eaa9643f773e3164e50361096",
+        "source_id": "article"
+      },
+      {
+        "locator": "Compound drawing and associated NMR spectrum: B02-feed",
+        "pages": [
+          46
+        ],
+        "sha256": "45d733b492367cb25a3d246cbff1effc8db3b2d41b6b54f822d78205e32d8c2b",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "B02-feed.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "CCC[CH2][Sn]([CH2]O)([CH2]CCC)[CH2]CCC>>CCC[CH2][Sn]([CH2]I)([CH2]CCC)[CH2]CCC",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "KH"
+    ],
+    "event_id": "B02",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "13"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "11",
+        "percent": 86,
+        "product_label": "13",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "reactant_labels": [
+      "11",
+      "12"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: B02",
+        "pages": [
+          3
+        ],
+        "sha256": "fda2433512b90fea40befd3c82fca2bf04db686eaa9643f773e3164e50361096",
+        "source_id": "article"
+      },
+      {
+        "locator": "Compound drawing and associated NMR spectrum: B02",
+        "pages": [
+          50
+        ],
+        "sha256": "45d733b492367cb25a3d246cbff1effc8db3b2d41b6b54f822d78205e32d8c2b",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "B02.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "CC1=C2CC[C@]3(C)[C@H](CCCC34OCCO4)[C@@]2(C)CC[C@@H]1O.CCC[CH2][Sn]([CH2]I)([CH2]CCC)[CH2]CCC>>CCC[CH2][Sn]([CH2]CCC)([CH2]CCC)[CH2]O[C@H]1CC[C@@]2(C)C(=C1C)CC[C@]1(C)[C@@H]2CCCC12OCCO2",
+    "yield_percent": 86
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "nBuLi"
+    ],
+    "event_id": "B03",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "14",
+      "S8"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "13",
+        "percent": 69,
+        "product_label": "14",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      },
+      {
+        "from_label": "13",
+        "percent": 25,
+        "product_label": "S8",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "reactant_labels": [
+      "13"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "hexanes"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: B03",
+        "pages": [
+          3
+        ],
+        "sha256": "fda2433512b90fea40befd3c82fca2bf04db686eaa9643f773e3164e50361096",
+        "source_id": "article"
+      },
+      {
+        "locator": "Compound drawing and associated NMR spectrum: B03",
+        "pages": [
+          53
+        ],
+        "sha256": "45d733b492367cb25a3d246cbff1effc8db3b2d41b6b54f822d78205e32d8c2b",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "B03.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "CCC[CH2][Sn]([CH2]CCC)([CH2]CCC)[CH2]O[C@H]1CC[C@@]2(C)C(=C1C)CC[C@]1(C)[C@@H]2CCCC12OCCO2>>CC1=C2CC[C@]3(C)[C@H](CCCC34OCCO4)[C@@]2(C)CCC1CO.CC1=CCC[C@]2(C)[C@H]3CCCC4(OCCO4)[C@]3(C)CC[C@]12CO",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "nBuLi"
+    ],
+    "event_id": "B03-alt",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "14",
+      "S8",
+      "S9"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "13",
+        "percent": 36,
+        "product_label": "14",
+        "scope": "TableS2entry6isolated; combinedWittigyield67excludesS9"
+      },
+      {
+        "from_label": "13",
+        "percent": 31,
+        "product_label": "S8",
+        "scope": "TableS2entry6isolated; combinedWittigyield67excludesS9"
+      },
+      {
+        "from_label": "13",
+        "percent": 20,
+        "product_label": "S9",
+        "scope": "TableS2entry6isolated; combinedWittigyield67excludesS9"
+      }
+    ],
+    "reactant_labels": [
+      "13"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "MTBE"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: B03-alt",
+        "pages": [
+          3
+        ],
+        "sha256": "fda2433512b90fea40befd3c82fca2bf04db686eaa9643f773e3164e50361096",
+        "source_id": "article"
+      },
+      {
+        "locator": "Compound drawing and associated NMR spectrum: B03-alt",
+        "pages": [
+          56
+        ],
+        "sha256": "45d733b492367cb25a3d246cbff1effc8db3b2d41b6b54f822d78205e32d8c2b",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "B03-alt.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "CCC[CH2][Sn]([CH2]CCC)([CH2]CCC)[CH2]O[C@H]1CC[C@@]2(C)C(=C1C)CC[C@]1(C)[C@@H]2CCCC12OCCO2>>CC1=C2CC[C@]3(C)[C@H](CCCC34OCCO4)[C@@]2(C)CC=C1.CC1=C2CC[C@]3(C)[C@H](CCCC34OCCO4)[C@@]2(C)CCC1CO.CC1=CCC[C@]2(C)[C@H]3CCCC4(OCCO4)[C@]3(C)CC[C@]12CO",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "HCl"
+    ],
+    "event_id": "B04",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "S10"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "14",
+        "percent": 99,
+        "product_label": "S10",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "reactant_labels": [
+      "14"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "THF",
+      "water"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: B04",
+        "pages": [
+          3
+        ],
+        "sha256": "fda2433512b90fea40befd3c82fca2bf04db686eaa9643f773e3164e50361096",
+        "source_id": "article"
+      },
+      {
+        "locator": "Compound drawing and associated NMR spectrum: B04",
+        "pages": [
+          65
+        ],
+        "sha256": "45d733b492367cb25a3d246cbff1effc8db3b2d41b6b54f822d78205e32d8c2b",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "B04.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "CC1=CCC[C@]2(C)[C@H]3CCCC4(OCCO4)[C@]3(C)CC[C@]12CO>>CC1=CCC[C@]2(C)[C@H]3CCCC(=O)[C@]3(C)CC[C@]12CO",
+    "yield_percent": 99
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "TIPSOTf",
+      "DIPEA"
+    ],
+    "event_id": "B05",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "15"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "S10",
+        "percent": 99,
+        "product_label": "15",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "reactant_labels": [
+      "S10"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "DCM"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: B05",
+        "pages": [
+          3
+        ],
+        "sha256": "fda2433512b90fea40befd3c82fca2bf04db686eaa9643f773e3164e50361096",
+        "source_id": "article"
+      },
+      {
+        "locator": "Compound drawing and associated NMR spectrum: B05",
+        "pages": [
+          68
+        ],
+        "sha256": "45d733b492367cb25a3d246cbff1effc8db3b2d41b6b54f822d78205e32d8c2b",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "B05.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "CC1=CCC[C@]2(C)[C@H]3CCCC(=O)[C@]3(C)CC[C@]12CO>>CC1=CCC[C@]2(C)[C@H]3CCCC(=O)[C@]3(C)CC[C@]12CO[Si](C(C)C)(C(C)C)C(C)C",
+    "yield_percent": 99
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "MSH",
+      "HCl"
+    ],
+    "event_id": "B06",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "17"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "15",
+        "percent": 61,
+        "product_label": "17",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "reactant_labels": [
+      "15"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "DCM"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: B06",
+        "pages": [
+          3
+        ],
+        "sha256": "fda2433512b90fea40befd3c82fca2bf04db686eaa9643f773e3164e50361096",
+        "source_id": "article"
+      },
+      {
+        "locator": "Compound drawing and associated NMR spectrum: B06",
+        "pages": [
+          71
+        ],
+        "sha256": "45d733b492367cb25a3d246cbff1effc8db3b2d41b6b54f822d78205e32d8c2b",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "B06.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "CC1=CCC[C@]2(C)[C@H]3CCCC(=O)[C@]3(C)CC[C@]12CO[Si](C(C)C)(C(C)C)C(C)C>>CC1=CCC[C@]2(C)[C@H]3CCCC(=O)N[C@@]3(C)CC[C@]12CO[Si](C(C)C)(C(C)C)C(C)C",
+    "yield_percent": 61
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "DPT-BM"
+    ],
+    "event_id": "C01",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "19"
+    ],
+    "product_specific_yields": [],
+    "reactant_labels": [
+      "17"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "DME"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: C01",
+        "pages": [
+          3
+        ],
+        "sha256": "fda2433512b90fea40befd3c82fca2bf04db686eaa9643f773e3164e50361096",
+        "source_id": "article"
+      },
+      {
+        "locator": "Compound drawing and associated NMR spectrum: C01",
+        "pages": [
+          75
+        ],
+        "sha256": "45d733b492367cb25a3d246cbff1effc8db3b2d41b6b54f822d78205e32d8c2b",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "C01.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "CC1=CCC[C@]2(C)[C@H]3CCCC(=O)N[C@@]3(C)CC[C@]12CO[Si](C(C)C)(C(C)C)C(C)C>>CC1=CCC[C@]2(C)[C@H]3CCCC(OCc4ccccc4)=N[C@@]3(C)CC[C@]12CO[Si](C(C)C)(C(C)C)C(C)C",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "HCl"
+    ],
+    "event_id": "C02",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "S11"
+    ],
+    "product_specific_yields": [],
+    "reactant_labels": [
+      "19"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "THF",
+      "water"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: C02",
+        "pages": [
+          3
+        ],
+        "sha256": "fda2433512b90fea40befd3c82fca2bf04db686eaa9643f773e3164e50361096",
+        "source_id": "article"
+      },
+      {
+        "locator": "Compound drawing and associated NMR spectrum: C02",
+        "pages": [
+          76
+        ],
+        "sha256": "45d733b492367cb25a3d246cbff1effc8db3b2d41b6b54f822d78205e32d8c2b",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "C02.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "CC1=CCC[C@]2(C)[C@H]3CCCC(OCc4ccccc4)=N[C@@]3(C)CC[C@]12CO[Si](C(C)C)(C(C)C)C(C)C>>CC1=CCC[C@]2(C)[C@@H](CCCC(=O)OCc3ccccc3)[C@](C)(N)CC[C@]12CO[Si](C(C)C)(C(C)C)C(C)C",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "Teoc-NT",
+      "Et3N"
+    ],
+    "event_id": "C03",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "21"
+    ],
+    "product_specific_yields": [],
+    "reactant_labels": [
+      "S11"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "DCM"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: C03",
+        "pages": [
+          3
+        ],
+        "sha256": "fda2433512b90fea40befd3c82fca2bf04db686eaa9643f773e3164e50361096",
+        "source_id": "article"
+      },
+      {
+        "locator": "Compound drawing and associated NMR spectrum: C03",
+        "pages": [
+          76,
+          77
+        ],
+        "sha256": "45d733b492367cb25a3d246cbff1effc8db3b2d41b6b54f822d78205e32d8c2b",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "C03.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "CC1=CCC[C@]2(C)[C@@H](CCCC(=O)OCc3ccccc3)[C@](C)(N)CC[C@]12CO[Si](C(C)C)(C(C)C)C(C)C>>CC1=CCC[C@]2(C)[C@@H](CCCC(=O)OCc3ccccc3)[C@](C)(NC(=O)OCC[Si](C)(C)C)CC[C@]12CO[Si](C(C)C)(C(C)C)C(C)C",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "LiOH"
+    ],
+    "event_id": "D01",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "21-acid"
+    ],
+    "product_specific_yields": [],
+    "reactant_labels": [
+      "21"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "THF",
+      "water"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: D01",
+        "pages": [
+          3
+        ],
+        "sha256": "fda2433512b90fea40befd3c82fca2bf04db686eaa9643f773e3164e50361096",
+        "source_id": "article"
+      },
+      {
+        "locator": "Compound drawing and associated NMR spectrum: D01",
+        "pages": [
+          86
+        ],
+        "sha256": "45d733b492367cb25a3d246cbff1effc8db3b2d41b6b54f822d78205e32d8c2b",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "D01.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "CC1=CCC[C@]2(C)[C@@H](CCCC(=O)OCc3ccccc3)[C@](C)(NC(=O)OCC[Si](C)(C)C)CC[C@]12CO[Si](C(C)C)(C(C)C)C(C)C>>CC1=CCC[C@]2(C)[C@@H](CCCC(=O)O)[C@](C)(NC(=O)OCC[Si](C)(C)C)CC[C@]12CO[Si](C(C)C)(C(C)C)C(C)C",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "PdCl2",
+      "DPEphos",
+      "Piv2O",
+      "Et3N"
+    ],
+    "event_id": "D02",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "22"
+    ],
+    "product_specific_yields": [],
+    "reactant_labels": [
+      "21-acid"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "DMPU"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: D02",
+        "pages": [
+          3
+        ],
+        "sha256": "fda2433512b90fea40befd3c82fca2bf04db686eaa9643f773e3164e50361096",
+        "source_id": "article"
+      },
+      {
+        "locator": "Compound drawing and associated NMR spectrum: D02",
+        "pages": [
+          86
+        ],
+        "sha256": "45d733b492367cb25a3d246cbff1effc8db3b2d41b6b54f822d78205e32d8c2b",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "D02.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "CC1=CCC[C@]2(C)[C@@H](CCCC(=O)O)[C@](C)(NC(=O)OCC[Si](C)(C)C)CC[C@]12CO[Si](C(C)C)(C(C)C)C(C)C>>C=CC[C@H]1[C@](C)(NC(=O)OCC[Si](C)(C)C)CC[C@]2(CO[Si](C(C)C)(C(C)C)C(C)C)C(C)=CCC[C@]12C",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "Hoveyda-GrubbsII"
+    ],
+    "event_id": "D03",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "24"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "22",
+        "percent": 71,
+        "product_label": "24",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "reactant_labels": [
+      "22",
+      "23"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: D03",
+        "pages": [
+          3
+        ],
+        "sha256": "fda2433512b90fea40befd3c82fca2bf04db686eaa9643f773e3164e50361096",
+        "source_id": "article"
+      },
+      {
+        "locator": "Compound drawing and associated NMR spectrum: D03",
+        "pages": [
+          90
+        ],
+        "sha256": "45d733b492367cb25a3d246cbff1effc8db3b2d41b6b54f822d78205e32d8c2b",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "D03.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "C=C(C)B1OC(C)(C)C(C)(C)O1.C=CC[C@H]1[C@](C)(NC(=O)OCC[Si](C)(C)C)CC[C@]2(CO[Si](C(C)C)(C(C)C)C(C)C)C(C)=CCC[C@]12C>>CC1=CCC[C@]2(C)[C@@H](C/C=C(/C)B3OC(C)(C)C(C)(C)O3)[C@](C)(NC(=O)OCC[Si](C)(C)C)CC[C@]12CO[Si](C(C)C)(C(C)C)C(C)C",
+    "yield_percent": 71
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "PdCl2(dppf)",
+      "NaOH"
+    ],
+    "event_id": "D04",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "26"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "24",
+        "percent": 90,
+        "product_label": "26",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "reactant_labels": [
+      "24",
+      "25"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "THF",
+      "water"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: D04",
+        "pages": [
+          3
+        ],
+        "sha256": "fda2433512b90fea40befd3c82fca2bf04db686eaa9643f773e3164e50361096",
+        "source_id": "article"
+      },
+      {
+        "locator": "Compound drawing and associated NMR spectrum: D04",
+        "pages": [
+          98
+        ],
+        "sha256": "45d733b492367cb25a3d246cbff1effc8db3b2d41b6b54f822d78205e32d8c2b",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "D04.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "CC(C)[Si](C#CI)(C(C)C)C(C)C.CC1=CCC[C@]2(C)[C@@H](C/C=C(/C)B3OC(C)(C)C(C)(C)O3)[C@](C)(NC(=O)OCC[Si](C)(C)C)CC[C@]12CO[Si](C(C)C)(C(C)C)C(C)C>>CC1=CCC[C@]2(C)[C@@H](C/C=C(/C)C#C[Si](C(C)C)(C(C)C)C(C)C)[C@](C)(NC(=O)OCC[Si](C)(C)C)CC[C@]12CO[Si](C(C)C)(C(C)C)C(C)C",
+    "yield_percent": 90
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "TBAF"
+    ],
+    "event_id": "D05",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "4"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "26",
+        "percent": 91,
+        "product_label": "4",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "reactant_labels": [
+      "26"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: D05",
+        "pages": [
+          3
+        ],
+        "sha256": "fda2433512b90fea40befd3c82fca2bf04db686eaa9643f773e3164e50361096",
+        "source_id": "article"
+      },
+      {
+        "locator": "Compound drawing and associated NMR spectrum: D05",
+        "pages": [
+          106
+        ],
+        "sha256": "45d733b492367cb25a3d246cbff1effc8db3b2d41b6b54f822d78205e32d8c2b",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "D05.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "CC1=CCC[C@]2(C)[C@@H](C/C=C(/C)C#C[Si](C(C)C)(C(C)C)C(C)C)[C@](C)(NC(=O)OCC[Si](C)(C)C)CC[C@]12CO[Si](C(C)C)(C(C)C)C(C)C>>C#C/C(C)=C\\C[C@H]1[C@@](C)(N)CC[C@]2(CO)C(C)=CCC[C@]12C",
+    "yield_percent": 91
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "Cu(IMes)Cl"
+    ],
+    "event_id": "E01",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "1",
+      "28"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "4",
+        "percent": 58,
+        "product_label": "1",
+        "scope": "Isolated58/20; separateNMR59/20notmixed"
+      },
+      {
+        "from_label": "4",
+        "percent": 20,
+        "product_label": "28",
+        "scope": "Isolated58/20; separateNMR59/20notmixed"
+      }
+    ],
+    "reactant_labels": [
+      "4"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "HFIP",
+      "water"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E01",
+        "pages": [
+          3
+        ],
+        "sha256": "fda2433512b90fea40befd3c82fca2bf04db686eaa9643f773e3164e50361096",
+        "source_id": "article"
+      },
+      {
+        "locator": "Compound drawing and associated NMR spectrum: E01",
+        "pages": [
+          145
+        ],
+        "sha256": "45d733b492367cb25a3d246cbff1effc8db3b2d41b6b54f822d78205e32d8c2b",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E01.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "C#C/C(C)=C\\C[C@H]1[C@@](C)(N)CC[C@]2(CO)C(C)=CCC[C@]12C>>CC1=CCN2[C@@H]1C[C@H]1[C@@]2(C)CC[C@]2(CO)C(C)=CCC[C@]12C.CC1=CCN2[C@H]1C[C@H]1[C@@]2(C)CC[C@]2(CO)C(C)=CCC[C@]12C",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "CsF"
+    ],
+    "event_id": "E02",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "29"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "26",
+        "percent": 90,
+        "product_label": "29",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "reactant_labels": [
+      "26"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "DMF",
+      "water"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E02",
+        "pages": [
+          3
+        ],
+        "sha256": "fda2433512b90fea40befd3c82fca2bf04db686eaa9643f773e3164e50361096",
+        "source_id": "article"
+      },
+      {
+        "locator": "Compound drawing and associated NMR spectrum: E02",
+        "pages": [
+          102
+        ],
+        "sha256": "45d733b492367cb25a3d246cbff1effc8db3b2d41b6b54f822d78205e32d8c2b",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E02.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "CC1=CCC[C@]2(C)[C@@H](C/C=C(/C)C#C[Si](C(C)C)(C(C)C)C(C)C)[C@](C)(NC(=O)OCC[Si](C)(C)C)CC[C@]12CO[Si](C(C)C)(C(C)C)C(C)C>>C#C/C(C)=C\\C[C@H]1[C@](C)(NC(=O)OCC[Si](C)(C)C)CC[C@]2(CO[Si](C(C)C)(C(C)C)C(C)C)C(C)=CCC[C@]12C",
+    "yield_percent": 90
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "I2",
+      "K2CO3"
+    ],
+    "event_id": "E03",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "30"
+    ],
+    "product_specific_yields": [],
+    "reactant_labels": [
+      "29"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "MeCN"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E03",
+        "pages": [
+          3
+        ],
+        "sha256": "fda2433512b90fea40befd3c82fca2bf04db686eaa9643f773e3164e50361096",
+        "source_id": "article"
+      },
+      {
+        "locator": "Compound drawing and associated NMR spectrum: E03",
+        "pages": [
+          110
+        ],
+        "sha256": "45d733b492367cb25a3d246cbff1effc8db3b2d41b6b54f822d78205e32d8c2b",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E03.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "C#C/C(C)=C\\C[C@H]1[C@](C)(NC(=O)OCC[Si](C)(C)C)CC[C@]2(CO[Si](C(C)C)(C(C)C)C(C)C)C(C)=CCC[C@]12C>>CC(=C=CI)C1C[C@H]2[C@@](C)(CC[C@]3(CO[Si](C(C)C)(C(C)C)C(C)C)C(C)=CCC[C@]23C)N1C(=O)OCC[Si](C)(C)C",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "tBuLi",
+      "MeOH"
+    ],
+    "event_id": "E04",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "31"
+    ],
+    "product_specific_yields": [],
+    "reactant_labels": [
+      "30"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "Et2O"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E04",
+        "pages": [
+          3
+        ],
+        "sha256": "fda2433512b90fea40befd3c82fca2bf04db686eaa9643f773e3164e50361096",
+        "source_id": "article"
+      },
+      {
+        "locator": "Compound drawing and associated NMR spectrum: E04",
+        "pages": [
+          110
+        ],
+        "sha256": "45d733b492367cb25a3d246cbff1effc8db3b2d41b6b54f822d78205e32d8c2b",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E04.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "CC(=C=CI)C1C[C@H]2[C@@](C)(CC[C@]3(CO[Si](C(C)C)(C(C)C)C(C)C)C(C)=CCC[C@]23C)N1C(=O)OCC[Si](C)(C)C>>C=C=C(C)C1C[C@H]2[C@@](C)(CC[C@]3(CO[Si](C(C)C)(C(C)C)C(C)C)C(C)=CCC[C@]23C)N1C(=O)OCC[Si](C)(C)C",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "TBAF"
+    ],
+    "event_id": "E05",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "32",
+      "epi-32"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "31",
+        "percent": 68,
+        "product_label": "32",
+        "scope": "Initial78%mixture95:5; repurified32yield68%;minor0.7mgenrichedsample"
+      }
+    ],
+    "reactant_labels": [
+      "31"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E05",
+        "pages": [
+          3
+        ],
+        "sha256": "fda2433512b90fea40befd3c82fca2bf04db686eaa9643f773e3164e50361096",
+        "source_id": "article"
+      },
+      {
+        "locator": "Compound drawing and associated NMR spectrum: E05",
+        "pages": [
+          118
+        ],
+        "sha256": "45d733b492367cb25a3d246cbff1effc8db3b2d41b6b54f822d78205e32d8c2b",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E05.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "C=C=C(C)C1C[C@H]2[C@@](C)(CC[C@]3(CO[Si](C(C)C)(C(C)C)C(C)C)C(C)=CCC[C@]23C)N1C(=O)OCC[Si](C)(C)C>>C=C=C(C)[C@@H]1C[C@H]2[C@@](C)(CC[C@]3(CO)C(C)=CCC[C@]23C)N1.C=C=C(C)[C@H]1C[C@H]2[C@@](C)(CC[C@]3(CO)C(C)=CCC[C@]23C)N1",
+    "yield_percent": 68
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "Cu(IPr)Cl"
+    ],
+    "event_id": "E06",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "1"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "32",
+        "percent": 69,
+        "product_label": "1",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "reactant_labels": [
+      "32"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "EtOH",
+      "water"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E06",
+        "pages": [
+          3
+        ],
+        "sha256": "fda2433512b90fea40befd3c82fca2bf04db686eaa9643f773e3164e50361096",
+        "source_id": "article"
+      },
+      {
+        "locator": "Compound drawing and associated NMR spectrum: E06",
+        "pages": [
+          132
+        ],
+        "sha256": "45d733b492367cb25a3d246cbff1effc8db3b2d41b6b54f822d78205e32d8c2b",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E06.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "C=C=C(C)[C@@H]1C[C@H]2[C@@](C)(CC[C@]3(CO)C(C)=CCC[C@]23C)N1>>CC1=CCN2[C@H]1C[C@H]1[C@@]2(C)CC[C@]2(CO)C(C)=CCC[C@]12C",
+    "yield_percent": 69
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "air"
+    ],
+    "event_id": "E07",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "34"
+    ],
+    "product_specific_yields": [],
+    "reactant_labels": [
+      "1"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "CD2Cl2"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E07",
+        "pages": [
+          3
+        ],
+        "sha256": "fda2433512b90fea40befd3c82fca2bf04db686eaa9643f773e3164e50361096",
+        "source_id": "article"
+      },
+      {
+        "locator": "Compound drawing and associated NMR spectrum: E07",
+        "pages": [
+          139
+        ],
+        "sha256": "45d733b492367cb25a3d246cbff1effc8db3b2d41b6b54f822d78205e32d8c2b",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E07.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "CC1=CCN2[C@H]1C[C@H]1[C@@]2(C)CC[C@]2(CO)C(C)=CCC[C@]12C>>CC1=CCC[C@]2(C)[C@H]3Cc4c(C)ccn4[C@]3(C)CC[C@]12CO",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "TsCl",
+      "Et3N"
+    ],
+    "event_id": "F01",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "S13"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "S12",
+        "percent": 44,
+        "product_label": "S13",
+        "scope": "Text44%forprotection; scheme44%twostepsconflict"
+      }
+    ],
+    "reactant_labels": [
+      "S12"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "DCM"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: F01",
+        "pages": [
+          3
+        ],
+        "sha256": "fda2433512b90fea40befd3c82fca2bf04db686eaa9643f773e3164e50361096",
+        "source_id": "article"
+      },
+      {
+        "locator": "Compound drawing and associated NMR spectrum: F01",
+        "pages": [
+          158
+        ],
+        "sha256": "45d733b492367cb25a3d246cbff1effc8db3b2d41b6b54f822d78205e32d8c2b",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "F01.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "COc1ccc(COC[C@]23CC[C@@](C)(N)[C@H](CCCC(=O)OCc4ccccc4)[C@@]2(C)CCC=C3C)cc1>>COc1ccc(COC[C@]23CC[C@@](C)(NS(=O)(=O)c4ccc(C)cc4)[C@H](CCCC(=O)OCc4ccccc4)[C@@]2(C)CCC=C3C)cc1",
+    "yield_percent": 44
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "LiOH"
+    ],
+    "event_id": "F02",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "S14"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "S13",
+        "percent": 78,
+        "product_label": "S14",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "reactant_labels": [
+      "S13"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "THF",
+      "water"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: F02",
+        "pages": [
+          3
+        ],
+        "sha256": "fda2433512b90fea40befd3c82fca2bf04db686eaa9643f773e3164e50361096",
+        "source_id": "article"
+      },
+      {
+        "locator": "Compound drawing and associated NMR spectrum: F02",
+        "pages": [
+          161
+        ],
+        "sha256": "45d733b492367cb25a3d246cbff1effc8db3b2d41b6b54f822d78205e32d8c2b",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "F02.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "COc1ccc(COC[C@]23CC[C@@](C)(NS(=O)(=O)c4ccc(C)cc4)[C@H](CCCC(=O)OCc4ccccc4)[C@@]2(C)CCC=C3C)cc1>>COc1ccc(COC[C@]23CC[C@](C)(NS(=O)(=O)c4ccc(C)cc4)[C@H](CCCC(=O)O)[C@@]2(C)CCC=C3C)cc1",
+    "yield_percent": 78
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "NHPI",
+      "DIC",
+      "DMAP"
+    ],
+    "event_id": "F03",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "S15"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "S14",
+        "percent": 58,
+        "product_label": "S15",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "reactant_labels": [
+      "S14"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "DCM"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: F03",
+        "pages": [
+          3
+        ],
+        "sha256": "fda2433512b90fea40befd3c82fca2bf04db686eaa9643f773e3164e50361096",
+        "source_id": "article"
+      },
+      {
+        "locator": "Compound drawing and associated NMR spectrum: F03",
+        "pages": [
+          164
+        ],
+        "sha256": "45d733b492367cb25a3d246cbff1effc8db3b2d41b6b54f822d78205e32d8c2b",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "F03.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "COc1ccc(COC[C@]23CC[C@](C)(NS(=O)(=O)c4ccc(C)cc4)[C@H](CCCC(=O)O)[C@@]2(C)CCC=C3C)cc1>>COc1ccc(COC[C@]23CC[C@@](C)(NS(=O)(=O)c4ccc(C)cc4)[C@H](CCCC(=O)ON4C(=O)c5ccccc5C4=O)[C@@]2(C)CCC=C3C)cc1",
+    "yield_percent": 58
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "PdCl2",
+      "Xantphos",
+      "CyJohnphos",
+      "collidine",
+      "blueLED"
+    ],
+    "event_id": "F04",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "S16"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "S15",
+        "percent": 50,
+        "product_label": "S16",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "reactant_labels": [
+      "S15"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "DMA"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: F04",
+        "pages": [
+          3
+        ],
+        "sha256": "fda2433512b90fea40befd3c82fca2bf04db686eaa9643f773e3164e50361096",
+        "source_id": "article"
+      },
+      {
+        "locator": "Compound drawing and associated NMR spectrum: F04",
+        "pages": [
+          167
+        ],
+        "sha256": "45d733b492367cb25a3d246cbff1effc8db3b2d41b6b54f822d78205e32d8c2b",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "F04.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "COc1ccc(COC[C@]23CC[C@@](C)(NS(=O)(=O)c4ccc(C)cc4)[C@H](CCCC(=O)ON4C(=O)c5ccccc5C4=O)[C@@]2(C)CCC=C3C)cc1>>CCC[C@H]1[C@](C)(NS(=O)(=O)c2ccc(C)cc2)CC[C@]2(COCc3ccc(OC)cc3)C(C)=CC=C[C@]12C",
+    "yield_percent": 50
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "ferrocenecarboxylicacid",
+      "EDCI",
+      "DMAP"
+    ],
+    "event_id": "G01",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "S17"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "11",
+        "percent": 58,
+        "product_label": "S17",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "reactant_labels": [
+      "11"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "DCM"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: G01",
+        "pages": [
+          3
+        ],
+        "sha256": "fda2433512b90fea40befd3c82fca2bf04db686eaa9643f773e3164e50361096",
+        "source_id": "article"
+      },
+      {
+        "locator": "Compound drawing and associated NMR spectrum: G01",
+        "pages": [
+          173
+        ],
+        "sha256": "45d733b492367cb25a3d246cbff1effc8db3b2d41b6b54f822d78205e32d8c2b",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "G01.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "CC1=C2CC[C@]3(C)[C@H](CCCC34OCCO4)[C@@]2(C)CC[C@@H]1O>>CC1=C2CC[C@]3(C)[C@H](CCCC34OCCO4)[C@@]2(C)CC[C@@H]1OC(=O)c1ccc[cH-]1.[Fe+2].c1cc[cH-]c1",
+    "yield_percent": 58
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "MeI"
+    ],
+    "event_id": "G02",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "1-methiodide-cation"
+    ],
+    "product_specific_yields": [],
+    "reactant_labels": [
+      "1"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "CD2Cl2"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: G02",
+        "pages": [
+          3
+        ],
+        "sha256": "fda2433512b90fea40befd3c82fca2bf04db686eaa9643f773e3164e50361096",
+        "source_id": "article"
+      },
+      {
+        "locator": "Compound drawing and associated NMR spectrum: G02",
+        "pages": [
+          176
+        ],
+        "sha256": "45d733b492367cb25a3d246cbff1effc8db3b2d41b6b54f822d78205e32d8c2b",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "G02.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "CC1=CCN2[C@H]1C[C@H]1[C@@]2(C)CC[C@]2(CO)C(C)=CCC[C@]12C>>CC1=CC[N+]2(C)[C@H]1C[C@@H]1[C@@]3(C)CCC=C(C)[C@@]3(CO)CC[C@]12C",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "Cu(IPr)Cl"
+    ],
+    "event_id": "control-CuIPr",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "1",
+      "28"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "4",
+        "percent": 36,
+        "product_label": "1",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      },
+      {
+        "from_label": "4",
+        "percent": 23,
+        "product_label": "28",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "reactant_labels": [
+      "4"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "EtOH/water"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: control-CuIPr",
+        "pages": [
+          3
+        ],
+        "sha256": "fda2433512b90fea40befd3c82fca2bf04db686eaa9643f773e3164e50361096",
+        "source_id": "article"
+      },
+      {
+        "locator": "Compound drawing and associated NMR spectrum: control-CuIPr",
+        "pages": [
+          155
+        ],
+        "sha256": "45d733b492367cb25a3d246cbff1effc8db3b2d41b6b54f822d78205e32d8c2b",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "control-CuIPr.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "C#C/C(C)=C\\C[C@H]1[C@@](C)(N)CC[C@]2(CO)C(C)=CCC[C@]12C>>CC1=CCN2[C@@H]1C[C@H]1[C@@]2(C)CC[C@]2(CO)C(C)=CCC[C@]12C.CC1=CCN2[C@H]1C[C@H]1[C@@]2(C)CC[C@]2(CO)C(C)=CCC[C@]12C",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "AgNO3"
+    ],
+    "event_id": "control-Ag",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "1",
+      "28"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "4",
+        "percent": 27,
+        "product_label": "1",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      },
+      {
+        "from_label": "4",
+        "percent": 20,
+        "product_label": "28",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "reactant_labels": [
+      "4"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "chlorobenzene"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: control-Ag",
+        "pages": [
+          3
+        ],
+        "sha256": "fda2433512b90fea40befd3c82fca2bf04db686eaa9643f773e3164e50361096",
+        "source_id": "article"
+      },
+      {
+        "locator": "Compound drawing and associated NMR spectrum: control-Ag",
+        "pages": [
+          156
+        ],
+        "sha256": "45d733b492367cb25a3d246cbff1effc8db3b2d41b6b54f822d78205e32d8c2b",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "control-Ag.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "C#C/C(C)=C\\C[C@H]1[C@@](C)(N)CC[C@]2(CO)C(C)=CCC[C@]12C>>CC1=CCN2[C@@H]1C[C@H]1[C@@]2(C)CC[C@]2(CO)C(C)=CCC[C@]12C.CC1=CCN2[C@H]1C[C@H]1[C@@]2(C)CC[C@]2(CO)C(C)=CCC[C@]12C",
+    "yield_percent": null
+  }
+]

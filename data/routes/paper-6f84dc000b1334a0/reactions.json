@@ -1,0 +1,2106 @@
+[
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E01",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "R-21"
+    ],
+    "reactant_labels": [
+      "D-malic-acid"
+    ],
+    "reagents": [
+      "BH3.DMS",
+      "B(OMe)3"
+    ],
+    "reported_yields": [],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E01",
+        "pages": [
+          2
+        ],
+        "sha256": "575f953b3a7e27b2fcc3569f22f6e9a58f2a67129d85616cc000219761abca2c",
+        "source_id": "article"
+      },
+      {
+        "locator": "Compound drawing and associated NMR spectrum: E01",
+        "pages": [
+          5
+        ],
+        "sha256": "a06783de3afe2cb87eca40d5405d9f1c95aec19f0bc5f32d46b03bc5473a92fa",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E01.1"
+    ],
+    "substrate_product_smiles": "O=C(O)C[C@@H](O)C(=O)O>>OCC[C@@H](O)CO",
+    "time": "18 h"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E02",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "R-22"
+    ],
+    "reactant_labels": [
+      "R-21"
+    ],
+    "reagents": [
+      "2,2-dimethoxypropane",
+      "PTSA"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "D-malic-acid",
+        "percent": 74,
+        "product_label": "R-22",
+        "scope": "74% over reduction and acetonide protection; triol is crude."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "acetone"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E02",
+        "pages": [
+          2
+        ],
+        "sha256": "575f953b3a7e27b2fcc3569f22f6e9a58f2a67129d85616cc000219761abca2c",
+        "source_id": "article"
+      },
+      {
+        "locator": "Compound drawing and associated NMR spectrum: E02",
+        "pages": [
+          5
+        ],
+        "sha256": "a06783de3afe2cb87eca40d5405d9f1c95aec19f0bc5f32d46b03bc5473a92fa",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E02.1"
+    ],
+    "substrate_product_smiles": "OCC[C@@H](O)CO>>CC1(C)OC[C@@H](CCO)O1",
+    "time": "6 h",
+    "yield_from_label": "D-malic-acid",
+    "yield_scope": "74% over reduction and acetonide protection; triol is crude."
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E03",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "R-5"
+    ],
+    "reactant_labels": [
+      "R-22"
+    ],
+    "reagents": [
+      "oxalyl chloride",
+      "DMSO",
+      "Et3N"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "R-22",
+        "percent": 88,
+        "product_label": "R-5",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "dichloromethane"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E03",
+        "pages": [
+          2
+        ],
+        "sha256": "575f953b3a7e27b2fcc3569f22f6e9a58f2a67129d85616cc000219761abca2c",
+        "source_id": "article"
+      },
+      {
+        "locator": "Compound drawing and associated NMR spectrum: E03",
+        "pages": [
+          6
+        ],
+        "sha256": "a06783de3afe2cb87eca40d5405d9f1c95aec19f0bc5f32d46b03bc5473a92fa",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E03.1"
+    ],
+    "substrate_product_smiles": "CC1(C)OC[C@@H](CCO)O1>>CC1(C)OC[C@@H](CC=O)O1",
+    "temperature": "-78 C to -20 C"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E04",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "S-21"
+    ],
+    "reactant_labels": [
+      "L-malic-acid"
+    ],
+    "reagents": [
+      "BH3.DMS",
+      "B(OMe)3"
+    ],
+    "reported_yields": [],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E04",
+        "pages": [
+          3
+        ],
+        "sha256": "575f953b3a7e27b2fcc3569f22f6e9a58f2a67129d85616cc000219761abca2c",
+        "source_id": "article"
+      },
+      {
+        "locator": "Compound drawing and associated NMR spectrum: E04",
+        "pages": [
+          5
+        ],
+        "sha256": "a06783de3afe2cb87eca40d5405d9f1c95aec19f0bc5f32d46b03bc5473a92fa",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E04.1"
+    ],
+    "substrate_product_smiles": "O=C(O)C[C@H](O)C(=O)O>>OCC[C@H](O)CO",
+    "yield_scope": "General S-series procedure; no separately exemplified isolated yield."
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E05",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "S-22"
+    ],
+    "reactant_labels": [
+      "S-21"
+    ],
+    "reagents": [
+      "2,2-dimethoxypropane",
+      "PTSA"
+    ],
+    "reported_yields": [],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "acetone"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E05",
+        "pages": [
+          3
+        ],
+        "sha256": "575f953b3a7e27b2fcc3569f22f6e9a58f2a67129d85616cc000219761abca2c",
+        "source_id": "article"
+      },
+      {
+        "locator": "Compound drawing and associated NMR spectrum: E05",
+        "pages": [
+          5
+        ],
+        "sha256": "a06783de3afe2cb87eca40d5405d9f1c95aec19f0bc5f32d46b03bc5473a92fa",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E05.1"
+    ],
+    "substrate_product_smiles": "OCC[C@H](O)CO>>CC1(C)OC[C@H](CCO)O1",
+    "yield_scope": "General S-series procedure; R-series combined yield not copied."
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E06",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "S-5"
+    ],
+    "reactant_labels": [
+      "S-22"
+    ],
+    "reagents": [
+      "oxalyl chloride",
+      "DMSO",
+      "Et3N"
+    ],
+    "reported_yields": [],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "dichloromethane"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E06",
+        "pages": [
+          3
+        ],
+        "sha256": "575f953b3a7e27b2fcc3569f22f6e9a58f2a67129d85616cc000219761abca2c",
+        "source_id": "article"
+      },
+      {
+        "locator": "Compound drawing and associated NMR spectrum: E06",
+        "pages": [
+          6
+        ],
+        "sha256": "a06783de3afe2cb87eca40d5405d9f1c95aec19f0bc5f32d46b03bc5473a92fa",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E06.1"
+    ],
+    "substrate_product_smiles": "CC1(C)OC[C@H](CCO)O1>>CC1(C)OC[C@H](CC=O)O1",
+    "yield_scope": "General S-series procedure; no independently exemplified yield."
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E07",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "6a",
+      "6b"
+    ],
+    "reactant_labels": [
+      "R-5",
+      "butenyl-MgBr"
+    ],
+    "reagents": [],
+    "reported_yields": [
+      {
+        "from_label": "R-5",
+        "percent": 40.2,
+        "product_label": "6a",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      },
+      {
+        "from_label": "R-5",
+        "percent": 25.8,
+        "product_label": "6b",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E07",
+        "pages": [
+          2
+        ],
+        "sha256": "575f953b3a7e27b2fcc3569f22f6e9a58f2a67129d85616cc000219761abca2c",
+        "source_id": "article"
+      },
+      {
+        "locator": "Compound drawing and associated NMR spectrum: E07",
+        "pages": [
+          6,
+          7
+        ],
+        "sha256": "a06783de3afe2cb87eca40d5405d9f1c95aec19f0bc5f32d46b03bc5473a92fa",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E07.1"
+    ],
+    "substrate_product_smiles": "C=CC[CH2][Mg][Br].CC1(C)OC[C@@H](CC=O)O1>>C=CCC[C@@H](O)C[C@@H]1COC(C)(C)O1.C=CCC[C@H](O)C[C@@H]1COC(C)(C)O1",
+    "temperature": "Addition -78 C; stirring room temperature",
+    "time": "2 h"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E08",
+    "experimental_stage_count": 2,
+    "formal_benchmark_eligible": false,
+    "operation_stages": [
+      "Mitsunobu esterification 0 C to rt, 5 h",
+      "Crude benzoate hydrolysis rt, 2 h"
+    ],
+    "product_labels": [
+      "6a"
+    ],
+    "reactant_labels": [
+      "6b"
+    ],
+    "reagents": [
+      "PPh3",
+      "DIAD",
+      "4-nitrobenzoic acid",
+      "K2CO3"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "6b",
+        "percent": 82,
+        "product_label": "6a",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "toluene",
+      "THF",
+      "methanol"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E08",
+        "pages": [
+          2
+        ],
+        "sha256": "575f953b3a7e27b2fcc3569f22f6e9a58f2a67129d85616cc000219761abca2c",
+        "source_id": "article"
+      },
+      {
+        "locator": "Compound drawing and associated NMR spectrum: E08",
+        "pages": [
+          7
+        ],
+        "sha256": "a06783de3afe2cb87eca40d5405d9f1c95aec19f0bc5f32d46b03bc5473a92fa",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E08.1"
+    ],
+    "substrate_product_smiles": "C=CCC[C@@H](O)C[C@@H]1COC(C)(C)O1>>C=CCC[C@H](O)C[C@@H]1COC(C)(C)O1"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E09",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "7a"
+    ],
+    "reactant_labels": [
+      "6a"
+    ],
+    "reagents": [
+      "PMBBr",
+      "NaH"
+    ],
+    "reported_yields": [],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "DMF"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E09",
+        "pages": [
+          2
+        ],
+        "sha256": "575f953b3a7e27b2fcc3569f22f6e9a58f2a67129d85616cc000219761abca2c",
+        "source_id": "article"
+      },
+      {
+        "locator": "Compound drawing and associated NMR spectrum: E09",
+        "pages": [
+          8
+        ],
+        "sha256": "a06783de3afe2cb87eca40d5405d9f1c95aec19f0bc5f32d46b03bc5473a92fa",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E09.1"
+    ],
+    "substrate_product_smiles": "C=CCC[C@H](O)C[C@@H]1COC(C)(C)O1>>C=CCC[C@@H](C[C@@H]1COC(C)(C)O1)OCc1ccc(OC)cc1",
+    "yield_scope": "Crude SI intermediate; main reports 97% separately."
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E10",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "8a"
+    ],
+    "reactant_labels": [
+      "7a"
+    ],
+    "reagents": [
+      "60% AcOH"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "6a",
+        "percent": 94,
+        "product_label": "8a",
+        "scope": "SI isolated 94% over two steps."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "water"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E10",
+        "pages": [
+          2
+        ],
+        "sha256": "575f953b3a7e27b2fcc3569f22f6e9a58f2a67129d85616cc000219761abca2c",
+        "source_id": "article"
+      },
+      {
+        "locator": "Compound drawing and associated NMR spectrum: E10",
+        "pages": [
+          8
+        ],
+        "sha256": "a06783de3afe2cb87eca40d5405d9f1c95aec19f0bc5f32d46b03bc5473a92fa",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E10.1"
+    ],
+    "substrate_product_smiles": "C=CCC[C@@H](C[C@@H]1COC(C)(C)O1)OCc1ccc(OC)cc1>>C=CCC[C@@H](C[C@@H](O)CO)OCc1ccc(OC)cc1",
+    "temperature": "60 C",
+    "time": "3 h",
+    "yield_from_label": "6a",
+    "yield_scope": "SI isolated 94% over two steps."
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E11",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "7b"
+    ],
+    "reactant_labels": [
+      "6b"
+    ],
+    "reagents": [
+      "PMBBr",
+      "NaH"
+    ],
+    "reported_yields": [],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "DMF"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E11",
+        "pages": [
+          2
+        ],
+        "sha256": "575f953b3a7e27b2fcc3569f22f6e9a58f2a67129d85616cc000219761abca2c",
+        "source_id": "article"
+      },
+      {
+        "locator": "Compound drawing and associated NMR spectrum: E11",
+        "pages": [
+          8
+        ],
+        "sha256": "a06783de3afe2cb87eca40d5405d9f1c95aec19f0bc5f32d46b03bc5473a92fa",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E11.1"
+    ],
+    "substrate_product_smiles": "C=CCC[C@@H](O)C[C@@H]1COC(C)(C)O1>>C=CCC[C@H](C[C@@H]1COC(C)(C)O1)OCc1ccc(OC)cc1",
+    "yield_scope": "Crude SI intermediate; main reports 99% separately."
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E12",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "8b"
+    ],
+    "reactant_labels": [
+      "7b"
+    ],
+    "reagents": [
+      "60% AcOH"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "6b",
+        "percent": 88,
+        "product_label": "8b",
+        "scope": "SI isolated 88% over two steps."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "water"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E12",
+        "pages": [
+          2
+        ],
+        "sha256": "575f953b3a7e27b2fcc3569f22f6e9a58f2a67129d85616cc000219761abca2c",
+        "source_id": "article"
+      },
+      {
+        "locator": "Compound drawing and associated NMR spectrum: E12",
+        "pages": [
+          8,
+          9
+        ],
+        "sha256": "a06783de3afe2cb87eca40d5405d9f1c95aec19f0bc5f32d46b03bc5473a92fa",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E12.1"
+    ],
+    "substrate_product_smiles": "C=CCC[C@H](C[C@@H]1COC(C)(C)O1)OCc1ccc(OC)cc1>>C=CCC[C@H](C[C@@H](O)CO)OCc1ccc(OC)cc1",
+    "temperature": "60 C",
+    "time": "3 h",
+    "yield_from_label": "6b",
+    "yield_scope": "SI isolated 88% over two steps."
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E13",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "9a"
+    ],
+    "reactant_labels": [
+      "8a"
+    ],
+    "reagents": [
+      "DDQ",
+      "4 A molecular sieves"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "8a",
+        "percent": 34,
+        "product_label": "9a",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "dichloromethane"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E13",
+        "pages": [
+          2
+        ],
+        "sha256": "575f953b3a7e27b2fcc3569f22f6e9a58f2a67129d85616cc000219761abca2c",
+        "source_id": "article"
+      },
+      {
+        "locator": "Compound drawing and associated NMR spectrum: E13",
+        "pages": [
+          9,
+          10
+        ],
+        "sha256": "a06783de3afe2cb87eca40d5405d9f1c95aec19f0bc5f32d46b03bc5473a92fa",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E13.1"
+    ],
+    "substrate_product_smiles": "C=CCC[C@@H](C[C@@H](O)CO)OCc1ccc(OC)cc1>>C=CCC[C@H]1C[C@H](CO)OC(c2ccc(OC)cc2)O1",
+    "time": "3 h"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E14",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "9b"
+    ],
+    "reactant_labels": [
+      "8b"
+    ],
+    "reagents": [
+      "DDQ",
+      "4 A molecular sieves"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "8b",
+        "percent": 80,
+        "product_label": "9b",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "dichloromethane"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E14",
+        "pages": [
+          2
+        ],
+        "sha256": "575f953b3a7e27b2fcc3569f22f6e9a58f2a67129d85616cc000219761abca2c",
+        "source_id": "article"
+      },
+      {
+        "locator": "Compound drawing and associated NMR spectrum: E14",
+        "pages": [
+          9
+        ],
+        "sha256": "a06783de3afe2cb87eca40d5405d9f1c95aec19f0bc5f32d46b03bc5473a92fa",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E14.1"
+    ],
+    "substrate_product_smiles": "C=CCC[C@H](C[C@@H](O)CO)OCc1ccc(OC)cc1>>C=CCC[C@@H]1C[C@H](CO)OC(c2ccc(OC)cc2)O1",
+    "time": "3 h"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E15",
+    "experimental_stage_count": 2,
+    "formal_benchmark_eligible": false,
+    "operation_stages": [
+      "Selective primary tosylation 0 C to rt, 3 h",
+      "Epoxide closure rt, 2 h"
+    ],
+    "product_labels": [
+      "3"
+    ],
+    "reactant_labels": [
+      "8a"
+    ],
+    "reagents": [
+      "TsCl",
+      "Bu2SnO",
+      "Et3N",
+      "K2CO3"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "8a",
+        "percent": 87,
+        "product_label": "3",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "dichloromethane",
+      "methanol"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E15",
+        "pages": [
+          3
+        ],
+        "sha256": "575f953b3a7e27b2fcc3569f22f6e9a58f2a67129d85616cc000219761abca2c",
+        "source_id": "article"
+      },
+      {
+        "locator": "Compound drawing and associated NMR spectrum: E15",
+        "pages": [
+          10
+        ],
+        "sha256": "a06783de3afe2cb87eca40d5405d9f1c95aec19f0bc5f32d46b03bc5473a92fa",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E15.1"
+    ],
+    "substrate_product_smiles": "C=CCC[C@@H](C[C@@H](O)CO)OCc1ccc(OC)cc1>>C=CCC[C@@H](C[C@@H]1CO1)OCc1ccc(OC)cc1"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E16",
+    "experimental_stage_count": 2,
+    "formal_benchmark_eligible": false,
+    "mixture_yield_percent": 82,
+    "operation_stages": [
+      "Ethynyl addition -78 C, 2 h",
+      "Silylation rt, 3 h"
+    ],
+    "product_labels": [
+      "4"
+    ],
+    "reactant_labels": [
+      "S-5",
+      "ethynyl-MgBr"
+    ],
+    "reagents": [
+      "TBSCl",
+      "imidazole",
+      "DMAP"
+    ],
+    "reported_yield_text": "82% combined mixture yield",
+    "reported_yields": [],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "THF",
+      "dichloromethane"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E16",
+        "pages": [
+          3
+        ],
+        "sha256": "575f953b3a7e27b2fcc3569f22f6e9a58f2a67129d85616cc000219761abca2c",
+        "source_id": "article"
+      },
+      {
+        "locator": "Compound drawing and associated NMR spectrum: E16",
+        "pages": [
+          10,
+          11
+        ],
+        "sha256": "a06783de3afe2cb87eca40d5405d9f1c95aec19f0bc5f32d46b03bc5473a92fa",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E16.1"
+    ],
+    "substrate_product_smiles": "C#[C][Mg][Br].CC1(C)OC[C@H](CC=O)O1>>C#CC(C[C@H]1COC(C)(C)O1)O[Si](C)(C)C(C)(C)C",
+    "yield_scope": "82% over two steps; source C11 wavy bond retains a mixture."
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E17",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "mixture_yield_percent": 96,
+    "product_labels": [
+      "10"
+    ],
+    "reactant_labels": [
+      "3",
+      "4"
+    ],
+    "reagents": [
+      "n-BuLi",
+      "BF3.OEt2"
+    ],
+    "reported_yield_text": "96% combined mixture yield",
+    "reported_yields": [],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E17",
+        "pages": [
+          3
+        ],
+        "sha256": "575f953b3a7e27b2fcc3569f22f6e9a58f2a67129d85616cc000219761abca2c",
+        "source_id": "article"
+      },
+      {
+        "locator": "Compound drawing and associated NMR spectrum: E17",
+        "pages": [
+          11,
+          12
+        ],
+        "sha256": "a06783de3afe2cb87eca40d5405d9f1c95aec19f0bc5f32d46b03bc5473a92fa",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E17.1"
+    ],
+    "substrate_product_smiles": "C#CC(C[C@H]1COC(C)(C)O1)O[Si](C)(C)C(C)(C)C.C=CCC[C@@H](C[C@@H]1CO1)OCc1ccc(OC)cc1>>C=CCC[C@@H](C[C@@H](O)CC#CC(C[C@H]1COC(C)(C)O1)O[Si](C)(C)C(C)(C)C)OCc1ccc(OC)cc1",
+    "temperature": "-78 C",
+    "time": "3 h"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E18",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "mixture_yield_percent": 96,
+    "product_labels": [
+      "11"
+    ],
+    "reactant_labels": [
+      "10"
+    ],
+    "reagents": [
+      "PMBBr",
+      "NaH"
+    ],
+    "reported_yield_text": "96% combined mixture yield",
+    "reported_yields": [],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "DMF"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E18",
+        "pages": [
+          3
+        ],
+        "sha256": "575f953b3a7e27b2fcc3569f22f6e9a58f2a67129d85616cc000219761abca2c",
+        "source_id": "article"
+      },
+      {
+        "locator": "Compound drawing and associated NMR spectrum: E18",
+        "pages": [
+          12
+        ],
+        "sha256": "a06783de3afe2cb87eca40d5405d9f1c95aec19f0bc5f32d46b03bc5473a92fa",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E18.1"
+    ],
+    "substrate_product_smiles": "C=CCC[C@@H](C[C@@H](O)CC#CC(C[C@H]1COC(C)(C)O1)O[Si](C)(C)C(C)(C)C)OCc1ccc(OC)cc1>>C=CCC[C@@H](C[C@H](CC#CC(C[C@H]1COC(C)(C)O1)O[Si](C)(C)C(C)(C)C)OCc1ccc(OC)cc1)OCc1ccc(OC)cc1",
+    "temperature": "0 C to rt",
+    "time": "2 h"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E19",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "13-mixture"
+    ],
+    "reactant_labels": [
+      "11"
+    ],
+    "reagents": [
+      "TBAF.3H2O"
+    ],
+    "reported_yields": [],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E19",
+        "pages": [
+          3
+        ],
+        "sha256": "575f953b3a7e27b2fcc3569f22f6e9a58f2a67129d85616cc000219761abca2c",
+        "source_id": "article"
+      },
+      {
+        "locator": "Compound drawing and associated NMR spectrum: E19",
+        "pages": [
+          12,
+          13
+        ],
+        "sha256": "a06783de3afe2cb87eca40d5405d9f1c95aec19f0bc5f32d46b03bc5473a92fa",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E19.1"
+    ],
+    "substrate_product_smiles": "C=CCC[C@@H](C[C@H](CC#CC(C[C@H]1COC(C)(C)O1)O[Si](C)(C)C(C)(C)C)OCc1ccc(OC)cc1)OCc1ccc(OC)cc1>>C=CCC[C@@H](C[C@H](CC#CC(O)C[C@H]1COC(C)(C)O1)OCc1ccc(OC)cc1)OCc1ccc(OC)cc1",
+    "time": "1 h",
+    "yield_scope": "Crude explicitly named 13a/13b mixture before oxidation."
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E20",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "12"
+    ],
+    "reactant_labels": [
+      "13-mixture"
+    ],
+    "reagents": [
+      "Dess-Martin periodinane",
+      "NaHCO3"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "11",
+        "percent": 90,
+        "product_label": "12",
+        "scope": "90% over desilylation and oxidation."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "dichloromethane"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E20",
+        "pages": [
+          3
+        ],
+        "sha256": "575f953b3a7e27b2fcc3569f22f6e9a58f2a67129d85616cc000219761abca2c",
+        "source_id": "article"
+      },
+      {
+        "locator": "Compound drawing and associated NMR spectrum: E20",
+        "pages": [
+          13
+        ],
+        "sha256": "a06783de3afe2cb87eca40d5405d9f1c95aec19f0bc5f32d46b03bc5473a92fa",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E20.1"
+    ],
+    "substrate_product_smiles": "C=CCC[C@@H](C[C@H](CC#CC(O)C[C@H]1COC(C)(C)O1)OCc1ccc(OC)cc1)OCc1ccc(OC)cc1>>C=CCC[C@@H](C[C@H](CC#CC(=O)C[C@H]1COC(C)(C)O1)OCc1ccc(OC)cc1)OCc1ccc(OC)cc1",
+    "time": "2 h",
+    "yield_from_label": "11",
+    "yield_scope": "90% over desilylation and oxidation."
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E21",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "13a"
+    ],
+    "reactant_labels": [
+      "12"
+    ],
+    "reagents": [
+      "RuCl[(R,R)-Tsdpen](p-cymene)",
+      "HCO2H",
+      "Et3N"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "12",
+        "percent": 89,
+        "product_label": "13a",
+        "scope": "Single isolated diastereomer; dr >99% as reported."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "dichloromethane"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E21",
+        "pages": [
+          3
+        ],
+        "sha256": "575f953b3a7e27b2fcc3569f22f6e9a58f2a67129d85616cc000219761abca2c",
+        "source_id": "article"
+      },
+      {
+        "locator": "Compound drawing and associated NMR spectrum: E21",
+        "pages": [
+          13,
+          14
+        ],
+        "sha256": "a06783de3afe2cb87eca40d5405d9f1c95aec19f0bc5f32d46b03bc5473a92fa",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E21.1"
+    ],
+    "substrate_product_smiles": "C=CCC[C@@H](C[C@H](CC#CC(=O)C[C@H]1COC(C)(C)O1)OCc1ccc(OC)cc1)OCc1ccc(OC)cc1>>C=CCC[C@@H](C[C@H](CC#C[C@H](O)C[C@H]1COC(C)(C)O1)OCc1ccc(OC)cc1)OCc1ccc(OC)cc1",
+    "temperature": "0 C",
+    "time": "12 h",
+    "yield_scope": "Single isolated diastereomer; dr >99% as reported."
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E22",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "13b"
+    ],
+    "reactant_labels": [
+      "12"
+    ],
+    "reagents": [
+      "RuCl[(S,S)-Tsdpen](p-cymene)",
+      "HCO2H",
+      "Et3N"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "12",
+        "percent": 87,
+        "product_label": "13b",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "dichloromethane"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E22",
+        "pages": [
+          3
+        ],
+        "sha256": "575f953b3a7e27b2fcc3569f22f6e9a58f2a67129d85616cc000219761abca2c",
+        "source_id": "article"
+      },
+      {
+        "locator": "Compound drawing and associated NMR spectrum: E22",
+        "pages": [
+          13,
+          14
+        ],
+        "sha256": "a06783de3afe2cb87eca40d5405d9f1c95aec19f0bc5f32d46b03bc5473a92fa",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E22.1"
+    ],
+    "substrate_product_smiles": "C=CCC[C@@H](C[C@H](CC#CC(=O)C[C@H]1COC(C)(C)O1)OCc1ccc(OC)cc1)OCc1ccc(OC)cc1>>C=CCC[C@@H](C[C@H](CC#C[C@@H](O)C[C@H]1COC(C)(C)O1)OCc1ccc(OC)cc1)OCc1ccc(OC)cc1",
+    "temperature": "0 C",
+    "time": "12 h"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E23",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "14a"
+    ],
+    "reactant_labels": [
+      "13a"
+    ],
+    "reagents": [
+      "LiAlH4"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "13a",
+        "percent": 90,
+        "product_label": "14a",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E23",
+        "pages": [
+          3
+        ],
+        "sha256": "575f953b3a7e27b2fcc3569f22f6e9a58f2a67129d85616cc000219761abca2c",
+        "source_id": "article"
+      },
+      {
+        "locator": "Compound drawing and associated NMR spectrum: E23",
+        "pages": [
+          14,
+          15
+        ],
+        "sha256": "a06783de3afe2cb87eca40d5405d9f1c95aec19f0bc5f32d46b03bc5473a92fa",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E23.1"
+    ],
+    "substrate_product_smiles": "C=CCC[C@@H](C[C@H](CC#C[C@H](O)C[C@H]1COC(C)(C)O1)OCc1ccc(OC)cc1)OCc1ccc(OC)cc1>>C=CCC[C@@H](C[C@H](C/C=C/[C@H](O)C[C@H]1COC(C)(C)O1)OCc1ccc(OC)cc1)OCc1ccc(OC)cc1",
+    "temperature": "0 C to reflux",
+    "time": "3 h"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E24",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "14b"
+    ],
+    "reactant_labels": [
+      "13b"
+    ],
+    "reagents": [
+      "LiAlH4"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "13b",
+        "percent": 92,
+        "product_label": "14b",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E24",
+        "pages": [
+          3
+        ],
+        "sha256": "575f953b3a7e27b2fcc3569f22f6e9a58f2a67129d85616cc000219761abca2c",
+        "source_id": "article"
+      },
+      {
+        "locator": "Compound drawing and associated NMR spectrum: E24",
+        "pages": [
+          14,
+          15
+        ],
+        "sha256": "a06783de3afe2cb87eca40d5405d9f1c95aec19f0bc5f32d46b03bc5473a92fa",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E24.1"
+    ],
+    "substrate_product_smiles": "C=CCC[C@@H](C[C@H](CC#C[C@@H](O)C[C@H]1COC(C)(C)O1)OCc1ccc(OC)cc1)OCc1ccc(OC)cc1>>C=CCC[C@@H](C[C@H](C/C=C/[C@@H](O)C[C@H]1COC(C)(C)O1)OCc1ccc(OC)cc1)OCc1ccc(OC)cc1",
+    "temperature": "0 C to reflux",
+    "time": "3 h"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E25",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "15a"
+    ],
+    "reactant_labels": [
+      "14a"
+    ],
+    "reagents": [
+      "PMBBr",
+      "NaH"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "14a",
+        "percent": 93,
+        "product_label": "15a",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "DMF"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E25",
+        "pages": [
+          3
+        ],
+        "sha256": "575f953b3a7e27b2fcc3569f22f6e9a58f2a67129d85616cc000219761abca2c",
+        "source_id": "article"
+      },
+      {
+        "locator": "Compound drawing and associated NMR spectrum: E25",
+        "pages": [
+          16
+        ],
+        "sha256": "a06783de3afe2cb87eca40d5405d9f1c95aec19f0bc5f32d46b03bc5473a92fa",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E25.1"
+    ],
+    "substrate_product_smiles": "C=CCC[C@@H](C[C@H](C/C=C/[C@H](O)C[C@H]1COC(C)(C)O1)OCc1ccc(OC)cc1)OCc1ccc(OC)cc1>>C=CCC[C@@H](C[C@H](C/C=C/[C@@H](C[C@H]1COC(C)(C)O1)OCc1ccc(OC)cc1)OCc1ccc(OC)cc1)OCc1ccc(OC)cc1",
+    "temperature": "0 C to rt",
+    "time": "2 h"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E26",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "15b"
+    ],
+    "reactant_labels": [
+      "14b"
+    ],
+    "reagents": [
+      "PMBBr",
+      "NaH"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "14b",
+        "percent": 92,
+        "product_label": "15b",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "DMF"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E26",
+        "pages": [
+          3
+        ],
+        "sha256": "575f953b3a7e27b2fcc3569f22f6e9a58f2a67129d85616cc000219761abca2c",
+        "source_id": "article"
+      },
+      {
+        "locator": "Compound drawing and associated NMR spectrum: E26",
+        "pages": [
+          16
+        ],
+        "sha256": "a06783de3afe2cb87eca40d5405d9f1c95aec19f0bc5f32d46b03bc5473a92fa",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E26.1"
+    ],
+    "substrate_product_smiles": "C=CCC[C@@H](C[C@H](C/C=C/[C@@H](O)C[C@H]1COC(C)(C)O1)OCc1ccc(OC)cc1)OCc1ccc(OC)cc1>>C=CCC[C@@H](C[C@H](C/C=C/[C@H](C[C@H]1COC(C)(C)O1)OCc1ccc(OC)cc1)OCc1ccc(OC)cc1)OCc1ccc(OC)cc1",
+    "temperature": "0 C to rt",
+    "time": "2 h"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E27",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "16a"
+    ],
+    "reactant_labels": [
+      "15a",
+      "styrene"
+    ],
+    "reagents": [
+      "Grubbs second-generation catalyst"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "15a",
+        "percent": 79,
+        "product_label": "16a",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "dichloromethane"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E27",
+        "pages": [
+          3
+        ],
+        "sha256": "575f953b3a7e27b2fcc3569f22f6e9a58f2a67129d85616cc000219761abca2c",
+        "source_id": "article"
+      },
+      {
+        "locator": "Compound drawing and associated NMR spectrum: E27",
+        "pages": [
+          17
+        ],
+        "sha256": "a06783de3afe2cb87eca40d5405d9f1c95aec19f0bc5f32d46b03bc5473a92fa",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E27.1"
+    ],
+    "substrate_product_smiles": "C=CCC[C@@H](C[C@H](C/C=C/[C@@H](C[C@H]1COC(C)(C)O1)OCc1ccc(OC)cc1)OCc1ccc(OC)cc1)OCc1ccc(OC)cc1.C=Cc1ccccc1>>COc1ccc(CO[C@@H](C/C=C/[C@@H](C[C@H]2COC(C)(C)O2)OCc2ccc(OC)cc2)C[C@H](CC/C=C/c2ccccc2)OCc2ccc(OC)cc2)cc1",
+    "temperature": "45 C",
+    "time": "3 h"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E28",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "16b"
+    ],
+    "reactant_labels": [
+      "15b",
+      "styrene"
+    ],
+    "reagents": [
+      "Grubbs second-generation catalyst"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "15b",
+        "percent": 77,
+        "product_label": "16b",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "dichloromethane"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E28",
+        "pages": [
+          3
+        ],
+        "sha256": "575f953b3a7e27b2fcc3569f22f6e9a58f2a67129d85616cc000219761abca2c",
+        "source_id": "article"
+      },
+      {
+        "locator": "Compound drawing and associated NMR spectrum: E28",
+        "pages": [
+          17,
+          18
+        ],
+        "sha256": "a06783de3afe2cb87eca40d5405d9f1c95aec19f0bc5f32d46b03bc5473a92fa",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E28.1"
+    ],
+    "substrate_product_smiles": "C=CCC[C@@H](C[C@H](C/C=C/[C@H](C[C@H]1COC(C)(C)O1)OCc1ccc(OC)cc1)OCc1ccc(OC)cc1)OCc1ccc(OC)cc1.C=Cc1ccccc1>>COc1ccc(CO[C@@H](C/C=C/[C@H](C[C@H]2COC(C)(C)O2)OCc2ccc(OC)cc2)C[C@H](CC/C=C/c2ccccc2)OCc2ccc(OC)cc2)cc1",
+    "temperature": "45 C",
+    "time": "3 h"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E29",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "17a"
+    ],
+    "reactant_labels": [
+      "16a"
+    ],
+    "reagents": [
+      "60% AcOH"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "16a",
+        "percent": 89,
+        "product_label": "17a",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "water"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E29",
+        "pages": [
+          3
+        ],
+        "sha256": "575f953b3a7e27b2fcc3569f22f6e9a58f2a67129d85616cc000219761abca2c",
+        "source_id": "article"
+      },
+      {
+        "locator": "Compound drawing and associated NMR spectrum: E29",
+        "pages": [
+          18
+        ],
+        "sha256": "a06783de3afe2cb87eca40d5405d9f1c95aec19f0bc5f32d46b03bc5473a92fa",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E29.1"
+    ],
+    "substrate_product_smiles": "COc1ccc(CO[C@@H](C/C=C/[C@@H](C[C@H]2COC(C)(C)O2)OCc2ccc(OC)cc2)C[C@H](CC/C=C/c2ccccc2)OCc2ccc(OC)cc2)cc1>>COc1ccc(CO[C@@H](C/C=C/[C@@H](C[C@H](O)CO)OCc2ccc(OC)cc2)C[C@H](CC/C=C/c2ccccc2)OCc2ccc(OC)cc2)cc1",
+    "temperature": "60 C",
+    "time": "3 h"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E30",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "17b"
+    ],
+    "reactant_labels": [
+      "16b"
+    ],
+    "reagents": [
+      "60% AcOH"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "16b",
+        "percent": 88,
+        "product_label": "17b",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "water"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E30",
+        "pages": [
+          3
+        ],
+        "sha256": "575f953b3a7e27b2fcc3569f22f6e9a58f2a67129d85616cc000219761abca2c",
+        "source_id": "article"
+      },
+      {
+        "locator": "Compound drawing and associated NMR spectrum: E30",
+        "pages": [
+          18,
+          19
+        ],
+        "sha256": "a06783de3afe2cb87eca40d5405d9f1c95aec19f0bc5f32d46b03bc5473a92fa",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E30.1"
+    ],
+    "substrate_product_smiles": "COc1ccc(CO[C@@H](C/C=C/[C@H](C[C@H]2COC(C)(C)O2)OCc2ccc(OC)cc2)C[C@H](CC/C=C/c2ccccc2)OCc2ccc(OC)cc2)cc1>>COc1ccc(CO[C@@H](C/C=C/[C@H](C[C@H](O)CO)OCc2ccc(OC)cc2)C[C@H](CC/C=C/c2ccccc2)OCc2ccc(OC)cc2)cc1",
+    "temperature": "60 C",
+    "time": "3 h"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E31",
+    "experimental_stage_count": 2,
+    "formal_benchmark_eligible": false,
+    "operation_stages": [
+      "Primary tosylation 0 C to rt, 3 h",
+      "Epoxide closure rt, 2 h"
+    ],
+    "product_labels": [
+      "2a"
+    ],
+    "reactant_labels": [
+      "17a"
+    ],
+    "reagents": [
+      "TsCl",
+      "Bu2SnO",
+      "Et3N",
+      "K2CO3"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "17a",
+        "percent": 90,
+        "product_label": "2a",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "dichloromethane",
+      "methanol"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E31",
+        "pages": [
+          3
+        ],
+        "sha256": "575f953b3a7e27b2fcc3569f22f6e9a58f2a67129d85616cc000219761abca2c",
+        "source_id": "article"
+      },
+      {
+        "locator": "Compound drawing and associated NMR spectrum: E31",
+        "pages": [
+          19,
+          20
+        ],
+        "sha256": "a06783de3afe2cb87eca40d5405d9f1c95aec19f0bc5f32d46b03bc5473a92fa",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E31.1"
+    ],
+    "substrate_product_smiles": "COc1ccc(CO[C@@H](C/C=C/[C@@H](C[C@H](O)CO)OCc2ccc(OC)cc2)C[C@H](CC/C=C/c2ccccc2)OCc2ccc(OC)cc2)cc1>>COc1ccc(CO[C@@H](C/C=C/[C@@H](C[C@H]2CO2)OCc2ccc(OC)cc2)C[C@H](CC/C=C/c2ccccc2)OCc2ccc(OC)cc2)cc1"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E32",
+    "experimental_stage_count": 2,
+    "formal_benchmark_eligible": false,
+    "operation_stages": [
+      "Primary tosylation 0 C to rt, 3 h",
+      "Epoxide closure rt, 2 h"
+    ],
+    "product_labels": [
+      "2b"
+    ],
+    "reactant_labels": [
+      "17b"
+    ],
+    "reagents": [
+      "TsCl",
+      "Bu2SnO",
+      "Et3N",
+      "K2CO3"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "17b",
+        "percent": 88,
+        "product_label": "2b",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "dichloromethane",
+      "methanol"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E32",
+        "pages": [
+          3
+        ],
+        "sha256": "575f953b3a7e27b2fcc3569f22f6e9a58f2a67129d85616cc000219761abca2c",
+        "source_id": "article"
+      },
+      {
+        "locator": "Compound drawing and associated NMR spectrum: E32",
+        "pages": [
+          19,
+          20
+        ],
+        "sha256": "a06783de3afe2cb87eca40d5405d9f1c95aec19f0bc5f32d46b03bc5473a92fa",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E32.1"
+    ],
+    "substrate_product_smiles": "COc1ccc(CO[C@@H](C/C=C/[C@H](C[C@H](O)CO)OCc2ccc(OC)cc2)C[C@H](CC/C=C/c2ccccc2)OCc2ccc(OC)cc2)cc1>>COc1ccc(CO[C@@H](C/C=C/[C@H](C[C@H]2CO2)OCc2ccc(OC)cc2)C[C@H](CC/C=C/c2ccccc2)OCc2ccc(OC)cc2)cc1"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E33",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "18a"
+    ],
+    "reactant_labels": [
+      "2a",
+      "methyl-propiolate"
+    ],
+    "reagents": [
+      "n-BuLi",
+      "BF3.OEt2"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "2a",
+        "percent": 92,
+        "product_label": "18a",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E33",
+        "pages": [
+          4
+        ],
+        "sha256": "575f953b3a7e27b2fcc3569f22f6e9a58f2a67129d85616cc000219761abca2c",
+        "source_id": "article"
+      },
+      {
+        "locator": "Compound drawing and associated NMR spectrum: E33",
+        "pages": [
+          20,
+          21
+        ],
+        "sha256": "a06783de3afe2cb87eca40d5405d9f1c95aec19f0bc5f32d46b03bc5473a92fa",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E33.1"
+    ],
+    "substrate_product_smiles": "C#CC(=O)OC.COc1ccc(CO[C@@H](C/C=C/[C@@H](C[C@H]2CO2)OCc2ccc(OC)cc2)C[C@H](CC/C=C/c2ccccc2)OCc2ccc(OC)cc2)cc1>>COC(=O)C#CC[C@@H](O)C[C@H](/C=C/C[C@@H](C[C@H](CC/C=C/c1ccccc1)OCc1ccc(OC)cc1)OCc1ccc(OC)cc1)OCc1ccc(OC)cc1",
+    "temperature": "-78 C",
+    "time": "15 min after addition"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E34",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "18b"
+    ],
+    "reactant_labels": [
+      "2b",
+      "methyl-propiolate"
+    ],
+    "reagents": [
+      "n-BuLi",
+      "BF3.OEt2"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "2b",
+        "percent": 91,
+        "product_label": "18b",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E34",
+        "pages": [
+          4
+        ],
+        "sha256": "575f953b3a7e27b2fcc3569f22f6e9a58f2a67129d85616cc000219761abca2c",
+        "source_id": "article"
+      },
+      {
+        "locator": "Compound drawing and associated NMR spectrum: E34",
+        "pages": [
+          20,
+          21
+        ],
+        "sha256": "a06783de3afe2cb87eca40d5405d9f1c95aec19f0bc5f32d46b03bc5473a92fa",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E34.1"
+    ],
+    "substrate_product_smiles": "C#CC(=O)OC.COc1ccc(CO[C@@H](C/C=C/[C@H](C[C@H]2CO2)OCc2ccc(OC)cc2)C[C@H](CC/C=C/c2ccccc2)OCc2ccc(OC)cc2)cc1>>COC(=O)C#CC[C@@H](O)C[C@@H](/C=C/C[C@@H](C[C@H](CC/C=C/c1ccccc1)OCc1ccc(OC)cc1)OCc1ccc(OC)cc1)OCc1ccc(OC)cc1",
+    "temperature": "-78 C",
+    "time": "15 min after addition"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E35",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "pressure": "2 bar H2",
+    "product_labels": [
+      "19a"
+    ],
+    "reactant_labels": [
+      "18a"
+    ],
+    "reagents": [
+      "Lindlar catalyst",
+      "H2",
+      "quinoline"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "18a",
+        "percent": 90,
+        "product_label": "19a",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "toluene"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E35",
+        "pages": [
+          4
+        ],
+        "sha256": "575f953b3a7e27b2fcc3569f22f6e9a58f2a67129d85616cc000219761abca2c",
+        "source_id": "article"
+      },
+      {
+        "locator": "Compound drawing and associated NMR spectrum: E35",
+        "pages": [
+          22
+        ],
+        "sha256": "a06783de3afe2cb87eca40d5405d9f1c95aec19f0bc5f32d46b03bc5473a92fa",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E35.1"
+    ],
+    "substrate_product_smiles": "COC(=O)C#CC[C@@H](O)C[C@H](/C=C/C[C@@H](C[C@H](CC/C=C/c1ccccc1)OCc1ccc(OC)cc1)OCc1ccc(OC)cc1)OCc1ccc(OC)cc1>>COC(=O)/C=C\\C[C@@H](O)C[C@H](/C=C/C[C@@H](C[C@H](CC/C=C/c1ccccc1)OCc1ccc(OC)cc1)OCc1ccc(OC)cc1)OCc1ccc(OC)cc1",
+    "time": "36 h"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E36",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "pressure": "2 bar H2",
+    "product_labels": [
+      "19b"
+    ],
+    "reactant_labels": [
+      "18b"
+    ],
+    "reagents": [
+      "Lindlar catalyst",
+      "H2",
+      "quinoline"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "18b",
+        "percent": 92,
+        "product_label": "19b",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "toluene"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E36",
+        "pages": [
+          4
+        ],
+        "sha256": "575f953b3a7e27b2fcc3569f22f6e9a58f2a67129d85616cc000219761abca2c",
+        "source_id": "article"
+      },
+      {
+        "locator": "Compound drawing and associated NMR spectrum: E36",
+        "pages": [
+          22
+        ],
+        "sha256": "a06783de3afe2cb87eca40d5405d9f1c95aec19f0bc5f32d46b03bc5473a92fa",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E36.1"
+    ],
+    "substrate_product_smiles": "COC(=O)C#CC[C@@H](O)C[C@@H](/C=C/C[C@@H](C[C@H](CC/C=C/c1ccccc1)OCc1ccc(OC)cc1)OCc1ccc(OC)cc1)OCc1ccc(OC)cc1>>COC(=O)/C=C\\C[C@@H](O)C[C@@H](/C=C/C[C@@H](C[C@H](CC/C=C/c1ccccc1)OCc1ccc(OC)cc1)OCc1ccc(OC)cc1)OCc1ccc(OC)cc1",
+    "time": "36 h"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E37",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "20a"
+    ],
+    "reactant_labels": [
+      "19a"
+    ],
+    "reagents": [
+      "PPTS"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "19a",
+        "percent": 94,
+        "product_label": "20a",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "chloroform"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E37",
+        "pages": [
+          4
+        ],
+        "sha256": "575f953b3a7e27b2fcc3569f22f6e9a58f2a67129d85616cc000219761abca2c",
+        "source_id": "article"
+      },
+      {
+        "locator": "Compound drawing and associated NMR spectrum: E37",
+        "pages": [
+          23
+        ],
+        "sha256": "a06783de3afe2cb87eca40d5405d9f1c95aec19f0bc5f32d46b03bc5473a92fa",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E37.1"
+    ],
+    "substrate_product_smiles": "COC(=O)/C=C\\C[C@@H](O)C[C@H](/C=C/C[C@@H](C[C@H](CC/C=C/c1ccccc1)OCc1ccc(OC)cc1)OCc1ccc(OC)cc1)OCc1ccc(OC)cc1>>COc1ccc(CO[C@@H](C/C=C/[C@@H](C[C@H]2CC=CC(=O)O2)OCc2ccc(OC)cc2)C[C@H](CC/C=C/c2ccccc2)OCc2ccc(OC)cc2)cc1",
+    "temperature": "70 C",
+    "time": "6 h"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E38",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "20b"
+    ],
+    "reactant_labels": [
+      "19b"
+    ],
+    "reagents": [
+      "PPTS"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "19b",
+        "percent": 91,
+        "product_label": "20b",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "chloroform"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E38",
+        "pages": [
+          4
+        ],
+        "sha256": "575f953b3a7e27b2fcc3569f22f6e9a58f2a67129d85616cc000219761abca2c",
+        "source_id": "article"
+      },
+      {
+        "locator": "Compound drawing and associated NMR spectrum: E38",
+        "pages": [
+          23,
+          24
+        ],
+        "sha256": "a06783de3afe2cb87eca40d5405d9f1c95aec19f0bc5f32d46b03bc5473a92fa",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E38.1"
+    ],
+    "substrate_product_smiles": "COC(=O)/C=C\\C[C@@H](O)C[C@@H](/C=C/C[C@@H](C[C@H](CC/C=C/c1ccccc1)OCc1ccc(OC)cc1)OCc1ccc(OC)cc1)OCc1ccc(OC)cc1>>COc1ccc(CO[C@@H](C/C=C/[C@H](C[C@H]2CC=CC(=O)O2)OCc2ccc(OC)cc2)C[C@H](CC/C=C/c2ccccc2)OCc2ccc(OC)cc2)cc1",
+    "temperature": "70 C",
+    "time": "6 h"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E39",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "1a"
+    ],
+    "reactant_labels": [
+      "20a"
+    ],
+    "reagents": [
+      "AgSbF6",
+      "1,3,5-trimethoxybenzene"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "20a",
+        "percent": 67,
+        "product_label": "1a",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "1,2-dichloroethane"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E39",
+        "pages": [
+          4
+        ],
+        "sha256": "575f953b3a7e27b2fcc3569f22f6e9a58f2a67129d85616cc000219761abca2c",
+        "source_id": "article"
+      },
+      {
+        "locator": "Compound drawing and associated NMR spectrum: E39",
+        "pages": [
+          24
+        ],
+        "sha256": "a06783de3afe2cb87eca40d5405d9f1c95aec19f0bc5f32d46b03bc5473a92fa",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E39.1"
+    ],
+    "substrate_product_smiles": "COc1ccc(CO[C@@H](C/C=C/[C@@H](C[C@H]2CC=CC(=O)O2)OCc2ccc(OC)cc2)C[C@H](CC/C=C/c2ccccc2)OCc2ccc(OC)cc2)cc1>>O=C1C=CC[C@H](C[C@@H](O)/C=C/C[C@H](O)C[C@@H](O)CC/C=C/c2ccccc2)O1",
+    "temperature": "45 C",
+    "time": "10 h"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E40",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "1b"
+    ],
+    "reactant_labels": [
+      "20b"
+    ],
+    "reagents": [
+      "AgSbF6",
+      "1,3,5-trimethoxybenzene"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "20b",
+        "percent": 62,
+        "product_label": "1b",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "1,2-dichloroethane"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E40",
+        "pages": [
+          4
+        ],
+        "sha256": "575f953b3a7e27b2fcc3569f22f6e9a58f2a67129d85616cc000219761abca2c",
+        "source_id": "article"
+      },
+      {
+        "locator": "Compound drawing and associated NMR spectrum: E40",
+        "pages": [
+          24,
+          25
+        ],
+        "sha256": "a06783de3afe2cb87eca40d5405d9f1c95aec19f0bc5f32d46b03bc5473a92fa",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E40.1"
+    ],
+    "substrate_product_smiles": "COc1ccc(CO[C@@H](C/C=C/[C@H](C[C@H]2CC=CC(=O)O2)OCc2ccc(OC)cc2)C[C@H](CC/C=C/c2ccccc2)OCc2ccc(OC)cc2)cc1>>O=C1C=CC[C@H](C[C@H](O)/C=C/C[C@H](O)C[C@@H](O)CC/C=C/c2ccccc2)O1",
+    "temperature": "45 C",
+    "time": "10 h"
+  }
+]

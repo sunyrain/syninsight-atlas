@@ -1,0 +1,80 @@
+[
+  {
+    "detail": "Preparation of 23 is referenced to Chem 2025, 11, 102440 (reference 16a); not reported step-by-step in this article/SI. Routes explicitly start at 23.",
+    "id": "I01",
+    "severity": "boundary",
+    "subject": "23"
+  },
+  {
+    "detail": "Only formal synthesis: experimental route stops at 40; 40 to deoxoapodine is a two-step literature link (reference 20). No fabricated observed reactions.",
+    "id": "I02",
+    "severity": "boundary",
+    "subject": "12"
+  },
+  {
+    "detail": "Main article and Scheme 1 use (+), while SI S7-S9 uses (-), with measured rotation -70.0 and ent-3 reference +110.4. Optical sign not resolved by SMILES.",
+    "id": "I03",
+    "severity": "source_conflict",
+    "subject": "3"
+  },
+  {
+    "detail": "SI S10 reports [M+H]+ C22H31N2O2 at 255.2380/255.2370; formula predicts approximately 355.2380. Preserve original numbers; flag probable 100 Da typo.",
+    "id": "I04",
+    "severity": "source_numeric_anomaly",
+    "subject": "4"
+  },
+  {
+    "detail": "Scheme 4 specifies DMF; SI S23 specifies CH2Cl2 as reaction solvent. Structured conditions use experimental SI and preserve conflict.",
+    "id": "I05",
+    "severity": "source_conflict",
+    "subject": "E23"
+  },
+  {
+    "detail": "Article says without column purification; SI S4 describes flash chromatography of dialdehyde intermediate.",
+    "id": "I06",
+    "severity": "source_conflict",
+    "subject": "E02"
+  },
+  {
+    "detail": "C5-OH is wavy and epimerization is reported. This center remains unassigned, not silently fixed to 25. Enol-ether geometry of 32 represents the depicted form, not a measured isomer ratio.",
+    "id": "I07",
+    "severity": "stereo_scope",
+    "subject": "26|32"
+  },
+  {
+    "detail": "Unnumbered structures are interpretations of procedural text, not independent isolated/characterized molecules. Excluded from source-drawn-only training export.",
+    "id": "I08",
+    "severity": "interpretation",
+    "subject": "U*"
+  },
+  {
+    "detail": "Source-based model transcription and RDKit checks do not constitute independent expert admission. All benchmark admission flags remain false.",
+    "id": "I09",
+    "severity": "review",
+    "subject": "all"
+  },
+  {
+    "detail": "Seven-page main-article duplicate stored under supporting_information. Deduplicate by page-text digest, not by the misleading directory label or different byte hash.",
+    "id": "I10",
+    "severity": "source_role",
+    "subject": "si-002.pdf"
+  },
+  {
+    "detail": "Combined yields are attached to their reported starting boundary (25), never copied onto each elementary stage.",
+    "id": "I11",
+    "severity": "yield_scope",
+    "subject": "E04|E05|E15|E22"
+  },
+  {
+    "detail": "Earlier connectivity-only candidates are not treated as truth; this case independently transcribes the drawings and records comparison without silently rewriting the frozen release.",
+    "id": "I12",
+    "severity": "legacy_candidate",
+    "subject": "existing targets.json"
+  },
+  {
+    "detail": "Compounds 13-22 illustrate prior work/background. They are not new experimental route products in this paper and are excluded from the extracted reaction corpus.",
+    "id": "I13",
+    "severity": "scope",
+    "subject": "Figure 1"
+  }
+]

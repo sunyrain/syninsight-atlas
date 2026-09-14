@@ -1,0 +1,947 @@
+[
+  {
+    "admission_authority": false,
+    "agents": [
+      "DPPA",
+      "triethylamine"
+    ],
+    "event_id": "E01",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-drawn internal stage; bracketed intermediates are not isolated preparations",
+    "product_labels": [
+      "14"
+    ],
+    "reactant_labels": [
+      "13",
+      "benzyl-alcohol"
+    ],
+    "solvents": [
+      "toluene"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF page = printed S-page: E01 preparation",
+        "pages": [
+          4
+        ],
+        "sha256": "245408e78c3307c52b62044c473e7f6e8274a17624267459ad85ba33616d32f0",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main Schemes 2A/3A source-drawn synthesis: E01 preparation",
+        "pages": [
+          3
+        ],
+        "sha256": "1a294ac56334e46d734ed97bc25135bcc43de3eeb536a9d2668226f76b1b1d3d",
+        "source_id": "main"
+      }
+    ],
+    "step_id": "E01.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "O=C(O)c1c[nH]c2ccccc12.OCc1ccccc1>>O=C(Nc1c[nH]c2ccccc12)OCc1ccccc1",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "hydrogen",
+      "Pd/C"
+    ],
+    "event_id": "E01",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-drawn internal stage; bracketed intermediates are not isolated preparations",
+    "product_labels": [
+      "10"
+    ],
+    "reactant_labels": [
+      "14"
+    ],
+    "solvents": [
+      "methanol"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF page = printed S-page: E01 preparation",
+        "pages": [
+          4
+        ],
+        "sha256": "245408e78c3307c52b62044c473e7f6e8274a17624267459ad85ba33616d32f0",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main Schemes 2A/3A source-drawn synthesis: E01 preparation",
+        "pages": [
+          3
+        ],
+        "sha256": "1a294ac56334e46d734ed97bc25135bcc43de3eeb536a9d2668226f76b1b1d3d",
+        "source_id": "main"
+      }
+    ],
+    "step_id": "E01.2",
+    "step_index_within_event": 2,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "O=C(Nc1c[nH]c2ccccc12)OCc1ccccc1>>Nc1c[nH]c2ccccc12",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "DPPA",
+      "triethylamine"
+    ],
+    "event_id": "E02",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-drawn internal stage; bracketed intermediates are not isolated preparations",
+    "product_labels": [
+      "14-prime"
+    ],
+    "reactant_labels": [
+      "13-prime",
+      "benzyl-alcohol"
+    ],
+    "solvents": [
+      "toluene"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF page = printed S-page: E02 preparation",
+        "pages": [
+          4,
+          5
+        ],
+        "sha256": "245408e78c3307c52b62044c473e7f6e8274a17624267459ad85ba33616d32f0",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main Schemes 2A/3A source-drawn synthesis: E02 preparation",
+        "pages": [
+          3
+        ],
+        "sha256": "1a294ac56334e46d734ed97bc25135bcc43de3eeb536a9d2668226f76b1b1d3d",
+        "source_id": "main"
+      }
+    ],
+    "step_id": "E02.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "Cc1ccc(S(=O)(=O)n2cc(C(=O)O)c3ccccc32)cc1.OCc1ccccc1>>Cc1ccc(S(=O)(=O)n2cc(NC(=O)OCc3ccccc3)c3ccccc32)cc1",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "hydrogen",
+      "Pd/C"
+    ],
+    "event_id": "E02",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-drawn internal stage; bracketed intermediates are not isolated preparations",
+    "product_labels": [
+      "10-prime"
+    ],
+    "reactant_labels": [
+      "14-prime"
+    ],
+    "solvents": [
+      "methanol"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF page = printed S-page: E02 preparation",
+        "pages": [
+          4,
+          5
+        ],
+        "sha256": "245408e78c3307c52b62044c473e7f6e8274a17624267459ad85ba33616d32f0",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main Schemes 2A/3A source-drawn synthesis: E02 preparation",
+        "pages": [
+          3
+        ],
+        "sha256": "1a294ac56334e46d734ed97bc25135bcc43de3eeb536a9d2668226f76b1b1d3d",
+        "source_id": "main"
+      }
+    ],
+    "step_id": "E02.2",
+    "step_index_within_event": 2,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "Cc1ccc(S(=O)(=O)n2cc(NC(=O)OCc3ccccc3)c3ccccc32)cc1>>Cc1ccc(S(=O)(=O)n2cc(N)c3ccccc32)cc1",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "sodium hydride"
+    ],
+    "event_id": "E03",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Isolated source preparation",
+    "product_labels": [
+      "S7"
+    ],
+    "reactant_labels": [
+      "butanediol",
+      "TIPSCl"
+    ],
+    "solvents": [
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF page = printed S-page: E03 preparation",
+        "pages": [
+          5
+        ],
+        "sha256": "245408e78c3307c52b62044c473e7f6e8274a17624267459ad85ba33616d32f0",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E03.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "CC(C)[Si](Cl)(C(C)C)C(C)C.OCCCCO>>CC(C)[Si](OCCCCO)(C(C)C)C(C)C",
+    "yield_percent": 97
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "PCC",
+      "silica gel"
+    ],
+    "event_id": "E04",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Isolated source preparation",
+    "product_labels": [
+      "11"
+    ],
+    "reactant_labels": [
+      "S7"
+    ],
+    "solvents": [
+      "dichloromethane"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF page = printed S-page: E04 preparation",
+        "pages": [
+          5
+        ],
+        "sha256": "245408e78c3307c52b62044c473e7f6e8274a17624267459ad85ba33616d32f0",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E04.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "CC(C)[Si](OCCCCO)(C(C)C)C(C)C>>CC(C)[Si](OCCCC=O)(C(C)C)C(C)C",
+    "yield_percent": 62
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "sulfuric acid"
+    ],
+    "event_id": "E05",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-drawn internal stage; bracketed intermediates are not isolated preparations",
+    "product_labels": [
+      "S4"
+    ],
+    "reactant_labels": [
+      "sinapic-acid",
+      "methanol"
+    ],
+    "solvents": [
+      "methanol"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF page = printed S-page: E05 preparation",
+        "pages": [
+          5,
+          6
+        ],
+        "sha256": "245408e78c3307c52b62044c473e7f6e8274a17624267459ad85ba33616d32f0",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E05.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "CO.COc1cc(/C=C/C(=O)O)cc(OC)c1O>>COC(=O)/C=C/c1cc(OC)c(O)c(OC)c1",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "imidazole"
+    ],
+    "event_id": "E05",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-drawn internal stage; bracketed intermediates are not isolated preparations",
+    "product_labels": [
+      "12"
+    ],
+    "reactant_labels": [
+      "S4",
+      "TIPSCl"
+    ],
+    "solvents": [
+      "DMF"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF page = printed S-page: E05 preparation",
+        "pages": [
+          5,
+          6
+        ],
+        "sha256": "245408e78c3307c52b62044c473e7f6e8274a17624267459ad85ba33616d32f0",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E05.2",
+    "step_index_within_event": 2,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "CC(C)[Si](Cl)(C(C)C)C(C)C.COC(=O)/C=C/c1cc(OC)c(O)c(OC)c1>>COC(=O)/C=C/c1cc(OC)c(O[Si](C(C)C)(C(C)C)C(C)C)c(OC)c1",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "BF3 diethyl etherate",
+      "magnesium sulfate"
+    ],
+    "event_id": "E06",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-drawn internal stage; bracketed intermediates are not isolated preparations",
+    "product_labels": [
+      "15"
+    ],
+    "reactant_labels": [
+      "10-prime",
+      "11"
+    ],
+    "solvents": [
+      "toluene"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF page = printed S-page: E06 preparation",
+        "pages": [
+          6
+        ],
+        "sha256": "245408e78c3307c52b62044c473e7f6e8274a17624267459ad85ba33616d32f0",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main Schemes 2A/3A source-drawn synthesis: E06 preparation",
+        "pages": [
+          3
+        ],
+        "sha256": "1a294ac56334e46d734ed97bc25135bcc43de3eeb536a9d2668226f76b1b1d3d",
+        "source_id": "main"
+      }
+    ],
+    "step_id": "E06.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "CC(C)[Si](OCCCC=O)(C(C)C)C(C)C.Cc1ccc(S(=O)(=O)n2cc(N)c3ccccc32)cc1>>Cc1ccc(S(=O)(=O)n2cc(N=CCCCO[Si](C(C)C)(C(C)C)C(C)C)c3ccccc32)cc1",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "BF3 diethyl etherate"
+    ],
+    "event_id": "E06",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-drawn internal stage; bracketed intermediates are not isolated preparations",
+    "product_labels": [
+      "16"
+    ],
+    "reactant_labels": [
+      "15",
+      "12"
+    ],
+    "solvents": [
+      "toluene"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF page = printed S-page: E06 preparation",
+        "pages": [
+          6
+        ],
+        "sha256": "245408e78c3307c52b62044c473e7f6e8274a17624267459ad85ba33616d32f0",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main Schemes 2A/3A source-drawn synthesis: E06 preparation",
+        "pages": [
+          3
+        ],
+        "sha256": "1a294ac56334e46d734ed97bc25135bcc43de3eeb536a9d2668226f76b1b1d3d",
+        "source_id": "main"
+      }
+    ],
+    "step_id": "E06.2",
+    "step_index_within_event": 2,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "COC(=O)/C=C/c1cc(OC)c(O[Si](C(C)C)(C(C)C)C(C)C)c(OC)c1.Cc1ccc(S(=O)(=O)n2cc(N=CCCCO[Si](C(C)C)(C(C)C)C(C)C)c3ccccc32)cc1>>COC(=O)[C@@H]1[C@@H](c2cc(OC)c(O[Si](C(C)C)(C(C)C)C(C)C)c(OC)c2)c2c(c3ccccc3n2S(=O)(=O)c2ccc(C)cc2)N[C@H]1CCCO",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "triphenylphosphine",
+      "DEAD"
+    ],
+    "event_id": "E07",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Isolated source preparation",
+    "product_labels": [
+      "17"
+    ],
+    "reactant_labels": [
+      "16"
+    ],
+    "solvents": [
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF page = printed S-page: E07 preparation",
+        "pages": [
+          6
+        ],
+        "sha256": "245408e78c3307c52b62044c473e7f6e8274a17624267459ad85ba33616d32f0",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main Schemes 2A/3A source-drawn synthesis: E07 preparation",
+        "pages": [
+          3
+        ],
+        "sha256": "1a294ac56334e46d734ed97bc25135bcc43de3eeb536a9d2668226f76b1b1d3d",
+        "source_id": "main"
+      }
+    ],
+    "step_id": "E07.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "COC(=O)[C@@H]1[C@@H](c2cc(OC)c(O[Si](C(C)C)(C(C)C)C(C)C)c(OC)c2)c2c(c3ccccc3n2S(=O)(=O)c2ccc(C)cc2)N[C@H]1CCCO>>COC(=O)[C@@H]1[C@@H](c2cc(OC)c(O[Si](C(C)C)(C(C)C)C(C)C)c(OC)c2)c2c(c3ccccc3n2S(=O)(=O)c2ccc(C)cc2)N2CCC[C@@H]12",
+    "yield_percent": 52
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "BF3 diethyl etherate",
+      "magnesium sulfate"
+    ],
+    "event_id": "E08",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-drawn internal stage; bracketed intermediates are not isolated preparations",
+    "product_labels": [
+      "19"
+    ],
+    "reactant_labels": [
+      "10-prime",
+      "18"
+    ],
+    "solvents": [
+      "toluene"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF page = printed S-page: E08 preparation",
+        "pages": [
+          6,
+          7
+        ],
+        "sha256": "245408e78c3307c52b62044c473e7f6e8274a17624267459ad85ba33616d32f0",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main Schemes 2A/3A source-drawn synthesis: E08 preparation",
+        "pages": [
+          3
+        ],
+        "sha256": "1a294ac56334e46d734ed97bc25135bcc43de3eeb536a9d2668226f76b1b1d3d",
+        "source_id": "main"
+      }
+    ],
+    "step_id": "E08.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "BrCCCC1OCCO1.Cc1ccc(S(=O)(=O)n2cc(N)c3ccccc32)cc1>>Cc1ccc(S(=O)(=O)n2cc(N=CCCCBr)c3ccccc32)cc1",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "BF3 diethyl etherate"
+    ],
+    "event_id": "E08",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-drawn internal stage; bracketed intermediates are not isolated preparations",
+    "product_labels": [
+      "20"
+    ],
+    "reactant_labels": [
+      "19",
+      "12"
+    ],
+    "solvents": [
+      "toluene"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF page = printed S-page: E08 preparation",
+        "pages": [
+          6,
+          7
+        ],
+        "sha256": "245408e78c3307c52b62044c473e7f6e8274a17624267459ad85ba33616d32f0",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main Schemes 2A/3A source-drawn synthesis: E08 preparation",
+        "pages": [
+          3
+        ],
+        "sha256": "1a294ac56334e46d734ed97bc25135bcc43de3eeb536a9d2668226f76b1b1d3d",
+        "source_id": "main"
+      }
+    ],
+    "step_id": "E08.2",
+    "step_index_within_event": 2,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "COC(=O)/C=C/c1cc(OC)c(O[Si](C(C)C)(C(C)C)C(C)C)c(OC)c1.Cc1ccc(S(=O)(=O)n2cc(N=CCCCBr)c3ccccc32)cc1>>COC(=O)[C@@H]1[C@@H](c2cc(OC)c(O[Si](C(C)C)(C(C)C)C(C)C)c(OC)c2)c2c(c3ccccc3n2S(=O)(=O)c2ccc(C)cc2)N[C@H]1CCCBr",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [],
+    "event_id": "E08",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-drawn internal stage; bracketed intermediates are not isolated preparations",
+    "product_labels": [
+      "17"
+    ],
+    "reactant_labels": [
+      "20"
+    ],
+    "solvents": [
+      "toluene"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF page = printed S-page: E08 preparation",
+        "pages": [
+          6,
+          7
+        ],
+        "sha256": "245408e78c3307c52b62044c473e7f6e8274a17624267459ad85ba33616d32f0",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main Schemes 2A/3A source-drawn synthesis: E08 preparation",
+        "pages": [
+          3
+        ],
+        "sha256": "1a294ac56334e46d734ed97bc25135bcc43de3eeb536a9d2668226f76b1b1d3d",
+        "source_id": "main"
+      }
+    ],
+    "step_id": "E08.3",
+    "step_index_within_event": 3,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "COC(=O)[C@@H]1[C@@H](c2cc(OC)c(O[Si](C(C)C)(C(C)C)C(C)C)c(OC)c2)c2c(c3ccccc3n2S(=O)(=O)c2ccc(C)cc2)N[C@H]1CCCBr>>COC(=O)[C@@H]1[C@@H](c2cc(OC)c(O[Si](C(C)C)(C(C)C)C(C)C)c(OC)c2)c2c(c3ccccc3n2S(=O)(=O)c2ccc(C)cc2)N2CCC[C@@H]12",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "copper(II) bromide",
+      "source ligand L",
+      "air"
+    ],
+    "event_id": "E09",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Isolated source preparation",
+    "product_labels": [
+      "21"
+    ],
+    "reactant_labels": [
+      "17"
+    ],
+    "solvents": [
+      "ethanol",
+      "water"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF page = printed S-page: E09 preparation",
+        "pages": [
+          7,
+          8
+        ],
+        "sha256": "245408e78c3307c52b62044c473e7f6e8274a17624267459ad85ba33616d32f0",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main Schemes 2A/3A source-drawn synthesis: E09 preparation",
+        "pages": [
+          3
+        ],
+        "sha256": "1a294ac56334e46d734ed97bc25135bcc43de3eeb536a9d2668226f76b1b1d3d",
+        "source_id": "main"
+      }
+    ],
+    "step_id": "E09.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "COC(=O)[C@@H]1[C@@H](c2cc(OC)c(O[Si](C(C)C)(C(C)C)C(C)C)c(OC)c2)c2c(c3ccccc3n2S(=O)(=O)c2ccc(C)cc2)N2CCC[C@@H]12>>COC(=O)[C@@H]1[C@@H](c2cc(OC)c(O[Si](C(C)C)(C(C)C)C(C)C)c(OC)c2)[C@]2(C(=O)N(S(=O)(=O)c3ccc(C)cc3)c3ccccc32)N2CCC[C@@H]12",
+    "yield_percent": 62
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "BF3 diethyl etherate",
+      "magnesium sulfate"
+    ],
+    "event_id": "E10",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-drawn internal stage; bracketed intermediates are not isolated preparations",
+    "product_labels": [
+      "19"
+    ],
+    "reactant_labels": [
+      "10-prime",
+      "18"
+    ],
+    "solvents": [
+      "toluene"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF page = printed S-page: E10 preparation",
+        "pages": [
+          7,
+          8
+        ],
+        "sha256": "245408e78c3307c52b62044c473e7f6e8274a17624267459ad85ba33616d32f0",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main Schemes 2A/3A source-drawn synthesis: E10 preparation",
+        "pages": [
+          4
+        ],
+        "sha256": "1a294ac56334e46d734ed97bc25135bcc43de3eeb536a9d2668226f76b1b1d3d",
+        "source_id": "main"
+      }
+    ],
+    "step_id": "E10.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "BrCCCC1OCCO1.Cc1ccc(S(=O)(=O)n2cc(N)c3ccccc32)cc1>>Cc1ccc(S(=O)(=O)n2cc(N=CCCCBr)c3ccccc32)cc1",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "BF3 diethyl etherate"
+    ],
+    "event_id": "E10",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-drawn internal stage; bracketed intermediates are not isolated preparations",
+    "product_labels": [
+      "20"
+    ],
+    "reactant_labels": [
+      "19",
+      "12"
+    ],
+    "solvents": [
+      "toluene"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF page = printed S-page: E10 preparation",
+        "pages": [
+          7,
+          8
+        ],
+        "sha256": "245408e78c3307c52b62044c473e7f6e8274a17624267459ad85ba33616d32f0",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main Schemes 2A/3A source-drawn synthesis: E10 preparation",
+        "pages": [
+          4
+        ],
+        "sha256": "1a294ac56334e46d734ed97bc25135bcc43de3eeb536a9d2668226f76b1b1d3d",
+        "source_id": "main"
+      }
+    ],
+    "step_id": "E10.2",
+    "step_index_within_event": 2,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "COC(=O)/C=C/c1cc(OC)c(O[Si](C(C)C)(C(C)C)C(C)C)c(OC)c1.Cc1ccc(S(=O)(=O)n2cc(N=CCCCBr)c3ccccc32)cc1>>COC(=O)[C@@H]1[C@@H](c2cc(OC)c(O[Si](C(C)C)(C(C)C)C(C)C)c(OC)c2)c2c(c3ccccc3n2S(=O)(=O)c2ccc(C)cc2)N[C@H]1CCCBr",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [],
+    "event_id": "E10",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-drawn internal stage; bracketed intermediates are not isolated preparations",
+    "product_labels": [
+      "17"
+    ],
+    "reactant_labels": [
+      "20"
+    ],
+    "solvents": [
+      "toluene"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF page = printed S-page: E10 preparation",
+        "pages": [
+          7,
+          8
+        ],
+        "sha256": "245408e78c3307c52b62044c473e7f6e8274a17624267459ad85ba33616d32f0",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main Schemes 2A/3A source-drawn synthesis: E10 preparation",
+        "pages": [
+          4
+        ],
+        "sha256": "1a294ac56334e46d734ed97bc25135bcc43de3eeb536a9d2668226f76b1b1d3d",
+        "source_id": "main"
+      }
+    ],
+    "step_id": "E10.3",
+    "step_index_within_event": 3,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "COC(=O)[C@@H]1[C@@H](c2cc(OC)c(O[Si](C(C)C)(C(C)C)C(C)C)c(OC)c2)c2c(c3ccccc3n2S(=O)(=O)c2ccc(C)cc2)N[C@H]1CCCBr>>COC(=O)[C@@H]1[C@@H](c2cc(OC)c(O[Si](C(C)C)(C(C)C)C(C)C)c(OC)c2)c2c(c3ccccc3n2S(=O)(=O)c2ccc(C)cc2)N2CCC[C@@H]12",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "oxygen",
+      "white LED irradiation"
+    ],
+    "event_id": "E10",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-drawn internal stage; bracketed intermediates are not isolated preparations",
+    "product_labels": [
+      "21"
+    ],
+    "reactant_labels": [
+      "17"
+    ],
+    "solvents": [
+      "toluene",
+      "water"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF page = printed S-page: E10 preparation",
+        "pages": [
+          7,
+          8
+        ],
+        "sha256": "245408e78c3307c52b62044c473e7f6e8274a17624267459ad85ba33616d32f0",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main Schemes 2A/3A source-drawn synthesis: E10 preparation",
+        "pages": [
+          4
+        ],
+        "sha256": "1a294ac56334e46d734ed97bc25135bcc43de3eeb536a9d2668226f76b1b1d3d",
+        "source_id": "main"
+      }
+    ],
+    "step_id": "E10.4",
+    "step_index_within_event": 4,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "COC(=O)[C@@H]1[C@@H](c2cc(OC)c(O[Si](C(C)C)(C(C)C)C(C)C)c(OC)c2)c2c(c3ccccc3n2S(=O)(=O)c2ccc(C)cc2)N2CCC[C@@H]12>>COC(=O)[C@@H]1[C@@H](c2cc(OC)c(O[Si](C(C)C)(C(C)C)C(C)C)c(OC)c2)[C@]2(C(=O)N(S(=O)(=O)c3ccc(C)cc3)c3ccccc32)N2CCC[C@@H]12",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "TBAF"
+    ],
+    "event_id": "E11",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Isolated source preparation",
+    "product_labels": [
+      "22"
+    ],
+    "reactant_labels": [
+      "21"
+    ],
+    "solvents": [
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF page = printed S-page: E11 preparation",
+        "pages": [
+          8
+        ],
+        "sha256": "245408e78c3307c52b62044c473e7f6e8274a17624267459ad85ba33616d32f0",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main Schemes 2A/3A source-drawn synthesis: E11 preparation",
+        "pages": [
+          3
+        ],
+        "sha256": "1a294ac56334e46d734ed97bc25135bcc43de3eeb536a9d2668226f76b1b1d3d",
+        "source_id": "main"
+      }
+    ],
+    "step_id": "E11.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "COC(=O)[C@@H]1[C@@H](c2cc(OC)c(O[Si](C(C)C)(C(C)C)C(C)C)c(OC)c2)[C@]2(C(=O)N(S(=O)(=O)c3ccc(C)cc3)c3ccccc32)N2CCC[C@@H]12>>COC(=O)[C@@H]1[C@@H](c2cc(OC)c(O)c(OC)c2)[C@]2(C(=O)N(S(=O)(=O)c3ccc(C)cc3)c3ccccc32)N2CCC[C@@H]12",
+    "yield_percent": 86
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "magnesium"
+    ],
+    "event_id": "E12",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Isolated source preparation",
+    "product_labels": [
+      "23"
+    ],
+    "reactant_labels": [
+      "21"
+    ],
+    "solvents": [
+      "methanol"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF page = printed S-page: E12 preparation",
+        "pages": [
+          8
+        ],
+        "sha256": "245408e78c3307c52b62044c473e7f6e8274a17624267459ad85ba33616d32f0",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main Schemes 2A/3A source-drawn synthesis: E12 preparation",
+        "pages": [
+          4
+        ],
+        "sha256": "1a294ac56334e46d734ed97bc25135bcc43de3eeb536a9d2668226f76b1b1d3d",
+        "source_id": "main"
+      }
+    ],
+    "step_id": "E12.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "COC(=O)[C@@H]1[C@@H](c2cc(OC)c(O[Si](C(C)C)(C(C)C)C(C)C)c(OC)c2)[C@]2(C(=O)N(S(=O)(=O)c3ccc(C)cc3)c3ccccc32)N2CCC[C@@H]12>>COC(=O)[C@@H]1[C@@H](c2cc(OC)c(O[Si](C(C)C)(C(C)C)C(C)C)c(OC)c2)[C@]2(C(=O)Nc3ccccc32)N2CCC[C@@H]12",
+    "yield_percent": 79
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "TBAF"
+    ],
+    "event_id": "E13",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Isolated source preparation",
+    "product_labels": [
+      "4"
+    ],
+    "reactant_labels": [
+      "23"
+    ],
+    "solvents": [
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF page = printed S-page: E13 preparation",
+        "pages": [
+          8,
+          9
+        ],
+        "sha256": "245408e78c3307c52b62044c473e7f6e8274a17624267459ad85ba33616d32f0",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main Schemes 2A/3A source-drawn synthesis: E13 preparation",
+        "pages": [
+          4
+        ],
+        "sha256": "1a294ac56334e46d734ed97bc25135bcc43de3eeb536a9d2668226f76b1b1d3d",
+        "source_id": "main"
+      }
+    ],
+    "step_id": "E13.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "COC(=O)[C@@H]1[C@@H](c2cc(OC)c(O[Si](C(C)C)(C(C)C)C(C)C)c(OC)c2)[C@]2(C(=O)Nc3ccccc32)N2CCC[C@@H]12>>COC(=O)[C@@H]1[C@@H](c2cc(OC)c(O)c(OC)c2)[C@]2(C(=O)Nc3ccccc32)N2CCC[C@@H]12",
+    "yield_percent": 87
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "mCPBA"
+    ],
+    "event_id": "E14",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Isolated source preparation",
+    "product_labels": [
+      "6"
+    ],
+    "reactant_labels": [
+      "4"
+    ],
+    "solvents": [
+      "chloroform"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF page = printed S-page: E14 preparation",
+        "pages": [
+          9
+        ],
+        "sha256": "245408e78c3307c52b62044c473e7f6e8274a17624267459ad85ba33616d32f0",
+        "source_id": "si"
+      },
+      {
+        "locator": "Main Schemes 2A/3A source-drawn synthesis: E14 preparation",
+        "pages": [
+          4
+        ],
+        "sha256": "1a294ac56334e46d734ed97bc25135bcc43de3eeb536a9d2668226f76b1b1d3d",
+        "source_id": "main"
+      }
+    ],
+    "step_id": "E14.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "COC(=O)[C@@H]1[C@@H](c2cc(OC)c(O)c(OC)c2)[C@]2(C(=O)Nc3ccccc32)N2CCC[C@@H]12>>COC(=O)[C@@H]1[C@@H](c2cc(OC)c(O)c(OC)c2)[C@@]2(ON3CCC[C@@H]13)C(=O)Nc1ccccc12",
+    "yield_percent": 61
+  }
+]

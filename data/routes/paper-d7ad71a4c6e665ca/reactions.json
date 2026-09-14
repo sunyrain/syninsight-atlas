@@ -1,0 +1,593 @@
+[
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E01",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "10"
+    ],
+    "reactant_labels": [
+      "9",
+      "BnBr"
+    ],
+    "reagents": [
+      "K2CO3"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "9",
+        "percent": 98,
+        "product_label": "10",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "acetonitrile"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E01",
+        "pages": [
+          2
+        ],
+        "sha256": "04fa10915da470ed1239b09efc9810f5aea8b7f052c969d21785de2186ead82e",
+        "source_id": "article"
+      },
+      {
+        "locator": "Compound drawing and associated NMR spectrum: E01",
+        "pages": [
+          3
+        ],
+        "sha256": "5890ccfa90849728adcef51308b9a3a9d16d83ea717cda391fc9b7a40386437f",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E01.1"
+    ],
+    "substrate_product_smiles": "BrCc1ccccc1.COc1cc(C=O)ccc1O>>COc1cc(C=O)ccc1OCc1ccccc1"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E02",
+    "experimental_stage_count": 2,
+    "formal_benchmark_eligible": false,
+    "operation_stages": [
+      {
+        "operation": "Wittig homologation to enol methyl ether, not separately drawn"
+      },
+      {
+        "operation": "acidic hydrolysis"
+      }
+    ],
+    "product_labels": [
+      "11"
+    ],
+    "reactant_labels": [
+      "10",
+      "Wittig-salt"
+    ],
+    "reagents": [
+      "t-BuOK",
+      "HCl"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "10",
+        "percent": 64,
+        "product_label": "11",
+        "scope": "64% for homologation/hydrolysis sequence."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E02",
+        "pages": [
+          2
+        ],
+        "sha256": "04fa10915da470ed1239b09efc9810f5aea8b7f052c969d21785de2186ead82e",
+        "source_id": "article"
+      },
+      {
+        "locator": "Compound drawing and associated NMR spectrum: E02",
+        "pages": [
+          3,
+          4
+        ],
+        "sha256": "5890ccfa90849728adcef51308b9a3a9d16d83ea717cda391fc9b7a40386437f",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E02.1"
+    ],
+    "substrate_product_smiles": "COC[P+](c1ccccc1)(c1ccccc1)c1ccccc1.COc1cc(C=O)ccc1OCc1ccccc1.[Cl-]>>COc1cc(CC=O)ccc1OCc1ccccc1",
+    "yield_scope": "64% for homologation/hydrolysis sequence."
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E03",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "8"
+    ],
+    "reactant_labels": [
+      "11",
+      "12"
+    ],
+    "reagents": [
+      "n-BuLi"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "11",
+        "percent": 92,
+        "product_label": "8",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E03",
+        "pages": [
+          2
+        ],
+        "sha256": "04fa10915da470ed1239b09efc9810f5aea8b7f052c969d21785de2186ead82e",
+        "source_id": "article"
+      },
+      {
+        "locator": "Compound drawing and associated NMR spectrum: E03",
+        "pages": [
+          4,
+          5
+        ],
+        "sha256": "5890ccfa90849728adcef51308b9a3a9d16d83ea717cda391fc9b7a40386437f",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E03.1"
+    ],
+    "substrate_product_smiles": "COC(=O)CP(=O)(OC)OC.COc1cc(CC=O)ccc1OCc1ccccc1>>COC(=O)/C=C/Cc1ccc(OCc2ccccc2)c(OC)c1"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E04",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "7p"
+    ],
+    "reactant_labels": [
+      "8",
+      "CH3MgBr"
+    ],
+    "reagents": [
+      "CuI",
+      "(R)-Tol-BINAP"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "8",
+        "percent": 62,
+        "product_label": "7p",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "dichloromethane"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E04",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "04fa10915da470ed1239b09efc9810f5aea8b7f052c969d21785de2186ead82e",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "E04.1"
+    ],
+    "substrate_product_smiles": "COC(=O)/C=C/Cc1ccc(OCc2ccccc2)c(OC)c1.[Br-].[CH3-].[Mg+2]>>COC(=O)C[C@H](C)Cc1ccc(OCc2ccccc2)c(OC)c1"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E05",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "7m"
+    ],
+    "reactant_labels": [
+      "8",
+      "CH3MgBr"
+    ],
+    "reagents": [
+      "CuI",
+      "(S)-Tol-BINAP"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "8",
+        "percent": 62,
+        "product_label": "7m",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "dichloromethane"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E05",
+        "pages": [
+          3,
+          4
+        ],
+        "sha256": "04fa10915da470ed1239b09efc9810f5aea8b7f052c969d21785de2186ead82e",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "E05.1"
+    ],
+    "substrate_product_smiles": "COC(=O)/C=C/Cc1ccc(OCc2ccccc2)c(OC)c1.[Br-].[CH3-].[Mg+2]>>COC(=O)C[C@@H](C)Cc1ccc(OCc2ccccc2)c(OC)c1"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E06",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "rac-7"
+    ],
+    "reactant_labels": [
+      "8",
+      "CH3MgBr"
+    ],
+    "reagents": [
+      "CuBr-SMe2",
+      "rac-BINAP"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "8",
+        "percent": 72,
+        "product_label": "rac-7",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "MTBE"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E06",
+        "pages": [
+          2
+        ],
+        "sha256": "04fa10915da470ed1239b09efc9810f5aea8b7f052c969d21785de2186ead82e",
+        "source_id": "article"
+      },
+      {
+        "locator": "Compound drawing and associated NMR spectrum: E06",
+        "pages": [
+          5,
+          6
+        ],
+        "sha256": "5890ccfa90849728adcef51308b9a3a9d16d83ea717cda391fc9b7a40386437f",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E06.1"
+    ],
+    "substrate_product_smiles": "COC(=O)/C=C/Cc1ccc(OCc2ccccc2)c(OC)c1.[Br-].[CH3-].[Mg+2]>>COC(=O)CC(C)Cc1ccc(OCc2ccccc2)c(OC)c1"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E07",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "6"
+    ],
+    "reactant_labels": [
+      "piperonyl-alcohol"
+    ],
+    "reagents": [
+      "PBr3"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "piperonyl-alcohol",
+        "percent": 93,
+        "product_label": "6",
+        "scope": "93% shown in SI scheme; procedure carries crude bromide directly, no isolated purity claim."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "diethyl ether"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E07",
+        "pages": [
+          2
+        ],
+        "sha256": "04fa10915da470ed1239b09efc9810f5aea8b7f052c969d21785de2186ead82e",
+        "source_id": "article"
+      },
+      {
+        "locator": "Compound drawing and associated NMR spectrum: E07",
+        "pages": [
+          6
+        ],
+        "sha256": "5890ccfa90849728adcef51308b9a3a9d16d83ea717cda391fc9b7a40386437f",
+        "source_id": "si"
+      }
+    ],
+    "step_ids": [
+      "E07.1"
+    ],
+    "substrate_product_smiles": "OCc1ccc2c(c1)OCO2>>BrCc1ccc2c(c1)OCO2",
+    "yield_scope": "93% shown in SI scheme; procedure carries crude bromide directly, no isolated purity claim."
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E08",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "mixture_yield_percent": 64,
+    "product_labels": [
+      "5"
+    ],
+    "reactant_labels": [
+      "7p",
+      "6"
+    ],
+    "reagents": [
+      "NaHMDS"
+    ],
+    "reported_yield_text": "64% combined mixture yield",
+    "reported_yields": [],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E08",
+        "pages": [
+          2,
+          3
+        ],
+        "sha256": "04fa10915da470ed1239b09efc9810f5aea8b7f052c969d21785de2186ead82e",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "E08.1"
+    ],
+    "substrate_product_smiles": "BrCc1ccc2c(c1)OCO2.COC(=O)C[C@H](C)Cc1ccc(OCc2ccccc2)c(OC)c1>>COC(=O)C(Cc1ccc2c(c1)OCO2)[C@H](C)Cc1ccc(OCc2ccccc2)c(OC)c1"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E09",
+    "experimental_stage_count": 2,
+    "formal_benchmark_eligible": false,
+    "mixture_yield_percent": 63,
+    "operation_stages": [
+      {
+        "operation": "ester reduction to undrawn alcohol"
+      },
+      {
+        "operation": "mesylation"
+      }
+    ],
+    "product_labels": [
+      "13"
+    ],
+    "reactant_labels": [
+      "5"
+    ],
+    "reagents": [
+      "LiAlH4",
+      "MsCl",
+      "triethylamine"
+    ],
+    "reported_yield_text": "63% combined mixture yield",
+    "reported_yields": [],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "THF",
+      "dichloromethane"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E09",
+        "pages": [
+          2,
+          3,
+          4
+        ],
+        "sha256": "04fa10915da470ed1239b09efc9810f5aea8b7f052c969d21785de2186ead82e",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "E09.1"
+    ],
+    "substrate_product_smiles": "COC(=O)C(Cc1ccc2c(c1)OCO2)[C@H](C)Cc1ccc(OCc2ccccc2)c(OC)c1>>COc1cc(C[C@@H](C)C(COS(C)(=O)=O)Cc2ccc3c(c2)OCO3)ccc1OCc1ccccc1"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E10",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "14"
+    ],
+    "reactant_labels": [
+      "13"
+    ],
+    "reagents": [
+      "NaI",
+      "DBU"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "13",
+        "percent": 58,
+        "product_label": "14",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "DMF"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E10",
+        "pages": [
+          2,
+          4
+        ],
+        "sha256": "04fa10915da470ed1239b09efc9810f5aea8b7f052c969d21785de2186ead82e",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "E10.1"
+    ],
+    "substrate_product_smiles": "COc1cc(C[C@@H](C)C(COS(C)(=O)=O)Cc2ccc3c(c2)OCO3)ccc1OCc1ccccc1>>C=C(Cc1ccc2c(c1)OCO2)[C@H](C)Cc1ccc(OCc2ccccc2)c(OC)c1"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E11",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "product_labels": [
+      "1"
+    ],
+    "reactant_labels": [
+      "14"
+    ],
+    "reagents": [
+      "BCl3"
+    ],
+    "reported_yields": [
+      {
+        "from_label": "14",
+        "percent": 56,
+        "product_label": "1",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "dichloromethane"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E11",
+        "pages": [
+          2,
+          4
+        ],
+        "sha256": "04fa10915da470ed1239b09efc9810f5aea8b7f052c969d21785de2186ead82e",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "E11.1"
+    ],
+    "substrate_product_smiles": "C=C(Cc1ccc2c(c1)OCO2)[C@H](C)Cc1ccc(OCc2ccccc2)c(OC)c1>>C=C(Cc1ccc2c(c1)OCO2)[C@H](C)Cc1ccc(O)c(OC)c1"
+  },
+  {
+    "admission_authority": false,
+    "category": "forward_synthesis",
+    "event_id": "E12",
+    "experimental_stage_count": 4,
+    "formal_benchmark_eligible": false,
+    "operation_stages": [
+      {
+        "operation": "alkylation with 6, analogous sequence stated by source"
+      },
+      {
+        "operation": "ester reduction and mesylation (two experimental operations)"
+      },
+      {
+        "operation": "elimination"
+      },
+      {
+        "operation": "benzyl deprotection"
+      }
+    ],
+    "product_labels": [
+      "1p"
+    ],
+    "reactant_labels": [
+      "7m",
+      "6"
+    ],
+    "reagents": [
+      "NaHMDS",
+      "LiAlH4",
+      "MsCl",
+      "triethylamine",
+      "NaI",
+      "DBU",
+      "BCl3"
+    ],
+    "reported_yields": [],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E12",
+        "pages": [
+          3,
+          4
+        ],
+        "sha256": "04fa10915da470ed1239b09efc9810f5aea8b7f052c969d21785de2186ead82e",
+        "source_id": "article"
+      }
+    ],
+    "step_ids": [
+      "E12.1"
+    ],
+    "substrate_product_smiles": "BrCc1ccc2c(c1)OCO2.COC(=O)C[C@@H](C)Cc1ccc(OCc2ccccc2)c(OC)c1>>C=C(Cc1ccc2c(c1)OCO2)[C@@H](C)Cc1ccc(O)c(OC)c1",
+    "yield_scope": "Source says analogous/equal efficiency but gives no numerical S-series step yields; none imputed."
+  }
+]

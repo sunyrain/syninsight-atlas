@@ -1,0 +1,45 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Ineleganolide SI route extraction | SynInsight Atlas</title><link rel="stylesheet" href="../../assets/report.css"><link rel="icon" href="../../assets/favicon.svg"></head><body class="publication-page"><a class="skip-link" href="#document">Skip to content</a><nav class="publication-nav" aria-label="Atlas navigation"><a class="brand" href="../../index.html">SI · SynInsight Atlas</a><div><a href="../../index.html#atlas">Papers & routes</a><a href="../../index.html#dataset">Reaction dataset</a></div></nav><div class="document-meta">Reference document · <a href="../../docs/INELEGANOLIDE_EXTRACTION_CASE.md" download>Download original file</a></div><main id="document" class="document-content"><h1 id="ineleganolide-si-route-extraction">Ineleganolide SI route extraction</h1>
+<p>Case: <code>paper-77cc3e5bcb3be4ba</code>, <em>Asymmetric Total Synthesis of (+)-Ineleganolide</em>.</p>
+<p>The local source is <code>supporting_information/si-001.docx</code>, SHA256
+<code>9c776a9a888937f07252254df464d12c299c7b933c4414ae6815604c2dcd5a44</code>.
+The main article is absent. This case covers the available SI network and does
+not claim complete coverage of the article or independent expert admission.</p>
+<p>The <a href="../data/routes/paper-77cc3e5bcb3be4ba/report.html">case report</a> contains:</p>
+<ul>
+<li>27 molecular structures with canonical isomeric SMILES and SDF depictions;</li>
+<li>21 preparation events: 5 attributed reference preparations and 16 SI events;</li>
+<li>4 paths: the main sequence from 15, a path including the referenced preparation
+  of 15, the one-pot alternative from 22 to 23, and the characterization branch
+  from 27 to 28;</li>
+<li>14 source HRMS comparisons, all agreeing with the neutral molecular formula.</li>
+</ul>
+<p>Each structure and event points to the original attachment hash, a specific Word
+embedding member, the CDX hash and a paragraph locator. Native fragment object IDs
+are kept separately from publication compound labels. No PDF page is invented.</p>
+<h2 id="interpretation-boundaries">Interpretation boundaries</h2>
+<p>Compound 30 is a bracketed mechanistic intermediate. It is stored as a drawn
+structure but is not counted as a separate isolated preparation. The source names
+organozinc reagent 16 without establishing a unique solution-species representation;
+its participant SMILES remains null.</p>
+<p>The native parser misread Bpin labels as carbon atoms. Structures 20 and the final
+boronate were transcribed from the inspected source drawing with explicit pinacol
+boronate groups. The source triflate 19 required removal of a spurious square-planar
+sulfur tag; source-drawn carbon stereochemistry was retained. These corrections
+are recorded as source transcription, not silent generic graph repair.</p>
+<p>The source reports compound 29 with an M+H label but a sodium-containing ion
+formula and mass. The conflicting adduct annotation remains in <code>hrms_checks.json</code>.
+The scheme and procedure also disagree on the alcohol solvent for 27 to 29;
+the discrepancy is retained in <code>issues</code>, without choosing an unsupported value.</p>
+<p>Raw ChemDraw ReactionStep lists sometimes include reagents and mechanistic
+intermediates among products. This case assigns roles from the inspected figures
+and preparation paragraphs, while the separate native layer retains raw associations.</p>
+<h2 id="reproduction">Reproduction</h2>
+<p>From the repository root, using the pinned extraction environment:</p>
+<pre><code class="language-powershell">.venv/Scripts/python.exe scripts/extract_ineleganolide_case.py
+.venv/Scripts/python.exe scripts/batch_extract_atlas.py --extract-native --extract-native-reactions
+.venv/Scripts/python.exe scripts/validate_atlas_database.py
+</code></pre>
+<p>The adapter rejects a changed source hash. Tests cover boronate expansion, role
+assignment, the alternative path, the bracketed intermediate, source conflicts and
+missing-article coverage. SDF roundtrips preserve the canonical SMILES of all 27
+structures. These checks establish data consistency, not independent chemical truth.</p></main><footer class="publication-footer"><a href="../../index.html">Return to Atlas</a><span>Candidate curation · Data CC BY 4.0 · Code MIT</span></footer><script src="../../assets/publication.js" defer></script></body></html>

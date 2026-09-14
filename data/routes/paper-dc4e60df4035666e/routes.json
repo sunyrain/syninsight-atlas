@@ -1,0 +1,46 @@
+[
+  {
+    "admission_authority": false,
+    "formal_benchmark_eligible": false,
+    "from_commercial_starting_materials_complete": false,
+    "full_article_route_coverage": false,
+    "molecule_smiles_sequence": [
+      "O=C1C=CC(=O)c2c(O)ccc(O)c21",
+      "O=C1C=C(Br)C(=O)c2c(O)ccc(O)c21",
+      "CC(C)=CCBr",
+      "CC(C)=CCC1=CC(=O)c2c(O)ccc(O)c2C1=O",
+      "CC(C)=CCC12OC1C(=O)c1c(O)ccc(O)c1C2=O"
+    ],
+    "ordered_event_ids": [
+      "E01",
+      "E02",
+      "E03"
+    ],
+    "ordered_molecule_labels": [
+      "4",
+      "3",
+      "prenyl-bromide",
+      "2",
+      "1"
+    ],
+    "ordered_step_ids": [
+      "E01.1",
+      "E02.1",
+      "E03.1"
+    ],
+    "route_id": "available-si",
+    "route_type": "source_bound_successful_synthesis",
+    "split_group": "10.1080/14786419.2026.2694725",
+    "start_label": "4",
+    "start_labels": [
+      "4",
+      "prenyl-bromide"
+    ],
+    "step_reaction_smiles_sequence": [
+      "O=C1C=CC(=O)c2c(O)ccc(O)c21>>O=C1C=C(Br)C(=O)c2c(O)ccc(O)c21",
+      "CC(C)=CCBr.O=C1C=C(Br)C(=O)c2c(O)ccc(O)c21>>CC(C)=CCC1=CC(=O)c2c(O)ccc(O)c2C1=O",
+      "CC(C)=CCC1=CC(=O)c2c(O)ccc(O)c2C1=O>>CC(C)=CCC12OC1C(=O)c1c(O)ccc(O)c1C2=O"
+    ],
+    "target_label": "1"
+  }
+]

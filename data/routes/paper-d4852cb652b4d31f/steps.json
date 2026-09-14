@@ -1,0 +1,801 @@
+[
+  {
+    "admission_authority": false,
+    "agents": [
+      "borane dimethyl sulfide",
+      "sodium borohydride"
+    ],
+    "event_id": "E01",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Experimental preparation; named crude diol retained in E01; mixture yields at event level",
+    "product_labels": [
+      "diol"
+    ],
+    "reactant_labels": [
+      "9"
+    ],
+    "solvents": [
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF pages = printed pages: E01 preparation",
+        "pages": [
+          3
+        ],
+        "sha256": "505f8bc5bbfae0fdf21f419115bf355469f937b4d72469639ecc5dbd7b9a39b5",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E01.1",
+    "step_index_within_event": 1,
+    "structure_basis": "procedural_interpretation",
+    "substrate_product_smiles": "COC(=O)C[C@@H](O)C(=O)OC>>COC(=O)C[C@@H](O)CO",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "trifluoroacetic acid"
+    ],
+    "event_id": "E01",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Experimental preparation; named crude diol retained in E01; mixture yields at event level",
+    "product_labels": [
+      "S1"
+    ],
+    "reactant_labels": [
+      "diol"
+    ],
+    "solvents": [
+      "dichloromethane"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF pages = printed pages: E01 preparation",
+        "pages": [
+          3
+        ],
+        "sha256": "505f8bc5bbfae0fdf21f419115bf355469f937b4d72469639ecc5dbd7b9a39b5",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E01.2",
+    "step_index_within_event": 2,
+    "structure_basis": "procedural_interpretation",
+    "substrate_product_smiles": "COC(=O)C[C@@H](O)CO>>O=C1C[C@@H](O)CO1",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "triflic acid"
+    ],
+    "event_id": "E02",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Experimental preparation; named crude diol retained in E01; mixture yields at event level",
+    "product_labels": [
+      "11"
+    ],
+    "reactant_labels": [
+      "S1",
+      "PMB-imidate"
+    ],
+    "solvents": [
+      "dichloromethane",
+      "cyclohexane"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF pages = printed pages: E02 preparation",
+        "pages": [
+          4
+        ],
+        "sha256": "505f8bc5bbfae0fdf21f419115bf355469f937b4d72469639ecc5dbd7b9a39b5",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E02.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "COc1ccc(COC(=N)C(Cl)(Cl)Cl)cc1.O=C1C[C@@H](O)CO1>>COc1ccc(CO[C@H]2COC(=O)C2)cc1",
+    "yield_percent": 88
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "DIBAL-H"
+    ],
+    "event_id": "E03",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Experimental preparation; named crude diol retained in E01; mixture yields at event level",
+    "product_labels": [
+      "S2"
+    ],
+    "reactant_labels": [
+      "11"
+    ],
+    "solvents": [
+      "dichloromethane",
+      "cyclohexane"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF pages = printed pages: E03 preparation",
+        "pages": [
+          4,
+          5
+        ],
+        "sha256": "505f8bc5bbfae0fdf21f419115bf355469f937b4d72469639ecc5dbd7b9a39b5",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E03.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "COc1ccc(CO[C@H]2COC(=O)C2)cc1>>COc1ccc(CO[C@H]2COC(O)C2)cc1",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "NaHMDS"
+    ],
+    "event_id": "E04",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Experimental preparation; named crude diol retained in E01; mixture yields at event level",
+    "product_labels": [
+      "12"
+    ],
+    "reactant_labels": [
+      "S2",
+      "propyl-phosphonium"
+    ],
+    "solvents": [
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF pages = printed pages: E04 preparation",
+        "pages": [
+          5,
+          6
+        ],
+        "sha256": "505f8bc5bbfae0fdf21f419115bf355469f937b4d72469639ecc5dbd7b9a39b5",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E04.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "CCC[P+](c1ccccc1)(c1ccccc1)c1ccccc1.COc1ccc(CO[C@H]2COC(O)C2)cc1.[Br-]>>CC/C=C\\C[C@H](CO)OCc1ccc(OC)cc1",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "Dess-Martin periodinane",
+      "sodium bicarbonate"
+    ],
+    "event_id": "E05",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Experimental preparation; named crude diol retained in E01; mixture yields at event level",
+    "product_labels": [
+      "7"
+    ],
+    "reactant_labels": [
+      "12"
+    ],
+    "solvents": [
+      "dichloromethane"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF pages = printed pages: E05 preparation",
+        "pages": [
+          6,
+          7
+        ],
+        "sha256": "505f8bc5bbfae0fdf21f419115bf355469f937b4d72469639ecc5dbd7b9a39b5",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E05.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "CC/C=C\\C[C@H](CO)OCc1ccc(OC)cc1>>CC/C=C\\C[C@H](C=O)OCc1ccc(OC)cc1",
+    "yield_percent": 68
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "oxalyl chloride"
+    ],
+    "event_id": "E06",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Experimental preparation; named crude diol retained in E01; mixture yields at event level",
+    "product_labels": [
+      "S3"
+    ],
+    "reactant_labels": [
+      "10"
+    ],
+    "solvents": [
+      "dichloromethane"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF pages = printed pages: E06 preparation",
+        "pages": [
+          7
+        ],
+        "sha256": "505f8bc5bbfae0fdf21f419115bf355469f937b4d72469639ecc5dbd7b9a39b5",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E06.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "COC(=O)CCCCCCCC(=O)O>>COC(=O)CCCCCCCC(=O)Cl",
+    "yield_percent": 99
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "aluminium chloride"
+    ],
+    "event_id": "E07",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Experimental preparation; named crude diol retained in E01; mixture yields at event level",
+    "product_labels": [
+      "13"
+    ],
+    "reactant_labels": [
+      "S3",
+      "bis-TMS-acetylene"
+    ],
+    "solvents": [
+      "dichloromethane"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF pages = printed pages: E07 preparation",
+        "pages": [
+          7,
+          8
+        ],
+        "sha256": "505f8bc5bbfae0fdf21f419115bf355469f937b4d72469639ecc5dbd7b9a39b5",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E07.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "COC(=O)CCCCCCCC(=O)Cl.C[Si](C)(C)C#C[Si](C)(C)C>>COC(=O)CCCCCCCC(=O)C#C[Si](C)(C)C",
+    "yield_percent": 78
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "source (R,R)-Noyori catalyst"
+    ],
+    "event_id": "E08",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Experimental preparation; named crude diol retained in E01; mixture yields at event level",
+    "product_labels": [
+      "S4"
+    ],
+    "reactant_labels": [
+      "13"
+    ],
+    "solvents": [
+      "isopropanol"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF pages = printed pages: E08 preparation",
+        "pages": [
+          8,
+          9,
+          10
+        ],
+        "sha256": "505f8bc5bbfae0fdf21f419115bf355469f937b4d72469639ecc5dbd7b9a39b5",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E08.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "COC(=O)CCCCCCCC(=O)C#C[Si](C)(C)C>>COC(=O)CCCCCCC[C@@H](O)C#C[Si](C)(C)C",
+    "yield_percent": 99
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "imidazole",
+      "DMAP"
+    ],
+    "event_id": "E09",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Experimental preparation; named crude diol retained in E01; mixture yields at event level",
+    "product_labels": [
+      "14"
+    ],
+    "reactant_labels": [
+      "S4",
+      "TBSCl"
+    ],
+    "solvents": [
+      "dichloromethane"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF pages = printed pages: E09 preparation",
+        "pages": [
+          10,
+          11
+        ],
+        "sha256": "505f8bc5bbfae0fdf21f419115bf355469f937b4d72469639ecc5dbd7b9a39b5",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E09.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "CC(C)(C)[Si](C)(C)Cl.COC(=O)CCCCCCC[C@@H](O)C#C[Si](C)(C)C>>COC(=O)CCCCCCC[C@H](C#C[Si](C)(C)C)O[Si](C)(C)C(C)(C)C",
+    "yield_percent": 93
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "potassium carbonate"
+    ],
+    "event_id": "E10",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Experimental preparation; named crude diol retained in E01; mixture yields at event level",
+    "product_labels": [
+      "8"
+    ],
+    "reactant_labels": [
+      "14"
+    ],
+    "solvents": [
+      "methanol"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF pages = printed pages: E10 preparation",
+        "pages": [
+          11
+        ],
+        "sha256": "505f8bc5bbfae0fdf21f419115bf355469f937b4d72469639ecc5dbd7b9a39b5",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E10.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "COC(=O)CCCCCCC[C@H](C#C[Si](C)(C)C)O[Si](C)(C)C(C)(C)C>>C#C[C@@H](CCCCCCCC(=O)OC)O[Si](C)(C)C(C)(C)C",
+    "yield_percent": 96
+  },
+  {
+    "admission_authority": false,
+    "agents": [],
+    "event_id": "E11",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Experimental preparation; named crude diol retained in E01; mixture yields at event level",
+    "product_labels": [
+      "15",
+      "16"
+    ],
+    "reactant_labels": [
+      "8",
+      "7",
+      "nBuLi"
+    ],
+    "solvents": [
+      "THF",
+      "hexane"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF pages = printed pages: E11 preparation",
+        "pages": [
+          12,
+          13
+        ],
+        "sha256": "505f8bc5bbfae0fdf21f419115bf355469f937b4d72469639ecc5dbd7b9a39b5",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E11.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "C#C[C@@H](CCCCCCCC(=O)OC)O[Si](C)(C)C(C)(C)C.CC/C=C\\C[C@H](C=O)OCc1ccc(OC)cc1.[CH2-]CCC.[Li+]>>C#C[C@@H](CCCCCCCC(O)(CCCC)CCCC)O[Si](C)(C)C(C)(C)C.CC/C=C\\C[C@@H](OCc1ccc(OC)cc1)C(O)C#C[C@@H](CCCCCCCC(=O)OC)O[Si](C)(C)C(C)(C)C",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "lithium aluminium hydride"
+    ],
+    "event_id": "E12",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Experimental preparation; named crude diol retained in E01; mixture yields at event level",
+    "product_labels": [
+      "S5"
+    ],
+    "reactant_labels": [
+      "14"
+    ],
+    "solvents": [
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF pages = printed pages: E12 preparation",
+        "pages": [
+          13,
+          14
+        ],
+        "sha256": "505f8bc5bbfae0fdf21f419115bf355469f937b4d72469639ecc5dbd7b9a39b5",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E12.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "COC(=O)CCCCCCC[C@H](C#C[Si](C)(C)C)O[Si](C)(C)C(C)(C)C>>CC(C)(C)[Si](C)(C)O[C@@H](C#C[Si](C)(C)C)CCCCCCCCO",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "p-toluenesulfonic acid"
+    ],
+    "event_id": "E13",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Experimental preparation; named crude diol retained in E01; mixture yields at event level",
+    "product_labels": [
+      "17"
+    ],
+    "reactant_labels": [
+      "S5",
+      "DHP"
+    ],
+    "solvents": [
+      "dichloromethane"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF pages = printed pages: E13 preparation",
+        "pages": [
+          14
+        ],
+        "sha256": "505f8bc5bbfae0fdf21f419115bf355469f937b4d72469639ecc5dbd7b9a39b5",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E13.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "C1=COCCC1.CC(C)(C)[Si](C)(C)O[C@@H](C#C[Si](C)(C)C)CCCCCCCCO>>CC(C)(C)[Si](C)(C)O[C@@H](C#C[Si](C)(C)C)CCCCCCCCOC1CCCCO1",
+    "yield_percent": 84
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "potassium carbonate"
+    ],
+    "event_id": "E14",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Experimental preparation; named crude diol retained in E01; mixture yields at event level",
+    "product_labels": [
+      "18"
+    ],
+    "reactant_labels": [
+      "17"
+    ],
+    "solvents": [
+      "methanol"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF pages = printed pages: E14 preparation",
+        "pages": [
+          15
+        ],
+        "sha256": "505f8bc5bbfae0fdf21f419115bf355469f937b4d72469639ecc5dbd7b9a39b5",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E14.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "CC(C)(C)[Si](C)(C)O[C@@H](C#C[Si](C)(C)C)CCCCCCCCOC1CCCCO1>>C#C[C@@H](CCCCCCCCOC1CCCCO1)O[Si](C)(C)C(C)(C)C",
+    "yield_percent": 98
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "n-butyllithium"
+    ],
+    "event_id": "E15",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Experimental preparation; named crude diol retained in E01; mixture yields at event level",
+    "product_labels": [
+      "19"
+    ],
+    "reactant_labels": [
+      "18",
+      "7"
+    ],
+    "solvents": [
+      "THF",
+      "hexane"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF pages = printed pages: E15 preparation",
+        "pages": [
+          16,
+          17
+        ],
+        "sha256": "505f8bc5bbfae0fdf21f419115bf355469f937b4d72469639ecc5dbd7b9a39b5",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E15.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "C#C[C@@H](CCCCCCCCOC1CCCCO1)O[Si](C)(C)C(C)(C)C.CC/C=C\\C[C@H](C=O)OCc1ccc(OC)cc1>>CC/C=C\\C[C@@H](OCc1ccc(OC)cc1)C(O)C#C[C@@H](CCCCCCCCOC1CCCCO1)O[Si](C)(C)C(C)(C)C",
+    "yield_percent": 54
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "Red-Al"
+    ],
+    "event_id": "E16",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Experimental preparation; named crude diol retained in E01; mixture yields at event level",
+    "product_labels": [
+      "S6"
+    ],
+    "reactant_labels": [
+      "19"
+    ],
+    "solvents": [
+      "THF",
+      "toluene"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF pages = printed pages: E16 preparation",
+        "pages": [
+          17,
+          18
+        ],
+        "sha256": "505f8bc5bbfae0fdf21f419115bf355469f937b4d72469639ecc5dbd7b9a39b5",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E16.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "CC/C=C\\C[C@@H](OCc1ccc(OC)cc1)C(O)C#C[C@@H](CCCCCCCCOC1CCCCO1)O[Si](C)(C)C(C)(C)C>>CC/C=C\\C[C@@H](OCc1ccc(OC)cc1)C(O)/C=C/[C@@H](CCCCCCCCOC1CCCCO1)O[Si](C)(C)C(C)(C)C",
+    "yield_percent": 81
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "dimethylaluminium chloride"
+    ],
+    "event_id": "E17",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Experimental preparation; named crude diol retained in E01; mixture yields at event level",
+    "product_labels": [
+      "20"
+    ],
+    "reactant_labels": [
+      "S6"
+    ],
+    "solvents": [
+      "dichloromethane",
+      "hexanes"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF pages = printed pages: E17 preparation",
+        "pages": [
+          18,
+          19
+        ],
+        "sha256": "505f8bc5bbfae0fdf21f419115bf355469f937b4d72469639ecc5dbd7b9a39b5",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E17.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "CC/C=C\\C[C@@H](OCc1ccc(OC)cc1)C(O)/C=C/[C@@H](CCCCCCCCOC1CCCCO1)O[Si](C)(C)C(C)(C)C>>CC/C=C\\C[C@@H](OCc1ccc(OC)cc1)C(O)/C=C/[C@@H](CCCCCCCCO)O[Si](C)(C)C(C)(C)C",
+    "yield_percent": 62
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "Dess-Martin periodinane",
+      "sodium bicarbonate"
+    ],
+    "event_id": "E18",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Experimental preparation; named crude diol retained in E01; mixture yields at event level",
+    "product_labels": [
+      "6"
+    ],
+    "reactant_labels": [
+      "20"
+    ],
+    "solvents": [
+      "dichloromethane"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF pages = printed pages: E18 preparation",
+        "pages": [
+          19,
+          20
+        ],
+        "sha256": "505f8bc5bbfae0fdf21f419115bf355469f937b4d72469639ecc5dbd7b9a39b5",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E18.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "CC/C=C\\C[C@@H](OCc1ccc(OC)cc1)C(O)/C=C/[C@@H](CCCCCCCCO)O[Si](C)(C)C(C)(C)C>>CC/C=C\\C[C@@H](OCc1ccc(OC)cc1)C(=O)/C=C/[C@@H](CCCCCCCC=O)O[Si](C)(C)C(C)(C)C",
+    "yield_percent": 73
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "sodium chlorite",
+      "potassium dihydrogen phosphate",
+      "2-methyl-2-butene"
+    ],
+    "event_id": "E19",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Experimental preparation; named crude diol retained in E01; mixture yields at event level",
+    "product_labels": [
+      "S7"
+    ],
+    "reactant_labels": [
+      "6"
+    ],
+    "solvents": [
+      "water",
+      "tert-butanol"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF pages = printed pages: E19 preparation",
+        "pages": [
+          20
+        ],
+        "sha256": "505f8bc5bbfae0fdf21f419115bf355469f937b4d72469639ecc5dbd7b9a39b5",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E19.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "CC/C=C\\C[C@@H](OCc1ccc(OC)cc1)C(=O)/C=C/[C@@H](CCCCCCCC=O)O[Si](C)(C)C(C)(C)C>>CC/C=C\\C[C@@H](OCc1ccc(OC)cc1)C(=O)/C=C/[C@@H](CCCCCCCC(=O)O)O[Si](C)(C)C(C)(C)C",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "DDQ",
+      "pH 7 phosphate buffer"
+    ],
+    "event_id": "E20",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Experimental preparation; named crude diol retained in E01; mixture yields at event level",
+    "product_labels": [
+      "21"
+    ],
+    "reactant_labels": [
+      "S7"
+    ],
+    "solvents": [
+      "dichloromethane",
+      "water"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF pages = printed pages: E20 preparation",
+        "pages": [
+          21
+        ],
+        "sha256": "505f8bc5bbfae0fdf21f419115bf355469f937b4d72469639ecc5dbd7b9a39b5",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E20.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "CC/C=C\\C[C@@H](OCc1ccc(OC)cc1)C(=O)/C=C/[C@@H](CCCCCCCC(=O)O)O[Si](C)(C)C(C)(C)C>>CC/C=C\\C[C@@H](O)C(=O)/C=C/[C@@H](CCCCCCCC(=O)O)O[Si](C)(C)C(C)(C)C",
+    "yield_percent": 71
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "2-methyl-6-nitrobenzoic anhydride",
+      "DMAP"
+    ],
+    "event_id": "E21",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Experimental preparation; named crude diol retained in E01; mixture yields at event level",
+    "product_labels": [
+      "S8",
+      "S8-9epi"
+    ],
+    "reactant_labels": [
+      "21"
+    ],
+    "solvents": [
+      "dichloromethane"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF pages = printed pages: E21 preparation",
+        "pages": [
+          22
+        ],
+        "sha256": "505f8bc5bbfae0fdf21f419115bf355469f937b4d72469639ecc5dbd7b9a39b5",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E21.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "CC/C=C\\C[C@@H](O)C(=O)/C=C/[C@@H](CCCCCCCC(=O)O)O[Si](C)(C)C(C)(C)C>>CC/C=C\\C[C@H]1OC(=O)CCCCCCC[C@@H](O[Si](C)(C)C(C)(C)C)/C=C/C1=O.CC/C=C\\C[C@H]1OC(=O)CCCCCCC[C@H](O[Si](C)(C)C(C)(C)C)/C=C/C1=O",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "hydrogen fluoride-pyridine"
+    ],
+    "event_id": "E22",
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Experimental preparation; named crude diol retained in E01; mixture yields at event level",
+    "product_labels": [
+      "5",
+      "5-9epi"
+    ],
+    "reactant_labels": [
+      "S8",
+      "S8-9epi"
+    ],
+    "solvents": [
+      "THF"
+    ],
+    "source_references": [
+      {
+        "locator": "SI PDF pages = printed pages: E22 preparation",
+        "pages": [
+          23,
+          24
+        ],
+        "sha256": "505f8bc5bbfae0fdf21f419115bf355469f937b4d72469639ecc5dbd7b9a39b5",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E22.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "CC/C=C\\C[C@H]1OC(=O)CCCCCCC[C@@H](O[Si](C)(C)C(C)(C)C)/C=C/C1=O.CC/C=C\\C[C@H]1OC(=O)CCCCCCC[C@H](O[Si](C)(C)C(C)(C)C)/C=C/C1=O>>CC/C=C\\C[C@H]1OC(=O)CCCCCCC[C@@H](O)/C=C/C1=O.CC/C=C\\C[C@H]1OC(=O)CCCCCCC[C@H](O)/C=C/C1=O",
+    "yield_percent": null
+  }
+]

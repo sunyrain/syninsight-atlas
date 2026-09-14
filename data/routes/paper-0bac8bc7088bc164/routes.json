@@ -1,0 +1,203 @@
+[
+  {
+    "coverage_scope": "in-paper experimental network; source-drawn unisolated intermediates explicitly marked",
+    "event_count": 3,
+    "formal_benchmark_eligible": false,
+    "from_commercial_starting_materials_complete": true,
+    "molecule_sequence_semantics": "linear path",
+    "molecule_smiles_sequence": [
+      "Oc1cccc(O)c1",
+      "c1cc(OC2CCCCO2)cc(OC2CCCCO2)c1",
+      "CC(C)=CCc1c(OC2CCCCO2)cccc1OC1CCCCO1",
+      "CC(C)=CCc1c(O)cccc1O"
+    ],
+    "operation_group_count": 3,
+    "ordered_event_ids": [
+      "E01",
+      "E02",
+      "E03"
+    ],
+    "ordered_molecule_labels": [
+      "a1",
+      "a2",
+      "a3",
+      "a"
+    ],
+    "ordered_step_ids": [
+      "E01.1",
+      "E02.1",
+      "E03.1"
+    ],
+    "recommended_split": "unassigned_keep_entire_paper_together",
+    "route_id": "paper-0bac8bc7088bc164:route:fragment-a",
+    "route_type": "reported_fragment_preparation",
+    "split_group": "10.1021/acs.joc.6c00242",
+    "start_label": "a1",
+    "start_labels": [
+      "a1"
+    ],
+    "step_reaction_smiles_sequence": [
+      "Oc1cccc(O)c1>>c1cc(OC2CCCCO2)cc(OC2CCCCO2)c1",
+      "c1cc(OC2CCCCO2)cc(OC2CCCCO2)c1>>CC(C)=CCc1c(OC2CCCCO2)cccc1OC1CCCCO1",
+      "CC(C)=CCc1c(OC2CCCCO2)cccc1OC1CCCCO1>>CC(C)=CCc1c(O)cccc1O"
+    ],
+    "target_label": "a",
+    "topology_kind": "linear"
+  },
+  {
+    "coverage_scope": "in-paper experimental network; source-drawn unisolated intermediates explicitly marked",
+    "event_count": 4,
+    "formal_benchmark_eligible": false,
+    "from_commercial_starting_materials_complete": true,
+    "molecule_sequence_semantics": "linear path",
+    "molecule_smiles_sequence": [
+      "COc1cccc(OC)c1",
+      "COc1ccc(I)c(OC)c1",
+      "CCOC(=O)C(C(=O)OCC)c1ccc(OC)cc1OC",
+      "COc1ccc(C(CO)CO)c(OC)c1",
+      "COc1ccc([C@H](CO)COC(C)=O)c(OC)c1"
+    ],
+    "operation_group_count": 4,
+    "ordered_event_ids": [
+      "E04",
+      "E05",
+      "E06",
+      "E07"
+    ],
+    "ordered_molecule_labels": [
+      "b1",
+      "b2",
+      "b3",
+      "b4",
+      "b"
+    ],
+    "ordered_step_ids": [
+      "E04.1",
+      "E05.1",
+      "E06.1",
+      "E07.1"
+    ],
+    "recommended_split": "unassigned_keep_entire_paper_together",
+    "route_id": "paper-0bac8bc7088bc164:route:fragment-b",
+    "route_type": "reported_fragment_preparation",
+    "split_group": "10.1021/acs.joc.6c00242",
+    "start_label": "b1",
+    "start_labels": [
+      "b1"
+    ],
+    "step_reaction_smiles_sequence": [
+      "COc1cccc(OC)c1>>COc1ccc(I)c(OC)c1",
+      "COc1ccc(I)c(OC)c1>>CCOC(=O)C(C(=O)OCC)c1ccc(OC)cc1OC",
+      "CCOC(=O)C(C(=O)OCC)c1ccc(OC)cc1OC>>COc1ccc(C(CO)CO)c(OC)c1",
+      "COc1ccc(C(CO)CO)c(OC)c1>>COc1ccc([C@H](CO)COC(C)=O)c(OC)c1"
+    ],
+    "target_label": "b",
+    "topology_kind": "linear"
+  },
+  {
+    "coverage_scope": "in-paper experimental network; source-drawn unisolated intermediates explicitly marked",
+    "event_count": 13,
+    "formal_benchmark_eligible": false,
+    "from_commercial_starting_materials_complete": true,
+    "molecule_sequence_semantics": "topologically ordered molecule inventory; use reaction hyperedges for both convergent inputs",
+    "molecule_smiles_sequence": [
+      "Oc1cccc(O)c1",
+      "c1cc(OC2CCCCO2)cc(OC2CCCCO2)c1",
+      "CC(C)=CCc1c(OC2CCCCO2)cccc1OC1CCCCO1",
+      "CC(C)=CCc1c(O)cccc1O",
+      "COc1cccc(OC)c1",
+      "COc1ccc(I)c(OC)c1",
+      "CCOC(=O)C(C(=O)OCC)c1ccc(OC)cc1OC",
+      "COc1ccc(C(CO)CO)c(OC)c1",
+      "COc1ccc([C@H](CO)COC(C)=O)c(OC)c1",
+      "COc1ccc([C@@H](COC(C)=O)COc2cccc(O)c2CC=C(C)C)c(OC)c1",
+      "COc1ccc([C@@H](CO)COc2cccc(O)c2CC=C(C)C)c(OC)c1",
+      "COc1ccc([C@@H](CI)COc2cccc(O)c2CC=C(C)C)c(OC)c1",
+      "COc1ccc([C@@H]2COc3c(ccc(O)c3CC=C(C)C)C2)c(OC)c1",
+      "COc1ccc([C@@H]2COc3c(ccc4c3CC(O)C(C)(C)O4)C2)c(OC)c1",
+      "COc1ccc([C@@H]2COc3c(ccc4c3CC(Cl)C(C)(C)O4)C2)c(OC)c1",
+      "COc1ccc([C@@H]2COc3c(ccc4c3C=CC(C)(C)O4)C2)c(OC)c1",
+      "CC1(C)C=Cc2c(ccc3c2OC[C@@H](c2ccc(O)cc2O)C3)O1"
+    ],
+    "operation_group_count": 15,
+    "ordered_event_ids": [
+      "E01",
+      "E02",
+      "E03",
+      "E04",
+      "E05",
+      "E06",
+      "E07",
+      "E08",
+      "E09",
+      "E10",
+      "E11",
+      "E12",
+      "E13"
+    ],
+    "ordered_molecule_labels": [
+      "a1",
+      "a2",
+      "a3",
+      "a",
+      "b1",
+      "b2",
+      "b3",
+      "b4",
+      "b",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "ordered_step_ids": [
+      "E01.1",
+      "E02.1",
+      "E03.1",
+      "E04.1",
+      "E05.1",
+      "E06.1",
+      "E07.1",
+      "E08.1",
+      "E09.1",
+      "E10.1",
+      "E11.1",
+      "E11.2",
+      "E12.1",
+      "E12.2",
+      "E13.1"
+    ],
+    "recommended_split": "unassigned_keep_entire_paper_together",
+    "route_id": "paper-0bac8bc7088bc164:route:glabridin-total",
+    "route_type": "reported_total_synthesis",
+    "split_group": "10.1021/acs.joc.6c00242",
+    "start_label": "a1",
+    "start_labels": [
+      "a1",
+      "b1"
+    ],
+    "step_reaction_smiles_sequence": [
+      "Oc1cccc(O)c1>>c1cc(OC2CCCCO2)cc(OC2CCCCO2)c1",
+      "c1cc(OC2CCCCO2)cc(OC2CCCCO2)c1>>CC(C)=CCc1c(OC2CCCCO2)cccc1OC1CCCCO1",
+      "CC(C)=CCc1c(OC2CCCCO2)cccc1OC1CCCCO1>>CC(C)=CCc1c(O)cccc1O",
+      "COc1cccc(OC)c1>>COc1ccc(I)c(OC)c1",
+      "COc1ccc(I)c(OC)c1>>CCOC(=O)C(C(=O)OCC)c1ccc(OC)cc1OC",
+      "CCOC(=O)C(C(=O)OCC)c1ccc(OC)cc1OC>>COc1ccc(C(CO)CO)c(OC)c1",
+      "COc1ccc(C(CO)CO)c(OC)c1>>COc1ccc([C@H](CO)COC(C)=O)c(OC)c1",
+      "CC(C)=CCc1c(O)cccc1O.COc1ccc([C@H](CO)COC(C)=O)c(OC)c1>>COc1ccc([C@@H](COC(C)=O)COc2cccc(O)c2CC=C(C)C)c(OC)c1",
+      "COc1ccc([C@@H](COC(C)=O)COc2cccc(O)c2CC=C(C)C)c(OC)c1>>COc1ccc([C@@H](CO)COc2cccc(O)c2CC=C(C)C)c(OC)c1",
+      "COc1ccc([C@@H](CO)COc2cccc(O)c2CC=C(C)C)c(OC)c1>>COc1ccc([C@@H](CI)COc2cccc(O)c2CC=C(C)C)c(OC)c1",
+      "COc1ccc([C@@H](CI)COc2cccc(O)c2CC=C(C)C)c(OC)c1>>COc1ccc([C@@H]2COc3c(ccc(O)c3CC=C(C)C)C2)c(OC)c1",
+      "COc1ccc([C@@H]2COc3c(ccc(O)c3CC=C(C)C)C2)c(OC)c1>>COc1ccc([C@@H]2COc3c(ccc4c3CC(O)C(C)(C)O4)C2)c(OC)c1",
+      "COc1ccc([C@@H]2COc3c(ccc4c3CC(O)C(C)(C)O4)C2)c(OC)c1>>COc1ccc([C@@H]2COc3c(ccc4c3CC(Cl)C(C)(C)O4)C2)c(OC)c1",
+      "COc1ccc([C@@H]2COc3c(ccc4c3CC(Cl)C(C)(C)O4)C2)c(OC)c1>>COc1ccc([C@@H]2COc3c(ccc4c3C=CC(C)(C)O4)C2)c(OC)c1",
+      "COc1ccc([C@@H]2COc3c(ccc4c3C=CC(C)(C)O4)C2)c(OC)c1>>CC1(C)C=Cc2c(ccc3c2OC[C@@H](c2ccc(O)cc2O)C3)O1"
+    ],
+    "target_label": "9",
+    "topology_kind": "convergent_dag"
+  }
+]

@@ -1,0 +1,268 @@
+[
+  {
+    "admission_authority": false,
+    "agents": [
+      "Et3N",
+      "TMSOTf"
+    ],
+    "event_id": "E01",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "mixture_yield_percent": 63,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "8"
+    ],
+    "product_specific_yields": [],
+    "reactant_labels": [
+      "acetylacetone"
+    ],
+    "reported_yield_text": "63% combined mixture yield",
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "ether"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E01",
+        "pages": [
+          2
+        ],
+        "sha256": "729f3e2d15edbc1f46d2b5cea1cdf72bf01200685477a8809abeb07565735748",
+        "source_id": "article"
+      },
+      {
+        "locator": "Compound drawing and associated NMR spectrum: E01",
+        "pages": [
+          3
+        ],
+        "sha256": "5b99396ac1641ad310706e797d77e017107b7d6e7a1ff9331ee9fc81760236d5",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E01.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "CC(=O)CC(C)=O>>C=C(C=C(C)O[Si](C)(C)C)O[Si](C)(C)C",
+    "temperature": "0 C",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "TFA"
+    ],
+    "event_id": "E02",
+    "experimental_stage_count": 2,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "operation_stages": [
+      "Cycloaddition at 50 C, 2 h",
+      "Acidic desilylation/dehydration at room temperature, 20 min"
+    ],
+    "product_labels": [
+      "6",
+      "9"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "4",
+        "percent": 67,
+        "product_label": "6",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      },
+      {
+        "from_label": "4",
+        "percent": 2,
+        "product_label": "9",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "reactant_labels": [
+      "4",
+      "8"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "neat",
+      "1,2-dichloroethane"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E02",
+        "pages": [
+          2
+        ],
+        "sha256": "729f3e2d15edbc1f46d2b5cea1cdf72bf01200685477a8809abeb07565735748",
+        "source_id": "article"
+      },
+      {
+        "locator": "Compound drawing and associated NMR spectrum: E02",
+        "pages": [
+          3
+        ],
+        "sha256": "5b99396ac1641ad310706e797d77e017107b7d6e7a1ff9331ee9fc81760236d5",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E02.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "C=C(C=C(C)O[Si](C)(C)C)O[Si](C)(C)C.C[C@@H]1OC(=O)/C=C/C(=O)CC[C@H](C)OC(=O)/C=C/[C@H]1OCc1ccccc1>>CC1=CC(=O)CC2C(=O)CC[C@H](C)OC(=O)/C=C/[C@@H](OCc3ccccc3)[C@H](C)OC(=O)C12.CC1=CC(=O)C[C@@H]2C(=O)O[C@@H](C)[C@H](OCc3ccccc3)/C=C/C(=O)O[C@@H](C)CCC(=O)[C@@H]12",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "DDQ",
+      "525 nm green LED"
+    ],
+    "event_id": "E03",
+    "experimental_stage_count": 2,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "operation_stages": [
+      "Irradiation 7 h",
+      "Additional CH2Cl2/water; irradiation 18.5 h"
+    ],
+    "product_labels": [
+      "1"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "6",
+        "percent": 55,
+        "product_label": "1",
+        "scope": "Reported preparation yield; mixture components are not assigned individual yields."
+      }
+    ],
+    "reactant_labels": [
+      "6"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "dichloromethane",
+      "water"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E03",
+        "pages": [
+          2
+        ],
+        "sha256": "729f3e2d15edbc1f46d2b5cea1cdf72bf01200685477a8809abeb07565735748",
+        "source_id": "article"
+      },
+      {
+        "locator": "Compound drawing and associated NMR spectrum: E03",
+        "pages": [
+          4
+        ],
+        "sha256": "5b99396ac1641ad310706e797d77e017107b7d6e7a1ff9331ee9fc81760236d5",
+        "source_id": "si"
+      }
+    ],
+    "step_id": "E03.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "CC1=CC(=O)C[C@@H]2C(=O)O[C@@H](C)[C@H](OCc3ccccc3)/C=C/C(=O)O[C@@H](C)CCC(=O)[C@@H]12>>CC1=CC(=O)C[C@@H]2C(=O)O[C@@H](C)[C@H](O)/C=C/C(=O)O[C@@H](C)CCC(=O)[C@@H]12",
+    "temperature": "room temperature",
+    "yield_percent": 55
+  },
+  {
+    "admission_authority": false,
+    "agents": [],
+    "event_id": "E04",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "6",
+      "9"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "4",
+        "percent": 13,
+        "product_label": "6",
+        "scope": "Main Table 1 entry 1; alternative pyrone route, with retro-cycloaddition loss of CO2."
+      },
+      {
+        "from_label": "4",
+        "percent": 5,
+        "product_label": "9",
+        "scope": "Main Table 1 entry 1; alternative pyrone route, with retro-cycloaddition loss of CO2."
+      }
+    ],
+    "reactant_labels": [
+      "4",
+      "7"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "toluene"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E04",
+        "pages": [
+          2
+        ],
+        "sha256": "729f3e2d15edbc1f46d2b5cea1cdf72bf01200685477a8809abeb07565735748",
+        "source_id": "article"
+      }
+    ],
+    "step_id": "E04.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "COc1cc(C)oc(=O)c1.C[C@@H]1OC(=O)/C=C/C(=O)CC[C@H](C)OC(=O)/C=C/[C@H]1OCc1ccccc1>>CC1=CC(=O)CC2C(=O)CC[C@H](C)OC(=O)/C=C/[C@@H](OCc3ccccc3)[C@H](C)OC(=O)C12.CC1=CC(=O)C[C@@H]2C(=O)O[C@@H](C)[C@H](OCc3ccccc3)/C=C/C(=O)O[C@@H](C)CCC(=O)[C@@H]12",
+    "temperature": "reflux, 0.1 M",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "DDQ",
+      "pH 7 aqueous buffer"
+    ],
+    "event_id": "E05",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "1"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "6",
+        "percent": 17,
+        "product_label": "1",
+        "scope": "Alternative nonphotochemical condition, main Table 2 entry 1."
+      }
+    ],
+    "reactant_labels": [
+      "6"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "1,2-dichloroethane",
+      "water"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E05",
+        "pages": [
+          2
+        ],
+        "sha256": "729f3e2d15edbc1f46d2b5cea1cdf72bf01200685477a8809abeb07565735748",
+        "source_id": "article"
+      }
+    ],
+    "step_id": "E05.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "CC1=CC(=O)C[C@@H]2C(=O)O[C@@H](C)[C@H](OCc3ccccc3)/C=C/C(=O)O[C@@H](C)CCC(=O)[C@@H]12>>CC1=CC(=O)C[C@@H]2C(=O)O[C@@H](C)[C@H](O)/C=C/C(=O)O[C@@H](C)CCC(=O)[C@@H]12",
+    "temperature": "room temperature",
+    "yield_percent": 17
+  }
+]

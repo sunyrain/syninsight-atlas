@@ -1,0 +1,462 @@
+[
+  {
+    "admission_authority": false,
+    "agents": [
+      "EOMCl",
+      "DIPEA",
+      "DMAP"
+    ],
+    "event_id": "E01",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "2"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "1",
+        "percent": 92.5,
+        "product_label": "2",
+        "scope": "Source-reported yield; source conflict notes take precedence."
+      }
+    ],
+    "reactant_labels": [
+      "1"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "dichloromethane"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E01",
+        "pages": [
+          7,
+          8
+        ],
+        "sha256": "5b66630899f44568f4bccc3774c7b0dda8165cf6ce7b99154ffed724a0ee6adf",
+        "source_id": "article"
+      }
+    ],
+    "step_id": "E01.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "O=Cc1ccc(O)c(O)c1>>CCOCOc1ccc(C=O)cc1OCOCC",
+    "time": "7 h",
+    "yield_percent": 92.5
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "KOH"
+    ],
+    "event_id": "E02",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "4"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "2",
+        "percent": 66.8,
+        "product_label": "4",
+        "scope": "Source-reported yield; source conflict notes take precedence."
+      }
+    ],
+    "reactant_labels": [
+      "2",
+      "3"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "ethanol"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E02",
+        "pages": [
+          8
+        ],
+        "sha256": "5b66630899f44568f4bccc3774c7b0dda8165cf6ce7b99154ffed724a0ee6adf",
+        "source_id": "article"
+      }
+    ],
+    "step_id": "E02.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "CCOCOc1ccc(C=O)cc1OCOCC.COc1cc(O)ccc1C(C)=O>>CCOCOc1ccc(/C=C/C(=O)c2ccc(O)cc2OC)cc1OCOCC",
+    "time": "1.5 h",
+    "yield_percent": 66.8
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "H2",
+      "Pd/C"
+    ],
+    "event_id": "E03",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "5"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "4",
+        "percent": 90.6,
+        "product_label": "5",
+        "scope": "Source-reported yield; source conflict notes take precedence."
+      }
+    ],
+    "reactant_labels": [
+      "4"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "ethanol"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E03",
+        "pages": [
+          8
+        ],
+        "sha256": "5b66630899f44568f4bccc3774c7b0dda8165cf6ce7b99154ffed724a0ee6adf",
+        "source_id": "article"
+      }
+    ],
+    "step_id": "E03.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "CCOCOc1ccc(/C=C/C(=O)c2ccc(O)cc2OC)cc1OCOCC>>CCOCOc1ccc(CCCc2ccc(O)cc2OC)cc1OCOCC",
+    "time": "48 h",
+    "yield_percent": 90.6
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "Oxone",
+      "TBAPF6",
+      "FeBr3",
+      "C-Pt electrodes"
+    ],
+    "current_mA": 8,
+    "event_id": "E04",
+    "experimental_stage_count": 2,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "operation_stages": [
+      "electrolysis 4 h",
+      "FeBr3 deprotection 4 h"
+    ],
+    "product_labels": [
+      "7"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "5",
+        "percent": 74.4,
+        "product_label": "7",
+        "scope": "Source-reported yield; source conflict notes take precedence."
+      }
+    ],
+    "reactant_labels": [
+      "5"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "acetonitrile",
+      "water"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E04",
+        "pages": [
+          4,
+          8
+        ],
+        "sha256": "5b66630899f44568f4bccc3774c7b0dda8165cf6ce7b99154ffed724a0ee6adf",
+        "source_id": "article"
+      }
+    ],
+    "step_id": "E04.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "CCOCOc1ccc(CCCc2ccc(O)cc2OC)cc1OCOCC>>COC1=CC(=O)C=CC12CCCc1cc(O)c(O)cc12",
+    "temperature": "room temperature",
+    "yield_percent": 74.4
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "H2",
+      "Pd/C"
+    ],
+    "event_id": "E05",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "5a"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "4a-unnumbered",
+        "percent": 78,
+        "product_label": "5a",
+        "scope": "Source-reported yield; source conflict notes take precedence."
+      }
+    ],
+    "reactant_labels": [
+      "4a-unnumbered"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "ethanol"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E05",
+        "pages": [
+          8,
+          9
+        ],
+        "sha256": "5b66630899f44568f4bccc3774c7b0dda8165cf6ce7b99154ffed724a0ee6adf",
+        "source_id": "article"
+      }
+    ],
+    "step_id": "E05.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "CCOCOc1cc(/C=C/C(=O)c2ccc(O)cc2OC)ccc1OC>>CCOCOc1cc(CCCc2ccc(O)cc2OC)ccc1OC",
+    "time": "48 h",
+    "yield_percent": 78
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "Oxone",
+      "TBAPF6",
+      "FeBr3",
+      "C-Pt electrodes"
+    ],
+    "current_mA": 8,
+    "event_id": "E06",
+    "experimental_stage_count": 2,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "operation_stages": [
+      "electrolysis 1 h",
+      "FeBr3 treatment 4 h"
+    ],
+    "product_labels": [
+      "7",
+      "8"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "5a",
+        "percent": 53,
+        "product_label": "7",
+        "scope": "Source-reported yield; source conflict notes take precedence."
+      },
+      {
+        "from_label": "5a",
+        "percent": 10,
+        "product_label": "8",
+        "scope": "Source-reported yield; source conflict notes take precedence."
+      }
+    ],
+    "reactant_labels": [
+      "5a"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "acetonitrile",
+      "water"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E06",
+        "pages": [
+          5,
+          9
+        ],
+        "sha256": "5b66630899f44568f4bccc3774c7b0dda8165cf6ce7b99154ffed724a0ee6adf",
+        "source_id": "article"
+      }
+    ],
+    "step_id": "E06.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "CCOCOc1cc(CCCc2ccc(O)cc2OC)ccc1OC>>COC1=CC(=O)C=CC12CCCc1cc(O)c(O)cc12.COC1=CC(=O)C=CC12CCCc1cc(OC)c(O)cc12",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "electrolysis conditions as discussed"
+    ],
+    "event_id": "E07",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "7"
+    ],
+    "product_specific_yields": [],
+    "reactant_labels": [
+      "8"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "acetonitrile",
+      "water"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E07",
+        "pages": [
+          5
+        ],
+        "sha256": "5b66630899f44568f4bccc3774c7b0dda8165cf6ce7b99154ffed724a0ee6adf",
+        "source_id": "article"
+      }
+    ],
+    "step_id": "E07.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "COC1=CC(=O)C=CC12CCCc1cc(OC)c(O)cc12>>COC1=CC(=O)C=CC12CCCc1cc(O)c(O)cc12",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "Oxone",
+      "TBAPF6",
+      "FeBr3",
+      "C-Pt electrodes"
+    ],
+    "current_mA": 8,
+    "event_id": "E08",
+    "experimental_stage_count": 2,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "operation_stages": [
+      "gram-scale electrolysis 6 h",
+      "FeBr3 deprotection 4 h"
+    ],
+    "product_labels": [
+      "7"
+    ],
+    "product_specific_yields": [
+      {
+        "from_label": "5",
+        "percent": 51.1,
+        "product_label": "7",
+        "scope": "Source-reported yield; source conflict notes take precedence."
+      }
+    ],
+    "reactant_labels": [
+      "5"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [
+      "acetonitrile",
+      "water"
+    ],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E08",
+        "pages": [
+          9
+        ],
+        "sha256": "5b66630899f44568f4bccc3774c7b0dda8165cf6ce7b99154ffed724a0ee6adf",
+        "source_id": "article"
+      }
+    ],
+    "step_id": "E08.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "CCOCOc1ccc(CCCc2ccc(O)cc2OC)cc1OCOCC>>COC1=CC(=O)C=CC12CCCc1cc(O)c(O)cc12",
+    "yield_percent": 51.1
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "CHIRALPAK AD-H HPLC"
+    ],
+    "category": "physical_separation",
+    "event_id": "E09",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "7-plus",
+      "7-minus"
+    ],
+    "product_specific_yields": [],
+    "reactant_labels": [
+      "7"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E09",
+        "pages": [
+          5,
+          7
+        ],
+        "sha256": "5b66630899f44568f4bccc3774c7b0dda8165cf6ce7b99154ffed724a0ee6adf",
+        "source_id": "article"
+      }
+    ],
+    "step_id": "E09.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "COC1=CC(=O)C=CC12CCCc1cc(O)c(O)cc12>>COC1=CC(=O)C=C[C@@]12CCCc1cc(O)c(O)cc12.COC1=CC(=O)C=C[C@]12CCCc1cc(O)c(O)cc12",
+    "yield_percent": null
+  },
+  {
+    "admission_authority": false,
+    "agents": [
+      "CHIRALPAK AD-H HPLC"
+    ],
+    "category": "physical_separation",
+    "event_id": "E10",
+    "experimental_stage_count": 1,
+    "formal_benchmark_eligible": false,
+    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "product_labels": [
+      "8-plus",
+      "8-minus"
+    ],
+    "product_specific_yields": [],
+    "reactant_labels": [
+      "8"
+    ],
+    "review_status": "pending_independent_chemist_review",
+    "solvents": [],
+    "source_references": [
+      {
+        "locator": "Main experimental section / scheme: E10",
+        "pages": [
+          5,
+          7
+        ],
+        "sha256": "5b66630899f44568f4bccc3774c7b0dda8165cf6ce7b99154ffed724a0ee6adf",
+        "source_id": "article"
+      }
+    ],
+    "step_id": "E10.1",
+    "step_index_within_event": 1,
+    "structure_basis": "source_drawing_transcription",
+    "substrate_product_smiles": "COC1=CC(=O)C=CC12CCCc1cc(OC)c(O)cc12>>COC1=CC(=O)C=C[C@@]12CCCc1cc(OC)c(O)cc12.COC1=CC(=O)C=C[C@]12CCCc1cc(OC)c(O)cc12",
+    "yield_percent": null
+  }
+]

@@ -1,0 +1,777 @@
+[
+  {
+    "admission_authority": false,
+    "formal_benchmark_eligible": false,
+    "from_commercial_starting_materials_complete": true,
+    "full_article_route_coverage": true,
+    "molecule_smiles_sequence": [
+      "Cc1ncccc1O",
+      "Cc1nc(Br)cc(Br)c1O",
+      "CI",
+      "COc1c(Br)cc(Br)nc1C",
+      "OCc1ccccc1",
+      "COc1c(OCc2ccccc2)cc(Br)nc1C",
+      "C=CCCCCCCCCCC",
+      "CCCCCCCCCCCCc1cc(OCc2ccccc2)c(OC)c(C)n1",
+      "CCCCCCCCCCCCc1cc(=O)c(OC)c(C)[nH]1"
+    ],
+    "ordered_event_ids": [
+      "E01",
+      "E02",
+      "E03",
+      "E04",
+      "E05"
+    ],
+    "ordered_molecule_labels": [
+      "1",
+      "2",
+      "iodomethane",
+      "3",
+      "benzyl-alcohol",
+      "4",
+      "coupling-partner-a",
+      "5a",
+      "6a"
+    ],
+    "ordered_step_ids": [
+      "E01.1",
+      "E02.1",
+      "E03.1",
+      "E04.1",
+      "E05.1"
+    ],
+    "route_id": "waltherione-6a",
+    "route_type": "source_bound_successful_synthesis",
+    "split_group": "10.2174/0115701794469374260702101656",
+    "start_label": "1",
+    "start_labels": [
+      "1",
+      "iodomethane",
+      "benzyl-alcohol",
+      "coupling-partner-a"
+    ],
+    "step_reaction_smiles_sequence": [
+      "Cc1ncccc1O>>Cc1nc(Br)cc(Br)c1O",
+      "CI.Cc1nc(Br)cc(Br)c1O>>COc1c(Br)cc(Br)nc1C",
+      "COc1c(Br)cc(Br)nc1C.OCc1ccccc1>>COc1c(OCc2ccccc2)cc(Br)nc1C",
+      "C=CCCCCCCCCCC.COc1c(OCc2ccccc2)cc(Br)nc1C>>CCCCCCCCCCCCc1cc(OCc2ccccc2)c(OC)c(C)n1",
+      "CCCCCCCCCCCCc1cc(OCc2ccccc2)c(OC)c(C)n1>>CCCCCCCCCCCCc1cc(=O)c(OC)c(C)[nH]1"
+    ],
+    "target_label": "6a"
+  },
+  {
+    "admission_authority": false,
+    "formal_benchmark_eligible": false,
+    "from_commercial_starting_materials_complete": true,
+    "full_article_route_coverage": true,
+    "molecule_smiles_sequence": [
+      "Cc1ncccc1O",
+      "Cc1nc(Br)cc(Br)c1O",
+      "CI",
+      "COc1c(Br)cc(Br)nc1C",
+      "OCc1ccccc1",
+      "COc1c(OCc2ccccc2)cc(Br)nc1C",
+      "C=Cc1ccccc1",
+      "COc1c(OCc2ccccc2)cc(C(C)c2ccccc2)nc1C",
+      "COc1c(C)[nH]c(C(C)c2ccccc2)cc1=O"
+    ],
+    "ordered_event_ids": [
+      "E01",
+      "E02",
+      "E03",
+      "E06",
+      "E07"
+    ],
+    "ordered_molecule_labels": [
+      "1",
+      "2",
+      "iodomethane",
+      "3",
+      "benzyl-alcohol",
+      "4",
+      "coupling-partner-b",
+      "5b",
+      "6b"
+    ],
+    "ordered_step_ids": [
+      "E01.1",
+      "E02.1",
+      "E03.1",
+      "E06.1",
+      "E07.1"
+    ],
+    "route_id": "waltherione-6b",
+    "route_type": "source_bound_control_branch",
+    "split_group": "10.2174/0115701794469374260702101656",
+    "start_label": "1",
+    "start_labels": [
+      "1",
+      "iodomethane",
+      "benzyl-alcohol",
+      "coupling-partner-b"
+    ],
+    "step_reaction_smiles_sequence": [
+      "Cc1ncccc1O>>Cc1nc(Br)cc(Br)c1O",
+      "CI.Cc1nc(Br)cc(Br)c1O>>COc1c(Br)cc(Br)nc1C",
+      "COc1c(Br)cc(Br)nc1C.OCc1ccccc1>>COc1c(OCc2ccccc2)cc(Br)nc1C",
+      "C=Cc1ccccc1.COc1c(OCc2ccccc2)cc(Br)nc1C>>COc1c(OCc2ccccc2)cc(C(C)c2ccccc2)nc1C",
+      "COc1c(OCc2ccccc2)cc(C(C)c2ccccc2)nc1C>>COc1c(C)[nH]c(C(C)c2ccccc2)cc1=O"
+    ],
+    "target_label": "6b"
+  },
+  {
+    "admission_authority": false,
+    "formal_benchmark_eligible": false,
+    "from_commercial_starting_materials_complete": true,
+    "full_article_route_coverage": true,
+    "molecule_smiles_sequence": [
+      "Cc1ncccc1O",
+      "Cc1nc(Br)cc(Br)c1O",
+      "CI",
+      "COc1c(Br)cc(Br)nc1C",
+      "OCc1ccccc1",
+      "COc1c(OCc2ccccc2)cc(Br)nc1C",
+      "C=CCc1ccccc1",
+      "COc1c(OCc2ccccc2)cc(CCCc2ccccc2)nc1C",
+      "COc1c(C)[nH]c(CCCc2ccccc2)cc1=O"
+    ],
+    "ordered_event_ids": [
+      "E01",
+      "E02",
+      "E03",
+      "E08",
+      "E09"
+    ],
+    "ordered_molecule_labels": [
+      "1",
+      "2",
+      "iodomethane",
+      "3",
+      "benzyl-alcohol",
+      "4",
+      "coupling-partner-c",
+      "5c",
+      "6c"
+    ],
+    "ordered_step_ids": [
+      "E01.1",
+      "E02.1",
+      "E03.1",
+      "E08.1",
+      "E09.1"
+    ],
+    "route_id": "waltherione-6c",
+    "route_type": "source_bound_control_branch",
+    "split_group": "10.2174/0115701794469374260702101656",
+    "start_label": "1",
+    "start_labels": [
+      "1",
+      "iodomethane",
+      "benzyl-alcohol",
+      "coupling-partner-c"
+    ],
+    "step_reaction_smiles_sequence": [
+      "Cc1ncccc1O>>Cc1nc(Br)cc(Br)c1O",
+      "CI.Cc1nc(Br)cc(Br)c1O>>COc1c(Br)cc(Br)nc1C",
+      "COc1c(Br)cc(Br)nc1C.OCc1ccccc1>>COc1c(OCc2ccccc2)cc(Br)nc1C",
+      "C=CCc1ccccc1.COc1c(OCc2ccccc2)cc(Br)nc1C>>COc1c(OCc2ccccc2)cc(CCCc2ccccc2)nc1C",
+      "COc1c(OCc2ccccc2)cc(CCCc2ccccc2)nc1C>>COc1c(C)[nH]c(CCCc2ccccc2)cc1=O"
+    ],
+    "target_label": "6c"
+  },
+  {
+    "admission_authority": false,
+    "formal_benchmark_eligible": false,
+    "from_commercial_starting_materials_complete": true,
+    "full_article_route_coverage": true,
+    "molecule_smiles_sequence": [
+      "Cc1ncccc1O",
+      "Cc1nc(Br)cc(Br)c1O",
+      "CI",
+      "COc1c(Br)cc(Br)nc1C",
+      "OCc1ccccc1",
+      "COc1c(OCc2ccccc2)cc(Br)nc1C",
+      "OB(O)c1ccc2c(c1)OCO2",
+      "COc1c(OCc2ccccc2)cc(-c2ccc3c(c2)OCO3)nc1C",
+      "COc1c(C)[nH]c(-c2ccc3c(c2)OCO3)cc1=O"
+    ],
+    "ordered_event_ids": [
+      "E01",
+      "E02",
+      "E03",
+      "E10",
+      "E11"
+    ],
+    "ordered_molecule_labels": [
+      "1",
+      "2",
+      "iodomethane",
+      "3",
+      "benzyl-alcohol",
+      "4",
+      "coupling-partner-d",
+      "5d",
+      "6d"
+    ],
+    "ordered_step_ids": [
+      "E01.1",
+      "E02.1",
+      "E03.1",
+      "E10.1",
+      "E11.1"
+    ],
+    "route_id": "waltherione-6d",
+    "route_type": "source_bound_control_branch",
+    "split_group": "10.2174/0115701794469374260702101656",
+    "start_label": "1",
+    "start_labels": [
+      "1",
+      "iodomethane",
+      "benzyl-alcohol",
+      "coupling-partner-d"
+    ],
+    "step_reaction_smiles_sequence": [
+      "Cc1ncccc1O>>Cc1nc(Br)cc(Br)c1O",
+      "CI.Cc1nc(Br)cc(Br)c1O>>COc1c(Br)cc(Br)nc1C",
+      "COc1c(Br)cc(Br)nc1C.OCc1ccccc1>>COc1c(OCc2ccccc2)cc(Br)nc1C",
+      "COc1c(OCc2ccccc2)cc(Br)nc1C.OB(O)c1ccc2c(c1)OCO2>>COc1c(OCc2ccccc2)cc(-c2ccc3c(c2)OCO3)nc1C",
+      "COc1c(OCc2ccccc2)cc(-c2ccc3c(c2)OCO3)nc1C>>COc1c(C)[nH]c(-c2ccc3c(c2)OCO3)cc1=O"
+    ],
+    "target_label": "6d"
+  },
+  {
+    "admission_authority": false,
+    "formal_benchmark_eligible": false,
+    "from_commercial_starting_materials_complete": true,
+    "full_article_route_coverage": true,
+    "molecule_smiles_sequence": [
+      "Cc1ncccc1O",
+      "Cc1nc(Br)cc(Br)c1O",
+      "CI",
+      "COc1c(Br)cc(Br)nc1C",
+      "OCc1ccccc1",
+      "COc1c(OCc2ccccc2)cc(Br)nc1C",
+      "OB(O)c1cccs1",
+      "COc1c(OCc2ccccc2)cc(-c2cccs2)nc1C",
+      "COc1c(C)[nH]c(-c2cccs2)cc1=O"
+    ],
+    "ordered_event_ids": [
+      "E01",
+      "E02",
+      "E03",
+      "E12",
+      "E13"
+    ],
+    "ordered_molecule_labels": [
+      "1",
+      "2",
+      "iodomethane",
+      "3",
+      "benzyl-alcohol",
+      "4",
+      "coupling-partner-e",
+      "5e",
+      "6e"
+    ],
+    "ordered_step_ids": [
+      "E01.1",
+      "E02.1",
+      "E03.1",
+      "E12.1",
+      "E13.1"
+    ],
+    "route_id": "waltherione-6e",
+    "route_type": "source_bound_control_branch",
+    "split_group": "10.2174/0115701794469374260702101656",
+    "start_label": "1",
+    "start_labels": [
+      "1",
+      "iodomethane",
+      "benzyl-alcohol",
+      "coupling-partner-e"
+    ],
+    "step_reaction_smiles_sequence": [
+      "Cc1ncccc1O>>Cc1nc(Br)cc(Br)c1O",
+      "CI.Cc1nc(Br)cc(Br)c1O>>COc1c(Br)cc(Br)nc1C",
+      "COc1c(Br)cc(Br)nc1C.OCc1ccccc1>>COc1c(OCc2ccccc2)cc(Br)nc1C",
+      "COc1c(OCc2ccccc2)cc(Br)nc1C.OB(O)c1cccs1>>COc1c(OCc2ccccc2)cc(-c2cccs2)nc1C",
+      "COc1c(OCc2ccccc2)cc(-c2cccs2)nc1C>>COc1c(C)[nH]c(-c2cccs2)cc1=O"
+    ],
+    "target_label": "6e"
+  },
+  {
+    "admission_authority": false,
+    "formal_benchmark_eligible": false,
+    "from_commercial_starting_materials_complete": true,
+    "full_article_route_coverage": true,
+    "molecule_smiles_sequence": [
+      "Cc1ncccc1O",
+      "Cc1nc(Br)cc(Br)c1O",
+      "CI",
+      "COc1c(Br)cc(Br)nc1C",
+      "OCc1ccccc1",
+      "COc1c(OCc2ccccc2)cc(Br)nc1C",
+      "OB(O)c1ccco1",
+      "COc1c(OCc2ccccc2)cc(-c2ccco2)nc1C",
+      "COc1c(C)[nH]c(-c2ccco2)cc1=O"
+    ],
+    "ordered_event_ids": [
+      "E01",
+      "E02",
+      "E03",
+      "E14",
+      "E15"
+    ],
+    "ordered_molecule_labels": [
+      "1",
+      "2",
+      "iodomethane",
+      "3",
+      "benzyl-alcohol",
+      "4",
+      "coupling-partner-f",
+      "5f",
+      "6f"
+    ],
+    "ordered_step_ids": [
+      "E01.1",
+      "E02.1",
+      "E03.1",
+      "E14.1",
+      "E15.1"
+    ],
+    "route_id": "waltherione-6f",
+    "route_type": "source_bound_control_branch",
+    "split_group": "10.2174/0115701794469374260702101656",
+    "start_label": "1",
+    "start_labels": [
+      "1",
+      "iodomethane",
+      "benzyl-alcohol",
+      "coupling-partner-f"
+    ],
+    "step_reaction_smiles_sequence": [
+      "Cc1ncccc1O>>Cc1nc(Br)cc(Br)c1O",
+      "CI.Cc1nc(Br)cc(Br)c1O>>COc1c(Br)cc(Br)nc1C",
+      "COc1c(Br)cc(Br)nc1C.OCc1ccccc1>>COc1c(OCc2ccccc2)cc(Br)nc1C",
+      "COc1c(OCc2ccccc2)cc(Br)nc1C.OB(O)c1ccco1>>COc1c(OCc2ccccc2)cc(-c2ccco2)nc1C",
+      "COc1c(OCc2ccccc2)cc(-c2ccco2)nc1C>>COc1c(C)[nH]c(-c2ccco2)cc1=O"
+    ],
+    "target_label": "6f"
+  },
+  {
+    "admission_authority": false,
+    "formal_benchmark_eligible": false,
+    "from_commercial_starting_materials_complete": true,
+    "full_article_route_coverage": true,
+    "molecule_smiles_sequence": [
+      "Cc1ncccc1O",
+      "Cc1nc(Br)cc(Br)c1O",
+      "CI",
+      "COc1c(Br)cc(Br)nc1C",
+      "OCc1ccccc1",
+      "COc1c(OCc2ccccc2)cc(Br)nc1C",
+      "COc1ccc(B(O)O)cc1OC",
+      "COc1ccc(-c2cc(OCc3ccccc3)c(OC)c(C)n2)cc1OC",
+      "COc1ccc(-c2cc(=O)c(OC)c(C)[nH]2)cc1OC"
+    ],
+    "ordered_event_ids": [
+      "E01",
+      "E02",
+      "E03",
+      "E16",
+      "E17"
+    ],
+    "ordered_molecule_labels": [
+      "1",
+      "2",
+      "iodomethane",
+      "3",
+      "benzyl-alcohol",
+      "4",
+      "coupling-partner-g",
+      "5g",
+      "6g"
+    ],
+    "ordered_step_ids": [
+      "E01.1",
+      "E02.1",
+      "E03.1",
+      "E16.1",
+      "E17.1"
+    ],
+    "route_id": "waltherione-6g",
+    "route_type": "source_bound_control_branch",
+    "split_group": "10.2174/0115701794469374260702101656",
+    "start_label": "1",
+    "start_labels": [
+      "1",
+      "iodomethane",
+      "benzyl-alcohol",
+      "coupling-partner-g"
+    ],
+    "step_reaction_smiles_sequence": [
+      "Cc1ncccc1O>>Cc1nc(Br)cc(Br)c1O",
+      "CI.Cc1nc(Br)cc(Br)c1O>>COc1c(Br)cc(Br)nc1C",
+      "COc1c(Br)cc(Br)nc1C.OCc1ccccc1>>COc1c(OCc2ccccc2)cc(Br)nc1C",
+      "COc1c(OCc2ccccc2)cc(Br)nc1C.COc1ccc(B(O)O)cc1OC>>COc1ccc(-c2cc(OCc3ccccc3)c(OC)c(C)n2)cc1OC",
+      "COc1ccc(-c2cc(OCc3ccccc3)c(OC)c(C)n2)cc1OC>>COc1ccc(-c2cc(=O)c(OC)c(C)[nH]2)cc1OC"
+    ],
+    "target_label": "6g"
+  },
+  {
+    "admission_authority": false,
+    "formal_benchmark_eligible": false,
+    "from_commercial_starting_materials_complete": true,
+    "full_article_route_coverage": true,
+    "molecule_smiles_sequence": [
+      "Cc1ncccc1O",
+      "Cc1nc(Br)cc(Br)c1O",
+      "CI",
+      "COc1c(Br)cc(Br)nc1C",
+      "OCc1ccccc1",
+      "COc1c(OCc2ccccc2)cc(Br)nc1C",
+      "COc1cc(OC)cc(B(O)O)c1",
+      "COc1cc(OC)cc(-c2cc(OCc3ccccc3)c(OC)c(C)n2)c1",
+      "COc1cc(OC)cc(-c2cc(=O)c(OC)c(C)[nH]2)c1"
+    ],
+    "ordered_event_ids": [
+      "E01",
+      "E02",
+      "E03",
+      "E18",
+      "E19"
+    ],
+    "ordered_molecule_labels": [
+      "1",
+      "2",
+      "iodomethane",
+      "3",
+      "benzyl-alcohol",
+      "4",
+      "coupling-partner-h",
+      "5h",
+      "6h"
+    ],
+    "ordered_step_ids": [
+      "E01.1",
+      "E02.1",
+      "E03.1",
+      "E18.1",
+      "E19.1"
+    ],
+    "route_id": "waltherione-6h",
+    "route_type": "source_bound_control_branch",
+    "split_group": "10.2174/0115701794469374260702101656",
+    "start_label": "1",
+    "start_labels": [
+      "1",
+      "iodomethane",
+      "benzyl-alcohol",
+      "coupling-partner-h"
+    ],
+    "step_reaction_smiles_sequence": [
+      "Cc1ncccc1O>>Cc1nc(Br)cc(Br)c1O",
+      "CI.Cc1nc(Br)cc(Br)c1O>>COc1c(Br)cc(Br)nc1C",
+      "COc1c(Br)cc(Br)nc1C.OCc1ccccc1>>COc1c(OCc2ccccc2)cc(Br)nc1C",
+      "COc1c(OCc2ccccc2)cc(Br)nc1C.COc1cc(OC)cc(B(O)O)c1>>COc1cc(OC)cc(-c2cc(OCc3ccccc3)c(OC)c(C)n2)c1",
+      "COc1cc(OC)cc(-c2cc(OCc3ccccc3)c(OC)c(C)n2)c1>>COc1cc(OC)cc(-c2cc(=O)c(OC)c(C)[nH]2)c1"
+    ],
+    "target_label": "6h"
+  },
+  {
+    "admission_authority": false,
+    "formal_benchmark_eligible": false,
+    "from_commercial_starting_materials_complete": true,
+    "full_article_route_coverage": true,
+    "molecule_smiles_sequence": [
+      "Cc1ncccc1O",
+      "Cc1nc(Br)cc(Br)c1O",
+      "CI",
+      "COc1c(Br)cc(Br)nc1C",
+      "OCc1ccccc1",
+      "COc1c(OCc2ccccc2)cc(Br)nc1C",
+      "OB(O)c1ccc(Cl)cc1",
+      "COc1c(OCc2ccccc2)cc(-c2ccc(Cl)cc2)nc1C",
+      "COc1c(C)[nH]c(-c2ccc(Cl)cc2)cc1=O"
+    ],
+    "ordered_event_ids": [
+      "E01",
+      "E02",
+      "E03",
+      "E20",
+      "E21"
+    ],
+    "ordered_molecule_labels": [
+      "1",
+      "2",
+      "iodomethane",
+      "3",
+      "benzyl-alcohol",
+      "4",
+      "coupling-partner-i",
+      "5i",
+      "6i"
+    ],
+    "ordered_step_ids": [
+      "E01.1",
+      "E02.1",
+      "E03.1",
+      "E20.1",
+      "E21.1"
+    ],
+    "route_id": "waltherione-6i",
+    "route_type": "source_bound_control_branch",
+    "split_group": "10.2174/0115701794469374260702101656",
+    "start_label": "1",
+    "start_labels": [
+      "1",
+      "iodomethane",
+      "benzyl-alcohol",
+      "coupling-partner-i"
+    ],
+    "step_reaction_smiles_sequence": [
+      "Cc1ncccc1O>>Cc1nc(Br)cc(Br)c1O",
+      "CI.Cc1nc(Br)cc(Br)c1O>>COc1c(Br)cc(Br)nc1C",
+      "COc1c(Br)cc(Br)nc1C.OCc1ccccc1>>COc1c(OCc2ccccc2)cc(Br)nc1C",
+      "COc1c(OCc2ccccc2)cc(Br)nc1C.OB(O)c1ccc(Cl)cc1>>COc1c(OCc2ccccc2)cc(-c2ccc(Cl)cc2)nc1C",
+      "COc1c(OCc2ccccc2)cc(-c2ccc(Cl)cc2)nc1C>>COc1c(C)[nH]c(-c2ccc(Cl)cc2)cc1=O"
+    ],
+    "target_label": "6i"
+  },
+  {
+    "admission_authority": false,
+    "formal_benchmark_eligible": false,
+    "from_commercial_starting_materials_complete": true,
+    "full_article_route_coverage": true,
+    "molecule_smiles_sequence": [
+      "Cc1ncccc1O",
+      "Cc1nc(Br)cc(Br)c1O",
+      "CI",
+      "COc1c(Br)cc(Br)nc1C",
+      "OCc1ccccc1",
+      "COc1c(OCc2ccccc2)cc(Br)nc1C",
+      "OB(O)C1CC1",
+      "COc1c(OCc2ccccc2)cc(C2CC2)nc1C",
+      "COc1c(C)[nH]c(C2CC2)cc1=O"
+    ],
+    "ordered_event_ids": [
+      "E01",
+      "E02",
+      "E03",
+      "E22",
+      "E23"
+    ],
+    "ordered_molecule_labels": [
+      "1",
+      "2",
+      "iodomethane",
+      "3",
+      "benzyl-alcohol",
+      "4",
+      "coupling-partner-j",
+      "5j",
+      "6j"
+    ],
+    "ordered_step_ids": [
+      "E01.1",
+      "E02.1",
+      "E03.1",
+      "E22.1",
+      "E23.1"
+    ],
+    "route_id": "waltherione-6j",
+    "route_type": "source_bound_control_branch",
+    "split_group": "10.2174/0115701794469374260702101656",
+    "start_label": "1",
+    "start_labels": [
+      "1",
+      "iodomethane",
+      "benzyl-alcohol",
+      "coupling-partner-j"
+    ],
+    "step_reaction_smiles_sequence": [
+      "Cc1ncccc1O>>Cc1nc(Br)cc(Br)c1O",
+      "CI.Cc1nc(Br)cc(Br)c1O>>COc1c(Br)cc(Br)nc1C",
+      "COc1c(Br)cc(Br)nc1C.OCc1ccccc1>>COc1c(OCc2ccccc2)cc(Br)nc1C",
+      "COc1c(OCc2ccccc2)cc(Br)nc1C.OB(O)C1CC1>>COc1c(OCc2ccccc2)cc(C2CC2)nc1C",
+      "COc1c(OCc2ccccc2)cc(C2CC2)nc1C>>COc1c(C)[nH]c(C2CC2)cc1=O"
+    ],
+    "target_label": "6j"
+  },
+  {
+    "admission_authority": false,
+    "formal_benchmark_eligible": false,
+    "from_commercial_starting_materials_complete": true,
+    "full_article_route_coverage": true,
+    "molecule_smiles_sequence": [
+      "Cc1ncccc1O",
+      "Cc1nc(Br)cc(Br)c1O",
+      "CI",
+      "COc1c(Br)cc(Br)nc1C",
+      "OCc1ccccc1",
+      "COc1c(OCc2ccccc2)cc(Br)nc1C",
+      "COc1ccc(Cl)c(B(O)O)c1",
+      "COc1ccc(Cl)c(-c2cc(OCc3ccccc3)c(OC)c(C)n2)c1",
+      "COc1ccc(Cl)c(-c2cc(=O)c(OC)c(C)[nH]2)c1"
+    ],
+    "ordered_event_ids": [
+      "E01",
+      "E02",
+      "E03",
+      "E24",
+      "E25"
+    ],
+    "ordered_molecule_labels": [
+      "1",
+      "2",
+      "iodomethane",
+      "3",
+      "benzyl-alcohol",
+      "4",
+      "coupling-partner-k",
+      "5k",
+      "6k"
+    ],
+    "ordered_step_ids": [
+      "E01.1",
+      "E02.1",
+      "E03.1",
+      "E24.1",
+      "E25.1"
+    ],
+    "route_id": "waltherione-6k",
+    "route_type": "source_bound_control_branch",
+    "split_group": "10.2174/0115701794469374260702101656",
+    "start_label": "1",
+    "start_labels": [
+      "1",
+      "iodomethane",
+      "benzyl-alcohol",
+      "coupling-partner-k"
+    ],
+    "step_reaction_smiles_sequence": [
+      "Cc1ncccc1O>>Cc1nc(Br)cc(Br)c1O",
+      "CI.Cc1nc(Br)cc(Br)c1O>>COc1c(Br)cc(Br)nc1C",
+      "COc1c(Br)cc(Br)nc1C.OCc1ccccc1>>COc1c(OCc2ccccc2)cc(Br)nc1C",
+      "COc1c(OCc2ccccc2)cc(Br)nc1C.COc1ccc(Cl)c(B(O)O)c1>>COc1ccc(Cl)c(-c2cc(OCc3ccccc3)c(OC)c(C)n2)c1",
+      "COc1ccc(Cl)c(-c2cc(OCc3ccccc3)c(OC)c(C)n2)c1>>COc1ccc(Cl)c(-c2cc(=O)c(OC)c(C)[nH]2)c1"
+    ],
+    "target_label": "6k"
+  },
+  {
+    "admission_authority": false,
+    "formal_benchmark_eligible": false,
+    "from_commercial_starting_materials_complete": true,
+    "full_article_route_coverage": true,
+    "molecule_smiles_sequence": [
+      "Cc1ncccc1O",
+      "Cc1nc(Br)cc(Br)c1O",
+      "CI",
+      "COc1c(Br)cc(Br)nc1C",
+      "OCc1ccccc1",
+      "COc1c(OCc2ccccc2)cc(Br)nc1C",
+      "OB(O)c1cc(F)c(F)c(F)c1",
+      "COc1c(OCc2ccccc2)cc(-c2cc(F)c(F)c(F)c2)nc1C",
+      "COc1c(C)[nH]c(-c2cc(F)c(F)c(F)c2)cc1=O"
+    ],
+    "ordered_event_ids": [
+      "E01",
+      "E02",
+      "E03",
+      "E26",
+      "E27"
+    ],
+    "ordered_molecule_labels": [
+      "1",
+      "2",
+      "iodomethane",
+      "3",
+      "benzyl-alcohol",
+      "4",
+      "coupling-partner-l",
+      "5l",
+      "6l"
+    ],
+    "ordered_step_ids": [
+      "E01.1",
+      "E02.1",
+      "E03.1",
+      "E26.1",
+      "E27.1"
+    ],
+    "route_id": "waltherione-6l",
+    "route_type": "source_bound_control_branch",
+    "split_group": "10.2174/0115701794469374260702101656",
+    "start_label": "1",
+    "start_labels": [
+      "1",
+      "iodomethane",
+      "benzyl-alcohol",
+      "coupling-partner-l"
+    ],
+    "step_reaction_smiles_sequence": [
+      "Cc1ncccc1O>>Cc1nc(Br)cc(Br)c1O",
+      "CI.Cc1nc(Br)cc(Br)c1O>>COc1c(Br)cc(Br)nc1C",
+      "COc1c(Br)cc(Br)nc1C.OCc1ccccc1>>COc1c(OCc2ccccc2)cc(Br)nc1C",
+      "COc1c(OCc2ccccc2)cc(Br)nc1C.OB(O)c1cc(F)c(F)c(F)c1>>COc1c(OCc2ccccc2)cc(-c2cc(F)c(F)c(F)c2)nc1C",
+      "COc1c(OCc2ccccc2)cc(-c2cc(F)c(F)c(F)c2)nc1C>>COc1c(C)[nH]c(-c2cc(F)c(F)c(F)c2)cc1=O"
+    ],
+    "target_label": "6l"
+  },
+  {
+    "admission_authority": false,
+    "formal_benchmark_eligible": false,
+    "from_commercial_starting_materials_complete": true,
+    "full_article_route_coverage": true,
+    "molecule_smiles_sequence": [
+      "Cc1ncccc1O",
+      "Cc1nc(Br)cc(Br)c1O",
+      "CI",
+      "COc1c(Br)cc(Br)nc1C",
+      "OCc1ccccc1",
+      "COc1c(OCc2ccccc2)cc(Br)nc1C",
+      "C=CCCCCCCCCCC",
+      "CCCCCCCCCC/C=C/c1cc(OCc2ccccc2)c(OC)c(C)n1"
+    ],
+    "ordered_event_ids": [
+      "E01",
+      "E02",
+      "E03",
+      "E28"
+    ],
+    "ordered_molecule_labels": [
+      "1",
+      "2",
+      "iodomethane",
+      "3",
+      "benzyl-alcohol",
+      "4",
+      "coupling-partner-a",
+      "5a-prime"
+    ],
+    "ordered_step_ids": [
+      "E01.1",
+      "E02.1",
+      "E03.1",
+      "E28.1"
+    ],
+    "route_id": "waltherione-5a-prime",
+    "route_type": "source_bound_control_branch",
+    "split_group": "10.2174/0115701794469374260702101656",
+    "start_label": "1",
+    "start_labels": [
+      "1",
+      "iodomethane",
+      "benzyl-alcohol",
+      "coupling-partner-a"
+    ],
+    "step_reaction_smiles_sequence": [
+      "Cc1ncccc1O>>Cc1nc(Br)cc(Br)c1O",
+      "CI.Cc1nc(Br)cc(Br)c1O>>COc1c(Br)cc(Br)nc1C",
+      "COc1c(Br)cc(Br)nc1C.OCc1ccccc1>>COc1c(OCc2ccccc2)cc(Br)nc1C",
+      "C=CCCCCCCCCCC.COc1c(OCc2ccccc2)cc(Br)nc1C>>CCCCCCCCCC/C=C/c1cc(OCc2ccccc2)c(OC)c(C)n1"
+    ],
+    "target_label": "5a-prime"
+  }
+]

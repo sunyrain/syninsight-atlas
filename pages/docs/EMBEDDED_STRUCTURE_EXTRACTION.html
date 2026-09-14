@@ -1,0 +1,68 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Native embedded chemical structure extraction | SynInsight Atlas</title><link rel="stylesheet" href="../../assets/report.css"><link rel="icon" href="../../assets/favicon.svg"></head><body class="publication-page"><a class="skip-link" href="#document">Skip to content</a><nav class="publication-nav" aria-label="Atlas navigation"><a class="brand" href="../../index.html">SI · SynInsight Atlas</a><div><a href="../../index.html#atlas">Papers & routes</a><a href="../../index.html#dataset">Reaction dataset</a></div></nav><div class="document-meta">Reference document · <a href="../../docs/EMBEDDED_STRUCTURE_EXTRACTION.md" download>Download original file</a></div><main id="document" class="document-content"><h1 id="native-embedded-chemical-structure-extraction">Native embedded chemical structure extraction</h1>
+<p><code>scripts/extract_embedded_structures.py</code> reads native ChemDraw objects from the
+locally archived Word supporting information. It detects OOXML by package contents,
+including <code>.zip</code> files that are actually DOCX documents. It does not perform OCR or
+infer reaction routes.</p>
+<p>Install and reproduce from the repository root:</p>
+<pre><code class="language-powershell">.venv/Scripts/python.exe -m pip install -r requirements-embedded.txt
+.venv/Scripts/python.exe scripts/extract_embedded_structures.py
+</code></pre>
+<p><code>--archive-root</code> accepts the folder containing <code>paper-*</code> source packages, independently
+of the repository location. <code>--inventory</code> accepts the batch inventory JSON. Optional
+repeated <code>--paper-id</code> arguments restrict the run; they never bypass the inventory
+policy. Only entries with <code>detail_policy=allowed</code> are opened for extraction.</p>
+<p>Converter revision 4 reads native CDX with RDKit 2026.03.6 and its bundled ChemDraw extension (Chem.HasChemDrawCDXSupport()). It retains the original fragment object ID and checks that conversion has not lost explicitly drawn heavy atoms. Unspecified nodes carrying text (including Bpin and annotation numbers) and unsupported non-tetrahedral stereo are rejected for source review. No graph or valence repair is applied. Open Babel and PyCDXML are not runtime dependencies of this path.</p>
+<p>The previous Open Babel conversion was found to truncate some large-ID source structures to methane or disconnected atoms. A canonical SMILES roundtrip cannot detect this loss. All current embedded candidates have been regenerated with the native RDKit reader. Query structures, unexpanded aliases, ambiguous fragment IDs and empty conversions are rejected. Formula checks are graph consistency checks, not source HRMS verification.</p>
+<p>extract_embedded_structures.py still keeps molecule roles and publication labels unknown. The separate extract_native_reactions.py reads explicit CDX ReactionStep object references, never geometric arrow proximity. Source document hashes, CDX hashes, fragment IDs and reaction IDs remain attached to every endpoint. Binary Word .doc sources are supported by the reaction reader through OLE CONTENTS streams; text indexing uses the Word CLX piece table.</p>
+<p>For the combined build:</p>
+<pre><code>.venv/Scripts/python.exe scripts/batch_extract_atlas.py --extract-native --extract-native-reactions
+</code></pre>
+<p>See the <a href="ATLAS_DATABASE.html">database documentation</a> and <a href="../data/database/native_reactions.html">native endpoint browser</a>. AND/OR stereo groups are retained separately in enhanced_stereo_cxsmiles where present; ordinary canonical SMILES alone cannot encode all mixture/relative-stereo semantics.</p>
+<p>Public output is <code>data/extraction/embedded_structures/paper-*.json</code> plus <code>summary.json</code>:</p>
+<div aria-label="Scrollable data table" class="table-scroll" tabindex="0"><table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>sources</code></td>
+<td>Original attachment hash, source ID, document format and logical archive path; no invented page count</td>
+</tr>
+<tr>
+<td><code>structures</code></td>
+<td>Candidate ID, canonical isomeric SMILES, formula, charge, stereocenters, source atom maps and provenance</td>
+</tr>
+<tr>
+<td><code>source_references</code></td>
+<td>Attachment SHA256, OOXML embedding member, OLE stream, embedded-object/CDX hashes, native molecule index and paragraph locator</td>
+</tr>
+<tr>
+<td><code>paper_label</code>, <code>role</code>, <code>reaction_id</code></td>
+<td>Null; no source numbering, chemical role or endpoint assignment is inferred</td>
+</tr>
+<tr>
+<td><code>native_objects</code></td>
+<td>Every native object occurrence, parser status and count of accepted/rejected graphs</td>
+</tr>
+<tr>
+<td><code>rejected_objects</code></td>
+<td>Unresolved/query atoms, nonchemical OLE objects and conversion failures, tied to original object locators</td>
+</tr>
+<tr>
+<td><code>validation</code></td>
+<td>Canonical, formula, no-query, source-hash binding, no-inferred-label and JSON roundtrip checks</td>
+</tr>
+</tbody>
+</table></div>
+<p>Native molecule indices refer to the native RDKit converter output inside that
+CDX object. They are not publication compound numbers. Nearby Word text stays only
+in <code>.local/extraction/embedded_structures/private_document_contexts.json</code>; public
+records contain paragraph positions without experimental text. Original CDX
+intermediates and the conversion cache also stay in <code>.local</code>.</p>
+<p>These graphs form a separate candidate collection from name-parsed compounds and
+curated route datasets. They may depict substrates, products, reagents, generic
+examples or comparison structures. A parser-valid structure is not automatically a
+route intermediate, and no candidate has expert admission or complete-route status.</p></main><footer class="publication-footer"><a href="../../index.html">Return to Atlas</a><span>Candidate curation · Data CC BY 4.0 · Code MIT</span></footer><script src="../../assets/publication.js" defer></script></body></html>
