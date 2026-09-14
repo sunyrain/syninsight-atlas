@@ -1,279 +1,179 @@
-<!DOCTYPE html>
-
-<html lang="zh-CN"><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/><title>SynInsight Atlas | SynInsight Atlas</title><link href="../assets/report.css" rel="stylesheet"/><link href="../assets/favicon.svg" rel="icon"/></head><body class="publication-page"><a class="skip-link" href="#document">Skip to content</a><nav aria-label="Atlas navigation" class="publication-nav"><a class="brand" href="../index.html">SI · SynInsight Atlas</a><div><a href="../index.html#atlas">Papers &amp; routes</a><a href="../index.html#dataset">Reaction dataset</a></div></nav><div class="document-meta">Reference document · <a download="" href="../README.md">Download original file</a></div><main class="document-content" id="document"><h1 id="syninsight-atlas">SynInsight Atlas</h1>
-<p><strong>An evidence-grounded dataset and desktop browser for strategic reasoning in recent total synthesis.</strong></p>
-<p>SynInsight Atlas is a versioned data and browsing layer derived from the AutoPlanner
-recent-total-synthesis curation workspace. It connects candidate targets and
-stepwise synthesis records to their literature evidence, with searchable reaction
-tables and connected pathway diagrams.</p>
-<p>The project separates four claims that are often collapsed in retrosynthesis benchmarks:</p>
-<ol>
-<li>A paper and target were discovered.</li>
-<li>A candidate structure was transcribed and passes cheminformatics checks.</li>
-<li>Route-defining evidence was located in the literature.</li>
-<li>Independent chemists admitted the exact structure and route as benchmark truth.</li>
-</ol>
-<p><strong>Current records are candidates pending independent chemical review.</strong> Valid SMILES,
-connected diagrams and source locators do not establish literature-truth admission.</p>
-<p><a href="https://sunyrain.github.io/syninsight-atlas/">Project website</a> ·
-<a href="../data/database/SynInsight_ABSynth_Dataset.csv">Reaction CSV</a> ·
-<a href="../data/database/absynth_metadata.json">Dataset metadata</a> ·
-<a href="docs/DEPLOYMENT.html">Deployment guide</a></p>
-<h2 id="data-coverage">Data coverage</h2>
-<h3 id="stepwise-route-dataset">Stepwise route dataset</h3>
-<p>The current route-browser export contains:</p>
-<table>
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>SynInsight Atlas | SynInsight Atlas</title><link rel="stylesheet" href="../assets/report.css"><link rel="icon" href="../assets/favicon.svg"></head><body class="publication-page"><a class="skip-link" href="#document">Skip to content</a><nav class="publication-nav" aria-label="Atlas navigation"><a class="brand" href="../index.html">SI · SynInsight Atlas</a><div><a href="../index.html#methods">Evaluation</a><a href="../index.html#dataset">Reaction dataset</a></div></nav><div class="document-meta">Reference document · <a href="../README.md" download>Download original file</a></div><main id="document" class="document-content"><h1 id="syninsight-atlas">SynInsight Atlas</h1>
+<p><strong>Literature-derived synthesis routes for benchmarking machine-learning retrosynthesis models.</strong></p>
+<p>SynInsight Atlas organizes synthesis pathways reported in the literature into a
+traceable reference dataset for evaluating trained retrosynthesis and synthesis
+planning models. Its main purpose is to support comparison of single-step precursor
+predictions and complete proposed routes against documented experimental syntheses.
+The desktop website is an inspection interface for the benchmark data: researchers
+can search reaction records, inspect connected pathways, and trace steps to sources.</p>
+<p><strong>Status: candidate benchmark data under curation.</strong> The repository contains route
+records and provenance, but does not yet provide a frozen train/validation/test split,
+an automated scoring suite, or a model leaderboard. Independent chemical review is
+still required before records are admitted as benchmark reference truth.</p>
+<p><a href="../reader.html?file=data%2Fdatabase%2FSynInsight_ABSynth_Dataset.csv">Reaction CSV</a> ·
+<a href="../reader.html?file=data%2Fdatabase%2Fabsynth_metadata.json">Provenance metadata</a> ·
+<a href="docs/CURATION_AND_EVALUATION.html">Evaluation design</a> ·
+<a href="docs/README.html">Documentation</a></p>
+<h2 id="dataset">Dataset</h2>
+<div aria-label="Scrollable data table" class="table-scroll" tabindex="0"><table>
 <thead>
 <tr>
-<th>Measure</th>
+<th>Current route export</th>
 <th style="text-align: right;">Count</th>
-<th>Meaning</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>Source papers</td>
 <td style="text-align: right;">91</td>
-<td>Papers represented in the route export</td>
 </tr>
 <tr>
-<td>Paths and branches</td>
+<td>Recorded paths and branches</td>
 <td style="text-align: right;">635</td>
-<td>Source-defined paths, including partial and control branches</td>
 </tr>
 <tr>
-<td>Step occurrences</td>
+<td>Step occurrences (CSV rows)</td>
 <td style="text-align: right;">6,555</td>
-<td>One row per operation occurrence within a path</td>
 </tr>
 <tr>
-<td>Distinct operations in paths</td>
+<td>Distinct operations represented in paths</td>
 <td style="text-align: right;">2,166</td>
-<td>Shared operations counted once across the exported paths</td>
 </tr>
 </tbody>
-</table>
-<p>A shared operation can occur in several paths and therefore appear in several CSV
-rows. A path is not necessarily a complete total synthesis. Coverage, review state,
-source compound labels and evidence locators are retained in the accompanying
-metadata and case reports.</p>
-<h3 id="original-discovery-snapshot">Original discovery snapshot</h3>
-<p>The original <code>v0.1.0-candidate.1</code> discovery release remains a separate data layer:</p>
-<ul>
-<li>133 candidate papers and 253 target slots;</li>
-<li>131 acquired source packages recorded in the private curation workspace;</li>
-<li>145 RDKit-valid structure candidates;</li>
-<li>242 targets with automatically located route-evidence leads;</li>
-<li>0 human-admitted structures, 0 human-admitted routes and 0 runnable targets.</li>
-</ul>
-<p>These counts describe the original discovery snapshot, not the denominator of the
-stepwise route export. See <a href="../data/release.json">release provenance</a> and the
-<a href="docs/DATA_DICTIONARY.html">data dictionary</a>.</p>
-<h2 id="explore-the-desktop-website">Explore the desktop website</h2>
-<p>The website is designed for desktop use and runs as a static site.</p>
-<ul>
-<li><strong>Find reactions:</strong> search target/path names, DOI, author, SMILES or conditions;
-  combine keywords with path and route-type filters.</li>
-<li><strong>Navigate results:</strong> browse 20 records per page, jump directly to a page, and
-  retain the current search and page when returning from a product view.</li>
-<li><strong>Inspect a step:</strong> preview conditions, reported yield, operation identifiers and
-  source locators; open the full detail dialog or case report for context.</li>
-<li><strong>Open a complete recorded pathway:</strong> click a product/path name to see connected
-  starting materials, intermediates, convergent branches and the target.</li>
-<li><strong>Explore the diagram:</strong> drag to pan, zoom, enter full screen, or select a step to
-  center and highlight it. Copy a link that includes the selected step.</li>
-<li><strong>Reuse the records:</strong> copy reaction SMILES, export the filtered CSV, or download
-  the pathway as a vector SVG.</li>
-</ul>
-<p>The interactive canvas uses the <a href="../docs/ROUTE_TREE_RENDERER.md">AutoPlanner-style route-tree renderer</a>: target on the left, recorded precursors branching to the right, with compact/full detail and horizontal/vertical layouts. The downloadable SVG remains a forward-reaction scheme.</p>
-<p>Keyboard shortcuts: <code>/</code> focuses dataset search; when the pathway viewer has focus,
-<code>+</code> and <code>−</code> zoom, <code>0</code> restores the whole-route view, and the Expand button enlarges the workspace.
-<code>Esc</code> exits full screen. Scrolling zooms around the pointer, and double-clicking the canvas zooms in.</p>
-<p>Pathway SVGs use a uniform chemical scale, monochrome structures, source compound
-labels and conditions above reaction arrows. They show only the recorded pathway:
-unreported upstream steps are not inferred. Chemical review and sizing for a
-specific journal remain separate from rendering. See
-<a href="docs/REACTION_FIGURES.html">reaction figure documentation</a>.</p>
-<h2 id="reaction-csv-format">Reaction CSV format</h2>
-<p>The main export is <a href="../data/database/SynInsight_ABSynth_Dataset.csv">SynInsight_ABSynth_Dataset.csv</a>,
-with a companion <a href="../data/database/SynInsight_ABSynth_Dataset.tsv">TSV</a>. Its nine-column
-layout follows the ABSynth-style reference format; the records come from this
-repository's existing curated data, not from importing the reference dataset.</p>
-<table>
+</table></div>
+<p>A CSV row represents one operation occurrence within a recorded path. Shared
+operations repeat across paths; rows are not independent reaction examples. Paths
+include fragments, partial syntheses and control branches, so 635 paths does not
+mean 635 complete target syntheses or benchmark tasks.</p>
+<p>The primary file is <code>data/database/SynInsight_ABSynth_Dataset.csv</code>, with an equivalent
+TSV export. Its ABSynth-style layout contains these nine columns:</p>
+<div aria-label="Scrollable data table" class="table-scroll" tabindex="0"><table>
 <thead>
 <tr>
-<th>Column</th>
-<th>Description</th>
+<th>Field</th>
+<th>Meaning</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td><code>PathId</code></td>
-<td>Identifier of the source-defined path</td>
+<td>Source-defined path identifier</td>
 </tr>
 <tr>
 <td><code>TargetName</code></td>
-<td>Existing route/endpoint label; may identify a fragment or control path</td>
+<td>Recorded endpoint/path label; may describe a fragment or control</td>
 </tr>
 <tr>
-<td><code>Year</code></td>
-<td>Source publication year</td>
-</tr>
-<tr>
-<td><code>DOI</code></td>
-<td>Source publication DOI</td>
-</tr>
-<tr>
-<td><code>Author</code></td>
-<td>Author metadata retained from the source records</td>
+<td><code>Year</code>, <code>DOI</code>, <code>Author</code></td>
+<td>Literature metadata</td>
 </tr>
 <tr>
 <td><code>StepId</code></td>
-<td>Step identifier within the exported path</td>
+<td>Step identifier within the path</td>
 </tr>
 <tr>
 <td><code>RxnSMILES</code></td>
-<td>Reaction SMILES from the recorded substrate/product structures</td>
+<td>Recorded forward reaction, to be reversed for precursor prediction</td>
 </tr>
 <tr>
 <td><code>RxnName</code></td>
-<td>Recorded reaction name, when available</td>
+<td>Reaction name, when recorded</td>
 </tr>
 <tr>
 <td><code>Conditions</code></td>
-<td>Recorded conditions serialized for the tabular export</td>
+<td>Recorded conditions serialized as text</td>
 </tr>
 </tbody>
-</table>
-<p>Blank values mean <strong>not recorded</strong>. <code>RxnName</code> is blank in 6,409 rows and <code>Conditions</code>
-in 215 rows. The export does not fill gaps by guessing reaction classes or conditions.</p>
-<p><a href="../data/database/absynth_metadata.json">absynth_metadata.json</a> maps each path and step
-to its case dataset, local operation/event identifiers, reported yield, structure
-basis, coverage, review status and source references. Consult the case report for
-mixture yields, combined preparations and unresolved source conflicts.</p>
-<h2 id="run-locally">Run locally</h2>
-<p>The generated website is included; viewing it requires no build dependencies.
-From the repository root, serve it over HTTP:</p>
+</table></div>
+<p>Missing values mean not recorded, not a negative observation. Reaction names are
+blank in 6,409 rows and conditions in 215 rows. Do not infer missing chemistry from
+these fields. The companion <code>absynth_metadata.json</code> links paths and steps to case
+records, operation identifiers, source locators, yields, coverage and review state.
+See <a href="docs/ABSYNTH_DATASET.html">format and scope</a> for details.</p>
+<h2 id="intended-evaluation-workflow">Intended evaluation workflow</h2>
+<ol>
+<li><strong>Select and freeze reference tasks.</strong> Review target identity, stereochemistry,
+   route coverage and source agreement. Separate complete routes from partial,
+   fragment and control tasks; publish inclusion criteria and exclusion counts.</li>
+<li><strong>Prevent train/test leakage.</strong> Group shared operations and overlapping paths,
+   and split by source paper and target family as appropriate. Audit overlap with
+   model training data and publish the split manifest and normalization rules.</li>
+<li><strong>Run trained models under fixed conditions.</strong> Give each model the same target,
+   starting-material stock, search budget and allowed inputs. Keep literature routes,
+   conditions and source metadata out of model inputs unless explicitly part of the task.</li>
+<li><strong>Report complementary metrics.</strong> For single-step prediction, report top-k
+   precursor recovery and valid-output rate. For route planning, report stock-closed
+   target coverage, reference transformation/route recovery, search cost and route
+   length under the same protocol. Report failures against the full frozen task set.</li>
+<li><strong>Review route quality.</strong> A route different from the literature may still be
+   chemically sound. Assess plausibility, stereochemistry and strategic value
+   separately from exact reference recovery; stock closure alone is not validation.</li>
+</ol>
+<p>This is the proposed evaluation design, not a claim that these metrics are already
+implemented or that any model has been scored. Detailed admission and reporting
+rules are in <a href="docs/CURATION_AND_EVALUATION.html">Curation and evaluation</a>.</p>
+<h2 id="browse-and-run-locally">Browse and run locally</h2>
+<p>The desktop website provides reaction search, filters, page jumps, step conditions
+and evidence, an interactive complete-recorded-route tree, and CSV/SVG downloads.
+It displays the available record without inventing missing upstream steps.</p>
 <pre><code class="language-sh">python -m http.server 8765
 </code></pre>
-<p>Open <a href="http://localhost:8765/">localhost:8765</a>. Opening <code>index.html</code> directly with a
-<code>file://</code> URL will not reliably load the JSON and CSV resources.</p>
-<h2 id="build-and-validate">Build and validate</h2>
-<p>To regenerate the website from the included data, use an environment with the
-pinned dependencies:</p>
-<pre><code class="language-sh">python -m pip install -r requirements-web.txt
+<p>Open http://localhost:8765/ from the repository root. Use HTTP rather than opening
+<code>index.html</code> directly so the browser can load CSV and JSON resources.</p>
+<p>To regenerate the static site and validate the data presentation:</p>
+<pre><code class="language-sh">python -m pip install -r requirements-web.txt -r requirements-test.txt
 python scripts/build_web.py
-python scripts/validate_web.py
-python scripts/validate_release.py
-</code></pre>
-<p>The web build refreshes the CSV, vector pathway diagrams, document pages and
-resource manifest. It does not re-export the original discovery snapshot from the
-private AutoPlanner workspace.</p>
-<p>To run both repository tests:</p>
-<pre><code class="language-sh">python -m pip install -r requirements-test.txt
 python -m pytest tests/test_release.py tests/test_web.py
+node tests/test_route_tree.cjs
 </code></pre>
-<p>The original release test checks its data contract and checksums. The website test
-checks page/resource links, route coverage, operation counts, connection endpoints
-and diagram node bounds/overlap. These checks are not independent chemical review.</p>
-<h3 id="re-export-the-original-discovery-snapshot">Re-export the original discovery snapshot</h3>
-<p>The original exporter is retained. With AutoPlanner checked out as a sibling
-directory and RDKit available:</p>
-<pre><code class="language-sh">python scripts/export_from_autoplanner.py
-</code></pre>
-<p>This separate workflow requires the upstream curation workspace; it is not needed
-to preview or rebuild the included website.</p>
-<h2 id="repository-contents">Repository contents</h2>
-<table>
+<p>These checks validate export contracts, links and route rendering; they do not
+establish chemical correctness or model performance. Publishing instructions are
+in <a href="docs/DEPLOYMENT.html">Deployment</a>.</p>
+<h2 id="repository-guide">Repository guide</h2>
+<div aria-label="Scrollable data table" class="table-scroll" tabindex="0"><table>
 <thead>
 <tr>
-<th>Path</th>
+<th>Location</th>
 <th>Purpose</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><code>index.html</code></td>
-<td>Main dataset and discovery browser</td>
-</tr>
-<tr>
-<td><code>route.html</code></td>
-<td>Interactive connected-pathway viewer</td>
-</tr>
-<tr>
-<td><code>reader.html</code></td>
-<td>Data and document preview</td>
-</tr>
-<tr>
-<td><code>assets/</code></td>
-<td>Styles, interaction scripts, manifests and pathway SVGs</td>
-</tr>
-<tr>
 <td><code>data/database/</code></td>
-<td>Unified candidate database exports and main reaction CSV</td>
+<td>Main reaction table, provenance and database exports</td>
 </tr>
 <tr>
 <td><code>data/routes/</code></td>
-<td>Source-bound candidate cases, structures and evidence locators</td>
+<td>Per-paper pathway records and source evidence locators</td>
 </tr>
 <tr>
-<td><code>data/papers.*</code>, <code>data/targets.*</code></td>
-<td>Original discovery snapshot tables</td>
+<td><code>index.html</code>, <code>route.html</code>, <code>reader.html</code></td>
+<td>Dataset browser, route viewer and document reader</td>
 </tr>
 <tr>
-<td><code>data/release.json</code>, <code>data/schema.json</code></td>
-<td>Original release provenance and field contract</td>
+<td><code>assets/</code>, <code>pages/</code></td>
+<td>Website resources and generated document pages</td>
 </tr>
 <tr>
-<td><code>structures/</code></td>
-<td>Original candidate target depictions</td>
-</tr>
-<tr>
-<td><code>pages/</code></td>
-<td>Generated document and report pages</td>
-</tr>
-<tr>
-<td><code>scripts/</code></td>
-<td>Export, website generation and validation tools</td>
-</tr>
-<tr>
-<td><code>tests/</code></td>
-<td>Original release and website integration checks</td>
+<td><code>scripts/</code>, <code>tests/</code></td>
+<td>Build, export and validation tools</td>
 </tr>
 <tr>
 <td><code>docs/</code></td>
-<td>Data model, curation, figure and deployment documentation</td>
+<td>Evaluation design, data reference and maintenance documentation</td>
 </tr>
 </tbody>
-</table>
-<h2 id="deploy-or-update-the-website">Deploy or update the website</h2>
-<p>The site uses repository-relative links and <code>.nojekyll</code>, with <code>index.html</code> at the
-repository root. The existing GitHub Pages layout is retained. Follow the
-<a href="docs/DEPLOYMENT.html">deployment guide</a> to update an existing checkout and configure
-its publishing source; see <a href="docs/REPOSITORY_UPDATE.html">integration notes</a> for the
-repository baseline and checksum correction.</p>
-<p>The project website link above is the upstream address recorded in the original
-release. A fork's published URL depends on its own GitHub Pages configuration.</p>
-<h2 id="public-data-boundary">Public data boundary</h2>
-<p>This repository includes bibliographic metadata, candidate identities and
-structures, source-bound step records, derived diagrams, source locators/hashes,
-route coverage and human-admission state. It excludes publisher source PDFs,
-HTML/XML and supporting-information files, verbatim article passages, local cache
-paths, browser state, model logs, prompts and private reviewer identities.</p>
-<p>The HTML reports and pages included here are generated presentations of the
-candidate records. DOI links point to the original publications, whose access and
-reuse remain governed by the publisher and source license.</p>
-<h2 id="contributing">Contributing</h2>
-<p>See <a href="CONTRIBUTING.html">CONTRIBUTING.md</a> and the
-<a href="docs/CURATION_AND_EVALUATION.html">curation and evaluation model</a>. Corrections should
-retain source locators and distinguish structure/route transcription from human
-admission. The <a href="docs/ROADMAP_TO_SCIENTIFIC_DATA.html">release roadmap</a> describes the
-broader publication goals.</p>
-<h2 id="citation-and-license">Citation and license</h2>
-<p>Use the versioned metadata in <a href="../CITATION.cff">CITATION.cff</a>. A dataset DOI is planned
-for the first frozen, human-reviewed release archived in a research-data repository.
-Candidate releases must not be cited as an experimentally validated reaction corpus.</p>
-<ul>
-<li><strong>Data:</strong> <a href="LICENSE-DATA.html">CC BY 4.0</a>.</li>
-<li><strong>Website and export code:</strong> <a href="LICENSE-CODE.html">MIT</a>.</li>
-</ul></main><footer class="publication-footer"><a href="../index.html">Return to Atlas</a><span>Candidate curation · Data CC BY 4.0 · Code MIT</span></footer><script defer="" src="../assets/publication.js"></script></body></html>
+</table></div>
+<p>The original discovery snapshot (<code>data/papers.*</code>, <code>data/targets.*</code>, <code>data/release.json</code>
+and <code>structures/</code>) is retained for provenance. Its population and counts are separate
+from the current stepwise route export; it is not a ready-made benchmark test split.
+Historical extraction notes are indexed separately in <a href="docs/README.html">Documentation</a>.</p>
+<h2 id="contributing-citation-and-licenses">Contributing, citation and licenses</h2>
+<p>Corrections should identify the affected paper, path or operation and supply a
+source locator. See <a href="CONTRIBUTING.html">CONTRIBUTING.md</a>. Publisher PDFs, supporting
+information files, private model logs and reviewer identities are excluded from
+the public repository.</p>
+<p>Cite the dataset version using <a href="../reader.html?file=CITATION.cff">CITATION.cff</a>, and record the exact
+commit, task manifest and evaluation protocol used in an experiment. The current
+candidate release has no archived dataset DOI. Data: <a href="LICENSE-DATA.html">CC BY 4.0</a>.
+Website and export code: <a href="LICENSE-CODE.html">MIT</a>.</p></main><footer class="publication-footer"><a href="../index.html">Return to Atlas</a><span>Candidate curation · Data CC BY 4.0 · Code MIT</span></footer><script src="../assets/publication.js" defer></script></body></html>

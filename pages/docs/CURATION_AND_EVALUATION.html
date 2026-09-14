@@ -1,19 +1,77 @@
-<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Curation and evaluation model | SynInsight Atlas</title><link rel="stylesheet" href="../../assets/report.css"><link rel="icon" href="../../assets/favicon.svg"></head><body class="publication-page"><a class="skip-link" href="#document">Skip to content</a><nav class="publication-nav" aria-label="Atlas navigation"><a class="brand" href="../../index.html">SI · SynInsight Atlas</a><div><a href="../../index.html#atlas">Papers & routes</a><a href="../../index.html#dataset">Reaction dataset</a></div></nav><div class="document-meta">Reference document · <a href="../../docs/CURATION_AND_EVALUATION.md" download>Download original file</a></div><main id="document" class="document-content"><h1 id="curation-and-evaluation-model">Curation and evaluation model</h1>
-<h2 id="literature-truth">Literature truth</h2>
-<p>Paper scope, target structure, and route evidence are separate review subjects. Two
-different experts must accept the same normalized record, or a third expert must
-adjudicate after two independent submissions. A runnable target requires:</p>
-<ol>
-<li>parent paper admitted as a primary completed synthesis;</li>
-<li>source-concordant identity and stereochemistry;</li>
-<li>a source-bound ordered route or strategic key step.</li>
-</ol>
-<p>Automated extraction never settles these claims.</p>
-<h2 id="route-value">Route value</h2>
-<p>Route-value review is blinded from paper and system identity. At least three
-synthetic chemists score route-defining insight, key-transformation plausibility,
-stereochemical/selectivity logic, convergence/economy, and risk/contingency, followed
-by <code>pursue</code>, <code>redesign</code>, or <code>stop</code>. Literature similarity is assessed only after the
-intrinsic-value judgment is frozen.</p>
-<p>This design permits a credible novel route to succeed without copying the literature
-and prevents stock closure or step count from standing in for synthetic insight.</p></main><footer class="publication-footer"><a href="../../index.html">Return to Atlas</a><span>Candidate curation · Data CC BY 4.0 · Code MIT</span></footer><script src="../../assets/publication.js" defer></script></body></html>
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Benchmark curation and evaluation | SynInsight Atlas</title><link rel="stylesheet" href="../../assets/report.css"><link rel="icon" href="../../assets/favicon.svg"></head><body class="publication-page"><a class="skip-link" href="#document">Skip to content</a><nav class="publication-nav" aria-label="Atlas navigation"><a class="brand" href="../../index.html">SI · SynInsight Atlas</a><div><a href="../../index.html#methods">Evaluation</a><a href="../../index.html#dataset">Reaction dataset</a></div></nav><div class="document-meta">Reference document · <a href="../../docs/CURATION_AND_EVALUATION.md" download>Download original file</a></div><main id="document" class="document-content"><h1 id="benchmark-curation-and-evaluation">Benchmark curation and evaluation</h1>
+<h2 id="scope-and-current-status">Scope and current status</h2>
+<p>The objective is a literature-derived reference benchmark for trained machine-learning
+retrosynthesis models, covering single-step precursor prediction and multi-step
+planning. Current exports are candidate records. Frozen task splits, scoring tools
+and published model results are not yet provided. The protocol below describes the
+requirements for a future reproducible evaluation, not completed evaluations.</p>
+<h2 id="reference-admission">Reference admission</h2>
+<p>Review paper scope, exact target identity/stereochemistry and source-bound route
+connectivity separately. Two independent experts should accept the same normalized
+record; disagreements require adjudication. Automated SMILES validation and connected
+diagrams are technical checks, not admission of literature truth.</p>
+<p>A complete-route task requires an admitted target and a source-supported route with
+an explicit starting boundary. Partial routes, fragments and control branches must
+be labelled and evaluated separately. Preserve uncertain records and document all
+exclusions without treating them as model failures before task admission.</p>
+<h2 id="splits-and-model-inputs">Splits and model inputs</h2>
+<p>Freeze a versioned task manifest containing task IDs, paper DOI, target structures,
+reference operation IDs, coverage, review state and split assignment. Shared steps
+and overlapping routes must remain in the same split. Group by paper and inspect
+cross-paper target-family and reaction overlap. Document normalization, stereochemical
+handling and duplicate removal before deriving examples from the CSV.</p>
+<p>Audit benchmark overlap with training corpora, including literature-derived data.
+If training provenance is unavailable, report that limitation. A random CSV-row split
+is unsuitable because the same operation can appear in multiple paths.</p>
+<p>For ordinary retrosynthesis, the input is the target structure plus declared stock
+and task constraints. Reference steps, conditions, DOI and other answer-bearing
+metadata are evaluation-only. Declare any task that supplies additional information.</p>
+<h2 id="evaluation-and-reporting">Evaluation and reporting</h2>
+<div aria-label="Scrollable data table" class="table-scroll" tabindex="0"><table>
+<thead>
+<tr>
+<th>Task</th>
+<th>Proposed measurements</th>
+<th>Required controls</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Single-step prediction</td>
+<td>Top-k precursor-set recovery, valid-output rate</td>
+<td>Fixed k; molecule normalization, atom-mapping and stereo policy; order-independent precursor matching</td>
+</tr>
+<tr>
+<td>Multi-step planning</td>
+<td>Stock-closed target fraction, reference transformation and route recovery</td>
+<td>Fixed stock version, search budget, stopping rules and matching definition</td>
+</tr>
+<tr>
+<td>Efficiency</td>
+<td>Wall time, model calls, expanded nodes, route length</td>
+<td>Comparable hardware and budgets; report successful and failed runs</td>
+</tr>
+<tr>
+<td>Chemical quality</td>
+<td>Plausibility, selectivity, convergence and strategic value</td>
+<td>Independent blinded review, distinct from reference matching</td>
+</tr>
+</tbody>
+</table></div>
+<p>Publish numerators and denominators, per-task outcomes, seeds, model/checkpoint
+versions, stock and split hashes, timeouts and exclusions. Do not count a fragment
+path as a solved total synthesis. Do not count repeated CSV rows as independent
+benchmark successes. Define how alternative precursors, reagents and combined
+operations are handled before reporting reference recovery.</p>
+<p>Literature agreement measures reference recovery; it does not prove that a different
+route is wrong. Stock closure and short routes likewise do not prove feasibility.
+At least three synthetic chemists should review intrinsic route value while blinded
+to paper and model identity, before seeing literature similarity. Review includes
+key transformations, stereochemistry, convergence/economy and risk, with an explicit
+pursue/redesign/stop recommendation. This expert review is a proposed protocol.</p>
+<h2 id="related-documentation">Related documentation</h2>
+<ul>
+<li><a href="ABSYNTH_DATASET.html">Reaction export format</a></li>
+<li><a href="ATLAS_DATABASE.html">Database model</a></li>
+<li><a href="README.html">Documentation index</a></li>
+</ul></main><footer class="publication-footer"><a href="../../index.html">Return to Atlas</a><span>Candidate curation · Data CC BY 4.0 · Code MIT</span></footer><script src="../../assets/publication.js" defer></script></body></html>
