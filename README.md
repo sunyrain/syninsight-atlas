@@ -71,10 +71,11 @@ The website is designed for desktop use and runs as a static site.
 - **Reuse the records:** copy reaction SMILES, export the filtered CSV, or download
   the pathway as a vector SVG.
 
+The interactive canvas uses the [AutoPlanner-style route-tree renderer](docs/ROUTE_TREE_RENDERER.md): target on the left, recorded precursors branching to the right, with compact/full detail and horizontal/vertical layouts. The downloadable SVG remains a forward-reaction scheme.
+
 Keyboard shortcuts: `/` focuses dataset search; when the pathway viewer has focus,
-`+` and `−` zoom, `0` restores the whole-route view, and `F` toggles full screen.
-`Esc` exits full screen. Ctrl/⌘ + scroll zooms around the pointer; double-click
-zooms in and Shift + double-click zooms out.
+`+` and `−` zoom, `0` restores the whole-route view, and the Expand button enlarges the workspace.
+`Esc` exits full screen. Scrolling zooms around the pointer, and double-clicking the canvas zooms in.
 
 Pathway SVGs use a uniform chemical scale, monochrome structures, source compound
 labels and conditions above reaction arrows. They show only the recorded pathway:
