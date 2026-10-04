@@ -3,8 +3,9 @@
 Updated 2026-10-04 after checking source changes, database mirrors, rebuilt tasks and
 the scoring entry points. **The first targeted repair pass and executable candidate
 bank are complete; full chemical reference review is not.** There are 27 corrected
-operations in five papers. No public push or replacement of prior experiment scores
-was performed in this closeout.
+operations in five papers. The candidate repair is published on the
+[`benchmark-repair-20261004` branch](https://github.com/sunyrain/syninsight-atlas/tree/benchmark-repair-20261004).
+Prior experiment scores remain unchanged; the branch does not claim chemical reference admission.
 
 The repair starts from published commit `a9c781035b6522ed914addb94b11f2fda0f12db2`,
 which is also the source used in the Retraxis experiments. The older local checkout
