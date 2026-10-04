@@ -3,6 +3,8 @@
 ## Benchmark users
 
 - [Project overview and quick start](../README.md)
+- [Current source repair status](BENCHMARK_REPAIR_STATUS.md)
+- [Executable candidate benchmark protocol](BENCHMARK_PROTOCOL.md)
 - [Evaluation design and reference admission](CURATION_AND_EVALUATION.md)
 - [Reaction CSV format and scope](ABSYNTH_DATASET.md)
 - [Database model](ATLAS_DATABASE.md)

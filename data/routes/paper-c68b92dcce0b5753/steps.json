@@ -2,10 +2,29 @@
   {
     "admission_authority": false,
     "agents": [],
+    "benchmark_operation_kind": "referenced_multistep_sequence",
+    "conditions_extraction_status": "referenced_procedure_not_in_archived_source",
+    "curation_evidence": {
+      "revision": "2026-10-04-source-repair-1",
+      "method": "source_text_and_scheme_crosscheck",
+      "independent_expert_review": false,
+      "reason": "Correct false one-step segmentation; preserve combined yield without inventing intermediate identities or conditions.",
+      "references": [
+        {
+          "source_id": "article",
+          "sha256": "164e728edc844b85e599f7689b4cebab4c448aaadf0f466c63cfab2c313b6bae",
+          "pages": [
+            3,
+            5
+          ],
+          "locator": "Scheme 2, tyrosine 10/ent-10 to 11/ent-11, ref. 7, 69% (2 steps)"
+        }
+      ]
+    },
     "event_id": "A01",
-    "experimental_stage_count": 1,
+    "experimental_stage_count": 2,
     "formal_benchmark_eligible": false,
-    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "operation_scope": "Aggregate of two referenced transformations; individual intermediates and procedures not resolved in the archived main article.",
     "product_labels": [
       "11"
     ],
@@ -30,13 +49,23 @@
         ],
         "sha256": "164e728edc844b85e599f7689b4cebab4c448aaadf0f466c63cfab2c313b6bae",
         "source_id": "article"
+      },
+      {
+        "locator": "Scheme 2, tyrosine 10/ent-10 to 11/ent-11, ref. 7, 69% (2 steps)",
+        "pages": [
+          3,
+          5
+        ],
+        "sha256": "164e728edc844b85e599f7689b4cebab4c448aaadf0f466c63cfab2c313b6bae",
+        "source_id": "article"
       }
     ],
     "step_id": "A01.1",
     "step_index_within_event": 1,
     "structure_basis": "source_drawing_transcription",
     "substrate_product_smiles": "N[C@H](Cc1ccc(O)cc1)C(=O)O>>CC(=O)c1cc(C[C@@H](O)C(=O)O)ccc1O",
-    "yield_percent": 69
+    "yield_percent": null,
+    "yield_scope": "69% over two referenced steps; retained in product_specific_yields, not a one-step isolated yield."
   },
   {
     "admission_authority": false,
@@ -867,10 +896,29 @@
   {
     "admission_authority": false,
     "agents": [],
+    "benchmark_operation_kind": "referenced_multistep_sequence",
+    "conditions_extraction_status": "referenced_procedure_not_in_archived_source",
+    "curation_evidence": {
+      "revision": "2026-10-04-source-repair-1",
+      "method": "source_text_and_scheme_crosscheck",
+      "independent_expert_review": false,
+      "reason": "Correct false one-step segmentation; preserve combined yield without inventing intermediate identities or conditions.",
+      "references": [
+        {
+          "source_id": "article",
+          "sha256": "164e728edc844b85e599f7689b4cebab4c448aaadf0f466c63cfab2c313b6bae",
+          "pages": [
+            3,
+            5
+          ],
+          "locator": "Scheme 2, tyrosine 10/ent-10 to 11/ent-11, ref. 7, 69% (2 steps)"
+        }
+      ]
+    },
     "event_id": "ent-A01",
-    "experimental_stage_count": 1,
+    "experimental_stage_count": 2,
     "formal_benchmark_eligible": false,
-    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "operation_scope": "Aggregate of two referenced transformations; individual intermediates and procedures not resolved in the archived main article.",
     "product_labels": [
       "ent-11"
     ],
@@ -895,13 +943,23 @@
         ],
         "sha256": "164e728edc844b85e599f7689b4cebab4c448aaadf0f466c63cfab2c313b6bae",
         "source_id": "article"
+      },
+      {
+        "locator": "Scheme 2, tyrosine 10/ent-10 to 11/ent-11, ref. 7, 69% (2 steps)",
+        "pages": [
+          3,
+          5
+        ],
+        "sha256": "164e728edc844b85e599f7689b4cebab4c448aaadf0f466c63cfab2c313b6bae",
+        "source_id": "article"
       }
     ],
     "step_id": "ent-A01.1",
     "step_index_within_event": 1,
     "structure_basis": "source_drawing_transcription",
     "substrate_product_smiles": "N[C@@H](Cc1ccc(O)cc1)C(=O)O>>CC(=O)c1cc(C[C@H](O)C(=O)O)ccc1O",
-    "yield_percent": 69
+    "yield_percent": null,
+    "yield_scope": "69% over two referenced steps; retained in product_specific_yields, not a one-step isolated yield."
   },
   {
     "admission_authority": false,

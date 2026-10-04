@@ -6,10 +6,12 @@ planning models. Its main purpose is to support comparison of single-step precur
 predictions and complete proposed routes against documented experimental syntheses.
 The desktop website is an inspection interface for the benchmark data: researchers
 can search reaction records, inspect connected pathways, and trace steps to sources.</p>
-<p><strong>Status: candidate benchmark data under curation.</strong> The repository contains route
-records and provenance, but does not yet provide a frozen train/validation/test split,
-an automated scoring suite, or a model leaderboard. Independent chemical review is
-still required before records are admitted as benchmark reference truth.</p>
+<p><strong>Status: executable candidate benchmark under curation.</strong> The repair branch now
+provides source corrections, grouped candidate splits, separated model inputs and
+reference answers, and deterministic single-step/multistep scoring. These are not
+chemically admitted reference tasks or a model leaderboard. Independent chemical
+review remains pending. See the <a href="docs/BENCHMARK_PROTOCOL.html">benchmark protocol</a>
+and <a href="docs/BENCHMARK_REPAIR_STATUS.html">repair status</a>.</p>
 <p><a href="../reader.html?file=data%2Fdatabase%2FSynInsight_ABSynth_Dataset.csv">Reaction CSV</a> ·
 <a href="../reader.html?file=data%2Fdatabase%2Fabsynth_metadata.json">Provenance metadata</a> ·
 <a href="docs/CURATION_AND_EVALUATION.html">Evaluation design</a> ·
@@ -86,7 +88,7 @@ TSV export. Its ABSynth-style layout contains these nine columns:</p>
 </tbody>
 </table></div>
 <p>Missing values mean not recorded, not a negative observation. Reaction names are
-blank in 6,409 rows and conditions in 215 rows. Do not infer missing chemistry from
+blank in 6,409 rows and conditions in 152 rows after the first source corrections. Do not infer missing chemistry from
 these fields. The companion <code>absynth_metadata.json</code> links paths and steps to case
 records, operation identifiers, source locators, yields, coverage and review state.
 See <a href="docs/ABSYNTH_DATASET.html">format and scope</a> for details.</p>
@@ -109,9 +111,10 @@ See <a href="docs/ABSYNTH_DATASET.html">format and scope</a> for details.</p>
    chemically sound. Assess plausibility, stereochemistry and strategic value
    separately from exact reference recovery; stock closure alone is not validation.</li>
 </ol>
-<p>This is the proposed evaluation design, not a claim that these metrics are already
-implemented or that any model has been scored. Detailed admission and reporting
-rules are in <a href="docs/CURATION_AND_EVALUATION.html">Curation and evaluation</a>.</p>
+<p>The candidate compiler and deterministic reference-recovery/closure scorer are
+implemented. Chemical-quality evaluation and independent reference admission remain
+pending; no new model scores are claimed by this repair work. Detailed admission
+and reporting rules are in <a href="docs/CURATION_AND_EVALUATION.html">Curation and evaluation</a>.</p>
 <h2 id="browse-and-run-locally">Browse and run locally</h2>
 <p>The desktop website provides reaction search, filters, page jumps, step conditions
 and evidence, an interactive complete-recorded-route tree, and CSV/SVG downloads.

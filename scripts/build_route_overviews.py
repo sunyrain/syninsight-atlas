@@ -71,7 +71,7 @@ def condition_lines(step):
         groups.append(trailing.replace('room temperature', 'rt'))
     return [line for group in groups for line in words(chemical_text(group))] or ['Conditions not recorded']
 
-def build():
+def build(paper_ids=None):
     OUT.mkdir(exist_ok=True, parents=True)
     meta = json.loads((ROOT/'data/database/absynth_metadata.json').read_text(encoding='utf8'))
     with (ROOT/'data/database/SynInsight_ABSynth_Dataset.csv').open(encoding='utf-8-sig', newline='') as f:
@@ -80,10 +80,15 @@ def build():
     for row in rows:
         groups[row['PathId']].append(row)
     datasets, drawings, manifest = {}, {}, {}
+    manifest_path = ROOT/'assets/route-overviews.json'
+    if paper_ids is not None and manifest_path.exists():
+        manifest = json.loads(manifest_path.read_text(encoding='utf-8'))
     rdDepictor.SetPreferCoordGen(True)
     for path_id, rr in groups.items():
         info = meta['paths'][path_id]
         pid = info['paper_id']
+        if paper_ids is not None and pid not in paper_ids:
+            continue
         if pid not in datasets:
             datasets[pid] = json.loads((ROOT/info['dataset']).read_text(encoding='utf8'))
         dataset = datasets[pid]
@@ -105,7 +110,8 @@ def build():
             rank = max([n['rank'] for n in inputs], default=0)+1
             event = node('event', rank, step=row['StepId'], local=step['step_id'],
                          conditions=row['Conditions'], lines=condition_lines(step),
-                         yield_value=info['steps'][row['StepId']]['yield_percent'])
+                         yield_value=info['steps'][row['StepId']]['yield_percent'],
+                         yield_scope=step.get('yield_scope', ''))
             edges.extend((n['id'], event['id']) for n in inputs)
             for label in step['product_labels']:
                 product = node('mol', rank+1, label=label)
@@ -193,7 +199,7 @@ def build():
                 if n is target:
                     parts.append(txt('target',x,label_y+20,14))
             else:
-                parts.append(f'<title>Step {esc(n["step"])} / {esc(n["local"])}: {esc(n["conditions"])}</title>')
+                parts.append(f'<title>Step {esc(n["step"])} / {esc(n["local"])}: {esc(n["conditions"])}. {esc(n["yield_scope"])}</title>')
                 parts.append(f'<path d="M{x-w/2} {y} H{x+w/2}" stroke="#111" stroke-width="1.2" fill="none"/>')
                 for i,line in enumerate(n['lines']):
                     parts.append(txt(line,x,y-14-20*(len(n['lines'])-1-i)))

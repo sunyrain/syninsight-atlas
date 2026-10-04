@@ -1362,14 +1362,37 @@
     {
       "admission_authority": false,
       "category": "reference_preparation",
+      "conditions_extraction_status": "source_experimental_paragraph_checked_key_conditions",
+      "curation_evidence": {
+        "independent_expert_review": false,
+        "method": "source_experimental_paragraph_crosscheck",
+        "reason": "Recover key reaction conditions from the archived SI experimental paragraph; workup and chromatography solvents are not reaction media. Structure and original yield unchanged.",
+        "references": [
+          {
+            "locator": "SI DOCX experimental paragraph 116: preparation of S2",
+            "locator_kind": "native_document_paragraph",
+            "pages": [],
+            "sha256": "9c776a9a888937f07252254df464d12c299c7b933c4414ae6815604c2dcd5a44",
+            "source_id": "archive-001",
+            "xml_paragraph_index_1based": 116
+          }
+        ],
+        "revision": "2026-10-04-source-repair-1"
+      },
       "drawn_mechanistic_intermediate_labels": [],
+      "duration_hours": 19,
       "event_id": "E01",
+      "experimental_stage_count": 1,
       "formal_benchmark_eligible": false,
       "product_labels": [
         "S2"
       ],
       "reactant_labels": [
         "S1"
+      ],
+      "reagents": [
+        "CS2",
+        "KOH"
       ],
       "reported_yields": [
         {
@@ -1381,6 +1404,9 @@
       ],
       "review_status": "pending_independent_chemist_review",
       "smiles_scope": "substrates, products and explicitly transcribed organic coupling partners; agents/byproducts not atom-balanced",
+      "solvents": [
+        "water"
+      ],
       "source_references": [
         {
           "cdx_sha256": "1fd84c196c4b68a31dde692026fd2e4b386ecbcb5545510c9a87cd0fa87a63de",
@@ -1394,24 +1420,57 @@
           "source_image_sha256": "67946e250e0aacdc545d4b603b8bd583661b1c4c9847baf0f86a6c37e95de88c",
           "source_member": "word/embeddings/oleObject3.bin",
           "xml_paragraph_index_1based": 113
+        },
+        {
+          "locator": "SI DOCX experimental paragraph 116: preparation of S2",
+          "locator_kind": "native_document_paragraph",
+          "pages": [],
+          "sha256": "9c776a9a888937f07252254df464d12c299c7b933c4414ae6815604c2dcd5a44",
+          "source_id": "archive-001",
+          "xml_paragraph_index_1based": 116
         }
       ],
       "step_ids": [
         "E01.1"
       ],
-      "substrate_product_smiles": "N[C@@H](CO)Cc1ccccc1>>S=C1N[C@H](Cc2ccccc2)CS1"
+      "substrate_product_smiles": "N[C@@H](CO)Cc1ccccc1>>S=C1N[C@H](Cc2ccccc2)CS1",
+      "temperature_reported": "100 degC",
+      "time": "19 h"
     },
     {
       "admission_authority": false,
       "category": "reference_preparation",
+      "conditions_extraction_status": "source_experimental_paragraph_checked_key_conditions",
+      "curation_evidence": {
+        "independent_expert_review": false,
+        "method": "source_experimental_paragraph_crosscheck",
+        "reason": "Recover key reaction conditions from the archived SI experimental paragraph; workup and chromatography solvents are not reaction media. Structure and original yield unchanged.",
+        "references": [
+          {
+            "locator": "SI DOCX experimental paragraph 118: preparation of S3",
+            "locator_kind": "native_document_paragraph",
+            "pages": [],
+            "sha256": "9c776a9a888937f07252254df464d12c299c7b933c4414ae6815604c2dcd5a44",
+            "source_id": "archive-001",
+            "xml_paragraph_index_1based": 118
+          }
+        ],
+        "revision": "2026-10-04-source-repair-1"
+      },
       "drawn_mechanistic_intermediate_labels": [],
+      "duration_hours": 3,
       "event_id": "E02",
+      "experimental_stage_count": 1,
       "formal_benchmark_eligible": false,
       "product_labels": [
         "S3"
       ],
       "reactant_labels": [
         "S2"
+      ],
+      "reagents": [
+        "NaH",
+        "acetyl chloride"
       ],
       "reported_yields": [
         {
@@ -1423,6 +1482,9 @@
       ],
       "review_status": "pending_independent_chemist_review",
       "smiles_scope": "substrates, products and explicitly transcribed organic coupling partners; agents/byproducts not atom-balanced",
+      "solvents": [
+        "THF"
+      ],
       "source_references": [
         {
           "cdx_sha256": "1fd84c196c4b68a31dde692026fd2e4b386ecbcb5545510c9a87cd0fa87a63de",
@@ -1436,18 +1498,47 @@
           "source_image_sha256": "67946e250e0aacdc545d4b603b8bd583661b1c4c9847baf0f86a6c37e95de88c",
           "source_member": "word/embeddings/oleObject3.bin",
           "xml_paragraph_index_1based": 113
+        },
+        {
+          "locator": "SI DOCX experimental paragraph 118: preparation of S3",
+          "locator_kind": "native_document_paragraph",
+          "pages": [],
+          "sha256": "9c776a9a888937f07252254df464d12c299c7b933c4414ae6815604c2dcd5a44",
+          "source_id": "archive-001",
+          "xml_paragraph_index_1based": 118
         }
       ],
       "step_ids": [
         "E02.1"
       ],
-      "substrate_product_smiles": "S=C1N[C@H](Cc2ccccc2)CS1>>CC(=O)N1C(=S)SC[C@H]1Cc1ccccc1"
+      "substrate_product_smiles": "S=C1N[C@H](Cc2ccccc2)CS1>>CC(=O)N1C(=S)SC[C@H]1Cc1ccccc1",
+      "temperature_reported": "0 degC",
+      "time": "30 min after NaH, then 2.5 h after acetyl chloride"
     },
     {
       "admission_authority": false,
       "category": "reference_preparation",
+      "conditions_extraction_status": "source_experimental_paragraph_checked_key_conditions",
+      "curation_evidence": {
+        "independent_expert_review": false,
+        "method": "source_experimental_paragraph_crosscheck",
+        "reason": "Recover key reaction conditions from the archived SI experimental paragraph; workup and chromatography solvents are not reaction media. Structure and original yield unchanged.",
+        "references": [
+          {
+            "locator": "SI DOCX experimental paragraph 120: preparation of S5",
+            "locator_kind": "native_document_paragraph",
+            "pages": [],
+            "sha256": "9c776a9a888937f07252254df464d12c299c7b933c4414ae6815604c2dcd5a44",
+            "source_id": "archive-001",
+            "xml_paragraph_index_1based": 120
+          }
+        ],
+        "revision": "2026-10-04-source-repair-1"
+      },
       "drawn_mechanistic_intermediate_labels": [],
+      "duration_hours": null,
       "event_id": "E03",
+      "experimental_stage_count": 1,
       "formal_benchmark_eligible": false,
       "product_labels": [
         "S5"
@@ -1455,6 +1546,10 @@
       "reactant_labels": [
         "S3",
         "S4"
+      ],
+      "reagents": [
+        "TiCl4",
+        "DIPEA"
       ],
       "reported_yields": [
         {
@@ -1466,6 +1561,9 @@
       ],
       "review_status": "pending_independent_chemist_review",
       "smiles_scope": "substrates, products and explicitly transcribed organic coupling partners; agents/byproducts not atom-balanced",
+      "solvents": [
+        "DCM"
+      ],
       "source_references": [
         {
           "cdx_sha256": "1fd84c196c4b68a31dde692026fd2e4b386ecbcb5545510c9a87cd0fa87a63de",
@@ -1479,24 +1577,57 @@
           "source_image_sha256": "67946e250e0aacdc545d4b603b8bd583661b1c4c9847baf0f86a6c37e95de88c",
           "source_member": "word/embeddings/oleObject3.bin",
           "xml_paragraph_index_1based": 113
+        },
+        {
+          "locator": "SI DOCX experimental paragraph 120: preparation of S5",
+          "locator_kind": "native_document_paragraph",
+          "pages": [],
+          "sha256": "9c776a9a888937f07252254df464d12c299c7b933c4414ae6815604c2dcd5a44",
+          "source_id": "archive-001",
+          "xml_paragraph_index_1based": 120
         }
       ],
       "step_ids": [
         "E03.1"
       ],
-      "substrate_product_smiles": "C=CC=O.CC(=O)N1C(=S)SC[C@H]1Cc1ccccc1>>C=C[C@@H](O)CC(=O)N1C(=S)SC[C@H]1Cc1ccccc1"
+      "substrate_product_smiles": "C=CC=O.CC(=O)N1C(=S)SC[C@H]1Cc1ccccc1>>C=C[C@@H](O)CC(=O)N1C(=S)SC[C@H]1Cc1ccccc1",
+      "temperature_reported": "0 degC activation, then -78 degC to 0 degC",
+      "time": "5 min TiCl4 activation; 30 min base treatment; after acrolein addition 30 min at -78 degC then 30 min at 0 degC"
     },
     {
       "admission_authority": false,
       "category": "reference_preparation",
+      "conditions_extraction_status": "source_experimental_paragraph_checked_key_conditions",
+      "curation_evidence": {
+        "independent_expert_review": false,
+        "method": "source_experimental_paragraph_crosscheck",
+        "reason": "Recover key reaction conditions from the archived SI experimental paragraph; workup and chromatography solvents are not reaction media. Structure and original yield unchanged.",
+        "references": [
+          {
+            "locator": "SI DOCX experimental paragraph 122: preparation of S6",
+            "locator_kind": "native_document_paragraph",
+            "pages": [],
+            "sha256": "9c776a9a888937f07252254df464d12c299c7b933c4414ae6815604c2dcd5a44",
+            "source_id": "archive-001",
+            "xml_paragraph_index_1based": 122
+          }
+        ],
+        "revision": "2026-10-04-source-repair-1"
+      },
       "drawn_mechanistic_intermediate_labels": [],
+      "duration_hours": 12,
       "event_id": "E04",
+      "experimental_stage_count": 1,
       "formal_benchmark_eligible": false,
       "product_labels": [
         "S6"
       ],
       "reactant_labels": [
         "S5"
+      ],
+      "reagents": [
+        "imidazole",
+        "Weinreb salt (source wording)"
       ],
       "reported_yields": [
         {
@@ -1508,6 +1639,9 @@
       ],
       "review_status": "pending_independent_chemist_review",
       "smiles_scope": "substrates, products and explicitly transcribed organic coupling partners; agents/byproducts not atom-balanced",
+      "solvents": [
+        "DCM"
+      ],
       "source_references": [
         {
           "cdx_sha256": "1fd84c196c4b68a31dde692026fd2e4b386ecbcb5545510c9a87cd0fa87a63de",
@@ -1521,24 +1655,56 @@
           "source_image_sha256": "67946e250e0aacdc545d4b603b8bd583661b1c4c9847baf0f86a6c37e95de88c",
           "source_member": "word/embeddings/oleObject3.bin",
           "xml_paragraph_index_1based": 113
+        },
+        {
+          "locator": "SI DOCX experimental paragraph 122: preparation of S6",
+          "locator_kind": "native_document_paragraph",
+          "pages": [],
+          "sha256": "9c776a9a888937f07252254df464d12c299c7b933c4414ae6815604c2dcd5a44",
+          "source_id": "archive-001",
+          "xml_paragraph_index_1based": 122
         }
       ],
       "step_ids": [
         "E04.1"
       ],
-      "substrate_product_smiles": "C=C[C@@H](O)CC(=O)N1C(=S)SC[C@H]1Cc1ccccc1>>C=C[C@@H](O)CC(=O)N(C)OC"
+      "substrate_product_smiles": "C=C[C@@H](O)CC(=O)N1C(=S)SC[C@H]1Cc1ccccc1>>C=C[C@@H](O)CC(=O)N(C)OC",
+      "temperature_reported": "room temperature",
+      "time": "12 h"
     },
     {
       "admission_authority": false,
       "category": "reference_preparation",
+      "conditions_extraction_status": "source_experimental_paragraph_checked_key_conditions",
+      "curation_evidence": {
+        "independent_expert_review": false,
+        "method": "source_experimental_paragraph_crosscheck",
+        "reason": "Recover key reaction conditions from the archived SI experimental paragraph; workup and chromatography solvents are not reaction media. Structure and original yield unchanged.",
+        "references": [
+          {
+            "locator": "SI DOCX experimental paragraph 124: preparation of 15",
+            "locator_kind": "native_document_paragraph",
+            "pages": [],
+            "sha256": "9c776a9a888937f07252254df464d12c299c7b933c4414ae6815604c2dcd5a44",
+            "source_id": "archive-001",
+            "xml_paragraph_index_1based": 124
+          }
+        ],
+        "revision": "2026-10-04-source-repair-1"
+      },
       "drawn_mechanistic_intermediate_labels": [],
+      "duration_hours": null,
       "event_id": "E05",
+      "experimental_stage_count": 1,
       "formal_benchmark_eligible": false,
       "product_labels": [
         "15"
       ],
       "reactant_labels": [
         "S6"
+      ],
+      "reagents": [
+        "methylmagnesium bromide"
       ],
       "reported_yields": [
         {
@@ -1550,6 +1716,9 @@
       ],
       "review_status": "pending_independent_chemist_review",
       "smiles_scope": "substrates, products and explicitly transcribed organic coupling partners; agents/byproducts not atom-balanced",
+      "solvents": [
+        "THF"
+      ],
       "source_references": [
         {
           "cdx_sha256": "1fd84c196c4b68a31dde692026fd2e4b386ecbcb5545510c9a87cd0fa87a63de",
@@ -1563,24 +1732,70 @@
           "source_image_sha256": "67946e250e0aacdc545d4b603b8bd583661b1c4c9847baf0f86a6c37e95de88c",
           "source_member": "word/embeddings/oleObject3.bin",
           "xml_paragraph_index_1based": 113
+        },
+        {
+          "locator": "SI DOCX experimental paragraph 124: preparation of 15",
+          "locator_kind": "native_document_paragraph",
+          "pages": [],
+          "sha256": "9c776a9a888937f07252254df464d12c299c7b933c4414ae6815604c2dcd5a44",
+          "source_id": "archive-001",
+          "xml_paragraph_index_1based": 124
         }
       ],
       "step_ids": [
         "E05.1"
       ],
-      "substrate_product_smiles": "C=C[C@@H](O)CC(=O)N(C)OC>>C=C[C@@H](O)CC(C)=O"
+      "substrate_product_smiles": "C=C[C@@H](O)CC(=O)N(C)OC>>C=C[C@@H](O)CC(C)=O",
+      "temperature_reported": "0 degC to room temperature",
+      "time": "overnight"
     },
     {
       "admission_authority": false,
       "category": "main_route",
+      "conditions_extraction_status": "source_experimental_paragraph_checked_key_conditions",
+      "curation_evidence": {
+        "independent_expert_review": false,
+        "method": "source_experimental_paragraph_crosscheck",
+        "reason": "Recover key reaction conditions from the archived SI experimental paragraph; workup and chromatography solvents are not reaction media. Structure and original yield unchanged.",
+        "references": [
+          {
+            "locator": "SI DOCX experimental paragraph 127: preparation of 17",
+            "locator_kind": "native_document_paragraph",
+            "pages": [],
+            "sha256": "9c776a9a888937f07252254df464d12c299c7b933c4414ae6815604c2dcd5a44",
+            "source_id": "archive-001",
+            "xml_paragraph_index_1based": 127
+          }
+        ],
+        "revision": "2026-10-04-source-repair-1"
+      },
       "drawn_mechanistic_intermediate_labels": [],
+      "duration_hours": 18,
       "event_id": "E06",
+      "experimental_stage_count": 2,
       "formal_benchmark_eligible": false,
+      "operation_stages": [
+        {
+          "operation": "TBS protection",
+          "temperature_reported": "-60 degC",
+          "time": "12 h"
+        },
+        {
+          "operation": "propargylzinc bromide addition",
+          "temperature_reported": "25 degC",
+          "time": "6 h"
+        }
+      ],
       "product_labels": [
         "17"
       ],
       "reactant_labels": [
         "15"
+      ],
+      "reagents": [
+        "TBSOTf",
+        "lutidine",
+        "16: propargylzinc bromide; organometallic speciation not assigned"
       ],
       "reported_yields": [
         {
@@ -1592,6 +1807,9 @@
       ],
       "review_status": "pending_independent_chemist_review",
       "smiles_scope": "substrates, products and explicitly transcribed organic coupling partners; agents/byproducts not atom-balanced",
+      "solvents": [
+        "THF"
+      ],
       "source_references": [
         {
           "cdx_sha256": "a9e9380868c688e327d2bd01ffdb9d90831dfc40bc9d79e83337638f33ffedfd",
@@ -1605,24 +1823,58 @@
           "source_image_sha256": "86167a94c8138a3b8f890607cbb042e25b440930b273ee9509c6d3167abd049b",
           "source_member": "word/embeddings/oleObject4.bin",
           "xml_paragraph_index_1based": 126
+        },
+        {
+          "locator": "SI DOCX experimental paragraph 127: preparation of 17",
+          "locator_kind": "native_document_paragraph",
+          "pages": [],
+          "sha256": "9c776a9a888937f07252254df464d12c299c7b933c4414ae6815604c2dcd5a44",
+          "source_id": "archive-001",
+          "xml_paragraph_index_1based": 127
         }
       ],
       "step_ids": [
         "E06.1"
       ],
-      "substrate_product_smiles": "C=C[C@@H](O)CC(C)=O>>C#CC[C@](C)(O)C[C@@H](C=C)O[Si](C)(C)C(C)(C)C"
+      "substrate_product_smiles": "C=C[C@@H](O)CC(C)=O>>C#CC[C@](C)(O)C[C@@H](C=C)O[Si](C)(C)C(C)(C)C",
+      "temperature_reported": "-60 degC protection, then 25 degC addition",
+      "time": "12 h then 6 h"
     },
     {
       "admission_authority": false,
       "category": "main_route",
+      "conditions_extraction_status": "source_experimental_paragraph_checked_key_conditions",
+      "curation_evidence": {
+        "independent_expert_review": false,
+        "method": "source_experimental_paragraph_crosscheck",
+        "reason": "Recover key reaction conditions from the archived SI experimental paragraph; workup and chromatography solvents are not reaction media. Structure and original yield unchanged.",
+        "references": [
+          {
+            "locator": "SI DOCX experimental paragraph 137: preparation of 14",
+            "locator_kind": "native_document_paragraph",
+            "pages": [],
+            "sha256": "9c776a9a888937f07252254df464d12c299c7b933c4414ae6815604c2dcd5a44",
+            "source_id": "archive-001",
+            "xml_paragraph_index_1based": 137
+          }
+        ],
+        "revision": "2026-10-04-source-repair-1"
+      },
       "drawn_mechanistic_intermediate_labels": [],
+      "duration_hours": 6,
       "event_id": "E07",
+      "experimental_stage_count": 1,
       "formal_benchmark_eligible": false,
       "product_labels": [
         "14"
       ],
       "reactant_labels": [
         "17"
+      ],
+      "reagents": [
+        "18 (source-labeled reagent; identity not standardized here)",
+        "MsOH",
+        "XphosAuNTf2"
       ],
       "reported_yields": [
         {
@@ -1634,6 +1886,9 @@
       ],
       "review_status": "pending_independent_chemist_review",
       "smiles_scope": "substrates, products and explicitly transcribed organic coupling partners; agents/byproducts not atom-balanced",
+      "solvents": [
+        "DCE"
+      ],
       "source_references": [
         {
           "cdx_sha256": "23433abc125ecd834957b33b5d0aa41b378a9af968b2708ba448a33585ca8ffe",
@@ -1647,24 +1902,57 @@
           "source_image_sha256": "db1080ae365aba6b77a5b224fb6ad557bd1d41a9009e92bb128aeec45ce7c4ff",
           "source_member": "word/embeddings/oleObject5.bin",
           "xml_paragraph_index_1based": 136
+        },
+        {
+          "locator": "SI DOCX experimental paragraph 137: preparation of 14",
+          "locator_kind": "native_document_paragraph",
+          "pages": [],
+          "sha256": "9c776a9a888937f07252254df464d12c299c7b933c4414ae6815604c2dcd5a44",
+          "source_id": "archive-001",
+          "xml_paragraph_index_1based": 137
         }
       ],
       "step_ids": [
         "E07.1"
       ],
-      "substrate_product_smiles": "C#CC[C@](C)(O)C[C@@H](C=C)O[Si](C)(C)C(C)(C)C>>C=C[C@H](C[C@@]1(C)CC(=O)CO1)O[Si](C)(C)C(C)(C)C"
+      "substrate_product_smiles": "C#CC[C@](C)(O)C[C@@H](C=C)O[Si](C)(C)C(C)(C)C>>C=C[C@H](C[C@@]1(C)CC(=O)CO1)O[Si](C)(C)C(C)(C)C",
+      "temperature_reported": "25 degC",
+      "time": "6 h"
     },
     {
       "admission_authority": false,
       "category": "main_route",
+      "conditions_extraction_status": "source_experimental_paragraph_checked_key_conditions",
+      "curation_evidence": {
+        "independent_expert_review": false,
+        "method": "source_experimental_paragraph_crosscheck",
+        "reason": "Recover key reaction conditions from the archived SI experimental paragraph; workup and chromatography solvents are not reaction media. Structure and original yield unchanged.",
+        "references": [
+          {
+            "locator": "SI DOCX experimental paragraph 146: preparation of 19",
+            "locator_kind": "native_document_paragraph",
+            "pages": [],
+            "sha256": "9c776a9a888937f07252254df464d12c299c7b933c4414ae6815604c2dcd5a44",
+            "source_id": "archive-001",
+            "xml_paragraph_index_1based": 146
+          }
+        ],
+        "revision": "2026-10-04-source-repair-1"
+      },
       "drawn_mechanistic_intermediate_labels": [],
+      "duration_hours": 4,
       "event_id": "E08",
+      "experimental_stage_count": 1,
       "formal_benchmark_eligible": false,
       "product_labels": [
         "19"
       ],
       "reactant_labels": [
         "14"
+      ],
+      "reagents": [
+        "NaHMDS",
+        "Comins reagent"
       ],
       "reported_yields": [
         {
@@ -1676,6 +1964,9 @@
       ],
       "review_status": "pending_independent_chemist_review",
       "smiles_scope": "substrates, products and explicitly transcribed organic coupling partners; agents/byproducts not atom-balanced",
+      "solvents": [
+        "THF"
+      ],
       "source_references": [
         {
           "cdx_sha256": "f8449b7c0235cbbdf9e7cc73ff0eecffeba5d0e08a0f63ece1b79126a85076f6",
@@ -1689,25 +1980,71 @@
           "source_image_sha256": "c586babd76849e6d2fdcdf15aeef63108504cef92752e15942d8cba80299d7cf",
           "source_member": "word/embeddings/oleObject6.bin",
           "xml_paragraph_index_1based": 145
+        },
+        {
+          "locator": "SI DOCX experimental paragraph 146: preparation of 19",
+          "locator_kind": "native_document_paragraph",
+          "pages": [],
+          "sha256": "9c776a9a888937f07252254df464d12c299c7b933c4414ae6815604c2dcd5a44",
+          "source_id": "archive-001",
+          "xml_paragraph_index_1based": 146
         }
       ],
       "step_ids": [
         "E08.1"
       ],
-      "substrate_product_smiles": "C=C[C@H](C[C@@]1(C)CC(=O)CO1)O[Si](C)(C)C(C)(C)C>>C=C[C@H](C[C@@]1(C)C=C(OS(=O)(=O)C(F)(F)F)CO1)O[Si](C)(C)C(C)(C)C"
+      "substrate_product_smiles": "C=C[C@H](C[C@@]1(C)CC(=O)CO1)O[Si](C)(C)C(C)(C)C>>C=C[C@H](C[C@@]1(C)C=C(OS(=O)(=O)C(F)(F)F)CO1)O[Si](C)(C)C(C)(C)C",
+      "temperature_reported": "-78 degC",
+      "time": "1 h with base, then 3 h after Comins reagent"
     },
     {
       "admission_authority": false,
       "category": "main_route",
+      "conditions_extraction_status": "source_experimental_paragraph_checked_key_conditions",
+      "curation_evidence": {
+        "independent_expert_review": false,
+        "method": "source_experimental_paragraph_crosscheck",
+        "reason": "Recover key reaction conditions from the archived SI experimental paragraph; workup and chromatography solvents are not reaction media. Structure and original yield unchanged.",
+        "references": [
+          {
+            "locator": "SI DOCX experimental paragraph 155: preparation of 13",
+            "locator_kind": "native_document_paragraph",
+            "pages": [],
+            "sha256": "9c776a9a888937f07252254df464d12c299c7b933c4414ae6815604c2dcd5a44",
+            "source_id": "archive-001",
+            "xml_paragraph_index_1based": 155
+          }
+        ],
+        "revision": "2026-10-04-source-repair-1"
+      },
       "drawn_mechanistic_intermediate_labels": [],
+      "duration_hours": 10,
       "event_id": "E09",
+      "experimental_stage_count": 2,
       "formal_benchmark_eligible": false,
+      "operation_stages": [
+        {
+          "operation": "coupling",
+          "temperature_reported": "65 degC",
+          "time": "6 h"
+        },
+        {
+          "operation": "TBAF desilylation",
+          "temperature_reported": "25 degC",
+          "time": "4 h"
+        }
+      ],
       "product_labels": [
         "13"
       ],
       "reactant_labels": [
         "19",
         "20"
+      ],
+      "reagents": [
+        "Cs2CO3",
+        "Pd(dppf)2Cl2 (as written in experimental paragraph)",
+        "TBAF"
       ],
       "reported_yields": [
         {
@@ -1719,6 +2056,11 @@
       ],
       "review_status": "pending_independent_chemist_review",
       "smiles_scope": "substrates, products and explicitly transcribed organic coupling partners; agents/byproducts not atom-balanced",
+      "solvents": [
+        "toluene",
+        "water",
+        "THF (TBAF solution carrier)"
+      ],
       "source_references": [
         {
           "cdx_sha256": "114e1974c9a295bb77e142a04c66daff1be7db9a43353d1238f598056f9071a9",
@@ -1732,18 +2074,47 @@
           "source_image_sha256": "bed7522fbb55ff63124b9762765d2eb9f87136c0bcb460f9dfecd74f5cbeb2d8",
           "source_member": "word/embeddings/oleObject7.bin",
           "xml_paragraph_index_1based": 154
+        },
+        {
+          "locator": "SI DOCX experimental paragraph 155: preparation of 13",
+          "locator_kind": "native_document_paragraph",
+          "pages": [],
+          "sha256": "9c776a9a888937f07252254df464d12c299c7b933c4414ae6815604c2dcd5a44",
+          "source_id": "archive-001",
+          "xml_paragraph_index_1based": 155
         }
       ],
       "step_ids": [
         "E09.1"
       ],
-      "substrate_product_smiles": "C=C[C@H](C[C@@]1(C)C=C(OS(=O)(=O)C(F)(F)F)CO1)O[Si](C)(C)C(C)(C)C.CC1(C)OB(C2=CCCCC2)OC1(C)C>>C=C[C@@H](O)C[C@@]1(C)C=C(C2=CCCCC2)CO1"
+      "substrate_product_smiles": "C=C[C@H](C[C@@]1(C)C=C(OS(=O)(=O)C(F)(F)F)CO1)O[Si](C)(C)C(C)(C)C.CC1(C)OB(C2=CCCCC2)OC1(C)C>>C=C[C@@H](O)C[C@@]1(C)C=C(C2=CCCCC2)CO1",
+      "temperature_reported": "65 degC coupling, then 25 degC desilylation",
+      "time": "6 h then 4 h"
     },
     {
       "admission_authority": false,
       "category": "main_route",
+      "conditions_extraction_status": "source_experimental_paragraph_checked_key_conditions",
+      "curation_evidence": {
+        "independent_expert_review": false,
+        "method": "source_experimental_paragraph_crosscheck",
+        "reason": "Recover key reaction conditions from the archived SI experimental paragraph; workup and chromatography solvents are not reaction media. Structure and original yield unchanged.",
+        "references": [
+          {
+            "locator": "SI DOCX experimental paragraph 164: preparation of 22",
+            "locator_kind": "native_document_paragraph",
+            "pages": [],
+            "sha256": "9c776a9a888937f07252254df464d12c299c7b933c4414ae6815604c2dcd5a44",
+            "source_id": "archive-001",
+            "xml_paragraph_index_1based": 164
+          }
+        ],
+        "revision": "2026-10-04-source-repair-1"
+      },
       "drawn_mechanistic_intermediate_labels": [],
+      "duration_hours": 4,
       "event_id": "E10",
+      "experimental_stage_count": 1,
       "formal_benchmark_eligible": false,
       "product_labels": [
         "22"
@@ -1751,6 +2122,10 @@
       "reactant_labels": [
         "13",
         "21"
+      ],
+      "reagents": [
+        "DCC",
+        "DMAP"
       ],
       "reported_yields": [
         {
@@ -1762,6 +2137,9 @@
       ],
       "review_status": "pending_independent_chemist_review",
       "smiles_scope": "substrates, products and explicitly transcribed organic coupling partners; agents/byproducts not atom-balanced",
+      "solvents": [
+        "DCE"
+      ],
       "source_references": [
         {
           "cdx_sha256": "49fb26b0295350cba4761df1e371234b6217e45123e4764517fbf9dbf1f28ac7",
@@ -1775,24 +2153,56 @@
           "source_image_sha256": "da96404ad32d548e3161fa60b73617c6faf59719b67999b7d495d3588f57765d",
           "source_member": "word/embeddings/oleObject8.bin",
           "xml_paragraph_index_1based": 163
+        },
+        {
+          "locator": "SI DOCX experimental paragraph 164: preparation of 22",
+          "locator_kind": "native_document_paragraph",
+          "pages": [],
+          "sha256": "9c776a9a888937f07252254df464d12c299c7b933c4414ae6815604c2dcd5a44",
+          "source_id": "archive-001",
+          "xml_paragraph_index_1based": 164
         }
       ],
       "step_ids": [
         "E10.1"
       ],
-      "substrate_product_smiles": "C=CC(=O)O.C=C[C@@H](O)C[C@@]1(C)C=C(C2=CCCCC2)CO1>>C=CC(=O)O[C@H](C=C)C[C@@]1(C)C=C(C2=CCCCC2)CO1"
+      "substrate_product_smiles": "C=CC(=O)O.C=C[C@@H](O)C[C@@]1(C)C=C(C2=CCCCC2)CO1>>C=CC(=O)O[C@H](C=C)C[C@@]1(C)C=C(C2=CCCCC2)CO1",
+      "temperature_reported": "80 degC",
+      "time": "4 h"
     },
     {
       "admission_authority": false,
       "category": "main_route",
+      "conditions_extraction_status": "source_experimental_paragraph_checked_key_conditions",
+      "curation_evidence": {
+        "independent_expert_review": false,
+        "method": "source_experimental_paragraph_crosscheck",
+        "reason": "Recover key reaction conditions from the archived SI experimental paragraph; workup and chromatography solvents are not reaction media. Structure and original yield unchanged.",
+        "references": [
+          {
+            "locator": "SI DOCX experimental paragraph 173: preparation of 12",
+            "locator_kind": "native_document_paragraph",
+            "pages": [],
+            "sha256": "9c776a9a888937f07252254df464d12c299c7b933c4414ae6815604c2dcd5a44",
+            "source_id": "archive-001",
+            "xml_paragraph_index_1based": 173
+          }
+        ],
+        "revision": "2026-10-04-source-repair-1"
+      },
       "drawn_mechanistic_intermediate_labels": [],
+      "duration_hours": 4,
       "event_id": "E11",
+      "experimental_stage_count": 1,
       "formal_benchmark_eligible": false,
       "product_labels": [
         "12"
       ],
       "reactant_labels": [
         "22"
+      ],
+      "reagents": [
+        "Grubbs II catalyst"
       ],
       "reported_yields": [
         {
@@ -1804,6 +2214,9 @@
       ],
       "review_status": "pending_independent_chemist_review",
       "smiles_scope": "substrates, products and explicitly transcribed organic coupling partners; agents/byproducts not atom-balanced",
+      "solvents": [
+        "toluene"
+      ],
       "source_references": [
         {
           "cdx_sha256": "909c9530052d88d323901e8a3b02dd045e0e45e2f424a0e02e704bac9cdb9c56",
@@ -1817,18 +2230,47 @@
           "source_image_sha256": "9916cbecedf6f0b3bb9d1ef4132e4893bb1582f4a785854f417dacad524a09b7",
           "source_member": "word/embeddings/oleObject9.bin",
           "xml_paragraph_index_1based": 172
+        },
+        {
+          "locator": "SI DOCX experimental paragraph 173: preparation of 12",
+          "locator_kind": "native_document_paragraph",
+          "pages": [],
+          "sha256": "9c776a9a888937f07252254df464d12c299c7b933c4414ae6815604c2dcd5a44",
+          "source_id": "archive-001",
+          "xml_paragraph_index_1based": 173
         }
       ],
       "step_ids": [
         "E11.1"
       ],
-      "substrate_product_smiles": "C=CC(=O)O[C@H](C=C)C[C@@]1(C)C=C(C2=CCCCC2)CO1>>C[C@]1(C[C@H]2C=CC(=O)O2)C=C(C2=CCCCC2)CO1"
+      "substrate_product_smiles": "C=CC(=O)O[C@H](C=C)C[C@@]1(C)C=C(C2=CCCCC2)CO1>>C[C@]1(C[C@H]2C=CC(=O)O2)C=C(C2=CCCCC2)CO1",
+      "temperature_reported": "80 degC",
+      "time": "4 h"
     },
     {
       "admission_authority": false,
       "category": "main_route",
+      "conditions_extraction_status": "source_experimental_paragraph_checked_key_conditions",
+      "curation_evidence": {
+        "independent_expert_review": false,
+        "method": "source_experimental_paragraph_crosscheck",
+        "reason": "Recover key reaction conditions from the archived SI experimental paragraph; workup and chromatography solvents are not reaction media. Structure and original yield unchanged.",
+        "references": [
+          {
+            "locator": "SI DOCX experimental paragraph 182: preparation of 23",
+            "locator_kind": "native_document_paragraph",
+            "pages": [],
+            "sha256": "9c776a9a888937f07252254df464d12c299c7b933c4414ae6815604c2dcd5a44",
+            "source_id": "archive-001",
+            "xml_paragraph_index_1based": 182
+          }
+        ],
+        "revision": "2026-10-04-source-repair-1"
+      },
       "drawn_mechanistic_intermediate_labels": [],
+      "duration_hours": 96,
       "event_id": "E12",
+      "experimental_stage_count": 1,
       "formal_benchmark_eligible": false,
       "product_labels": [
         "23"
@@ -1836,6 +2278,7 @@
       "reactant_labels": [
         "12"
       ],
+      "reagents": [],
       "reported_yields": [
         {
           "from_label": "12",
@@ -1846,6 +2289,9 @@
       ],
       "review_status": "pending_independent_chemist_review",
       "smiles_scope": "substrates, products and explicitly transcribed organic coupling partners; agents/byproducts not atom-balanced",
+      "solvents": [
+        "p-xylene"
+      ],
       "source_references": [
         {
           "cdx_sha256": "061e664861e93794f49498f9044bc661511fa78ed6348d9d70d079b4f15e9bbe",
@@ -1859,24 +2305,68 @@
           "source_image_sha256": "37ef7d0ff7fbffac241f5a2f98aead5acc484c0a06381bc609949c83687baf90",
           "source_member": "word/embeddings/oleObject10.bin",
           "xml_paragraph_index_1based": 181
+        },
+        {
+          "locator": "SI DOCX experimental paragraph 182: preparation of 23",
+          "locator_kind": "native_document_paragraph",
+          "pages": [],
+          "sha256": "9c776a9a888937f07252254df464d12c299c7b933c4414ae6815604c2dcd5a44",
+          "source_id": "archive-001",
+          "xml_paragraph_index_1based": 182
         }
       ],
       "step_ids": [
         "E12.1"
       ],
-      "substrate_product_smiles": "C[C@]1(C[C@H]2C=CC(=O)O2)C=C(C2=CCCCC2)CO1>>C[C@@]12C[C@@H]3OC(=O)[C@H]4[C@@H]3[C@@H]1C(=C1CCCC[C@H]14)CO2"
+      "substrate_product_smiles": "C[C@]1(C[C@H]2C=CC(=O)O2)C=C(C2=CCCCC2)CO1>>C[C@@]12C[C@@H]3OC(=O)[C@H]4[C@@H]3[C@@H]1C(=C1CCCC[C@H]14)CO2",
+      "temperature_reported": "160 degC",
+      "time": "4 days"
     },
     {
       "admission_authority": false,
       "category": "main_route",
+      "conditions_extraction_status": "source_experimental_paragraph_checked_key_conditions",
+      "curation_evidence": {
+        "independent_expert_review": false,
+        "method": "source_experimental_paragraph_crosscheck",
+        "reason": "Recover key reaction conditions from the archived SI experimental paragraph; workup and chromatography solvents are not reaction media. Structure and original yield unchanged.",
+        "references": [
+          {
+            "locator": "SI DOCX experimental paragraph 194: preparation of 11",
+            "locator_kind": "native_document_paragraph",
+            "pages": [],
+            "sha256": "9c776a9a888937f07252254df464d12c299c7b933c4414ae6815604c2dcd5a44",
+            "source_id": "archive-001",
+            "xml_paragraph_index_1based": 194
+          }
+        ],
+        "revision": "2026-10-04-source-repair-1"
+      },
       "drawn_mechanistic_intermediate_labels": [],
+      "duration_hours": 5,
       "event_id": "E13",
+      "experimental_stage_count": 2,
       "formal_benchmark_eligible": false,
+      "operation_stages": [
+        {
+          "operation": "SeO2 treatment",
+          "time": "3 h"
+        },
+        {
+          "operation": "TPAP/NMO oxidation",
+          "time": "2 h"
+        }
+      ],
       "product_labels": [
         "11"
       ],
       "reactant_labels": [
         "23"
+      ],
+      "reagents": [
+        "SeO2",
+        "TPAP",
+        "NMO"
       ],
       "reported_yields": [
         {
@@ -1888,6 +2378,9 @@
       ],
       "review_status": "pending_independent_chemist_review",
       "smiles_scope": "substrates, products and explicitly transcribed organic coupling partners; agents/byproducts not atom-balanced",
+      "solvents": [
+        "DCM"
+      ],
       "source_references": [
         {
           "cdx_sha256": "37105f38362f473e34581dbcc5674ef9f67786ab9f688a855158a2aebf61e2c1",
@@ -1901,24 +2394,57 @@
           "source_image_sha256": "3f08edec2130fc5dd55737107a6ffafbe3f07a150c3ab70ffb219ede6255a32d",
           "source_member": "word/embeddings/oleObject11.bin",
           "xml_paragraph_index_1based": 193
+        },
+        {
+          "locator": "SI DOCX experimental paragraph 194: preparation of 11",
+          "locator_kind": "native_document_paragraph",
+          "pages": [],
+          "sha256": "9c776a9a888937f07252254df464d12c299c7b933c4414ae6815604c2dcd5a44",
+          "source_id": "archive-001",
+          "xml_paragraph_index_1based": 194
         }
       ],
       "step_ids": [
         "E13.1"
       ],
-      "substrate_product_smiles": "C[C@@]12C[C@@H]3OC(=O)[C@H]4[C@@H]3[C@@H]1C(=C1CCCC[C@H]14)CO2>>C[C@@]12C[C@@H]3OC(=O)[C@H]4[C@@H]3[C@@H]1C(=C1C(=O)CCC[C@H]14)CO2"
+      "substrate_product_smiles": "C[C@@]12C[C@@H]3OC(=O)[C@H]4[C@@H]3[C@@H]1C(=C1CCCC[C@H]14)CO2>>C[C@@]12C[C@@H]3OC(=O)[C@H]4[C@@H]3[C@@H]1C(=C1C(=O)CCC[C@H]14)CO2",
+      "temperature_reported": "25 degC",
+      "time": "3 h with SeO2, then 2 h with TPAP/NMO"
     },
     {
       "admission_authority": false,
       "category": "main_route",
+      "conditions_extraction_status": "source_experimental_paragraph_checked_key_conditions",
+      "curation_evidence": {
+        "independent_expert_review": false,
+        "method": "source_experimental_paragraph_crosscheck",
+        "reason": "Recover key reaction conditions from the archived SI experimental paragraph; workup and chromatography solvents are not reaction media. Structure and original yield unchanged.",
+        "references": [
+          {
+            "locator": "SI DOCX experimental paragraph 204: preparation of 27",
+            "locator_kind": "native_document_paragraph",
+            "pages": [],
+            "sha256": "9c776a9a888937f07252254df464d12c299c7b933c4414ae6815604c2dcd5a44",
+            "source_id": "archive-001",
+            "xml_paragraph_index_1based": 204
+          }
+        ],
+        "revision": "2026-10-04-source-repair-1"
+      },
       "drawn_mechanistic_intermediate_labels": [],
+      "duration_hours": 48,
       "event_id": "E14",
+      "experimental_stage_count": 1,
       "formal_benchmark_eligible": false,
       "product_labels": [
         "27"
       ],
       "reactant_labels": [
         "11"
+      ],
+      "reagents": [
+        "CuI",
+        "TBHP"
       ],
       "reported_yields": [
         {
@@ -1930,6 +2456,9 @@
       ],
       "review_status": "pending_independent_chemist_review",
       "smiles_scope": "substrates, products and explicitly transcribed organic coupling partners; agents/byproducts not atom-balanced",
+      "solvents": [
+        "MeCN"
+      ],
       "source_references": [
         {
           "cdx_sha256": "4200bdc2b030b3c102a15f32709c6ff71cbf7459bcdf966ae99ffc2e1e6fff9e",
@@ -1943,24 +2472,67 @@
           "source_image_sha256": "c87b959c09d9ad437016c9379dea66c7885a5a12a56dcec6655807c4bf545915",
           "source_member": "word/embeddings/oleObject12.bin",
           "xml_paragraph_index_1based": 203
+        },
+        {
+          "locator": "SI DOCX experimental paragraph 204: preparation of 27",
+          "locator_kind": "native_document_paragraph",
+          "pages": [],
+          "sha256": "9c776a9a888937f07252254df464d12c299c7b933c4414ae6815604c2dcd5a44",
+          "source_id": "archive-001",
+          "xml_paragraph_index_1based": 204
         }
       ],
       "step_ids": [
         "E14.1"
       ],
-      "substrate_product_smiles": "C[C@@]12C[C@@H]3OC(=O)[C@H]4[C@@H]3[C@@H]1C(=C1C(=O)CCC[C@H]14)CO2>>C[C@@]12C[C@@H]3OC(=O)[C@H]4[C@@H]3[C@@H]1C(=C1C(=O)CCC[C@H]14)[C@@H](O)O2"
+      "substrate_product_smiles": "C[C@@]12C[C@@H]3OC(=O)[C@H]4[C@@H]3[C@@H]1C(=C1C(=O)CCC[C@H]14)CO2>>C[C@@]12C[C@@H]3OC(=O)[C@H]4[C@@H]3[C@@H]1C(=C1C(=O)CCC[C@H]14)[C@@H](O)O2",
+      "temperature_reported": "-20 degC addition, then 0 degC",
+      "time": "2 days before thiosulfate treatment",
+      "workup_note": "Source adds aqueous sodium thiosulfate and stirs at 25 degC for 2 h after the 2-day reaction; not included in duration_hours."
     },
     {
       "admission_authority": false,
       "category": "main_route",
+      "condition_source_conflicts": [
+        {
+          "experimental_paragraph_report": "EtOH/toluene",
+          "field": "solvent",
+          "resolution": "unresolved; reaction-medium fields transcribe the experimental paragraph, not a consensus",
+          "scheme_report": "MeOH"
+        }
+      ],
+      "conditions_extraction_status": "source_experimental_paragraph_checked_with_scheme_solvent_conflict",
+      "curation_evidence": {
+        "independent_expert_review": false,
+        "method": "source_experimental_paragraph_crosscheck",
+        "reason": "Recover key reaction conditions from the archived SI experimental paragraph; workup and chromatography solvents are not reaction media. Structure and original yield unchanged. Preserve the existing MeOH versus EtOH/toluene source disagreement.",
+        "references": [
+          {
+            "locator": "SI DOCX experimental paragraph 223: preparation of 29",
+            "locator_kind": "native_document_paragraph",
+            "pages": [],
+            "sha256": "9c776a9a888937f07252254df464d12c299c7b933c4414ae6815604c2dcd5a44",
+            "source_id": "archive-001",
+            "xml_paragraph_index_1based": 223
+          }
+        ],
+        "revision": "2026-10-04-source-repair-1"
+      },
       "drawn_mechanistic_intermediate_labels": [],
+      "duration_hours": 12,
       "event_id": "E15",
+      "experimental_stage_count": 1,
       "formal_benchmark_eligible": false,
       "product_labels": [
         "29"
       ],
       "reactant_labels": [
         "27"
+      ],
+      "reagents": [
+        "Te powder",
+        "NaBH4",
+        "AcOH"
       ],
       "reported_yields": [
         {
@@ -1972,6 +2544,10 @@
       ],
       "review_status": "pending_independent_chemist_review",
       "smiles_scope": "substrates, products and explicitly transcribed organic coupling partners; agents/byproducts not atom-balanced",
+      "solvents": [
+        "EtOH",
+        "toluene"
+      ],
       "source_references": [
         {
           "cdx_sha256": "435f8901c84c46ad34f14b5ea73e994027754f15e6bf158840e986f8ebb147df",
@@ -1985,24 +2561,57 @@
           "source_image_sha256": "f2e6899ebfb72d63e0689d096a1cbdfb3d0f63475532b58e01882baeeab05b29",
           "source_member": "word/embeddings/oleObject14.bin",
           "xml_paragraph_index_1based": 222
+        },
+        {
+          "locator": "SI DOCX experimental paragraph 223: preparation of 29",
+          "locator_kind": "native_document_paragraph",
+          "pages": [],
+          "sha256": "9c776a9a888937f07252254df464d12c299c7b933c4414ae6815604c2dcd5a44",
+          "source_id": "archive-001",
+          "xml_paragraph_index_1based": 223
         }
       ],
       "step_ids": [
         "E15.1"
       ],
-      "substrate_product_smiles": "C[C@@]12C[C@@H]3OC(=O)[C@H]4[C@@H]3[C@@H]1C(=C1C(=O)CCC[C@H]14)[C@@H](O)O2>>C[C@@]12C[C@@H]3OC(=O)[C@H]4[C@@H]3[C@@H]1[C@H](C1C(=O)CCC[C@H]14)[C@@H](O)O2"
+      "substrate_product_smiles": "C[C@@]12C[C@@H]3OC(=O)[C@H]4[C@@H]3[C@@H]1C(=C1C(=O)CCC[C@H]14)[C@@H](O)O2>>C[C@@]12C[C@@H]3OC(=O)[C@H]4[C@@H]3[C@@H]1[C@H](C1C(=O)CCC[C@H]14)[C@@H](O)O2",
+      "temperature_reported": "-20 degC substrate addition, then 25 degC",
+      "time": "12 h after substrate addition; reagent preparation separately 70 degC for 1 h"
     },
     {
       "admission_authority": false,
       "category": "main_route",
+      "conditions_extraction_status": "source_experimental_paragraph_checked_key_conditions",
+      "curation_evidence": {
+        "independent_expert_review": false,
+        "method": "source_experimental_paragraph_crosscheck",
+        "reason": "Recover key reaction conditions from the archived SI experimental paragraph; workup and chromatography solvents are not reaction media. Structure and original yield unchanged.",
+        "references": [
+          {
+            "locator": "SI DOCX experimental paragraph 233: preparation of 10",
+            "locator_kind": "native_document_paragraph",
+            "pages": [],
+            "sha256": "9c776a9a888937f07252254df464d12c299c7b933c4414ae6815604c2dcd5a44",
+            "source_id": "archive-001",
+            "xml_paragraph_index_1based": 233
+          }
+        ],
+        "revision": "2026-10-04-source-repair-1"
+      },
       "drawn_mechanistic_intermediate_labels": [],
+      "duration_hours": 48,
       "event_id": "E16",
+      "experimental_stage_count": 1,
       "formal_benchmark_eligible": false,
       "product_labels": [
         "10"
       ],
       "reactant_labels": [
         "29"
+      ],
+      "reagents": [
+        "MsCl",
+        "DBU"
       ],
       "reported_yields": [
         {
@@ -2014,6 +2623,9 @@
       ],
       "review_status": "pending_independent_chemist_review",
       "smiles_scope": "substrates, products and explicitly transcribed organic coupling partners; agents/byproducts not atom-balanced",
+      "solvents": [
+        "DCE"
+      ],
       "source_references": [
         {
           "cdx_sha256": "bec8ed5a7521d9cac49188294338d9280b4a196ce2aa2ed9d0ebbea254a5113f",
@@ -2027,26 +2639,66 @@
           "source_image_sha256": "d95fa4a501b2463ce0437fadb1345089e6a56b438faed047dbf5ae6fce78df00",
           "source_member": "word/embeddings/oleObject15.bin",
           "xml_paragraph_index_1based": 232
+        },
+        {
+          "locator": "SI DOCX experimental paragraph 233: preparation of 10",
+          "locator_kind": "native_document_paragraph",
+          "pages": [],
+          "sha256": "9c776a9a888937f07252254df464d12c299c7b933c4414ae6815604c2dcd5a44",
+          "source_id": "archive-001",
+          "xml_paragraph_index_1based": 233
         }
       ],
       "step_ids": [
         "E16.1"
       ],
-      "substrate_product_smiles": "C[C@@]12C[C@@H]3OC(=O)[C@H]4[C@@H]3[C@@H]1[C@H](C1C(=O)CCC[C@H]14)[C@@H](O)O2>>C[C@@]12C[C@@H]3OC(=O)[C@H]4[C@@H]3[C@@H]1C(=CO2)C1C(=O)CCC[C@H]14"
+      "substrate_product_smiles": "C[C@@]12C[C@@H]3OC(=O)[C@H]4[C@@H]3[C@@H]1[C@H](C1C(=O)CCC[C@H]14)[C@@H](O)O2>>C[C@@]12C[C@@H]3OC(=O)[C@H]4[C@@H]3[C@@H]1C(=CO2)C1C(=O)CCC[C@H]14",
+      "temperature_reported": "60 degC",
+      "time": "2 days"
     },
     {
       "admission_authority": false,
       "category": "main_route",
+      "conditions_extraction_status": "source_experimental_paragraph_checked_key_conditions",
+      "curation_evidence": {
+        "independent_expert_review": false,
+        "method": "source_experimental_paragraph_crosscheck",
+        "reason": "Recover key reaction conditions from the archived SI experimental paragraph; workup and chromatography solvents are not reaction media. Structure and original yield unchanged. Preserve the separately reported competing hemiacetal product; bracketed 30 is not an isolated operation.",
+        "references": [
+          {
+            "locator": "SI DOCX experimental paragraph 234: preparation of 31",
+            "locator_kind": "native_document_paragraph",
+            "pages": [],
+            "sha256": "9c776a9a888937f07252254df464d12c299c7b933c4414ae6815604c2dcd5a44",
+            "source_id": "archive-001",
+            "xml_paragraph_index_1based": 234
+          }
+        ],
+        "revision": "2026-10-04-source-repair-1"
+      },
       "drawn_mechanistic_intermediate_labels": [
         "30"
       ],
+      "duration_hours": 8,
       "event_id": "E17",
+      "experimental_stage_count": 1,
       "formal_benchmark_eligible": false,
+      "observed_other_products": [
+        {
+          "product_label": "27",
+          "scope": "Separately isolated hemiacetal reported alongside intended 31 (32%); not an additional reaction stage.",
+          "yield_percent": 33
+        }
+      ],
       "product_labels": [
         "31"
       ],
       "reactant_labels": [
         "10"
+      ],
+      "reaction_environment": "Strictly anhydrous and oxygen-free; dried DMDO solution, as required in the experimental paragraph.",
+      "reagents": [
+        "DMDO"
       ],
       "reported_yields": [
         {
@@ -2058,6 +2710,9 @@
       ],
       "review_status": "pending_independent_chemist_review",
       "smiles_scope": "substrates, products and explicitly transcribed organic coupling partners; agents/byproducts not atom-balanced",
+      "solvents": [
+        "DCM"
+      ],
       "source_references": [
         {
           "cdx_sha256": "bec8ed5a7521d9cac49188294338d9280b4a196ce2aa2ed9d0ebbea254a5113f",
@@ -2071,24 +2726,70 @@
           "source_image_sha256": "d95fa4a501b2463ce0437fadb1345089e6a56b438faed047dbf5ae6fce78df00",
           "source_member": "word/embeddings/oleObject15.bin",
           "xml_paragraph_index_1based": 232
+        },
+        {
+          "locator": "SI DOCX experimental paragraph 234: preparation of 31",
+          "locator_kind": "native_document_paragraph",
+          "pages": [],
+          "sha256": "9c776a9a888937f07252254df464d12c299c7b933c4414ae6815604c2dcd5a44",
+          "source_id": "archive-001",
+          "xml_paragraph_index_1based": 234
         }
       ],
       "step_ids": [
         "E17.1"
       ],
-      "substrate_product_smiles": "C[C@@]12C[C@@H]3OC(=O)[C@H]4[C@@H]3[C@@H]1C(=CO2)C1C(=O)CCC[C@H]14>>C[C@]12C[C@@H]3OC(=O)[C@@H]4[C@@H]5CCCC(=O)[C@H]5[C@H](O1)C(=O)[C@H]2[C@@H]43"
+      "substrate_product_smiles": "C[C@@]12C[C@@H]3OC(=O)[C@H]4[C@@H]3[C@@H]1C(=CO2)C1C(=O)CCC[C@H]14>>C[C@]12C[C@@H]3OC(=O)[C@@H]4[C@@H]5CCCC(=O)[C@H]5[C@H](O1)C(=O)[C@H]2[C@@H]43",
+      "temperature_reported": "-78 degC then warming to 5 degC",
+      "time": "1 h at -78 degC, then 7 h warming"
     },
     {
       "admission_authority": false,
       "category": "main_route",
+      "conditions_extraction_status": "source_experimental_paragraph_checked_key_conditions",
+      "curation_evidence": {
+        "independent_expert_review": false,
+        "method": "source_experimental_paragraph_crosscheck",
+        "reason": "Recover key reaction conditions from the archived SI experimental paragraph; workup and chromatography solvents are not reaction media. Structure and original yield unchanged.",
+        "references": [
+          {
+            "locator": "SI DOCX experimental paragraph 244: preparation of 32",
+            "locator_kind": "native_document_paragraph",
+            "pages": [],
+            "sha256": "9c776a9a888937f07252254df464d12c299c7b933c4414ae6815604c2dcd5a44",
+            "source_id": "archive-001",
+            "xml_paragraph_index_1based": 244
+          }
+        ],
+        "revision": "2026-10-04-source-repair-1"
+      },
       "drawn_mechanistic_intermediate_labels": [],
+      "duration_hours": 49,
       "event_id": "E18",
+      "experimental_stage_count": 2,
       "formal_benchmark_eligible": false,
+      "operation_stages": [
+        {
+          "operation": "TBSOTf/TEA treatment in DCM",
+          "temperature_reported": "25 degC",
+          "time": "1 h"
+        },
+        {
+          "operation": "evaporate solvent; Pd(OAc)2 in DMSO",
+          "temperature_reported": "60 degC",
+          "time": "2 days"
+        }
+      ],
       "product_labels": [
         "32"
       ],
       "reactant_labels": [
         "31"
+      ],
+      "reagents": [
+        "TEA",
+        "TBSOTf",
+        "Pd(OAc)2"
       ],
       "reported_yields": [
         {
@@ -2100,6 +2801,10 @@
       ],
       "review_status": "pending_independent_chemist_review",
       "smiles_scope": "substrates, products and explicitly transcribed organic coupling partners; agents/byproducts not atom-balanced",
+      "solvents": [
+        "DCM (first stage)",
+        "DMSO (second stage)"
+      ],
       "source_references": [
         {
           "cdx_sha256": "4c0f51845b46a64658a978b6a04b00d3cb679bab8d8a978543a76822acb7124a",
@@ -2113,18 +2818,47 @@
           "source_image_sha256": "a861a4499142920e0bc4507b65deaefc2d12d591e3de706ce98e11780813679a",
           "source_member": "word/embeddings/oleObject16.bin",
           "xml_paragraph_index_1based": 243
+        },
+        {
+          "locator": "SI DOCX experimental paragraph 244: preparation of 32",
+          "locator_kind": "native_document_paragraph",
+          "pages": [],
+          "sha256": "9c776a9a888937f07252254df464d12c299c7b933c4414ae6815604c2dcd5a44",
+          "source_id": "archive-001",
+          "xml_paragraph_index_1based": 244
         }
       ],
       "step_ids": [
         "E18.1"
       ],
-      "substrate_product_smiles": "C[C@]12C[C@@H]3OC(=O)[C@@H]4[C@@H]5CCCC(=O)[C@H]5[C@H](O1)C(=O)[C@H]2[C@@H]43>>C[C@]12C[C@@H]3OC(=O)[C@@H]4[C@@H]5CC=CC(=O)[C@H]5[C@H](O1)C(=O)[C@H]2[C@@H]43"
+      "substrate_product_smiles": "C[C@]12C[C@@H]3OC(=O)[C@@H]4[C@@H]5CCCC(=O)[C@H]5[C@H](O1)C(=O)[C@H]2[C@@H]43>>C[C@]12C[C@@H]3OC(=O)[C@@H]4[C@@H]5CC=CC(=O)[C@H]5[C@H](O1)C(=O)[C@H]2[C@@H]43",
+      "temperature_reported": "25 degC then 60 degC",
+      "time": "1 h then 2 days"
     },
     {
       "admission_authority": false,
       "category": "main_route",
+      "conditions_extraction_status": "source_experimental_paragraph_checked_key_conditions",
+      "curation_evidence": {
+        "independent_expert_review": false,
+        "method": "source_experimental_paragraph_crosscheck",
+        "reason": "Recover key reaction conditions from the archived SI experimental paragraph; workup and chromatography solvents are not reaction media. Structure and original yield unchanged.",
+        "references": [
+          {
+            "locator": "SI DOCX experimental paragraph 254: preparation of 1",
+            "locator_kind": "native_document_paragraph",
+            "pages": [],
+            "sha256": "9c776a9a888937f07252254df464d12c299c7b933c4414ae6815604c2dcd5a44",
+            "source_id": "archive-001",
+            "xml_paragraph_index_1based": 254
+          }
+        ],
+        "revision": "2026-10-04-source-repair-1"
+      },
       "drawn_mechanistic_intermediate_labels": [],
+      "duration_hours": 24,
       "event_id": "E19",
+      "experimental_stage_count": 1,
       "formal_benchmark_eligible": false,
       "product_labels": [
         "1"
@@ -2132,6 +2866,11 @@
       "reactant_labels": [
         "32",
         "boronate-final"
+      ],
+      "reagents": [
+        "[Rh(cod)Cl]2",
+        "(R)-DTBM-SEGPHOS",
+        "neopentyl glycol"
       ],
       "reported_yields": [
         {
@@ -2143,6 +2882,11 @@
       ],
       "review_status": "pending_independent_chemist_review",
       "smiles_scope": "substrates, products and explicitly transcribed organic coupling partners; agents/byproducts not atom-balanced",
+      "solvents": [
+        "hexane",
+        "MeOH",
+        "water"
+      ],
       "source_references": [
         {
           "cdx_sha256": "33f329b1b40dcea761cf0881f58693ef661b54babc9be71c2b29b08d872ddcfd",
@@ -2156,24 +2900,68 @@
           "source_image_sha256": "188234596eccfd0d690f0212ded4500eef0237fd9f8bc49e0b8635674cb5c73b",
           "source_member": "word/embeddings/oleObject17.bin",
           "xml_paragraph_index_1based": 253
+        },
+        {
+          "locator": "SI DOCX experimental paragraph 254: preparation of 1",
+          "locator_kind": "native_document_paragraph",
+          "pages": [],
+          "sha256": "9c776a9a888937f07252254df464d12c299c7b933c4414ae6815604c2dcd5a44",
+          "source_id": "archive-001",
+          "xml_paragraph_index_1based": 254
         }
       ],
       "step_ids": [
         "E19.1"
       ],
-      "substrate_product_smiles": "C=C(C)B1OC(C)(C)C(C)(C)O1.C[C@]12C[C@@H]3OC(=O)[C@@H]4[C@@H]5CC=CC(=O)[C@H]5[C@H](O1)C(=O)[C@H]2[C@@H]43>>C=C(C)[C@H]1CC(=O)[C@@H]2[C@@H](C1)[C@H]1C(=O)O[C@H]3C[C@@]4(C)O[C@@H]2C(=O)[C@H]4[C@@H]13"
+      "substrate_product_smiles": "C=C(C)B1OC(C)(C)C(C)(C)O1.C[C@]12C[C@@H]3OC(=O)[C@@H]4[C@@H]5CC=CC(=O)[C@H]5[C@H](O1)C(=O)[C@H]2[C@@H]43>>C=C(C)[C@H]1CC(=O)[C@@H]2[C@@H](C1)[C@H]1C(=O)O[C@H]3C[C@@]4(C)O[C@@H]2C(=O)[C@H]4[C@@H]13",
+      "temperature_reported": "60 degC",
+      "time": "24 h"
     },
     {
       "admission_authority": false,
       "category": "alternative_one_pot",
+      "conditions_extraction_status": "source_experimental_paragraph_checked_key_conditions",
+      "curation_evidence": {
+        "independent_expert_review": false,
+        "method": "source_experimental_paragraph_crosscheck",
+        "reason": "Recover key reaction conditions from the archived SI experimental paragraph; workup and chromatography solvents are not reaction media. Structure and original yield unchanged.",
+        "references": [
+          {
+            "locator": "SI DOCX experimental paragraph 191: preparation of 23",
+            "locator_kind": "native_document_paragraph",
+            "pages": [],
+            "sha256": "9c776a9a888937f07252254df464d12c299c7b933c4414ae6815604c2dcd5a44",
+            "source_id": "archive-001",
+            "xml_paragraph_index_1based": 191
+          }
+        ],
+        "revision": "2026-10-04-source-repair-1"
+      },
       "drawn_mechanistic_intermediate_labels": [],
+      "duration_hours": 100,
       "event_id": "E20",
+      "experimental_stage_count": 2,
       "formal_benchmark_eligible": false,
+      "operation_stages": [
+        {
+          "operation": "Grubbs II cyclization",
+          "temperature_reported": "80 degC",
+          "time": "4 h"
+        },
+        {
+          "operation": "thermal cyclization",
+          "temperature_reported": "160 degC",
+          "time": "4 days"
+        }
+      ],
       "product_labels": [
         "23"
       ],
       "reactant_labels": [
         "22"
+      ],
+      "reagents": [
+        "Grubbs II catalyst"
       ],
       "reported_yields": [
         {
@@ -2185,6 +2973,9 @@
       ],
       "review_status": "pending_independent_chemist_review",
       "smiles_scope": "substrates, products and explicitly transcribed organic coupling partners; agents/byproducts not atom-balanced",
+      "solvents": [
+        "p-xylene"
+      ],
       "source_references": [
         {
           "cdx_sha256": "061e664861e93794f49498f9044bc661511fa78ed6348d9d70d079b4f15e9bbe",
@@ -2198,24 +2989,57 @@
           "source_image_sha256": "37ef7d0ff7fbffac241f5a2f98aead5acc484c0a06381bc609949c83687baf90",
           "source_member": "word/embeddings/oleObject10.bin",
           "xml_paragraph_index_1based": 191
+        },
+        {
+          "locator": "SI DOCX experimental paragraph 191: preparation of 23",
+          "locator_kind": "native_document_paragraph",
+          "pages": [],
+          "sha256": "9c776a9a888937f07252254df464d12c299c7b933c4414ae6815604c2dcd5a44",
+          "source_id": "archive-001",
+          "xml_paragraph_index_1based": 191
         }
       ],
       "step_ids": [
         "E20.1"
       ],
-      "substrate_product_smiles": "C=CC(=O)O[C@H](C=C)C[C@@]1(C)C=C(C2=CCCCC2)CO1>>C[C@@]12C[C@@H]3OC(=O)[C@H]4[C@@H]3[C@@H]1C(=C1CCCC[C@H]14)CO2"
+      "substrate_product_smiles": "C=CC(=O)O[C@H](C=C)C[C@@]1(C)C=C(C2=CCCCC2)CO1>>C[C@@]12C[C@@H]3OC(=O)[C@H]4[C@@H]3[C@@H]1C(=C1CCCC[C@H]14)CO2",
+      "temperature_reported": "80 degC then 160 degC",
+      "time": "4 h then 4 days"
     },
     {
       "admission_authority": false,
       "category": "characterization_branch",
+      "conditions_extraction_status": "source_experimental_paragraph_checked_key_conditions",
+      "curation_evidence": {
+        "independent_expert_review": false,
+        "method": "source_experimental_paragraph_crosscheck",
+        "reason": "Recover key reaction conditions from the archived SI experimental paragraph; workup and chromatography solvents are not reaction media. Structure and original yield unchanged.",
+        "references": [
+          {
+            "locator": "SI DOCX experimental paragraph 213: preparation of 28",
+            "locator_kind": "native_document_paragraph",
+            "pages": [],
+            "sha256": "9c776a9a888937f07252254df464d12c299c7b933c4414ae6815604c2dcd5a44",
+            "source_id": "archive-001",
+            "xml_paragraph_index_1based": 213
+          }
+        ],
+        "revision": "2026-10-04-source-repair-1"
+      },
       "drawn_mechanistic_intermediate_labels": [],
+      "duration_hours": 4,
       "event_id": "E21",
+      "experimental_stage_count": 1,
       "formal_benchmark_eligible": false,
       "product_labels": [
         "28"
       ],
       "reactant_labels": [
         "27"
+      ],
+      "reagents": [
+        "TBSCl",
+        "imidazole"
       ],
       "reported_yields": [
         {
@@ -2227,6 +3051,9 @@
       ],
       "review_status": "pending_independent_chemist_review",
       "smiles_scope": "substrates, products and explicitly transcribed organic coupling partners; agents/byproducts not atom-balanced",
+      "solvents": [
+        "DCM"
+      ],
       "source_references": [
         {
           "cdx_sha256": "91db1ce528b430282869384f4ed6789a8e42b3a9cd1c0ae43f2de29f3fba4519",
@@ -2240,12 +3067,22 @@
           "source_image_sha256": "4d2886d2b0ceff2c1a522b6249d3d85b3b44acaddd916db3ecf8a8ef01465a88",
           "source_member": "word/embeddings/oleObject13.bin",
           "xml_paragraph_index_1based": 212
+        },
+        {
+          "locator": "SI DOCX experimental paragraph 213: preparation of 28",
+          "locator_kind": "native_document_paragraph",
+          "pages": [],
+          "sha256": "9c776a9a888937f07252254df464d12c299c7b933c4414ae6815604c2dcd5a44",
+          "source_id": "archive-001",
+          "xml_paragraph_index_1based": 213
         }
       ],
       "step_ids": [
         "E21.1"
       ],
-      "substrate_product_smiles": "C[C@@]12C[C@@H]3OC(=O)[C@H]4[C@@H]3[C@@H]1C(=C1C(=O)CCC[C@H]14)[C@@H](O)O2>>CC(C)(C)[Si](C)(C)O[C@H]1O[C@]2(C)C[C@@H]3OC(=O)[C@H]4[C@@H]3[C@@H]2C1=C1C(=O)CCC[C@H]14"
+      "substrate_product_smiles": "C[C@@]12C[C@@H]3OC(=O)[C@H]4[C@@H]3[C@@H]1C(=C1C(=O)CCC[C@H]14)[C@@H](O)O2>>CC(C)(C)[Si](C)(C)O[C@H]1O[C@]2(C)C[C@@H]3OC(=O)[C@H]4[C@@H]3[C@@H]2C1=C1C(=O)CCC[C@H]14",
+      "temperature_reported": "25 degC",
+      "time": "4 h"
     }
   ],
   "routes": [
@@ -2660,10 +3497,31 @@
     {
       "admission_authority": false,
       "agent_participant_ids": [],
-      "agents": [],
-      "conditions_extraction_status": "not exhaustively standardized in this molecule/endpoint dataset",
+      "agents": [
+        "CS2",
+        "KOH"
+      ],
+      "conditions_extraction_status": "source_experimental_paragraph_checked_key_conditions",
+      "curation_evidence": {
+        "independent_expert_review": false,
+        "method": "source_experimental_paragraph_crosscheck",
+        "reason": "Recover key reaction conditions from the archived SI experimental paragraph; workup and chromatography solvents are not reaction media. Structure and original yield unchanged.",
+        "references": [
+          {
+            "locator": "SI DOCX experimental paragraph 116: preparation of S2",
+            "locator_kind": "native_document_paragraph",
+            "pages": [],
+            "sha256": "9c776a9a888937f07252254df464d12c299c7b933c4414ae6815604c2dcd5a44",
+            "source_id": "archive-001",
+            "xml_paragraph_index_1based": 116
+          }
+        ],
+        "revision": "2026-10-04-source-repair-1"
+      },
       "drawn_mechanistic_intermediate_labels": [],
+      "duration_hours": 19,
       "event_id": "E01",
+      "experimental_stage_count": 1,
       "formal_benchmark_eligible": false,
       "product_labels": [
         "S2"
@@ -2671,7 +3529,9 @@
       "reactant_labels": [
         "S1"
       ],
-      "solvents": [],
+      "solvents": [
+        "water"
+      ],
       "source_references": [
         {
           "cdx_sha256": "1fd84c196c4b68a31dde692026fd2e4b386ecbcb5545510c9a87cd0fa87a63de",
@@ -2685,21 +3545,52 @@
           "source_image_sha256": "67946e250e0aacdc545d4b603b8bd583661b1c4c9847baf0f86a6c37e95de88c",
           "source_member": "word/embeddings/oleObject3.bin",
           "xml_paragraph_index_1based": 113
+        },
+        {
+          "locator": "SI DOCX experimental paragraph 116: preparation of S2",
+          "locator_kind": "native_document_paragraph",
+          "pages": [],
+          "sha256": "9c776a9a888937f07252254df464d12c299c7b933c4414ae6815604c2dcd5a44",
+          "source_id": "archive-001",
+          "xml_paragraph_index_1based": 116
         }
       ],
       "step_id": "E01.1",
       "step_index_within_event": 1,
       "structure_basis": "source_drawing_transcription",
       "substrate_product_smiles": "N[C@@H](CO)Cc1ccccc1>>S=C1N[C@H](Cc2ccccc2)CS1",
+      "temperature_reported": "100 degC",
+      "time": "19 h",
       "yield_percent": 90
     },
     {
       "admission_authority": false,
       "agent_participant_ids": [],
-      "agents": [],
-      "conditions_extraction_status": "not exhaustively standardized in this molecule/endpoint dataset",
+      "agents": [
+        "NaH",
+        "acetyl chloride"
+      ],
+      "conditions_extraction_status": "source_experimental_paragraph_checked_key_conditions",
+      "curation_evidence": {
+        "independent_expert_review": false,
+        "method": "source_experimental_paragraph_crosscheck",
+        "reason": "Recover key reaction conditions from the archived SI experimental paragraph; workup and chromatography solvents are not reaction media. Structure and original yield unchanged.",
+        "references": [
+          {
+            "locator": "SI DOCX experimental paragraph 118: preparation of S3",
+            "locator_kind": "native_document_paragraph",
+            "pages": [],
+            "sha256": "9c776a9a888937f07252254df464d12c299c7b933c4414ae6815604c2dcd5a44",
+            "source_id": "archive-001",
+            "xml_paragraph_index_1based": 118
+          }
+        ],
+        "revision": "2026-10-04-source-repair-1"
+      },
       "drawn_mechanistic_intermediate_labels": [],
+      "duration_hours": 3,
       "event_id": "E02",
+      "experimental_stage_count": 1,
       "formal_benchmark_eligible": false,
       "product_labels": [
         "S3"
@@ -2707,7 +3598,9 @@
       "reactant_labels": [
         "S2"
       ],
-      "solvents": [],
+      "solvents": [
+        "THF"
+      ],
       "source_references": [
         {
           "cdx_sha256": "1fd84c196c4b68a31dde692026fd2e4b386ecbcb5545510c9a87cd0fa87a63de",
@@ -2721,21 +3614,52 @@
           "source_image_sha256": "67946e250e0aacdc545d4b603b8bd583661b1c4c9847baf0f86a6c37e95de88c",
           "source_member": "word/embeddings/oleObject3.bin",
           "xml_paragraph_index_1based": 113
+        },
+        {
+          "locator": "SI DOCX experimental paragraph 118: preparation of S3",
+          "locator_kind": "native_document_paragraph",
+          "pages": [],
+          "sha256": "9c776a9a888937f07252254df464d12c299c7b933c4414ae6815604c2dcd5a44",
+          "source_id": "archive-001",
+          "xml_paragraph_index_1based": 118
         }
       ],
       "step_id": "E02.1",
       "step_index_within_event": 1,
       "structure_basis": "source_drawing_transcription",
       "substrate_product_smiles": "S=C1N[C@H](Cc2ccccc2)CS1>>CC(=O)N1C(=S)SC[C@H]1Cc1ccccc1",
+      "temperature_reported": "0 degC",
+      "time": "30 min after NaH, then 2.5 h after acetyl chloride",
       "yield_percent": 95
     },
     {
       "admission_authority": false,
       "agent_participant_ids": [],
-      "agents": [],
-      "conditions_extraction_status": "not exhaustively standardized in this molecule/endpoint dataset",
+      "agents": [
+        "TiCl4",
+        "DIPEA"
+      ],
+      "conditions_extraction_status": "source_experimental_paragraph_checked_key_conditions",
+      "curation_evidence": {
+        "independent_expert_review": false,
+        "method": "source_experimental_paragraph_crosscheck",
+        "reason": "Recover key reaction conditions from the archived SI experimental paragraph; workup and chromatography solvents are not reaction media. Structure and original yield unchanged.",
+        "references": [
+          {
+            "locator": "SI DOCX experimental paragraph 120: preparation of S5",
+            "locator_kind": "native_document_paragraph",
+            "pages": [],
+            "sha256": "9c776a9a888937f07252254df464d12c299c7b933c4414ae6815604c2dcd5a44",
+            "source_id": "archive-001",
+            "xml_paragraph_index_1based": 120
+          }
+        ],
+        "revision": "2026-10-04-source-repair-1"
+      },
       "drawn_mechanistic_intermediate_labels": [],
+      "duration_hours": null,
       "event_id": "E03",
+      "experimental_stage_count": 1,
       "formal_benchmark_eligible": false,
       "product_labels": [
         "S5"
@@ -2744,7 +3668,9 @@
         "S3",
         "S4"
       ],
-      "solvents": [],
+      "solvents": [
+        "DCM"
+      ],
       "source_references": [
         {
           "cdx_sha256": "1fd84c196c4b68a31dde692026fd2e4b386ecbcb5545510c9a87cd0fa87a63de",
@@ -2758,21 +3684,52 @@
           "source_image_sha256": "67946e250e0aacdc545d4b603b8bd583661b1c4c9847baf0f86a6c37e95de88c",
           "source_member": "word/embeddings/oleObject3.bin",
           "xml_paragraph_index_1based": 113
+        },
+        {
+          "locator": "SI DOCX experimental paragraph 120: preparation of S5",
+          "locator_kind": "native_document_paragraph",
+          "pages": [],
+          "sha256": "9c776a9a888937f07252254df464d12c299c7b933c4414ae6815604c2dcd5a44",
+          "source_id": "archive-001",
+          "xml_paragraph_index_1based": 120
         }
       ],
       "step_id": "E03.1",
       "step_index_within_event": 1,
       "structure_basis": "source_drawing_transcription",
       "substrate_product_smiles": "C=CC=O.CC(=O)N1C(=S)SC[C@H]1Cc1ccccc1>>C=C[C@@H](O)CC(=O)N1C(=S)SC[C@H]1Cc1ccccc1",
+      "temperature_reported": "0 degC activation, then -78 degC to 0 degC",
+      "time": "5 min TiCl4 activation; 30 min base treatment; after acrolein addition 30 min at -78 degC then 30 min at 0 degC",
       "yield_percent": 70
     },
     {
       "admission_authority": false,
       "agent_participant_ids": [],
-      "agents": [],
-      "conditions_extraction_status": "not exhaustively standardized in this molecule/endpoint dataset",
+      "agents": [
+        "imidazole",
+        "Weinreb salt (source wording)"
+      ],
+      "conditions_extraction_status": "source_experimental_paragraph_checked_key_conditions",
+      "curation_evidence": {
+        "independent_expert_review": false,
+        "method": "source_experimental_paragraph_crosscheck",
+        "reason": "Recover key reaction conditions from the archived SI experimental paragraph; workup and chromatography solvents are not reaction media. Structure and original yield unchanged.",
+        "references": [
+          {
+            "locator": "SI DOCX experimental paragraph 122: preparation of S6",
+            "locator_kind": "native_document_paragraph",
+            "pages": [],
+            "sha256": "9c776a9a888937f07252254df464d12c299c7b933c4414ae6815604c2dcd5a44",
+            "source_id": "archive-001",
+            "xml_paragraph_index_1based": 122
+          }
+        ],
+        "revision": "2026-10-04-source-repair-1"
+      },
       "drawn_mechanistic_intermediate_labels": [],
+      "duration_hours": 12,
       "event_id": "E04",
+      "experimental_stage_count": 1,
       "formal_benchmark_eligible": false,
       "product_labels": [
         "S6"
@@ -2780,7 +3737,9 @@
       "reactant_labels": [
         "S5"
       ],
-      "solvents": [],
+      "solvents": [
+        "DCM"
+      ],
       "source_references": [
         {
           "cdx_sha256": "1fd84c196c4b68a31dde692026fd2e4b386ecbcb5545510c9a87cd0fa87a63de",
@@ -2794,21 +3753,51 @@
           "source_image_sha256": "67946e250e0aacdc545d4b603b8bd583661b1c4c9847baf0f86a6c37e95de88c",
           "source_member": "word/embeddings/oleObject3.bin",
           "xml_paragraph_index_1based": 113
+        },
+        {
+          "locator": "SI DOCX experimental paragraph 122: preparation of S6",
+          "locator_kind": "native_document_paragraph",
+          "pages": [],
+          "sha256": "9c776a9a888937f07252254df464d12c299c7b933c4414ae6815604c2dcd5a44",
+          "source_id": "archive-001",
+          "xml_paragraph_index_1based": 122
         }
       ],
       "step_id": "E04.1",
       "step_index_within_event": 1,
       "structure_basis": "source_drawing_transcription",
       "substrate_product_smiles": "C=C[C@@H](O)CC(=O)N1C(=S)SC[C@H]1Cc1ccccc1>>C=C[C@@H](O)CC(=O)N(C)OC",
+      "temperature_reported": "room temperature",
+      "time": "12 h",
       "yield_percent": 85
     },
     {
       "admission_authority": false,
       "agent_participant_ids": [],
-      "agents": [],
-      "conditions_extraction_status": "not exhaustively standardized in this molecule/endpoint dataset",
+      "agents": [
+        "methylmagnesium bromide"
+      ],
+      "conditions_extraction_status": "source_experimental_paragraph_checked_key_conditions",
+      "curation_evidence": {
+        "independent_expert_review": false,
+        "method": "source_experimental_paragraph_crosscheck",
+        "reason": "Recover key reaction conditions from the archived SI experimental paragraph; workup and chromatography solvents are not reaction media. Structure and original yield unchanged.",
+        "references": [
+          {
+            "locator": "SI DOCX experimental paragraph 124: preparation of 15",
+            "locator_kind": "native_document_paragraph",
+            "pages": [],
+            "sha256": "9c776a9a888937f07252254df464d12c299c7b933c4414ae6815604c2dcd5a44",
+            "source_id": "archive-001",
+            "xml_paragraph_index_1based": 124
+          }
+        ],
+        "revision": "2026-10-04-source-repair-1"
+      },
       "drawn_mechanistic_intermediate_labels": [],
+      "duration_hours": null,
       "event_id": "E05",
+      "experimental_stage_count": 1,
       "formal_benchmark_eligible": false,
       "product_labels": [
         "15"
@@ -2816,7 +3805,9 @@
       "reactant_labels": [
         "S6"
       ],
-      "solvents": [],
+      "solvents": [
+        "THF"
+      ],
       "source_references": [
         {
           "cdx_sha256": "1fd84c196c4b68a31dde692026fd2e4b386ecbcb5545510c9a87cd0fa87a63de",
@@ -2830,12 +3821,22 @@
           "source_image_sha256": "67946e250e0aacdc545d4b603b8bd583661b1c4c9847baf0f86a6c37e95de88c",
           "source_member": "word/embeddings/oleObject3.bin",
           "xml_paragraph_index_1based": 113
+        },
+        {
+          "locator": "SI DOCX experimental paragraph 124: preparation of 15",
+          "locator_kind": "native_document_paragraph",
+          "pages": [],
+          "sha256": "9c776a9a888937f07252254df464d12c299c7b933c4414ae6815604c2dcd5a44",
+          "source_id": "archive-001",
+          "xml_paragraph_index_1based": 124
         }
       ],
       "step_id": "E05.1",
       "step_index_within_event": 1,
       "structure_basis": "source_drawing_transcription",
       "substrate_product_smiles": "C=C[C@@H](O)CC(=O)N(C)OC>>C=C[C@@H](O)CC(C)=O",
+      "temperature_reported": "0 degC to room temperature",
+      "time": "overnight",
       "yield_percent": 80
     },
     {
@@ -2844,19 +3845,53 @@
         "agent-16"
       ],
       "agents": [
+        "TBSOTf",
+        "lutidine",
         "16: propargylzinc bromide; organometallic speciation not assigned"
       ],
-      "conditions_extraction_status": "not exhaustively standardized in this molecule/endpoint dataset",
+      "conditions_extraction_status": "source_experimental_paragraph_checked_key_conditions",
+      "curation_evidence": {
+        "independent_expert_review": false,
+        "method": "source_experimental_paragraph_crosscheck",
+        "reason": "Recover key reaction conditions from the archived SI experimental paragraph; workup and chromatography solvents are not reaction media. Structure and original yield unchanged.",
+        "references": [
+          {
+            "locator": "SI DOCX experimental paragraph 127: preparation of 17",
+            "locator_kind": "native_document_paragraph",
+            "pages": [],
+            "sha256": "9c776a9a888937f07252254df464d12c299c7b933c4414ae6815604c2dcd5a44",
+            "source_id": "archive-001",
+            "xml_paragraph_index_1based": 127
+          }
+        ],
+        "revision": "2026-10-04-source-repair-1"
+      },
       "drawn_mechanistic_intermediate_labels": [],
+      "duration_hours": 18,
       "event_id": "E06",
+      "experimental_stage_count": 2,
       "formal_benchmark_eligible": false,
+      "operation_stages": [
+        {
+          "operation": "TBS protection",
+          "temperature_reported": "-60 degC",
+          "time": "12 h"
+        },
+        {
+          "operation": "propargylzinc bromide addition",
+          "temperature_reported": "25 degC",
+          "time": "6 h"
+        }
+      ],
       "product_labels": [
         "17"
       ],
       "reactant_labels": [
         "15"
       ],
-      "solvents": [],
+      "solvents": [
+        "THF"
+      ],
       "source_references": [
         {
           "cdx_sha256": "a9e9380868c688e327d2bd01ffdb9d90831dfc40bc9d79e83337638f33ffedfd",
@@ -2870,21 +3905,53 @@
           "source_image_sha256": "86167a94c8138a3b8f890607cbb042e25b440930b273ee9509c6d3167abd049b",
           "source_member": "word/embeddings/oleObject4.bin",
           "xml_paragraph_index_1based": 126
+        },
+        {
+          "locator": "SI DOCX experimental paragraph 127: preparation of 17",
+          "locator_kind": "native_document_paragraph",
+          "pages": [],
+          "sha256": "9c776a9a888937f07252254df464d12c299c7b933c4414ae6815604c2dcd5a44",
+          "source_id": "archive-001",
+          "xml_paragraph_index_1based": 127
         }
       ],
       "step_id": "E06.1",
       "step_index_within_event": 1,
       "structure_basis": "source_drawing_transcription",
       "substrate_product_smiles": "C=C[C@@H](O)CC(C)=O>>C#CC[C@](C)(O)C[C@@H](C=C)O[Si](C)(C)C(C)(C)C",
+      "temperature_reported": "-60 degC protection, then 25 degC addition",
+      "time": "12 h then 6 h",
       "yield_percent": 53
     },
     {
       "admission_authority": false,
       "agent_participant_ids": [],
-      "agents": [],
-      "conditions_extraction_status": "not exhaustively standardized in this molecule/endpoint dataset",
+      "agents": [
+        "18 (source-labeled reagent; identity not standardized here)",
+        "MsOH",
+        "XphosAuNTf2"
+      ],
+      "conditions_extraction_status": "source_experimental_paragraph_checked_key_conditions",
+      "curation_evidence": {
+        "independent_expert_review": false,
+        "method": "source_experimental_paragraph_crosscheck",
+        "reason": "Recover key reaction conditions from the archived SI experimental paragraph; workup and chromatography solvents are not reaction media. Structure and original yield unchanged.",
+        "references": [
+          {
+            "locator": "SI DOCX experimental paragraph 137: preparation of 14",
+            "locator_kind": "native_document_paragraph",
+            "pages": [],
+            "sha256": "9c776a9a888937f07252254df464d12c299c7b933c4414ae6815604c2dcd5a44",
+            "source_id": "archive-001",
+            "xml_paragraph_index_1based": 137
+          }
+        ],
+        "revision": "2026-10-04-source-repair-1"
+      },
       "drawn_mechanistic_intermediate_labels": [],
+      "duration_hours": 6,
       "event_id": "E07",
+      "experimental_stage_count": 1,
       "formal_benchmark_eligible": false,
       "product_labels": [
         "14"
@@ -2892,7 +3959,9 @@
       "reactant_labels": [
         "17"
       ],
-      "solvents": [],
+      "solvents": [
+        "DCE"
+      ],
       "source_references": [
         {
           "cdx_sha256": "23433abc125ecd834957b33b5d0aa41b378a9af968b2708ba448a33585ca8ffe",
@@ -2906,21 +3975,52 @@
           "source_image_sha256": "db1080ae365aba6b77a5b224fb6ad557bd1d41a9009e92bb128aeec45ce7c4ff",
           "source_member": "word/embeddings/oleObject5.bin",
           "xml_paragraph_index_1based": 136
+        },
+        {
+          "locator": "SI DOCX experimental paragraph 137: preparation of 14",
+          "locator_kind": "native_document_paragraph",
+          "pages": [],
+          "sha256": "9c776a9a888937f07252254df464d12c299c7b933c4414ae6815604c2dcd5a44",
+          "source_id": "archive-001",
+          "xml_paragraph_index_1based": 137
         }
       ],
       "step_id": "E07.1",
       "step_index_within_event": 1,
       "structure_basis": "source_drawing_transcription",
       "substrate_product_smiles": "C#CC[C@](C)(O)C[C@@H](C=C)O[Si](C)(C)C(C)(C)C>>C=C[C@H](C[C@@]1(C)CC(=O)CO1)O[Si](C)(C)C(C)(C)C",
+      "temperature_reported": "25 degC",
+      "time": "6 h",
       "yield_percent": 66
     },
     {
       "admission_authority": false,
       "agent_participant_ids": [],
-      "agents": [],
-      "conditions_extraction_status": "not exhaustively standardized in this molecule/endpoint dataset",
+      "agents": [
+        "NaHMDS",
+        "Comins reagent"
+      ],
+      "conditions_extraction_status": "source_experimental_paragraph_checked_key_conditions",
+      "curation_evidence": {
+        "independent_expert_review": false,
+        "method": "source_experimental_paragraph_crosscheck",
+        "reason": "Recover key reaction conditions from the archived SI experimental paragraph; workup and chromatography solvents are not reaction media. Structure and original yield unchanged.",
+        "references": [
+          {
+            "locator": "SI DOCX experimental paragraph 146: preparation of 19",
+            "locator_kind": "native_document_paragraph",
+            "pages": [],
+            "sha256": "9c776a9a888937f07252254df464d12c299c7b933c4414ae6815604c2dcd5a44",
+            "source_id": "archive-001",
+            "xml_paragraph_index_1based": 146
+          }
+        ],
+        "revision": "2026-10-04-source-repair-1"
+      },
       "drawn_mechanistic_intermediate_labels": [],
+      "duration_hours": 4,
       "event_id": "E08",
+      "experimental_stage_count": 1,
       "formal_benchmark_eligible": false,
       "product_labels": [
         "19"
@@ -2928,7 +4028,9 @@
       "reactant_labels": [
         "14"
       ],
-      "solvents": [],
+      "solvents": [
+        "THF"
+      ],
       "source_references": [
         {
           "cdx_sha256": "f8449b7c0235cbbdf9e7cc73ff0eecffeba5d0e08a0f63ece1b79126a85076f6",
@@ -2942,22 +4044,66 @@
           "source_image_sha256": "c586babd76849e6d2fdcdf15aeef63108504cef92752e15942d8cba80299d7cf",
           "source_member": "word/embeddings/oleObject6.bin",
           "xml_paragraph_index_1based": 145
+        },
+        {
+          "locator": "SI DOCX experimental paragraph 146: preparation of 19",
+          "locator_kind": "native_document_paragraph",
+          "pages": [],
+          "sha256": "9c776a9a888937f07252254df464d12c299c7b933c4414ae6815604c2dcd5a44",
+          "source_id": "archive-001",
+          "xml_paragraph_index_1based": 146
         }
       ],
       "step_id": "E08.1",
       "step_index_within_event": 1,
       "structure_basis": "source_drawing_transcription",
       "substrate_product_smiles": "C=C[C@H](C[C@@]1(C)CC(=O)CO1)O[Si](C)(C)C(C)(C)C>>C=C[C@H](C[C@@]1(C)C=C(OS(=O)(=O)C(F)(F)F)CO1)O[Si](C)(C)C(C)(C)C",
+      "temperature_reported": "-78 degC",
+      "time": "1 h with base, then 3 h after Comins reagent",
       "yield_percent": 77
     },
     {
       "admission_authority": false,
       "agent_participant_ids": [],
-      "agents": [],
-      "conditions_extraction_status": "not exhaustively standardized in this molecule/endpoint dataset",
+      "agents": [
+        "Cs2CO3",
+        "Pd(dppf)2Cl2 (as written in experimental paragraph)",
+        "TBAF"
+      ],
+      "conditions_extraction_status": "source_experimental_paragraph_checked_key_conditions",
+      "curation_evidence": {
+        "independent_expert_review": false,
+        "method": "source_experimental_paragraph_crosscheck",
+        "reason": "Recover key reaction conditions from the archived SI experimental paragraph; workup and chromatography solvents are not reaction media. Structure and original yield unchanged.",
+        "references": [
+          {
+            "locator": "SI DOCX experimental paragraph 155: preparation of 13",
+            "locator_kind": "native_document_paragraph",
+            "pages": [],
+            "sha256": "9c776a9a888937f07252254df464d12c299c7b933c4414ae6815604c2dcd5a44",
+            "source_id": "archive-001",
+            "xml_paragraph_index_1based": 155
+          }
+        ],
+        "revision": "2026-10-04-source-repair-1"
+      },
       "drawn_mechanistic_intermediate_labels": [],
+      "duration_hours": 10,
       "event_id": "E09",
+      "experimental_stage_count": 2,
       "formal_benchmark_eligible": false,
+      "operation_stages": [
+        {
+          "operation": "coupling",
+          "temperature_reported": "65 degC",
+          "time": "6 h"
+        },
+        {
+          "operation": "TBAF desilylation",
+          "temperature_reported": "25 degC",
+          "time": "4 h"
+        }
+      ],
       "product_labels": [
         "13"
       ],
@@ -2965,7 +4111,11 @@
         "19",
         "20"
       ],
-      "solvents": [],
+      "solvents": [
+        "toluene",
+        "water",
+        "THF (TBAF solution carrier)"
+      ],
       "source_references": [
         {
           "cdx_sha256": "114e1974c9a295bb77e142a04c66daff1be7db9a43353d1238f598056f9071a9",
@@ -2979,21 +4129,52 @@
           "source_image_sha256": "bed7522fbb55ff63124b9762765d2eb9f87136c0bcb460f9dfecd74f5cbeb2d8",
           "source_member": "word/embeddings/oleObject7.bin",
           "xml_paragraph_index_1based": 154
+        },
+        {
+          "locator": "SI DOCX experimental paragraph 155: preparation of 13",
+          "locator_kind": "native_document_paragraph",
+          "pages": [],
+          "sha256": "9c776a9a888937f07252254df464d12c299c7b933c4414ae6815604c2dcd5a44",
+          "source_id": "archive-001",
+          "xml_paragraph_index_1based": 155
         }
       ],
       "step_id": "E09.1",
       "step_index_within_event": 1,
       "structure_basis": "source_drawing_transcription",
       "substrate_product_smiles": "C=C[C@H](C[C@@]1(C)C=C(OS(=O)(=O)C(F)(F)F)CO1)O[Si](C)(C)C(C)(C)C.CC1(C)OB(C2=CCCCC2)OC1(C)C>>C=C[C@@H](O)C[C@@]1(C)C=C(C2=CCCCC2)CO1",
+      "temperature_reported": "65 degC coupling, then 25 degC desilylation",
+      "time": "6 h then 4 h",
       "yield_percent": 50
     },
     {
       "admission_authority": false,
       "agent_participant_ids": [],
-      "agents": [],
-      "conditions_extraction_status": "not exhaustively standardized in this molecule/endpoint dataset",
+      "agents": [
+        "DCC",
+        "DMAP"
+      ],
+      "conditions_extraction_status": "source_experimental_paragraph_checked_key_conditions",
+      "curation_evidence": {
+        "independent_expert_review": false,
+        "method": "source_experimental_paragraph_crosscheck",
+        "reason": "Recover key reaction conditions from the archived SI experimental paragraph; workup and chromatography solvents are not reaction media. Structure and original yield unchanged.",
+        "references": [
+          {
+            "locator": "SI DOCX experimental paragraph 164: preparation of 22",
+            "locator_kind": "native_document_paragraph",
+            "pages": [],
+            "sha256": "9c776a9a888937f07252254df464d12c299c7b933c4414ae6815604c2dcd5a44",
+            "source_id": "archive-001",
+            "xml_paragraph_index_1based": 164
+          }
+        ],
+        "revision": "2026-10-04-source-repair-1"
+      },
       "drawn_mechanistic_intermediate_labels": [],
+      "duration_hours": 4,
       "event_id": "E10",
+      "experimental_stage_count": 1,
       "formal_benchmark_eligible": false,
       "product_labels": [
         "22"
@@ -3002,7 +4183,9 @@
         "13",
         "21"
       ],
-      "solvents": [],
+      "solvents": [
+        "DCE"
+      ],
       "source_references": [
         {
           "cdx_sha256": "49fb26b0295350cba4761df1e371234b6217e45123e4764517fbf9dbf1f28ac7",
@@ -3016,21 +4199,51 @@
           "source_image_sha256": "da96404ad32d548e3161fa60b73617c6faf59719b67999b7d495d3588f57765d",
           "source_member": "word/embeddings/oleObject8.bin",
           "xml_paragraph_index_1based": 163
+        },
+        {
+          "locator": "SI DOCX experimental paragraph 164: preparation of 22",
+          "locator_kind": "native_document_paragraph",
+          "pages": [],
+          "sha256": "9c776a9a888937f07252254df464d12c299c7b933c4414ae6815604c2dcd5a44",
+          "source_id": "archive-001",
+          "xml_paragraph_index_1based": 164
         }
       ],
       "step_id": "E10.1",
       "step_index_within_event": 1,
       "structure_basis": "source_drawing_transcription",
       "substrate_product_smiles": "C=CC(=O)O.C=C[C@@H](O)C[C@@]1(C)C=C(C2=CCCCC2)CO1>>C=CC(=O)O[C@H](C=C)C[C@@]1(C)C=C(C2=CCCCC2)CO1",
+      "temperature_reported": "80 degC",
+      "time": "4 h",
       "yield_percent": 85
     },
     {
       "admission_authority": false,
       "agent_participant_ids": [],
-      "agents": [],
-      "conditions_extraction_status": "not exhaustively standardized in this molecule/endpoint dataset",
+      "agents": [
+        "Grubbs II catalyst"
+      ],
+      "conditions_extraction_status": "source_experimental_paragraph_checked_key_conditions",
+      "curation_evidence": {
+        "independent_expert_review": false,
+        "method": "source_experimental_paragraph_crosscheck",
+        "reason": "Recover key reaction conditions from the archived SI experimental paragraph; workup and chromatography solvents are not reaction media. Structure and original yield unchanged.",
+        "references": [
+          {
+            "locator": "SI DOCX experimental paragraph 173: preparation of 12",
+            "locator_kind": "native_document_paragraph",
+            "pages": [],
+            "sha256": "9c776a9a888937f07252254df464d12c299c7b933c4414ae6815604c2dcd5a44",
+            "source_id": "archive-001",
+            "xml_paragraph_index_1based": 173
+          }
+        ],
+        "revision": "2026-10-04-source-repair-1"
+      },
       "drawn_mechanistic_intermediate_labels": [],
+      "duration_hours": 4,
       "event_id": "E11",
+      "experimental_stage_count": 1,
       "formal_benchmark_eligible": false,
       "product_labels": [
         "12"
@@ -3038,7 +4251,9 @@
       "reactant_labels": [
         "22"
       ],
-      "solvents": [],
+      "solvents": [
+        "toluene"
+      ],
       "source_references": [
         {
           "cdx_sha256": "909c9530052d88d323901e8a3b02dd045e0e45e2f424a0e02e704bac9cdb9c56",
@@ -3052,21 +4267,49 @@
           "source_image_sha256": "9916cbecedf6f0b3bb9d1ef4132e4893bb1582f4a785854f417dacad524a09b7",
           "source_member": "word/embeddings/oleObject9.bin",
           "xml_paragraph_index_1based": 172
+        },
+        {
+          "locator": "SI DOCX experimental paragraph 173: preparation of 12",
+          "locator_kind": "native_document_paragraph",
+          "pages": [],
+          "sha256": "9c776a9a888937f07252254df464d12c299c7b933c4414ae6815604c2dcd5a44",
+          "source_id": "archive-001",
+          "xml_paragraph_index_1based": 173
         }
       ],
       "step_id": "E11.1",
       "step_index_within_event": 1,
       "structure_basis": "source_drawing_transcription",
       "substrate_product_smiles": "C=CC(=O)O[C@H](C=C)C[C@@]1(C)C=C(C2=CCCCC2)CO1>>C[C@]1(C[C@H]2C=CC(=O)O2)C=C(C2=CCCCC2)CO1",
+      "temperature_reported": "80 degC",
+      "time": "4 h",
       "yield_percent": 88
     },
     {
       "admission_authority": false,
       "agent_participant_ids": [],
       "agents": [],
-      "conditions_extraction_status": "not exhaustively standardized in this molecule/endpoint dataset",
+      "conditions_extraction_status": "source_experimental_paragraph_checked_key_conditions",
+      "curation_evidence": {
+        "independent_expert_review": false,
+        "method": "source_experimental_paragraph_crosscheck",
+        "reason": "Recover key reaction conditions from the archived SI experimental paragraph; workup and chromatography solvents are not reaction media. Structure and original yield unchanged.",
+        "references": [
+          {
+            "locator": "SI DOCX experimental paragraph 182: preparation of 23",
+            "locator_kind": "native_document_paragraph",
+            "pages": [],
+            "sha256": "9c776a9a888937f07252254df464d12c299c7b933c4414ae6815604c2dcd5a44",
+            "source_id": "archive-001",
+            "xml_paragraph_index_1based": 182
+          }
+        ],
+        "revision": "2026-10-04-source-repair-1"
+      },
       "drawn_mechanistic_intermediate_labels": [],
+      "duration_hours": 96,
       "event_id": "E12",
+      "experimental_stage_count": 1,
       "formal_benchmark_eligible": false,
       "product_labels": [
         "23"
@@ -3074,7 +4317,9 @@
       "reactant_labels": [
         "12"
       ],
-      "solvents": [],
+      "solvents": [
+        "p-xylene"
+      ],
       "source_references": [
         {
           "cdx_sha256": "061e664861e93794f49498f9044bc661511fa78ed6348d9d70d079b4f15e9bbe",
@@ -3088,29 +4333,73 @@
           "source_image_sha256": "37ef7d0ff7fbffac241f5a2f98aead5acc484c0a06381bc609949c83687baf90",
           "source_member": "word/embeddings/oleObject10.bin",
           "xml_paragraph_index_1based": 181
+        },
+        {
+          "locator": "SI DOCX experimental paragraph 182: preparation of 23",
+          "locator_kind": "native_document_paragraph",
+          "pages": [],
+          "sha256": "9c776a9a888937f07252254df464d12c299c7b933c4414ae6815604c2dcd5a44",
+          "source_id": "archive-001",
+          "xml_paragraph_index_1based": 182
         }
       ],
       "step_id": "E12.1",
       "step_index_within_event": 1,
       "structure_basis": "source_drawing_transcription",
       "substrate_product_smiles": "C[C@]1(C[C@H]2C=CC(=O)O2)C=C(C2=CCCCC2)CO1>>C[C@@]12C[C@@H]3OC(=O)[C@H]4[C@@H]3[C@@H]1C(=C1CCCC[C@H]14)CO2",
+      "temperature_reported": "160 degC",
+      "time": "4 days",
       "yield_percent": 72
     },
     {
       "admission_authority": false,
       "agent_participant_ids": [],
-      "agents": [],
-      "conditions_extraction_status": "not exhaustively standardized in this molecule/endpoint dataset",
+      "agents": [
+        "SeO2",
+        "TPAP",
+        "NMO"
+      ],
+      "conditions_extraction_status": "source_experimental_paragraph_checked_key_conditions",
+      "curation_evidence": {
+        "independent_expert_review": false,
+        "method": "source_experimental_paragraph_crosscheck",
+        "reason": "Recover key reaction conditions from the archived SI experimental paragraph; workup and chromatography solvents are not reaction media. Structure and original yield unchanged.",
+        "references": [
+          {
+            "locator": "SI DOCX experimental paragraph 194: preparation of 11",
+            "locator_kind": "native_document_paragraph",
+            "pages": [],
+            "sha256": "9c776a9a888937f07252254df464d12c299c7b933c4414ae6815604c2dcd5a44",
+            "source_id": "archive-001",
+            "xml_paragraph_index_1based": 194
+          }
+        ],
+        "revision": "2026-10-04-source-repair-1"
+      },
       "drawn_mechanistic_intermediate_labels": [],
+      "duration_hours": 5,
       "event_id": "E13",
+      "experimental_stage_count": 2,
       "formal_benchmark_eligible": false,
+      "operation_stages": [
+        {
+          "operation": "SeO2 treatment",
+          "time": "3 h"
+        },
+        {
+          "operation": "TPAP/NMO oxidation",
+          "time": "2 h"
+        }
+      ],
       "product_labels": [
         "11"
       ],
       "reactant_labels": [
         "23"
       ],
-      "solvents": [],
+      "solvents": [
+        "DCM"
+      ],
       "source_references": [
         {
           "cdx_sha256": "37105f38362f473e34581dbcc5674ef9f67786ab9f688a855158a2aebf61e2c1",
@@ -3124,21 +4413,52 @@
           "source_image_sha256": "3f08edec2130fc5dd55737107a6ffafbe3f07a150c3ab70ffb219ede6255a32d",
           "source_member": "word/embeddings/oleObject11.bin",
           "xml_paragraph_index_1based": 193
+        },
+        {
+          "locator": "SI DOCX experimental paragraph 194: preparation of 11",
+          "locator_kind": "native_document_paragraph",
+          "pages": [],
+          "sha256": "9c776a9a888937f07252254df464d12c299c7b933c4414ae6815604c2dcd5a44",
+          "source_id": "archive-001",
+          "xml_paragraph_index_1based": 194
         }
       ],
       "step_id": "E13.1",
       "step_index_within_event": 1,
       "structure_basis": "source_drawing_transcription",
       "substrate_product_smiles": "C[C@@]12C[C@@H]3OC(=O)[C@H]4[C@@H]3[C@@H]1C(=C1CCCC[C@H]14)CO2>>C[C@@]12C[C@@H]3OC(=O)[C@H]4[C@@H]3[C@@H]1C(=C1C(=O)CCC[C@H]14)CO2",
+      "temperature_reported": "25 degC",
+      "time": "3 h with SeO2, then 2 h with TPAP/NMO",
       "yield_percent": 70
     },
     {
       "admission_authority": false,
       "agent_participant_ids": [],
-      "agents": [],
-      "conditions_extraction_status": "not exhaustively standardized in this molecule/endpoint dataset",
+      "agents": [
+        "CuI",
+        "TBHP"
+      ],
+      "conditions_extraction_status": "source_experimental_paragraph_checked_key_conditions",
+      "curation_evidence": {
+        "independent_expert_review": false,
+        "method": "source_experimental_paragraph_crosscheck",
+        "reason": "Recover key reaction conditions from the archived SI experimental paragraph; workup and chromatography solvents are not reaction media. Structure and original yield unchanged.",
+        "references": [
+          {
+            "locator": "SI DOCX experimental paragraph 204: preparation of 27",
+            "locator_kind": "native_document_paragraph",
+            "pages": [],
+            "sha256": "9c776a9a888937f07252254df464d12c299c7b933c4414ae6815604c2dcd5a44",
+            "source_id": "archive-001",
+            "xml_paragraph_index_1based": 204
+          }
+        ],
+        "revision": "2026-10-04-source-repair-1"
+      },
       "drawn_mechanistic_intermediate_labels": [],
+      "duration_hours": 48,
       "event_id": "E14",
+      "experimental_stage_count": 1,
       "formal_benchmark_eligible": false,
       "product_labels": [
         "27"
@@ -3146,7 +4466,9 @@
       "reactant_labels": [
         "11"
       ],
-      "solvents": [],
+      "solvents": [
+        "MeCN"
+      ],
       "source_references": [
         {
           "cdx_sha256": "4200bdc2b030b3c102a15f32709c6ff71cbf7459bcdf966ae99ffc2e1e6fff9e",
@@ -3160,21 +4482,62 @@
           "source_image_sha256": "c87b959c09d9ad437016c9379dea66c7885a5a12a56dcec6655807c4bf545915",
           "source_member": "word/embeddings/oleObject12.bin",
           "xml_paragraph_index_1based": 203
+        },
+        {
+          "locator": "SI DOCX experimental paragraph 204: preparation of 27",
+          "locator_kind": "native_document_paragraph",
+          "pages": [],
+          "sha256": "9c776a9a888937f07252254df464d12c299c7b933c4414ae6815604c2dcd5a44",
+          "source_id": "archive-001",
+          "xml_paragraph_index_1based": 204
         }
       ],
       "step_id": "E14.1",
       "step_index_within_event": 1,
       "structure_basis": "source_drawing_transcription",
       "substrate_product_smiles": "C[C@@]12C[C@@H]3OC(=O)[C@H]4[C@@H]3[C@@H]1C(=C1C(=O)CCC[C@H]14)CO2>>C[C@@]12C[C@@H]3OC(=O)[C@H]4[C@@H]3[C@@H]1C(=C1C(=O)CCC[C@H]14)[C@@H](O)O2",
+      "temperature_reported": "-20 degC addition, then 0 degC",
+      "time": "2 days before thiosulfate treatment",
+      "workup_note": "Source adds aqueous sodium thiosulfate and stirs at 25 degC for 2 h after the 2-day reaction; not included in duration_hours.",
       "yield_percent": 62
     },
     {
       "admission_authority": false,
       "agent_participant_ids": [],
-      "agents": [],
-      "conditions_extraction_status": "not exhaustively standardized in this molecule/endpoint dataset",
+      "agents": [
+        "Te powder",
+        "NaBH4",
+        "AcOH"
+      ],
+      "condition_source_conflicts": [
+        {
+          "experimental_paragraph_report": "EtOH/toluene",
+          "field": "solvent",
+          "resolution": "unresolved; reaction-medium fields transcribe the experimental paragraph, not a consensus",
+          "scheme_report": "MeOH"
+        }
+      ],
+      "conditions_extraction_status": "source_experimental_paragraph_checked_with_scheme_solvent_conflict",
+      "curation_evidence": {
+        "independent_expert_review": false,
+        "method": "source_experimental_paragraph_crosscheck",
+        "reason": "Recover key reaction conditions from the archived SI experimental paragraph; workup and chromatography solvents are not reaction media. Structure and original yield unchanged. Preserve the existing MeOH versus EtOH/toluene source disagreement.",
+        "references": [
+          {
+            "locator": "SI DOCX experimental paragraph 223: preparation of 29",
+            "locator_kind": "native_document_paragraph",
+            "pages": [],
+            "sha256": "9c776a9a888937f07252254df464d12c299c7b933c4414ae6815604c2dcd5a44",
+            "source_id": "archive-001",
+            "xml_paragraph_index_1based": 223
+          }
+        ],
+        "revision": "2026-10-04-source-repair-1"
+      },
       "drawn_mechanistic_intermediate_labels": [],
+      "duration_hours": 12,
       "event_id": "E15",
+      "experimental_stage_count": 1,
       "formal_benchmark_eligible": false,
       "product_labels": [
         "29"
@@ -3182,7 +4545,10 @@
       "reactant_labels": [
         "27"
       ],
-      "solvents": [],
+      "solvents": [
+        "EtOH",
+        "toluene"
+      ],
       "source_references": [
         {
           "cdx_sha256": "435f8901c84c46ad34f14b5ea73e994027754f15e6bf158840e986f8ebb147df",
@@ -3196,21 +4562,52 @@
           "source_image_sha256": "f2e6899ebfb72d63e0689d096a1cbdfb3d0f63475532b58e01882baeeab05b29",
           "source_member": "word/embeddings/oleObject14.bin",
           "xml_paragraph_index_1based": 222
+        },
+        {
+          "locator": "SI DOCX experimental paragraph 223: preparation of 29",
+          "locator_kind": "native_document_paragraph",
+          "pages": [],
+          "sha256": "9c776a9a888937f07252254df464d12c299c7b933c4414ae6815604c2dcd5a44",
+          "source_id": "archive-001",
+          "xml_paragraph_index_1based": 223
         }
       ],
       "step_id": "E15.1",
       "step_index_within_event": 1,
       "structure_basis": "source_drawing_transcription",
       "substrate_product_smiles": "C[C@@]12C[C@@H]3OC(=O)[C@H]4[C@@H]3[C@@H]1C(=C1C(=O)CCC[C@H]14)[C@@H](O)O2>>C[C@@]12C[C@@H]3OC(=O)[C@H]4[C@@H]3[C@@H]1[C@H](C1C(=O)CCC[C@H]14)[C@@H](O)O2",
+      "temperature_reported": "-20 degC substrate addition, then 25 degC",
+      "time": "12 h after substrate addition; reagent preparation separately 70 degC for 1 h",
       "yield_percent": 70
     },
     {
       "admission_authority": false,
       "agent_participant_ids": [],
-      "agents": [],
-      "conditions_extraction_status": "not exhaustively standardized in this molecule/endpoint dataset",
+      "agents": [
+        "MsCl",
+        "DBU"
+      ],
+      "conditions_extraction_status": "source_experimental_paragraph_checked_key_conditions",
+      "curation_evidence": {
+        "independent_expert_review": false,
+        "method": "source_experimental_paragraph_crosscheck",
+        "reason": "Recover key reaction conditions from the archived SI experimental paragraph; workup and chromatography solvents are not reaction media. Structure and original yield unchanged.",
+        "references": [
+          {
+            "locator": "SI DOCX experimental paragraph 233: preparation of 10",
+            "locator_kind": "native_document_paragraph",
+            "pages": [],
+            "sha256": "9c776a9a888937f07252254df464d12c299c7b933c4414ae6815604c2dcd5a44",
+            "source_id": "archive-001",
+            "xml_paragraph_index_1based": 233
+          }
+        ],
+        "revision": "2026-10-04-source-repair-1"
+      },
       "drawn_mechanistic_intermediate_labels": [],
+      "duration_hours": 48,
       "event_id": "E16",
+      "experimental_stage_count": 1,
       "formal_benchmark_eligible": false,
       "product_labels": [
         "10"
@@ -3218,7 +4615,9 @@
       "reactant_labels": [
         "29"
       ],
-      "solvents": [],
+      "solvents": [
+        "DCE"
+      ],
       "source_references": [
         {
           "cdx_sha256": "bec8ed5a7521d9cac49188294338d9280b4a196ce2aa2ed9d0ebbea254a5113f",
@@ -3232,31 +4631,71 @@
           "source_image_sha256": "d95fa4a501b2463ce0437fadb1345089e6a56b438faed047dbf5ae6fce78df00",
           "source_member": "word/embeddings/oleObject15.bin",
           "xml_paragraph_index_1based": 232
+        },
+        {
+          "locator": "SI DOCX experimental paragraph 233: preparation of 10",
+          "locator_kind": "native_document_paragraph",
+          "pages": [],
+          "sha256": "9c776a9a888937f07252254df464d12c299c7b933c4414ae6815604c2dcd5a44",
+          "source_id": "archive-001",
+          "xml_paragraph_index_1based": 233
         }
       ],
       "step_id": "E16.1",
       "step_index_within_event": 1,
       "structure_basis": "source_drawing_transcription",
       "substrate_product_smiles": "C[C@@]12C[C@@H]3OC(=O)[C@H]4[C@@H]3[C@@H]1[C@H](C1C(=O)CCC[C@H]14)[C@@H](O)O2>>C[C@@]12C[C@@H]3OC(=O)[C@H]4[C@@H]3[C@@H]1C(=CO2)C1C(=O)CCC[C@H]14",
+      "temperature_reported": "60 degC",
+      "time": "2 days",
       "yield_percent": 56
     },
     {
       "admission_authority": false,
       "agent_participant_ids": [],
-      "agents": [],
-      "conditions_extraction_status": "not exhaustively standardized in this molecule/endpoint dataset",
+      "agents": [
+        "DMDO"
+      ],
+      "conditions_extraction_status": "source_experimental_paragraph_checked_key_conditions",
+      "curation_evidence": {
+        "independent_expert_review": false,
+        "method": "source_experimental_paragraph_crosscheck",
+        "reason": "Recover key reaction conditions from the archived SI experimental paragraph; workup and chromatography solvents are not reaction media. Structure and original yield unchanged. Preserve the separately reported competing hemiacetal product; bracketed 30 is not an isolated operation.",
+        "references": [
+          {
+            "locator": "SI DOCX experimental paragraph 234: preparation of 31",
+            "locator_kind": "native_document_paragraph",
+            "pages": [],
+            "sha256": "9c776a9a888937f07252254df464d12c299c7b933c4414ae6815604c2dcd5a44",
+            "source_id": "archive-001",
+            "xml_paragraph_index_1based": 234
+          }
+        ],
+        "revision": "2026-10-04-source-repair-1"
+      },
       "drawn_mechanistic_intermediate_labels": [
         "30"
       ],
+      "duration_hours": 8,
       "event_id": "E17",
+      "experimental_stage_count": 1,
       "formal_benchmark_eligible": false,
+      "observed_other_products": [
+        {
+          "product_label": "27",
+          "scope": "Separately isolated hemiacetal reported alongside intended 31 (32%); not an additional reaction stage.",
+          "yield_percent": 33
+        }
+      ],
       "product_labels": [
         "31"
       ],
       "reactant_labels": [
         "10"
       ],
-      "solvents": [],
+      "reaction_environment": "Strictly anhydrous and oxygen-free; dried DMDO solution, as required in the experimental paragraph.",
+      "solvents": [
+        "DCM"
+      ],
       "source_references": [
         {
           "cdx_sha256": "bec8ed5a7521d9cac49188294338d9280b4a196ce2aa2ed9d0ebbea254a5113f",
@@ -3270,29 +4709,76 @@
           "source_image_sha256": "d95fa4a501b2463ce0437fadb1345089e6a56b438faed047dbf5ae6fce78df00",
           "source_member": "word/embeddings/oleObject15.bin",
           "xml_paragraph_index_1based": 232
+        },
+        {
+          "locator": "SI DOCX experimental paragraph 234: preparation of 31",
+          "locator_kind": "native_document_paragraph",
+          "pages": [],
+          "sha256": "9c776a9a888937f07252254df464d12c299c7b933c4414ae6815604c2dcd5a44",
+          "source_id": "archive-001",
+          "xml_paragraph_index_1based": 234
         }
       ],
       "step_id": "E17.1",
       "step_index_within_event": 1,
       "structure_basis": "source_drawing_transcription",
       "substrate_product_smiles": "C[C@@]12C[C@@H]3OC(=O)[C@H]4[C@@H]3[C@@H]1C(=CO2)C1C(=O)CCC[C@H]14>>C[C@]12C[C@@H]3OC(=O)[C@@H]4[C@@H]5CCCC(=O)[C@H]5[C@H](O1)C(=O)[C@H]2[C@@H]43",
+      "temperature_reported": "-78 degC then warming to 5 degC",
+      "time": "1 h at -78 degC, then 7 h warming",
       "yield_percent": 32
     },
     {
       "admission_authority": false,
       "agent_participant_ids": [],
-      "agents": [],
-      "conditions_extraction_status": "not exhaustively standardized in this molecule/endpoint dataset",
+      "agents": [
+        "TEA",
+        "TBSOTf",
+        "Pd(OAc)2"
+      ],
+      "conditions_extraction_status": "source_experimental_paragraph_checked_key_conditions",
+      "curation_evidence": {
+        "independent_expert_review": false,
+        "method": "source_experimental_paragraph_crosscheck",
+        "reason": "Recover key reaction conditions from the archived SI experimental paragraph; workup and chromatography solvents are not reaction media. Structure and original yield unchanged.",
+        "references": [
+          {
+            "locator": "SI DOCX experimental paragraph 244: preparation of 32",
+            "locator_kind": "native_document_paragraph",
+            "pages": [],
+            "sha256": "9c776a9a888937f07252254df464d12c299c7b933c4414ae6815604c2dcd5a44",
+            "source_id": "archive-001",
+            "xml_paragraph_index_1based": 244
+          }
+        ],
+        "revision": "2026-10-04-source-repair-1"
+      },
       "drawn_mechanistic_intermediate_labels": [],
+      "duration_hours": 49,
       "event_id": "E18",
+      "experimental_stage_count": 2,
       "formal_benchmark_eligible": false,
+      "operation_stages": [
+        {
+          "operation": "TBSOTf/TEA treatment in DCM",
+          "temperature_reported": "25 degC",
+          "time": "1 h"
+        },
+        {
+          "operation": "evaporate solvent; Pd(OAc)2 in DMSO",
+          "temperature_reported": "60 degC",
+          "time": "2 days"
+        }
+      ],
       "product_labels": [
         "32"
       ],
       "reactant_labels": [
         "31"
       ],
-      "solvents": [],
+      "solvents": [
+        "DCM (first stage)",
+        "DMSO (second stage)"
+      ],
       "source_references": [
         {
           "cdx_sha256": "4c0f51845b46a64658a978b6a04b00d3cb679bab8d8a978543a76822acb7124a",
@@ -3306,21 +4792,53 @@
           "source_image_sha256": "a861a4499142920e0bc4507b65deaefc2d12d591e3de706ce98e11780813679a",
           "source_member": "word/embeddings/oleObject16.bin",
           "xml_paragraph_index_1based": 243
+        },
+        {
+          "locator": "SI DOCX experimental paragraph 244: preparation of 32",
+          "locator_kind": "native_document_paragraph",
+          "pages": [],
+          "sha256": "9c776a9a888937f07252254df464d12c299c7b933c4414ae6815604c2dcd5a44",
+          "source_id": "archive-001",
+          "xml_paragraph_index_1based": 244
         }
       ],
       "step_id": "E18.1",
       "step_index_within_event": 1,
       "structure_basis": "source_drawing_transcription",
       "substrate_product_smiles": "C[C@]12C[C@@H]3OC(=O)[C@@H]4[C@@H]5CCCC(=O)[C@H]5[C@H](O1)C(=O)[C@H]2[C@@H]43>>C[C@]12C[C@@H]3OC(=O)[C@@H]4[C@@H]5CC=CC(=O)[C@H]5[C@H](O1)C(=O)[C@H]2[C@@H]43",
+      "temperature_reported": "25 degC then 60 degC",
+      "time": "1 h then 2 days",
       "yield_percent": 78
     },
     {
       "admission_authority": false,
       "agent_participant_ids": [],
-      "agents": [],
-      "conditions_extraction_status": "not exhaustively standardized in this molecule/endpoint dataset",
+      "agents": [
+        "[Rh(cod)Cl]2",
+        "(R)-DTBM-SEGPHOS",
+        "neopentyl glycol"
+      ],
+      "conditions_extraction_status": "source_experimental_paragraph_checked_key_conditions",
+      "curation_evidence": {
+        "independent_expert_review": false,
+        "method": "source_experimental_paragraph_crosscheck",
+        "reason": "Recover key reaction conditions from the archived SI experimental paragraph; workup and chromatography solvents are not reaction media. Structure and original yield unchanged.",
+        "references": [
+          {
+            "locator": "SI DOCX experimental paragraph 254: preparation of 1",
+            "locator_kind": "native_document_paragraph",
+            "pages": [],
+            "sha256": "9c776a9a888937f07252254df464d12c299c7b933c4414ae6815604c2dcd5a44",
+            "source_id": "archive-001",
+            "xml_paragraph_index_1based": 254
+          }
+        ],
+        "revision": "2026-10-04-source-repair-1"
+      },
       "drawn_mechanistic_intermediate_labels": [],
+      "duration_hours": 24,
       "event_id": "E19",
+      "experimental_stage_count": 1,
       "formal_benchmark_eligible": false,
       "product_labels": [
         "1"
@@ -3329,7 +4847,11 @@
         "32",
         "boronate-final"
       ],
-      "solvents": [],
+      "solvents": [
+        "hexane",
+        "MeOH",
+        "water"
+      ],
       "source_references": [
         {
           "cdx_sha256": "33f329b1b40dcea761cf0881f58693ef661b54babc9be71c2b29b08d872ddcfd",
@@ -3343,29 +4865,73 @@
           "source_image_sha256": "188234596eccfd0d690f0212ded4500eef0237fd9f8bc49e0b8635674cb5c73b",
           "source_member": "word/embeddings/oleObject17.bin",
           "xml_paragraph_index_1based": 253
+        },
+        {
+          "locator": "SI DOCX experimental paragraph 254: preparation of 1",
+          "locator_kind": "native_document_paragraph",
+          "pages": [],
+          "sha256": "9c776a9a888937f07252254df464d12c299c7b933c4414ae6815604c2dcd5a44",
+          "source_id": "archive-001",
+          "xml_paragraph_index_1based": 254
         }
       ],
       "step_id": "E19.1",
       "step_index_within_event": 1,
       "structure_basis": "source_drawing_transcription",
       "substrate_product_smiles": "C=C(C)B1OC(C)(C)C(C)(C)O1.C[C@]12C[C@@H]3OC(=O)[C@@H]4[C@@H]5CC=CC(=O)[C@H]5[C@H](O1)C(=O)[C@H]2[C@@H]43>>C=C(C)[C@H]1CC(=O)[C@@H]2[C@@H](C1)[C@H]1C(=O)O[C@H]3C[C@@]4(C)O[C@@H]2C(=O)[C@H]4[C@@H]13",
+      "temperature_reported": "60 degC",
+      "time": "24 h",
       "yield_percent": 65
     },
     {
       "admission_authority": false,
       "agent_participant_ids": [],
-      "agents": [],
-      "conditions_extraction_status": "not exhaustively standardized in this molecule/endpoint dataset",
+      "agents": [
+        "Grubbs II catalyst"
+      ],
+      "conditions_extraction_status": "source_experimental_paragraph_checked_key_conditions",
+      "curation_evidence": {
+        "independent_expert_review": false,
+        "method": "source_experimental_paragraph_crosscheck",
+        "reason": "Recover key reaction conditions from the archived SI experimental paragraph; workup and chromatography solvents are not reaction media. Structure and original yield unchanged.",
+        "references": [
+          {
+            "locator": "SI DOCX experimental paragraph 191: preparation of 23",
+            "locator_kind": "native_document_paragraph",
+            "pages": [],
+            "sha256": "9c776a9a888937f07252254df464d12c299c7b933c4414ae6815604c2dcd5a44",
+            "source_id": "archive-001",
+            "xml_paragraph_index_1based": 191
+          }
+        ],
+        "revision": "2026-10-04-source-repair-1"
+      },
       "drawn_mechanistic_intermediate_labels": [],
+      "duration_hours": 100,
       "event_id": "E20",
+      "experimental_stage_count": 2,
       "formal_benchmark_eligible": false,
+      "operation_stages": [
+        {
+          "operation": "Grubbs II cyclization",
+          "temperature_reported": "80 degC",
+          "time": "4 h"
+        },
+        {
+          "operation": "thermal cyclization",
+          "temperature_reported": "160 degC",
+          "time": "4 days"
+        }
+      ],
       "product_labels": [
         "23"
       ],
       "reactant_labels": [
         "22"
       ],
-      "solvents": [],
+      "solvents": [
+        "p-xylene"
+      ],
       "source_references": [
         {
           "cdx_sha256": "061e664861e93794f49498f9044bc661511fa78ed6348d9d70d079b4f15e9bbe",
@@ -3379,21 +4945,52 @@
           "source_image_sha256": "37ef7d0ff7fbffac241f5a2f98aead5acc484c0a06381bc609949c83687baf90",
           "source_member": "word/embeddings/oleObject10.bin",
           "xml_paragraph_index_1based": 191
+        },
+        {
+          "locator": "SI DOCX experimental paragraph 191: preparation of 23",
+          "locator_kind": "native_document_paragraph",
+          "pages": [],
+          "sha256": "9c776a9a888937f07252254df464d12c299c7b933c4414ae6815604c2dcd5a44",
+          "source_id": "archive-001",
+          "xml_paragraph_index_1based": 191
         }
       ],
       "step_id": "E20.1",
       "step_index_within_event": 1,
       "structure_basis": "source_drawing_transcription",
       "substrate_product_smiles": "C=CC(=O)O[C@H](C=C)C[C@@]1(C)C=C(C2=CCCCC2)CO1>>C[C@@]12C[C@@H]3OC(=O)[C@H]4[C@@H]3[C@@H]1C(=C1CCCC[C@H]14)CO2",
+      "temperature_reported": "80 degC then 160 degC",
+      "time": "4 h then 4 days",
       "yield_percent": 55
     },
     {
       "admission_authority": false,
       "agent_participant_ids": [],
-      "agents": [],
-      "conditions_extraction_status": "not exhaustively standardized in this molecule/endpoint dataset",
+      "agents": [
+        "TBSCl",
+        "imidazole"
+      ],
+      "conditions_extraction_status": "source_experimental_paragraph_checked_key_conditions",
+      "curation_evidence": {
+        "independent_expert_review": false,
+        "method": "source_experimental_paragraph_crosscheck",
+        "reason": "Recover key reaction conditions from the archived SI experimental paragraph; workup and chromatography solvents are not reaction media. Structure and original yield unchanged.",
+        "references": [
+          {
+            "locator": "SI DOCX experimental paragraph 213: preparation of 28",
+            "locator_kind": "native_document_paragraph",
+            "pages": [],
+            "sha256": "9c776a9a888937f07252254df464d12c299c7b933c4414ae6815604c2dcd5a44",
+            "source_id": "archive-001",
+            "xml_paragraph_index_1based": 213
+          }
+        ],
+        "revision": "2026-10-04-source-repair-1"
+      },
       "drawn_mechanistic_intermediate_labels": [],
+      "duration_hours": 4,
       "event_id": "E21",
+      "experimental_stage_count": 1,
       "formal_benchmark_eligible": false,
       "product_labels": [
         "28"
@@ -3401,7 +4998,9 @@
       "reactant_labels": [
         "27"
       ],
-      "solvents": [],
+      "solvents": [
+        "DCM"
+      ],
       "source_references": [
         {
           "cdx_sha256": "91db1ce528b430282869384f4ed6789a8e42b3a9cd1c0ae43f2de29f3fba4519",
@@ -3415,12 +5014,22 @@
           "source_image_sha256": "4d2886d2b0ceff2c1a522b6249d3d85b3b44acaddd916db3ecf8a8ef01465a88",
           "source_member": "word/embeddings/oleObject13.bin",
           "xml_paragraph_index_1based": 212
+        },
+        {
+          "locator": "SI DOCX experimental paragraph 213: preparation of 28",
+          "locator_kind": "native_document_paragraph",
+          "pages": [],
+          "sha256": "9c776a9a888937f07252254df464d12c299c7b933c4414ae6815604c2dcd5a44",
+          "source_id": "archive-001",
+          "xml_paragraph_index_1based": 213
         }
       ],
       "step_id": "E21.1",
       "step_index_within_event": 1,
       "structure_basis": "source_drawing_transcription",
       "substrate_product_smiles": "C[C@@]12C[C@@H]3OC(=O)[C@H]4[C@@H]3[C@@H]1C(=C1C(=O)CCC[C@H]14)[C@@H](O)O2>>CC(C)(C)[Si](C)(C)O[C@H]1O[C@]2(C)C[C@@H]3OC(=O)[C@H]4[C@@H]3[C@@H]2C1=C1C(=O)CCC[C@H]14",
+      "temperature_reported": "25 degC",
+      "time": "4 h",
       "yield_percent": 90
     }
   ],

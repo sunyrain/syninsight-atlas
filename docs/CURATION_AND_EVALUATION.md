@@ -4,9 +4,10 @@
 
 The objective is a literature-derived reference benchmark for trained machine-learning
 retrosynthesis models, covering single-step precursor prediction and multi-step
-planning. Current exports are candidate records. Frozen task splits, scoring tools
-and published model results are not yet provided. The protocol below describes the
-requirements for a future reproducible evaluation, not completed evaluations.
+planning. Current exports are candidate records. A reproducible candidate compiler,
+grouped splits and deterministic scorer are now provided; published model results
+and independently admitted reference tasks are not. See [the executable protocol](BENCHMARK_PROTOCOL.md).
+The requirements below distinguish candidate diagnostics from formal evaluation.
 
 ## Reference admission
 

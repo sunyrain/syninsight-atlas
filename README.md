@@ -9,10 +9,12 @@ predictions and complete proposed routes against documented experimental synthes
 The desktop website is an inspection interface for the benchmark data: researchers
 can search reaction records, inspect connected pathways, and trace steps to sources.
 
-**Status: candidate benchmark data under curation.** The repository contains route
-records and provenance, but does not yet provide a frozen train/validation/test split,
-an automated scoring suite, or a model leaderboard. Independent chemical review is
-still required before records are admitted as benchmark reference truth.
+**Status: executable candidate benchmark under curation.** The repair branch now
+provides source corrections, grouped candidate splits, separated model inputs and
+reference answers, and deterministic single-step/multistep scoring. These are not
+chemically admitted reference tasks or a model leaderboard. Independent chemical
+review remains pending. See the [benchmark protocol](docs/BENCHMARK_PROTOCOL.md)
+and [repair status](docs/BENCHMARK_REPAIR_STATUS.md).
 
 [Reaction CSV](data/database/SynInsight_ABSynth_Dataset.csv) ·
 [Provenance metadata](data/database/absynth_metadata.json) ·
@@ -47,7 +49,7 @@ TSV export. Its ABSynth-style layout contains these nine columns:
 | `Conditions` | Recorded conditions serialized as text |
 
 Missing values mean not recorded, not a negative observation. Reaction names are
-blank in 6,409 rows and conditions in 215 rows. Do not infer missing chemistry from
+blank in 6,409 rows and conditions in 152 rows after the first source corrections. Do not infer missing chemistry from
 these fields. The companion `absynth_metadata.json` links paths and steps to case
 records, operation identifiers, source locators, yields, coverage and review state.
 See [format and scope](docs/ABSYNTH_DATASET.md) for details.
@@ -71,9 +73,10 @@ See [format and scope](docs/ABSYNTH_DATASET.md) for details.
    chemically sound. Assess plausibility, stereochemistry and strategic value
    separately from exact reference recovery; stock closure alone is not validation.
 
-This is the proposed evaluation design, not a claim that these metrics are already
-implemented or that any model has been scored. Detailed admission and reporting
-rules are in [Curation and evaluation](docs/CURATION_AND_EVALUATION.md).
+The candidate compiler and deterministic reference-recovery/closure scorer are
+implemented. Chemical-quality evaluation and independent reference admission remain
+pending; no new model scores are claimed by this repair work. Detailed admission
+and reporting rules are in [Curation and evaluation](docs/CURATION_AND_EVALUATION.md).
 
 ## Browse and run locally
 

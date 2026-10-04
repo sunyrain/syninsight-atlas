@@ -2357,10 +2357,28 @@
   {
     "admission_authority": false,
     "agents": [],
+    "conditions_extraction_status": "source_checked_reported_fields",
+    "curation_evidence": {
+      "revision": "2026-10-04-source-repair-1",
+      "method": "source_text_and_scheme_crosscheck",
+      "independent_expert_review": false,
+      "reason": "Recover reaction conditions from the experimental paragraph, not NMR characterization; no added catalyst is specified.",
+      "references": [
+        {
+          "source_id": "si",
+          "sha256": "05cf7774957afc63c24a518364b023253f356f2c3b8ae9705dfa85958565d982",
+          "pages": [
+            25
+          ],
+          "locator": "SI Section 5, Scheme S2 and experimental paragraph Nitroethylindole S12"
+        }
+      ]
+    },
+    "duration_hours": 24.0,
     "event_id": "F01",
     "experimental_stage_count": 1,
     "formal_benchmark_eligible": false,
-    "operation_scope": "Source-reported preparation; reaction SMILES excludes workup species and is not atom-balanced.",
+    "operation_scope": "One source-reported nitroethylindole preparation; chromatography solvents excluded from reaction media.",
     "product_labels": [
       "S12"
     ],
@@ -2377,7 +2395,10 @@
       "nitroethylene"
     ],
     "review_status": "pending_independent_chemist_review",
-    "solvents": [],
+    "solvents": [
+      "benzene",
+      "toluene (nitroethylene solution carrier)"
+    ],
     "source_references": [
       {
         "locator": "Main experimental section / scheme: F01",
@@ -2394,12 +2415,22 @@
         ],
         "sha256": "05cf7774957afc63c24a518364b023253f356f2c3b8ae9705dfa85958565d982",
         "source_id": "si"
+      },
+      {
+        "locator": "SI Section 5, Scheme S2 and experimental paragraph Nitroethylindole S12",
+        "pages": [
+          25
+        ],
+        "sha256": "05cf7774957afc63c24a518364b023253f356f2c3b8ae9705dfa85958565d982",
+        "source_id": "si"
       }
     ],
     "step_id": "F01.1",
     "step_index_within_event": 1,
     "structure_basis": "source_drawing_transcription",
     "substrate_product_smiles": "C=C[N+](=O)[O-].Oc1cccc2[nH]ccc12>>O=[N+]([O-])CCc1c[nH]c2cccc(O)c12",
+    "temperature_reported": "0 degC addition, then room temperature",
+    "time": "24 h at room temperature",
     "yield_percent": 60
   },
   {

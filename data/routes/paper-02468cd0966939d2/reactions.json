@@ -543,6 +543,24 @@
   {
     "admission_authority": false,
     "category": "forward_synthesis",
+    "conditions_extraction_status": "source_checked_reported_fields",
+    "curation_evidence": {
+      "revision": "2026-10-04-source-repair-1",
+      "method": "source_text_and_scheme_crosscheck",
+      "independent_expert_review": false,
+      "reason": "Recover actual reaction timing; 2 h refers to reagent preactivation, not substrate conversion.",
+      "references": [
+        {
+          "source_id": "article",
+          "sha256": "6e6c1aa1248fc1038d2d8b8dc93ffb6cd827368522528f94dd06543ab7cf3b73",
+          "pages": [
+            15
+          ],
+          "locator": "Experimental preparation of indolo[1,2-c]quinazoline 35: Fischer indolization 33 to 34"
+        }
+      ]
+    },
+    "duration_hours": 0.5,
     "event_id": "A02",
     "experimental_stage_count": 1,
     "formal_benchmark_eligible": false,
@@ -559,10 +577,20 @@
     ],
     "reported_yields": [],
     "review_status": "pending_independent_chemist_review",
-    "solvents": [],
+    "solvents": [
+      "methanesulfonic acid"
+    ],
     "source_references": [
       {
         "locator": "Main experimental section / scheme: A02",
+        "pages": [
+          15
+        ],
+        "sha256": "6e6c1aa1248fc1038d2d8b8dc93ffb6cd827368522528f94dd06543ab7cf3b73",
+        "source_id": "article"
+      },
+      {
+        "locator": "Experimental preparation of indolo[1,2-c]quinazoline 35: Fischer indolization 33 to 34",
         "pages": [
           15
         ],
@@ -573,11 +601,32 @@
     "step_ids": [
       "A02.1"
     ],
-    "substrate_product_smiles": "C/C(=N\\Nc1ccccc1)c1ccccc1N>>Nc1ccccc1-c1cc2ccccc2[nH]1"
+    "substrate_product_smiles": "C/C(=N\\Nc1ccccc1)c1ccccc1N>>Nc1ccccc1-c1cc2ccccc2[nH]1",
+    "temperature_reported": "80 degC",
+    "time": "30 min after a 10 min substrate addition; acid/P2O5 preactivation approximately 2 h"
   },
   {
     "admission_authority": false,
     "category": "forward_synthesis",
+    "conditions_extraction_status": "source_checked_reported_fields",
+    "curation_evidence": {
+      "revision": "2026-10-04-source-repair-1",
+      "method": "source_text_and_scheme_crosscheck",
+      "independent_expert_review": false,
+      "reason": "Formic acid is both an incorporated reactant and reaction medium. Do not assign the 93% combined yield to this last operation alone.",
+      "references": [
+        {
+          "source_id": "article",
+          "sha256": "6e6c1aa1248fc1038d2d8b8dc93ffb6cd827368522528f94dd06543ab7cf3b73",
+          "pages": [
+            15,
+            16
+          ],
+          "locator": "Experimental preparation of 35: formic acid cyclization and isolated two-step yield"
+        }
+      ]
+    },
+    "duration_hours": 1.0,
     "event_id": "A03",
     "experimental_stage_count": 1,
     "formal_benchmark_eligible": false,
@@ -599,10 +648,21 @@
       }
     ],
     "review_status": "pending_independent_chemist_review",
-    "solvents": [],
+    "solvents": [
+      "formic acid"
+    ],
     "source_references": [
       {
         "locator": "Main experimental section / scheme: A03",
+        "pages": [
+          15,
+          16
+        ],
+        "sha256": "6e6c1aa1248fc1038d2d8b8dc93ffb6cd827368522528f94dd06543ab7cf3b73",
+        "source_id": "article"
+      },
+      {
+        "locator": "Experimental preparation of 35: formic acid cyclization and isolated two-step yield",
         "pages": [
           15,
           16
@@ -615,8 +675,11 @@
       "A03.1"
     ],
     "substrate_product_smiles": "Nc1ccccc1-c1cc2ccccc2[nH]1.O=CO>>c1ccc2c(c1)cc1c3ccccc3ncn21",
+    "temperature_reported": "90 degC",
+    "time": "1 h",
     "yield_from_label": "33",
-    "yield_scope": "Combined two-step Fischer indolization and formic acid closure from 33."
+    "yield_percent": null,
+    "yield_scope": "93% over A02.1 and A03.1 from 33 to 35; isolated yield of 34 to 35 not reported separately"
   },
   {
     "admission_authority": false,

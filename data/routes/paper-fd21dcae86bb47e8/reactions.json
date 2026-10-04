@@ -254,10 +254,29 @@
   {
     "admission_authority": false,
     "category": "forward_synthesis",
+    "conditions_extraction_status": "source_checked_reported_fields_with_yield_conflict",
+    "curation_evidence": {
+      "revision": "2026-10-04-source-repair-1",
+      "method": "source_text_and_scheme_crosscheck",
+      "independent_expert_review": false,
+      "reason": "Empty agents do not imply absent conditions. Preserve rt/overnight and conflicting yield descriptions; do not transfer upstream O2/TPP conditions.",
+      "references": [
+        {
+          "source_id": "article",
+          "sha256": "e184642c10dea6b6e004159a943541ae2ae542172dfaa17d5243eefba33e94e2",
+          "pages": [
+            3
+          ],
+          "locator": "Scheme 2, 11 to 12: isolable when 11 left at rt o/n; adjacent rearrangement discussion"
+        }
+      ]
+    },
+    "duration_hours": null,
     "event_id": "T02",
     "experimental_stage_count": 1,
     "formal_benchmark_eligible": false,
     "notes": "Warming; quantitative in prose versus89%scheme",
+    "operation_scope": "Spontaneous peroxide opening/rearrangement on leaving 11 at room temperature overnight; no added reagent specified for this arrow.",
     "product_labels": [
       "12"
     ],
@@ -283,12 +302,33 @@
         ],
         "sha256": "e184642c10dea6b6e004159a943541ae2ae542172dfaa17d5243eefba33e94e2",
         "source_id": "article"
+      },
+      {
+        "locator": "Scheme 2, 11 to 12: isolable when 11 left at rt o/n; adjacent rearrangement discussion",
+        "pages": [
+          3
+        ],
+        "sha256": "e184642c10dea6b6e004159a943541ae2ae542172dfaa17d5243eefba33e94e2",
+        "source_id": "article"
+      }
+    ],
+    "source_yield_claims": [
+      {
+        "reported_value": "89%",
+        "source_location": "article p3 Scheme 2, 11 to 12"
+      },
+      {
+        "reported_value": "quantitatively",
+        "source_location": "article p3 adjacent prose"
       }
     ],
     "step_ids": [
       "T02.1"
     ],
-    "substrate_product_smiles": "C=C1C(=O)O[C@@H]2[C@@H]3[C@@H](C[C@@]45OO[C@@]34CC[C@@]3(O5)C(=O)C[C@H]4C(=C)CC[C@H]5C(=C)C(=O)O[C@@H]5[C@H]43)C(=C)CC[C@@H]12>>C=C1CC[C@H]2C(=C)C(=O)O[C@@H]2[C@@H]2[C@H]1C=C1O[C@]34C[C@H]5C(=C)CC[C@H]6C(=C)C(=O)O[C@@H]6[C@H]5[C@]3(OO)CC[C@@]12O4"
+    "substrate_product_smiles": "C=C1C(=O)O[C@@H]2[C@@H]3[C@@H](C[C@@]45OO[C@@]34CC[C@@]3(O5)C(=O)C[C@H]4C(=C)CC[C@H]5C(=C)C(=O)O[C@@H]5[C@H]43)C(=C)CC[C@@H]12>>C=C1CC[C@H]2C(=C)C(=O)O[C@@H]2[C@@H]2[C@H]1C=C1O[C@]34C[C@H]5C(=C)CC[C@H]6C(=C)C(=O)O[C@@H]6[C@H]5[C@]3(OO)CC[C@@]12O4",
+    "temperature_reported": "room temperature",
+    "time": "overnight",
+    "yield_scope": "Scheme 2 reports 89%; adjacent prose says quantitatively. Source disagreement unresolved."
   },
   {
     "admission_authority": false,

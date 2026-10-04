@@ -1,0 +1,230 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>SynInsight Atlas repair status | SynInsight Atlas</title><link rel="stylesheet" href="../../assets/report.css"><link rel="icon" href="../../assets/favicon.svg"></head><body class="publication-page"><a class="skip-link" href="#document">Skip to content</a><nav class="publication-nav" aria-label="Atlas navigation"><a class="brand" href="../../index.html">SI · SynInsight Atlas</a><div><a href="../../index.html#methods">Evaluation</a><a href="../../index.html#dataset">Reaction dataset</a></div></nav><div class="document-meta">Reference document · <a href="../../docs/BENCHMARK_REPAIR_STATUS.md" download>Download original file</a></div><main id="document" class="document-content"><h1 id="syninsight-atlas-repair-status">SynInsight Atlas repair status</h1>
+<p>Updated 2026-10-04 after checking source changes, database mirrors, rebuilt tasks and
+the scoring entry points. <strong>The first targeted repair pass and executable candidate
+bank are complete; full chemical reference review is not.</strong> There are 27 corrected
+operations in five papers. No public push or replacement of prior experiment scores
+was performed in this closeout.</p>
+<p>The repair starts from published commit <code>a9c781035b6522ed914addb94b11f2fda0f12db2</code>,
+which is also the source used in the Retraxis experiments. The older local checkout
+was not used as the repair baseline.</p>
+<h2 id="corrections-applied">Corrections applied</h2>
+<div aria-label="Scrollable data table" class="table-scroll" tabindex="0"><table>
+<thead>
+<tr>
+<th>Paper / operation</th>
+<th>Source-grounded correction</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Hinckdentine A, A02.1</td>
+<td>80 °C; 30 min after substrate addition. The approximately 2 h acid/P2O5 preparation is not reaction duration.</td>
+</tr>
+<tr>
+<td>Hinckdentine A, A03.1</td>
+<td>Formic acid medium, 90 °C, 1 h. The reported 93% belongs to 33 → 34 → 35, not independently to 34 → 35.</td>
+</tr>
+<tr>
+<td>Exiguamines, F01.1</td>
+<td>SI p25 specifies benzene, nitroethylene in toluene, addition at 0 °C then room temperature for 24 h.</td>
+</tr>
+<tr>
+<td>Palhinines, A01.1 / ent-A01.1</td>
+<td>Each arrow is two referenced steps at 69% combined yield; neither is a single operation with separately measured yield.</td>
+</tr>
+<tr>
+<td>Macrocephadiolide A, T02.1</td>
+<td>Room-temperature overnight peroxide rearrangement; no added reagent specified. Scheme 89% and prose “quantitatively” remain an unresolved source discrepancy.</td>
+</tr>
+<tr>
+<td>Ineleganolide, E01.1–E21.1</td>
+<td>Recover key conditions for 21 operations from the archived SI DOCX experimental paragraphs; resolve 20 previously empty condition records. Identify 16 single operations and five two-stage operations. Preserve the E15.1 solvent disagreement, E17.1 reaction environment and coproduct, and E14.1 workup distinction.</td>
+</tr>
+</tbody>
+</table></div>
+<p>All 27 operations are updated in source JSON, per-paper JSON/CSV, SQLite
+operation/event records and the path CSV/ABSynth exports. The correction ledger is
+<a href="../../reader.html?file=data%2Fcuration%2Frepairs_20261004.json"><code>data/curation/repairs_20261004.json</code></a>.
+Source figures or experimental paragraphs were checked locally; this is not
+independent human review. Structures and reaction endpoints were not changed by
+this repair pass. Five papers with targeted edits does not mean five fully audited papers.</p>
+<p>Relative to the published baseline, completely empty structured-condition records
+decreased <strong>71 → 48</strong> (23 recovered), empty CSV condition cells <strong>215 → 152</strong> (63
+path occurrences), and unresolved operation segmentation <strong>503 → 482</strong>. Repeated
+CSV rows are not additional independent repairs. The earlier status of six corrected
+operations, 68 gaps and 1,238 single-step questions preceded the Ineleganolide update.</p>
+<p>This closeout also fixes one export omission: evaluation records now retain source
+condition conflicts, yield claims, operation scope/stage count, reaction environment,
+coproduct observations and workup notes when present. For example, Ineleganolide
+E15.1 explicitly retains the scheme's MeOH versus the experimental paragraph's
+EtOH/toluene. This transfers evidence; it does not adjudicate the disagreement.
+Model inputs and candidate selection are unchanged.</p>
+<h2 id="candidate-bank-and-remaining-work">Candidate bank and remaining work</h2>
+<div aria-label="Scrollable data table" class="table-scroll" tabindex="0"><table>
+<thead>
+<tr>
+<th>Item</th>
+<th style="text-align: right;">Current count</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Source papers</td>
+<td style="text-align: right;">91</td>
+</tr>
+<tr>
+<td>Molecular records</td>
+<td style="text-align: right;">2,887</td>
+</tr>
+<tr>
+<td>Source operations</td>
+<td style="text-align: right;">2,315</td>
+</tr>
+<tr>
+<td>Recorded paths, including controls and fragments</td>
+<td style="text-align: right;">635</td>
+</tr>
+<tr>
+<td>Path CSV occurrences / distinct represented operations</td>
+<td style="text-align: right;">6,555 / 2,166</td>
+</tr>
+<tr>
+<td>Operations absent from the path CSV, now retained in the operation bank</td>
+<td style="text-align: right;">149</td>
+</tr>
+<tr>
+<td>Unique single-step candidate product questions</td>
+<td style="text-align: right;">1,254</td>
+</tr>
+<tr>
+<td>Unique multistep candidate endpoints</td>
+<td style="text-align: right;">228</td>
+</tr>
+<tr>
+<td>Source paths represented by those multistep candidates</td>
+<td style="text-align: right;">300</td>
+</tr>
+<tr>
+<td>Multistep endpoints themselves in Repaired ZINC</td>
+<td style="text-align: right;">14</td>
+</tr>
+<tr>
+<td>Multistep endpoints with at least one literally stock-closed reference path</td>
+<td style="text-align: right;">68</td>
+</tr>
+<tr>
+<td>Operations still without structured conditions</td>
+<td style="text-align: right;">48</td>
+</tr>
+<tr>
+<td>Independently admitted benchmark questions</td>
+<td style="text-align: right;">0</td>
+</tr>
+</tbody>
+</table></div>
+<p>The 228 endpoints include intermediates and analogues. Neither that count nor 635
+recorded paths means complete natural-product syntheses. Of all 635 paths, 235 have
+literal closure under the current stock; this count includes fragments and controls.
+Closure only describes the listed starting boundary, not chemical feasibility.</p>
+<div aria-label="Scrollable data table" class="table-scroll" tabindex="0"><table>
+<thead>
+<tr>
+<th>Candidate split</th>
+<th style="text-align: right;">Single-step products</th>
+<th style="text-align: right;">Multistep endpoints</th>
+<th style="text-align: right;">Papers</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Development</td>
+<td style="text-align: right;">103</td>
+<td style="text-align: right;">33</td>
+<td style="text-align: right;">14</td>
+</tr>
+<tr>
+<td>Validation</td>
+<td style="text-align: right;">149</td>
+<td style="text-align: right;">30</td>
+<td style="text-align: right;">13</td>
+</tr>
+<tr>
+<td>Test</td>
+<td style="text-align: right;">1,002</td>
+<td style="text-align: right;">165</td>
+<td style="text-align: right;">64</td>
+</tr>
+</tbody>
+</table></div>
+<p>These are grouped candidate splits, not verified temporal holdouts or scaffold-disjoint splits.</p>
+<h2 id="remaining-source-work">Remaining source work</h2>
+<div aria-label="Scrollable data table" class="table-scroll" tabindex="0"><table>
+<thead>
+<tr>
+<th>Source</th>
+<th style="text-align: right;">Empty condition records</th>
+<th>Required work</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bisnicalaterine alkaloids</td>
+<td style="text-align: right;">25</td>
+<td>Expand the graph-only transcription into source-supported operations and conditions.</td>
+</tr>
+<tr>
+<td>Ascidiathiazones A/B and analogues</td>
+<td style="text-align: right;">21</td>
+<td>Expand the graph-only transcription into source-supported operations and conditions.</td>
+</tr>
+<tr>
+<td>Palhinines</td>
+<td style="text-align: right;">2</td>
+<td>Retrieve the cited upstream procedures before splitting the two-step arrows.</td>
+</tr>
+</tbody>
+</table></div>
+<p>These 48 records are missing structured conditions, not 48 proven chemical errors.
+Conversely, a nonempty condition field does not establish complete experimental
+specification. Recovering an agent name alone is not a finished chemical audit.</p>
+<p>Segmentation also needs review: 482 operation records have no resolved stage count;
+255 are already recorded as multistage operations. The single-step task builder keeps
+them out of the restricted single-operation track. Review racemic representatives,
+uncertain stereo and alternative/negative-control branches before formal task admission.
+Preserve unresolved source disagreements, including Macrocephadiolide A's yield and
+Ineleganolide's E15.1 solvent. The machine review queue is not an exhaustive list of
+all chemical/source uncertainties.</p>
+<p>Across the full route bank, 161 paths carry paper-level unresolved-source events and
+eight contain off-target operations; their scope needs inspection. In the multistep
+candidate set, 54 endpoints have at least one reference carrying unresolved-source
+events. These annotations do not prove every affected path is invalid, but prevent
+calling the whole pool an admitted full-synthesis test set.</p>
+<p>The current automated checks find no invalid source SMILES, formula mismatches,
+reaction/label endpoint disagreements, broken source hashes/page bounds or missing
+route target production. These technical checks cannot verify every drawing, condition
+or chemical interpretation. Full paper-by-paper expert/source re-admission remains
+unfinished.</p>
+<h2 id="verification-and-closeout-decision">Verification and closeout decision</h2>
+<p>The source JSON, per-paper steps and SQLite records agree for all 27 repairs. The
+existing seven benchmark tests pass, including stereo-sensitive matching, missing
+prediction denominators, input/answer separation and disconnected/unclosed routes.
+The release and website tests also pass (two tests), and the route-tree check covers
+635 paths and 6,555 step occurrences in both display modes.</p>
+<p>Before the metadata export fix, a clean compilation with the frozen stock reproduced
+all 11 bank files byte for byte. After the fix, the bank was rebuilt and both input
+files remain byte-identical; task counts and split assignments are unchanged. Source
+qualifications are present in the evaluator records. CLI canaries using known
+reference answers pass single-step matching and multistep closure/reference recovery;
+unsubmitted tasks remain in the denominator. These are software checks, not model results.</p>
+<p>The scorer implements strict/relaxed precursor recovery, route connectivity, stock
+closure, reference-operation recovery and condition-field presence. It does not
+judge condition correctness, chemical plausibility or innovation. Those judgments
+still require the separate chemical review process in the protocol.</p>
+<p>The benchmark uses the full Repaired ZINC list with no additions or target-dependent
+filters. Old Retraxis experiments retain their original frozen inputs and inventories;
+changing their reference files or scores requires a separately reported reevaluation.</p>
+<p><strong>Decision: close the first targeted repair pass; use the candidate bank for internal
+pipeline trials.</strong> Formal benchmark performance claims remain pending source/chemical
+admission. Next work is bounded to the three-paper condition backlog, operation and
+stereo review, and selection of full-target tasks. The zero admission count refers
+to this newly compiled reference bank, not to prior expert reviews of generated routes.</p></main><footer class="publication-footer"><a href="../../index.html">Return to Atlas</a><span>Candidate curation · Data CC BY 4.0 · Code MIT</span></footer><script src="../../assets/publication.js" defer></script></body></html>
